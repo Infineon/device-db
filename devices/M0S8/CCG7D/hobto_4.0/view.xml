@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Files xml_version="3" xmlns="http://cypress.com/xsd/cyhobtoviewdie_v3">
+  <Cores>
+    <Core type="CortexM0" count="1" displayName="ARM Cortex-M0" define="CM0" />
+  </Cores>
+  <Clocks file="clocks" />
+  <DSIs file="dsi" />
+  <Interrupts file="interrupts" />
+  <IPs file="ipblocks" />
+  <Pins file="pins" />
+  <Triggers file="triggers" />
+  <AmuxBus file="amuxbus" />
+</Files>

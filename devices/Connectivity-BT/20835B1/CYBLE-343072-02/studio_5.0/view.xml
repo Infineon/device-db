@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CYBLE-343072-02" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="20835B1" />
+    <Param name="Silicon_Revision" value="SAMPLING" />
+    <Param name="Package" value="43-SMT" />
+    <Param name="CPU" value="ARM CM4" />
+    <Param name="DeviceSeries" value="20835" />
+    <Param name="Speed_MHz" value="48" />
+    <Param name="Flash_KB" value="512" />
+    <Param name="ROM_KB" value="2048" />
+    <Param name="SRAM_KB" value="384" />
+    <Param name="Bluetooth" value="5" />
+    <Param name="Vddmin_volts" value="2.5" />
+    <Param name="Vddmax_volts" value="3.6" />
+    <Param name="TempMin_Celsius" value="-30" />
+    <Param name="TempMax_Celsius" value="85" />
+    <Param name="SiliconID" value="0x00000000" />
+    <Param name="Module" value="Yes" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="https://www.cypress.com/CYBLE-343072-02" />
+  </Parameters>
+</View>

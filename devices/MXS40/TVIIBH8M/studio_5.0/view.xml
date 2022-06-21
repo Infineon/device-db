@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <DeviceCategory>CAT1C</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
+  <Files>
+    <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
+    <Analog visPath="analog.cyvis" semPath="analog.cysem" ipPath="analogResourceMap.txt" />
+    <Svd path="svd/xmc7200.svd"/>
+  </Files>
+  <types>
+    <type name="mcu" />
+  </types>
+  <provides>
+    <provide key="bt-uart" />
+    <provide key="wifi-spi" />
+    <provide key="wifi-sdio" />
+  </provides>
+</View>

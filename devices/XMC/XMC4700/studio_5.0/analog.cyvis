@@ -1,0 +1,1931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
+  <Page index="0" name="Page 1" enabled="true" shapeCount="84">
+    <Instance shapeName="Shape_912" zorder="0" guid="876e3a4f-8691-472e-b768-1ad6824814ff" name="P14_Pin0" component="cy_all_pin">
+      <Location x="30" y="54" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="60" />
+          <Point x="60" y="66" />
+          <Point x="30" y="66" />
+          <Point x="30" y="54" />
+          <Point x="60" y="54" />
+          <Point x="66" y="60" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="60" />
+          <Text>P14[0]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3400" zorder="1" guid="5bc3a457-08d9-46db-9c77-aa4b0e31cb42" name="vdac_0" component="cy_xmc_vadc">
+      <Location x="147" y="36" />
+      <Size width="87" height="120" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="150" y="36" />
+          <Size width="84" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="150" y="48" />
+          <Size width="84" height="108" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="150" y="36" />
+          <Size width="84" height="12" />
+          <Text>VADC0 GROUP0</Text>
+          <Vertical value="false" />
+          <Expression>VADC0 GROUP`=$Index`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Terminal name="vdac_0.temp_6" type="Instance Analog InOut">
+          <Location x="150" y="60" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="60" />
+          <Text>ch0</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_0.temp_7" type="Instance Analog InOut">
+          <Location x="150" y="72" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="72" />
+          <Text>ch1</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_0.temp_8" type="Instance Analog InOut">
+          <Location x="150" y="84" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="84" />
+          <Text>ch2</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_0.temp_9" type="Instance Analog InOut">
+          <Location x="150" y="96" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="96" />
+          <Text>ch3</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_0.temp_10" type="Instance Analog InOut">
+          <Location x="150" y="108" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="108" />
+          <Text>ch4</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_0.temp_11" type="Instance Analog InOut">
+          <Location x="150" y="120" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="120" />
+          <Text>ch5</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_0.temp_12" type="Instance Analog InOut">
+          <Location x="150" y="132" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="132" />
+          <Text>ch6</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_0.temp_13" type="Instance Analog InOut">
+          <Location x="150" y="144" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="144" />
+          <Text>ch7</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3401" zorder="2" guid="4b76b2b8-32d1-464a-b60f-87916e10cddf" name="vdac_1" component="cy_xmc_vadc">
+      <Location x="147" y="168" />
+      <Size width="87" height="120" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="150" y="168" />
+          <Size width="84" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="150" y="180" />
+          <Size width="84" height="108" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="150" y="168" />
+          <Size width="84" height="12" />
+          <Text>VADC0 GROUP1</Text>
+          <Vertical value="false" />
+          <Expression>VADC0 GROUP`=$Index`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Terminal name="vdac_1.temp_6" type="Instance Analog InOut">
+          <Location x="150" y="192" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="192" />
+          <Text>ch0</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_1.temp_7" type="Instance Analog InOut">
+          <Location x="150" y="204" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="204" />
+          <Text>ch1</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_1.temp_8" type="Instance Analog InOut">
+          <Location x="150" y="216" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="216" />
+          <Text>ch2</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_1.temp_9" type="Instance Analog InOut">
+          <Location x="150" y="228" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="228" />
+          <Text>ch3</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_1.temp_10" type="Instance Analog InOut">
+          <Location x="150" y="240" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="240" />
+          <Text>ch4</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_1.temp_11" type="Instance Analog InOut">
+          <Location x="150" y="252" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="252" />
+          <Text>ch5</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_1.temp_12" type="Instance Analog InOut">
+          <Location x="150" y="264" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="264" />
+          <Text>ch6</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_1.temp_13" type="Instance Analog InOut">
+          <Location x="150" y="276" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="276" />
+          <Text>ch7</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3402" zorder="3" guid="c5e85ca3-a6d3-47ad-bde4-1e2e7ddcd506" name="vdac_2" component="cy_xmc_vadc">
+      <Location x="147" y="324" />
+      <Size width="87" height="120" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="150" y="324" />
+          <Size width="84" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="150" y="336" />
+          <Size width="84" height="108" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="150" y="324" />
+          <Size width="84" height="12" />
+          <Text>VADC0 GROUP2</Text>
+          <Vertical value="false" />
+          <Expression>VADC0 GROUP`=$Index`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Terminal name="vdac_2.temp_6" type="Instance Analog InOut">
+          <Location x="150" y="348" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="348" />
+          <Text>ch0</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_2.temp_7" type="Instance Analog InOut">
+          <Location x="150" y="360" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="360" />
+          <Text>ch1</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_2.temp_8" type="Instance Analog InOut">
+          <Location x="150" y="372" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="372" />
+          <Text>ch2</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_2.temp_9" type="Instance Analog InOut">
+          <Location x="150" y="384" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="384" />
+          <Text>ch3</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_2.temp_10" type="Instance Analog InOut">
+          <Location x="150" y="396" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="396" />
+          <Text>ch4</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_2.temp_11" type="Instance Analog InOut">
+          <Location x="150" y="408" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="408" />
+          <Text>ch5</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_2.temp_12" type="Instance Analog InOut">
+          <Location x="150" y="420" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="420" />
+          <Text>ch6</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_2.temp_13" type="Instance Analog InOut">
+          <Location x="150" y="432" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="432" />
+          <Text>ch7</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3403" zorder="4" guid="f615d58c-f55f-41ee-8215-f2f4c5cb995d" name="vdac_3" component="cy_xmc_vadc">
+      <Location x="147" y="456" />
+      <Size width="87" height="120" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="150" y="456" />
+          <Size width="84" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="150" y="468" />
+          <Size width="84" height="108" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="150" y="456" />
+          <Size width="84" height="12" />
+          <Text>VADC0 GROUP3</Text>
+          <Vertical value="false" />
+          <Expression>VADC0 GROUP`=$Index`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Terminal name="vdac_3.temp_6" type="Instance Analog InOut">
+          <Location x="150" y="480" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="480" />
+          <Text>ch0</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_3.temp_7" type="Instance Analog InOut">
+          <Location x="150" y="492" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="492" />
+          <Text>ch1</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_3.temp_8" type="Instance Analog InOut">
+          <Location x="150" y="504" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="504" />
+          <Text>ch2</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_3.temp_9" type="Instance Analog InOut">
+          <Location x="150" y="516" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="516" />
+          <Text>ch3</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_3.temp_10" type="Instance Analog InOut">
+          <Location x="150" y="528" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="528" />
+          <Text>ch4</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_3.temp_11" type="Instance Analog InOut">
+          <Location x="150" y="540" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="540" />
+          <Text>ch5</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_3.temp_12" type="Instance Analog InOut">
+          <Location x="150" y="552" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="552" />
+          <Text>ch6</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+        <Terminal name="vdac_3.temp_13" type="Instance Analog InOut">
+          <Location x="150" y="564" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="153" y="564" />
+          <Text>ch7</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3404" zorder="5" guid="5bf31e28-d9a7-479a-9edd-b662d1c5d0c4" name="P14_Pin1" component="cy_all_pin">
+      <Location x="30" y="66" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="72" />
+          <Point x="60" y="78" />
+          <Point x="30" y="78" />
+          <Point x="30" y="66" />
+          <Point x="60" y="66" />
+          <Point x="66" y="72" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="72" />
+          <Text>P14[1]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3405" zorder="6" guid="94ed80f3-9516-4a22-a59b-65038afb0353" name="P14_Pin2" component="cy_all_pin">
+      <Location x="30" y="78" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="84" />
+          <Point x="60" y="90" />
+          <Point x="30" y="90" />
+          <Point x="30" y="78" />
+          <Point x="60" y="78" />
+          <Point x="66" y="84" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="84" />
+          <Text>P14[2]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3406" zorder="7" guid="090b82b9-9ea3-44a0-bac0-90eb98d3df6b" name="P14_Pin3" component="cy_all_pin">
+      <Location x="30" y="90" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="96" />
+          <Point x="60" y="102" />
+          <Point x="30" y="102" />
+          <Point x="30" y="90" />
+          <Point x="60" y="90" />
+          <Point x="66" y="96" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="96" />
+          <Text>P14[3]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3407" zorder="8" guid="29463720-0e03-4d14-99e9-dce69f9d2f4b" name="P14_Pin4" component="cy_all_pin">
+      <Location x="30" y="102" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="108" />
+          <Point x="60" y="114" />
+          <Point x="30" y="114" />
+          <Point x="30" y="102" />
+          <Point x="60" y="102" />
+          <Point x="66" y="108" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="108" />
+          <Text>P14[4]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3408" zorder="9" guid="524716a5-5e56-494b-83f0-19481c5d02f7" name="P14_Pin5" component="cy_all_pin">
+      <Location x="30" y="114" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="120" />
+          <Point x="60" y="126" />
+          <Point x="30" y="126" />
+          <Point x="30" y="114" />
+          <Point x="60" y="114" />
+          <Point x="66" y="120" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="120" />
+          <Text>P14[5]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3409" zorder="10" guid="ee5feb1d-be1d-42dd-824a-ac5986f2d4ba" name="P14_Pin6" component="cy_all_pin">
+      <Location x="30" y="126" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="132" />
+          <Point x="60" y="138" />
+          <Point x="30" y="138" />
+          <Point x="30" y="126" />
+          <Point x="60" y="126" />
+          <Point x="66" y="132" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="132" />
+          <Text>P14[6]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3410" zorder="11" guid="8f4659a6-5974-4851-9dc9-97637a93a8c2" name="P14_Pin7" component="cy_all_pin">
+      <Location x="30" y="138" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="144" />
+          <Point x="60" y="150" />
+          <Point x="30" y="150" />
+          <Point x="30" y="138" />
+          <Point x="60" y="138" />
+          <Point x="66" y="144" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="144" />
+          <Text>P14[7]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3411" zorder="12" guid="56390d50-b5eb-4464-b0be-6e7b0e1e038b" name="P14_Pin8" component="cy_all_pin">
+      <Location x="30" y="186" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="192" />
+          <Point x="60" y="198" />
+          <Point x="30" y="198" />
+          <Point x="30" y="186" />
+          <Point x="60" y="186" />
+          <Point x="66" y="192" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="192" />
+          <Text>P14[8]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3412" zorder="13" guid="1152f1b9-0a3e-4e65-a0f1-696cd0957425" name="P14_Pin9" component="cy_all_pin">
+      <Location x="30" y="198" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="204" />
+          <Point x="60" y="210" />
+          <Point x="30" y="210" />
+          <Point x="30" y="198" />
+          <Point x="60" y="198" />
+          <Point x="66" y="204" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="204" />
+          <Text>P14[9]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3415" zorder="14" guid="37ac7be9-746a-49b1-9619-dfc6afeb377f" name="P14_Pin12" component="cy_all_pin">
+      <Location x="30" y="234" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="240" />
+          <Point x="60" y="246" />
+          <Point x="30" y="246" />
+          <Point x="30" y="234" />
+          <Point x="60" y="234" />
+          <Point x="66" y="240" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="240" />
+          <Text>P14[12]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3416" zorder="15" guid="eb8cd434-34ff-4591-a695-a76bc0dc846a" name="P14_Pin13" component="cy_all_pin">
+      <Location x="30" y="246" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="252" />
+          <Point x="60" y="258" />
+          <Point x="30" y="258" />
+          <Point x="30" y="246" />
+          <Point x="60" y="246" />
+          <Point x="66" y="252" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="252" />
+          <Text>P14[13]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3417" zorder="16" guid="965fac22-3579-43da-a897-67e2ad76d4da" name="P14_Pin14" component="cy_all_pin">
+      <Location x="30" y="258" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="264" />
+          <Point x="60" y="270" />
+          <Point x="30" y="270" />
+          <Point x="30" y="258" />
+          <Point x="60" y="258" />
+          <Point x="66" y="264" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="264" />
+          <Text>P14[14]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3418" zorder="17" guid="ef43737a-e723-46d7-b69e-ca0a40d13366" name="P14_Pin15" component="cy_all_pin">
+      <Location x="30" y="270" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="276" />
+          <Point x="60" y="282" />
+          <Point x="30" y="282" />
+          <Point x="30" y="270" />
+          <Point x="60" y="270" />
+          <Point x="66" y="276" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="276" />
+          <Text>P14[15]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3421" zorder="18" guid="9571cd85-8ab3-4bf5-98c5-9f84ac01188f" name="P15_Pin2" component="cy_all_pin">
+      <Location x="30" y="366" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="372" />
+          <Point x="60" y="378" />
+          <Point x="30" y="378" />
+          <Point x="30" y="366" />
+          <Point x="60" y="366" />
+          <Point x="66" y="372" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="372" />
+          <Text>P15[2]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3422" zorder="19" guid="82cbd061-d014-45bd-9afe-ce4fba62d3db" name="P15_Pin3" component="cy_all_pin">
+      <Location x="30" y="378" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="384" />
+          <Point x="60" y="390" />
+          <Point x="30" y="390" />
+          <Point x="30" y="378" />
+          <Point x="60" y="378" />
+          <Point x="66" y="384" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="384" />
+          <Text>P15[3]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3423" zorder="20" guid="781c3a82-1086-47b4-ac0b-7571d7f4f28b" name="P15_Pin4" component="cy_all_pin">
+      <Location x="30" y="390" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="396" />
+          <Point x="60" y="402" />
+          <Point x="30" y="402" />
+          <Point x="30" y="390" />
+          <Point x="60" y="390" />
+          <Point x="66" y="396" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="396" />
+          <Text>P15[4]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3424" zorder="21" guid="a78e9e9f-ce6f-4b90-aebf-bbfe05b47393" name="P15_Pin5" component="cy_all_pin">
+      <Location x="30" y="402" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="408" />
+          <Point x="60" y="414" />
+          <Point x="30" y="414" />
+          <Point x="30" y="402" />
+          <Point x="60" y="402" />
+          <Point x="66" y="408" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="408" />
+          <Text>P15[5]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3425" zorder="22" guid="d8a2057c-ba98-4f63-ba70-dc87bd676ff6" name="P15_Pin6" component="cy_all_pin">
+      <Location x="30" y="414" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="420" />
+          <Point x="60" y="426" />
+          <Point x="30" y="426" />
+          <Point x="30" y="414" />
+          <Point x="60" y="414" />
+          <Point x="66" y="420" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="420" />
+          <Text>P15[6]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3426" zorder="23" guid="78100f1b-7ee8-4060-9a82-84b525e6154e" name="P15_Pin7" component="cy_all_pin">
+      <Location x="30" y="426" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="432" />
+          <Point x="60" y="438" />
+          <Point x="30" y="438" />
+          <Point x="30" y="426" />
+          <Point x="60" y="426" />
+          <Point x="66" y="432" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="432" />
+          <Text>P15[7]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3427" zorder="24" guid="bd18d0cc-6c62-4def-b772-e8c316d1ce58" name="P15_Pin8" component="cy_all_pin">
+      <Location x="30" y="474" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="480" />
+          <Point x="60" y="486" />
+          <Point x="30" y="486" />
+          <Point x="30" y="474" />
+          <Point x="60" y="474" />
+          <Point x="66" y="480" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="480" />
+          <Text>P15[8]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3428" zorder="25" guid="bbc592bd-6ce5-4da6-aa36-03363da20a0c" name="P15_Pin9" component="cy_all_pin">
+      <Location x="30" y="486" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="492" />
+          <Point x="60" y="498" />
+          <Point x="30" y="498" />
+          <Point x="30" y="486" />
+          <Point x="60" y="486" />
+          <Point x="66" y="492" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="492" />
+          <Text>P15[9]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3431" zorder="26" guid="80a18bed-b253-4e1d-aaca-9dd5e1a08119" name="P15_Pin12" component="cy_all_pin">
+      <Location x="30" y="522" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="528" />
+          <Point x="60" y="534" />
+          <Point x="30" y="534" />
+          <Point x="30" y="522" />
+          <Point x="60" y="522" />
+          <Point x="66" y="528" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="528" />
+          <Text>P15[12]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3432" zorder="27" guid="698d5949-58e3-4c42-b6e6-ad47c8cd2137" name="P15_Pin13" component="cy_all_pin">
+      <Location x="30" y="534" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="540" />
+          <Point x="60" y="546" />
+          <Point x="30" y="546" />
+          <Point x="30" y="534" />
+          <Point x="60" y="534" />
+          <Point x="66" y="540" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="540" />
+          <Text>P15[13]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3433" zorder="28" guid="d407ab88-1a04-4800-b8c5-a4023a6179c4" name="P15_Pin14" component="cy_all_pin">
+      <Location x="30" y="546" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="552" />
+          <Point x="60" y="558" />
+          <Point x="30" y="558" />
+          <Point x="30" y="546" />
+          <Point x="60" y="546" />
+          <Point x="66" y="552" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="552" />
+          <Text>P15[14]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3434" zorder="29" guid="865f8b0a-cd50-4775-a430-27b24af84cfe" name="P15_Pin15" component="cy_all_pin">
+      <Location x="30" y="558" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="66" y="564" />
+          <Point x="60" y="570" />
+          <Point x="30" y="570" />
+          <Point x="30" y="558" />
+          <Point x="60" y="558" />
+          <Point x="66" y="564" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="45" y="564" />
+          <Text>P15[15]</Text>
+          <Vertical value="false" />
+          <Expression><![CDATA[`=($PortNumber >= 0) ? $PIN_NAME : $INSTANCE_NAME`]]></Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_3442" zorder="30" effectiveName="p14_0" type="Analog">
+      <Point1 x="66" y="60" />
+      <Point2 x="150" y="60" />
+      <ShapeTags>wl:ioss[0].port[14].pin[0]</ShapeTags>
+      <Annotation zorder="31">
+        <Location x="66" y="54" />
+        <Text>p14_0</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3443" zorder="32" effectiveName="p14_1" type="Analog">
+      <Point1 x="66" y="72" />
+      <Point2 x="150" y="72" />
+      <ShapeTags>wl:ioss[0].port[14].pin[1]</ShapeTags>
+      <Annotation zorder="33">
+        <Location x="66" y="66" />
+        <Text>p14_1</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3448" zorder="50" effectiveName="p14_6" type="Analog">
+      <Point1 x="66" y="132" />
+      <Point2 x="150" y="132" />
+      <ShapeTags>wl:ioss[0].port[14].pin[6]</ShapeTags>
+      <Annotation zorder="51">
+        <Location x="66" y="126" />
+        <Text>p14_6</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3449" zorder="52" effectiveName="p14_7" type="Analog">
+      <Point1 x="66" y="144" />
+      <Point2 x="150" y="144" />
+      <ShapeTags>wl:ioss[0].port[14].pin[7]</ShapeTags>
+      <Annotation zorder="53">
+        <Location x="66" y="138" />
+        <Text>p14_7</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3452" zorder="62" effectiveName="p14_12" type="Analog">
+      <Point1 x="66" y="240" />
+      <Point2 x="150" y="240" />
+      <ShapeTags>wl:ioss[0].port[14].pin[12]</ShapeTags>
+      <Annotation zorder="63">
+        <Location x="66" y="234" />
+        <Text>p14_12</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3453" zorder="64" effectiveName="p14_13" type="Analog">
+      <Point1 x="66" y="252" />
+      <Point2 x="150" y="252" />
+      <ShapeTags>wl:ioss[0].port[14].pin[13]</ShapeTags>
+      <Annotation zorder="65">
+        <Location x="66" y="246" />
+        <Text>p14_13</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3454" zorder="66" effectiveName="p14_14" type="Analog">
+      <Point1 x="66" y="264" />
+      <Point2 x="150" y="264" />
+      <ShapeTags>wl:ioss[0].port[14].pin[14]</ShapeTags>
+      <Annotation zorder="67">
+        <Location x="66" y="258" />
+        <Text>p14_14</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3455" zorder="68" effectiveName="p14_15" type="Analog">
+      <Point1 x="66" y="276" />
+      <Point2 x="150" y="276" />
+      <ShapeTags>wl:ioss[0].port[14].pin[15]</ShapeTags>
+      <Annotation zorder="69">
+        <Location x="66" y="270" />
+        <Text>p14_15</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3456" zorder="70" effectiveName="p15_2" type="Analog">
+      <Point1 x="66" y="372" />
+      <Point2 x="150" y="372" />
+      <ShapeTags>wl:ioss[0].port[15].pin[2]</ShapeTags>
+      <Annotation zorder="71">
+        <Location x="66" y="366" />
+        <Text>p15_2</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3457" zorder="72" effectiveName="p15_3" type="Analog">
+      <Point1 x="66" y="384" />
+      <Point2 x="150" y="384" />
+      <ShapeTags>wl:ioss[0].port[15].pin[3]</ShapeTags>
+      <Annotation zorder="73">
+        <Location x="66" y="378" />
+        <Text>p15_3</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3458" zorder="74" effectiveName="p15_4" type="Analog">
+      <Point1 x="66" y="396" />
+      <Point2 x="150" y="396" />
+      <ShapeTags>wl:ioss[0].port[15].pin[4]</ShapeTags>
+      <Annotation zorder="75">
+        <Location x="66" y="390" />
+        <Text>p15_4</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3459" zorder="76" effectiveName="p15_5" type="Analog">
+      <Point1 x="66" y="408" />
+      <Point2 x="150" y="408" />
+      <ShapeTags>wl:ioss[0].port[15].pin[5]</ShapeTags>
+      <Annotation zorder="77">
+        <Location x="66" y="402" />
+        <Text>p15_5</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3460" zorder="78" effectiveName="p15_6" type="Analog">
+      <Point1 x="66" y="420" />
+      <Point2 x="150" y="420" />
+      <ShapeTags>wl:ioss[0].port[15].pin[6]</ShapeTags>
+      <Annotation zorder="79">
+        <Location x="66" y="414" />
+        <Text>p15_6</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3461" zorder="80" effectiveName="p15_7" type="Analog">
+      <Point1 x="66" y="432" />
+      <Point2 x="150" y="432" />
+      <ShapeTags>wl:ioss[0].port[15].pin[6]</ShapeTags>
+      <Annotation zorder="81">
+        <Location x="66" y="426" />
+        <Text>p15_7</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3462" zorder="82" effectiveName="p15_8" type="Analog">
+      <Point1 x="66" y="480" />
+      <Point2 x="150" y="480" />
+      <ShapeTags>wl:ioss[0].port[15].pin[8]</ShapeTags>
+      <Annotation zorder="83">
+        <Location x="66" y="474" />
+        <Text>p15_8</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3463" zorder="84" effectiveName="p15_9" type="Analog">
+      <Point1 x="66" y="492" />
+      <Point2 x="150" y="492" />
+      <ShapeTags>wl:ioss[0].port[15].pin[9]</ShapeTags>
+      <Annotation zorder="85">
+        <Location x="66" y="486" />
+        <Text>p15_9</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3464" zorder="86" effectiveName="p15_12" type="Analog">
+      <Point1 x="66" y="528" />
+      <Point2 x="150" y="528" />
+      <ShapeTags>wl:ioss[0].port[15].pin[12]</ShapeTags>
+      <Annotation zorder="87">
+        <Location x="66" y="522" />
+        <Text>p15_12</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3465" zorder="88" effectiveName="p15_13" type="Analog">
+      <Point1 x="66" y="540" />
+      <Point2 x="150" y="540" />
+      <ShapeTags>wl:ioss[0].port[15].pin[13]</ShapeTags>
+      <Annotation zorder="89">
+        <Location x="66" y="534" />
+        <Text>p15_13</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3466" zorder="90" effectiveName="p15_14" type="Analog">
+      <Point1 x="66" y="552" />
+      <Point2 x="150" y="552" />
+      <ShapeTags>wl:ioss[0].port[15].pin[14]</ShapeTags>
+      <Annotation zorder="91">
+        <Location x="66" y="546" />
+        <Text>p15_14</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3467" zorder="92" effectiveName="p15_15" type="Analog">
+      <Point1 x="66" y="564" />
+      <Point2 x="150" y="564" />
+      <ShapeTags>wl:ioss[0].port[15].pin[15]</ShapeTags>
+      <Annotation zorder="93">
+        <Location x="66" y="558" />
+        <Text>p15_15</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3506" zorder="94" effectiveName="p14_2" type="Analog">
+      <Point1 x="138" y="216" />
+      <Point2 x="150" y="216" />
+      <ShapeTags>wl:ioss[0].port[14].pin[2]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3507" zorder="96" effectiveName="p14_3" type="Analog">
+      <Point1 x="126" y="228" />
+      <Point2 x="150" y="228" />
+      <ShapeTags>wl:ioss[0].port[14].pin[3]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3508" zorder="36" effectiveName="p14_2" type="Analog">
+      <Point1 x="66" y="84" />
+      <Point2 x="138" y="84" solderDot="true" />
+      <ShapeTags>wl:ioss[0].port[14].pin[2]</ShapeTags>
+      <Annotation zorder="37">
+        <Location x="66" y="78" />
+        <Text>p14_2</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3509" zorder="34" effectiveName="p14_2" type="Analog">
+      <Point1 x="138" y="84" solderDot="true" />
+      <Point2 x="150" y="84" />
+      <ShapeTags>wl:ioss[0].port[14].pin[2]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3510" zorder="40" effectiveName="p14_3" type="Analog">
+      <Point1 x="66" y="96" />
+      <Point2 x="126" y="96" solderDot="true" />
+      <ShapeTags>wl:ioss[0].port[14].pin[3]</ShapeTags>
+      <Annotation zorder="41">
+        <Location x="66" y="90" />
+        <Text>p14_3</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3511" zorder="38" effectiveName="p14_3" type="Analog">
+      <Point1 x="126" y="96" solderDot="true" />
+      <Point2 x="150" y="96" />
+      <ShapeTags>wl:ioss[0].port[14].pin[3]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3513" zorder="98" effectiveName="p14_4" type="Analog">
+      <Point1 x="114" y="348" />
+      <Point2 x="150" y="348" />
+      <ShapeTags>wl:ioss[0].port[14].pin[4]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3514" zorder="44" effectiveName="p14_4" type="Analog">
+      <Point1 x="66" y="108" />
+      <Point2 x="114" y="108" solderDot="true" />
+      <ShapeTags>wl:ioss[0].port[14].pin[4]</ShapeTags>
+      <Annotation zorder="45">
+        <Location x="66" y="102" />
+        <Text>p14_4</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3515" zorder="42" effectiveName="p14_4" type="Analog">
+      <Point1 x="114" y="108" solderDot="true" />
+      <Point2 x="150" y="108" />
+      <ShapeTags>wl:ioss[0].port[14].pin[4]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3517" zorder="100" effectiveName="p14_5" type="Analog">
+      <Point1 x="102" y="360" />
+      <Point2 x="150" y="360" />
+      <ShapeTags>wl:ioss[0].port[14].pin[5]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3518" zorder="48" effectiveName="p14_5" type="Analog">
+      <Point1 x="66" y="120" />
+      <Point2 x="102" y="120" solderDot="true" />
+      <ShapeTags>wl:ioss[0].port[14].pin[5]</ShapeTags>
+      <Annotation zorder="49">
+        <Location x="66" y="114" />
+        <Text>p14_5</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3519" zorder="46" effectiveName="p14_5" type="Analog">
+      <Point1 x="102" y="120" solderDot="true" />
+      <Point2 x="150" y="120" />
+      <ShapeTags>wl:ioss[0].port[14].pin[5]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3521" zorder="102" effectiveName="p14_8" type="Analog">
+      <Point1 x="90" y="504" />
+      <Point2 x="150" y="504" />
+      <ShapeTags>wl:ioss[0].port[14].pin[8]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3522" zorder="56" effectiveName="p14_8" type="Analog">
+      <Point1 x="66" y="192" />
+      <Point2 x="90" y="192" solderDot="true" />
+      <ShapeTags>wl:ioss[0].port[14].pin[8]</ShapeTags>
+      <Annotation zorder="57">
+        <Location x="66" y="186" />
+        <Text>p14_8</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3523" zorder="54" effectiveName="p14_8" type="Analog">
+      <Point1 x="90" y="192" solderDot="true" />
+      <Point2 x="150" y="192" />
+      <ShapeTags>wl:ioss[0].port[14].pin[8]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3525" zorder="104" effectiveName="p14_9" type="Analog">
+      <Point1 x="78" y="516" />
+      <Point2 x="150" y="516" />
+      <ShapeTags>wl:ioss[0].port[14].pin[9]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3526" zorder="60" effectiveName="p14_9" type="Analog">
+      <Point1 x="66" y="204" />
+      <Point2 x="78" y="204" solderDot="true" />
+      <ShapeTags>wl:ioss[0].port[14].pin[9]</ShapeTags>
+      <Annotation zorder="61">
+        <Location x="66" y="198" />
+        <Text>p14_9</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_3527" zorder="58" effectiveName="p14_9" type="Analog">
+      <Point1 x="78" y="204" solderDot="true" />
+      <Point2 x="150" y="204" />
+      <ShapeTags>wl:ioss[0].port[14].pin[9]</ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_3528" zorder="106" guid="821caa7e-74ea-4e85-aaf6-ca94404a0fd3" name="dac_0" component="cy_xmc_dac">
+      <Location x="252" y="210" />
+      <Size width="75" height="33" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="252" y="210" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="252" y="222" />
+          <Size width="72" height="21" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="252" y="210" />
+          <Size width="72" height="12" />
+          <Text>DAC0</Text>
+          <Vertical value="false" />
+          <Expression>DAC`=$Index`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Terminal name="dac_0.iout" type="Instance Analog InOut">
+          <Location x="324" y="234" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="321" y="234" />
+          <Text>out</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleRight" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_3529" zorder="107" guid="d72c31d9-e94e-46da-81fb-fc0bf09b6954" name="dac_1" component="cy_xmc_dac">
+      <Location x="252" y="252" />
+      <Size width="75" height="33" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="252" y="252" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="252" y="264" />
+          <Size width="72" height="21" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="252" y="252" />
+          <Size width="72" height="12" />
+          <Text>DAC1</Text>
+          <Vertical value="false" />
+          <Expression>DAC`=$Index`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Terminal name="dac_1.iout" type="Instance Analog InOut">
+          <Location x="324" y="276" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+        <Annotation>
+          <Location x="321" y="276" />
+          <Text>out</Text>
+          <Vertical value="false" />
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleRight" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_3552" zorder="108" effectiveName="p14_4" type="Analog">
+      <Point1 x="114" y="108" solderDot="true" />
+      <Point2 x="114" y="348" />
+      <ShapeTags>wl:ioss[0].port[14].pin[4]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3553" zorder="110" effectiveName="p14_5" type="Analog">
+      <Point1 x="102" y="120" solderDot="true" />
+      <Point2 x="102" y="360" />
+      <ShapeTags>wl:ioss[0].port[14].pin[5]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3564" zorder="120" effectiveName="p14_2" type="Analog">
+      <Point1 x="138" y="84" solderDot="true" />
+      <Point2 x="138" y="216" />
+      <ShapeTags>wl:ioss[0].port[14].pin[2]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3565" zorder="122" effectiveName="p14_3" type="Analog">
+      <Point1 x="126" y="96" solderDot="true" />
+      <Point2 x="126" y="228" />
+      <ShapeTags>wl:ioss[0].port[14].pin[3]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3570" zorder="124" effectiveName="p14_9" type="Analog">
+      <Point1 x="324" y="276" />
+      <Point2 x="336" y="276" />
+      <ShapeTags>wl:ioss[0].port[14].pin[9]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3571" zorder="118" effectiveName="p14_9" type="Analog">
+      <Point1 x="78" y="204" solderDot="true" />
+      <Point2 x="78" y="300" solderDot="true" />
+      <ShapeTags>wl:ioss[0].port[14].pin[9]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3572" zorder="116" effectiveName="p14_9" type="Analog">
+      <Point1 x="78" y="300" solderDot="true" />
+      <Point2 x="78" y="516" />
+      <ShapeTags>wl:ioss[0].port[14].pin[9]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3575" zorder="126" effectiveName="p14_8" type="Analog">
+      <Point1 x="324" y="234" />
+      <Point2 x="348" y="234" />
+      <ShapeTags>wl:ioss[0].port[14].pin[8]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3576" zorder="114" effectiveName="p14_8" type="Analog">
+      <Point1 x="90" y="192" solderDot="true" />
+      <Point2 x="90" y="312" solderDot="true" />
+      <ShapeTags>wl:ioss[0].port[14].pin[8]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3577" zorder="112" effectiveName="p14_8" type="Analog">
+      <Point1 x="90" y="312" solderDot="true" />
+      <Point2 x="90" y="504" />
+      <ShapeTags>wl:ioss[0].port[14].pin[8]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3586" zorder="128" effectiveName="p14_9" type="Analog">
+      <Point1 x="336" y="276" />
+      <Point2 x="336" y="300" />
+      <ShapeTags>wl:ioss[0].port[14].pin[9]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3587" zorder="130" effectiveName="p14_9" type="Analog">
+      <Point1 x="78" y="300" solderDot="true" />
+      <Point2 x="336" y="300" />
+      <ShapeTags>wl:ioss[0].port[14].pin[9]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3588" zorder="132" effectiveName="p14_8" type="Analog">
+      <Point1 x="348" y="234" />
+      <Point2 x="348" y="312" />
+      <ShapeTags>wl:ioss[0].port[14].pin[8]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_3589" zorder="134" effectiveName="p14_8" type="Analog">
+      <Point1 x="90" y="312" solderDot="true" />
+      <Point2 x="348" y="312" />
+      <ShapeTags>wl:ioss[0].port[14].pin[8]</ShapeTags>
+    </Wire>
+  </Page>
+</Document>

@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
+  <Instances count="18">
+    <Instance guid="090b82b9-9ea3-44a0-bac0-90eb98d3df6b" name="P14_Pin3" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin3</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1152f1b9-0a3e-4e65-a0f1-696cd0957425" name="P14_Pin9" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin9</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>9</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="29463720-0e03-4d14-99e9-dce69f9d2f4b" name="P14_Pin4" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin4</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>4</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="37ac7be9-746a-49b1-9619-dfc6afeb377f" name="P14_Pin12" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin12</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>12</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="4b76b2b8-32d1-464a-b60f-87916e10cddf" name="vdac_1" component="cy_xmc_vadc">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>VADC</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>vdac_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="524716a5-5e56-494b-83f0-19481c5d02f7" name="P14_Pin5" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin5</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="56390d50-b5eb-4464-b0be-6e7b0e1e038b" name="P14_Pin8" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin8</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>8</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5bc3a457-08d9-46db-9c77-aa4b0e31cb42" name="vdac_0" component="cy_xmc_vadc">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>VADC</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>vdac_0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5bf31e28-d9a7-479a-9edd-b662d1c5d0c4" name="P14_Pin1" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin1</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="821caa7e-74ea-4e85-aaf6-ca94404a0fd3" name="dac_0" component="cy_xmc_dac">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>DAC</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>dac_0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="876e3a4f-8691-472e-b768-1ad6824814ff" name="P14_Pin0" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin0</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="8f4659a6-5974-4851-9dc9-97637a93a8c2" name="P14_Pin7" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin7</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>7</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="94ed80f3-9516-4a22-a59b-65038afb0353" name="P14_Pin2" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin2</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="965fac22-3579-43da-a897-67e2ad76d4da" name="P14_Pin14" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin14</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>14</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="d72c31d9-e94e-46da-81fb-fc0bf09b6954" name="dac_1" component="cy_xmc_dac">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>DAC</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>dac_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="eb8cd434-34ff-4591-a695-a76bc0dc846a" name="P14_Pin13" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin13</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>13</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ee5feb1d-be1d-42dd-824a-ac5986f2d4ba" name="P14_Pin6" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin6</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>6</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ef43737a-e723-46d7-b69e-ca0a40d13366" name="P14_Pin15" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>P14_Pin15</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>15</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>14</Value>
+      </Parameter>
+    </Instance>
+  </Instances>
+  <Signals count="14">
+    <Signal name="p14_0" type="Analog" terminalCount="1">
+      <Terminal name="vdac_0.temp_6" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_1" type="Analog" terminalCount="1">
+      <Terminal name="vdac_0.temp_7" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_2" type="Analog" terminalCount="2">
+      <Terminal name="vdac_1.temp_8" type="Instance Analog InOut" />
+      <Terminal name="vdac_0.temp_8" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_3" type="Analog" terminalCount="2">
+      <Terminal name="vdac_1.temp_9" type="Instance Analog InOut" />
+      <Terminal name="vdac_0.temp_9" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_4" type="Analog" terminalCount="1">
+      <Terminal name="vdac_0.temp_10" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_5" type="Analog" terminalCount="1">
+      <Terminal name="vdac_0.temp_11" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_6" type="Analog" terminalCount="1">
+      <Terminal name="vdac_0.temp_12" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_7" type="Analog" terminalCount="1">
+      <Terminal name="vdac_0.temp_13" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_8" type="Analog" terminalCount="2">
+      <Terminal name="dac_0.iout" type="Instance Analog InOut" />
+      <Terminal name="vdac_1.temp_6" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_9" type="Analog" terminalCount="2">
+      <Terminal name="dac_1.iout" type="Instance Analog InOut" />
+      <Terminal name="vdac_1.temp_7" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_12" type="Analog" terminalCount="1">
+      <Terminal name="vdac_1.temp_10" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_13" type="Analog" terminalCount="1">
+      <Terminal name="vdac_1.temp_11" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_14" type="Analog" terminalCount="1">
+      <Terminal name="vdac_1.temp_12" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p14_15" type="Analog" terminalCount="1">
+      <Terminal name="vdac_1.temp_13" type="Instance Analog InOut" />
+    </Signal>
+  </Signals>
+  <Properties>
+    <Property name="CanvasBackColor">255, 255, 255</Property>
+    <Property name="Doc.CompanyAddr1" />
+    <Property name="Doc.CompanyAddr2" />
+    <Property name="Doc.CompanyAddr3" />
+    <Property name="Doc.CompanyName">Cypress Semiconductor</Property>
+    <Property name="Doc.SchematicTitle" />
+    <Property name="MajorGridColor">169, 169, 169</Property>
+    <Property name="MinorGridColor">100, 169, 169, 169</Property>
+    <Property name="OnlyShowSolderDotsOnWires">True</Property>
+    <Property name="OwnerLineColor">128, 128, 128</Property>
+    <Property name="ShowGrid">True</Property>
+    <Property name="ShowGridAsLines">False</Property>
+    <Property name="TerminalConnectColor">128, 128, 128</Property>
+    <Property name="TerminalFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireBusSize">2</Property>
+    <Property name="WireDotSize">5</Property>
+    <Property name="WireFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireFontColor">0, 0, 0</Property>
+    <Property name="WireSize">0.25</Property>
+  </Properties>
+</Document>

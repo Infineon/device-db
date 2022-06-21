@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <DeviceCategory>CAT3</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat3</TemplateAssetTag>
+  <Files>
+    <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
+    <Analog visPath="analog.cyvis" semPath="analog.cysem" ipPath="analogResourceMap.txt" />
+    <Module name="VQFN-64-8" path="modules/module_vqfn-64-8.cydata" />
+  </Files>
+  <types>
+    <type name="mcu" />
+  </types>
+</View>

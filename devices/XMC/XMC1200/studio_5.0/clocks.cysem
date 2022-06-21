@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
+  <Instances count="11">
+    <Instance guid="0775744d-d9b1-46e5-ad62-32a247a20d4d" name="FDIVCLK" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].fdivclk[0]", "frequency"))}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>FDIVCLK</Value>
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>scu[0].clock[0].fdivclk[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>FDIVCLK</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>FDIVCLK</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>Fractional divider selection: The MCLK and PCLK frequencies are programmable through a fractional divider.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="27ecb4ae-31f7-426a-8173-d13c54ff3c8e" name="DCO1" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].dco1[0]", "frequency"))}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>DCO1</Value>
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>scu[0].clock[0].dco1[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>DCO1</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>DCO1</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>On-chip fast oscillator: The DCO1 has a clock output, running at 48 MHz. It can be used to generate MCLK. When the MCU starts up after reset, the DCO1 provides the system frequency. In deep-sleep state, the DCO1 will be put into power-down mode.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="28b1c7cf-e50e-45f0-97a5-1e6bfb243b5f" name="RTC_1" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].rtcclk[0]", "frequency"))}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>RTCCLK</Value>
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>scu[0].clock[0].rtcclk[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>RTC_1</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>RTC Clock</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>RTC clock: The RTC is running asynchronously from either the internal 32 kHz standby clock or the external 32.768kHz XTAL.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="414a4299-ede5-45a8-acb5-0f0df9b838e9" name="mux_4" component="mux_5">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>scu[0].clock[0].ccuclk[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_4</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="54883d99-762f-430b-acaa-5d909b893cd4" name="mux_3" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value />
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_3</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="59983d29-fe19-4f3a-8a40-b5319e7dcd3c" name="arc_bridge_6" component="arc_bridge">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>arc_bridge_6</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="8ab568fe-d87b-443f-9e51-0412a11de8dd" name="MCLK" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].periclk[0]", "frequency"))}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>MCLK</Value>
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>scu[0].clock[0].periclk[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MCLK</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>MCLK</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>Main clock: The MCLK clock is generated from the DCLK. In deep-sleep state, the MCLK will be switched to a slow standby clock.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a6b30eff-6121-438f-9127-94d9a8058b99" name="PCLK" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ccuclk[0]", "frequency"))}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PCLK</Value>
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>scu[0].clock[0].ccuclk[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PCLK</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>PCLK</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>Fast peripheral clock: The PCLK is generated from the DCLK (output of the doubler clock). It is running at either the same frequency as the MCLK or double the frequency of the MCLK. In deep-sleep state, the PCLK will be switched to a slow standby clock.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ac7fe2f5-c9ab-4206-a4ac-c8be77f08072" name="mux_5" component="mux_5">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>scu[0].clock[0].periclk[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_5</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="babaf5a8-393d-4f0c-bfcb-17771dce9740" name="DCO2" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].dco2[0]", "frequency"))}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>DCO2</Value>
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>scu[0].clock[0].dco2[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>DCO2</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>DCO2</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value>On-chip slow oscillator: The DCO2 is used to generate the standby clock running at 32 kHz.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c1b89e47-6212-436e-aaaf-bd2a01398664" name="mux_1" component="mux_4">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>scu[0].clock[0].rtcclk[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="inputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_1</Value>
+      </Parameter>
+      <Parameter name="outputs">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+  </Instances>
+  <Signals count="98">
+    <Signal name="Net_270" type="" terminalCount="0" />
+    <Signal name="Net_325" type="" terminalCount="0" />
+    <Signal name="Net_401" type="Digital" terminalCount="2">
+      <Terminal name="mux_3.b_3" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_6.i" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_425" type="" terminalCount="0" />
+    <Signal name="Net_448" type="Digital" terminalCount="2">
+      <Terminal name="mux_5.b_4" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_6.o" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_525" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.b_4" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_529" type="Digital" terminalCount="1">
+      <Terminal name="mux_5.a_0" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_535" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.a_0" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_540" type="Digital" terminalCount="2">
+      <Terminal name="mux_5.b_3" type="Instance Digital Input" />
+      <Terminal name="mux_4.b_3" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_545" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.b_4" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_546" type="" terminalCount="0" />
+    <Signal name="Net_547" type="" terminalCount="0" />
+    <Signal name="Net_548" type="" terminalCount="0" />
+    <Signal name="Net_549" type="" terminalCount="0" />
+    <Signal name="Net_820" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.a_0" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_821" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.a_1" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_822" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_823" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.b_0" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_824" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.b_1" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_825" type="Digital" terminalCount="1">
+      <Terminal name="mux_3.b_2" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_833" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_834" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_835" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_836" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_837" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_838" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_839" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_840" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_841" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_842" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_843" type="Digital" terminalCount="1">
+      <Terminal name="DCO1.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_855" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_856" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_857" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_858" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_859" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_860" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_861" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_862" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_863" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_864" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_865" type="Digital" terminalCount="1">
+      <Terminal name="DCO2.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_877" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_878" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_879" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_880" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_881" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_882" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_883" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_884" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_885" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_886" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_887" type="Digital" terminalCount="1">
+      <Terminal name="MCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_888" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_889" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_890" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_891" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_892" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_893" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_894" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_895" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_896" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_897" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_898" type="Digital" terminalCount="1">
+      <Terminal name="PCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_899" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_900" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_901" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_902" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_903" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_904" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_905" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_906" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_907" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_908" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_909" type="Digital" terminalCount="1">
+      <Terminal name="FDIVCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_926" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.a_1" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_927" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_928" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.b_0" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_929" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.b_1" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_930" type="Digital" terminalCount="1">
+      <Terminal name="mux_4.b_2" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_931" type="Digital" terminalCount="1">
+      <Terminal name="mux_5.a_1" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_932" type="Digital" terminalCount="1">
+      <Terminal name="mux_5.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_933" type="Digital" terminalCount="1">
+      <Terminal name="mux_5.b_0" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_934" type="Digital" terminalCount="1">
+      <Terminal name="mux_5.b_1" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_935" type="Digital" terminalCount="1">
+      <Terminal name="mux_5.b_2" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_938" type="" terminalCount="0" />
+    <Signal name="Net_939" type="" terminalCount="0" />
+    <Signal name="Net_940" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_941" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_942" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_943" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_944" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_945" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_946" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_947" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_948" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_949" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_950" type="Digital" terminalCount="1">
+      <Terminal name="RTC_1.b_20" type="Instance Digital Input" />
+    </Signal>
+  </Signals>
+  <Properties>
+    <Property name="CanvasBackColor">255, 255, 255</Property>
+    <Property name="Doc.CompanyAddr1" />
+    <Property name="Doc.CompanyAddr2" />
+    <Property name="Doc.CompanyAddr3" />
+    <Property name="Doc.CompanyName" />
+    <Property name="Doc.SchematicTitle" />
+    <Property name="MajorGridColor">169, 169, 169</Property>
+    <Property name="MinorGridColor">100, 169, 169, 169</Property>
+    <Property name="OnlyShowSolderDotsOnWires">False</Property>
+    <Property name="OwnerLineColor">128, 128, 128</Property>
+    <Property name="ShowGrid">True</Property>
+    <Property name="ShowGridAsLines">False</Property>
+    <Property name="TerminalConnectColor">128, 128, 128</Property>
+    <Property name="TerminalFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireBusSize">2</Property>
+    <Property name="WireDotSize">5</Property>
+    <Property name="WireFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireFontColor">0, 0, 0</Property>
+    <Property name="WireSize">0.25</Property>
+  </Properties>
+</Document>

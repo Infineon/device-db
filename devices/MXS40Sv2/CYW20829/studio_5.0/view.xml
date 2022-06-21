@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <DeviceCategory>CAT1B</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
+  <Files>
+    <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
+    <Svd path="svd/20829.svd"/>
+  </Files>
+  <types>
+    <type name="mcu" />
+  </types>
+</View>

@@ -1,0 +1,1683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
+  <Instances count="88">
+    <Instance guid="00cdf0a0-98a3-4afc-9825-fb3481c93b70" name="ioss0_port3_p3_p53" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port3_p3_p53</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="01ad6778-29f9-4f65-ae70-39a74c1a7aa8" name="ioss0_port3_p3_p40" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port3_p3_p40</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="036d5e8a-488d-4a49-be9b-4a1ff260f752" name="CapSense_0" component="cy_m0s8_msc">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>MSCLP</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>CapSense_0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="071c80a1-2b2b-4075-91ec-dd560b20d663" name="MUX_BKG_8" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_8</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="07272eeb-dc98-4e65-9bfb-9dafd56d21e7" name="ioss0_port4_p4_p41" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port4_p4_p41</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="0c2ecb53-7d5f-43cd-9039-e34a06fd312d" name="MUX_BKG_25" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_25</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="0c49112d-f442-4170-a3e4-b2456d783f24" name="ioss0_port1_p1_p50" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port1_p1_p50</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="0f7af0fe-5671-4f11-85ac-7bf7e6971212" name="GPIO_P2_3" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P2_3</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="10b88d79-a21d-4008-9fb2-6e7ec1a2a9fe" name="ioss0_port0_p0_p43" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p43</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="14f519de-7796-4c5c-845e-aff2cae573d5" name="GPIO_P0_1" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P0_1</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="19a801c5-0824-4f1b-ac77-8ba82b8232a3" name="cy_all_shapetag_disconnect_2" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="19b11b74-ba72-4ed3-9c7e-b3168cb9ce10" name="GPIO_P2_2" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P2_2</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="19b4dbd5-1896-4f7d-a511-0383e4791899" name="GPIO_P0_3" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P0_3</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1b960634-ceb3-4920-9aa0-592aaf7d6004" name="MUX_BKG_9" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_9</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1cbfd3a0-51fd-4ac2-ad00-0255d4f2cd18" name="MUX_BKG_26" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_26</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="2367581f-e121-403c-801f-cd9de3495677" name="ioss0_port2_p2_p53" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p53</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="2ac8a3f0-cfea-4813-b245-f7abe2459aa1" name="ioss0_port2_p2_p54" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p54</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="32b66705-0729-4107-b1d4-69e468ae9dc8" name="GPIO_P0_0" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P0_0</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="35533da1-3a36-4544-b12f-58fbf2a15bcd" name="GPIO_P4_1" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P4_1</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>4</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="38505583-d51c-4178-97f5-c8e8c636fd33" name="ioss0_port4_p4_p50" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port4_p4_p50</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="38bdf738-7125-4977-9375-477047198426" name="MUX_BKG_27" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_27</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="398deb2a-b6aa-4947-b8d2-d5e9f8ed108a" name="ioss0_port3_p3_p52" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port3_p3_p52</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3a740357-6541-4025-9556-dca9dcf22b83" name="GPIO_P2_1" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P2_1</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3aa049a7-9c4b-430e-b24f-8c61291b6806" name="ioss0_port3_p3_p42" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port3_p3_p42</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3c864821-ccb4-4c5a-8b52-5009ce84c228" name="MUX_BKG_16" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_16</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="40e1acda-2c4c-47f9-963a-11fc64998629" name="ioss0_port2_p2_p43" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p43</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="4131e3c0-4f92-4576-8fda-15c9a24670fe" name="GPIO_P1_0" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P1_0</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="416abe90-351f-4599-a94d-1f103ae2067b" name="MUX_BKG_11" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_11</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="4a05196e-4752-4c62-b626-aef90f1cb752" name="MUX_BKG_7" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_7</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="4b3545df-1f52-4ec0-abb1-b21d27056f65" name="MUX_BKG_13" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_13</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="4ce7ec7f-9dbe-4c7c-a64b-ee2198a37af8" name="cy_all_shapetag_disconnect_1" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="4e19dd42-c1ce-4783-9437-e3aa9314f7cc" name="MUX_BKG_12" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_12</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5151950d-28ac-4d98-8acd-3bf39dc6391c" name="GPIO_P2_5" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P2_5</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5529505f-bf82-4cf8-b6a3-0f8181566b9c" name="ioss0_port3_p3_p50" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port3_p3_p50</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="577b56a2-4780-46a7-88bc-013b11048f65" name="ioss0_port3_p3_p51" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port3_p3_p51</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5c9c9447-ea19-4ddb-9b95-18cbfba12862" name="ioss0_port2_p2_p42" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p42</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5e098d25-169f-4e63-9a10-1f50312302f9" name="ioss0_port0_p0_p42" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p42</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5fda3aa2-45b6-4c55-ad75-ed5b6c0e7cb1" name="GPIO_P4_3" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P4_3</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>4</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="621fe9b9-6f9a-4634-a930-6a9ec2edb6cf" name="ioss0_port0_p0_p41" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p41</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="650e0b11-cc66-49b2-9afe-4146fcb1c70b" name="ioss0_port0_p0_p54" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p54</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="685c784d-1efb-429b-9430-9b44b125ecc8" name="ioss0_port2_p2_p44" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p44</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="6a0d199e-0df3-4251-854a-db5e79a9ce40" name="ioss0_port4_p4_p43" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port4_p4_p43</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7065575e-20ef-4ad1-bc92-7045ee6a0cb2" name="GPIO_P0_8" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P0_8</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>4</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="71529121-f203-4416-9315-45f40d5a67d8" name="GPIO_P2_0" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P2_0</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7318525e-49fe-42ef-9027-397a1c32c91b" name="GPIO_P2_4" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P2_4</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>4</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="76b663b1-5729-4d9a-8fa0-234b0be40487" name="MUX_BKG_28" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_28</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="76ffadeb-4731-4bc5-b6ab-3887830aae3e" name="MUX_BKG_2" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="771f741b-fe7c-4807-9b22-2a7a19c03321" name="GPIO_P3_0" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P3_0</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7b48b3d4-5d19-439b-be5a-f4bfd5a1cc83" name="GPIO_P0_5" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P0_5</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7bed0b11-2474-4d68-a135-70683d10298f" name="GPIO_P0_6" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P0_6</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>4</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7e19cccb-a6ac-4832-9edb-c2e298e1bb2b" name="MUX_BKG_4" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_4</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="800b563b-d549-441e-8329-2a5f3a51790a" name="ioss0_port0_p0_p44" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p44</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="8e28b953-2c74-4dfe-b7f2-7b0bc6495174" name="ioss0_port0_p0_p55" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p55</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="92b0bfe9-3366-4c63-98d0-a6473dcdfcf2" name="ioss0_port2_p2_p55" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p55</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="9413c1f4-2ffd-4275-8dbf-a6c5b8110ee6" name="MUX_BKG_14" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="9c1c54d4-3977-4671-a6df-7421114f5f03" name="ioss0_port3_p3_p43" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port3_p3_p43</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a51bdf76-d00c-475f-903d-eed23a96874c" name="GPIO_P0_2" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P0_2</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a907fe8b-ddc9-423d-b767-4c7528c450ae" name="GPIO_P0_4" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P0_4</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>4</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a9856eee-b893-4ca3-84ee-c6a9e78aea30" name="GPIO_P3_3" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P3_3</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ae736abe-78a4-48e2-9787-240f24df5e5e" name="ioss0_port4_p4_p53" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port4_p4_p53</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="afdc14f5-3a33-4bf4-889b-e5fc1202c0a1" name="ioss0_port0_p0_p40" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p40</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="b2a8a154-778e-41e0-bf4d-8b140a2652d1" name="ioss0_port4_p4_p40" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port4_p4_p40</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="b46a714d-0a8a-4bc6-a0c5-037c521df664" name="ioss0_port0_p0_p50" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p50</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="b4bd746a-a4c6-4e6b-bfce-59633cbba8f0" name="GPIO_P3_1" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P3_1</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="bbe43154-9294-4eab-acdf-cd2d428c5694" name="legend_1" component="cy_all_legend">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>legend_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c03b4802-1b97-4b73-b702-5eed2d157324" name="ioss0_port4_p4_p52" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port4_p4_p52</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c03ee7c1-df3b-43ff-a013-fa645aba8ce2" name="MUX_BKG_6" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_6</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c3e92c32-ee96-4c01-86d6-006ee1b44fea" name="MUX_BKG_3" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c4ab645d-7503-4aa8-bd7a-1043c1c92e73" name="ioss0_port4_p4_p42" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port4_p4_p42</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c4c8fd66-0a40-41b2-88ab-b221f8c52210" name="MUX_BKG_17" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_17</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c7597f21-1bf9-43d8-ab15-316bb478e57e" name="ioss0_port0_p0_p51" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p51</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="d4da1b72-3231-4a69-900f-9691dee34829" name="ioss0_port2_p2_p40" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p40</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="d5fd2c10-d6d1-4c04-a0cf-872efa4c417a" name="ioss0_port0_p0_p52" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p52</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="d69d2c5a-e479-4dd8-84c9-08ab6fb22633" name="ioss0_port2_p2_p51" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p51</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="d6e2117e-2d32-4a46-b5a5-2a023d1e044a" name="ioss0_port1_p1_p40" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port1_p1_p40</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="db9043fc-8bfe-4629-8141-6b0c9da3c4c2" name="ioss0_port2_p2_p50" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p50</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="dff0d614-51a9-4387-a803-a6ca2d036bad" name="MUX_BKG_15" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_15</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="e13467a5-5eb1-4303-832f-ba8eab11bcd2" name="ioss0_port2_p2_p52" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p52</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="e18bc28d-5de6-4d67-aa6b-bde18f0856f6" name="ioss0_port2_p2_p41" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p41</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="e2b94196-762c-4f61-a67c-5b76114afcf8" name="MUX_BKG_5" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_5</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ec4a3fa9-c7ab-4277-9bc2-3b497565ae8d" name="ioss0_port0_p0_p53" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p53</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ecf7fdd9-5c97-428e-bb21-daa51cf1d3d1" name="GPIO_P3_2" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>GPIO_P3_2</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ee07ad62-1d42-46cf-bbc1-58f8d5411c85" name="MUX_BKG_1" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ef338298-8142-4821-8152-3b8a57e37b39" name="ioss0_port3_p3_p41" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port3_p3_p41</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ef3e42dd-5dae-4bc7-9fd4-d8e42c4aa153" name="ioss0_port2_p2_p45" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port2_p2_p45</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f2343555-6dfa-412f-8163-d00cdb817eaf" name="MUX_BKG_10" component="cy_all_mux_bkg">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>MUX_BKG_10</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f3c15974-921c-4b47-8de0-0905855faad8" name="ioss0_port0_p0_p45" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port0_p0_p45</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="fda59367-8ada-49cc-8216-77f413b17a1e" name="ioss0_port4_p4_p51" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ioss0_port4_p4_p51</Value>
+      </Parameter>
+    </Instance>
+  </Instances>
+  <Signals count="23">
+    <Signal name="amuxbus_a" type="" terminalCount="0" />
+    <Signal name="amuxbus_b" type="" terminalCount="0" />
+    <Signal name="p0_0" type="" terminalCount="0" />
+    <Signal name="p0_1" type="" terminalCount="0" />
+    <Signal name="p0_2" type="" terminalCount="0" />
+    <Signal name="p0_3" type="" terminalCount="0" />
+    <Signal name="p0_4" type="" terminalCount="0" />
+    <Signal name="p0_5" type="" terminalCount="0" />
+    <Signal name="p1_0" type="" terminalCount="0" />
+    <Signal name="p2_0" type="" terminalCount="0" />
+    <Signal name="p2_1" type="" terminalCount="0" />
+    <Signal name="p2_2" type="" terminalCount="0" />
+    <Signal name="p2_3" type="" terminalCount="0" />
+    <Signal name="p2_4" type="" terminalCount="0" />
+    <Signal name="p2_5" type="" terminalCount="0" />
+    <Signal name="p3_0" type="" terminalCount="0" />
+    <Signal name="p3_1" type="" terminalCount="0" />
+    <Signal name="p3_2" type="" terminalCount="0" />
+    <Signal name="p3_3" type="" terminalCount="0" />
+    <Signal name="p4_0" type="" terminalCount="0" />
+    <Signal name="p4_1" type="" terminalCount="0" />
+    <Signal name="p4_2" type="Analog" terminalCount="1">
+      <Terminal name="cy_all_shapetag_disconnect_1.a" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="p4_3" type="Analog" terminalCount="1">
+      <Terminal name="cy_all_shapetag_disconnect_2.a" type="Instance Analog InOut" />
+    </Signal>
+  </Signals>
+  <Properties>
+    <Property name="CanvasBackColor">255, 255, 255</Property>
+    <Property name="Doc.CompanyAddr1" />
+    <Property name="Doc.CompanyAddr2" />
+    <Property name="Doc.CompanyAddr3" />
+    <Property name="Doc.CompanyName" />
+    <Property name="Doc.SchematicTitle" />
+    <Property name="MajorGridColor">169, 169, 169</Property>
+    <Property name="MinorGridColor">100, 169, 169, 169</Property>
+    <Property name="OnlyShowSolderDotsOnWires">False</Property>
+    <Property name="OwnerLineColor">128, 128, 128</Property>
+    <Property name="ShowGrid">True</Property>
+    <Property name="ShowGridAsLines">False</Property>
+    <Property name="TerminalConnectColor">128, 128, 128</Property>
+    <Property name="TerminalFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireBusSize">2</Property>
+    <Property name="WireDotSize">5</Property>
+    <Property name="WireFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireFontColor">0, 0, 0</Property>
+    <Property name="WireSize">0.25</Property>
+  </Properties>
+</Document>
