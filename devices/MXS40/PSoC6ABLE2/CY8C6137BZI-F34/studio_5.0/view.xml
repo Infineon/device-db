@@ -12,6 +12,7 @@
     <Param name="Flash_KB" value="1024" />
     <Param name="SRAM_KB" value="288" />
     <Param name="Bluetooth" value="NA" />
+    <Param name="AltHF" value="N" />
     <Param name="UDB_Count" value="12" />
     <Param name="Preconfigured_Blocks" value="NA" />
     <Param name="SAR12_Count" value="1" />
@@ -37,6 +38,7 @@
     <Param name="CapSenseADC" value="Y" />
     <Param name="SMIF" value="Y" />
     <Param name="Crypto" value="N" />
+    <Param name="Security" value="NA" />
     <Param name="I2S_Count" value="1" />
     <Param name="I2S_removed" value="NA" />
     <Param name="PDM_Count" value="1" />
@@ -51,12 +53,12 @@
     <Param name="TempMax_Celsius" value="85" />
     <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
     <Param name="SiliconID" value="0xE2162100" />
-    <Param name="Module" value="No" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="http://www.cypress.com/documentation/datasheets/psoc-6-mcu-psoc-62-datasheet-programmable-system-chip-psoc-preliminary?source=search&amp;cat=technical_documents" />
     <Param name="EDITING_SUPPORT" value="Schematic" />
     <Param name="PROJECT_TEMPLATE" value="P6_F34.zip" />
+    <Param name="ECO" value="Y" />
   </Parameters>
   <types>
     <type name="mcu" />
@@ -66,4 +68,24 @@
     <provide key="wifi-spi" />
     <provide key="wifi-sdio" />
   </provides>
+  <ToolIDs>
+    <ToolID name="capsense-configurator" />
+    <ToolID name="capsense-tuner" />
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="fw-loader" />
+    <ToolID name="library-manager" />
+    <ToolID name="lin-configurator" />
+    <ToolID name="ml-configurator" />
+    <ToolID name="project-creator" />
+    <ToolID name="qspi-configurator" />
+    <ToolID name="seglcd-configurator" />
+    <ToolID name="smartio-configurator" />
+    <ToolID name="usbdev-configurator" />
+  </ToolIDs>
+  <DeviceComponents>
+    <DevComp name="CAT1" />
+    <DevComp name="CAT1A" />
+    <DevComp name="PSOC6_01" />
+  </DeviceComponents>
 </View>

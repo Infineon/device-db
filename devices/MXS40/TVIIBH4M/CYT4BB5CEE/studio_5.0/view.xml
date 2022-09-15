@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CYT4BB5CEE" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="TVIIBH4M" />
+    <Param name="Silicon_Revision" value="0x12" />
+    <Param name="Package" value="100-TEQFP" />
+    <Param name="Cores_REMOVED" value="NA" />
+    <Param name="DeviceSeries" value="CYT4BB" />
+    <Param name="Speed_MHz" value="250" />
+    <Param name="Flash_KB" value="4160" />
+    <Param name="WFlash_KB" value="256" />
+    <Param name="SRAM_KB" value="768" />
+    <Param name="SAR12_Count" value="3" />
+    <Param name="SAR12_Removed" value="NA" />
+    <Param name="SAR12Sample_ksps" value="1000" />
+    <Param name="SDHC_COUNT" value="1" />
+    <Param name="SDHC_REMOVED" value="NA" />
+    <Param name="SCB_Count" value="9" />
+    <Param name="SCB_Removed" value="9;10" />
+    <Param name="CAN_FD" value="Y" />
+    <Param name="TimerCounterPWM_Count" value="83" />
+    <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="LIN_Count" value="1" />
+    <Param name="LIN_Removed" value="NA" />
+    <Param name="ETH_Count" value="1" />
+    <Param name="ETH_Removed" value="NA" />
+    <Param name="FLEXRAY" value="Y" />
+    <Param name="SMIF" value="Y" />
+    <Param name="Crypto" value="Y" />
+    <Param name="Security" value="HSM" />
+    <Param name="I2S_Count" value="3" />
+    <Param name="I2S_removed" value="NA" />
+    <Param name="IO_Count" value="72" />
+    <Param name="SiliconID" value="0xE91D1207" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="NA" />
+    <Param name="EDITING_SUPPORT" value="NA" />
+    <Param name="PROJECT_TEMPLATE" value="NA" />
+    <Param name="ECO" value="Y" />
+  </Parameters>
+  <ToolIDs>
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="fw-loader" />
+    <ToolID name="library-manager" />
+    <ToolID name="lin-configurator" />
+    <ToolID name="project-creator" />
+    <ToolID name="qspi-configurator" />
+    <ToolID name="secure-policy-configurator" />
+    <ToolID name="smartio-configurator" />
+  </ToolIDs>
+  <DeviceComponents>
+    <DevComp name="CAT1" />
+    <DevComp name="CAT1C" />
+    <DevComp name="CAT1C4M" />
+  </DeviceComponents>
+</View>

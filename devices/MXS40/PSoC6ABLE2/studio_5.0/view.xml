@@ -5,8 +5,6 @@
   <Files>
     <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
     <Analog visPath="analog.cyvis" semPath="analog.cysem" ipPath="analogResourceMap.txt" />
-    <Module name="43-SMT" path="modules/module_43-SMT.cydata" />
-    <Svd path="svd/psoc6_01.svd"/>
   </Files>
   <types>
     <type name="mcu" />

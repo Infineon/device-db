@@ -4,7 +4,6 @@
   <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
   <Files>
     <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
-    <Svd path="svd/20829.svd"/>
   </Files>
   <types>
     <type name="mcu" />

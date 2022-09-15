@@ -1,0 +1,510 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="Sterling-LWB5+" package="51-SIP" layout="COORDINATE_SQ" x="0" y="0">
+    <ExternalPin position="(0,1)" name="GND" displayPosition="G1" moduleConnection="MODULE" />
+    <ExternalPin position="(0,2)" name="VBAT" displayPosition="18" moduleConnection="MODULE" />
+    <ExternalPin position="(0,3)" name="VBAT" displayPosition="17" moduleConnection="MODULE" />
+    <ExternalPin position="(0,4)" name="GND" displayPosition="16" moduleConnection="MODULE" />
+    <ExternalPin position="(0,5)" name="SDIO_CLK" displayPosition="15" moduleConnection="MODULE" />
+    <ExternalPin position="(0,6)" name="GND" displayPosition="14" moduleConnection="MODULE" />
+    <ExternalPin position="(0,7)" name="SDIO_DATA2" displayPosition="13" moduleConnection="MODULE" />
+    <ExternalPin position="(0,8)" name="SDIO_CMD" displayPosition="12" moduleConnection="MODULE" />
+    <ExternalPin position="(0,9)" name="SDIO_DATA3" displayPosition="11" moduleConnection="MODULE" />
+    <ExternalPin position="(0,10)" name="SDIO_DATA1" displayPosition="10" moduleConnection="MODULE" />
+    <ExternalPin position="(0,11)" name="SDIO_DATA0" displayPosition="9" moduleConnection="MODULE" />
+    <ExternalPin position="(0,12)" name="GND" displayPosition="8" moduleConnection="MODULE" />
+    <ExternalPin position="(0,13)" name="VDDIO_RF" displayPosition="7" moduleConnection="MODULE" />
+    <ExternalPin position="(0,14)" name="VOUT_3P3" displayPosition="6" moduleConnection="MODULE" />
+    <ExternalPin position="(0,15)" name="STRAP_0" displayPosition="5" moduleConnection="MODULE" />
+    <ExternalPin position="(0,16)" name="STRAP_2" displayPosition="4" moduleConnection="MODULE" />
+    <ExternalPin position="(0,17)" name="RF_SW_CTRL_0" displayPosition="3" moduleConnection="MODULE" />
+    <ExternalPin position="(0,18)" name="RF_SW_CTRL_5" displayPosition="2" moduleConnection="MODULE" />
+    <ExternalPin position="(0,19)" name="GND" displayPosition="1" moduleConnection="MODULE" />
+    <ExternalPin position="(0,21)" name="GND" displayPosition="G8" moduleConnection="MODULE" />
+    <ExternalPin position="(0,23)" name="GND" displayPosition="G7" moduleConnection="MODULE" />
+    <ExternalPin position="(0,25)" name="GND" displayPosition="G6" moduleConnection="MODULE" />
+    <ExternalPin position="(1,1)" name="GPIO_4" displayPosition="19" moduleConnection="MODULE" />
+    <ExternalPin position="(2,1)" name="GPIO_6" displayPosition="20" moduleConnection="MODULE" />
+    <ExternalPin position="(3,1)" name="GPIO_3" displayPosition="21" moduleConnection="MODULE" />
+    <ExternalPin position="(4,1)" name="GPIO_2" displayPosition="22" moduleConnection="MODULE" />
+    <ExternalPin position="(4,4)" name="GND" displayPosition="G17" moduleConnection="MODULE" />
+    <ExternalPin position="(4,8)" name="GND" displayPosition="G16" moduleConnection="MODULE" />
+    <ExternalPin position="(4,12)" name="GND" displayPosition="G15" moduleConnection="MODULE" />
+    <ExternalPin position="(5,1)" name="GPIO_5" displayPosition="23" moduleConnection="MODULE" />
+    <ExternalPin position="(6,1)" name="USB2_DM" displayPosition="24" moduleConnection="MODULE" />
+    <ExternalPin position="(7,1)" name="USB2_DP" displayPosition="25" moduleConnection="MODULE" />
+    <ExternalPin position="(8,1)" name="USB2_RREF" displayPosition="26" moduleConnection="MODULE" />
+    <ExternalPin position="(8,4)" name="GND" displayPosition="G14" moduleConnection="MODULE" />
+    <ExternalPin position="(8,8)" name="GND" displayPosition="G13" moduleConnection="MODULE" />
+    <ExternalPin position="(8,12)" name="GND" displayPosition="G12" moduleConnection="MODULE" />
+    <ExternalPin position="(9,1)" name="GND" displayPosition="27" moduleConnection="MODULE" />
+    <ExternalPin position="(10,1)" name="USB2_AVDD33" displayPosition="28" moduleConnection="MODULE" />
+    <ExternalPin position="(11,1)" name="GND" displayPosition="29" moduleConnection="MODULE" />
+    <ExternalPin position="(12,1)" name="VDDIO" displayPosition="30" moduleConnection="MODULE" />
+    <ExternalPin position="(12,4)" name="GND" displayPosition="G11" moduleConnection="MODULE" />
+    <ExternalPin position="(12,8)" name="GND" displayPosition="G10" moduleConnection="MODULE" />
+    <ExternalPin position="(12,12)" name="GND" displayPosition="G9" moduleConnection="MODULE" />
+    <ExternalPin position="(13,1)" name="GPIO_1" displayPosition="31" moduleConnection="MODULE" />
+    <ExternalPin position="(14,1)" name="BT_REG_ON" displayPosition="32" moduleConnection="MODULE" />
+    <ExternalPin position="(15,1)" name="WL_REG_ON" displayPosition="33" moduleConnection="MODULE" />
+    <ExternalPin position="(16,1)" name="GND" displayPosition="G2" moduleConnection="MODULE" />
+    <ExternalPin position="(16,2)" name="SUSCLK" displayPosition="34" moduleConnection="MODULE" />
+    <ExternalPin position="(16,3)" name="GND" displayPosition="35" moduleConnection="MODULE" />
+    <ExternalPin position="(16,4)" name="GPIO_0" displayPosition="36" moduleConnection="MODULE" />
+    <ExternalPin position="(16,5)" name="BT_DEVICE_WAKE" displayPosition="37" moduleConnection="MODULE" />
+    <ExternalPin position="(16,6)" name="BT_PCM_IN" displayPosition="38" moduleConnection="MODULE" />
+    <ExternalPin position="(16,7)" name="BT_PCM_CLK" displayPosition="39" moduleConnection="MODULE" />
+    <ExternalPin position="(16,8)" name="BT_PCM_SYNC" displayPosition="40" moduleConnection="MODULE" />
+    <ExternalPin position="(16,9)" name="BT_PCM_OUT" displayPosition="41" moduleConnection="MODULE" />
+    <ExternalPin position="(16,10)" name="GND" displayPosition="42" moduleConnection="MODULE" />
+    <ExternalPin position="(16,11)" name="BT_UART_TXD" displayPosition="43" moduleConnection="MODULE" />
+    <ExternalPin position="(16,12)" name="BT_UART_CTSn" displayPosition="44" moduleConnection="MODULE" />
+    <ExternalPin position="(16,13)" name="BT_UART_RXD" displayPosition="45" moduleConnection="MODULE" />
+    <ExternalPin position="(16,14)" name="BT_UART_RTSn" displayPosition="46" moduleConnection="MODULE" />
+    <ExternalPin position="(16,15)" name="BT_HOST_WAKE" displayPosition="47" moduleConnection="MODULE" />
+    <ExternalPin position="(16,16)" name="GND" displayPosition="48" moduleConnection="MODULE" />
+    <ExternalPin position="(16,17)" name="GND" displayPosition="49" moduleConnection="MODULE" />
+    <ExternalPin position="(16,18)" name="RF_OUT" displayPosition="50" moduleConnection="MODULE" />
+    <ExternalPin position="(16,19)" name="GND" displayPosition="51" moduleConnection="MODULE" />
+    <ExternalPin position="(16,21)" name="GND" displayPosition="G3" moduleConnection="MODULE" />
+    <ExternalPin position="(16,23)" name="GND" displayPosition="G4" moduleConnection="MODULE" />
+    <ExternalPin position="(16,25)" name="GND" displayPosition="G5" moduleConnection="MODULE" />
+    <Component name="Sterling-LWB5+/CYW4373EUBGT" partNumber="CYW4373EUBGT">
+      <!--position=SR_VDDBAT5V external=VBAT-->
+      <InnerPin position="A2" external="(0,2)" />
+      <!--position=SR_VDDBAT5V external=VBAT-->
+      <InnerPin position="A2" external="(0,3)" />
+      <!--position=VOUT_3P3 external=VOUT_3P3-->
+      <InnerPin position="A4" external="(0,14)" />
+      <!--position=LDO_VDDBAT5V external=VBAT-->
+      <InnerPin position="A5" external="(0,2)" />
+      <!--position=LDO_VDDBAT5V external=VBAT-->
+      <InnerPin position="A5" external="(0,3)" />
+      <!--position=SDIO_CLK external=SDIO_CLK-->
+      <InnerPin position="A6" external="(0,5)" />
+      <!--position=SDIO_DATA_2 external=SDIO_DATA2-->
+      <InnerPin position="B6" external="(0,7)" />
+      <!--position=SDIO_DATA_3 external=SDIO_DATA3-->
+      <InnerPin position="B7" external="(0,9)" />
+      <!--position=SDIO_DATA_0 external=SDIO_DATA0-->
+      <InnerPin position="B8" external="(0,11)" />
+      <!--position=BT_REG_ON external=BT_REG_ON-->
+      <InnerPin position="C3" external="(14,1)" />
+      <!--position=SDIO_CMD external=SDIO_CMD-->
+      <InnerPin position="C6" external="(0,8)" />
+      <!--position=SDIO_DATA_1 external=SDIO_DATA1-->
+      <InnerPin position="C7" external="(0,10)" />
+      <!--position=GPIO_1 external=GPIO_1-->
+      <InnerPin position="D1" external="(13,1)" />
+      <!--position=GPIO_3 external=GPIO_3-->
+      <InnerPin position="D2" external="(3,1)" />
+      <!--position=GPIO_4 external=GPIO_4-->
+      <InnerPin position="D3" external="(1,1)" />
+      <!--position=WL_REG_ON external=WL_REG_ON-->
+      <InnerPin position="D4" external="(15,1)" />
+      <!--position=VDDIO external=VDDIO-->
+      <InnerPin position="D6" external="(12,1)" />
+      <!--position=RF_SW_CTRL_0 external=RF_SW_CTRL_0-->
+      <InnerPin position="D10" external="(0,17)" />
+      <!--position=GPIO_2 external=GPIO_2-->
+      <InnerPin position="E1" external="(4,1)" />
+      <!--position=GPIO_5 external=GPIO_5-->
+      <InnerPin position="E3" external="(5,1)" />
+      <!--position=GPIO_6 external=GPIO_6-->
+      <InnerPin position="E4" external="(2,1)" />
+      <!--position=USB2_DM external=USB2_DM-->
+      <InnerPin position="F1" external="(6,1)" />
+      <!--position=GPIO_0 external=GPIO_0-->
+      <InnerPin position="F3" external="(16,4)" />
+      <!--position=STRAP_0 external=STRAP_0-->
+      <InnerPin position="F7" external="(0,15)" />
+      <!--position=RF_SW_CTRL_5 external=RF_SW_CTRL_5-->
+      <InnerPin position="F10" external="(0,18)" />
+      <!--position=USB2_DP external=USB2_DP-->
+      <InnerPin position="G1" external="(7,1)" />
+      <!--position=STRAP_2 external=STRAP_2-->
+      <InnerPin position="G7" external="(0,16)" />
+      <!--position=VDDIO_RF external=VDDIO_RF-->
+      <InnerPin position="G8" external="(0,13)" />
+      <!--position=USB2_RREF external=USB2_RREF-->
+      <InnerPin position="H1" external="(8,1)" />
+      <!--position=USB2_AVDD33 external=USB2_AVDD33-->
+      <InnerPin position="H2" external="(10,1)" />
+      <!--position=BT_PCM_IN external=BT_PCM_IN-->
+      <InnerPin position="J1" external="(16,6)" />
+      <!--position=LPO_IN external=SUSCLK-->
+      <InnerPin position="J2" external="(16,2)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(0,1)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(0,4)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(0,6)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(0,12)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(0,19)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(0,21)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(0,23)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(0,25)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(4,4)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(4,8)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(4,12)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(8,4)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(8,8)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(8,12)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(9,1)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(11,1)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(12,4)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(12,8)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(12,12)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(16,1)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(16,3)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(16,10)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(16,16)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(16,17)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(16,19)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(16,21)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(16,23)" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="(16,25)" />
+      <!--position=BT_PCM_CLK external=BT_PCM_CLK-->
+      <InnerPin position="K1" external="(16,7)" />
+      <!--position=BT_PCM_SYNC external=BT_PCM_SYNC-->
+      <InnerPin position="K3" external="(16,8)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(0,1)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(0,4)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(0,6)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(0,12)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(0,19)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(0,21)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(0,23)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(0,25)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(4,4)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(4,8)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(4,12)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(8,4)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(8,8)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(8,12)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(9,1)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(11,1)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(12,4)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(12,8)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(12,12)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(16,1)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(16,3)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(16,10)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(16,16)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(16,17)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(16,19)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(16,21)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(16,23)" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="(16,25)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(0,1)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(0,4)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(0,6)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(0,12)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(0,19)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(0,21)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(0,23)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(0,25)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(4,4)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(4,8)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(4,12)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(8,4)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(8,8)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(8,12)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(9,1)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(11,1)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(12,4)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(12,8)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(12,12)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(16,1)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(16,3)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(16,10)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(16,16)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(16,17)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(16,19)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(16,21)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(16,23)" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="(16,25)" />
+      <!--position=BT_DEV_WAKE external=BT_DEVICE_WAKE-->
+      <InnerPin position="L2" external="(16,5)" />
+      <!--position=BT_PCM_OUT external=BT_PCM_OUT-->
+      <InnerPin position="L3" external="(16,9)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(0,1)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(0,4)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(0,6)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(0,12)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(0,19)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(0,21)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(0,23)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(0,25)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(4,4)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(4,8)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(4,12)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(8,4)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(8,8)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(8,12)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(9,1)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(11,1)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(12,4)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(12,8)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(12,12)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(16,1)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(16,3)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(16,10)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(16,16)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(16,17)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(16,19)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(16,21)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(16,23)" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="(16,25)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(0,1)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(0,4)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(0,6)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(0,12)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(0,19)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(0,21)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(0,23)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(0,25)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(4,4)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(4,8)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(4,12)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(8,4)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(8,8)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(8,12)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(9,1)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(11,1)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(12,4)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(12,8)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(12,12)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(16,1)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(16,3)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(16,10)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(16,16)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(16,17)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(16,19)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(16,21)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(16,23)" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="(16,25)" />
+      <!--position=BT_UART_TXD external=BT_UART_TXD-->
+      <InnerPin position="M1" external="(16,11)" />
+      <!--position=BT_UART_CTS_N external=BT_UART_CTSn-->
+      <InnerPin position="M2" external="(16,12)" />
+      <!--position=BT_HOST_WAKE external=BT_HOST_WAKE-->
+      <InnerPin position="M3" external="(16,15)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(0,1)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(0,4)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(0,6)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(0,12)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(0,19)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(0,21)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(0,23)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(0,25)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(4,4)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(4,8)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(4,12)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(8,4)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(8,8)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(8,12)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(9,1)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(11,1)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(12,4)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(12,8)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(12,12)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(16,1)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(16,3)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(16,10)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(16,16)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(16,17)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(16,19)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(16,21)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(16,23)" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="(16,25)" />
+      <!--position=WRF_PAOUT_5G external=RF_OUT-->
+      <InnerPin position="M11" external="(16,18)" />
+      <!--position=BT_UART_RXD external=BT_UART_RXD-->
+      <InnerPin position="N2" external="(16,13)" />
+      <!--position=BT_UART_RTS_N external=BT_UART_RTSn-->
+      <InnerPin position="N3" external="(16,14)" />
+      <!--position=WRF_PAOUT_2G external=RF_OUT-->
+      <InnerPin position="N9" external="(16,18)" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="Sterling-LWB5+" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYW4373EUBGT" />
+    <Param name="Package" value="51-SIP" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Laird" />
+    <Param name="DATASHEET" value="https://www.lairdconnect.com/documentation/datasheet-sterling-lwb5-0" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="STERLING-LWB5plus" />
+    <DevComp name="HCI-UART" />
+  </DeviceComponents>
+</View>

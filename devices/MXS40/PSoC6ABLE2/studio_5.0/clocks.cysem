@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.3" xmlns="http://cypress.com/xsd/cysem">
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
   <Instances count="38">
     <Instance guid="09373d34-20d2-4303-a52b-d96300ec4539" name="IMO" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -40,6 +43,9 @@
       </Parameter>
     </Instance>
     <Instance guid="0e99d209-20fa-443b-a72a-27394adbbc79" name="ILO" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -78,6 +84,9 @@
       </Parameter>
     </Instance>
     <Instance guid="103d4731-7a71-4660-943a-8b1934fbdc58" name="CLK_HF2" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -116,6 +125,9 @@
       </Parameter>
     </Instance>
     <Instance guid="2582a288-7b7c-4c3d-ad04-958242e04691" name="CLK_HF0" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -154,6 +166,9 @@
       </Parameter>
     </Instance>
     <Instance guid="2eff64f9-2e81-434f-8201-fdbd2d15ec54" name="ALTHF" component="clock_side_tall">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -195,6 +210,9 @@
       </Parameter>
     </Instance>
     <Instance guid="352a0f61-7eb9-48c3-af15-253e15db2791" name="CLK_ALT_SYS_TICK" component="clock_side_tall">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -236,6 +254,9 @@
       </Parameter>
     </Instance>
     <Instance guid="378cd5c3-d1cd-43c6-bd19-2ed89dfa9e7b" name="PLL" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -274,6 +295,9 @@
       </Parameter>
     </Instance>
     <Instance guid="4609d555-193c-4244-8025-e25985ea9d12" name="ECO" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -350,6 +374,9 @@
       </Parameter>
     </Instance>
     <Instance guid="51ce9af3-169d-452c-b29a-1d54cddc5933" name="CLK_TIMER" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -388,6 +415,9 @@
       </Parameter>
     </Instance>
     <Instance guid="59a6d7f3-7109-4906-835c-7325466aced8" name="CLK_BAK" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -553,6 +583,9 @@
       </Parameter>
     </Instance>
     <Instance guid="66448d0f-5678-4923-b525-9ff6904c589e" name="CLK_SLOW" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -643,6 +676,9 @@
       </Parameter>
     </Instance>
     <Instance guid="789ea869-ee37-4c66-97b3-741039d69259" name="CLK_FAST" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -681,6 +717,9 @@
       </Parameter>
     </Instance>
     <Instance guid="8d607da9-a31a-4add-9141-28326b3ccd31" name="CLK_PUMP" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -719,6 +758,9 @@
       </Parameter>
     </Instance>
     <Instance guid="91a4cd84-54c3-42a9-8bfc-ff0ba1301fdd" name="PILO" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -795,6 +837,9 @@
       </Parameter>
     </Instance>
     <Instance guid="a6d20d3e-411a-4a6f-a79b-71911287a237" name="CLK_LF" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -868,6 +913,9 @@
       </Parameter>
     </Instance>
     <Instance guid="b827ff8b-39a7-4828-bd07-2936aa9cf5ea" name="CLK_HF3" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -944,6 +992,9 @@
       </Parameter>
     </Instance>
     <Instance guid="bdfc4f6c-ad64-4878-8abb-7d13b50b01cc" name="CLK_HF1" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -982,6 +1033,9 @@
       </Parameter>
     </Instance>
     <Instance guid="c0d250e5-8186-4409-8264-f2f8948f9352" name="CLK_PERI" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -1037,6 +1091,9 @@
       </Parameter>
     </Instance>
     <Instance guid="d4804264-56ed-4c5f-85dc-58f119f3ce2a" name="EXTCLK" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -1127,6 +1184,9 @@
       </Parameter>
     </Instance>
     <Instance guid="ef705966-8c83-4596-b5c2-9d45a642b4dd" name="WCO" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -1165,6 +1225,9 @@
       </Parameter>
     </Instance>
     <Instance guid="f2d4f666-373b-4dfe-b3b7-966b9228b304" name="FLL" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -1203,6 +1266,9 @@
       </Parameter>
     </Instance>
     <Instance guid="fb5d6d5c-3b11-4b9c-bab5-094c2b0e658a" name="CLK_HF4_1" component="clock_side">
+      <Parameter name="BodyTextOverride">
+        <Value />
+      </Parameter>
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -1683,8 +1749,8 @@
     </Signal>
     <Signal name="Net_2423[3:0]" type="Digital" terminalCount="5">
       <Terminal name="WCO.a_3" type="Instance Digital Output" />
-      <Terminal name="PILO.a_14" type="Instance Digital Output" />
       <Terminal name="ILO.a_14" type="Instance Digital Output" />
+      <Terminal name="PILO.a_14" type="Instance Digital Output" />
       <Terminal name="LF_CLK_MUX.b_0" type="Instance Digital Input" />
       <Terminal name="CLK_LF.b_17" type="Instance Digital Input" />
     </Signal>
@@ -1718,15 +1784,15 @@
     </Signal>
     <Signal name="Net_2490[3:0]" type="Digital" terminalCount="12">
       <Terminal name="LF_CLK_MUX.a_0" type="Instance Digital Output" />
-      <Terminal name="ECO.a_14" type="Instance Digital Output" />
       <Terminal name="IMO.a_14" type="Instance Digital Output" />
-      <Terminal name="ALTHF.a_14" type="Instance Digital Output" />
+      <Terminal name="ECO.a_14" type="Instance Digital Output" />
       <Terminal name="EXTCLK.a_14" type="Instance Digital Output" />
-      <Terminal name="PATH_MUX4.b_22" type="Instance Digital Input" />
-      <Terminal name="PATH_MUX2.b_22" type="Instance Digital Input" />
-      <Terminal name="PATH_MUX0.b_22" type="Instance Digital Input" />
-      <Terminal name="PATH_MUX1.b_22" type="Instance Digital Input" />
+      <Terminal name="ALTHF.a_14" type="Instance Digital Output" />
       <Terminal name="PATH_MUX3.b_22" type="Instance Digital Input" />
+      <Terminal name="PATH_MUX2.b_22" type="Instance Digital Input" />
+      <Terminal name="PATH_MUX4.b_22" type="Instance Digital Input" />
+      <Terminal name="PATH_MUX1.b_22" type="Instance Digital Input" />
+      <Terminal name="PATH_MUX0.b_22" type="Instance Digital Input" />
       <Terminal name="arc_bridge_5.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_4.i" type="Instance Digital Input" />
     </Signal>

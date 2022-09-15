@@ -12,30 +12,48 @@
     <Param name="Flash_KB" value="8384" />
     <Param name="WFlash_KB" value="256" />
     <Param name="SRAM_KB" value="1024" />
-    <Param name="SAR12_Removed" value="NA" />
+    <Param name="SAR12_Count" value="3" />
+    <Param name="SAR12_REMOVED" value="NA" />
     <Param name="SAR12Sample_ksps" value="1000" />
-    <Param name="OpAmp_Removed" value="NA" />
-    <Param name="LPComp_Removed" value="NA" />
-    <Param name="DAC8_Removed" value="NA" />
-    <Param name="SCB_Removed" value="NA" />
-    <Param name="Lin_CH_Removed" value="NA" />
-    <Param name="CANFD_CH_Removed" value="NA" />
-    <Param name="CXPI_CH_Removed" value="NA" />
-    <Param name="TCPWM_GRP_CNT_Removed" value="NA" />
+    <Param name="SDHC_COUNT" value="1" />
+    <Param name="SDHC_REMOVED" value="NA" />
+    <Param name="SCB_Count" value="10" />
+    <Param name="SCB_Removed" value="10" />
+    <Param name="CAN_FD" value="Y" />
+    <Param name="TimerCounterPWM_Count" value="118" />
+    <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="LIN_Count" value="0" />
+    <Param name="LIN_Removed" value="0" />
+    <Param name="ETH_Count" value="1" />
+    <Param name="ETH_Removed" value="1" />
+    <Param name="FLEXRAY" value="N" />
+    <Param name="SMIF" value="Y" />
+    <Param name="Crypto" value="Y" />
     <Param name="Security" value="HSM" />
-    <Param name="USB_Type" value="NA" />
-    <Param name="ETH_Removed" value="NA" />
-    <Param name="FLEXRAY_Removed" value="NA" />
-    <Param name="SDHC_Removed" value="NA" />
-    <Param name="SMIF_Removed" value="NA" />
-    <Param name="MIPI_Removed" value="NA" />
-    <Param name="JPEG_Removed" value="NA" />
-    <Param name="DW_Removed" value="NA" />
+    <Param name="I2S_Count" value="3" />
+    <Param name="I2S_removed" value="NA" />
+    <Param name="IO_Count" value="148" />
     <Param name="SiliconID" value="0xE5402303" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="NA" />
     <Param name="EDITING_SUPPORT" value="NA" />
     <Param name="PROJECT_TEMPLATE" value="NA" />
+    <Param name="ECO" value="Y" />
   </Parameters>
+  <ToolIDs>
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="fw-loader" />
+    <ToolID name="library-manager" />
+    <ToolID name="project-creator" />
+    <ToolID name="qspi-configurator" />
+    <ToolID name="secure-policy-configurator" />
+    <ToolID name="smartio-configurator" />
+  </ToolIDs>
+  <DeviceComponents>
+    <DevComp name="CAT1" />
+    <DevComp name="CAT1C" />
+    <DevComp name="CAT1C8M" />
+  </DeviceComponents>
 </View>

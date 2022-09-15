@@ -27,6 +27,8 @@
     <Param name="CAN_removed" value="0;1" />
     <Param name="ADC_Count" value="2" />
     <Param name="ADC_removed" value="NA" />
+    <Param name="ADCCH_Count" value="16" />
+    <Param name="ADCCH_removed" value="NA" />
     <Param name="ACMP_Count" value="4" />
     <Param name="ACMP_removed" value="NA" />
     <Param name="Vddmin_volts" value="1.8" />
@@ -36,4 +38,14 @@
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
   </Parameters>
+  <ToolIDs>
+    <ToolID name="device-configurator" />
+    <ToolID name="library-manager" />
+    <ToolID name="online-simulator" />
+    <ToolID name="project-creator" />
+  </ToolIDs>
+  <DeviceComponents>
+    <DevComp name="CAT3" />
+    <DevComp name="XMC14XX" />
+  </DeviceComponents>
 </View>

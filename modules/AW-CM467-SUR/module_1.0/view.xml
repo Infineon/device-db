@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="AW-CM467-SUR" package="44-QFN" layout="PERIMETER_4_SIDE_INNER" x="11" y="11">
+    <ExternalPin position="1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="2" name="WL_BT_ANT" moduleConnection="MODULE" />
+    <ExternalPin position="3" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="4" name="NC" />
+    <ExternalPin position="5" name="NC" />
+    <ExternalPin position="6" name="BT_DEV_WAKE" moduleConnection="MODULE" />
+    <ExternalPin position="7" name="BT_HOST_WAKE" moduleConnection="MODULE" />
+    <ExternalPin position="8" name="NC" />
+    <ExternalPin position="9" name="VBAT" moduleConnection="MODULE" />
+    <ExternalPin position="10" name="NC" />
+    <ExternalPin position="11" name="NC" />
+    <ExternalPin position="12" name="WL_REG_ON" moduleConnection="MODULE" />
+    <ExternalPin position="13" name="WL_HOST_WAKE" moduleConnection="MODULE" />
+    <ExternalPin position="14" name="SDIO_DATA2" moduleConnection="MODULE" />
+    <ExternalPin position="15" name="SDIO_DATA3" moduleConnection="MODULE" />
+    <ExternalPin position="16" name="SDIO_DATA_CMD" moduleConnection="MODULE" />
+    <ExternalPin position="17" name="SDIO_DATA_CLK" moduleConnection="MODULE" />
+    <ExternalPin position="18" name="SDIO_DATA0" moduleConnection="MODULE" />
+    <ExternalPin position="19" name="SDIO_DATA1" moduleConnection="MODULE" />
+    <ExternalPin position="20" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="21" name="VIN_LDO_OUT" moduleConnection="MODULE" />
+    <ExternalPin position="22" name="VDDIO" moduleConnection="MODULE" />
+    <ExternalPin position="23" name="VIN_LDO" moduleConnection="MODULE" />
+    <ExternalPin position="24" name="LPO" moduleConnection="MODULE" />
+    <ExternalPin position="25" name="BT_PCM_OUT" moduleConnection="MODULE" />
+    <ExternalPin position="26" name="BT_PCM_CLK" moduleConnection="MODULE" />
+    <ExternalPin position="27" name="BT_PCM_IN" moduleConnection="MODULE" />
+    <ExternalPin position="28" name="BT_PCM_SYNC" moduleConnection="MODULE" />
+    <ExternalPin position="29" name="STRAP_0" moduleConnection="MODULE" />
+    <ExternalPin position="30" name="NC" />
+    <ExternalPin position="31" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="32" name="NC" />
+    <ExternalPin position="33" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="34" name="BT_REG_ON" moduleConnection="MODULE" />
+    <ExternalPin position="35" name="NC" />
+    <ExternalPin position="36" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="37" name="NC" />
+    <ExternalPin position="38" name="NC" />
+    <ExternalPin position="39" name="RF_SW_CTRL5" moduleConnection="MODULE" />
+    <ExternalPin position="40" name="NC" />
+    <ExternalPin position="41" name="BT_UART_RTS" moduleConnection="MODULE" />
+    <ExternalPin position="42" name="BT_UART_TXD" moduleConnection="MODULE" />
+    <ExternalPin position="43" name="BT_UART_RXD" moduleConnection="MODULE" />
+    <ExternalPin position="44" name="BT_UART_CTS" moduleConnection="MODULE" />
+    <Component name="AW-CM467-SUR/CYW4373EUBGT" partNumber="CYW4373EUBGT">
+      <!--position=SR_VDDBAT5V external=VBAT-->
+      <InnerPin position="A2" external="9" />
+      <!--position=LDO_VDD1P5 external=VIN_LDO-->
+      <InnerPin position="A3" external="23" />
+      <!--position=LDO_VDDBAT5V external=VBAT-->
+      <InnerPin position="A5" external="9" />
+      <!--position=LDO_VDDBAT5V external=VIN_LDO-->
+      <InnerPin position="A5" external="23" />
+      <!--position=SDIO_CLK external=SDIO_DATA_CLK-->
+      <InnerPin position="A6" external="17" />
+      <!--position=VOUT_HLDO external=VIN_LDO_OUT-->
+      <InnerPin position="B2" external="21" />
+      <!--position=VOUT_CLDO external=VIN_LDO_OUT-->
+      <InnerPin position="B3" external="21" />
+      <!--position=VOUT_LNLDO external=VIN_LDO_OUT-->
+      <InnerPin position="B4" external="21" />
+      <!--position=VOUT_BTLDO2P5 external=VIN_LDO_OUT-->
+      <InnerPin position="B5" external="21" />
+      <!--position=SDIO_DATA_2 external=SDIO_DATA2-->
+      <InnerPin position="B6" external="14" />
+      <!--position=SDIO_DATA_3 external=SDIO_DATA3-->
+      <InnerPin position="B7" external="15" />
+      <!--position=SDIO_DATA_0 external=SDIO_DATA0-->
+      <InnerPin position="B8" external="18" />
+      <!--position=BT_REG_ON external=BT_REG_ON-->
+      <InnerPin position="C3" external="34" />
+      <!--position=VOUT_MEMLPLDO external=VIN_LDO_OUT-->
+      <InnerPin position="C4" external="21" />
+      <!--position=SDIO_CMD external=SDIO_DATA_CMD-->
+      <InnerPin position="C6" external="16" />
+      <!--position=SDIO_DATA_1 external=SDIO_DATA1-->
+      <InnerPin position="C7" external="19" />
+      <!--position=WL_REG_ON external=WL_REG_ON-->
+      <InnerPin position="D4" external="12" />
+      <!--position=VDDIO external=VDDIO-->
+      <InnerPin position="D6" external="22" />
+      <!--position=GPIO_0 external=WL_HOST_WAKE-->
+      <InnerPin position="F3" external="13" />
+      <!--position=STRAP_0 external=STRAP_0-->
+      <InnerPin position="F7" external="29" />
+      <!--position=RF_SW_CTRL_5 external=RF_SW_CTRL5-->
+      <InnerPin position="F10" external="39" />
+      <!--position=WRF_XTAL_GND1P2 external=GND-->
+      <InnerPin position="G10" external="1" />
+      <!--position=WRF_XTAL_GND1P2 external=GND-->
+      <InnerPin position="G10" external="3" />
+      <!--position=WRF_XTAL_GND1P2 external=GND-->
+      <InnerPin position="G10" external="20" />
+      <!--position=WRF_XTAL_GND1P2 external=GND-->
+      <InnerPin position="G10" external="31" />
+      <!--position=WRF_XTAL_GND1P2 external=GND-->
+      <InnerPin position="G10" external="33" />
+      <!--position=WRF_XTAL_GND1P2 external=GND-->
+      <InnerPin position="G10" external="36" />
+      <!--position=BT_PCM_IN external=BT_PCM_IN-->
+      <InnerPin position="J1" external="27" />
+      <!--position=LPO_IN external=LPO-->
+      <InnerPin position="J2" external="24" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="1" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="3" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="20" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="31" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="33" />
+      <!--position=WRF_VCO_GND external=GND-->
+      <InnerPin position="J8" external="36" />
+      <!--position=WRF_SYNTH_GND external=GND-->
+      <InnerPin position="J9" external="1" />
+      <!--position=WRF_SYNTH_GND external=GND-->
+      <InnerPin position="J9" external="3" />
+      <!--position=WRF_SYNTH_GND external=GND-->
+      <InnerPin position="J9" external="20" />
+      <!--position=WRF_SYNTH_GND external=GND-->
+      <InnerPin position="J9" external="31" />
+      <!--position=WRF_SYNTH_GND external=GND-->
+      <InnerPin position="J9" external="33" />
+      <!--position=WRF_SYNTH_GND external=GND-->
+      <InnerPin position="J9" external="36" />
+      <!--position=BT_PCM_CLK external=BT_PCM_CLK-->
+      <InnerPin position="K1" external="26" />
+      <!--position=BT_PCM_SYNC external=BT_PCM_SYNC-->
+      <InnerPin position="K3" external="28" />
+      <!--position=WRF_EXT_TSSIA external=WL_BT_ANT-->
+      <InnerPin position="K8" external="2" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="1" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="3" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="20" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="31" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="33" />
+      <!--position=WRF_GENERAL_GND external=GND-->
+      <InnerPin position="K9" external="36" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="1" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="3" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="20" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="31" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="33" />
+      <!--position=WRF_RX5G_GND external=GND-->
+      <InnerPin position="K11" external="36" />
+      <!--position=BT_DEV_WAKE external=BT_DEV_WAKE-->
+      <InnerPin position="L2" external="6" />
+      <!--position=BT_PCM_OUT external=BT_PCM_OUT-->
+      <InnerPin position="L3" external="25" />
+      <!--position=WRF_GPAIO_OUT external=WL_BT_ANT-->
+      <InnerPin position="L8" external="2" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="1" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="3" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="20" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="31" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="33" />
+      <!--position=WRF_AFE_GND external=GND-->
+      <InnerPin position="L9" external="36" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="1" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="3" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="20" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="31" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="33" />
+      <!--position=WRF_GENERAL2_GND external=GND-->
+      <InnerPin position="L10" external="36" />
+      <!--position=WRF_RFIN_5G external=WL_BT_ANT-->
+      <InnerPin position="L11" external="2" />
+      <!--position=BT_UART_TXD external=BT_UART_TXD-->
+      <InnerPin position="M1" external="42" />
+      <!--position=BT_UART_CTS_N external=BT_UART_CTS-->
+      <InnerPin position="M2" external="44" />
+      <!--position=BT_HOST_WAKE external=BT_HOST_WAKE-->
+      <InnerPin position="M3" external="7" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="1" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="3" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="20" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="31" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="33" />
+      <!--position=WRF_RX2G_GND external=GND-->
+      <InnerPin position="M8" external="36" />
+      <!--position=WRF_PA_GND3P3 external=GND-->
+      <InnerPin position="M10" external="1" />
+      <!--position=WRF_PA_GND3P3 external=GND-->
+      <InnerPin position="M10" external="3" />
+      <!--position=WRF_PA_GND3P3 external=GND-->
+      <InnerPin position="M10" external="20" />
+      <!--position=WRF_PA_GND3P3 external=GND-->
+      <InnerPin position="M10" external="31" />
+      <!--position=WRF_PA_GND3P3 external=GND-->
+      <InnerPin position="M10" external="33" />
+      <!--position=WRF_PA_GND3P3 external=GND-->
+      <InnerPin position="M10" external="36" />
+      <!--position=WRF_PAOUT_5G external=WL_BT_ANT-->
+      <InnerPin position="M11" external="2" />
+      <!--position=BT_UART_RXD external=BT_UART_RXD-->
+      <InnerPin position="N2" external="43" />
+      <!--position=BT_UART_RTS_N external=BT_UART_RTS-->
+      <InnerPin position="N3" external="41" />
+      <!--position=WRF_RFIN_2G external=WL_BT_ANT-->
+      <InnerPin position="N8" external="2" />
+      <!--position=WRF_PAOUT_2G external=WL_BT_ANT-->
+      <InnerPin position="N9" external="2" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="AW-CM467-SUR" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYW4373EUBGT" />
+    <Param name="Package" value="44-QFN" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="AzureWave" />
+    <Param name="DATASHEET" value="https://www.azurewave.com/img/infineon/AW-CM467-SUR_DS_DF_C_STD.pdf" />
+  </Parameters>
+</View>

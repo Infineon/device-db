@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="IMD701A-Q064x128" package="VQFN-64-8" layout="PERIMETER_4_SIDE_INNER" x="16" y="16">
+    <ExternalPin position="1" name="GPIO0/P4.4" moduleConnection="MODULE" />
+    <ExternalPin position="2" name="GPIO1/P4.5" moduleConnection="MODULE" />
+    <ExternalPin position="3" name="DVDD" moduleConnection="MODULE" />
+    <ExternalPin position="4" name="GPIO2/P4.6" moduleConnection="MODULE" />
+    <ExternalPin position="5" name="GPIO3/P4.7" moduleConnection="MODULE" />
+    <ExternalPin position="6" name="GPIO4/P4.8" moduleConnection="MODULE" />
+    <ExternalPin position="7" name="GPIO5/P4.10" moduleConnection="MODULE" />
+    <ExternalPin position="8" name="GPIO6_AIN0/P2.0" moduleConnection="MODULE" />
+    <ExternalPin position="9" name="GPIO7_AIN1/P2.1" moduleConnection="MODULE" />
+    <ExternalPin position="10" name="AIN2/P2.2" moduleConnection="MODULE" />
+    <ExternalPin position="11" name="AIN3/P2.3" moduleConnection="MODULE" />
+    <ExternalPin position="12" name="AIN4/P2.4" moduleConnection="MODULE" />
+    <ExternalPin position="13" name="AIN5/P2.5" moduleConnection="MODULE" />
+    <ExternalPin position="14" name="AIN6/P2.6" moduleConnection="MODULE" />
+    <ExternalPin position="15" name="AIN7/P2.7" moduleConnection="MODULE" />
+    <ExternalPin position="16" name="AIN8/P2.8" moduleConnection="MODULE" />
+    <ExternalPin position="17" name="AIN9/P2.9" moduleConnection="MODULE" />
+    <ExternalPin position="18" name="GPIO8_AIN10/P2.10" moduleConnection="MODULE" />
+    <ExternalPin position="19" name="GPIO9_AIN11/P2.11" moduleConnection="MODULE" />
+    <ExternalPin position="20" name="GPIO10/P2.12" moduleConnection="MODULE" />
+    <ExternalPin position="21" name="GPIO11/P2.13" moduleConnection="MODULE" />
+    <ExternalPin position="22" name="DGND" moduleConnection="MODULE" />
+    <ExternalPin position="23" name="DVDD" moduleConnection="MODULE" />
+    <ExternalPin position="24" name="nBRAKE" moduleConnection="MODULE" />
+    <ExternalPin position="25" name="PVDD" moduleConnection="MODULE" />
+    <ExternalPin position="26" name="PH" moduleConnection="MODULE" />
+    <ExternalPin position="27" name="PGND" moduleConnection="MODULE" />
+    <ExternalPin position="28" name="VDDB" moduleConnection="MODULE" />
+    <ExternalPin position="29" name="CP1L" moduleConnection="MODULE" />
+    <ExternalPin position="30" name="CP1H" moduleConnection="MODULE" />
+    <ExternalPin position="31" name="CP2L" moduleConnection="MODULE" />
+    <ExternalPin position="32" name="CP2H" moduleConnection="MODULE" />
+    <ExternalPin position="33" name="VCCLS" moduleConnection="MODULE" />
+    <ExternalPin position="34" name="VCCHS" moduleConnection="MODULE" />
+    <ExternalPin position="35" name="GHC" moduleConnection="MODULE" />
+    <ExternalPin position="36" name="SHC" moduleConnection="MODULE" />
+    <ExternalPin position="37" name="N.C." />
+    <ExternalPin position="38" name="GLC" moduleConnection="MODULE" />
+    <ExternalPin position="39" name="SLC" moduleConnection="MODULE" />
+    <ExternalPin position="40" name="CSNC" moduleConnection="MODULE" />
+    <ExternalPin position="41" name="CSNB" moduleConnection="MODULE" />
+    <ExternalPin position="42" name="SLB" moduleConnection="MODULE" />
+    <ExternalPin position="43" name="GLB" moduleConnection="MODULE" />
+    <ExternalPin position="44" name="N.C." />
+    <ExternalPin position="45" name="SHB" moduleConnection="MODULE" />
+    <ExternalPin position="46" name="GHB" moduleConnection="MODULE" />
+    <ExternalPin position="47" name="GHA" moduleConnection="MODULE" />
+    <ExternalPin position="48" name="SHA" moduleConnection="MODULE" />
+    <ExternalPin position="49" name="GLA" moduleConnection="MODULE" />
+    <ExternalPin position="50" name="SLA" moduleConnection="MODULE" />
+    <ExternalPin position="51" name="CSNA" moduleConnection="MODULE" />
+    <ExternalPin position="52" name="CSOA" moduleConnection="MODULE" />
+    <ExternalPin position="53" name="CSOB" moduleConnection="MODULE" />
+    <ExternalPin position="54" name="CSOC" moduleConnection="MODULE" />
+    <ExternalPin position="55" name="CE" moduleConnection="MODULE" />
+    <ExternalPin position="56" name="DVDD" moduleConnection="MODULE" />
+    <ExternalPin position="57" name="GPIO12/P0.10" moduleConnection="MODULE" />
+    <ExternalPin position="58" name="GPIO13/P0.11" moduleConnection="MODULE" />
+    <ExternalPin position="59" name="GPIO14/P0.12" moduleConnection="MODULE" />
+    <ExternalPin position="60" name="GPIO15_DBG0/P0.14" moduleConnection="MODULE" />
+    <ExternalPin position="61" name="GPIO16_DBG1/P0.15" moduleConnection="MODULE" />
+    <ExternalPin position="62" name="GPIO17/P4.1" moduleConnection="MODULE" />
+    <ExternalPin position="63" name="GPIO18/P4.2" moduleConnection="MODULE" />
+    <ExternalPin position="64" name="GPIO19/P4.3" moduleConnection="MODULE" />
+    <ExternalPin position="H" name="DGND" displayPosition="ePad" moduleConnection="MODULE" />
+    <Component name="IMD701A-Q064x128/XMC1404-Q064x0128" partNumber="XMC1404-Q064x0128">
+      <!--position=VSSP external=DGND-->
+      <InnerPin position="1" external="22" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="2" external="3" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="2" external="23" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="2" external="56" />
+      <!--position=P4.6 external=GPIO2/P4.6-->
+      <InnerPin position="3" external="4" />
+      <!--position=P4.7 external=GPIO3/P4.7-->
+      <InnerPin position="4" external="5" />
+      <!--position=P4.8 external=GPIO4/P4.8-->
+      <InnerPin position="5" external="6" />
+      <!--position=P4.10 external=GPIO5/P4.10-->
+      <InnerPin position="7" external="7" />
+      <!--position=P2.0 external=GPIO6_AIN0/P2.0-->
+      <InnerPin position="9" external="8" />
+      <!--position=P2.1 external=GPIO7_AIN1/P2.1-->
+      <InnerPin position="10" external="9" />
+      <!--position=P2.2 external=AIN2/P2.2-->
+      <InnerPin position="11" external="10" />
+      <!--position=P2.3 external=AIN3/P2.3-->
+      <InnerPin position="12" external="11" />
+      <!--position=P2.4 external=AIN4/P2.4-->
+      <InnerPin position="13" external="12" />
+      <!--position=P2.5 external=AIN5/P2.5-->
+      <InnerPin position="14" external="13" />
+      <!--position=P2.6 external=AIN6/P2.6-->
+      <InnerPin position="15" external="14" />
+      <!--position=P2.7 external=AIN7/P2.7-->
+      <InnerPin position="16" external="15" />
+      <!--position=P2.8 external=AIN8/P2.8-->
+      <InnerPin position="17" external="16" />
+      <!--position=P2.9 external=AIN9/P2.9-->
+      <InnerPin position="18" external="17" />
+      <!--position=P2.10 external=GPIO8_AIN10/P2.10-->
+      <InnerPin position="19" external="18" />
+      <!--position=P2.11 external=GPIO9_AIN11/P2.11-->
+      <InnerPin position="20" external="19" />
+      <!--position=P2.12 external=GPIO10/P2.12-->
+      <InnerPin position="21" external="20" />
+      <!--position=P2.13 external=GPIO11/P2.13-->
+      <InnerPin position="22" external="21" />
+      <!--position=VSS/VSSP external=DGND-->
+      <InnerPin position="23" external="22" />
+      <!--position=VSS/VSSP external=DGND-->
+      <InnerPin position="23" external="H" />
+      <!--position=VDD external=DVDD-->
+      <InnerPin position="24" external="3" />
+      <!--position=VDD external=DVDD-->
+      <InnerPin position="24" external="23" />
+      <!--position=VDD external=DVDD-->
+      <InnerPin position="24" external="56" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="25" external="3" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="25" external="23" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="25" external="56" />
+      <!--position=P1.3 external=nBRAKE-->
+      <InnerPin position="31" external="24" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="35" external="3" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="35" external="23" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="35" external="56" />
+      <!--position=VSSP external=DGND-->
+      <InnerPin position="49" external="22" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="50" external="3" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="50" external="23" />
+      <!--position=VDDP external=DVDD-->
+      <InnerPin position="50" external="56" />
+      <!--position=P0.10/XTAL1 external=GPIO12/P0.10-->
+      <InnerPin position="53" external="57" />
+      <!--position=P0.11/XTAL2 external=GPIO13/P0.11-->
+      <InnerPin position="54" external="58" />
+      <!--position=P0.12 external=GPIO14/P0.12-->
+      <InnerPin position="55" external="59" />
+      <!--position=P0.14 external=GPIO15_DBG0/P0.14-->
+      <InnerPin position="57" external="60" />
+      <!--position=P0.15 external=GPIO16_DBG1/P0.15-->
+      <InnerPin position="58" external="61" />
+      <!--position=P4.1 external=GPIO17/P4.1-->
+      <InnerPin position="60" external="62" />
+      <!--position=P4.2 external=GPIO18/P4.2-->
+      <InnerPin position="61" external="63" />
+      <!--position=P4.3 external=GPIO19/P4.3-->
+      <InnerPin position="62" external="64" />
+      <!--position=P4.4 external=GPIO0/P4.4-->
+      <InnerPin position="63" external="1" />
+      <!--position=P4.5 external=GPIO1/P4.5-->
+      <InnerPin position="64" external="2" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="IMD701A-Q064x128" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="XMC1404-Q064x0128" />
+    <Param name="Package" value="VQFN-64-8" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Infineon" />
+    <Param name="DATASHEET" value="https://www.infineon.com/dgdl/Infineon-IMD70xA-DS-v01_00-EN-DataSheet-v02_00-EN.pdf?fileId=8ac78c8c80027ecd018023cbef1f4a9a" />
+  </Parameters>
+</View>

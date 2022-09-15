@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="CYBT-343052-02" package="42-SMT" layout="PERIMETER_4_SIDE_INNER" x="12" y="15">
+    <ExternalPin position="1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="2" name="VDD" moduleConnection="MODULE" />
+    <ExternalPin position="3" name="XRES" moduleConnection="MODULE" />
+    <ExternalPin position="4" name="P32" moduleConnection="MODULE" />
+    <ExternalPin position="5" name="P27" moduleConnection="MODULE" />
+    <ExternalPin position="6" name="P26" moduleConnection="MODULE" />
+    <ExternalPin position="7" name="P38" moduleConnection="MODULE" />
+    <ExternalPin position="8" name="P34" moduleConnection="MODULE" />
+    <ExternalPin position="9" name="P1" moduleConnection="MODULE" />
+    <ExternalPin position="10" name="P0" moduleConnection="MODULE" />
+    <ExternalPin position="11" name="P29" moduleConnection="MODULE" />
+    <ExternalPin position="12" name="P28" moduleConnection="MODULE" />
+    <ExternalPin position="13" name="P13" moduleConnection="MODULE" />
+    <ExternalPin position="14" name="P12" moduleConnection="MODULE" />
+    <ExternalPin position="15" name="P11" moduleConnection="MODULE" />
+    <ExternalPin position="16" name="P10" moduleConnection="MODULE" />
+    <ExternalPin position="17" name="P9" moduleConnection="MODULE" />
+    <ExternalPin position="18" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="19" name="P15/XTALI_32K" moduleConnection="MODULE" />
+    <ExternalPin position="20" name="XTALO_32K" moduleConnection="MODULE" />
+    <ExternalPin position="21" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="22" name="GND_A" moduleConnection="MODULE" />
+    <ExternalPin position="23" name="MIC_AVDD" moduleConnection="MODULE" />
+    <ExternalPin position="24" name="MIC_N" moduleConnection="MODULE" />
+    <ExternalPin position="25" name="MIC_P" moduleConnection="MODULE" />
+    <ExternalPin position="26" name="MIC_BIAS" moduleConnection="MODULE" />
+    <ExternalPin position="27" name="GND_A" moduleConnection="MODULE" />
+    <ExternalPin position="28" name="UART_CTS_N" moduleConnection="MODULE" />
+    <ExternalPin position="29" name="UART_RTS_N" moduleConnection="MODULE" />
+    <ExternalPin position="30" name="UART_TXD" moduleConnection="MODULE" />
+    <ExternalPin position="31" name="UART_RXD" moduleConnection="MODULE" />
+    <ExternalPin position="32" name="SPI_MOSI" moduleConnection="MODULE" />
+    <ExternalPin position="33" name="P2" moduleConnection="MODULE" />
+    <ExternalPin position="34" name="P3" moduleConnection="MODULE" />
+    <ExternalPin position="35" name="HOST_WAKE" moduleConnection="MODULE" />
+    <ExternalPin position="36" name="P4" moduleConnection="MODULE" />
+    <ExternalPin position="37" name="P5" moduleConnection="MODULE" />
+    <ExternalPin position="38" name="P6" moduleConnection="MODULE" />
+    <ExternalPin position="39" name="P7" moduleConnection="MODULE" />
+    <ExternalPin position="40" name="P8" moduleConnection="MODULE" />
+    <ExternalPin position="41" name="P14" moduleConnection="MODULE" />
+    <ExternalPin position="42" name="GND" moduleConnection="MODULE" />
+    <Component name="CYBT-343052-02/CYW20735B1" partNumber="CYW20735B1">
+      <!--position=P9 external=P9-->
+      <InnerPin position="1" external="17" />
+      <!--position=P10 external=P10-->
+      <InnerPin position="2" external="16" />
+      <!--position=P11 external=P11-->
+      <InnerPin position="3" external="15" />
+      <!--position=P12 external=P12-->
+      <InnerPin position="4" external="14" />
+      <!--position=P13 external=P13-->
+      <InnerPin position="5" external="13" />
+      <!--position=P28 external=P28-->
+      <InnerPin position="6" external="12" />
+      <!--position=P29 external=P29-->
+      <InnerPin position="7" external="11" />
+      <!--position=P0 external=P0-->
+      <InnerPin position="8" external="10" />
+      <!--position=P1 external=P1-->
+      <InnerPin position="9" external="9" />
+      <!--position=P34 external=P34-->
+      <InnerPin position="10" external="8" />
+      <!--position=P38 external=P38-->
+      <InnerPin position="11" external="7" />
+      <!--position=P26 external=P26-->
+      <InnerPin position="13" external="6" />
+      <!--position=P27 external=P27-->
+      <InnerPin position="14" external="5" />
+      <!--position=P32 external=P32-->
+      <InnerPin position="15" external="4" />
+      <!--position=RST_N external=XRES-->
+      <InnerPin position="16" external="3" />
+      <!--position=PALDO_VDDIN_5V external=VDD-->
+      <InnerPin position="19" external="2" />
+      <!--position=BT_HOST_WAKE external=HOST_WAKE-->
+      <InnerPin position="34" external="35" />
+      <!--position=BT_VDDO external=VDD-->
+      <InnerPin position="36" external="2" />
+      <!--position=BT_VDDC external=VDD-->
+      <InnerPin position="37" external="2" />
+      <!--position=SPI_MOSI external=SPI_MOSI-->
+      <InnerPin position="39" external="32" />
+      <!--position=UART_RXD external=UART_RXD-->
+      <InnerPin position="41" external="31" />
+      <!--position=UART_TXD external=UART_TXD-->
+      <InnerPin position="42" external="30" />
+      <!--position=UART_RTS_N external=UART_RTS_N-->
+      <InnerPin position="43" external="29" />
+      <!--position=UART_CTS_N external=UART_CTS_N-->
+      <InnerPin position="44" external="28" />
+      <!--position=MICBIAS external=MIC_BIAS-->
+      <InnerPin position="45" external="26" />
+      <!--position=MICP external=MIC_P-->
+      <InnerPin position="46" external="25" />
+      <!--position=MICN external=MIC_N-->
+      <InnerPin position="47" external="24" />
+      <!--position=MIC_AVDD external=MIC_AVDD-->
+      <InnerPin position="48" external="23" />
+      <!--position=XTALO_32K external=XTALO_32K-->
+      <InnerPin position="49" external="20" />
+      <!--position=P15/XTALI_32K external=P15/XTALI_32K-->
+      <InnerPin position="50" external="19" />
+      <!--position=P2 external=P2-->
+      <InnerPin position="52" external="33" />
+      <!--position=P3 external=P3-->
+      <InnerPin position="53" external="34" />
+      <!--position=P4 external=P4-->
+      <InnerPin position="54" external="36" />
+      <!--position=P5 external=P5-->
+      <InnerPin position="55" external="37" />
+      <!--position=P6 external=P6-->
+      <InnerPin position="56" external="38" />
+      <!--position=P7 external=P7-->
+      <InnerPin position="57" external="39" />
+      <!--position=P8 external=P8-->
+      <InnerPin position="58" external="40" />
+      <!--position=P14 external=P14-->
+      <InnerPin position="59" external="41" />
+      <!--position=LHL_VDDO external=VDD-->
+      <InnerPin position="60" external="2" />
+      <!--position=HS-VSS external=GND-->
+      <InnerPin position="H" external="1" />
+      <!--position=HS-VSS external=GND-->
+      <InnerPin position="H" external="18" />
+      <!--position=HS-VSS external=GND-->
+      <InnerPin position="H" external="21" />
+      <!--position=HS-VSS external=GND_A-->
+      <InnerPin position="H" external="22" />
+      <!--position=HS-VSS external=GND_A-->
+      <InnerPin position="H" external="27" />
+      <!--position=HS-VSS external=GND-->
+      <InnerPin position="H" external="42" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="CYBT-343052-02" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYW20735B1" />
+    <Param name="Package" value="42-SMT" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Infineon" />
+    <Param name="DATASHEET" value="https://www.cypress.com/documentation/datasheets/cybt-343052-02-ez-bt-wiced-module" />
+  </Parameters>
+</View>

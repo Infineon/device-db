@@ -24,10 +24,25 @@
     <Param name="TempMax_Celsius" value="85" />
     <Param name="DSP" value="N" />
     <Param name="FPU" value="N" />
-    <Param name="SiliconID" value="0x1EB40069" />
-    <Param name="Module" value="No" />
+    <Param name="SiliconID" value="0xEB401110" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="https://www.cypress.com/ble" />
   </Parameters>
+  <ToolIDs>
+    <ToolID name="bt-configurator" />
+    <ToolID name="device-configurator" />
+    <ToolID name="fw-loader" />
+    <ToolID name="library-manager" />
+    <ToolID name="lin-configurator" />
+    <ToolID name="project-creator" />
+    <ToolID name="qspi-configurator" />
+    <ToolID name="smartio-configurator" />
+  </ToolIDs>
+  <DeviceComponents>
+    <DevComp name="BTSS-IPC" />
+    <DevComp name="CAT1" />
+    <DevComp name="CAT1B" />
+    <DevComp name="CYW20829" />
+  </DeviceComponents>
 </View>

@@ -1,8 +1,10 @@
-# Device Database v4.0.0 Beta1
-For details, refer to [README.md](./README.md) for description of the Device Database.
+# Device Database v4.0.1 Beta2
+For description details, refer to [README.md](./README.md).
 
 ## Version info
-* Initial release
+* Merged the Connectivity-BT and Connectivity-WIFI folders into the Connectivity-BT-WIFI folder.
+* Added modules.
+* Removed SVD files from device-db. 
 
 ## More information
 

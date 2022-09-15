@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="CYBLE-416070-02" package="43-SMT" layout="PERIMETER_4_SIDE_INNER" x="15" y="14">
+    <ExternalPin position="1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="2" name="P0.5" moduleConnection="MODULE" />
+    <ExternalPin position="3" name="VBACKUP" moduleConnection="MODULE" />
+    <ExternalPin position="4" name="VDD" moduleConnection="MODULE" />
+    <ExternalPin position="5" name="P0.0" moduleConnection="MODULE" />
+    <ExternalPin position="6" name="P0.1" moduleConnection="MODULE" />
+    <ExternalPin position="7" name="P10.3" moduleConnection="MODULE" />
+    <ExternalPin position="8" name="P10.4" moduleConnection="MODULE" />
+    <ExternalPin position="9" name="P9.3" moduleConnection="MODULE" />
+    <ExternalPin position="10" name="P10.6" moduleConnection="MODULE" />
+    <ExternalPin position="11" name="P10.5" moduleConnection="MODULE" />
+    <ExternalPin position="12" name="P10.1" moduleConnection="MODULE" />
+    <ExternalPin position="13" name="P10.0" moduleConnection="MODULE" />
+    <ExternalPin position="14" name="P9.4" moduleConnection="MODULE" />
+    <ExternalPin position="15" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="16" name="VREF" moduleConnection="MODULE" />
+    <ExternalPin position="17" name="P9.0" moduleConnection="MODULE" />
+    <ExternalPin position="18" name="P9.1" moduleConnection="MODULE" />
+    <ExternalPin position="19" name="P9.5" moduleConnection="MODULE" />
+    <ExternalPin position="20" name="P9.6" moduleConnection="MODULE" />
+    <ExternalPin position="21" name="P9.2" moduleConnection="MODULE" />
+    <ExternalPin position="22" name="P7.2" moduleConnection="MODULE" />
+    <ExternalPin position="23" name="P7.1" moduleConnection="MODULE" />
+    <ExternalPin position="24" name="P6.4" moduleConnection="MODULE" />
+    <ExternalPin position="25" name="P5.4" moduleConnection="MODULE" />
+    <ExternalPin position="26" name="P6.7" moduleConnection="MODULE" />
+    <ExternalPin position="27" name="P6.6" moduleConnection="MODULE" />
+    <ExternalPin position="28" name="P6.2" moduleConnection="MODULE" />
+    <ExternalPin position="29" name="P6.5" moduleConnection="MODULE" />
+    <ExternalPin position="30" name="P6.3" moduleConnection="MODULE" />
+    <ExternalPin position="31" name="P7.7" moduleConnection="MODULE" />
+    <ExternalPin position="32" name="P5.6" moduleConnection="MODULE" />
+    <ExternalPin position="33" name="P10.2" moduleConnection="MODULE" />
+    <ExternalPin position="34" name="P12.6" moduleConnection="MODULE" />
+    <ExternalPin position="35" name="P12.7" moduleConnection="MODULE" />
+    <ExternalPin position="36" name="P5.5" moduleConnection="MODULE" />
+    <ExternalPin position="37" name="P5.3" moduleConnection="MODULE" />
+    <ExternalPin position="38" name="P5.2" moduleConnection="MODULE" />
+    <ExternalPin position="39" name="P5.0" moduleConnection="MODULE" />
+    <ExternalPin position="40" name="P5.1" moduleConnection="MODULE" />
+    <ExternalPin position="41" name="P0.4" moduleConnection="MODULE" />
+    <ExternalPin position="42" name="XRES" moduleConnection="MODULE" />
+    <ExternalPin position="43" name="GND" moduleConnection="MODULE" />
+    <Component name="CYBLE-416070-02/CYB06447BZI-BLD53" partNumber="CYB06447BZI-BLD53">
+      <!--position=P10[6] external=P10.6-->
+      <InnerPin position="A7" external="10" />
+      <!--position=P10[1] external=P10.1-->
+      <InnerPin position="A8" external="12" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="B2" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="B2" external="15" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="B2" external="43" />
+      <!--position=P10[5] external=P10.5-->
+      <InnerPin position="B7" external="11" />
+      <!--position=P10[0] external=P10.0-->
+      <InnerPin position="B8" external="13" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="B9" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="B9" external="15" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="B9" external="43" />
+      <!--position=VREF external=VREF-->
+      <InnerPin position="B10" external="16" />
+      <!--position=VBACKUP external=VBACKUP-->
+      <InnerPin position="C1" external="3" />
+      <!--position=P0[0] external=P0.0-->
+      <InnerPin position="C2" external="5" />
+      <!--position=P9[6] external=P9.6-->
+      <InnerPin position="C8" external="20" />
+      <!--position=P9[5] external=P9.5-->
+      <InnerPin position="C9" external="19" />
+      <!--position=P9[4] external=P9.4-->
+      <InnerPin position="C10" external="14" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="15" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="43" />
+      <!--position=P0[5] external=P0.5-->
+      <InnerPin position="D2" external="2" />
+      <!--position=P0[1] external=P0.1-->
+      <InnerPin position="D3" external="6" />
+      <!--position=P10[4] external=P10.4-->
+      <InnerPin position="D6" external="8" />
+      <!--position=P9[3] external=P9.3-->
+      <InnerPin position="D7" external="9" />
+      <!--position=P9[2] external=P9.2-->
+      <InnerPin position="D8" external="21" />
+      <!--position=P9[1] external=P9.1-->
+      <InnerPin position="D9" external="18" />
+      <!--position=P9[0] external=P9.0-->
+      <InnerPin position="D10" external="17" />
+      <!--position=XRES external=XRES-->
+      <InnerPin position="E2" external="42" />
+      <!--position=P10[3] external=P10.3-->
+      <InnerPin position="E6" external="7" />
+      <!--position=P0[4] external=P0.4-->
+      <InnerPin position="F3" external="41" />
+      <!--position=P10[2] external=P10.2-->
+      <InnerPin position="F6" external="33" />
+      <!--position=P12[6] external=P12.6-->
+      <InnerPin position="G5" external="34" />
+      <!--position=P7[7] external=P7.7-->
+      <InnerPin position="G7" external="31" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H2" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H2" external="15" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H2" external="43" />
+      <!--position=VDD_NS external=VDD-->
+      <InnerPin position="H3" external="4" />
+      <!--position=P12[7] external=P12.7-->
+      <InnerPin position="H5" external="35" />
+      <!--position=P7[2] external=P7.2-->
+      <InnerPin position="H8" external="22" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H9" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H9" external="15" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H9" external="43" />
+      <!--position=P7[1] external=P7.1-->
+      <InnerPin position="H10" external="23" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="J1" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="J1" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="J1" external="43" />
+      <!--position=P5[2] external=P5.2-->
+      <InnerPin position="J6" external="38" />
+      <!--position=P5[4] external=P5.4-->
+      <InnerPin position="J7" external="25" />
+      <!--position=P6[4] external=P6.4-->
+      <InnerPin position="J9" external="24" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K2" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K2" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K2" external="43" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K3" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K3" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K3" external="43" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K4" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K4" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K4" external="43" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K5" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K5" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="K5" external="43" />
+      <!--position=P5[1] external=P5.1-->
+      <InnerPin position="K6" external="40" />
+      <!--position=P5[3] external=P5.3-->
+      <InnerPin position="K7" external="37" />
+      <!--position=P6[3] external=P6.3-->
+      <InnerPin position="K9" external="30" />
+      <!--position=P6[7] external=P6.7-->
+      <InnerPin position="K10" external="26" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L1" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L1" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L1" external="43" />
+      <!--position=VDDR1 external=VDD-->
+      <InnerPin position="L2" external="4" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L3" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L3" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L3" external="43" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L4" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L4" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L4" external="43" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L5" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L5" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="L5" external="43" />
+      <!--position=P5[0] external=P5.0-->
+      <InnerPin position="L6" external="39" />
+      <!--position=VDDR_HVL external=VDD-->
+      <InnerPin position="L7" external="4" />
+      <!--position=P5[5] external=P5.5-->
+      <InnerPin position="L8" external="36" />
+      <!--position=P6[2] external=P6.2-->
+      <InnerPin position="L9" external="28" />
+      <!--position=P6[6] external=P6.6-->
+      <InnerPin position="L10" external="27" />
+      <!--position=VDDR2 external=VDD-->
+      <InnerPin position="M1" external="4" />
+      <!--position=VDDR3 external=VDD-->
+      <InnerPin position="M2" external="4" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="M3" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="M3" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="M3" external="43" />
+      <!--position=DVDD external=VDD-->
+      <InnerPin position="M6" external="4" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="M8" external="1" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="M8" external="15" />
+      <!--position=VSSR external=GND-->
+      <InnerPin position="M8" external="43" />
+      <!--position=P5[6] external=P5.6-->
+      <InnerPin position="M9" external="32" />
+      <!--position=P6[5] external=P6.5-->
+      <InnerPin position="M10" external="29" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="CYBLE-416070-02" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYB06447BZI-BLD53" />
+    <Param name="Package" value="43-SMT" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Infineon" />
+    <Param name="DATASHEET" value="" />
+  </Parameters>
+</View>
