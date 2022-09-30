@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="CYBT-263065-02" package="35-SMT" layout="PERIMETER_4_SIDE_INNER" x="11" y="12">
+    <ExternalPin position="1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="2" name="XRES" moduleConnection="MODULE" />
+    <ExternalPin position="3" name="P29" moduleConnection="MODULE" />
+    <ExternalPin position="4" name="P26" moduleConnection="MODULE" />
+    <ExternalPin position="5" name="P37" moduleConnection="MODULE" />
+    <ExternalPin position="6" name="P1" moduleConnection="MODULE" />
+    <ExternalPin position="7" name="P0" moduleConnection="MODULE" />
+    <ExternalPin position="8" name="P10" moduleConnection="MODULE" />
+    <ExternalPin position="9" name="P11" moduleConnection="MODULE" />
+    <ExternalPin position="10" name="P13" moduleConnection="MODULE" />
+    <ExternalPin position="11" name="P14" moduleConnection="MODULE" />
+    <ExternalPin position="12" name="P12" moduleConnection="MODULE" />
+    <ExternalPin position="13" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="14" name="P9" moduleConnection="MODULE" />
+    <ExternalPin position="15" name="P17" moduleConnection="MODULE" />
+    <ExternalPin position="16" name="P5" moduleConnection="MODULE" />
+    <ExternalPin position="17" name="P6" moduleConnection="MODULE" />
+    <ExternalPin position="18" name="P2" moduleConnection="MODULE" />
+    <ExternalPin position="19" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="20" name="XTALI_32K" moduleConnection="MODULE" />
+    <ExternalPin position="21" name="XTALO_32K" moduleConnection="MODULE" />
+    <ExternalPin position="22" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="23" name="P3" moduleConnection="MODULE" />
+    <ExternalPin position="24" name="P8" moduleConnection="MODULE" />
+    <ExternalPin position="25" name="P15" moduleConnection="MODULE" />
+    <ExternalPin position="26" name="P4" moduleConnection="MODULE" />
+    <ExternalPin position="27" name="P28" moduleConnection="MODULE" />
+    <ExternalPin position="28" name="UART_CTS_N" moduleConnection="MODULE" />
+    <ExternalPin position="29" name="HOST_WAKE" moduleConnection="MODULE" />
+    <ExternalPin position="30" name="UART_RXD" moduleConnection="MODULE" />
+    <ExternalPin position="31" name="UART_TXD" moduleConnection="MODULE" />
+    <ExternalPin position="32" name="DEV_WAKE" moduleConnection="MODULE" />
+    <ExternalPin position="33" name="UART_RTS_N" moduleConnection="MODULE" />
+    <ExternalPin position="34" name="VDD" moduleConnection="MODULE" />
+    <ExternalPin position="35" name="GND" moduleConnection="MODULE" />
+    <InternalPin name="AMPLIFIERS_RX_PU" />
+    <InternalPin name="AMPLIFIERS_TX_PU" />
+    <Component name="CYBT-263065-02/CYW20819A1KFBG" partNumber="CYW20819A1KFBG">
+      <!--position=P12 external=P12-->
+      <InnerPin position="A1" external="12" />
+      <!--position=P9 external=P9-->
+      <InnerPin position="A2" external="14" />
+      <!--position=P17 external=P17-->
+      <InnerPin position="A3" external="15" />
+      <!--position=P6 external=P6-->
+      <InnerPin position="A4" external="17" />
+      <!--position=P3 external=P3-->
+      <InnerPin position="A5" external="23" />
+      <!--position=P8 external=P8-->
+      <InnerPin position="A6" external="24" />
+      <!--position=XTALO_32K external=XTALO_32K-->
+      <InnerPin position="A7" external="21" />
+      <!--position=ADC_AVSS external=GND-->
+      <InnerPin position="A8" external="1" />
+      <!--position=ADC_AVSS external=GND-->
+      <InnerPin position="A8" external="13" />
+      <!--position=ADC_AVSS external=GND-->
+      <InnerPin position="A8" external="19" />
+      <!--position=ADC_AVSS external=GND-->
+      <InnerPin position="A8" external="22" />
+      <!--position=ADC_AVSS external=GND-->
+      <InnerPin position="A8" external="35" />
+      <!--position=P13 external=P13-->
+      <InnerPin position="B1" external="10" />
+      <!--position=P11 external=P11-->
+      <InnerPin position="B2" external="9" />
+      <!--position=P14 external=P14-->
+      <InnerPin position="B3" external="11" />
+      <!--position=P5 external=P5-->
+      <InnerPin position="B4" external="16" />
+      <!--position=P2 external=P2-->
+      <InnerPin position="B5" external="18" />
+      <!--position=P15 external=P15-->
+      <InnerPin position="B6" external="25" />
+      <!--position=XTALI_32K external=XTALI_32K-->
+      <InnerPin position="B7" external="20" />
+      <!--position=P1 external=P1-->
+      <InnerPin position="C1" external="6" />
+      <!--position=P10 external=P10-->
+      <InnerPin position="C2" external="8" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C3" external="1" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C3" external="13" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C3" external="19" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C3" external="22" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C3" external="35" />
+      <!--position=P28 external=P28-->
+      <InnerPin position="C4" external="27" />
+      <!--position=P4 external=P4-->
+      <InnerPin position="C5" external="26" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C6" external="1" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C6" external="13" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C6" external="19" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C6" external="22" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="C6" external="35" />
+      <!--position=UART_CTS_N external=UART_CTS_N-->
+      <InnerPin position="C7" external="28" />
+      <!--position=P0 external=P0-->
+      <InnerPin position="D2" external="7" />
+      <!--position=P29 external=P29-->
+      <InnerPin position="D3" external="3" />
+      <!--position=P26 external=P26-->
+      <InnerPin position="D4" external="4" />
+      <!--position=UART_TXD external=UART_TXD-->
+      <InnerPin position="D6" external="31" />
+      <!--position=UART_RXD external=UART_RXD-->
+      <InnerPin position="D7" external="30" />
+      <!--position=HOST_WAKE external=HOST_WAKE-->
+      <InnerPin position="D8" external="29" />
+      <!--position=P37 external=P37-->
+      <InnerPin position="E2" external="5" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="E3" external="1" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="E3" external="13" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="E3" external="19" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="E3" external="22" />
+      <!--position=VSSC external=GND-->
+      <InnerPin position="E3" external="35" />
+      <!--position=RFLDO_DIGLDO_VDDIN external=VDD-->
+      <InnerPin position="E5" external="34" />
+      <!--position=UART_RTS_N external=UART_RTS_N-->
+      <InnerPin position="E6" external="33" />
+      <!--position=DEV_WAKE external=DEV_WAKE-->
+      <InnerPin position="E7" external="32" />
+      <!--position=P27-->
+      <InnerPin position="F1" internal="AMPLIFIERS_RX_PU" />
+      <!--position=P32-->
+      <InnerPin position="F2" internal="AMPLIFIERS_TX_PU" />
+      <!--position=PMU_AVSS external=GND-->
+      <InnerPin position="F4" external="1" />
+      <!--position=PMU_AVSS external=GND-->
+      <InnerPin position="F4" external="13" />
+      <!--position=PMU_AVSS external=GND-->
+      <InnerPin position="F4" external="19" />
+      <!--position=PMU_AVSS external=GND-->
+      <InnerPin position="F4" external="22" />
+      <!--position=PMU_AVSS external=GND-->
+      <InnerPin position="F4" external="35" />
+      <!--position=PLLVSS external=GND-->
+      <InnerPin position="F7" external="1" />
+      <!--position=PLLVSS external=GND-->
+      <InnerPin position="F7" external="13" />
+      <!--position=PLLVSS external=GND-->
+      <InnerPin position="F7" external="19" />
+      <!--position=PLLVSS external=GND-->
+      <InnerPin position="F7" external="22" />
+      <!--position=PLLVSS external=GND-->
+      <InnerPin position="F7" external="35" />
+      <!--position=RST_N external=XRES-->
+      <InnerPin position="G1" external="2" />
+      <!--position=PAVSS external=GND-->
+      <InnerPin position="G6" external="1" />
+      <!--position=PAVSS external=GND-->
+      <InnerPin position="G6" external="13" />
+      <!--position=PAVSS external=GND-->
+      <InnerPin position="G6" external="19" />
+      <!--position=PAVSS external=GND-->
+      <InnerPin position="G6" external="22" />
+      <!--position=PAVSS external=GND-->
+      <InnerPin position="G6" external="35" />
+      <!--position=VCOVSS external=GND-->
+      <InnerPin position="G7" external="1" />
+      <!--position=VCOVSS external=GND-->
+      <InnerPin position="G7" external="13" />
+      <!--position=VCOVSS external=GND-->
+      <InnerPin position="G7" external="19" />
+      <!--position=VCOVSS external=GND-->
+      <InnerPin position="G7" external="22" />
+      <!--position=VCOVSS external=GND-->
+      <InnerPin position="G7" external="35" />
+      <!--position=SR_PVSS external=GND-->
+      <InnerPin position="H1" external="1" />
+      <!--position=SR_PVSS external=GND-->
+      <InnerPin position="H1" external="13" />
+      <!--position=SR_PVSS external=GND-->
+      <InnerPin position="H1" external="19" />
+      <!--position=SR_PVSS external=GND-->
+      <InnerPin position="H1" external="22" />
+      <!--position=SR_PVSS external=GND-->
+      <InnerPin position="H1" external="35" />
+      <!--position=IFVSS external=GND-->
+      <InnerPin position="H7" external="1" />
+      <!--position=IFVSS external=GND-->
+      <InnerPin position="H7" external="13" />
+      <!--position=IFVSS external=GND-->
+      <InnerPin position="H7" external="19" />
+      <!--position=IFVSS external=GND-->
+      <InnerPin position="H7" external="22" />
+      <!--position=IFVSS external=GND-->
+      <InnerPin position="H7" external="35" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="CYBT-263065-02" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYW20819A1KFBG" />
+    <Param name="Package" value="35-SMT" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Infineon" />
+    <Param name="DATASHEET" value="https://www.cypress.com/products/ble-bluetooth" />
+  </Parameters>
+</View>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="904">
+  <Instances count="903">
     <Instance guid="00a635bf-f848-4bad-8b36-c436e7a1f7c1" name="MUX_BKG_221" component="cy_all_mux_bkg">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -12681,23 +12681,6 @@
         <Value>MUX_BKG_36</Value>
       </Parameter>
     </Instance>
-    <Instance guid="bc65edee-f19f-477f-9468-3208d93601f2" name="REFBUF_1" component="cy_mxs40_epass_refbuf">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>REFBUF_1</Value>
-      </Parameter>
-    </Instance>
     <Instance guid="bc9ba148-ac37-48c6-84e4-289f07f13f38" name="IOSS0_PORT24_P24_P42" component="swh">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -17135,12 +17118,12 @@
   <Signals count="253">
     <Signal name="amuxbus_a_main" type="Analog" terminalCount="13">
       <Terminal name="cy_all_shapetag_disconnect_21.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_3.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_13.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_17.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_3.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_15.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_5.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_11.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_15.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_13.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_1.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_9.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_7.a" type="Instance Analog InOut" />
@@ -17150,30 +17133,18 @@
     </Signal>
     <Signal name="amuxbus_b_main" type="Analog" terminalCount="13">
       <Terminal name="cy_all_shapetag_disconnect_22.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_4.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_14.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_18.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_4.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_16.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_6.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_12.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_16.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_14.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_8.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_2.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_10.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_8.a" type="Instance Analog InOut" />
       <Terminal name="SARMUX_2.pin_37" type="Instance Analog InOut" />
       <Terminal name="SARMUX_1.pin_37" type="Instance Analog InOut" />
       <Terminal name="SARMUX_0.pin_37" type="Instance Analog InOut" />
-    </Signal>
-    <Signal name="Net_854" type="Analog" terminalCount="2">
-      <Terminal name="SARMUX_0.sarmux_out" type="Instance Analog InOut" />
-      <Terminal name="SAR_0.vplus" type="Instance Analog InOut" />
-    </Signal>
-    <Signal name="Net_902" type="Analog" terminalCount="2">
-      <Terminal name="SARMUX_1.sarmux_out" type="Instance Analog InOut" />
-      <Terminal name="SAR_1.vplus" type="Instance Analog InOut" />
-    </Signal>
-    <Signal name="Net_950" type="Analog" terminalCount="2">
-      <Terminal name="SARMUX_2.sarmux_out" type="Instance Analog InOut" />
-      <Terminal name="SAR_2.vplus" type="Instance Analog InOut" />
     </Signal>
     <Signal name="Net_955" type="Analog" terminalCount="1">
       <Terminal name="SARMUX_2.pin_18" type="Instance Analog InOut" />
@@ -17616,32 +17587,42 @@
     <Signal name="p32_7" type="Analog" terminalCount="1">
       <Terminal name="SARMUX_0.pin_15" type="Instance Analog InOut" />
     </Signal>
-    <Signal name="v_temp" type="Analog" terminalCount="4">
-      <Terminal name="SARMUX_2.pin_32" type="Instance Analog InOut" />
-      <Terminal name="SARMUX_1.pin_32" type="Instance Analog InOut" />
-      <Terminal name="SARMUX_0.pin_32" type="Instance Analog InOut" />
-      <Terminal name="REFBUF_1.vplus" type="Instance Analog InOut" />
+    <Signal name="pass0_sar_vin00" type="Analog" terminalCount="2">
+      <Terminal name="SARMUX_0.sarmux_out" type="Instance Analog InOut" />
+      <Terminal name="SAR_0.vplus" type="Instance Analog InOut" />
     </Signal>
-    <Signal name="vbg" type="Analog" terminalCount="4">
+    <Signal name="pass0_sar_vin10" type="Analog" terminalCount="2">
+      <Terminal name="SARMUX_1.sarmux_out" type="Instance Analog InOut" />
+      <Terminal name="SAR_1.vplus" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="pass0_sar_vin20" type="Analog" terminalCount="2">
+      <Terminal name="SARMUX_2.sarmux_out" type="Instance Analog InOut" />
+      <Terminal name="SAR_2.vplus" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="pass0_v_temp0" type="Analog" terminalCount="3">
+      <Terminal name="SARMUX_0.pin_32" type="Instance Analog InOut" />
+      <Terminal name="SARMUX_1.pin_32" type="Instance Analog InOut" />
+      <Terminal name="SARMUX_2.pin_32" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="pass0_vbg0" type="Analog" terminalCount="3">
+      <Terminal name="SARMUX_0.pin_33" type="Instance Analog InOut" />
       <Terminal name="SARMUX_1.pin_33" type="Instance Analog InOut" />
       <Terminal name="SARMUX_2.pin_33" type="Instance Analog InOut" />
-      <Terminal name="SARMUX_0.pin_33" type="Instance Analog InOut" />
-      <Terminal name="REFBUF_1.vplus_1" type="Instance Analog InOut" />
     </Signal>
-    <Signal name="vccd" type="Analog" terminalCount="3">
+    <Signal name="pass0_vccd0" type="Analog" terminalCount="3">
       <Terminal name="SARMUX_0.pin_35" type="Instance Analog InOut" />
       <Terminal name="SARMUX_1.pin_35" type="Instance Analog InOut" />
       <Terminal name="SARMUX_2.pin_35" type="Instance Analog InOut" />
     </Signal>
-    <Signal name="vdda" type="Analog" terminalCount="3">
+    <Signal name="pass0_vdda0" type="Analog" terminalCount="3">
       <Terminal name="SARMUX_0.pin_34" type="Instance Analog InOut" />
       <Terminal name="SARMUX_1.pin_34" type="Instance Analog InOut" />
       <Terminal name="SARMUX_2.pin_34" type="Instance Analog InOut" />
     </Signal>
     <Signal name="vssa" type="Analog" terminalCount="3">
+      <Terminal name="SARMUX_0.pin_38" type="Instance Analog InOut" />
       <Terminal name="SARMUX_1.pin_38" type="Instance Analog InOut" />
       <Terminal name="SARMUX_2.pin_38" type="Instance Analog InOut" />
-      <Terminal name="SARMUX_0.pin_38" type="Instance Analog InOut" />
     </Signal>
   </Signals>
   <Properties>

@@ -1,11 +1,11 @@
-# Device Database v4.0.0 Beta1
-For details, refer to [README.md](./README.md) for description of the Device Database.
+# Device Database v4.0.2
+For details, refer to [README.md](./README.md).
 
 ## Version info
-* Initial release
+* Align with the ModusToolbox™ 3.0 release.
+* Minor bug fixes.
 
-## More information
-
+## More information in:
 * [Device Database README.md](./README.md)
 * [ModusToolbox™ Software Environment, Quick Start Guide, Documentation, and Videos](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software)
 * [ModusToolbox™ Device Configurator user guide](https://www.infineon.com/ModusToolboxDeviceConfig)

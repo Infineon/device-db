@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CYW54907KWBG" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="4390x" />
+    <Param name="Silicon_Revision" value="PRODUCTION" />
+    <Param name="Package" value="316-WLCSP" />
+    <Param name="CPU" value="ARM CR4" />
+    <Param name="DeviceSeries" value="4390x" />
+    <Param name="Speed_MHz" value="320" />
+    <Param name="Flash_KB" value="0" />
+    <Param name="ROM_KB" value="640" />
+    <Param name="SRAM_KB" value="2048" />
+    <Param name="Bluetooth" value="NA" />
+    <Param name="Vddmin_volts" value="2.3" />
+    <Param name="Vddmax_volts" value="4.8" />
+    <Param name="TempMin_Celsius" value="-30" />
+    <Param name="TempMax_Celsius" value="85" />
+    <Param name="SiliconID" value="0x00000000" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="https://www.infineon.com/dgdl/Infineon-CYW54907_WICED_IEEE_802.11_a_b_g_n_ac_SoC_with_an_Embedded_Applications_Processor-AdditionalTechnicalInformation-v07_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee5dca76dac" />
+  </Parameters>
+  <ToolIDs>
+    <ToolID name="library-manager" />
+    <ToolID name="project-creator" />
+  </ToolIDs>
+  <DeviceComponents>
+    <DevComp name="CAT4" />
+  </DeviceComponents>
+</View>

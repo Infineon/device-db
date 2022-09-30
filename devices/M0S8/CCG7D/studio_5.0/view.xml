@@ -3,7 +3,7 @@
   <DeviceCategory>CAT2</DeviceCategory>
   <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
   <Files>
-      <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
+    <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
   </Files>
   <types>
     <type name="mcu" />

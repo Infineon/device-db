@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="CYBT-413061-02" package="30-SMT" layout="PERIMETER_4_SIDE_INNER" x="10" y="10">
+    <ExternalPin position="1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="2" name="VDD" moduleConnection="MODULE" />
+    <ExternalPin position="3" name="XRES" moduleConnection="MODULE" />
+    <ExternalPin position="4" name="P25" moduleConnection="MODULE" />
+    <ExternalPin position="5" name="P33" moduleConnection="MODULE" />
+    <ExternalPin position="6" name="P26" moduleConnection="MODULE" />
+    <ExternalPin position="7" name="P38" moduleConnection="MODULE" />
+    <ExternalPin position="8" name="P1" moduleConnection="MODULE" />
+    <ExternalPin position="9" name="P0" moduleConnection="MODULE" />
+    <ExternalPin position="10" name="P29" moduleConnection="MODULE" />
+    <ExternalPin position="11" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="12" name="P28" moduleConnection="MODULE" />
+    <ExternalPin position="13" name="P17" moduleConnection="MODULE" />
+    <ExternalPin position="14" name="P7" moduleConnection="MODULE" />
+    <ExternalPin position="15" name="P4" moduleConnection="MODULE" />
+    <ExternalPin position="16" name="P2" moduleConnection="MODULE" />
+    <ExternalPin position="17" name="P16" moduleConnection="MODULE" />
+    <ExternalPin position="18" name="XTALI_32K/P15" moduleConnection="MODULE" />
+    <ExternalPin position="19" name="P6" moduleConnection="MODULE" />
+    <ExternalPin position="20" name="XTALO_32K" moduleConnection="MODULE" />
+    <ExternalPin position="21" name="P10" moduleConnection="MODULE" />
+    <ExternalPin position="22" name="P34" moduleConnection="MODULE" />
+    <ExternalPin position="23" name="UART_CTS_N" moduleConnection="MODULE" />
+    <ExternalPin position="24" name="UART_RTS_N" moduleConnection="MODULE" />
+    <ExternalPin position="25" name="UART_TXD" moduleConnection="MODULE" />
+    <ExternalPin position="26" name="UART_RXD" moduleConnection="MODULE" />
+    <ExternalPin position="27" name="HOST_WAKE" moduleConnection="MODULE" />
+    <ExternalPin position="28" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="29" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="30" name="GND" moduleConnection="MODULE" />
+    <Component name="CYBT-413061-02/CYW20721B2KUMLG" partNumber="CYW20721B2KUMLG">
+      <!--position=P28 external=P28-->
+      <InnerPin position="1" external="12" />
+      <!--position=P29 external=P29-->
+      <InnerPin position="2" external="10" />
+      <!--position=P0 external=P0-->
+      <InnerPin position="3" external="9" />
+      <!--position=P1 external=P1-->
+      <InnerPin position="4" external="8" />
+      <!--position=P34 external=P34-->
+      <InnerPin position="5" external="22" />
+      <!--position=P38 external=P38-->
+      <InnerPin position="6" external="7" />
+      <!--position=P26 external=P26-->
+      <InnerPin position="7" external="6" />
+      <!--position=P25 external=P25-->
+      <InnerPin position="8" external="4" />
+      <!--position=P33 external=P33-->
+      <InnerPin position="9" external="5" />
+      <!--position=RST_N external=XRES-->
+      <InnerPin position="10" external="3" />
+      <!--position=BT_HOST_WAKE external=HOST_WAKE-->
+      <InnerPin position="24" external="27" />
+      <!--position=BT_VDDO external=VDD-->
+      <InnerPin position="25" external="2" />
+      <!--position=BT_UART_RXD external=UART_RXD-->
+      <InnerPin position="27" external="26" />
+      <!--position=BT_UART_TXD external=UART_TXD-->
+      <InnerPin position="28" external="25" />
+      <!--position=BT_UART_RTS_N external=UART_RTS_N-->
+      <InnerPin position="29" external="24" />
+      <!--position=BT_UART_CTS_N external=UART_CTS_N-->
+      <InnerPin position="30" external="23" />
+      <!--position=XTALO_32K external=XTALO_32K-->
+      <InnerPin position="31" external="20" />
+      <!--position=P15/XTALI_32K external=XTALI_32K/P15-->
+      <InnerPin position="32" external="18" />
+      <!--position=P16 external=P16-->
+      <InnerPin position="33" external="17" />
+      <!--position=P2 external=P2-->
+      <InnerPin position="34" external="16" />
+      <!--position=P4 external=P4-->
+      <InnerPin position="35" external="15" />
+      <!--position=P6 external=P6-->
+      <InnerPin position="36" external="19" />
+      <!--position=P7 external=P7-->
+      <InnerPin position="37" external="14" />
+      <!--position=P17 external=P17-->
+      <InnerPin position="38" external="13" />
+      <!--position=VDDO external=VDD-->
+      <InnerPin position="39" external="2" />
+      <!--position=P10 external=P10-->
+      <InnerPin position="40" external="21" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H" external="11" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H" external="28" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H" external="29" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="H" external="30" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="CYBT-413061-02" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYW20721B2KUMLG" />
+    <Param name="Package" value="30-SMT" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Infineon" />
+    <Param name="DATASHEET" value="https://www.cypress.com/ble" />
+  </Parameters>
+</View>

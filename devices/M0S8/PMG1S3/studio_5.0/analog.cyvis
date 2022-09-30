@@ -6717,52 +6717,57 @@
     <Wire shapeName="Shape_3606" zorder="527" effectiveName="p5_3" type="Analog">
       <Point1 x="210" y="600" />
       <Point2 x="222" y="600" />
-      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3607" zorder="529" effectiveName="p5_2" type="Analog">
       <Point1 x="210" y="582" />
       <Point2 x="240" y="582" />
-      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3608" zorder="531" effectiveName="p5_1" type="Analog">
       <Point1 x="210" y="564" />
       <Point2 x="258" y="564" />
-      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3609" zorder="533" effectiveName="p5_0" type="Analog">
       <Point1 x="210" y="546" />
       <Point2 x="276" y="546" />
-      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3610" zorder="535" effectiveName="amuxbus_b_csd" type="Analog">
       <Point1 x="210" y="528" />
       <Point2 x="294" y="528" />
-      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3611" zorder="537" effectiveName="amuxbus_a_csd" type="Digital">
       <Point1 x="210" y="510" />
       <Point2 x="312" y="510" />
-      <ShapeTags>wl:lpcomp[0].comp[0]</ShapeTags>
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3612" zorder="539" effectiveName="p5_3" type="Analog">
       <Point1 x="222" y="600" />
       <Point2 x="222" y="636" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3613" zorder="541" effectiveName="p5_2" type="Analog">
       <Point1 x="240" y="582" />
       <Point2 x="240" y="636" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3614" zorder="543" effectiveName="p5_1" type="Analog">
       <Point1 x="258" y="564" />
       <Point2 x="258" y="636" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3615" zorder="545" effectiveName="p5_0" type="Analog">
       <Point1 x="276" y="546" />
       <Point2 x="276" y="636" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3616" zorder="547" effectiveName="amuxbus_b_csd" type="Digital">
       <Point1 x="294" y="528" />
       <Point2 x="294" y="642" solderDot="true" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
       <Annotation zorder="548">
         <Location x="294" y="588" />
         <Text />
@@ -6774,6 +6779,7 @@
     <Wire shapeName="Shape_3617" zorder="549" effectiveName="amuxbus_a_csd" type="Digital">
       <Point1 x="312" y="510" />
       <Point2 x="312" y="660" solderDot="true" />
+      <ShapeTags>wl:csd[0].csd[0]</ShapeTags>
     </Wire>
     <Wire shapeName="Shape_3624" zorder="515" effectiveName="amuxbus_b_pass" type="Analog">
       <Point1 x="696" y="126" solderDot="true" />
@@ -7407,7 +7413,7 @@
       <Text>AMUXBUSA</Text>
       <Vertical value="true" />
       <Fill>
-        <SolidBrush color="0, 0, 0" />
+        <SolidBrush color="128, 128, 128" />
       </Fill>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="BottomRight" />
@@ -7417,7 +7423,7 @@
       <Text>AMUXBUSB</Text>
       <Vertical value="true" />
       <Fill>
-        <SolidBrush color="0, 0, 0" />
+        <SolidBrush color="128, 128, 128" />
       </Fill>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="BottomRight" />

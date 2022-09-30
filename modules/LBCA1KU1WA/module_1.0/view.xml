@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="LBCA1KU1WA" package="84-LGA" layout="GRID" x="12" y="14">
+    <ExternalPin position="A1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="A3" name="BT_CBUCK_OUT" moduleConnection="MODULE" />
+    <ExternalPin position="A5" name="P31" moduleConnection="MODULE" />
+    <ExternalPin position="A7" name="BT_XTAL_32K_I" moduleConnection="MODULE" />
+    <ExternalPin position="A9" name="BT_XTAL_32K_O" moduleConnection="MODULE" />
+    <ExternalPin position="A11" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="B2" name="VDD3P3" moduleConnection="MODULE" />
+    <ExternalPin position="B4" name="P32" moduleConnection="MODULE" />
+    <ExternalPin position="B6" name="P24" moduleConnection="MODULE" />
+    <ExternalPin position="B8" name="P36" moduleConnection="MODULE" />
+    <ExternalPin position="B10" name="P21" moduleConnection="MODULE" />
+    <ExternalPin position="B12" name="P22" moduleConnection="MODULE" />
+    <ExternalPin position="C1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="C3" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="C5" name="NC" />
+    <ExternalPin position="C7" name="P26" moduleConnection="MODULE" />
+    <ExternalPin position="C9" name="P10" moduleConnection="MODULE" />
+    <ExternalPin position="C11" name="P14" moduleConnection="MODULE" />
+    <ExternalPin position="D2" name="BT_CBUCK_IN" moduleConnection="MODULE" />
+    <ExternalPin position="D4" name="P30" moduleConnection="MODULE" />
+    <ExternalPin position="D6" name="P35" moduleConnection="MODULE" />
+    <ExternalPin position="D8" name="P1" moduleConnection="MODULE" />
+    <ExternalPin position="D10" name="P28" moduleConnection="MODULE" />
+    <ExternalPin position="D12" name="P20" moduleConnection="MODULE" />
+    <ExternalPin position="E1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="E3" name="P27" moduleConnection="MODULE" />
+    <ExternalPin position="E5" name="P0" moduleConnection="MODULE" />
+    <ExternalPin position="E7" name="P12" moduleConnection="MODULE" />
+    <ExternalPin position="E9" name="P3" moduleConnection="MODULE" />
+    <ExternalPin position="E11" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="F2" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="F4" name="P25" moduleConnection="MODULE" />
+    <ExternalPin position="F6" name="P23" moduleConnection="MODULE" />
+    <ExternalPin position="F8" name="P19" moduleConnection="MODULE" />
+    <ExternalPin position="F10" name="P2" moduleConnection="MODULE" />
+    <ExternalPin position="F12" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="G1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="G3" name="P29" moduleConnection="MODULE" />
+    <ExternalPin position="G5" name="P18" moduleConnection="MODULE" />
+    <ExternalPin position="G7" name="P11" moduleConnection="MODULE" />
+    <ExternalPin position="G9" name="P9" moduleConnection="MODULE" />
+    <ExternalPin position="G11" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="H2" name="P37" moduleConnection="MODULE" />
+    <ExternalPin position="H4" name="P13" moduleConnection="MODULE" />
+    <ExternalPin position="H6" name="P16" moduleConnection="MODULE" />
+    <ExternalPin position="H8" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="H10" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="H12" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="J1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="J3" name="P33" moduleConnection="MODULE" />
+    <ExternalPin position="J5" name="P34" moduleConnection="MODULE" />
+    <ExternalPin position="J7" name="P8" moduleConnection="MODULE" />
+    <ExternalPin position="J9" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="J11" name="BT_UART_CTS_N" moduleConnection="MODULE" />
+    <ExternalPin position="K2" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="K4" name="P38" moduleConnection="MODULE" />
+    <ExternalPin position="K6" name="P17" moduleConnection="MODULE" />
+    <ExternalPin position="K8" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="K10" name="BT_UART_TXD" moduleConnection="MODULE" />
+    <ExternalPin position="K12" name="P15" moduleConnection="MODULE" />
+    <ExternalPin position="L1" name="RF" moduleConnection="MODULE" />
+    <ExternalPin position="L3" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="L5" name="P7" moduleConnection="MODULE" />
+    <ExternalPin position="L7" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="L9" name="BT_GPIO2" moduleConnection="MODULE" />
+    <ExternalPin position="L11" name="BT_UART_RTS_N" moduleConnection="MODULE" />
+    <ExternalPin position="M2" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="M4" name="P4" moduleConnection="MODULE" />
+    <ExternalPin position="M6" name="P5" moduleConnection="MODULE" />
+    <ExternalPin position="M8" name="BT_HOST_WAKE" moduleConnection="MODULE" />
+    <ExternalPin position="M10" name="BT_UART_RXD" moduleConnection="MODULE" />
+    <ExternalPin position="M12" name="VDDIO" moduleConnection="MODULE" />
+    <ExternalPin position="N1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="N3" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="N5" name="P6" moduleConnection="MODULE" />
+    <ExternalPin position="N7" name="BT_GPIO5" moduleConnection="MODULE" />
+    <ExternalPin position="N9" name="BT_GPIO3" moduleConnection="MODULE" />
+    <ExternalPin position="N11" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="P2" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="P4" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="P6" name="BT_GPIO4" moduleConnection="MODULE" />
+    <ExternalPin position="P8" name="BT_DEV_WAKE" moduleConnection="MODULE" />
+    <ExternalPin position="P10" name="RST_N" moduleConnection="MODULE" />
+    <ExternalPin position="P12" name="GND" moduleConnection="MODULE" />
+    <Component name="LBCA1KU1WA/CYW20721B2KWB9G" partNumber="CYW20721B2KWB9G">
+      <!--position=P2 external=P2-->
+      <InnerPin position="(32.29,556.89)" external="F10" />
+      <!--position=P16 external=P16-->
+      <InnerPin position="(32.29,756.89)" external="H6" />
+      <!--position=P15 external=P15-->
+      <InnerPin position="(32.29,1356.88)" external="K12" />
+      <!--position=XTALO_32K external=BT_XTAL_32K_O-->
+      <InnerPin position="(232.29,1156.88)" external="A9" />
+      <!--position=XTALI_32K external=BT_XTAL_32K_I-->
+      <InnerPin position="(232.29,1356.88)" external="A7" />
+      <!--position=BT_GPIO_4 external=BT_GPIO4-->
+      <InnerPin position="(632.28,156.89)" external="P6" />
+      <!--position=BT_GPIO_3 external=BT_GPIO3-->
+      <InnerPin position="(632.28,556.89)" external="N9" />
+      <!--position=BT_UART_TXD external=BT_UART_TXD-->
+      <InnerPin position="(632.28,756.89)" external="K10" />
+      <!--position=BT_GPIO_5 external=BT_GPIO5-->
+      <InnerPin position="(832.28,156.89)" external="N7" />
+      <!--position=BT_UART_RXD external=BT_UART_RXD-->
+      <InnerPin position="(832.28,756.89)" external="M10" />
+      <!--position=BT_UART_RTS_N external=BT_UART_RTS_N-->
+      <InnerPin position="(832.28,956.88)" external="L11" />
+      <!--position=BT_RF external=RF-->
+      <InnerPin position="(988.31,-1475)" external="L1" />
+      <!--position=BT_GPIO_2 external=BT_GPIO2-->
+      <InnerPin position="(1032.28,756.89)" external="L9" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="A1" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="A11" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="C1" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="C3" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="E1" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="E11" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="F2" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="F12" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="G1" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="G11" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="H8" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="H10" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="H12" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="J1" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="J9" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="K2" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="K8" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="L3" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="L7" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="M2" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="N1" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="N3" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="N11" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="P2" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="P4" />
+      <!--position=Reserved_GND external=GND-->
+      <InnerPin position="(1032.28,1156.88)" external="P12" />
+      <!--position=BT_DEV_WAKE external=BT_DEV_WAKE-->
+      <InnerPin position="(1032.28,-43.1)" external="P8" />
+      <!--position=BT_HOST_WAKE external=BT_HOST_WAKE-->
+      <InnerPin position="(1232.28,156.89)" external="M8" />
+      <!--position=BT_UART_CTS_N external=BT_UART_CTS_N-->
+      <InnerPin position="(1232.28,1156.88)" external="J11" />
+      <!--position=BT_VDDO external=VDDIO-->
+      <InnerPin position="(1232.28,1356.88)" external="M12" />
+      <!--position=P3 external=P3-->
+      <InnerPin position="(-167.7,1156.88)" external="E9" />
+      <!--position=P8 external=P8-->
+      <InnerPin position="(-367.7,356.89)" external="J7" />
+      <!--position=P7 external=P7-->
+      <InnerPin position="(-367.7,556.89)" external="L5" />
+      <!--position=P6 external=P6-->
+      <InnerPin position="(-367.7,756.89)" external="N5" />
+      <!--position=P5 external=P5-->
+      <InnerPin position="(-367.7,956.88)" external="M6" />
+      <!--position=P4 external=P4-->
+      <InnerPin position="(-367.7,1156.88)" external="M4" />
+      <!--position=P0 external=P0-->
+      <InnerPin position="(-367.7,-243.09)" external="E5" />
+      <!--position=P18 external=P18-->
+      <InnerPin position="(-567.7,756.89)" external="G5" />
+      <!--position=P17 external=P17-->
+      <InnerPin position="(-567.7,956.88)" external="K6" />
+      <!--position=P14 external=P14-->
+      <InnerPin position="(-567.7,1156.88)" external="C11" />
+      <!--position=P27 external=P27-->
+      <InnerPin position="(-567.7,-243.09)" external="E3" />
+      <!--position=P29 external=P29-->
+      <InnerPin position="(-767.7,156.89)" external="G3" />
+      <!--position=P11 external=P11-->
+      <InnerPin position="(-767.7,356.89)" external="G7" />
+      <!--position=P10 external=P10-->
+      <InnerPin position="(-767.7,556.89)" external="C9" />
+      <!--position=P9 external=P9-->
+      <InnerPin position="(-767.7,756.89)" external="G9" />
+      <!--position=P19 external=P19-->
+      <InnerPin position="(-767.7,956.88)" external="F8" />
+      <!--position=P37 external=P37-->
+      <InnerPin position="(-767.7,-43.1)" external="H2" />
+      <!--position=P30 external=P30-->
+      <InnerPin position="(-767.7,-243.09)" external="D4" />
+      <!--position=P33 external=P33-->
+      <InnerPin position="(-767.7,-443.09)" external="J3" />
+      <!--position=P34 external=P34-->
+      <InnerPin position="(-967.69,156.89)" external="J5" />
+      <!--position=P13 external=P13-->
+      <InnerPin position="(-967.69,356.89)" external="H4" />
+      <!--position=P23 external=P23-->
+      <InnerPin position="(-967.69,556.89)" external="F6" />
+      <!--position=P21 external=P21-->
+      <InnerPin position="(-967.69,756.89)" external="B10" />
+      <!--position=P12 external=P12-->
+      <InnerPin position="(-967.69,956.88)" external="E7" />
+      <!--position=P20 external=P20-->
+      <InnerPin position="(-967.69,1356.88)" external="D12" />
+      <!--position=P38 external=P38-->
+      <InnerPin position="(-967.69,-43.1)" external="K4" />
+      <!--position=VDDBAT3V external=VDD3P3-->
+      <InnerPin position="(-1059.5,-1218.99)" external="B2" />
+      <!--position=SR_VDDBAT3V external=VDD3P3-->
+      <InnerPin position="(-1059.5,-1418.99)" external="B2" />
+      <!--position=P35 external=P35-->
+      <InnerPin position="(-1167.69,556.89)" external="D6" />
+      <!--position=P1 external=P1-->
+      <InnerPin position="(-1167.69,756.89)" external="D8" />
+      <!--position=P28 external=P28-->
+      <InnerPin position="(-1167.69,956.88)" external="D10" />
+      <!--position=P22 external=P22-->
+      <InnerPin position="(-1167.69,1156.88)" external="B12" />
+      <!--position=P24 external=P24-->
+      <InnerPin position="(-1167.69,-43.1)" external="B6" />
+      <!--position=P25 external=P25-->
+      <InnerPin position="(-1167.69,-243.09)" external="F4" />
+      <!--position=SR_VLX external=BT_CBUCK_OUT-->
+      <InnerPin position="(-1259.5,-1218.99)" external="A3" />
+      <!--position=SR_VLX external=BT_CBUCK_IN-->
+      <InnerPin position="(-1259.5,-1218.99)" external="D2" />
+      <!--position=P26 external=P26-->
+      <InnerPin position="(-1367.69,156.89)" external="C7" />
+      <!--position=P31 external=P31-->
+      <InnerPin position="(-1367.69,356.89)" external="A5" />
+      <!--position=P36 external=P36-->
+      <InnerPin position="(-1367.69,756.89)" external="B8" />
+      <!--position=P32 external=P32-->
+      <InnerPin position="(-1367.69,-243.09)" external="B4" />
+      <!--position=RST_N external=RST_N-->
+      <InnerPin position="(-1367.69,-443.09)" external="P10" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="LBCA1KU1WA" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYW20721B2KWB9G" />
+    <Param name="Package" value="84-LGA" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Murata" />
+    <Param name="DATASHEET" value="https://www.cypress.com/products/ble-bluetooth" />
+  </Parameters>
+</View>

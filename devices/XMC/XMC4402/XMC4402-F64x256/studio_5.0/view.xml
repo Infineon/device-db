@@ -47,4 +47,13 @@
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
   </Parameters>
+  <ToolIDs>
+    <ToolID name="device-configurator" />
+    <ToolID name="library-manager" />
+    <ToolID name="project-creator" />
+  </ToolIDs>
+  <DeviceComponents>
+    <DevComp name="CAT3" />
+    <DevComp name="XMC44XX" />
+  </DeviceComponents>
 </View>

@@ -1,0 +1,976 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="CYSBSYS-RP01" package="73-SIP" layout="PERIMETER_4_SIDE_INNER" x="17" y="28">
+    <ExternalPin position="1" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="2" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="3" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="4" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="5" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="6" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="7" name="P11_7" moduleConnection="MODULE" />
+    <ExternalPin position="8" name="P11_3" moduleConnection="MODULE" />
+    <ExternalPin position="9" name="P11_5" moduleConnection="MODULE" />
+    <ExternalPin position="10" name="P11_4" moduleConnection="MODULE" />
+    <ExternalPin position="11" name="P11_6" moduleConnection="MODULE" />
+    <ExternalPin position="12" name="P11_2" moduleConnection="MODULE" />
+    <ExternalPin position="13" name="P11_1" moduleConnection="MODULE" />
+    <ExternalPin position="14" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="15" name="P5_5" moduleConnection="MODULE" />
+    <ExternalPin position="16" name="P6_0" moduleConnection="MODULE" />
+    <ExternalPin position="17" name="P6_1" moduleConnection="MODULE" />
+    <ExternalPin position="18" name="P5_4" moduleConnection="MODULE" />
+    <ExternalPin position="19" name="P5_1" moduleConnection="MODULE" />
+    <ExternalPin position="20" name="P5_0" moduleConnection="MODULE" />
+    <ExternalPin position="21" name="P5_2" moduleConnection="MODULE" />
+    <ExternalPin position="22" name="VBAT_WL" moduleConnection="MODULE" />
+    <ExternalPin position="23" name="VBAT_WL" moduleConnection="MODULE" />
+    <ExternalPin position="24" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="25" name="VDDIO_WL" moduleConnection="MODULE" />
+    <ExternalPin position="26" name="P5_7" moduleConnection="MODULE" />
+    <ExternalPin position="27" name="P5_3" moduleConnection="MODULE" />
+    <ExternalPin position="28" name="P5_6" moduleConnection="MODULE" />
+    <ExternalPin position="29" name="P8_4" moduleConnection="MODULE" />
+    <ExternalPin position="30" name="P8_0" moduleConnection="MODULE" />
+    <ExternalPin position="31" name="P8_3" moduleConnection="MODULE" />
+    <ExternalPin position="32" name="P8_2" moduleConnection="MODULE" />
+    <ExternalPin position="33" name="P8_1" moduleConnection="MODULE" />
+    <ExternalPin position="34" name="P7_3" moduleConnection="MODULE" />
+    <ExternalPin position="35" name="P0_4" moduleConnection="MODULE" />
+    <ExternalPin position="36" name="P0_5" moduleConnection="MODULE" />
+    <ExternalPin position="37" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="38" name="P6_3" moduleConnection="MODULE" />
+    <ExternalPin position="39" name="P6_2" moduleConnection="MODULE" />
+    <ExternalPin position="40" name="P11_0" moduleConnection="MODULE" />
+    <ExternalPin position="41" name="P10_0" moduleConnection="MODULE" />
+    <ExternalPin position="42" name="P10_1" moduleConnection="MODULE" />
+    <ExternalPin position="43" name="P10_2" moduleConnection="MODULE" />
+    <ExternalPin position="44" name="P10_3" moduleConnection="MODULE" />
+    <ExternalPin position="45" name="P10_4" moduleConnection="MODULE" />
+    <ExternalPin position="46" name="P10_7" moduleConnection="MODULE" />
+    <ExternalPin position="47" name="P10_5" moduleConnection="MODULE" />
+    <ExternalPin position="48" name="P10_6" moduleConnection="MODULE" />
+    <ExternalPin position="49" name="XRES_L" moduleConnection="MODULE" />
+    <ExternalPin position="50" name="VDDD" moduleConnection="MODULE" />
+    <ExternalPin position="51" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="52" name="USBDP" moduleConnection="MODULE" />
+    <ExternalPin position="53" name="USBDM" moduleConnection="MODULE" />
+    <ExternalPin position="54" name="VDDUSB" moduleConnection="MODULE" />
+    <ExternalPin position="55" name="VDDIO0" moduleConnection="MODULE" />
+    <ExternalPin position="56" name="VBACKUP" moduleConnection="MODULE" />
+    <ExternalPin position="57" name="P12_7" moduleConnection="MODULE" />
+    <ExternalPin position="58" name="P12_6" moduleConnection="MODULE" />
+    <ExternalPin position="59" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="60" name="P9_2" moduleConnection="MODULE" />
+    <ExternalPin position="61" name="P9_7" moduleConnection="MODULE" />
+    <ExternalPin position="62" name="P9_4" moduleConnection="MODULE" />
+    <ExternalPin position="63" name="P9_0" moduleConnection="MODULE" />
+    <ExternalPin position="64" name="P9_3" moduleConnection="MODULE" />
+    <ExternalPin position="65" name="VDDA" moduleConnection="MODULE" />
+    <ExternalPin position="66" name="P9_1" moduleConnection="MODULE" />
+    <ExternalPin position="67" name="VDDIO1" moduleConnection="MODULE" />
+    <ExternalPin position="68" name="P6_4" moduleConnection="MODULE" />
+    <ExternalPin position="69" name="P6_7" moduleConnection="MODULE" />
+    <ExternalPin position="70" name="P6_5" moduleConnection="MODULE" />
+    <ExternalPin position="71" name="P6_6" moduleConnection="MODULE" />
+    <ExternalPin position="72" name="P7_0" moduleConnection="MODULE" />
+    <ExternalPin position="73" name="GND" moduleConnection="MODULE" />
+    <InternalPin name="BT_DEVICE_WAKE" />
+    <InternalPin name="BT_HOST_WAKE" />
+    <InternalPin name="BT_POWER" />
+    <InternalPin name="BT_UART_CTS" />
+    <InternalPin name="BT_UART_RTS" />
+    <InternalPin name="BT_UART_RX" />
+    <InternalPin name="BT_UART_TX" />
+    <InternalPin name="WCO_IN" />
+    <InternalPin name="WCO_OUT" />
+    <InternalPin name="WIFI_DEVICE_WAKE" />
+    <InternalPin name="WIFI_HOST_WAKE" />
+    <InternalPin name="WIFI_SDIO_CLK" />
+    <InternalPin name="WIFI_SDIO_CMD" />
+    <InternalPin name="WIFI_SDIO_D0" />
+    <InternalPin name="WIFI_SDIO_D1" />
+    <InternalPin name="WIFI_SDIO_D2" />
+    <InternalPin name="WIFI_SDIO_D3" />
+    <InternalPin name="WIFI_WL_REG_ON" />
+    <Component name="CYSBSYS-RP01/CY8C624AFNI-S2D43" partNumber="CY8C624AFNI-S2D43">
+      <!--position=P10[6] external=P10_6-->
+      <InnerPin position="A3" external="48" />
+      <!--position=P11[5] external=P11_5-->
+      <InnerPin position="A5" external="9" />
+      <!--position=P11[3] external=P11_3-->
+      <InnerPin position="A7" external="8" />
+      <!--position=P12[0]-->
+      <InnerPin position="A9" internal="BT_POWER" />
+      <!--position=VDDIO0 external=VDDIO0-->
+      <InnerPin position="A11" external="55" />
+      <!--position=P12[2]-->
+      <InnerPin position="A13" internal="BT_DEVICE_WAKE" />
+      <!--position=P10[2] external=P10_2-->
+      <InnerPin position="B2" external="43" />
+      <!--position=P10[5] external=P10_5-->
+      <InnerPin position="B4" external="47" />
+      <!--position=P11[4] external=P11_4-->
+      <InnerPin position="B6" external="10" />
+      <!--position=P11[7] external=P11_7-->
+      <InnerPin position="B8" external="7" />
+      <!--position=P12[3]-->
+      <InnerPin position="B10" internal="BT_HOST_WAKE" />
+      <!--position=P13[7]-->
+      <InnerPin position="B16" internal="BT_UART_CTS" />
+      <!--position=P9[7] external=P9_7-->
+      <InnerPin position="C1" external="61" />
+      <!--position=P10[4] external=P10_4-->
+      <InnerPin position="C5" external="45" />
+      <!--position=P11[6] external=P11_6-->
+      <InnerPin position="C7" external="11" />
+      <!--position=P12[6] external=P12_6-->
+      <InnerPin position="C11" external="58" />
+      <!--position=VBACKUP external=VBACKUP-->
+      <InnerPin position="C17" external="56" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="2" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="3" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="4" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="5" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="6" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="14" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="24" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="37" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="51" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="59" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="73" />
+      <!--position=P10[3] external=P10_3-->
+      <InnerPin position="D4" external="44" />
+      <!--position=P11[1] external=P11_1-->
+      <InnerPin position="D6" external="13" />
+      <!--position=P12[7] external=P12_7-->
+      <InnerPin position="D10" external="57" />
+      <!--position=VDDD external=VDDD-->
+      <InnerPin position="D14" external="50" />
+      <!--position=P9[0] external=P9_0-->
+      <InnerPin position="E1" external="63" />
+      <!--position=P9[4] external=P9_4-->
+      <InnerPin position="E3" external="62" />
+      <!--position=P10[1] external=P10_1-->
+      <InnerPin position="E5" external="42" />
+      <!--position=P11[2] external=P11_2-->
+      <InnerPin position="E7" external="12" />
+      <!--position=P11[0] external=P11_0-->
+      <InnerPin position="E9" external="40" />
+      <!--position=P13[4]-->
+      <InnerPin position="E11" internal="BT_UART_RX" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="2" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="3" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="4" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="5" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="6" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="14" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="24" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="37" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="51" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="59" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="E13" external="73" />
+      <!--position=XRES external=XRES_L-->
+      <InnerPin position="E17" external="49" />
+      <!--position=P8[4] external=P8_4-->
+      <InnerPin position="F2" external="29" />
+      <!--position=P9[3] external=P9_3-->
+      <InnerPin position="F4" external="64" />
+      <!--position=P10[0] external=P10_0-->
+      <InnerPin position="F6" external="41" />
+      <!--position=P10[7] external=P10_7-->
+      <InnerPin position="F8" external="46" />
+      <!--position=P13[5]-->
+      <InnerPin position="F10" internal="BT_UART_TX" />
+      <!--position=P13[6]-->
+      <InnerPin position="F12" internal="BT_UART_RTS" />
+      <!--position=P0[0]-->
+      <InnerPin position="F14" internal="WCO_IN" />
+      <!--position=P0[5] external=P0_5-->
+      <InnerPin position="F16" external="36" />
+      <!--position=P9[1] external=P9_1-->
+      <InnerPin position="G3" external="66" />
+      <!--position=P9[2] external=P9_2-->
+      <InnerPin position="G5" external="60" />
+      <!--position=P5[7] external=P5_7-->
+      <InnerPin position="G7" external="26" />
+      <!--position=P5[6] external=P5_6-->
+      <InnerPin position="G9" external="28" />
+      <!--position=P0[4] external=P0_4-->
+      <InnerPin position="G11" external="35" />
+      <!--position=P0[1]-->
+      <InnerPin position="G13" internal="WCO_OUT" />
+      <!--position=P8[0] external=P8_0-->
+      <InnerPin position="H2" external="30" />
+      <!--position=P8[3] external=P8_3-->
+      <InnerPin position="H4" external="31" />
+      <!--position=P8[2] external=P8_2-->
+      <InnerPin position="H6" external="32" />
+      <!--position=P7[3] external=P7_3-->
+      <InnerPin position="H8" external="34" />
+      <!--position=P5[3] external=P5_3-->
+      <InnerPin position="H10" external="27" />
+      <!--position=P1[4]-->
+      <InnerPin position="H14" internal="WIFI_HOST_WAKE" />
+      <!--position=VDDA external=VDDA-->
+      <InnerPin position="J1" external="65" />
+      <!--position=P8[1] external=P8_1-->
+      <InnerPin position="J5" external="33" />
+      <!--position=P6[4] external=P6_4-->
+      <InnerPin position="J9" external="68" />
+      <!--position=P5[2] external=P5_2-->
+      <InnerPin position="J11" external="21" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="2" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="3" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="4" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="5" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="6" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="14" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="24" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="37" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="51" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="59" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="J13" external="73" />
+      <!--position=VDDUSB external=VDDUSB-->
+      <InnerPin position="J17" external="54" />
+      <!--position=VDDIO1 external=VDDIO1-->
+      <InnerPin position="K2" external="67" />
+      <!--position=P6[7] external=P6_7-->
+      <InnerPin position="K4" external="69" />
+      <!--position=P7[0] external=P7_0-->
+      <InnerPin position="K6" external="72" />
+      <!--position=P6[3] external=P6_3-->
+      <InnerPin position="K8" external="38" />
+      <!--position=P5[1] external=P5_1-->
+      <InnerPin position="K10" external="19" />
+      <!--position=P2[1]-->
+      <InnerPin position="K12" internal="WIFI_SDIO_D1" />
+      <!--position=P14[0]/USBDP external=USBDP-->
+      <InnerPin position="K14" external="52" />
+      <!--position=P14[1]/USBDM external=USBDM-->
+      <InnerPin position="K16" external="53" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="1" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="2" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="3" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="4" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="5" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="6" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="14" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="24" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="37" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="51" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="59" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="L1" external="73" />
+      <!--position=P6[5] external=P6_5-->
+      <InnerPin position="L3" external="70" />
+      <!--position=P6[2] external=P6_2-->
+      <InnerPin position="L5" external="39" />
+      <!--position=P6[1] external=P6_1-->
+      <InnerPin position="L7" external="17" />
+      <!--position=P5[4] external=P5_4-->
+      <InnerPin position="L9" external="18" />
+      <!--position=P2[4]-->
+      <InnerPin position="L11" internal="WIFI_SDIO_CMD" />
+      <!--position=P2[3]-->
+      <InnerPin position="L13" internal="WIFI_SDIO_D3" />
+      <!--position=P2[2]-->
+      <InnerPin position="L15" internal="WIFI_SDIO_D2" />
+      <!--position=P2[0]-->
+      <InnerPin position="L17" internal="WIFI_SDIO_D0" />
+      <!--position=P6[6] external=P6_6-->
+      <InnerPin position="M2" external="71" />
+      <!--position=P6[0] external=P6_0-->
+      <InnerPin position="M4" external="16" />
+      <!--position=P5[5] external=P5_5-->
+      <InnerPin position="M6" external="15" />
+      <!--position=P5[0] external=P5_0-->
+      <InnerPin position="M8" external="20" />
+      <!--position=P2[7]-->
+      <InnerPin position="M12" internal="WIFI_DEVICE_WAKE" />
+      <!--position=P2[6]-->
+      <InnerPin position="M14" internal="WIFI_WL_REG_ON" />
+      <!--position=P2[5]-->
+      <InnerPin position="M16" internal="WIFI_SDIO_CLK" />
+    </Component>
+    <Component name="CYSBSYS-RP01/CYW43012TC0KFFBH" partNumber="CYW43012TC0KFFBH">
+      <!--position=SR_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="A6" external="22" />
+      <!--position=SR_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="A6" external="23" />
+      <!--position=WL_REG_ON-->
+      <InnerPin position="A11" internal="WIFI_WL_REG_ON" />
+      <!--position=VDDIO_RF1 external=VDDIO_WL-->
+      <InnerPin position="A12" external="25" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="1" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="2" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="3" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="4" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="5" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="6" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="14" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="24" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="37" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="51" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="59" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="A13" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A19" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A20" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="A21" external="73" />
+      <!--position=SR_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="B6" external="22" />
+      <!--position=SR_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="B6" external="23" />
+      <!--position=BT_REG_ON-->
+      <InnerPin position="B11" internal="BT_POWER" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="1" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="2" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="3" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="4" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="5" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="6" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="14" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="24" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="37" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="51" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="59" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B13" external="73" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="1" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="2" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="3" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="4" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="5" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="6" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="14" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="24" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="37" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="51" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="59" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B14" external="73" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="1" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="2" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="3" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="4" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="5" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="6" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="14" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="24" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="37" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="51" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="59" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="B15" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B16" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B17" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B18" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B19" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B20" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="B21" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="C20" external="73" />
+      <!--position=GPIO_0-->
+      <InnerPin position="D2" internal="WIFI_HOST_WAKE" />
+      <!--position=SR_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="D6" external="22" />
+      <!--position=SR_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="D6" external="23" />
+      <!--position=LDO_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="D10" external="22" />
+      <!--position=LDO_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="D10" external="23" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="1" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="2" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="3" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="4" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="5" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="6" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="14" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="24" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="37" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="51" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="59" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="D15" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D17" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="D18" external="73" />
+      <!--position=SR_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="E6" external="22" />
+      <!--position=SR_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="E6" external="23" />
+      <!--position=LDO_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="E10" external="22" />
+      <!--position=LDO_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="E10" external="23" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="1" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="2" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="3" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="4" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="5" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="6" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="14" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="24" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="37" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="51" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="59" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="E15" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E17" external="73" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="1" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="2" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="3" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="4" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="5" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="6" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="14" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="24" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="37" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="51" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="59" />
+      <!--position=ET_SWREG_GND external=GND-->
+      <InnerPin position="E18" external="73" />
+      <!--position=SDIO_DATA_2-->
+      <InnerPin position="F1" internal="WIFI_SDIO_D2" />
+      <!--position=LDO_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="F10" external="22" />
+      <!--position=LDO_VDDBAT5 external=VBAT_WL-->
+      <InnerPin position="F10" external="23" />
+      <!--position=SDIO_DATA_1-->
+      <InnerPin position="G1" internal="WIFI_SDIO_D1" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="1" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="2" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="3" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="4" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="5" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="6" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="14" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="24" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="37" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="51" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="59" />
+      <!--position=ET_LINREG_GND external=GND-->
+      <InnerPin position="G14" external="73" />
+      <!--position=SDIO_DATA_3-->
+      <InnerPin position="H1" internal="WIFI_SDIO_D3" />
+      <!--position=SDIO_CLK-->
+      <InnerPin position="J1" internal="WIFI_SDIO_CLK" />
+      <!--position=SDIO_DATA_0-->
+      <InnerPin position="K1" internal="WIFI_SDIO_D0" />
+      <!--position=SDIO_CMD-->
+      <InnerPin position="L1" internal="WIFI_SDIO_CMD" />
+      <!--position=BT_UART_CTS_N-->
+      <InnerPin position="P2" internal="BT_UART_CTS" />
+      <!--position=BT_UART_RTS_N-->
+      <InnerPin position="R2" internal="BT_UART_RTS" />
+      <!--position=BT_UART_TXD-->
+      <InnerPin position="T2" internal="BT_UART_TX" />
+      <!--position=BT_UART_RXD-->
+      <InnerPin position="U2" internal="BT_UART_RX" />
+      <!--position=P5-->
+      <InnerPin position="U11" internal="BT_DEVICE_WAKE" />
+      <!--position=P7-->
+      <InnerPin position="U12" internal="WIFI_DEVICE_WAKE" />
+      <!--position=BT_HOST_WAKE-->
+      <InnerPin position="V1" internal="BT_HOST_WAKE" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="1" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="2" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="3" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="4" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="5" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="6" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="14" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="24" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="37" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="51" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="59" />
+      <!--position=PAD_ADC_REFGND external=GND-->
+      <InnerPin position="V7" external="73" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="1" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="2" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="3" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="4" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="5" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="6" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="14" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="24" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="37" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="51" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="59" />
+      <!--position=BT_XTAL_GND external=GND-->
+      <InnerPin position="Y13" external="73" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="CYSBSYS-RP01" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CY8C624AFNI-S2D43;CYW43012TC0KFFBH" />
+    <Param name="Package" value="73-SIP" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Infineon" />
+    <Param name="DATASHEET" value="https://www.infineon.com/dgdl/Infineon-CYSUB-RP01_Rapid_IoT_Connect_System_on_Module_Dual_band_Wi-Fi_and_Bluetooth-AdditionalTechnicalInformation-v04_00-EN.pdf?fileId=8ac78c8c7ddc01d7017ddd0298225923" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="CYSBSYS-RP01" />
+    <DevComp name="HCI-UART" />
+    <DevComp name="WIFI_INTERFACE_SDIO" />
+  </DeviceComponents>
+</View>

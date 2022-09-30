@@ -18,9 +18,17 @@
     <Param name="TempMin_Celsius" value="-20" />
     <Param name="TempMax_Celsius" value="70" />
     <Param name="SiliconID" value="0x00000000" />
-    <Param name="Module" value="No" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="https://www.cypress.com/documentation/product-overviews/cypress-cyw43012" />
   </Parameters>
+  <ToolIDs>
+    <ToolID name="bt-configurator" />
+    <ToolID name="device-configurator" />
+    <ToolID name="library-manager" />
+    <ToolID name="project-creator" />
+  </ToolIDs>
+  <DeviceComponents>
+    <DevComp name="43012" />
+  </DeviceComponents>
 </View>

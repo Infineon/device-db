@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="11">
+  <Instances count="9">
     <Instance guid="09373d34-20d2-4303-a52b-d96300ec4539" name="IMO" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value />
@@ -200,41 +200,6 @@
         <Value>SYSTICK: Provides an optional external source for the CM4/CM0+ SysTick timers.</Value>
       </Parameter>
     </Instance>
-    <Instance guid="a2592e62-0a85-4880-9091-69d2a316170b" name="mux_4" component="mux_3">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value />
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>srss[0].clock[0].pumpclk[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>5</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>mux_4</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value />
-      </Parameter>
-    </Instance>
     <Instance guid="a6d20d3e-411a-4a6f-a79b-71911287a237" name="LFCLK" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value />
@@ -274,47 +239,6 @@
       </Parameter>
       <Parameter name="ToolTip">
         <Value>Low Frequency Clock: This clock is the source for the multi-counter watchdog timers (MCWDT), and can also be a source for the RTC.</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="b1019878-cbc4-4ca5-9df2-4fee320fa13c" name="PUMPCLK" component="clock_side">
-      <Parameter name="BodyTextOverride">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>PumpClk</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>srss[0].clock[0].pumpclk[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>1</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>PUMPCLK</Value>
-      </Parameter>
-      <Parameter name="name">
-        <Value>PUMPCLK</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>Analog Pump Clock: This clock ensures precision analog performance in low voltage applications.</Value>
       </Parameter>
     </Instance>
     <Instance guid="bf0d96fc-8e58-4150-9255-a0d278aea00d" name="mux" component="mux_3">
@@ -435,7 +359,7 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="101">
+  <Signals count="85">
     <Signal name="Net_52" type="Digital" terminalCount="2">
       <Terminal name="EXTCLK.a_14" type="Instance Digital Output" />
       <Terminal name="mux.b_3" type="Instance Digital Input" />
@@ -596,21 +520,6 @@
     <Signal name="Net_144" type="Digital" terminalCount="1">
       <Terminal name="HFCLK.a_3" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_145" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_146" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_147" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.b_3" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_148" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.b_0" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_149" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.b_4" type="Instance Digital Input" />
-    </Signal>
     <Signal name="Net_150" type="Digital" terminalCount="1">
       <Terminal name="mux_3.a_1" type="Instance Digital Output" />
     </Signal>
@@ -683,49 +592,17 @@
     <Signal name="Net_173" type="Digital" terminalCount="1">
       <Terminal name="SYSCLK.a_3" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_174" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_175" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_176" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_177" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_178" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_179" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_180" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_181" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_182" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_183" type="Digital" terminalCount="1">
-      <Terminal name="PUMPCLK.a_3" type="Instance Digital Output" />
+    <Signal name="Net_184" type="Digital" terminalCount="2">
+      <Terminal name="HFCLK.a_14" type="Instance Digital Output" />
+      <Terminal name="SYSCLK.b_17" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_308" type="Digital" terminalCount="2">
       <Terminal name="mux.a_0" type="Instance Digital Output" />
       <Terminal name="HFCLK.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_356" type="Digital" terminalCount="3">
+    <Signal name="Net_356" type="Digital" terminalCount="2">
       <Terminal name="IMO.a_14" type="Instance Digital Output" />
-      <Terminal name="mux_4.b_2" type="Instance Digital Input" />
       <Terminal name="mux.b_4" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_605" type="Digital" terminalCount="3">
-      <Terminal name="HFCLK.a_14" type="Instance Digital Output" />
-      <Terminal name="mux_4.b_1" type="Instance Digital Input" />
-      <Terminal name="SYSCLK.b_17" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_667" type="Digital" terminalCount="1">
       <Terminal name="LFCLK.a_2" type="Instance Digital Output" />
@@ -737,10 +614,6 @@
     <Signal name="Net_710" type="Digital" terminalCount="2">
       <Terminal name="ILO.a_14" type="Instance Digital Output" />
       <Terminal name="LFCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_714" type="Digital" terminalCount="2">
-      <Terminal name="mux_4.a_0" type="Instance Digital Output" />
-      <Terminal name="PUMPCLK.b_17" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_755" type="Digital" terminalCount="2">
       <Terminal name="mux_3.a_0" type="Instance Digital Output" />

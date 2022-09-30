@@ -1,0 +1,1772 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="WM-BAC-CYW-50" package="129-LGA" layout="COORDINATE_SQ" x="0" y="0">
+    <ExternalPin position="(0,0)" name="GND" displayPosition="36" moduleConnection="MODULE" />
+    <ExternalPin position="(0,1)" name="GND" displayPosition="37" moduleConnection="MODULE" />
+    <ExternalPin position="(0,2)" name="VDDD" displayPosition="38" moduleConnection="MODULE" />
+    <ExternalPin position="(0,3)" name="GND" displayPosition="39" moduleConnection="MODULE" />
+    <ExternalPin position="(0,4)" name="P11_2" displayPosition="40" moduleConnection="MODULE" />
+    <ExternalPin position="(0,5)" name="P11_5" displayPosition="41" moduleConnection="MODULE" />
+    <ExternalPin position="(0,6)" name="GND" displayPosition="42" moduleConnection="MODULE" />
+    <ExternalPin position="(0,7)" name="GND" displayPosition="43" moduleConnection="MODULE" />
+    <ExternalPin position="(0,8)" name="VCO_P0_0" displayPosition="44" moduleConnection="MODULE" />
+    <ExternalPin position="(0,9)" name="VCO_P0_1" displayPosition="45" moduleConnection="MODULE" />
+    <ExternalPin position="(0,10)" name="GND" displayPosition="46" moduleConnection="MODULE" />
+    <ExternalPin position="(0,11)" name="GND" displayPosition="47" moduleConnection="MODULE" />
+    <ExternalPin position="(0,12)" name="P10_4" displayPosition="48" moduleConnection="MODULE" />
+    <ExternalPin position="(0,13)" name="P9_7" displayPosition="49" moduleConnection="MODULE" />
+    <ExternalPin position="(0,14)" name="GND" displayPosition="50" moduleConnection="MODULE" />
+    <ExternalPin position="(0,15)" name="VDDA" displayPosition="51" moduleConnection="MODULE" />
+    <ExternalPin position="(0,16)" name="VDDIO1" displayPosition="52" moduleConnection="MODULE" />
+    <ExternalPin position="(0,17)" name="VDDIO0" displayPosition="53" moduleConnection="MODULE" />
+    <ExternalPin position="(0,18)" name="GND" displayPosition="54" moduleConnection="MODULE" />
+    <ExternalPin position="(1,0)" name="VBACKUP" displayPosition="35" moduleConnection="MODULE" />
+    <ExternalPin position="(1,18)" name="P1_4" displayPosition="55" moduleConnection="MODULE" />
+    <ExternalPin position="(2,0)" name="VDD_NS" displayPosition="34" moduleConnection="MODULE" />
+    <ExternalPin position="(2,18)" name="P10_1" displayPosition="56" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,2.5)" name="P11_4" displayPosition="96" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,3.5)" name="P11_7" displayPosition="97" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,4.5)" name="P11_6" displayPosition="98" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,5.5)" name="P11_0" displayPosition="99" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,6.5)" name="P11_3" displayPosition="100" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,7.5)" name="P1_0" displayPosition="101" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,8.5)" name="GND" displayPosition="102" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,9.5)" name="ECO_P12_7" displayPosition="103" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,10.5)" name="ECO_P12_6" displayPosition="104" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,11.5)" name="GND" displayPosition="105" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,12.5)" name="P9_1" displayPosition="106" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,13.5)" name="P9_0" displayPosition="107" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,14.5)" name="P11_1" displayPosition="108" moduleConnection="MODULE" />
+    <ExternalPin position="(2.5,15.5)" name="GND" displayPosition="109" moduleConnection="MODULE" />
+    <ExternalPin position="(3,0)" name="GND" displayPosition="33" moduleConnection="MODULE" />
+    <ExternalPin position="(3,18)" name="P10_5" displayPosition="57" moduleConnection="MODULE" />
+    <ExternalPin position="(3.5,2.5)" name="VDDUSB" displayPosition="95" moduleConnection="MODULE" />
+    <ExternalPin position="(3.5,15.5)" name="SIDO_CMD_P12_5" displayPosition="110" moduleConnection="MODULE" />
+    <ExternalPin position="(4,0)" name="GND" displayPosition="32" moduleConnection="MODULE" />
+    <ExternalPin position="(4,18)" name="P9_3" displayPosition="58" moduleConnection="MODULE" />
+    <ExternalPin position="(4.5,2.5)" name="USBDP" displayPosition="94" moduleConnection="MODULE" />
+    <ExternalPin position="(4.5,15.5)" name="SDIO_CLK_P12_0" displayPosition="111" moduleConnection="MODULE" />
+    <ExternalPin position="(5,0)" name="P0_2" displayPosition="31" moduleConnection="MODULE" />
+    <ExternalPin position="(5,18)" name="P10_0" displayPosition="59" moduleConnection="MODULE" />
+    <ExternalPin position="(5.5,2.5)" name="USBDM" displayPosition="93" moduleConnection="MODULE" />
+    <ExternalPin position="(5.5,5.5)" name="GND" displayPosition="125" moduleConnection="MODULE" />
+    <ExternalPin position="(5.5,9)" name="GND" displayPosition="126" moduleConnection="MODULE" />
+    <ExternalPin position="(5.5,12.5)" name="GND" displayPosition="127" moduleConnection="MODULE" />
+    <ExternalPin position="(5.5,15.5)" name="SIDO_DATA_3_P12_4" displayPosition="112" moduleConnection="MODULE" />
+    <ExternalPin position="(6,0)" name="P0_5" displayPosition="30" moduleConnection="MODULE" />
+    <ExternalPin position="(6,18)" name="P9_2" displayPosition="60" moduleConnection="MODULE" />
+    <ExternalPin position="(6.5,2.5)" name="GND" displayPosition="92" moduleConnection="MODULE" />
+    <ExternalPin position="(6.5,15.5)" name="SIDO_DATA_0_P12_1" displayPosition="113" moduleConnection="MODULE" />
+    <ExternalPin position="(7,0)" name="P0_3" displayPosition="29" moduleConnection="MODULE" />
+    <ExternalPin position="(7,18)" name="P9_4" displayPosition="61" moduleConnection="MODULE" />
+    <ExternalPin position="(7.5,2.5)" name="GND" displayPosition="91" moduleConnection="MODULE" />
+    <ExternalPin position="(7.5,15.5)" name="SIDO_DATA_1_P12_2" displayPosition="114" moduleConnection="MODULE" />
+    <ExternalPin position="(8,0)" name="GND" displayPosition="28" moduleConnection="MODULE" />
+    <ExternalPin position="(8,18)" name="GND" displayPosition="62" moduleConnection="MODULE" />
+    <ExternalPin position="(8.5,2.5)" name="P0_4" displayPosition="90" moduleConnection="MODULE" />
+    <ExternalPin position="(8.5,5.5)" name="GND" displayPosition="124" moduleConnection="MODULE" />
+    <ExternalPin position="(8.5,9)" name="GND" displayPosition="129" moduleConnection="MODULE" />
+    <ExternalPin position="(8.5,12.5)" name="GND" displayPosition="128" moduleConnection="MODULE" />
+    <ExternalPin position="(8.5,15.5)" name="SIDO_DATA_2_P12_3" displayPosition="115" moduleConnection="MODULE" />
+    <ExternalPin position="(9,0)" name="VBAT" displayPosition="27" moduleConnection="MODULE" />
+    <ExternalPin position="(9,18)" name="P7_2" displayPosition="63" moduleConnection="MODULE" />
+    <ExternalPin position="(9.5,2.5)" name="P1_5" displayPosition="89" moduleConnection="MODULE" />
+    <ExternalPin position="(9.5,15.5)" name="GND" displayPosition="116" moduleConnection="MODULE" />
+    <ExternalPin position="(10,0)" name="VBAT" displayPosition="26" moduleConnection="MODULE" />
+    <ExternalPin position="(10,18)" name="P7_7" displayPosition="64" moduleConnection="MODULE" />
+    <ExternalPin position="(10.5,2.5)" name="P1_1" displayPosition="88" moduleConnection="MODULE" />
+    <ExternalPin position="(10.5,15.5)" name="GND" displayPosition="117" moduleConnection="MODULE" />
+    <ExternalPin position="(11,0)" name="GND" displayPosition="25" moduleConnection="MODULE" />
+    <ExternalPin position="(11,18)" name="P7_1" displayPosition="65" moduleConnection="MODULE" />
+    <ExternalPin position="(11.5,2.5)" name="P5_0" displayPosition="87" moduleConnection="MODULE" />
+    <ExternalPin position="(11.5,5.5)" name="GND" displayPosition="123" moduleConnection="MODULE" />
+    <ExternalPin position="(11.5,9)" name="GND" displayPosition="122" moduleConnection="MODULE" />
+    <ExternalPin position="(11.5,12.5)" name="GND" displayPosition="121" moduleConnection="MODULE" />
+    <ExternalPin position="(11.5,15.5)" name="GND" displayPosition="118" moduleConnection="MODULE" />
+    <ExternalPin position="(12,0)" name="VDDIO" displayPosition="24" moduleConnection="MODULE" />
+    <ExternalPin position="(12,18)" name="P7_0" displayPosition="66" moduleConnection="MODULE" />
+    <ExternalPin position="(12.5,2.5)" name="P5_4" displayPosition="86" moduleConnection="MODULE" />
+    <ExternalPin position="(12.5,15.5)" name="GND" displayPosition="119" moduleConnection="MODULE" />
+    <ExternalPin position="(13,0)" name="GND" displayPosition="23" moduleConnection="MODULE" />
+    <ExternalPin position="(13,18)" name="TCLK_SWCLK_P6_7" displayPosition="67" moduleConnection="MODULE" />
+    <ExternalPin position="(13.5,2.5)" name="P5_1" displayPosition="85" moduleConnection="MODULE" />
+    <ExternalPin position="(13.5,15.5)" name="XRES" displayPosition="120" moduleConnection="MODULE" />
+    <ExternalPin position="(14,0)" name="GND" displayPosition="22" moduleConnection="MODULE" />
+    <ExternalPin position="(14,18)" name="TMS_SWDIO_P6_6" displayPosition="68" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,2.5)" name="P5_5" displayPosition="84" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,3.5)" name="P5_3" displayPosition="83" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,4.5)" name="P5_2" displayPosition="82" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,5.5)" name="P5_6" displayPosition="81" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,6.5)" name="P5_7" displayPosition="80" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,7.5)" name="BT_REG_ON_P6_3" displayPosition="79" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,8.5)" name="WL_REG_ON_P6_2" displayPosition="78" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,9.5)" name="WL_JTAG_TRS" displayPosition="77" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,10.5)" name="WL_JTAG_TDI" displayPosition="76" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,11.5)" name="WL_HOST_WAKE_P6_0" displayPosition="75" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,12.5)" name="BT_PCM_SYNC" displayPosition="74" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,13.5)" name="BT_PCM_CLK" displayPosition="73" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,14.5)" name="BT_PCM_IN" displayPosition="72" moduleConnection="MODULE" />
+    <ExternalPin position="(14.5,15.5)" name="BT_PCM_OUT" displayPosition="71" moduleConnection="MODULE" />
+    <ExternalPin position="(15,0)" name="GND" displayPosition="21" moduleConnection="MODULE" />
+    <ExternalPin position="(15,18)" name="TDO_SWO_P6_4" displayPosition="69" moduleConnection="MODULE" />
+    <ExternalPin position="(16,0)" name="MAIN_ANT" displayPosition="20" moduleConnection="MODULE" />
+    <ExternalPin position="(16,18)" name="TDI_P6_5" displayPosition="70" moduleConnection="MODULE" />
+    <ExternalPin position="(17,0)" name="GND" displayPosition="19" moduleConnection="MODULE" />
+    <ExternalPin position="(17,1)" name="GND" displayPosition="18" moduleConnection="MODULE" />
+    <ExternalPin position="(17,2)" name="GND" displayPosition="17" moduleConnection="MODULE" />
+    <ExternalPin position="(17,3)" name="GND" displayPosition="16" moduleConnection="MODULE" />
+    <ExternalPin position="(17,4)" name="VOUT_3P3" displayPosition="15" moduleConnection="MODULE" />
+    <ExternalPin position="(17,5)" name="RF_SW_CTRL_4" displayPosition="14" moduleConnection="MODULE" />
+    <ExternalPin position="(17,6)" name="RF_SW_CTRL_5" displayPosition="13" moduleConnection="MODULE" />
+    <ExternalPin position="(17,7)" name="GND" displayPosition="12" moduleConnection="MODULE" />
+    <ExternalPin position="(17,8)" name="GND" displayPosition="11" moduleConnection="MODULE" />
+    <ExternalPin position="(17,9)" name="GND" displayPosition="10" moduleConnection="MODULE" />
+    <ExternalPin position="(17,10)" name="GND" displayPosition="9" moduleConnection="MODULE" />
+    <ExternalPin position="(17,11)" name="GND" displayPosition="8" moduleConnection="MODULE" />
+    <ExternalPin position="(17,12)" name="GND" displayPosition="7" moduleConnection="MODULE" />
+    <ExternalPin position="(17,13)" name="BT_UART_CTS_L_P8_2" displayPosition="6" moduleConnection="MODULE" />
+    <ExternalPin position="(17,14)" name="BT_UART_TXD_P8_0" displayPosition="5" moduleConnection="MODULE" />
+    <ExternalPin position="(17,15)" name="BT_UART_RTS_L_P8_3" displayPosition="4" moduleConnection="MODULE" />
+    <ExternalPin position="(17,16)" name="BT_UART_RXD_P8_1" displayPosition="3" moduleConnection="MODULE" />
+    <ExternalPin position="(17,17)" name="GND" displayPosition="2" moduleConnection="MODULE" />
+    <ExternalPin position="(17,18)" name="GND" displayPosition="1" moduleConnection="MODULE" />
+    <InternalPin name="BT_DEVICE_WAKE" />
+    <InternalPin name="BT_HOST_WAKE" />
+    <Component name="WM-BAC-CYW-50/CY8C6247FDI-D52" partNumber="CY8C6247FDI-D52">
+      <!--position=P9[7] external=P9_7-->
+      <InnerPin position="A2" external="(0,13)" />
+      <!--position=P11[3] external=P11_3-->
+      <InnerPin position="A4" external="(2.5,6.5)" />
+      <!--position=VDDIO0 external=VDDIO0-->
+      <InnerPin position="A6" external="(0,17)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(0,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(0,1)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(0,3)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(0,6)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(0,7)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(0,10)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(0,11)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(0,14)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(0,18)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(2.5,8.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(2.5,11.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(2.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(3,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(4,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(5.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(5.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(5.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(6.5,2.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(7.5,2.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(8,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(8,18)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(8.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(8.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(8.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(9.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(10.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(11,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(11.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(11.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(11.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(11.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(12.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(13,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(14,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(15,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,1)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,2)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,3)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,7)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,8)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,10)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,11)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,12)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,17)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="A8" external="(17,18)" />
+      <!--position=P10[4] external=P10_4-->
+      <InnerPin position="B3" external="(0,12)" />
+      <!--position=P11[5] external=P11_5-->
+      <InnerPin position="B5" external="(0,5)" />
+      <!--position=P12[0] external=SDIO_CLK_P12_0-->
+      <InnerPin position="B7" external="(4.5,15.5)" />
+      <!--position=P12[3] external=SIDO_DATA_2_P12_3-->
+      <InnerPin position="B9" external="(8.5,15.5)" />
+      <!--position=VDDD external=VDDD-->
+      <InnerPin position="B11" external="(0,2)" />
+      <!--position=P9[3] external=P9_3-->
+      <InnerPin position="C2" external="(4,18)" />
+      <!--position=P11[4] external=P11_4-->
+      <InnerPin position="C4" external="(2.5,2.5)" />
+      <!--position=P11[7] external=P11_7-->
+      <InnerPin position="C6" external="(2.5,3.5)" />
+      <!--position=P12[2] external=SIDO_DATA_1_P12_2-->
+      <InnerPin position="C8" external="(7.5,15.5)" />
+      <!--position=P0[0] external=VCO_P0_0-->
+      <InnerPin position="C10" external="(0,8)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(0,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(0,1)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(0,3)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(0,6)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(0,7)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(0,10)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(0,11)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(0,14)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(0,18)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(2.5,8.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(2.5,11.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(2.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(3,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(4,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(5.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(5.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(5.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(6.5,2.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(7.5,2.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(8,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(8,18)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(8.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(8.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(8.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(9.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(10.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(11,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(11.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(11.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(11.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(11.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(12.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(13,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(14,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(15,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,1)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,2)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,3)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,7)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,8)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,10)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,11)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,12)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,17)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D1" external="(17,18)" />
+      <!--position=P10[5] external=P10_5-->
+      <InnerPin position="D3" external="(3,18)" />
+      <!--position=P11[6] external=P11_6-->
+      <InnerPin position="D5" external="(2.5,4.5)" />
+      <!--position=P12[1] external=SIDO_DATA_0_P12_1-->
+      <InnerPin position="D7" external="(6.5,15.5)" />
+      <!--position=P0[1] external=VCO_P0_1-->
+      <InnerPin position="D9" external="(0,9)" />
+      <!--position=VBACKUP external=VBACKUP-->
+      <InnerPin position="D11" external="(1,0)" />
+      <!--position=P9[2] external=P9_2-->
+      <InnerPin position="E2" external="(6,18)" />
+      <!--position=P11[0] external=P11_0-->
+      <InnerPin position="E4" external="(2.5,5.5)" />
+      <!--position=P12[4] external=SIDO_DATA_3_P12_4-->
+      <InnerPin position="E6" external="(5.5,15.5)" />
+      <!--position=P12[5] external=SIDO_CMD_P12_5-->
+      <InnerPin position="E8" external="(3.5,15.5)" />
+      <!--position=P0[2] external=P0_2-->
+      <InnerPin position="E10" external="(5,0)" />
+      <!--position=VDDA external=VDDA-->
+      <InnerPin position="F1" external="(0,15)" />
+      <!--position=P9[4] external=P9_4-->
+      <InnerPin position="F3" external="(7,18)" />
+      <!--position=P11[1] external=P11_1-->
+      <InnerPin position="F5" external="(2.5,14.5)" />
+      <!--position=P12[6] external=ECO_P12_6-->
+      <InnerPin position="F7" external="(2.5,10.5)" />
+      <!--position=P0[3] external=P0_3-->
+      <InnerPin position="F9" external="(7,0)" />
+      <!--position=P0[5] external=P0_5-->
+      <InnerPin position="F11" external="(6,0)" />
+      <!--position=P9[1] external=P9_1-->
+      <InnerPin position="G2" external="(2.5,12.5)" />
+      <!--position=P10[0] external=P10_0-->
+      <InnerPin position="G4" external="(5,18)" />
+      <!--position=P11[2] external=P11_2-->
+      <InnerPin position="G6" external="(0,4)" />
+      <!--position=P0[4] external=P0_4-->
+      <InnerPin position="G8" external="(8.5,2.5)" />
+      <!--position=XRES external=XRES-->
+      <InnerPin position="G10" external="(13.5,15.5)" />
+      <!--position=P9[0] external=P9_0-->
+      <InnerPin position="H1" external="(2.5,13.5)" />
+      <!--position=P8[0] external=BT_UART_TXD_P8_0-->
+      <InnerPin position="H3" external="(17,14)" />
+      <!--position=P10[1] external=P10_1-->
+      <InnerPin position="H5" external="(2,18)" />
+      <!--position=P12[7] external=ECO_P12_7-->
+      <InnerPin position="H7" external="(2.5,9.5)" />
+      <!--position=P1[1] external=P1_1-->
+      <InnerPin position="H9" external="(10.5,2.5)" />
+      <!--position=P1[0] external=P1_0-->
+      <InnerPin position="H11" external="(2.5,7.5)" />
+      <!--position=P8[4]-->
+      <InnerPin position="J2" internal="BT_HOST_WAKE" />
+      <!--position=P8[3] external=BT_UART_RTS_L_P8_3-->
+      <InnerPin position="J4" external="(17,15)" />
+      <!--position=P6[7] external=TCLK_SWCLK_P6_7-->
+      <InnerPin position="J6" external="(13,18)" />
+      <!--position=P6[0] external=WL_HOST_WAKE_P6_0-->
+      <InnerPin position="J8" external="(14.5,11.5)" />
+      <!--position=P1[5] external=P1_5-->
+      <InnerPin position="J10" external="(9.5,2.5)" />
+      <!--position=P8[1] external=BT_UART_RXD_P8_1-->
+      <InnerPin position="K1" external="(17,16)" />
+      <!--position=P8[2] external=BT_UART_CTS_L_P8_2-->
+      <InnerPin position="K3" external="(17,13)" />
+      <!--position=P6[1]-->
+      <InnerPin position="K7" internal="BT_DEVICE_WAKE" />
+      <!--position=P1[4] external=P1_4-->
+      <InnerPin position="K9" external="(1,18)" />
+      <!--position=VDD_NS external=VDD_NS-->
+      <InnerPin position="K11" external="(2,0)" />
+      <!--position=P7[7] external=P7_7-->
+      <InnerPin position="L2" external="(10,18)" />
+      <!--position=P7[2] external=P7_2-->
+      <InnerPin position="L4" external="(9,18)" />
+      <!--position=P6[2] external=WL_REG_ON_P6_2-->
+      <InnerPin position="L6" external="(14.5,8.5)" />
+      <!--position=P5[4] external=P5_4-->
+      <InnerPin position="L8" external="(12.5,2.5)" />
+      <!--position=VDDIO1 external=VDDIO1-->
+      <InnerPin position="M1" external="(0,16)" />
+      <!--position=P7[1] external=P7_1-->
+      <InnerPin position="M3" external="(11,18)" />
+      <!--position=P6[6] external=TMS_SWDIO_P6_6-->
+      <InnerPin position="M5" external="(14,18)" />
+      <!--position=P5[5] external=P5_5-->
+      <InnerPin position="M7" external="(14.5,2.5)" />
+      <!--position=P5[0] external=P5_0-->
+      <InnerPin position="M9" external="(11.5,2.5)" />
+      <!--position=P7[0] external=P7_0-->
+      <InnerPin position="N2" external="(12,18)" />
+      <!--position=P6[5] external=TDI_P6_5-->
+      <InnerPin position="N4" external="(16,18)" />
+      <!--position=P5[7] external=P5_7-->
+      <InnerPin position="N6" external="(14.5,6.5)" />
+      <!--position=P5[1] external=P5_1-->
+      <InnerPin position="N8" external="(13.5,2.5)" />
+      <!--position=P6[4] external=TDO_SWO_P6_4-->
+      <InnerPin position="P3" external="(15,18)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(0,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(0,1)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(0,3)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(0,6)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(0,7)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(0,10)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(0,11)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(0,14)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(0,18)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(2.5,8.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(2.5,11.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(2.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(3,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(4,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(5.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(5.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(5.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(6.5,2.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(7.5,2.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(8,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(8,18)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(8.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(8.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(8.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(9.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(10.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(11,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(11.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(11.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(11.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(11.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(12.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(13,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(14,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(15,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,1)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,2)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,3)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,7)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,8)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,10)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,11)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,12)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,17)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="P5" external="(17,18)" />
+      <!--position=P5[3] external=P5_3-->
+      <InnerPin position="P7" external="(14.5,3.5)" />
+      <!--position=P14[1]/USBDM external=USBDM-->
+      <InnerPin position="P9" external="(5.5,2.5)" />
+      <!--position=VDDUSB external=VDDUSB-->
+      <InnerPin position="P11" external="(3.5,2.5)" />
+      <!--position=P6[3] external=BT_REG_ON_P6_3-->
+      <InnerPin position="R2" external="(14.5,7.5)" />
+      <!--position=P5[6] external=P5_6-->
+      <InnerPin position="R4" external="(14.5,5.5)" />
+      <!--position=P5[2] external=P5_2-->
+      <InnerPin position="R6" external="(14.5,4.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(0,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(0,1)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(0,3)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(0,6)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(0,7)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(0,10)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(0,11)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(0,14)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(0,18)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(2.5,8.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(2.5,11.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(2.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(3,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(4,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(5.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(5.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(5.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(6.5,2.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(7.5,2.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(8,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(8,18)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(8.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(8.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(8.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(9.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(10.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(11,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(11.5,5.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(11.5,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(11.5,12.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(11.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(12.5,15.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(13,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(14,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(15,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,0)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,1)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,2)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,3)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,7)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,8)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,9)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,10)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,11)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,12)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,17)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="R8" external="(17,18)" />
+      <!--position=P14[0]/USBDP external=USBDP-->
+      <InnerPin position="R10" external="(4.5,2.5)" />
+    </Component>
+    <Component name="WM-BAC-CYW-50/CYW43012TC0EKUBG" partNumber="CYW43012TC0EKUBG">
+      <!--position=BT_UART_RXD external=BT_UART_RXD_P8_1-->
+      <InnerPin position="A8" external="(17,16)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(0,0)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(0,1)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(0,3)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(0,6)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(0,7)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(0,10)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(0,11)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(0,14)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(0,18)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(2.5,8.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(2.5,11.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(2.5,15.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(3,0)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(4,0)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(5.5,5.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(5.5,9)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(5.5,12.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(6.5,2.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(7.5,2.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(8,0)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(8,18)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(8.5,5.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(8.5,9)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(8.5,12.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(9.5,15.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(10.5,15.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(11,0)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(11.5,5.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(11.5,9)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(11.5,12.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(11.5,15.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(12.5,15.5)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(13,0)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(14,0)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(15,0)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,0)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,1)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,2)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,3)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,7)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,8)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,9)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,10)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,11)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,12)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,17)" />
+      <!--position=XTAL_GND external=GND-->
+      <InnerPin position="B5" external="(17,18)" />
+      <!--position=BT_PCM_OUT external=BT_PCM_OUT-->
+      <InnerPin position="B7" external="(14.5,15.5)" />
+      <!--position=BT_DEV_WAKE_P5-->
+      <InnerPin position="B8" internal="BT_DEVICE_WAKE" />
+      <!--position=BT_UART_RTS_N external=BT_UART_RTS_L_P8_3-->
+      <InnerPin position="B9" external="(17,15)" />
+      <!--position=SDIO_DATA_0 external=SIDO_DATA_0_P12_1-->
+      <InnerPin position="B10" external="(6.5,15.5)" />
+      <!--position=BT_UART_TXD external=BT_UART_TXD_P8_0-->
+      <InnerPin position="C9" external="(17,14)" />
+      <!--position=SDIO_DATA_1 external=SIDO_DATA_1_P12_2-->
+      <InnerPin position="C10" external="(7.5,15.5)" />
+      <!--position=RFIN_2G external=MAIN_ANT-->
+      <InnerPin position="D1" external="(16,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(0,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(0,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(0,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(0,6)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(0,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(0,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(0,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(0,14)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(0,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(2.5,8.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(2.5,11.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(2.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(3,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(4,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(5.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(5.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(5.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(6.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(7.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(8,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(8,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(8.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(8.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(8.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(9.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(10.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(11,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(11.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(11.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(11.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(11.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(12.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(13,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(14,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(15,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,2)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,8)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,12)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,17)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="D4" external="(17,18)" />
+      <!--position=BT_PCM_IN external=BT_PCM_IN-->
+      <InnerPin position="D8" external="(14.5,14.5)" />
+      <!--position=BT_UART_CTS_N external=BT_UART_CTS_L_P8_2-->
+      <InnerPin position="D9" external="(17,13)" />
+      <!--position=SDIO_DATA_2 external=SIDO_DATA_2_P12_3-->
+      <InnerPin position="D10" external="(8.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(0,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(0,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(0,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(0,6)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(0,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(0,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(0,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(0,14)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(0,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(2.5,8.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(2.5,11.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(2.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(3,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(4,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(5.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(5.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(5.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(6.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(7.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(8,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(8,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(8.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(8.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(8.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(9.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(10.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(11,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(11.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(11.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(11.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(11.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(12.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(13,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(14,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(15,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,2)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,8)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,12)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,17)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E1" external="(17,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(0,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(0,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(0,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(0,6)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(0,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(0,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(0,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(0,14)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(0,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(2.5,8.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(2.5,11.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(2.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(3,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(4,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(5.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(5.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(5.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(6.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(7.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(8,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(8,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(8.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(8.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(8.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(9.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(10.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(11,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(11.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(11.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(11.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(11.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(12.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(13,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(14,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(15,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,2)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,8)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,12)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,17)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="E3" external="(17,18)" />
+      <!--position=GPIO_0 external=WL_HOST_WAKE_P6_0-->
+      <InnerPin position="E6" external="(14.5,11.5)" />
+      <!--position=BT_PCM_CLK external=BT_PCM_CLK-->
+      <InnerPin position="E8" external="(14.5,13.5)" />
+      <!--position=SDIO_DATA_3 external=SIDO_DATA_3_P12_4-->
+      <InnerPin position="E10" external="(5.5,15.5)" />
+      <!--position=BT_PCM_SYNC external=BT_PCM_SYNC-->
+      <InnerPin position="F8" external="(14.5,12.5)" />
+      <!--position=BT_HOST_WAKE-->
+      <InnerPin position="F9" internal="BT_HOST_WAKE" />
+      <!--position=SDIO_CLK external=SDIO_CLK_P12_0-->
+      <InnerPin position="F10" external="(4.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(0,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(0,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(0,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(0,6)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(0,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(0,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(0,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(0,14)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(0,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(2.5,8.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(2.5,11.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(2.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(3,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(4,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(5.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(5.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(5.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(6.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(7.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(8,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(8,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(8.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(8.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(8.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(9.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(10.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(11,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(11.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(11.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(11.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(11.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(12.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(13,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(14,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(15,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,2)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,8)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,12)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,17)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="G4" external="(17,18)" />
+      <!--position=GPIO_4 external=WL_JTAG_TDI-->
+      <InnerPin position="G7" external="(14.5,10.5)" />
+      <!--position=SDIO_CMD_P6 external=SIDO_CMD_P12_5-->
+      <InnerPin position="G10" external="(3.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(0,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(0,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(0,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(0,6)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(0,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(0,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(0,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(0,14)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(0,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(2.5,8.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(2.5,11.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(2.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(3,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(4,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(5.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(5.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(5.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(6.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(7.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(8,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(8,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(8.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(8.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(8.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(9.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(10.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(11,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(11.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(11.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(11.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(11.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(12.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(13,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(14,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(15,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,2)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,8)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,12)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,17)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H1" external="(17,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(0,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(0,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(0,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(0,6)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(0,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(0,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(0,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(0,14)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(0,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(2.5,8.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(2.5,11.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(2.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(3,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(4,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(5.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(5.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(5.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(6.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(7.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(8,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(8,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(8.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(8.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(8.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(9.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(10.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(11,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(11.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(11.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(11.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(11.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(12.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(13,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(14,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(15,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,2)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,8)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,12)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,17)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="H4" external="(17,18)" />
+      <!--position=GPIO_6 external=WL_JTAG_TRS-->
+      <InnerPin position="H7" external="(14.5,9.5)" />
+      <!--position=RFIN_5G external=MAIN_ANT-->
+      <InnerPin position="J1" external="(16,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(0,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(0,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(0,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(0,6)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(0,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(0,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(0,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(0,14)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(0,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(2.5,8.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(2.5,11.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(2.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(3,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(4,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(5.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(5.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(5.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(6.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(7.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(8,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(8,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(8.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(8.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(8.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(9.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(10.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(11,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(11.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(11.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(11.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(11.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(12.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(13,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(14,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(15,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,2)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,8)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,12)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,17)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="J4" external="(17,18)" />
+      <!--position=RF_SW_CTRL_5 external=RF_SW_CTRL_5-->
+      <InnerPin position="J7" external="(17,6)" />
+      <!--position=BT_REG_ON external=BT_REG_ON_P6_3-->
+      <InnerPin position="J8" external="(14.5,7.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(0,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(0,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(0,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(0,6)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(0,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(0,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(0,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(0,14)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(0,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(2.5,8.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(2.5,11.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(2.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(3,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(4,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(5.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(5.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(5.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(6.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(7.5,2.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(8,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(8,18)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(8.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(8.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(8.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(9.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(10.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(11,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(11.5,5.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(11.5,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(11.5,12.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(11.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(12.5,15.5)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(13,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(14,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(15,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,0)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,1)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,2)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,3)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,7)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,8)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,9)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,10)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,11)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,12)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,17)" />
+      <!--position=RADIO_GND external=GND-->
+      <InnerPin position="K3" external="(17,18)" />
+      <!--position=WL_REG_ON external=WL_REG_ON_P6_2-->
+      <InnerPin position="K7" external="(14.5,8.5)" />
+      <!--position=PMU_VDDIO external=VDDIO-->
+      <InnerPin position="K10" external="(12,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(0,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(0,1)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(0,3)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(0,6)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(0,7)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(0,10)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(0,11)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(0,14)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(0,18)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(2.5,8.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(2.5,11.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(2.5,15.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(3,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(4,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(5.5,5.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(5.5,9)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(5.5,12.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(6.5,2.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(7.5,2.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(8,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(8,18)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(8.5,5.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(8.5,9)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(8.5,12.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(9.5,15.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(10.5,15.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(11,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(11.5,5.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(11.5,9)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(11.5,12.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(11.5,15.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(12.5,15.5)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(13,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(14,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(15,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,0)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,1)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,2)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,3)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,7)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,8)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,9)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,10)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,11)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,12)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,17)" />
+      <!--position=ET_SW_GND external=GND-->
+      <InnerPin position="L2" external="(17,18)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(0,0)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(0,1)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(0,3)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(0,6)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(0,7)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(0,10)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(0,11)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(0,14)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(0,18)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(2.5,8.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(2.5,11.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(2.5,15.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(3,0)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(4,0)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(5.5,5.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(5.5,9)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(5.5,12.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(6.5,2.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(7.5,2.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(8,0)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(8,18)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(8.5,5.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(8.5,9)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(8.5,12.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(9.5,15.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(10.5,15.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(11,0)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(11.5,5.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(11.5,9)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(11.5,12.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(11.5,15.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(12.5,15.5)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(13,0)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(14,0)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(15,0)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,0)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,1)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,2)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,3)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,7)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,8)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,9)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,10)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,11)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,12)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,17)" />
+      <!--position=ET_LIN_GND external=GND-->
+      <InnerPin position="L3" external="(17,18)" />
+      <!--position=RF_SW_CTRL_4 external=RF_SW_CTRL_4-->
+      <InnerPin position="L6" external="(17,5)" />
+      <!--position=VDDOUT_RF3P3 external=VOUT_3P3-->
+      <InnerPin position="L7" external="(17,4)" />
+      <!--position=VDDOUT_BT3P3 external=VOUT_3P3-->
+      <InnerPin position="L8" external="(17,4)" />
+      <!--position=VDDIO_RF1 external=VDDIO-->
+      <InnerPin position="M6" external="(12,0)" />
+      <!--position=LDO_VDDBAT5 external=VBAT-->
+      <InnerPin position="M7" external="(9,0)" />
+      <!--position=LDO_VDDBAT5 external=VBAT-->
+      <InnerPin position="M7" external="(10,0)" />
+      <!--position=SR_VDDBAT5 external=VBAT-->
+      <InnerPin position="M9" external="(9,0)" />
+      <!--position=SR_VDDBAT5 external=VBAT-->
+      <InnerPin position="M9" external="(10,0)" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="WM-BAC-CYW-50" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CY8C6247FDI-D52;CYW43012TC0EKUBG" />
+    <Param name="Package" value="129-LGA" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="USI" />
+    <Param name="DATASHEET" value="https://www.usiglobal.com/files/images/products/iot/WM-BAC-CYW-50_DTS_V02.pdf" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="WM-BAC-CYW-50" />
+    <DevComp name="HCI-UART" />
+    <DevComp name="WIFI_INTERFACE_SDIO" />
+  </DeviceComponents>
+</View>

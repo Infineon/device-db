@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="CYBLE-013030-00" package="31-SMT" layout="PERIMETER_4_SIDE_INNER" x="10" y="11">
+    <ExternalPin position="1" name="XRES" moduleConnection="MODULE" />
+    <ExternalPin position="2" name="GND/NC" moduleConnection="MODULE" />
+    <ExternalPin position="3" name="GND/NC" moduleConnection="MODULE" />
+    <ExternalPin position="4" name="P11/P27" moduleConnection="MODULE" />
+    <ExternalPin position="5" name="P12/P26" moduleConnection="MODULE" />
+    <ExternalPin position="6" name="P15" moduleConnection="MODULE" />
+    <ExternalPin position="7" name="P14/P38" moduleConnection="MODULE" />
+    <ExternalPin position="8" name="P13/P28" moduleConnection="MODULE" />
+    <ExternalPin position="9" name="P24" moduleConnection="MODULE" />
+    <ExternalPin position="10" name="NC" />
+    <ExternalPin position="11" name="NC" />
+    <ExternalPin position="12" name="P25" moduleConnection="MODULE" />
+    <ExternalPin position="13" name="P4" moduleConnection="MODULE" />
+    <ExternalPin position="14" name="P2" moduleConnection="MODULE" />
+    <ExternalPin position="15" name="VDD" moduleConnection="MODULE" />
+    <ExternalPin position="16" name="P3" moduleConnection="MODULE" />
+    <ExternalPin position="17" name="P8/P33" moduleConnection="MODULE" />
+    <ExternalPin position="18" name="P32" moduleConnection="MODULE" />
+    <ExternalPin position="19" name="P1" moduleConnection="MODULE" />
+    <ExternalPin position="20" name="P0" moduleConnection="MODULE" />
+    <ExternalPin position="21" name="SDA" moduleConnection="MODULE" />
+    <ExternalPin position="22" name="SCL" moduleConnection="MODULE" />
+    <ExternalPin position="23" name="UP_TX" moduleConnection="MODULE" />
+    <ExternalPin position="24" name="UP_RX" moduleConnection="MODULE" />
+    <ExternalPin position="25" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="26" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="27" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="28" name="GND" moduleConnection="MODULE" />
+    <ExternalPin position="29" name="NC" />
+    <ExternalPin position="30" name="NC" />
+    <ExternalPin position="31" name="NC" />
+    <Component name="CYBLE-013030-00/CYW20737A1KML2G" partNumber="CYW20737A1KML2G">
+      <!--position=P11/P27/XIN32 external=P11/P27-->
+      <InnerPin position="1" external="4" />
+      <!--position=VDDIF external=VDD-->
+      <InnerPin position="4" external="15" />
+      <!--position=VDDFE external=VDD-->
+      <InnerPin position="5" external="15" />
+      <!--position=VDDVCO external=VDD-->
+      <InnerPin position="7" external="15" />
+      <!--position=VDDPLL external=VDD-->
+      <InnerPin position="8" external="15" />
+      <!--position=VDDC external=VDD-->
+      <InnerPin position="11" external="15" />
+      <!--position=UART_RXD external=UP_RX-->
+      <InnerPin position="12" external="24" />
+      <!--position=UART_TXD external=UP_TX-->
+      <InnerPin position="13" external="23" />
+      <!--position=VDDM external=VDD-->
+      <InnerPin position="14" external="15" />
+      <!--position=SDA external=SDA-->
+      <InnerPin position="15" external="21" />
+      <!--position=SCL external=SCL-->
+      <InnerPin position="16" external="22" />
+      <!--position=TMC external=GND/NC-->
+      <InnerPin position="17" external="2" />
+      <!--position=TMC external=GND/NC-->
+      <InnerPin position="17" external="3" />
+      <!--position=TMC external=GND-->
+      <InnerPin position="17" external="25" />
+      <!--position=TMC external=GND-->
+      <InnerPin position="17" external="26" />
+      <!--position=TMC external=GND-->
+      <InnerPin position="17" external="27" />
+      <!--position=TMC external=GND-->
+      <InnerPin position="17" external="28" />
+      <!--position=RST_N external=XRES-->
+      <InnerPin position="18" external="1" />
+      <!--position=P0 external=P0-->
+      <InnerPin position="19" external="20" />
+      <!--position=P1 external=P1-->
+      <InnerPin position="20" external="19" />
+      <!--position=P3 external=P3-->
+      <InnerPin position="21" external="16" />
+      <!--position=P2 external=P2-->
+      <InnerPin position="22" external="14" />
+      <!--position=P4 external=P4-->
+      <InnerPin position="23" external="13" />
+      <!--position=P8/P33 external=P8/P33-->
+      <InnerPin position="24" external="17" />
+      <!--position=P32 external=P32-->
+      <InnerPin position="25" external="18" />
+      <!--position=P25 external=P25-->
+      <InnerPin position="26" external="12" />
+      <!--position=P24 external=P24-->
+      <InnerPin position="27" external="9" />
+      <!--position=VDDO external=VDD-->
+      <InnerPin position="28" external="15" />
+      <!--position=P13/P28 external=P13/P28-->
+      <InnerPin position="29" external="8" />
+      <!--position=P14/P38 external=P14/P38-->
+      <InnerPin position="30" external="7" />
+      <!--position=P15 external=P15-->
+      <InnerPin position="31" external="6" />
+      <!--position=P12/P26/XO32 external=P12/P26-->
+      <InnerPin position="32" external="5" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="CYBLE-013030-00" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYW20737A1KML2G" />
+    <Param name="Package" value="31-SMT" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Infineon" />
+    <Param name="DATASHEET" value="https://www.cypress.com/part/cyble-013030-00" />
+  </Parameters>
+</View>
