@@ -1,8 +1,7 @@
-# Device Database v4.0.2
+# Device Database v4.0.3
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Align with the ModusToolbox™ 3.0 release.
 * Minor bug fixes.
 
 ## More information in:
