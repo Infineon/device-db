@@ -18,4 +18,4 @@ This database is used by the ModusToolbox™ software. Do not use this repositor
 - [MTB CAT3 XMC Library](https://github.com/Infineon/mtb-xmclib-cat3)
 
 ---
-© 2022, Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation.
+© 2022-2023, Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation.
