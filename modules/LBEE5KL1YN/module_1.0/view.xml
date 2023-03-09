@@ -290,7 +290,7 @@
     <Param name="DATASHEET" value="https://www.murata.com/products/productdata/8815814344734/type1yn.pdf" />
   </Parameters>
   <DeviceComponents>
-    <DevComp name="MURATA-1YN" />
     <DevComp name="HCI-UART" />
+    <DevComp name="MURATA-1YN" />
   </DeviceComponents>
 </View>

@@ -227,6 +227,16 @@
         "path": "devices/Connectivity-BT-WIFI/4390x/CYW54907KWBG"
       },
       {
+        "name": "55500A0",
+        "part": false,
+        "path": "devices/Connectivity-BT-WIFI/55500A0"
+      },
+      {
+        "name": "CYW55513IUBG",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55500A0/CYW55513IUBG"
+      },
+      {
         "name": "55572A1",
         "part": false,
         "path": "devices/Connectivity-BT-WIFI/55572A1"
@@ -4592,9 +4602,24 @@
         "path": "devices/MXS40Sv2/CYW20829/CYW20829A0LKML"
       },
       {
+        "name": "CYW20829B0KML",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0KML"
+      },
+      {
+        "name": "CYW20829B0LKML",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0LKML"
+      },
+      {
         "name": "CYW89829A0KML",
         "part": true,
         "path": "devices/MXS40Sv2/CYW20829/CYW89829A0KML"
+      },
+      {
+        "name": "CYW89829B0KML",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW89829B0KML"
       },
       {
         "name": "XMC",

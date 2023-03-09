@@ -197,7 +197,7 @@
         <Value>0</Value>
       </Parameter>
       <Parameter name="ToolTip">
-        <Value>SYSTICK: Provides an optional external source for the CM4/CM0+ SysTick timers.</Value>
+        <Value>SYSTICK: Provides an optional external source for the CM0 SysTick timers.</Value>
       </Parameter>
     </Instance>
     <Instance guid="a2592e62-0a85-4880-9091-69d2a316170b" name="mux_4" component="mux_3">

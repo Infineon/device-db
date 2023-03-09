@@ -509,7 +509,7 @@
         <Value>0</Value>
       </Parameter>
       <Parameter name="ToolTip">
-        <Value>AltSysTickClk: Provides an optional external source for the CM4/CM0+ SysTick timers.</Value>
+        <Value>AltSysTickClk: Provides an optional external source for the CM7/CM0+ SysTick timers.</Value>
       </Parameter>
     </Instance>
     <Instance guid="378cd5c3-d1cd-43c6-bd19-2ed89dfa9e7b" name="PLL0" component="clock_side">
@@ -2396,10 +2396,10 @@
       <Terminal name="CLK_HF3.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF2.b_17" type="Instance Digital Input" />
       <Terminal name="arc_bridge_10.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_9.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_1.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_9.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
     </Signal>
     <Signal name="Net_2971" type="Digital" terminalCount="1">
       <Terminal name="CLK_HF1.b_15" type="Instance Digital Input" />

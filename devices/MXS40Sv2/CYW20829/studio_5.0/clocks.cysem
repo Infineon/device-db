@@ -305,7 +305,7 @@
         <Value>0</Value>
       </Parameter>
       <Parameter name="ToolTip">
-        <Value>AltSysTickClk: Provides an optional external source for the CM4/CM0+ SysTick timers.</Value>
+        <Value>AltSysTickClk: Provides an optional external source for the CM33 SysTick timers.</Value>
       </Parameter>
     </Instance>
     <Instance guid="361ca358-26b5-4471-9011-52d5c3b43a73" name="EXTCLK_1" component="clock_side">

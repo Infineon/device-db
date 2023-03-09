@@ -29,7 +29,7 @@
     <Param name="DSD_Count" value="4" />
     <Param name="DSD_removed" value="NA" />
     <Param name="USB_Count" value="1" />
-    <Param name="USB_removed" value="" />
+    <Param name="USB_removed" value="NA" />
     <Param name="HRPWM_Count" value="0" />
     <Param name="HRPWM_removed" value="NA" />
     <Param name="SDMMC_Count" value="1" />
@@ -46,6 +46,7 @@
     <Param name="TempMax_Celsius" value="150" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4800-e196f1536-aa/" />
   </Parameters>
   <ToolIDs>
     <ToolID name="device-configurator" />

@@ -37,6 +37,7 @@
     <Param name="TempMax_Celsius" value="105" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1404-q064x0064-aa/" />
   </Parameters>
   <ToolIDs>
     <ToolID name="device-configurator" />

@@ -20,13 +20,14 @@
     <Param name="SiliconID" value="0x00000000" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="https://www.infineon.com/dgdl/Infineon-CYW54907_WICED_IEEE_802.11_a_b_g_n_ac_SoC_with_an_Embedded_Applications_Processor-AdditionalTechnicalInformation-v07_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee5dca76dac" />
+    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-connected-mcu/cyw54907/" />
   </Parameters>
   <ToolIDs>
     <ToolID name="library-manager" />
     <ToolID name="project-creator" />
   </ToolIDs>
   <DeviceComponents>
+    <DevComp name="4390X" />
     <DevComp name="CAT4" />
   </DeviceComponents>
 </View>

@@ -536,4 +536,8 @@
     <Param name="Vendor" value="Murata" />
     <Param name="DATASHEET" value="https://www.murata.com/products/productdata/8816428220446/type2ae.pdf" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="HCI-UART" />
+    <DevComp name="MURATA-2AE" />
+  </DeviceComponents>
 </View>

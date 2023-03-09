@@ -298,7 +298,7 @@
     <Param name="DATASHEET" value="https://www.murata.com/products/productdata/8813651165214/type1dx.pdf" />
   </Parameters>
   <DeviceComponents>
-    <DevComp name="MURATA-1DX" />
     <DevComp name="HCI-UART" />
+    <DevComp name="MURATA-1DX" />
   </DeviceComponents>
 </View>

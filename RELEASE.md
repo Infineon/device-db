@@ -1,8 +1,9 @@
-# Device Database v4.0.4
+# Device Database v4.1.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Adds new part numbers under exsiting families: PMG1-S3, CCG7S, PSoC 4100S Plus
+* Adds CYW955513 device (Beta support).
+* Minor bug fixes and improvements.
 
 ## More information in:
 * [Device Database README.md](./README.md)

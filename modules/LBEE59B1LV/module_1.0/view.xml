@@ -358,7 +358,7 @@
     <Param name="DATASHEET" value="https://www.murata.com/products/productdata/8813651886110/type1lv.pdf" />
   </Parameters>
   <DeviceComponents>
-    <DevComp name="MURATA-1LV" />
     <DevComp name="HCI-UART" />
+    <DevComp name="MURATA-1LV" />
   </DeviceComponents>
 </View>

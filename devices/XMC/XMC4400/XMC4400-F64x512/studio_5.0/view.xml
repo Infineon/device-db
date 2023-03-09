@@ -15,7 +15,7 @@
     <Param name="CCU8_Count" value="2" />
     <Param name="CCU8_removed" value="NA" />
     <Param name="POSIF_Count" value="2" />
-    <Param name="POSIF_removed" value="" />
+    <Param name="POSIF_removed" value="NA" />
     <Param name="USIC_Count" value="4" />
     <Param name="USIC_removed" value="NA" />
     <Param name="LEDTS_Count" value="1" />
@@ -46,6 +46,7 @@
     <Param name="TempMax_Celsius" value="150" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4400-f64f512-ba/" />
   </Parameters>
   <ToolIDs>
     <ToolID name="device-configurator" />

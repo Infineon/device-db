@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.3" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
   <Page index="0" name="Architecture" enabled="true" shapeCount="35">
     <Instance shapeName="Shape_1" zorder="56" guid="1f58e231-8d24-4b55-83e0-bf6c5dbe639d" name="SYSCLK" component="clock_side">
       <Location x="471" y="77.99999" />
@@ -40,7 +40,7 @@
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].sysclk[0]", "frequency"), getExposedMember("srss[0].clock[0].sysclk[0]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
-          <Expression><![CDATA[`${formatFrequency(getExposedMember("`=$HwBlock`", "frequency"), getExposedMember("`=$HwBlock`", "accuracy"))}`]]></Expression>
+          <Expression><![CDATA[`=$BodyTextOverride eq "" ? $DefaultBodyText : $BodyTextOverride`]]></Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -111,7 +111,7 @@
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].hfclk[0]", "frequency"), getExposedMember("srss[0].clock[0].hfclk[0]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
-          <Expression><![CDATA[`${formatFrequency(getExposedMember("`=$HwBlock`", "frequency"), getExposedMember("`=$HwBlock`", "accuracy"))}`]]></Expression>
+          <Expression><![CDATA[`=$BodyTextOverride eq "" ? $DefaultBodyText : $BodyTextOverride`]]></Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -192,7 +192,7 @@
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].pumpclk[0]", "frequency"), getExposedMember("srss[0].clock[0].pumpclk[0]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
-          <Expression><![CDATA[`${formatFrequency(getExposedMember("`=$HwBlock`", "frequency"), getExposedMember("`=$HwBlock`", "accuracy"))}`]]></Expression>
+          <Expression><![CDATA[`=$BodyTextOverride eq "" ? $DefaultBodyText : $BodyTextOverride`]]></Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -456,7 +456,7 @@
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].imo[0]", "frequency"), getExposedMember("srss[0].clock[0].imo[0]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
-          <Expression><![CDATA[`${formatFrequency(getExposedMember("`=$HwBlock`", "frequency"), getExposedMember("`=$HwBlock`", "accuracy"))}`]]></Expression>
+          <Expression><![CDATA[`=$BodyTextOverride eq "" ? $DefaultBodyText : $BodyTextOverride`]]></Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -507,7 +507,7 @@
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].ext[0]", "frequency"), getExposedMember("srss[0].clock[0].ext[0]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
-          <Expression><![CDATA[`${formatFrequency(getExposedMember("`=$HwBlock`", "frequency"), getExposedMember("`=$HwBlock`", "accuracy"))}`]]></Expression>
+          <Expression><![CDATA[`=$BodyTextOverride eq "" ? $DefaultBodyText : $BodyTextOverride`]]></Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -558,7 +558,7 @@
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].ilo[0]", "frequency"), getExposedMember("srss[0].clock[0].ilo[0]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
-          <Expression><![CDATA[`${formatFrequency(getExposedMember("`=$HwBlock`", "frequency"), getExposedMember("`=$HwBlock`", "accuracy"))}`]]></Expression>
+          <Expression><![CDATA[`=$BodyTextOverride eq "" ? $DefaultBodyText : $BodyTextOverride`]]></Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -609,7 +609,7 @@
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].altsystickclk[0]", "frequency"), getExposedMember("srss[0].clock[0].altsystickclk[0]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
-          <Expression><![CDATA[`${formatFrequency(getExposedMember("`=$HwBlock`", "frequency"), getExposedMember("`=$HwBlock`", "accuracy"))}`]]></Expression>
+          <Expression><![CDATA[`=$BodyTextOverride eq "" ? $DefaultBodyText : $BodyTextOverride`]]></Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -668,7 +668,7 @@
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].lfclk[0]", "frequency"), getExposedMember("srss[0].clock[0].lfclk[0]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
-          <Expression><![CDATA[`${formatFrequency(getExposedMember("`=$HwBlock`", "frequency"), getExposedMember("`=$HwBlock`", "accuracy"))}`]]></Expression>
+          <Expression><![CDATA[`=$BodyTextOverride eq "" ? $DefaultBodyText : $BodyTextOverride`]]></Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>

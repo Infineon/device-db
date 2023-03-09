@@ -197,7 +197,7 @@
         <Value>0</Value>
       </Parameter>
       <Parameter name="ToolTip">
-        <Value>SYSTICK: Provides an optional external source for the CM4/CM0+ SysTick timers.</Value>
+        <Value>SYSTICK: Provides an optional external source for the CM0+ SysTick timers.</Value>
       </Parameter>
     </Instance>
     <Instance guid="a6d20d3e-411a-4a6f-a79b-71911287a237" name="LFCLK" component="clock_side">

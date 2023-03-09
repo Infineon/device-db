@@ -552,6 +552,7 @@
     <Instance shapeName="Shape_3411" zorder="35" guid="56390d50-b5eb-4464-b0be-6e7b0e1e038b" name="P2_Pin7" component="cy_all_pin">
       <Location x="30" y="198" />
       <Size width="36" height="12" />
+      <ShapeTags>wl:vadc[0].group[1]</ShapeTags>
       <SubShapes>
         <ClosedShape>
           <Point x="66" y="204" />
@@ -742,7 +743,7 @@
     <Wire shapeName="Shape_3611" zorder="36" effectiveName="p2_7" type="Analog">
       <Point1 x="66" y="204" />
       <Point2 x="150" y="204" />
-      <ShapeTags>wl:ioss[0].port[2].pin[7]</ShapeTags>
+      <ShapeTags>wl:vadc[0].group[1]</ShapeTags>
       <Annotation zorder="37">
         <Location x="66" y="198" />
         <Text>p2_7</Text>

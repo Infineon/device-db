@@ -20,11 +20,10 @@
     <Param name="SiliconID" value="0x00000000" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="https://www.cypress.com/documentation/datasheets/cyw20706-bluetooth-soc-embedded-wireless-devices" />
+    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le-bluetooth/cyw20706/" />
   </Parameters>
   <ToolIDs>
     <ToolID name="bt-configurator" />
-    <ToolID name="device-configurator" />
     <ToolID name="library-manager" />
     <ToolID name="project-creator" />
   </ToolIDs>

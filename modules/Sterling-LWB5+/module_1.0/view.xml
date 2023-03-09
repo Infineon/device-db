@@ -504,7 +504,7 @@
     <Param name="DATASHEET" value="https://www.lairdconnect.com/documentation/datasheet-sterling-lwb5-0" />
   </Parameters>
   <DeviceComponents>
-    <DevComp name="STERLING-LWB5plus" />
     <DevComp name="HCI-UART" />
+    <DevComp name="STERLING-LWB5plus" />
   </DeviceComponents>
 </View>

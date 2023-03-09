@@ -1765,8 +1765,8 @@
     <Param name="DATASHEET" value="https://www.usiglobal.com/files/images/products/iot/WM-BAC-CYW-50_DTS_V02.pdf" />
   </Parameters>
   <DeviceComponents>
-    <DevComp name="WM-BAC-CYW-50" />
     <DevComp name="HCI-UART" />
     <DevComp name="WIFI_INTERFACE_SDIO" />
+    <DevComp name="WM-BAC-CYW-50" />
   </DeviceComponents>
 </View>

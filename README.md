@@ -3,7 +3,7 @@
 ### Overview
 The device database supported in ModusToolbox™ applies to all Infineon Technologies devices.
 
-The database consists of a set of marketing devices distributed in a set of hierarchal directories.
+The database consists of a set of marketing devices distributed in a set of hierarchical directories.
 Each marketing device contains a base view that describes the basic characteristics of the device and additional views as defined by applications that use the device-db asset.
 
 This database is used by the ModusToolbox™ software. Do not use this repository directly.
