@@ -22,12 +22,17 @@
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-connected-mcu/cyw43907/" />
   </Parameters>
-  <ToolIDs>
-    <ToolID name="library-manager" />
-    <ToolID name="project-creator" />
-  </ToolIDs>
   <DeviceComponents>
     <DevComp name="4390X" />
     <DevComp name="CAT4" />
   </DeviceComponents>
+  <DeviceCategory>CAT4</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat4</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
+  <ToolIDs>
+    <ToolID name="library-manager" />
+    <ToolID name="project-creator" />
+  </ToolIDs>
 </View>

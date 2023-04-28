@@ -24,8 +24,8 @@
     <Param name="Comp_REMOVED" value="NA" />
     <Param name="DAC8_Count" value="2" />
     <Param name="DAC8_removed" value="NA" />
-    <Param name="SCB_Count" value="5" />
-    <Param name="SCB_removed" value="NA" />
+    <Param name="SCB_Count" value="4" />
+    <Param name="SCB_removed" value="4" />
     <Param name="TimerCounterPWM_Count" value="8" />
     <Param name="TimerCounterPWM_removed" value="NA" />
     <Param name="CAN20B_Count" value="1" />
@@ -52,20 +52,24 @@
     <Param name="PROJECT_TEMPLATE" value="P41S3_S453_455_475.zip" />
     <Param name="WCO" value="Y" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT2" />
+    <DevComp name="PSOC4100SP" />
+  </DeviceComponents>
+  <DeviceCategory>CAT2</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
   <ToolIDs>
     <ToolID name="capsense-configurator" />
     <ToolID name="capsense-tuner" />
     <ToolID name="device-configurator" />
     <ToolID name="dfuh-tool" />
-    <ToolID name="fw-loader" />
     <ToolID name="library-manager" />
     <ToolID name="lin-configurator" />
     <ToolID name="project-creator" />
     <ToolID name="seglcd-configurator" />
     <ToolID name="smartio-configurator" />
   </ToolIDs>
-  <DeviceComponents>
-    <DevComp name="CAT2" />
-    <DevComp name="PSOC4100SP" />
-  </DeviceComponents>
 </View>

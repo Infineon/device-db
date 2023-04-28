@@ -11,11 +11,12 @@ This database is used by the ModusToolbox™ software. Do not use this repositor
 ## More information
 
 - [Device Database release notes](./RELEASE.md)
-- [ModusToolbox&trade; software environment, quick start guide, documentation, and videos](https://www.cypress.com/products/modustoolbox-software-environment)
-- [ModusToolbox&trade; device configurator user guide](https://www.cypress.com/ModusToolboxDeviceConfig)
+- [ModusToolbox™ software environment, quick start guide, documentation, and videos](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software)
+- [ModusToolbox™ Device Configurator user guide](https://www.infineon.com/ModusToolboxDeviceConfig)
 - [MTB CAT1 Peripheral Driver Library](https://github.com/Infineon/mtb-pdl-cat1)
 - [MTB CAT2 Peripheral Driver Library](https://github.com/Infineon/mtb-pdl-cat2)
 - [MTB CAT3 XMC Library](https://github.com/Infineon/mtb-xmclib-cat3)
+- [MTB CAT5 Peripheral Driver Library](https://github.com/Infineon/mtb-pdl-cat5)
 
 ---
 © 2022-2023, Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation.

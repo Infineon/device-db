@@ -4,8 +4,6 @@
     <Core type="CortexM0p" count="1" displayName="ARM Cortex-M0+" define="CM0P" />
   </Cores>
   <Clocks file="clocks" />
-  <DSIs file="dsi" />
-  <Interrupts file="interrupts" />
   <IPs file="ipblocks" />
   <Pins file="pins" />
   <Triggers file="triggers" />

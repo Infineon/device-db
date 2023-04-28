@@ -6,6 +6,7 @@
     <Param name="DeviceDie" value="PSoC4ASF2" />
     <Param name="Silicon_Revision" value="PRODUCTION" />
     <Param name="Package" value="24-QFN" />
+    <Param name="CPU" value="ARM CM0+" />
     <Param name="DeviceSeries" value="PSoC 4000T" />
     <Param name="Speed_MHz" value="48" />
     <Param name="Flash_KB" value="64" />
@@ -16,17 +17,21 @@
     <Param name="SAR12Sample_ksps" value="NA" />
     <Param name="OpAmp_Count" value="0" />
     <Param name="OpAmp_Removed" value="NA" />
+    <Param name="LPComp_Count" value="0" />
+    <Param name="LPComp_REMOVED" value="NA" />
     <Param name="Comp_Count" value="0" />
     <Param name="Comp_REMOVED" value="NA" />
     <Param name="DAC8_Count" value="0" />
     <Param name="DAC8_removed" value="NA" />
     <Param name="SCB_Count" value="2" />
+    <Param name="SCB_removed" value="NA" />
     <Param name="TimerCounterPWM_Count" value="2" />
     <Param name="TimerCounterPWM_removed" value="NA" />
-    <Param name="CAPSENSE" value="Y" />
+    <Param name="CapSense" value="Y" />
     <Param name="Inductive Sensing" value="N" />
     <Param name="TMG" value="Y" />
     <Param name="DirDriveLCD" value="N" />
+    <Param name="DMAchannels_count" value="0" />
     <Param name="IO_Count" value="19" />
     <Param name="Vddmin_volts" value="1.71" />
     <Param name="Vddmax_volts" value="5.5" />
@@ -41,17 +46,21 @@
     <Param name="PROJECT_TEMPLATE" value="" />
     <Param name="WCO" value="N" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT2" />
+    <DevComp name="PSOC4000T" />
+  </DeviceComponents>
+  <DeviceCategory>CAT2</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
   <ToolIDs>
     <ToolID name="capsense-configurator" />
     <ToolID name="capsense-tuner" />
     <ToolID name="device-configurator" />
     <ToolID name="dfuh-tool" />
-    <ToolID name="fw-loader" />
     <ToolID name="library-manager" />
     <ToolID name="project-creator" />
   </ToolIDs>
-  <DeviceComponents>
-    <DevComp name="CAT2" />
-    <DevComp name="PSOC4000T" />
-  </DeviceComponents>
 </View>

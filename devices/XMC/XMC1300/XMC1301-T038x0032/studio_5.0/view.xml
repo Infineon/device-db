@@ -21,6 +21,8 @@
     <Param name="BCCU_removed" value="0" />
     <Param name="USIC_Count" value="2" />
     <Param name="USIC_removed" value="NA" />
+    <Param name="USIC_I2C_Count" value="2" />
+    <Param name="USIC_I2C_removed" value="NA" />
     <Param name="LEDTS_Count" value="0" />
     <Param name="LEDTS_removed" value="NA" />
     <Param name="CAN_Count" value="0" />
@@ -39,14 +41,19 @@
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1301-t038x0032-ab/" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT3" />
+    <DevComp name="XMC13XX" />
+  </DeviceComponents>
+  <DeviceCategory>CAT3</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat3</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
   <ToolIDs>
     <ToolID name="device-configurator" />
     <ToolID name="library-manager" />
     <ToolID name="online-simulator" />
     <ToolID name="project-creator" />
   </ToolIDs>
-  <DeviceComponents>
-    <DevComp name="CAT3" />
-    <DevComp name="XMC13XX" />
-  </DeviceComponents>
 </View>

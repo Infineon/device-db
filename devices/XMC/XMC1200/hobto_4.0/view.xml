@@ -3,7 +3,6 @@
   <Cores>
     <Core type="CortexM0" count="1"/>
   </Cores>
-  <Interrupts file="interrupts"/>
   <IPs file="ipblocks"/>
   <Pins file="pins"/>
 </View>

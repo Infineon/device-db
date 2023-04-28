@@ -64,10 +64,24 @@
     <Param name="PROJECT_TEMPLATE" value="P6_D02.zip" />
     <Param name="ECO" value="Y" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT1" />
+    <DevComp name="CAT1A" />
+    <DevComp name="PSOC6_03" />
+  </DeviceComponents>
+  <DeviceCategory>CAT1A</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
+  <provides>
+    <provide key="bt-uart" />
+    <provide key="wifi-spi" />
+    <provide key="wifi-sdio" />
+  </provides>
   <ToolIDs>
     <ToolID name="device-configurator" />
     <ToolID name="dfuh-tool" />
-    <ToolID name="fw-loader" />
     <ToolID name="library-manager" />
     <ToolID name="lin-configurator" />
     <ToolID name="ml-configurator" />
@@ -77,9 +91,4 @@
     <ToolID name="smartio-configurator" />
     <ToolID name="usbdev-configurator" />
   </ToolIDs>
-  <DeviceComponents>
-    <DevComp name="CAT1" />
-    <DevComp name="CAT1A" />
-    <DevComp name="PSOC6_03" />
-  </DeviceComponents>
 </View>

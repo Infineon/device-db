@@ -3,10 +3,7 @@
   <Cores>
     <Core type="CortexM3" count="1" />
   </Cores>
-  <DSIs file="dsi" />
-  <Interrupts file="interrupts" />
   <IPs file="ipblocks" />
   <Pins file="pins" />
   <Triggers file="triggers" />
-  <AmuxBus file="amuxbus" />
 </View>

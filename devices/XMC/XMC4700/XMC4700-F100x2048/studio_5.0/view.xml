@@ -18,6 +18,8 @@
     <Param name="POSIF_removed" value="NA" />
     <Param name="USIC_Count" value="6" />
     <Param name="USIC_removed" value="NA" />
+    <Param name="USIC_I2C_Count" value="6" />
+    <Param name="USIC_I2C_Removed" value="3" />
     <Param name="LEDTS_Count" value="1" />
     <Param name="LEDTS_removed" value="NA" />
     <Param name="CAN_Count" value="6" />
@@ -48,13 +50,18 @@
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4700-f100f2048-aa/" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT3" />
+    <DevComp name="XMC47XX" />
+  </DeviceComponents>
+  <DeviceCategory>CAT3</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat3</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
   <ToolIDs>
     <ToolID name="device-configurator" />
     <ToolID name="library-manager" />
     <ToolID name="project-creator" />
   </ToolIDs>
-  <DeviceComponents>
-    <DevComp name="CAT3" />
-    <DevComp name="XMC47XX" />
-  </DeviceComponents>
 </View>

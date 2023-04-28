@@ -22,13 +22,18 @@
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="NA" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT5" />
+  </DeviceComponents>
+  <DeviceCategory>CAT5</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat5</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
   <ToolIDs>
     <ToolID name="bt-configurator" />
     <ToolID name="device-configurator" />
     <ToolID name="library-manager" />
     <ToolID name="project-creator" />
   </ToolIDs>
-  <DeviceComponents>
-    <DevComp name="CAT5" />
-  </DeviceComponents>
 </View>

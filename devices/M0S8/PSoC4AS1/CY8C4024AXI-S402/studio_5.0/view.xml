@@ -52,18 +52,22 @@
     <Param name="PROJECT_TEMPLATE" value="P40S_40x.zip" />
     <Param name="WCO" value="Y" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT2" />
+    <DevComp name="PSOC4000S" />
+  </DeviceComponents>
+  <DeviceCategory>CAT2</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
   <ToolIDs>
     <ToolID name="device-configurator" />
     <ToolID name="dfuh-tool" />
-    <ToolID name="fw-loader" />
     <ToolID name="library-manager" />
     <ToolID name="lin-configurator" />
     <ToolID name="project-creator" />
     <ToolID name="seglcd-configurator" />
     <ToolID name="smartio-configurator" />
   </ToolIDs>
-  <DeviceComponents>
-    <DevComp name="CAT2" />
-    <DevComp name="PSOC4000S" />
-  </DeviceComponents>
 </View>

@@ -4,8 +4,6 @@
     <DevDef name="NX_INCLUDE_USER_DEFINE_FILE"/>
     <DevDef name="NX_SECURE_INCLUDE_USER_DEFINE_FILE"/>
   </DeviceDefines>
-  <DeviceCategory>CAT5</DeviceCategory>
-  <TemplateAssetTag>mtb-template-cat5</TemplateAssetTag>
   <Files>
     <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
     <!--<Analog visPath="analog.cyvis" semPath="analog.cysem" ipPath="analogResourceMap.txt" />-->
@@ -16,7 +14,4 @@
     <PadFunctionType name="AUX" connectionsPerPin="18" port="aux" />
     <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog" />
   </PadFunctionTypes>
-  <types>
-    <type name="mcu" />
-  </types>
 </View>

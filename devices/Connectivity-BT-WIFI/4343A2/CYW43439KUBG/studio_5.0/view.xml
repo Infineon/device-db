@@ -22,13 +22,23 @@
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-4-802.11n/cyw43439/" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="43439" />
+  </DeviceComponents>
+  <types>
+    <type name="companion-connectivity" />
+  </types>
+  <requires>
+    <one-of>
+      <require key="wifi-sdio" />
+      <require key="wifi-spi" />
+    </one-of>
+    <require key="bt-uart" />
+  </requires>
   <ToolIDs>
     <ToolID name="bt-configurator" />
     <ToolID name="device-configurator" />
     <ToolID name="library-manager" />
     <ToolID name="project-creator" />
   </ToolIDs>
-  <DeviceComponents>
-    <DevComp name="43439" />
-  </DeviceComponents>
 </View>

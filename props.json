@@ -172,6 +172,16 @@
         "path": "devices/Connectivity-BT-WIFI/43012C0/CYW43012WKWBG"
       },
       {
+        "name": "43022C1",
+        "part": false,
+        "path": "devices/Connectivity-BT-WIFI/43022C1"
+      },
+      {
+        "name": "CYW43022CUB",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/43022C1/CYW43022CUB"
+      },
+      {
         "name": "4343A1",
         "part": false,
         "path": "devices/Connectivity-BT-WIFI/4343A1"
@@ -210,6 +220,11 @@
         "name": "CYW4373EUBGT",
         "part": true,
         "path": "devices/Connectivity-BT-WIFI/4373A0A/CYW4373EUBGT"
+      },
+      {
+        "name": "CYW4373IUBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/4373A0A/CYW4373IUBGT"
       },
       {
         "name": "4390x",
@@ -342,6 +357,11 @@
         "path": "devices/M0S8/CCG7D/WLC1150-68LQXQ"
       },
       {
+        "name": "WLC1250-68LQXQ",
+        "part": true,
+        "path": "devices/M0S8/CCG7D/WLC1250-68LQXQ"
+      },
+      {
         "name": "CCG7S",
         "part": false,
         "path": "devices/M0S8/CCG7S"
@@ -355,6 +375,11 @@
         "name": "CYPD7191-40LDXS",
         "part": true,
         "path": "devices/M0S8/CCG7S/CYPD7191-40LDXS"
+      },
+      {
+        "name": "CYPD7199-40LDXS",
+        "part": true,
+        "path": "devices/M0S8/CCG7S/CYPD7199-40LDXS"
       },
       {
         "name": "CYPM1115-48LQXI",
@@ -432,6 +457,16 @@
         "path": "devices/M0S8/PSoC4AMC/CY8C4128AZI-S455"
       },
       {
+        "name": "CY8C4128LQI-S446",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4128LQI-S446"
+      },
+      {
+        "name": "CY8C4128LQQ-S456",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4128LQQ-S456"
+      },
+      {
         "name": "CY8C4148AXI-S445",
         "part": true,
         "path": "devices/M0S8/PSoC4AMC/CY8C4148AXI-S445"
@@ -492,6 +527,16 @@
         "path": "devices/M0S8/PSoC4AMC/CY8C4148AZQ-S455"
       },
       {
+        "name": "CY8C4148LQI-S446",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4148LQI-S446"
+      },
+      {
+        "name": "CY8C4148LQQ-S456",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4148LQQ-S456"
+      },
+      {
         "name": "CY8C4546AXI-S475",
         "part": true,
         "path": "devices/M0S8/PSoC4AMC/CY8C4546AXI-S475"
@@ -505,6 +550,16 @@
         "name": "CY8C4546AZI-S475",
         "part": true,
         "path": "devices/M0S8/PSoC4AMC/CY8C4546AZI-S475"
+      },
+      {
+        "name": "CY8C4546LQI-S476",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4546LQI-S476"
+      },
+      {
+        "name": "CY8C4546LQQ-S476",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4546LQQ-S476"
       },
       {
         "name": "CY8C4547AXI-S475",
@@ -567,6 +622,16 @@
         "path": "devices/M0S8/PSoC4AMC/CY8C4547AZQ-S475"
       },
       {
+        "name": "CY8C4547LQI-S476",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4547LQI-S476"
+      },
+      {
+        "name": "CY8C4547LQQ-S476",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4547LQQ-S476"
+      },
+      {
         "name": "CY8C4548AXI-S475",
         "part": true,
         "path": "devices/M0S8/PSoC4AMC/CY8C4548AXI-S475"
@@ -605,6 +670,16 @@
         "name": "CY8C4548AZQ-S485",
         "part": true,
         "path": "devices/M0S8/PSoC4AMC/CY8C4548AZQ-S485"
+      },
+      {
+        "name": "CY8C4548LQI-S486",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4548LQI-S486"
+      },
+      {
+        "name": "CY8C4548LQQ-S486",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AMC/CY8C4548LQQ-S486"
       },
       {
         "name": "PSoC4AS1",
@@ -5635,6 +5710,11 @@
         "name": "LBEE5PK2AE",
         "part": true,
         "path": "modules/LBEE5PK2AE"
+      },
+      {
+        "name": "LBEE5PK2BC",
+        "part": true,
+        "path": "modules/LBEE5PK2BC"
       },
       {
         "name": "Sterling-LWB+",
