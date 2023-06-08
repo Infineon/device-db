@@ -46,6 +46,30 @@
     <DevComp name="CAT1C" />
     <DevComp name="CAT1C8M" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="can" />
+    <DevCap name="cat1" />
+    <DevCap name="cat1c" />
+    <DevCap name="ethernet" />
+    <DevCap name="flash_8384k" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="i2s" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="multi_core" />
+    <DevCap name="qspi" />
+    <DevCap name="rtc" />
+    <DevCap name="sdhc" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_1024k" />
+    <DevCap name="std_crypto" />
+    <DevCap name="uart" />
+    <DevCap name="xmc7000" />
+  </DeviceCapabilities>
   <DeviceCategory>CAT1C</DeviceCategory>
   <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
   <types>

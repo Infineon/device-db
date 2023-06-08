@@ -22,6 +22,14 @@
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le-bluetooth/cyw20819/" />
   </Parameters>
+  <DeviceCapabilities>
+    <DevCap name="bt" />
+    <DevCap name="btsdk" types="mcu" />
+    <DevCap name="cyw20819" />
+    <DevCap name="cyw20xxx" />
+    <DevCap name="flash_256k" types="mcu" />
+    <DevCap name="sram_160k" types="mcu" />
+  </DeviceCapabilities>
   <types>
     <type name="mcu" />
   </types>

@@ -25,6 +25,14 @@
   <DeviceComponents>
     <DevComp name="4373" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="bt" />
+    <DevCap name="cyw4373" />
+    <DevCap name="cyw43xxx" />
+    <DevCap name="flash_0k" types="mcu" />
+    <DevCap name="sram_896k" types="mcu" />
+    <DevCap name="wifi" />
+  </DeviceCapabilities>
   <types>
     <type name="companion-connectivity" />
   </types>

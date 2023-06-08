@@ -1735,8 +1735,9 @@
         </Annotation>
         <Annotation>
           <Location x="297" y="234" />
-          <Text>vin</Text>
+          <Text>vin[31:0]</Text>
           <Vertical value="false" />
+          <Expression>vin[`=$SAR_CHAN_NR-1`:0]</Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -5356,8 +5357,9 @@
         </Annotation>
         <Annotation>
           <Location x="579" y="234" />
-          <Text>vin</Text>
+          <Text>vin[31:0]</Text>
           <Vertical value="false" />
+          <Expression>vin[`=$SAR_CHAN_NR-1`:0]</Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -8667,8 +8669,9 @@
         </Annotation>
         <Annotation>
           <Location x="861" y="234" />
-          <Text>vin</Text>
+          <Text>vin[31:0]</Text>
           <Vertical value="false" />
+          <Expression>vin[`=$SAR_CHAN_NR-1`:0]</Expression>
           <Fill>
             <SolidBrush color="0, 0, 0" />
           </Fill>
@@ -23758,32 +23761,32 @@
         <TextAlignment value="TopLeft" />
       </Annotation>
     </Wire>
-    <Wire shapeName="Shape_7659" zorder="4" effectiveName="pass0_sar_vin00" type="Analog">
+    <Wire shapeName="Shape_7659" zorder="4" effectiveName="pass0_sar_vin0[31:0]" type="Analog">
       <Point1 x="276" y="234" />
       <Point2 x="294" y="234" />
       <Annotation zorder="5">
-        <Location x="288" y="234" />
-        <Text>pass0_sar_vin00</Text>
+        <Location x="276" y="246" />
+        <Text>pass0_sar_vin0[31:0]</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
       </Annotation>
     </Wire>
-    <Wire shapeName="Shape_7662" zorder="2" effectiveName="pass0_sar_vin10" type="Analog">
+    <Wire shapeName="Shape_7662" zorder="2" effectiveName="pass0_sar_vin1[31:0]" type="Analog">
       <Point1 x="558" y="234" />
       <Point2 x="576" y="234" />
       <Annotation zorder="3">
-        <Location x="570" y="234" />
-        <Text>pass0_sar_vin10</Text>
+        <Location x="558" y="246" />
+        <Text>pass0_sar_vin1[31:0]</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
       </Annotation>
     </Wire>
-    <Wire shapeName="Shape_7665" zorder="0" effectiveName="pass0_sar_vin20" type="Analog">
+    <Wire shapeName="Shape_7665" zorder="0" effectiveName="pass0_sar_vin2[31:0]" type="Analog">
       <Point1 x="840" y="234" />
       <Point2 x="858" y="234" />
       <Annotation zorder="1">
-        <Location x="852" y="234" />
-        <Text>pass0_sar_vin20</Text>
+        <Location x="840" y="246" />
+        <Text>pass0_sar_vin2[31:0]</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
       </Annotation>

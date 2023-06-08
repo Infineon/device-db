@@ -56,6 +56,25 @@
     <DevComp name="CAT2" />
     <DevComp name="PSOC4100SP" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="can" />
+    <DevCap name="cat2" />
+    <DevCap name="comp" />
+    <DevCap name="dma" />
+    <DevCap name="flash_128k" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="opamp" />
+    <DevCap name="psoc4" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_16k" />
+    <DevCap name="uart" />
+  </DeviceCapabilities>
   <DeviceCategory>CAT2</DeviceCategory>
   <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
   <types>

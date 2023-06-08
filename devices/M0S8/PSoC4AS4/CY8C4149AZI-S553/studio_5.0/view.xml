@@ -58,6 +58,27 @@
     <DevComp name="CAT2" />
     <DevComp name="PSOC4100SMAX" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="capsense" />
+    <DevCap name="cat2" />
+    <DevCap name="comp" />
+    <DevCap name="dma" />
+    <DevCap name="flash_384k" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="i2s" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="msc" />
+    <DevCap name="opamp" />
+    <DevCap name="psoc4" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_32k" />
+    <DevCap name="uart" />
+  </DeviceCapabilities>
   <DeviceCategory>CAT2</DeviceCategory>
   <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
   <types>

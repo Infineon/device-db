@@ -2602,6 +2602,16 @@
         "path": "devices/M0S8/PSoC4AS4"
       },
       {
+        "name": "CY8C4147AZA-S555",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AS4/CY8C4147AZA-S555"
+      },
+      {
+        "name": "CY8C4147AZS-S555",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AS4/CY8C4147AZS-S555"
+      },
+      {
         "name": "CY8C4147AZS-S568",
         "part": true,
         "path": "devices/M0S8/PSoC4AS4/CY8C4147AZS-S568"
@@ -2670,6 +2680,11 @@
         "name": "CY8C4148LDA-S553",
         "part": true,
         "path": "devices/M0S8/PSoC4AS4/CY8C4148LDA-S553"
+      },
+      {
+        "name": "CY8C4148LDS-S553",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AS4/CY8C4148LDS-S553"
       },
       {
         "name": "CY8C4149AZE-S595",
@@ -3107,6 +3122,11 @@
         "path": "devices/memory/S25FL127S-hybridtop"
       },
       {
+        "name": "S25FL128L",
+        "part": true,
+        "path": "devices/memory/S25FL128L"
+      },
+      {
         "name": "S25FL128S-256KBsectors",
         "part": true,
         "path": "devices/memory/S25FL128S-256KBsectors"
@@ -3135,6 +3155,11 @@
         "name": "S25FL204K",
         "part": true,
         "path": "devices/memory/S25FL204K"
+      },
+      {
+        "name": "S25FL256L",
+        "part": true,
+        "path": "devices/memory/S25FL256L"
       },
       {
         "name": "S25FL256S-256KBsectors",
@@ -3642,6 +3667,31 @@
         "path": "devices/MXS40/PSoC6A256K/CY8C6144AZQ-S4F93"
       },
       {
+        "name": "CY8C6144FMI-S4F03",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6144FMI-S4F03"
+      },
+      {
+        "name": "CY8C6144FMI-S4F53",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6144FMI-S4F53"
+      },
+      {
+        "name": "CY8C6144FMI-S4F73",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6144FMI-S4F73"
+      },
+      {
+        "name": "CY8C6144FMI-S4F93",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6144FMI-S4F93"
+      },
+      {
+        "name": "CY8C6144FMQ-S4F93",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6144FMQ-S4F93"
+      },
+      {
         "name": "CY8C6144LQI-S4F12",
         "part": true,
         "path": "devices/MXS40/PSoC6A256K/CY8C6144LQI-S4F12"
@@ -3705,6 +3755,31 @@
         "name": "CY8C6244AZQ-S4D93",
         "part": true,
         "path": "devices/MXS40/PSoC6A256K/CY8C6244AZQ-S4D93"
+      },
+      {
+        "name": "CY8C6244FMI-S4D03",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6244FMI-S4D03"
+      },
+      {
+        "name": "CY8C6244FMI-S4D53",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6244FMI-S4D53"
+      },
+      {
+        "name": "CY8C6244FMI-S4D73",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6244FMI-S4D73"
+      },
+      {
+        "name": "CY8C6244FMI-S4D93",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6244FMI-S4D93"
+      },
+      {
+        "name": "CY8C6244FMQ-S4D93",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A256K/CY8C6244FMQ-S4D93"
       },
       {
         "name": "CY8C6244LQI-S4D12",

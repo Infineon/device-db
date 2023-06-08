@@ -22,6 +22,14 @@
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="NA" />
   </Parameters>
+  <DeviceCapabilities>
+    <DevCap name="bt" />
+    <DevCap name="btsdk" types="mcu" />
+    <DevCap name="cyw20737" />
+    <DevCap name="cyw20xxx" />
+    <DevCap name="flash_0k" types="mcu" />
+    <DevCap name="sram_60k" types="mcu" />
+  </DeviceCapabilities>
   <types>
     <type name="mcu" />
   </types>

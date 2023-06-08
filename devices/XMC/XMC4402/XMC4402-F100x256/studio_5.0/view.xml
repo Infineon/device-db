@@ -54,6 +54,27 @@
     <DevComp name="CAT3" />
     <DevComp name="XMC44XX" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="can" />
+    <DevCap name="cat3" />
+    <DevCap name="ccu4" />
+    <DevCap name="ccu8" />
+    <DevCap name="dac" />
+    <DevCap name="flash_256k" />
+    <DevCap name="i2c" />
+    <DevCap name="low_power" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="posif" />
+    <DevCap name="rtc" />
+    <DevCap name="spi" />
+    <DevCap name="sram_80k" />
+    <DevCap name="uart" />
+    <DevCap name="usb_device" />
+    <DevCap name="usb_host" />
+    <DevCap name="xmc" />
+    <DevCap name="xmc4000" />
+  </DeviceCapabilities>
   <DeviceCategory>CAT3</DeviceCategory>
   <TemplateAssetTag>mtb-template-cat3</TemplateAssetTag>
   <types>

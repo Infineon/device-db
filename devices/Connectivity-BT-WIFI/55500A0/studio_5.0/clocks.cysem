@@ -289,14 +289,8 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>2</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>OSC_MUX</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value />
@@ -539,7 +533,7 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="124">
+  <Signals count="122">
     <Signal name="Net_961" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
     </Signal>
@@ -657,9 +651,7 @@
     <Signal name="Net_1123" type="Digital" terminalCount="1">
       <Terminal name="OSC_MHZ.a_14" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_1135" type="Digital" terminalCount="1">
-      <Terminal name="OSC_MUX.a_0" type="Instance Digital Output" />
-    </Signal>
+    <Signal name="Net_1135" type="" terminalCount="0" />
     <Signal name="Net_1143" type="Digital" terminalCount="1">
       <Terminal name="XTAL_MHZ.a_13" type="Instance Digital Output" />
     </Signal>
@@ -719,27 +711,8 @@
       <Terminal name="REF_CLK_MHZ.b_20" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_1176" type="" terminalCount="0" />
-    <Signal name="Net_1179" type="Digital" terminalCount="1">
-      <Terminal name="OSC_MUX.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1180" type="Digital" terminalCount="1">
-      <Terminal name="OSC_MUX.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1181" type="Digital" terminalCount="1">
-      <Terminal name="OSC_MUX.b_0" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1182" type="Digital" terminalCount="1">
-      <Terminal name="OSC_MUX.b_1" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1183" type="Digital" terminalCount="1">
-      <Terminal name="OSC_MUX.b_2" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1186" type="Digital" terminalCount="1">
-      <Terminal name="OSC_MUX.b_4" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1187" type="Digital" terminalCount="1">
-      <Terminal name="OSC_MUX.b_3" type="Instance Digital Input" />
-    </Signal>
+    <Signal name="Net_1186" type="" terminalCount="0" />
+    <Signal name="Net_1187" type="" terminalCount="0" />
     <Signal name="Net_1464" type="" terminalCount="0" />
     <Signal name="Net_1465" type="" terminalCount="0" />
     <Signal name="Net_1466" type="" terminalCount="0" />
@@ -889,6 +862,9 @@
     <Signal name="Net_1709" type="Digital" terminalCount="1">
       <Terminal name="REF_CLK_KHZ.b_17" type="Instance Digital Input" />
     </Signal>
+    <Signal name="Net_1710" type="" terminalCount="0" />
+    <Signal name="Net_1711" type="" terminalCount="0" />
+    <Signal name="Net_1713" type="" terminalCount="0" />
   </Signals>
   <Properties>
     <Property name="CanvasBackColor">255, 255, 255</Property>

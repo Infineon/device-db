@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
-  <Page index="0" name="Architecture" enabled="true" shapeCount="149">
-    <Instance shapeName="Shape_5" zorder="37" guid="37f4a04b-b637-4817-818a-39e54b27eca5" name="OSCFI" component="clock_side">
-      <Location x="126" y="198" />
+  <Page index="0" name="Architecture" enabled="true" shapeCount="153">
+    <Instance shapeName="Shape_5" zorder="198" guid="37f4a04b-b637-4817-818a-39e54b27eca5" name="OSCFI" component="clock_side">
+      <Location x="126" y="204" />
       <Size width="72.00001" height="30.00002" />
       <SubShapes>
         <Rectangle>
-          <Location x="126" y="198" />
+          <Location x="126" y="204" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -16,7 +16,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="126" y="198" />
+          <Location x="126" y="204" />
           <Size width="71.99999" height="12" />
           <Text>OFI</Text>
           <Vertical value="false" />
@@ -28,7 +28,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="127.4692" y="211.6012" />
+          <Location x="127.4692" y="217.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].osc_fi[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -40,22 +40,22 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="126" y="210" />
-          <Point x="198" y="210" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="126" y="216" />
+          <Point x="198" y="216" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_6" zorder="90" guid="b69470a8-8429-4fae-8fa0-d990b95dbf38" name="OSCSI" component="clock_side">
+    <Instance shapeName="Shape_6" zorder="196" guid="b69470a8-8429-4fae-8fa0-d990b95dbf38" name="OSCSI" component="clock_side">
       <Location x="126" y="426" />
       <Size width="72.00001" height="30.00003" />
       <SubShapes>
         <Rectangle>
           <Location x="126" y="426" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -89,20 +89,20 @@
         <Line>
           <Point x="126" y="438" />
           <Point x="198" y="438" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_7" zorder="5" guid="a2e7ea58-a420-4249-a3e2-676cfabe416f" name="SYSPLL" component="clock_side">
+    <Instance shapeName="Shape_7" zorder="204" guid="a2e7ea58-a420-4249-a3e2-676cfabe416f" name="SYSPLL" component="clock_side">
       <Location x="288" y="156" />
       <Size width="72.00003" height="30.00002" />
       <SubShapes>
         <Rectangle>
           <Location x="288" y="156" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -136,20 +136,20 @@
         <Line>
           <Point x="288" y="168" />
           <Point x="360" y="168" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_8" zorder="6" guid="b6966efc-199f-4607-b5da-0c93ef11e780" name="SYSUSB" component="clock_side">
-      <Location x="288" y="120" />
+    <Instance shapeName="Shape_8" zorder="205" guid="b6966efc-199f-4607-b5da-0c93ef11e780" name="SYSUSB" component="clock_side">
+      <Location x="288" y="114" />
       <Size width="72.00003" height="30.00001" />
       <SubShapes>
         <Rectangle>
-          <Location x="288" y="120" />
+          <Location x="288" y="114" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -157,7 +157,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="288" y="120" />
+          <Location x="288" y="114" />
           <Size width="72" height="12" />
           <Text>USB PLL</Text>
           <Vertical value="false" />
@@ -169,7 +169,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="289.4692" y="133.6012" />
+          <Location x="289.4692" y="127.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].pll_usb[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -181,22 +181,22 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="288" y="132" />
-          <Point x="360" y="132" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="288" y="126" />
+          <Point x="360" y="126" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_9" zorder="7" guid="18a849b0-b7e3-45ca-b1dc-2d05204d0a7c" name="SYSCLK" component="clock_side">
-      <Location x="474" y="270" />
+    <Instance shapeName="Shape_9" zorder="210" guid="18a849b0-b7e3-45ca-b1dc-2d05204d0a7c" name="SYSCLK" component="clock_side">
+      <Location x="474" y="264" />
       <Size width="72.00003" height="30.00003" />
       <SubShapes>
         <Rectangle>
-          <Location x="474" y="270" />
+          <Location x="474" y="264" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -204,7 +204,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="474" y="270" />
+          <Location x="474" y="264" />
           <Size width="71.99997" height="12" />
           <Text>System Clock</Text>
           <Vertical value="false" />
@@ -216,7 +216,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="475.4692" y="283.6011" />
+          <Location x="475.4692" y="277.6011" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].sysclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -228,22 +228,22 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="474" y="282" />
-          <Point x="546" y="282" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="474" y="276" />
+          <Point x="546" y="276" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_10" zorder="54" guid="d229427c-fbda-406f-9e7f-1457cfb2b7ac" name="CPUCLK" component="clock_side">
-      <Location x="599.9999" y="312" />
+    <Instance shapeName="Shape_10" zorder="219" guid="d229427c-fbda-406f-9e7f-1457cfb2b7ac" name="CPUCLK" component="clock_side">
+      <Location x="599.9999" y="324" />
       <Size width="72.00006" height="30.00003" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="312" />
+          <Location x="600" y="324" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -251,7 +251,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="312" />
+          <Location x="599.9999" y="324" />
           <Size width="72" height="12" />
           <Text>CPU Clock</Text>
           <Vertical value="false" />
@@ -263,7 +263,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="325.6011" />
+          <Location x="601.4692" y="337.6011" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].cpuclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -275,22 +275,22 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="324" />
-          <Point x="672" y="324" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="336" />
+          <Point x="672" y="336" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_12" zorder="57" guid="f3660795-1cea-4a34-9e20-06eca7aa0a65" name="CCUCLK" component="clock_side">
-      <Location x="599.9999" y="276" />
+    <Instance shapeName="Shape_12" zorder="218" guid="f3660795-1cea-4a34-9e20-06eca7aa0a65" name="CCUCLK" component="clock_side">
+      <Location x="599.9999" y="282" />
       <Size width="72.00006" height="30.00003" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="276" />
+          <Location x="600" y="282" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -298,7 +298,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="276" />
+          <Location x="599.9999" y="282" />
           <Size width="72" height="12" />
           <Text>CCU Clock</Text>
           <Vertical value="false" />
@@ -310,7 +310,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="289.6011" />
+          <Location x="601.4692" y="295.6011" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ccuclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -322,22 +322,22 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="288" />
-          <Point x="672" y="288" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="294" />
+          <Point x="672" y="294" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_14" zorder="60" guid="7323a3f9-a815-4a6a-b95e-55ee668b16b1" name="CCUCLK_2" component="clock_side">
-      <Location x="599.9999" y="95.99999" />
+    <Instance shapeName="Shape_14" zorder="214" guid="7323a3f9-a815-4a6a-b95e-55ee668b16b1" name="CCUCLK_2" component="clock_side">
+      <Location x="599.9999" y="102" />
       <Size width="72.00006" height="30.00001" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="96" />
+          <Location x="600" y="102" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -345,7 +345,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="95.99999" />
+          <Location x="599.9999" y="102" />
           <Size width="72" height="12" />
           <Text>USB Clock</Text>
           <Vertical value="false" />
@@ -357,7 +357,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="109.6012" />
+          <Location x="601.4692" y="115.6012" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].usbclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -369,22 +369,22 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="108" />
-          <Point x="672" y="108" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="114" />
+          <Point x="672" y="114" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_17" zorder="79" guid="c7b4e1a4-d069-44c7-8d86-7d42f3e5855c" name="EBUCLK" component="clock_side">
-      <Location x="599.9999" y="348" />
+    <Instance shapeName="Shape_17" zorder="220" guid="c7b4e1a4-d069-44c7-8d86-7d42f3e5855c" name="EBUCLK" component="clock_side">
+      <Location x="599.9999" y="360" />
       <Size width="72.00006" height="30.00003" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="348" />
+          <Location x="600" y="360" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -392,7 +392,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="348" />
+          <Location x="599.9999" y="360" />
           <Size width="72" height="12" />
           <Text>EBU Clock</Text>
           <Vertical value="false" />
@@ -404,7 +404,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="361.6011" />
+          <Location x="601.4692" y="373.6011" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ebuclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -416,22 +416,22 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="360" />
-          <Point x="672" y="360" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="372" />
+          <Point x="672" y="372" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_18" zorder="61" guid="59df1969-f27b-4995-8f86-05512149e2a9" name="WDTCLK" component="clock_side">
-      <Location x="599.9999" y="384" />
+    <Instance shapeName="Shape_18" zorder="221" guid="59df1969-f27b-4995-8f86-05512149e2a9" name="WDTCLK" component="clock_side">
+      <Location x="599.9999" y="396" />
       <Size width="72.00006" height="30.00003" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="384" />
+          <Location x="600" y="396" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -439,7 +439,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="384" />
+          <Location x="599.9999" y="396" />
           <Size width="72" height="12" />
           <Text>WDT Clock</Text>
           <Vertical value="false" />
@@ -451,7 +451,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="397.6011" />
+          <Location x="601.4692" y="409.6011" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].wdtclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -463,22 +463,22 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="396" />
-          <Point x="672" y="396" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="408" />
+          <Point x="672" y="408" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_21" zorder="91" guid="e1da97cc-ad62-45de-ba22-cda76a628764" name="RTCCLK" component="clock_side">
-      <Location x="599.9999" y="420" />
+    <Instance shapeName="Shape_21" zorder="222" guid="e1da97cc-ad62-45de-ba22-cda76a628764" name="RTCCLK" component="clock_side">
+      <Location x="599.9999" y="432" />
       <Size width="72.00006" height="30.00003" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="420" />
+          <Location x="600" y="432" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -486,7 +486,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="420" />
+          <Location x="599.9999" y="432" />
           <Size width="72" height="12" />
           <Text>RTC Clock</Text>
           <Vertical value="false" />
@@ -498,7 +498,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="433.6011" />
+          <Location x="601.4692" y="445.6011" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].rtcclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -510,20 +510,20 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="432" />
-          <Point x="672" y="432" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="444" />
+          <Point x="672" y="444" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_44" zorder="183" effectiveName="Net_270" type="Digital">
+    <Wire shapeName="Shape_44" zorder="146" effectiveName="Net_270" type="Digital">
       <Point1 x="672" y="120" />
       <Point2 x="786" y="120" />
       <ShapeTags>wl:scu[0].clock[0].usbclk[0]</ShapeTags>
     </Wire>
-    <Annotation shapeName="Shape_45" zorder="185">
+    <Annotation shapeName="Shape_45" zorder="148">
       <Location x="792" y="120" />
       <Text>USB</Text>
       <Vertical value="false" />
@@ -534,49 +534,49 @@
       <TextAlignment value="MiddleLeft" />
       <ShapeTags>wl:scu[0].clock[0].usbclk[0]</ShapeTags>
     </Annotation>
-    <Wire shapeName="Shape_73" zorder="16" effectiveName="Net_856" type="Digital">
+    <Wire shapeName="Shape_73" zorder="12" effectiveName="Net_856" type="Digital">
       <Point1 x="264" y="384" />
       <Point2 x="288" y="384" />
     </Wire>
-    <Wire shapeName="Shape_74" zorder="98" effectiveName="Net_857" type="Digital">
+    <Wire shapeName="Shape_74" zorder="91" effectiveName="Net_2552" type="Digital">
       <Point1 x="264" y="432" />
-      <Point2 x="600" y="432" />
+      <Point2 x="540" y="432" />
     </Wire>
-    <Wire shapeName="Shape_112" zorder="25" effectiveName="Net_1967" type="Digital">
+    <Wire shapeName="Shape_112" zorder="20" effectiveName="Net_1967" type="Digital">
       <Point1 x="264" y="174" />
       <Point2 x="288" y="174" />
     </Wire>
-    <Wire shapeName="Shape_115" zorder="27" effectiveName="Net_914" type="Digital">
+    <Wire shapeName="Shape_115" zorder="22" effectiveName="Net_914" type="Digital">
       <Point1 x="222" y="162" />
       <Point2 x="252" y="162" />
     </Wire>
-    <Wire shapeName="Shape_116" zorder="23" effectiveName="Net_914" type="Digital">
+    <Wire shapeName="Shape_116" zorder="18" effectiveName="Net_914" type="Digital">
       <Point1 x="198" y="132" />
       <Point2 x="222" y="132" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_117" zorder="21" effectiveName="Net_914" type="Digital">
+    <Wire shapeName="Shape_117" zorder="16" effectiveName="Net_914" type="Digital">
       <Point1 x="222" y="132" solderDot="true" />
       <Point2 x="288" y="132" />
     </Wire>
-    <Wire shapeName="Shape_119" zorder="29" effectiveName="Net_1146" type="Digital">
+    <Wire shapeName="Shape_119" zorder="24" effectiveName="Net_1146" type="Digital">
       <Point1 x="222" y="186" />
       <Point2 x="252" y="186" />
     </Wire>
-    <Wire shapeName="Shape_120" zorder="19" effectiveName="Net_1146" type="Digital">
+    <Wire shapeName="Shape_120" zorder="14" effectiveName="Net_1146" type="Digital">
       <Point1 x="198" y="222" />
       <Point2 x="222" y="222" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_137" zorder="55" effectiveName="Net_1009" type="Digital">
-      <Point1 x="582" y="324" />
-      <Point2 x="600" y="324" />
+    <Wire shapeName="Shape_137" zorder="52" effectiveName="Net_1009" type="Digital">
+      <Point1 x="582" y="342" />
+      <Point2 x="600" y="342" />
       <ShapeTags>wl:scu[0].clock[0].cpuclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_143" zorder="77" effectiveName="Net_1169" type="Digital">
-      <Point1 x="672" y="324" />
-      <Point2 x="696" y="324" />
+    <Wire shapeName="Shape_143" zorder="73" effectiveName="Net_1169" type="Digital">
+      <Point1 x="672" y="342" />
+      <Point2 x="696" y="342" />
       <ShapeTags>wl:scu[0].clock[0].periclk[0]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_210" zorder="201" guid="fd4ef841-2c1b-44a3-9f72-a2d96481731f" name="arc_bridge_2" component="arc_bridge">
+    <Instance shapeName="Shape_210" zorder="164" guid="fd4ef841-2c1b-44a3-9f72-a2d96481731f" name="arc_bridge_2" component="arc_bridge">
       <Location x="225" y="390" />
       <Size width="18" height="9" />
       <SubShapes>
@@ -599,15 +599,15 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_341" zorder="48" effectiveName="Net_949" type="Digital">
+    <Wire shapeName="Shape_341" zorder="46" effectiveName="Net_949" type="Digital">
       <Point1 x="456" y="282" />
       <Point2 x="474" y="282" />
     </Wire>
-    <Wire shapeName="Shape_481" zorder="70" effectiveName="Net_1113[0]" type="Analog">
-      <Point1 x="402" y="366" />
-      <Point2 x="444" y="366" />
+    <Wire shapeName="Shape_481" zorder="70" effectiveName="Net_2472[0]" type="Analog">
+      <Point1 x="402" y="360" />
+      <Point2 x="444" y="360" />
     </Wire>
-    <Instance shapeName="Shape_482" zorder="76" guid="8c1bf535-3019-4a74-bb10-6f5b9bcbd087" name="arc_bridge_1" component="arc_bridge">
+    <Instance shapeName="Shape_482" zorder="72" guid="8c1bf535-3019-4a74-bb10-6f5b9bcbd087" name="arc_bridge_1" component="arc_bridge">
       <Location x="393" y="288" />
       <Size width="18" height="9" />
       <SubShapes>
@@ -630,7 +630,7 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_485" zorder="46" effectiveName="Net_1729" type="Digital">
+    <Wire shapeName="Shape_485" zorder="44" effectiveName="Net_1729" type="Digital">
       <Point1 x="408" y="294" />
       <Point2 x="444" y="294" />
     </Wire>
@@ -662,8 +662,8 @@
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Annotation shapeName="Shape_551" zorder="106">
-      <Location x="96" y="372" />
+    <Annotation shapeName="Shape_551" zorder="99">
+      <Location x="96" y="360" />
       <Text>RTC_XTAL1</Text>
       <Vertical value="false" />
       <Fill>
@@ -672,7 +672,7 @@
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Instance shapeName="Shape_619" zorder="119" guid="4920401a-5065-459c-a782-4291bb6a396f" name="arc_bridge_3" component="arc_bridge">
+    <Instance shapeName="Shape_619" zorder="113" guid="4920401a-5065-459c-a782-4291bb6a396f" name="arc_bridge_3" component="arc_bridge">
       <Location x="555" y="114" />
       <Size width="18" height="8.999977" />
       <ShapeTags>wl:scu[0].clock[0].sdclk[0], wl:scu[0].clock[0].usbclk[0]</ShapeTags>
@@ -696,14 +696,14 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_621" zorder="18" guid="30596ff6-eea4-457c-ac04-5319ef7a58bb" name="OSCHP" component="clock_side">
-      <Location x="126" y="120" />
+    <Instance shapeName="Shape_621" zorder="199" guid="30596ff6-eea4-457c-ac04-5319ef7a58bb" name="OSCHP" component="clock_side">
+      <Location x="126" y="114" />
       <Size width="72.00001" height="30.00001" />
       <SubShapes>
         <Rectangle>
-          <Location x="126" y="120" />
+          <Location x="126" y="114" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -711,7 +711,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="126" y="120" />
+          <Location x="126" y="114" />
           <Size width="71.99999" height="12" />
           <Text>OSC_HP</Text>
           <Vertical value="false" />
@@ -723,7 +723,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="127.4692" y="133.6012" />
+          <Location x="127.4692" y="127.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].osc_hp[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -735,22 +735,22 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="126" y="132" />
-          <Point x="198" y="132" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="126" y="126" />
+          <Point x="198" y="126" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_623" zorder="4" guid="87426f8f-d5d0-4f68-be80-bf890a05810b" name="OSCULP" component="clock_side">
-      <Location x="126" y="366" />
+    <Instance shapeName="Shape_623" zorder="197" guid="87426f8f-d5d0-4f68-be80-bf890a05810b" name="OSCULP" component="clock_side">
+      <Location x="126" y="354" />
       <Size width="72.00001" height="30.00003" />
       <SubShapes>
         <Rectangle>
-          <Location x="126" y="366" />
+          <Location x="126" y="354" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -758,7 +758,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="126" y="366" />
+          <Location x="126" y="354" />
           <Size width="71.99999" height="12" />
           <Text>OSC_ULP</Text>
           <Vertical value="false" />
@@ -770,7 +770,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="127.4692" y="379.6011" />
+          <Location x="127.4692" y="367.6011" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].osc_ulp[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -782,88 +782,88 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="126" y="378" />
-          <Point x="198" y="378" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="126" y="366" />
+          <Point x="198" y="366" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_632" zorder="158" effectiveName="Net_1964" type="Digital">
-      <Point1 x="582" y="156" />
-      <Point2 x="600" y="156" />
+    <Wire shapeName="Shape_632" zorder="135" effectiveName="Net_1964" type="Digital">
+      <Point1 x="582" y="168" />
+      <Point2 x="600" y="168" />
       <ShapeTags>wl:scu[0].clock[0].sdclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_660" zorder="80" effectiveName="Net_1929" type="Digital">
-      <Point1 x="360" y="390" />
-      <Point2 x="444" y="390" />
+    <Wire shapeName="Shape_660" zorder="75" effectiveName="Net_1929" type="Digital">
+      <Point1 x="360" y="384" />
+      <Point2 x="444" y="384" />
     </Wire>
-    <Wire shapeName="Shape_668" zorder="66" effectiveName="Net_1590" type="Digital">
-      <Point1 x="456" y="396" />
-      <Point2 x="600" y="396" />
+    <Wire shapeName="Shape_668" zorder="60" effectiveName="Net_2551" type="Digital">
+      <Point1 x="456" y="378" />
+      <Point2 x="552" y="378" />
       <ShapeTags>wl:scu[0].clock[0].wdtclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_702" zorder="82" effectiveName="Net_914" type="Digital">
+    <Wire shapeName="Shape_702" zorder="77" effectiveName="Net_914" type="Digital">
       <Point1 x="222" y="132" solderDot="true" />
       <Point2 x="222" y="162" />
     </Wire>
-    <Wire shapeName="Shape_724" zorder="84" effectiveName="Net_1009" type="Digital">
+    <Wire shapeName="Shape_724" zorder="79" effectiveName="Net_1009" type="Digital">
       <Point1 x="564" y="84" />
       <Point2 x="576" y="84" />
     </Wire>
-    <Wire shapeName="Shape_725" zorder="86" effectiveName="Net_1146" type="Digital">
-      <Point1 x="384" y="378" />
-      <Point2 x="444" y="378" />
+    <Wire shapeName="Shape_725" zorder="81" effectiveName="Net_1146" type="Digital">
+      <Point1 x="384" y="372" />
+      <Point2 x="444" y="372" />
     </Wire>
-    <Wire shapeName="Shape_773" zorder="88" effectiveName="Net_1146" type="Digital">
+    <Wire shapeName="Shape_773" zorder="83" effectiveName="Net_1146" type="Digital">
       <Point1 x="222" y="222" solderDot="true" />
       <Point2 x="384" y="222" />
     </Wire>
-    <Wire shapeName="Shape_790" zorder="10" effectiveName="Net_852" type="Digital">
+    <Wire shapeName="Shape_790" zorder="6" effectiveName="Net_852" type="Digital">
       <Point1 x="234" y="372" solderDot="true" />
       <Point2 x="252" y="372" />
     </Wire>
-    <Wire shapeName="Shape_854" zorder="58" effectiveName="Net_1009" type="Digital">
-      <Point1 x="582" y="288" solderDot="true" />
-      <Point2 x="600" y="288" />
+    <Wire shapeName="Shape_854" zorder="54" effectiveName="Net_1009" type="Digital">
+      <Point1 x="582" y="300" solderDot="true" />
+      <Point2 x="600" y="300" />
       <ShapeTags>wl:scu[0].clock[0].ccuclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_863" zorder="64" effectiveName="Net_1730" type="Digital">
+    <Wire shapeName="Shape_863" zorder="58" effectiveName="Net_1730" type="Digital">
       <Point1 x="588" y="72" />
       <Point2 x="600" y="72" />
       <ShapeTags>wl:scu[0].clock[0].extclk[0]</ShapeTags>
     </Wire>
-    <Line shapeName="Shape_884" zorder="102">
-      <Point x="114" y="372" />
-      <Point x="126" y="372" />
+    <Line shapeName="Shape_884" zorder="95">
+      <Point x="114" y="360" />
+      <Point x="126" y="360" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_885" zorder="103">
-      <Point x="114" y="390" />
-      <Point x="126" y="390" />
+    <Line shapeName="Shape_885" zorder="96">
+      <Point x="114" y="378" />
+      <Point x="126" y="378" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_886" zorder="104">
-      <Point x="114" y="126" />
-      <Point x="126" y="126" />
+    <Line shapeName="Shape_886" zorder="97">
+      <Point x="114" y="120" />
+      <Point x="126" y="120" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_887" zorder="105">
-      <Point x="114" y="144" />
-      <Point x="126" y="144" />
+    <Line shapeName="Shape_887" zorder="98">
+      <Point x="114" y="138" />
+      <Point x="126" y="138" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Annotation shapeName="Shape_888" zorder="107">
-      <Location x="96" y="390" />
+    <Annotation shapeName="Shape_888" zorder="100">
+      <Location x="96" y="378" />
       <Text>RTC_XTAL2</Text>
       <Vertical value="false" />
       <Fill>
@@ -872,8 +872,8 @@
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Annotation shapeName="Shape_889" zorder="108">
-      <Location x="96" y="126" />
+    <Annotation shapeName="Shape_889" zorder="101">
+      <Location x="96" y="120" />
       <Text>XTAL1</Text>
       <Vertical value="false" />
       <Fill>
@@ -882,8 +882,8 @@
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Annotation shapeName="Shape_890" zorder="109">
-      <Location x="96" y="144" />
+    <Annotation shapeName="Shape_890" zorder="102">
+      <Location x="96" y="138" />
       <Text>XTAL2</Text>
       <Vertical value="false" />
       <Fill>
@@ -892,14 +892,14 @@
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Line shapeName="Shape_899" zorder="114">
+    <Line shapeName="Shape_899" zorder="107">
       <Point x="774" y="72" />
       <Point x="672" y="72" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Annotation shapeName="Shape_906" zorder="115">
+    <Annotation shapeName="Shape_906" zorder="108">
       <Location x="792" y="72" />
       <Text><![CDATA[`${getExposedMember("scu[0].clock[0].extclk[0]", "pin")}`]]></Text>
       <Vertical value="false" />
@@ -909,14 +909,14 @@
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Instance shapeName="Shape_907" zorder="116" guid="4a910102-a75e-4e89-86c8-effd69bcb2b7" name="USBDIV" component="clock_side">
-      <Location x="474" y="108" />
+    <Instance shapeName="Shape_907" zorder="211" guid="4a910102-a75e-4e89-86c8-effd69bcb2b7" name="USBDIV" component="clock_side">
+      <Location x="474" y="102" />
       <Size width="72.00003" height="30.00001" />
       <SubShapes>
         <Rectangle>
-          <Location x="474" y="108" />
+          <Location x="474" y="102" />
           <Size width="72" height="30" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -924,7 +924,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="474" y="108" />
+          <Location x="474" y="102" />
           <Size width="71.99997" height="12" />
           <Text>USBDIV</Text>
           <Vertical value="false" />
@@ -936,7 +936,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="475.4692" y="121.6012" />
+          <Location x="475.4692" y="115.6012" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].usbdiv[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -948,26 +948,26 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="474" y="120" />
-          <Point x="546" y="120" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="474" y="114" />
+          <Point x="546" y="114" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_908" zorder="120" effectiveName="Net_1852" type="Digital">
+    <Wire shapeName="Shape_908" zorder="114" effectiveName="Net_1852" type="Digital">
       <Point1 x="546" y="120" />
       <Point2 x="558" y="120" />
       <ShapeTags>wl:scu[0].clock[0].sdclk[0], wl:scu[0].clock[0].usbclk[0]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_917" zorder="122" guid="a0f24dc7-5056-4241-9871-bd53258415e9" name="arc_bridge_4" component="arc_bridge">
-      <Location x="555" y="198" />
+    <Instance shapeName="Shape_917" zorder="118" guid="a0f24dc7-5056-4241-9871-bd53258415e9" name="arc_bridge_4" component="arc_bridge">
+      <Location x="555" y="210" />
       <Size width="18" height="8.999985" />
       <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
       <SubShapes>
         <Arc>
-          <Location x="558" y="198" />
+          <Location x="558" y="210" />
           <Size width="12" height="6" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -976,150 +976,134 @@
           <NoFill />
         </Arc>
         <Terminal name="arc_bridge_4.i" type="Instance Digital Input">
-          <Location x="558" y="204" />
+          <Location x="558" y="216" />
           <ShowWireGuide value="false" />
         </Terminal>
         <Terminal name="arc_bridge_4.o" type="Instance Digital Output">
-          <Location x="570" y="204" />
+          <Location x="570" y="216" />
           <ShowWireGuide value="false" />
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_920" zorder="62" effectiveName="Net_1851" type="Digital">
-      <Point1 x="570" y="204" />
-      <Point2 x="600" y="204" />
+    <Wire shapeName="Shape_920" zorder="56" effectiveName="Net_1851" type="Digital">
+      <Point1 x="570" y="216" />
+      <Point2 x="600" y="216" />
       <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_1001" zorder="38" effectiveName="Net_1146" type="Digital">
+    <Wire shapeName="Shape_1001" zorder="34" effectiveName="Net_1146" type="Digital">
       <Point1 x="384" y="222" />
       <Point2 x="384" y="294" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1007" zorder="131" effectiveName="Net_1009" type="Digital">
+    <Wire shapeName="Shape_1007" zorder="123" effectiveName="Net_1009" type="Digital">
       <Point1 x="546" y="282" />
       <Point2 x="564" y="282" />
     </Wire>
-    <Wire shapeName="Shape_1009" zorder="117" effectiveName="Net_1856" type="Digital">
+    <Wire shapeName="Shape_1009" zorder="109" effectiveName="Net_1856" type="Digital">
       <Point1 x="456" y="120" />
       <Point2 x="474" y="120" />
     </Wire>
-    <Wire shapeName="Shape_1013" zorder="133" effectiveName="Net_1146" type="Digital">
+    <Wire shapeName="Shape_1013" zorder="125" effectiveName="Net_1146" type="Digital">
       <Point1 x="384" y="294" solderDot="true" />
       <Point2 x="396" y="294" />
     </Wire>
-    <Wire shapeName="Shape_1015" zorder="44" effectiveName="Net_1113[0]" type="Analog">
+    <Wire shapeName="Shape_1015" zorder="42" effectiveName="Net_2472[0]" type="Analog">
       <Point1 x="402" y="270" solderDot="true" />
       <Point2 x="444" y="270" />
     </Wire>
-    <Wire shapeName="Shape_1017" zorder="33" effectiveName="Net_1113[0]" type="Analog">
-      <Point1 x="360" y="168" />
-      <Point2 x="402" y="168" solderDot="true" />
+    <Wire shapeName="Shape_1017" zorder="28" effectiveName="Net_2472[0]" type="Analog">
+      <Point1 x="360" y="174" />
+      <Point2 x="402" y="174" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1018" zorder="31" effectiveName="Net_1113[0]" type="Analog">
-      <Point1 x="402" y="168" solderDot="true" />
-      <Point2 x="432" y="168" solderDot="true" />
-      <Annotation zorder="32">
-        <Location x="414" y="168" />
+    <Wire shapeName="Shape_1018" zorder="26" effectiveName="Net_2472[0]" type="Analog">
+      <Point1 x="402" y="174" solderDot="true" />
+      <Point2 x="432" y="174" solderDot="true" />
+      <Annotation zorder="27">
+        <Location x="414" y="174" />
         <Text>[0]</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
       </Annotation>
     </Wire>
-    <Wire shapeName="Shape_1026" zorder="141" effectiveName="Net_1113[1:0]" type="Analog">
+    <Wire shapeName="Shape_1026" zorder="133" effectiveName="Net_2472[1:0]" type="Analog">
       <Point1 x="432" y="120" solderDot="true" />
       <Point2 x="444" y="120" />
     </Wire>
-    <Wire shapeName="Shape_1039" zorder="112" effectiveName="Net_1964" type="Digital">
+    <Wire shapeName="Shape_1039" zorder="105" effectiveName="Net_1964" type="Digital">
       <Point1 x="570" y="120" />
       <Point2 x="582" y="120" solderDot="true" />
       <ShapeTags>wl:scu[0].clock[0].sdclk[0], wl:scu[0].clock[0].usbclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_1040" zorder="110" effectiveName="Net_1964" type="Digital">
+    <Wire shapeName="Shape_1040" zorder="103" effectiveName="Net_1964" type="Digital">
       <Point1 x="582" y="120" solderDot="true" />
       <Point2 x="600" y="120" />
       <ShapeTags>wl:scu[0].clock[0].usbclk[0]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_1048" zorder="160" guid="8e00be6a-1c44-4ac4-a476-df980d420137" name="cy_all_shapetag_disconnect_1" component="cy_all_shapetag_disconnect">
-      <Location x="429" y="171" />
+    <Instance shapeName="Shape_1048" zorder="137" guid="8e00be6a-1c44-4ac4-a476-df980d420137" name="cy_all_shapetag_disconnect_1" component="cy_all_shapetag_disconnect">
+      <Location x="429" y="177" />
       <Size width="9" height="6" />
       <SubShapes>
         <Terminal name="cy_all_shapetag_disconnect_1.a" type="Instance Analog InOut">
-          <Location x="432" y="174" />
+          <Location x="432" y="180" />
           <ShowWireGuide value="false" />
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_1055" zorder="42" effectiveName="Net_1113[0]" type="Analog">
-      <Point1 x="402" y="168" solderDot="true" />
-      <Point2 x="402" y="270" solderDot="true" />
+    <Wire shapeName="Shape_1060" zorder="121" effectiveName="Net_2472[1:0]" type="Analog">
+      <Point1 x="432" y="174" solderDot="true" />
+      <Point2 x="432" y="180" />
     </Wire>
-    <Wire shapeName="Shape_1060" zorder="129" effectiveName="Net_1113[1:0]" type="Analog">
-      <Point1 x="432" y="168" solderDot="true" />
-      <Point2 x="432" y="174" />
-    </Wire>
-    <Wire shapeName="Shape_1064" zorder="35" effectiveName="Net_1113[0]" type="Analog">
+    <Wire shapeName="Shape_1064" zorder="30" effectiveName="Net_2472[0]" type="Analog">
       <Point1 x="360" y="132" />
       <Point2 x="432" y="132" solderDot="true" />
-      <Annotation zorder="36">
+      <Annotation zorder="31">
         <Location x="396" y="132" />
         <Text>[0]</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
       </Annotation>
     </Wire>
-    <Wire shapeName="Shape_1065" zorder="161" effectiveName="Net_1113[1:0]" type="Analog">
+    <Wire shapeName="Shape_1065" zorder="138" effectiveName="Net_2472[1:0]" type="Analog">
       <Point1 x="432" y="60" solderDot="true" />
       <Point2 x="576" y="60" />
     </Wire>
-    <Wire shapeName="Shape_1071" zorder="137" effectiveName="Net_1113[1:0]" type="Analog">
+    <Wire shapeName="Shape_1071" zorder="129" effectiveName="Net_2472[1:0]" type="Analog">
       <Point1 x="432" y="120" solderDot="true" />
       <Point2 x="432" y="132" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1072" zorder="127" effectiveName="Net_1113[1:0]" type="Analog">
+    <Wire shapeName="Shape_1072" zorder="119" effectiveName="Net_2472[1:0]" type="Analog">
       <Point1 x="432" y="132" solderDot="true" />
-      <Point2 x="432" y="168" solderDot="true" />
+      <Point2 x="432" y="174" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1073" zorder="163" effectiveName="Net_1146" type="Digital">
+    <Wire shapeName="Shape_1073" zorder="140" effectiveName="Net_1146" type="Digital">
       <Point1 x="222" y="186" />
       <Point2 x="222" y="222" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1087" zorder="100" effectiveName="Net_2240" type="Digital">
+    <Wire shapeName="Shape_1087" zorder="93" effectiveName="Net_2240" type="Digital">
       <Point1 x="216" y="396" />
       <Point2 x="216" y="444" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1089" zorder="165" effectiveName="Net_852" type="Digital">
+    <Wire shapeName="Shape_1089" zorder="142" effectiveName="Net_852" type="Digital">
       <Point1 x="234" y="372" solderDot="true" />
       <Point2 x="234" y="420" />
     </Wire>
-    <Wire shapeName="Shape_1102" zorder="139" effectiveName="Net_1113[1:0]" type="Analog">
+    <Wire shapeName="Shape_1102" zorder="131" effectiveName="Net_2472[1:0]" type="Analog">
       <Point1 x="432" y="54" />
       <Point2 x="432" y="60" solderDot="true" />
-      <Annotation zorder="140">
+      <Annotation zorder="132">
         <Location x="420" y="36" />
         <Text>[1:0]</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
       </Annotation>
     </Wire>
-    <Wire shapeName="Shape_1103" zorder="135" effectiveName="Net_1113[1:0]" type="Analog">
+    <Wire shapeName="Shape_1103" zorder="127" effectiveName="Net_2472[1:0]" type="Analog">
       <Point1 x="432" y="60" solderDot="true" />
       <Point2 x="432" y="120" solderDot="true" />
     </Wire>
-    <Instance shapeName="Shape_1104" zorder="167" guid="f71753f2-dfcf-46cf-8e82-fc30e27bd208" name="mux_6" component="mux_5">
-      <Location x="249" y="360" />
-      <Size width="18" height="48.00003" />
+    <Instance shapeName="Shape_1104" zorder="201" guid="f71753f2-dfcf-46cf-8e82-fc30e27bd208" name="mux_6" component="mux_5">
+      <Location x="252" y="360" />
+      <Size width="11.99997" height="48.00003" />
       <SubShapes>
-        <Terminal name="mux_6.a_0" type="Instance Digital Output">
-          <Location x="264" y="384" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_6.b_3" type="Instance Digital Input">
-          <Location x="252" y="396" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_6.b_4" type="Instance Digital Input">
-          <Location x="252" y="372" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
           <Point x="252" y="360" />
           <Point x="264" y="367.3846" />
@@ -1129,9 +1113,7 @@
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="254" y="408" />
@@ -1147,22 +1129,10 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1105" zorder="168" guid="2be8f5bc-daf4-4fc2-970d-6b8e628b51ee" name="mux_2" component="mux_5">
-      <Location x="249" y="408" />
-      <Size width="18" height="48.00003" />
+    <Instance shapeName="Shape_1105" zorder="202" guid="2be8f5bc-daf4-4fc2-970d-6b8e628b51ee" name="mux_2" component="mux_5">
+      <Location x="252" y="408" />
+      <Size width="11.99997" height="48.00003" />
       <SubShapes>
-        <Terminal name="mux_2.a_0" type="Instance Digital Output">
-          <Location x="264" y="432" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_2.b_3" type="Instance Digital Input">
-          <Location x="252" y="444" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_2.b_4" type="Instance Digital Input">
-          <Location x="252" y="420" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
           <Point x="252" y="408" />
           <Point x="264" y="415.3846" />
@@ -1172,9 +1142,7 @@
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="254" y="456" />
@@ -1190,22 +1158,10 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1106" zorder="169" guid="f86c39f6-6499-418d-842e-1d1acd9b57a1" name="mux_5" component="mux_5">
-      <Location x="249" y="150" />
-      <Size width="18" height="48.00002" />
+    <Instance shapeName="Shape_1106" zorder="200" guid="f86c39f6-6499-418d-842e-1d1acd9b57a1" name="mux_5" component="mux_5">
+      <Location x="252" y="150" />
+      <Size width="11.99997" height="48.00002" />
       <SubShapes>
-        <Terminal name="mux_5.a_0" type="Instance Digital Output">
-          <Location x="264" y="174" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_5.b_3" type="Instance Digital Input">
-          <Location x="252" y="186" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_5.b_4" type="Instance Digital Input">
-          <Location x="252" y="162" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
           <Point x="252" y="150" />
           <Point x="264" y="157.3846" />
@@ -1215,9 +1171,7 @@
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="254" y="198" />
@@ -1233,22 +1187,10 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1111" zorder="170" guid="fe4e91b5-02f8-4159-b9f1-f7cd4f52d7a6" name="mux_1" component="mux_5">
-      <Location x="441" y="258" />
-      <Size width="18" height="48.00003" />
+    <Instance shapeName="Shape_1111" zorder="208" guid="fe4e91b5-02f8-4159-b9f1-f7cd4f52d7a6" name="mux_1" component="mux_5">
+      <Location x="444" y="258" />
+      <Size width="11.99997" height="48.00003" />
       <SubShapes>
-        <Terminal name="mux_1.a_0" type="Instance Digital Output">
-          <Location x="456" y="282" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_1.b_3" type="Instance Digital Input">
-          <Location x="444" y="294" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_1.b_4" type="Instance Digital Input">
-          <Location x="444" y="270" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
           <Point x="444" y="258" />
           <Point x="456" y="265.3846" />
@@ -1258,9 +1200,7 @@
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="446" y="306" />
@@ -1276,34 +1216,24 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1112" zorder="171" guid="51ad44f8-2b02-4d88-95da-0a5444328a0b" name="mux_8" component="mux_5">
-      <Location x="441" y="180" />
-      <Size width="18" height="48.00002" />
+    <Instance shapeName="Shape_1112" zorder="207" guid="51ad44f8-2b02-4d88-95da-0a5444328a0b" name="mux_8" component="mux_5">
+      <Location x="444" y="192" />
+      <Size width="11.99997" height="48.00002" />
       <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
       <SubShapes>
-        <Terminal name="mux_8.a_0" type="Instance Digital Output">
-          <Location x="456" y="204" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_8.b_0" type="Instance Digital Input">
-          <Location x="444" y="204" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
-          <Point x="444" y="180" />
-          <Point x="456" y="187.3846" />
-          <Point x="456" y="220.6154" />
-          <Point x="444" y="228" />
-          <Point x="444" y="180" />
+          <Point x="444" y="192" />
+          <Point x="456" y="199.3846" />
+          <Point x="456" y="232.6154" />
+          <Point x="444" y="240" />
+          <Point x="444" y="192" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
-          <Location x="446" y="228" />
+          <Location x="446" y="240" />
           <Size width="8" height="48" />
           <Text><![CDATA[`${getExposedMember("scu[0].clock[0].ecatclk[0]", "sourceClockDisplayName")}`]]></Text>
           <Vertical value="true" />
@@ -1316,18 +1246,10 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1113" zorder="172" guid="b3f12cb0-8125-44e0-a480-a8daf6023988" name="mux_4" component="mux_5">
-      <Location x="441" y="95.99999" />
-      <Size width="18" height="48.00001" />
+    <Instance shapeName="Shape_1113" zorder="206" guid="b3f12cb0-8125-44e0-a480-a8daf6023988" name="mux_4" component="mux_5">
+      <Location x="444" y="95.99999" />
+      <Size width="11.99997" height="48.00001" />
       <SubShapes>
-        <Terminal name="mux_4.a_0" type="Instance Digital Output">
-          <Location x="456" y="120" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_4.b_0" type="Instance Digital Input">
-          <Location x="444" y="120" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
           <Point x="444" y="95.99999" />
           <Point x="456" y="103.3846" />
@@ -1337,9 +1259,7 @@
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="446" y="144" />
@@ -1355,7 +1275,7 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1116" zorder="173" guid="a68a10da-a56b-4e2a-b606-056e8d3b6edd" name="mux_7" component="mux_4">
+    <Instance shapeName="Shape_1116" zorder="209" guid="a68a10da-a56b-4e2a-b606-056e8d3b6edd" name="mux_7" component="mux_4">
       <Location x="444" y="342" />
       <Size width="12" height="78" />
       <SubShapes>
@@ -1368,9 +1288,7 @@
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="446" y="414" />
@@ -1386,7 +1304,7 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1117" zorder="174" guid="3203b64e-ba0d-486c-9899-fe7eec9dc2b5" name="mux_3" component="mux_4">
+    <Instance shapeName="Shape_1117" zorder="212" guid="3203b64e-ba0d-486c-9899-fe7eec9dc2b5" name="mux_3" component="mux_4">
       <Location x="576" y="36" />
       <Size width="12" height="78" />
       <SubShapes>
@@ -1399,9 +1317,7 @@
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="577.9999" y="108" />
@@ -1417,14 +1333,14 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1118" zorder="175" guid="1690a4fc-39a8-4aa1-bdc9-640e26b1c7b7" name="PERICLK" component="clock_side_tall">
-      <Location x="695.9999" y="300" />
+    <Instance shapeName="Shape_1118" zorder="223" guid="1690a4fc-39a8-4aa1-bdc9-640e26b1c7b7" name="PERICLK" component="clock_side_tall">
+      <Location x="695.9999" y="312" />
       <Size width="72.00006" height="42.00003" />
       <SubShapes>
         <Rectangle>
-          <Location x="696" y="300" />
+          <Location x="696" y="312" />
           <Size width="72" height="42" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -1432,7 +1348,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="695.9999" y="300" />
+          <Location x="695.9999" y="312" />
           <Size width="72" height="12" />
           <Text>Peripheral</Text>
           <Vertical value="false" />
@@ -1444,7 +1360,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="697.4692" y="325.6011" />
+          <Location x="697.4692" y="337.6011" />
           <Size width="69.28156" height="16.39885" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].periclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -1456,14 +1372,14 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="696" y="324" />
-          <Point x="768" y="324" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="696" y="336" />
+          <Point x="768" y="336" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
         <Annotation>
-          <Location x="695.9999" y="312" />
+          <Location x="695.9999" y="324" />
           <Size width="72" height="12" />
           <Text>Clock</Text>
           <Vertical value="false" />
@@ -1476,14 +1392,14 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1119" zorder="176" guid="7ce32f2b-58b5-4d33-800d-a532f10d7434" name="STDBYCLK" component="clock_side_tall">
-      <Location x="288" y="366" />
+    <Instance shapeName="Shape_1119" zorder="203" guid="7ce32f2b-58b5-4d33-800d-a532f10d7434" name="STDBYCLK" component="clock_side_tall">
+      <Location x="288" y="354" />
       <Size width="72.00003" height="42.00003" />
       <SubShapes>
         <Rectangle>
-          <Location x="288" y="366" />
+          <Location x="288" y="354" />
           <Size width="72" height="42" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -1491,7 +1407,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="288" y="366" />
+          <Location x="288" y="354" />
           <Size width="72" height="12" />
           <Text>Standby</Text>
           <Vertical value="false" />
@@ -1503,7 +1419,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="289.4692" y="391.6011" />
+          <Location x="289.4692" y="379.6011" />
           <Size width="69.28152" height="16.39885" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].stdbyclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -1515,14 +1431,14 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="288" y="390" />
-          <Point x="360" y="390" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="288" y="378" />
+          <Point x="360" y="378" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
         <Annotation>
-          <Location x="288" y="378" />
+          <Location x="288" y="366" />
           <Size width="72" height="12" />
           <Text>Clock</Text>
           <Vertical value="false" />
@@ -1535,14 +1451,14 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1120" zorder="177" guid="f15971e3-5b37-4204-bc67-cb3b9025a20d" name="EXTCLK" component="clock_side_tall">
-      <Location x="599.9999" y="47.99999" />
+    <Instance shapeName="Shape_1120" zorder="213" guid="f15971e3-5b37-4204-bc67-cb3b9025a20d" name="EXTCLK" component="clock_side_tall">
+      <Location x="599.9999" y="41.99999" />
       <Size width="72.00006" height="42.00001" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="48" />
+          <Location x="600" y="42" />
           <Size width="72" height="42" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -1550,7 +1466,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="47.99999" />
+          <Location x="599.9999" y="41.99999" />
           <Size width="72" height="12" />
           <Text>External</Text>
           <Vertical value="false" />
@@ -1562,7 +1478,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="73.60115" />
+          <Location x="601.4692" y="67.60115" />
           <Size width="69.28156" height="16.39885" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].extclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -1574,14 +1490,14 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="72" />
-          <Point x="672" y="72" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="66" />
+          <Point x="672" y="66" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
         <Annotation>
-          <Location x="599.9999" y="59.99999" />
+          <Location x="599.9999" y="53.99999" />
           <Size width="72" height="12" />
           <Text>Clock</Text>
           <Vertical value="false" />
@@ -1594,14 +1510,14 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1121" zorder="178" guid="7dc8f495-0c80-4374-bb92-38417ce89a13" name="SDCLK" component="clock_side_tall">
-      <Location x="599.9999" y="132" />
+    <Instance shapeName="Shape_1121" zorder="215" guid="7dc8f495-0c80-4374-bb92-38417ce89a13" name="SDCLK" component="clock_side_tall">
+      <Location x="599.9999" y="138" />
       <Size width="72.00006" height="42.00002" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="132" />
+          <Location x="600" y="138" />
           <Size width="72" height="42" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -1609,7 +1525,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="132" />
+          <Location x="599.9999" y="138" />
           <Size width="72" height="12" />
           <Text>SD/MMC</Text>
           <Vertical value="false" />
@@ -1621,7 +1537,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="157.6012" />
+          <Location x="601.4692" y="163.6012" />
           <Size width="69.28156" height="16.39885" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].sdclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -1633,14 +1549,14 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="156" />
-          <Point x="672" y="156" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="162" />
+          <Point x="672" y="162" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
         <Annotation>
-          <Location x="599.9999" y="144" />
+          <Location x="599.9999" y="150" />
           <Size width="72" height="12" />
           <Text>Clock</Text>
           <Vertical value="false" />
@@ -1653,14 +1569,14 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1122" zorder="179" guid="91b98247-7e0a-4076-8ac7-6eeb183b8e55" name="ECATCLK" component="clock_side_tall">
-      <Location x="599.9999" y="180" />
+    <Instance shapeName="Shape_1122" zorder="216" guid="91b98247-7e0a-4076-8ac7-6eeb183b8e55" name="ECATCLK" component="clock_side_tall">
+      <Location x="599.9999" y="186" />
       <Size width="72.00006" height="42.00002" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="180" />
+          <Location x="600" y="186" />
           <Size width="72" height="42" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -1668,7 +1584,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="180" />
+          <Location x="599.9999" y="186" />
           <Size width="72" height="12" />
           <Text>EtherCAT</Text>
           <Vertical value="false" />
@@ -1680,7 +1596,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="205.6012" />
+          <Location x="601.4692" y="211.6012" />
           <Size width="69.28156" height="16.39885" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ecatclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -1692,14 +1608,14 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="204" />
-          <Point x="672" y="204" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="210" />
+          <Point x="672" y="210" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
         <Annotation>
-          <Location x="599.9999" y="192" />
+          <Location x="599.9999" y="198" />
           <Size width="72" height="12" />
           <Text>Clock</Text>
           <Vertical value="false" />
@@ -1712,14 +1628,14 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_1134" zorder="180" guid="32b6a34e-bb8b-4d0e-b9b6-0c59e524bf40" name="ETHCLK" component="clock_side_tall">
-      <Location x="599.9999" y="228" />
+    <Instance shapeName="Shape_1134" zorder="217" guid="32b6a34e-bb8b-4d0e-b9b6-0c59e524bf40" name="ETHCLK" component="clock_side_tall">
+      <Location x="599.9999" y="234" />
       <Size width="72.00006" height="42.00002" />
       <SubShapes>
         <Rectangle>
-          <Location x="600" y="228" />
+          <Location x="600" y="234" />
           <Size width="72" height="42" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <Fill>
@@ -1727,7 +1643,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="599.9999" y="228" />
+          <Location x="599.9999" y="234" />
           <Size width="72" height="12" />
           <Text>Ethernet</Text>
           <Vertical value="false" />
@@ -1739,7 +1655,7 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="601.4692" y="253.6012" />
+          <Location x="601.4692" y="259.6011" />
           <Size width="69.28156" height="16.39885" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ethclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -1751,14 +1667,14 @@
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="600" y="252" />
-          <Point x="672" y="252" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+          <Point x="600" y="258" />
+          <Point x="672" y="258" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
         <Annotation>
-          <Location x="599.9999" y="240" />
+          <Location x="599.9999" y="246" />
           <Size width="72" height="12" />
           <Text>Clock</Text>
           <Vertical value="false" />
@@ -1771,138 +1687,128 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_1144" zorder="181" effectiveName="Net_1113[0]" type="Analog">
-      <Point1 x="564" y="360" />
-      <Point2 x="600" y="360" />
+    <Wire shapeName="Shape_1144" zorder="144" effectiveName="Net_2472[0]" type="Analog">
+      <Point1 x="564" y="378" />
+      <Point2 x="600" y="378" />
       <ShapeTags>wl:scu[0].clock[0].ebuclk[0]</ShapeTags>
     </Wire>
-    <Rectangle shapeName="Shape_1148" zorder="143">
+    <Rectangle shapeName="Shape_1148" zorder="224">
       <Location x="774" y="66" />
       <Size width="12" height="12" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
     </Rectangle>
-    <Line shapeName="Shape_1149" zorder="156">
+    <Line shapeName="Shape_1149" zorder="233">
       <Point x="786" y="78" />
       <Point x="774" y="66" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_1150" zorder="157">
+    <Line shapeName="Shape_1150" zorder="234">
       <Point x="786" y="66" />
       <Point x="774" y="78" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Rectangle shapeName="Shape_1151" zorder="144">
-      <Location x="102" y="120" />
+    <Rectangle shapeName="Shape_1151" zorder="192">
+      <Location x="102" y="114" />
       <Size width="12" height="12" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
     </Rectangle>
-    <Line shapeName="Shape_1152" zorder="154">
-      <Point x="102" y="120" />
+    <Line shapeName="Shape_1152" zorder="231">
+      <Point x="102" y="114" />
+      <Point x="114" y="126" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+        <SolidBrush color="128, 128, 128" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_1153" zorder="232">
+      <Point x="102" y="126" />
+      <Point x="114" y="114" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+        <SolidBrush color="128, 128, 128" />
+      </Outline>
+    </Line>
+    <Rectangle shapeName="Shape_1154" zorder="193">
+      <Location x="102" y="132" />
+      <Size width="12" height="12" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+        <SolidBrush color="128, 128, 128" />
+      </Outline>
+      <NoFill />
+    </Rectangle>
+    <Line shapeName="Shape_1155" zorder="229">
+      <Point x="102" y="132" />
+      <Point x="114" y="144" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+        <SolidBrush color="128, 128, 128" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_1156" zorder="230">
+      <Point x="102" y="144" />
       <Point x="114" y="132" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_1153" zorder="155">
-      <Point x="102" y="132" />
-      <Point x="114" y="120" />
-      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
-        <SolidBrush color="128, 128, 128" />
-      </Outline>
-    </Line>
-    <Rectangle shapeName="Shape_1154" zorder="145">
-      <Location x="102" y="138" />
+    <Rectangle shapeName="Shape_1157" zorder="194">
+      <Location x="102" y="354" />
       <Size width="12" height="12" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
     </Rectangle>
-    <Line shapeName="Shape_1155" zorder="152">
-      <Point x="102" y="138" />
-      <Point x="114" y="150" />
-      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
-        <SolidBrush color="128, 128, 128" />
-      </Outline>
-    </Line>
-    <Line shapeName="Shape_1156" zorder="153">
-      <Point x="102" y="150" />
-      <Point x="114" y="138" />
-      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
-        <SolidBrush color="128, 128, 128" />
-      </Outline>
-    </Line>
-    <Rectangle shapeName="Shape_1157" zorder="146">
-      <Location x="102" y="366" />
-      <Size width="12" height="12" />
-      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
-        <SolidBrush color="128, 128, 128" />
-      </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
-    </Rectangle>
-    <Line shapeName="Shape_1158" zorder="150">
-      <Point x="102" y="366" />
-      <Point x="114" y="378" />
-      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
-        <SolidBrush color="128, 128, 128" />
-      </Outline>
-    </Line>
-    <Line shapeName="Shape_1159" zorder="151">
-      <Point x="102" y="378" />
+    <Line shapeName="Shape_1158" zorder="227">
+      <Point x="102" y="354" />
       <Point x="114" y="366" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Rectangle shapeName="Shape_1160" zorder="147">
-      <Location x="102" y="384" />
-      <Size width="12" height="12" />
-      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
-        <SolidBrush color="128, 128, 128" />
-      </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
-    </Rectangle>
-    <Line shapeName="Shape_1161" zorder="148">
-      <Point x="102" y="384" />
-      <Point x="114" y="396" />
+    <Line shapeName="Shape_1159" zorder="228">
+      <Point x="102" y="366" />
+      <Point x="114" y="354" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_1162" zorder="149">
-      <Point x="102" y="396" />
+    <Rectangle shapeName="Shape_1160" zorder="195">
+      <Location x="102" y="372" />
+      <Size width="12" height="12" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+        <SolidBrush color="128, 128, 128" />
+      </Outline>
+      <NoFill />
+    </Rectangle>
+    <Line shapeName="Shape_1161" zorder="225">
+      <Point x="102" y="372" />
       <Point x="114" y="384" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Wire shapeName="Shape_1169" zorder="186" effectiveName="Net_2449" type="Digital">
-      <Point1 x="672" y="156" />
-      <Point2 x="786" y="156" />
+    <Line shapeName="Shape_1162" zorder="226">
+      <Point x="102" y="384" />
+      <Point x="114" y="372" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+        <SolidBrush color="128, 128, 128" />
+      </Outline>
+    </Line>
+    <Wire shapeName="Shape_1169" zorder="149" effectiveName="Net_2449" type="Digital">
+      <Point1 x="672" y="168" />
+      <Point2 x="786" y="168" />
       <ShapeTags>wl:scu[0].clock[0].sdclk[0]</ShapeTags>
     </Wire>
-    <Annotation shapeName="Shape_1170" zorder="188">
-      <Location x="792" y="156" />
+    <Annotation shapeName="Shape_1170" zorder="151">
+      <Location x="792" y="168" />
       <Text>SDMMC</Text>
       <Vertical value="false" />
       <Fill>
@@ -1912,13 +1818,13 @@
       <TextAlignment value="MiddleLeft" />
       <ShapeTags>wl:scu[0].clock[0].sdclk[0]</ShapeTags>
     </Annotation>
-    <Wire shapeName="Shape_1171" zorder="189" effectiveName="Net_2450" type="Digital">
-      <Point1 x="672" y="204" />
-      <Point2 x="786" y="204" />
+    <Wire shapeName="Shape_1171" zorder="152" effectiveName="Net_2450" type="Digital">
+      <Point1 x="672" y="216" />
+      <Point2 x="786" y="216" />
       <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
     </Wire>
-    <Annotation shapeName="Shape_1172" zorder="191">
-      <Location x="792" y="204" />
+    <Annotation shapeName="Shape_1172" zorder="154">
+      <Location x="792" y="216" />
       <Text>ECAT</Text>
       <Vertical value="false" />
       <Fill>
@@ -1928,13 +1834,13 @@
       <TextAlignment value="MiddleLeft" />
       <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
     </Annotation>
-    <Wire shapeName="Shape_1173" zorder="192" effectiveName="Net_2451" type="Digital">
-      <Point1 x="672" y="252" />
-      <Point2 x="786" y="252" />
+    <Wire shapeName="Shape_1173" zorder="155" effectiveName="Net_2451" type="Digital">
+      <Point1 x="672" y="264" />
+      <Point2 x="786" y="264" />
       <ShapeTags>wl:scu[0].clock[0].ethclk[0]</ShapeTags>
     </Wire>
-    <Annotation shapeName="Shape_1174" zorder="194">
-      <Location x="792" y="252" />
+    <Annotation shapeName="Shape_1174" zorder="157">
+      <Location x="792" y="264" />
       <Text>ETH</Text>
       <Vertical value="false" />
       <Fill>
@@ -1944,13 +1850,13 @@
       <TextAlignment value="MiddleLeft" />
       <ShapeTags>wl:scu[0].clock[0].ethclk[0]</ShapeTags>
     </Annotation>
-    <Wire shapeName="Shape_1175" zorder="195" effectiveName="Net_2452" type="Digital">
-      <Point1 x="672" y="360" />
-      <Point2 x="786" y="360" />
+    <Wire shapeName="Shape_1175" zorder="158" effectiveName="Net_2452" type="Digital">
+      <Point1 x="672" y="378" />
+      <Point2 x="786" y="378" />
       <ShapeTags>wl:scu[0].clock[0].ebuclk[0]</ShapeTags>
     </Wire>
-    <Annotation shapeName="Shape_1176" zorder="197">
-      <Location x="792" y="360" />
+    <Annotation shapeName="Shape_1176" zorder="160">
+      <Location x="792" y="378" />
       <Text>EBU</Text>
       <Vertical value="false" />
       <Fill>
@@ -1960,12 +1866,12 @@
       <TextAlignment value="MiddleLeft" />
       <ShapeTags>wl:scu[0].clock[0].ebuclk[0]</ShapeTags>
     </Annotation>
-    <Wire shapeName="Shape_1177" zorder="198" effectiveName="Net_2453" type="Digital">
-      <Point1 x="672" y="396" />
-      <Point2 x="786" y="396" />
+    <Wire shapeName="Shape_1177" zorder="161" effectiveName="Net_2453" type="Digital">
+      <Point1 x="672" y="414" />
+      <Point2 x="786" y="414" />
     </Wire>
-    <Annotation shapeName="Shape_1178" zorder="200">
-      <Location x="792" y="396" />
+    <Annotation shapeName="Shape_1178" zorder="163">
+      <Location x="792" y="414" />
       <Text>WDT</Text>
       <Vertical value="false" />
       <Fill>
@@ -1974,36 +1880,36 @@
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Wire shapeName="Shape_1179" zorder="92" effectiveName="Net_852" type="Digital">
+    <Wire shapeName="Shape_1179" zorder="85" effectiveName="Net_852" type="Digital">
       <Point1 x="234" y="420" />
       <Point2 x="252" y="420" />
     </Wire>
-    <Wire shapeName="Shape_1182" zorder="96" effectiveName="Net_2240" type="Digital">
+    <Wire shapeName="Shape_1182" zorder="89" effectiveName="Net_2240" type="Digital">
       <Point1 x="198" y="444" />
       <Point2 x="216" y="444" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1183" zorder="94" effectiveName="Net_2240" type="Digital">
+    <Wire shapeName="Shape_1183" zorder="87" effectiveName="Net_2240" type="Digital">
       <Point1 x="216" y="444" solderDot="true" />
       <Point2 x="252" y="444" />
     </Wire>
-    <Wire shapeName="Shape_1184" zorder="14" effectiveName="Net_2240" type="Digital">
+    <Wire shapeName="Shape_1184" zorder="10" effectiveName="Net_2240" type="Digital">
       <Point1 x="216" y="396" />
       <Point2 x="228" y="396" />
     </Wire>
-    <Wire shapeName="Shape_1186" zorder="12" effectiveName="Net_2239" type="Digital">
+    <Wire shapeName="Shape_1186" zorder="8" effectiveName="Net_2239" type="Digital">
       <Point1 x="240" y="396" />
       <Point2 x="252" y="396" />
     </Wire>
-    <Wire shapeName="Shape_1187" zorder="8" effectiveName="Net_852" type="Digital">
+    <Wire shapeName="Shape_1187" zorder="4" effectiveName="Net_852" type="Digital">
       <Point1 x="198" y="372" />
       <Point2 x="234" y="372" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1189" zorder="202" effectiveName="Net_2454" type="Digital">
-      <Point1 x="672" y="432" />
-      <Point2 x="786" y="432" />
+    <Wire shapeName="Shape_1189" zorder="165" effectiveName="Net_2454" type="Digital">
+      <Point1 x="672" y="450" />
+      <Point2 x="786" y="450" />
     </Wire>
-    <Annotation shapeName="Shape_1190" zorder="204">
-      <Location x="792" y="432" />
+    <Annotation shapeName="Shape_1190" zorder="167">
+      <Location x="792" y="450" />
       <Text>RTC</Text>
       <Vertical value="false" />
       <Fill>
@@ -2012,12 +1918,12 @@
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Wire shapeName="Shape_1191" zorder="205" effectiveName="Net_2455" type="Digital">
-      <Point1 x="672" y="288" />
-      <Point2 x="786" y="288" />
+    <Wire shapeName="Shape_1191" zorder="168" effectiveName="Net_2455" type="Digital">
+      <Point1 x="672" y="300" />
+      <Point2 x="786" y="300" />
     </Wire>
-    <Annotation shapeName="Shape_1192" zorder="207">
-      <Location x="792" y="288" />
+    <Annotation shapeName="Shape_1192" zorder="170">
+      <Location x="792" y="300" />
       <Text>CCU4, CCU8</Text>
       <Vertical value="false" />
       <Fill>
@@ -2026,12 +1932,12 @@
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Wire shapeName="Shape_1193" zorder="208" effectiveName="Net_2456" type="Digital">
-      <Point1 x="768" y="324" />
-      <Point2 x="786" y="324" />
+    <Wire shapeName="Shape_1193" zorder="171" effectiveName="Net_2456" type="Digital">
+      <Point1 x="768" y="342" />
+      <Point2 x="786" y="342" />
     </Wire>
-    <Annotation shapeName="Shape_1194" zorder="210">
-      <Location x="792" y="324" />
+    <Annotation shapeName="Shape_1194" zorder="173">
+      <Location x="792" y="342" />
       <Text>LEDTS, USB, 
 VADC</Text>
       <Vertical value="false" />
@@ -2041,79 +1947,101 @@ VADC</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Wire shapeName="Shape_1199" zorder="40" effectiveName="Net_1113[0]" type="Analog">
+    <Wire shapeName="Shape_1199" zorder="40" effectiveName="Net_2472[0]" type="Analog">
       <Point1 x="402" y="270" solderDot="true" />
       <Point2 x="402" y="330" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1203" zorder="211" effectiveName="Net_1113[0]" type="Digital">
+    <Wire shapeName="Shape_1202" zorder="38" effectiveName="Net_2472[0]" type="Analog">
+      <Point1 x="402" y="174" solderDot="true" />
+      <Point2 x="402" y="270" solderDot="true" />
+    </Wire>
+    <Wire shapeName="Shape_1206" zorder="36" effectiveName="Net_2472[0]" type="Analog">
       <Point1 x="402" y="330" solderDot="true" />
-      <Point2 x="402" y="366" />
+      <Point2 x="402" y="360" />
     </Wire>
-    <Wire shapeName="Shape_1204" zorder="213" effectiveName="Net_1146" type="Digital">
+    <Wire shapeName="Shape_1208" zorder="32" effectiveName="Net_1146" type="Digital">
       <Point1 x="384" y="294" solderDot="true" />
-      <Point2 x="384" y="378" />
+      <Point2 x="384" y="372" />
     </Wire>
-    <Wire shapeName="Shape_1209" zorder="68" effectiveName="Net_1009" type="Digital">
-      <Point1 x="582" y="252" solderDot="true" />
-      <Point2 x="582" y="288" solderDot="true" />
-      <ShapeTags>wl:scu[0].clock[0].cpuclk[0], wl:scu[0].clock[0].ccuclk[0]</ShapeTags>
+    <Wire shapeName="Shape_1210" zorder="184" effectiveName="Net_2551" type="Digital">
+      <Point1 x="552" y="378" />
+      <Point2 x="552" y="414" />
+      <ShapeTags>wl:scu[0].clock[0].wdtclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_1219" zorder="52" effectiveName="Net_1009" type="Digital">
-      <Point1 x="564" y="252" solderDot="true" />
-      <Point2 x="582" y="252" solderDot="true" />
+    <Wire shapeName="Shape_1212" zorder="111" effectiveName="Net_2472[1:0]" type="Analog">
+      <Point1 x="432" y="180" solderDot="true" />
+      <Point2 x="432" y="216" solderDot="true" />
+      <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_1220" zorder="50" effectiveName="Net_1009" type="Digital">
-      <Point1 x="582" y="252" solderDot="true" />
-      <Point2 x="600" y="252" />
-      <ShapeTags>wl:scu[0].clock[0].ethclk[0]</ShapeTags>
+    <Wire shapeName="Shape_1213" zorder="116" effectiveName="Net_2472[1:0]" type="Analog">
+      <Point1 x="432" y="216" solderDot="true" />
+      <Point2 x="432" y="222" />
+      <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_1221" zorder="74" effectiveName="Net_1009" type="Digital">
+    <Wire shapeName="Shape_1216" zorder="68" effectiveName="Net_1009" type="Digital">
       <Point1 x="564" y="84" />
-      <Point2 x="564" y="252" solderDot="true" />
+      <Point2 x="564" y="264" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_1222" zorder="72" effectiveName="Net_1009" type="Digital">
-      <Point1 x="564" y="252" solderDot="true" />
+    <Wire shapeName="Shape_1217" zorder="66" effectiveName="Net_1009" type="Digital">
+      <Point1 x="564" y="264" solderDot="true" />
       <Point2 x="564" y="282" />
     </Wire>
-    <Wire shapeName="Shape_1231" zorder="215" effectiveName="Net_1113[1:0]" type="Digital">
-      <Point1 x="432" y="204" solderDot="true" />
-      <Point2 x="444" y="204" />
+    <Wire shapeName="Shape_1218" zorder="64" effectiveName="Net_1009" type="Digital">
+      <Point1 x="582" y="264" solderDot="true" />
+      <Point2 x="582" y="300" solderDot="true" />
+      <ShapeTags>wl:scu[0].clock[0].cpuclk[0], wl:scu[0].clock[0].ccuclk[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_1219" zorder="50" effectiveName="Net_1009" type="Digital">
+      <Point1 x="564" y="264" solderDot="true" />
+      <Point2 x="582" y="264" solderDot="true" />
+    </Wire>
+    <Wire shapeName="Shape_1220" zorder="48" effectiveName="Net_1009" type="Digital">
+      <Point1 x="582" y="264" solderDot="true" />
+      <Point2 x="600" y="264" />
+      <ShapeTags>wl:scu[0].clock[0].ethclk[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_1221" zorder="62" effectiveName="Net_1009" type="Digital">
+      <Point1 x="582" y="300" solderDot="true" />
+      <Point2 x="582" y="342" />
+      <ShapeTags>wl:scu[0].clock[0].cpuclk[0], wl:scu[0].clock[0].ccuclk[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_1222" zorder="188" effectiveName="Net_2552" type="Digital">
+      <Point1 x="540" y="432" />
+      <Point2 x="540" y="450" />
+    </Wire>
+    <Wire shapeName="Shape_1225" zorder="186" effectiveName="Net_2551" type="Digital">
+      <Point1 x="552" y="414" />
+      <Point2 x="600" y="414" />
+      <ShapeTags>wl:scu[0].clock[0].wdtclk[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_1227" zorder="190" effectiveName="Net_2552" type="Digital">
+      <Point1 x="540" y="450" />
+      <Point2 x="600" y="450" />
+    </Wire>
+    <Wire shapeName="Shape_1231" zorder="174" effectiveName="Net_2472[1:0]" type="Analog">
+      <Point1 x="432" y="216" solderDot="true" />
+      <Point2 x="444" y="216" />
       <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_1233" zorder="217" effectiveName="Net_1963" type="Digital">
-      <Point1 x="456" y="204" />
-      <Point2 x="558" y="204" />
+    <Wire shapeName="Shape_1233" zorder="176" effectiveName="Net_1963" type="Digital">
+      <Point1 x="456" y="216" />
+      <Point2 x="558" y="216" />
       <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_1234" zorder="125" effectiveName="Net_1113[1:0]" type="Analog">
-      <Point1 x="432" y="174" solderDot="true" />
-      <Point2 x="432" y="204" solderDot="true" />
-      <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
-    </Wire>
-    <Wire shapeName="Shape_1235" zorder="123" effectiveName="Net_1113[1:0]" type="Analog">
-      <Point1 x="432" y="204" solderDot="true" />
-      <Point2 x="432" y="210" />
-      <ShapeTags>wl:scu[0].clock[0].ecatclk[0]</ShapeTags>
-    </Wire>
-    <Wire shapeName="Shape_1236" zorder="219" effectiveName="Net_1964" type="Digital">
+    <Wire shapeName="Shape_1236" zorder="178" effectiveName="Net_1964" type="Digital">
       <Point1 x="582" y="120" solderDot="true" />
-      <Point2 x="582" y="156" />
+      <Point2 x="582" y="168" />
       <ShapeTags>wl:scu[0].clock[0].sdclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_1237" zorder="221" effectiveName="Net_1113[0]" type="Digital">
+    <Wire shapeName="Shape_1237" zorder="180" effectiveName="Net_2472[0]" type="Analog">
       <Point1 x="564" y="330" />
-      <Point2 x="564" y="360" />
+      <Point2 x="564" y="378" />
       <ShapeTags>wl:scu[0].clock[0].ebuclk[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_1238" zorder="223" effectiveName="Net_1113[0]" type="Digital">
+    <Wire shapeName="Shape_1238" zorder="182" effectiveName="Net_2472[0]" type="Analog">
       <Point1 x="402" y="330" solderDot="true" />
       <Point2 x="564" y="330" />
       <ShapeTags>wl:scu[0].clock[0].ebuclk[0]</ShapeTags>
-    </Wire>
-    <Wire shapeName="Shape_1239" zorder="225" effectiveName="Net_1009" type="Digital">
-      <Point1 x="582" y="288" solderDot="true" />
-      <Point2 x="582" y="324" />
-      <ShapeTags>wl:scu[0].clock[0].cpuclk[0]</ShapeTags>
     </Wire>
   </Page>
 </Document>

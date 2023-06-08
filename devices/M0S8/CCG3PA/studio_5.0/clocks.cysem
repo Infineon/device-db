@@ -146,14 +146,8 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>5</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>mux_3</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value />
@@ -263,14 +257,8 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>3</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>mux</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value />
@@ -359,10 +347,9 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="85">
-    <Signal name="Net_52" type="Digital" terminalCount="2">
+  <Signals count="75">
+    <Signal name="Net_52" type="Digital" terminalCount="1">
       <Terminal name="EXTCLK.a_14" type="Instance Digital Output" />
-      <Terminal name="mux.b_3" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_93" type="Digital" terminalCount="1">
       <Terminal name="IMO.b_15" type="Instance Digital Input" />
@@ -478,21 +465,6 @@
     <Signal name="Net_130" type="Digital" terminalCount="1">
       <Terminal name="LFCLK.a_15" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_131" type="Digital" terminalCount="1">
-      <Terminal name="mux.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_132" type="Digital" terminalCount="1">
-      <Terminal name="mux.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_133" type="Digital" terminalCount="1">
-      <Terminal name="mux.b_1" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_134" type="Digital" terminalCount="1">
-      <Terminal name="mux.b_0" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_135" type="Digital" terminalCount="1">
-      <Terminal name="mux.b_2" type="Instance Digital Input" />
-    </Signal>
     <Signal name="Net_136" type="Digital" terminalCount="1">
       <Terminal name="HFCLK.b_15" type="Instance Digital Input" />
     </Signal>
@@ -519,51 +491,6 @@
     </Signal>
     <Signal name="Net_144" type="Digital" terminalCount="1">
       <Terminal name="HFCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_150" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_151" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_152" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.b_3" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_153" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.b_0" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_154" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.b_4" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_155" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_156" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_157" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_158" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_159" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_160" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_161" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_162" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_163" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_164" type="Digital" terminalCount="1">
-      <Terminal name="CLK_ALT_SYS_TICK_1.a_3" type="Instance Digital Output" />
     </Signal>
     <Signal name="Net_165" type="Digital" terminalCount="1">
       <Terminal name="SYSCLK.b_15" type="Instance Digital Input" />
@@ -596,32 +523,57 @@
       <Terminal name="HFCLK.a_14" type="Instance Digital Output" />
       <Terminal name="SYSCLK.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_308" type="Digital" terminalCount="2">
-      <Terminal name="mux.a_0" type="Instance Digital Output" />
+    <Signal name="Net_186" type="Digital" terminalCount="1">
+      <Terminal name="LFCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_187" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_199" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_200" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_201" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_202" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_203" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_204" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_205" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_206" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_207" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_208" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK_1.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_308" type="Digital" terminalCount="1">
       <Terminal name="HFCLK.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_356" type="Digital" terminalCount="2">
+    <Signal name="Net_356" type="Digital" terminalCount="1">
       <Terminal name="IMO.a_14" type="Instance Digital Output" />
-      <Terminal name="mux.b_4" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_667" type="Digital" terminalCount="1">
       <Terminal name="LFCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_668" type="Digital" terminalCount="2">
-      <Terminal name="LFCLK.a_3" type="Instance Digital Output" />
-      <Terminal name="mux_3.b_1" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_710" type="Digital" terminalCount="2">
       <Terminal name="ILO.a_14" type="Instance Digital Output" />
       <Terminal name="LFCLK.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_755" type="Digital" terminalCount="2">
-      <Terminal name="mux_3.a_0" type="Instance Digital Output" />
+    <Signal name="Net_755" type="Digital" terminalCount="1">
       <Terminal name="CLK_ALT_SYS_TICK_1.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_774" type="Digital" terminalCount="2">
-      <Terminal name="SYSCLK.a_14" type="Instance Digital Output" />
-      <Terminal name="mux_3.b_2" type="Instance Digital Input" />
     </Signal>
   </Signals>
   <Properties>

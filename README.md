@@ -8,6 +8,8 @@ Each marketing device contains a base view that describes the basic characterist
 
 This database is used by the ModusToolbox™ software. Do not use this repository directly.
 
+See [DEVICES.md](./DEVICES.md) for a list of devices and modules supported by the device database.
+
 ## More information
 
 - [Device Database release notes](./RELEASE.md)

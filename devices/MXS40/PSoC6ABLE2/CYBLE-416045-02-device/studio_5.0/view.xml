@@ -28,8 +28,8 @@
     <Param name="DAC12_removed" value="NA" />
     <Param name="SampleHold_COUNT" value="1" />
     <Param name="SampleHold_REMOVED" value="NA" />
-    <Param name="SCB_Count" value="9" />
-    <Param name="SCB_removed" value="NA" />
+    <Param name="SCB_Count" value="5" />
+    <Param name="SCB_removed" value="0;3;4;7" />
     <Param name="TimerCounterPWM_Count" value="32" />
     <Param name="TimerCounterPWM_removed" value="NA" />
     <Param name="USB_Type" value="NA" />
@@ -66,6 +66,35 @@
     <DevComp name="CAT1A" />
     <DevComp name="PSOC6_01" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="bt" />
+    <DevCap name="capsense" />
+    <DevCap name="cat1" />
+    <DevCap name="cat1a" />
+    <DevCap name="comp" />
+    <DevCap name="csd" />
+    <DevCap name="dac" />
+    <DevCap name="dma" />
+    <DevCap name="flash_1024k" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="i2s" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="multi_core" />
+    <DevCap name="opamp" />
+    <DevCap name="pdm" />
+    <DevCap name="psoc6" />
+    <DevCap name="rtc" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_288k" />
+    <DevCap name="std_crypto" />
+    <DevCap name="uart" />
+    <DevCap name="udb" />
+  </DeviceCapabilities>
   <DeviceCategory>CAT1A</DeviceCategory>
   <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
   <types>

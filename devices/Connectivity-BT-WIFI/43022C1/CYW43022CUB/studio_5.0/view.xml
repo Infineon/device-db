@@ -25,6 +25,15 @@
   <DeviceComponents>
     <DevComp name="43022" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="bt" />
+    <DevCap name="btsdk" types="mcu" />
+    <DevCap name="cyw43022" />
+    <DevCap name="cyw43xxx" />
+    <DevCap name="flash_0k" types="mcu" />
+    <DevCap name="sram_1280k" types="mcu" />
+    <DevCap name="wifi" />
+  </DeviceCapabilities>
   <types>
     <type name="mcu" />
     <type name="companion-connectivity" />

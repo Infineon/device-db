@@ -146,14 +146,8 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>2</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>mux_4</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value />
@@ -181,14 +175,8 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>2</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>mux_3</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>0</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value />
@@ -315,14 +303,8 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>2</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>mux_5</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value />
@@ -405,56 +387,25 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="98">
+  <Signals count="83">
     <Signal name="Net_270" type="" terminalCount="0" />
     <Signal name="Net_325" type="" terminalCount="0" />
-    <Signal name="Net_401" type="Digital" terminalCount="2">
-      <Terminal name="mux_3.b_3" type="Instance Digital Input" />
+    <Signal name="Net_401" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_6.i" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_425" type="" terminalCount="0" />
-    <Signal name="Net_448" type="Digital" terminalCount="2">
-      <Terminal name="mux_5.b_4" type="Instance Digital Input" />
+    <Signal name="Net_448" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_6.o" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_525" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.b_4" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_529" type="Digital" terminalCount="1">
-      <Terminal name="mux_5.a_0" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_535" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.a_0" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_540" type="Digital" terminalCount="2">
-      <Terminal name="mux_5.b_3" type="Instance Digital Input" />
-      <Terminal name="mux_4.b_3" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_545" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.b_4" type="Instance Digital Input" />
-    </Signal>
+    <Signal name="Net_525" type="" terminalCount="0" />
+    <Signal name="Net_529" type="" terminalCount="0" />
+    <Signal name="Net_535" type="" terminalCount="0" />
+    <Signal name="Net_540" type="" terminalCount="0" />
+    <Signal name="Net_545" type="" terminalCount="0" />
     <Signal name="Net_546" type="" terminalCount="0" />
     <Signal name="Net_547" type="" terminalCount="0" />
     <Signal name="Net_548" type="" terminalCount="0" />
     <Signal name="Net_549" type="" terminalCount="0" />
-    <Signal name="Net_936" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.a_0" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_937" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_938" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_939" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.b_0" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_940" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.b_1" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_941" type="Digital" terminalCount="1">
-      <Terminal name="mux_3.b_2" type="Instance Digital Input" />
-    </Signal>
     <Signal name="Net_942" type="Digital" terminalCount="1">
       <Terminal name="DCO1.a_13" type="Instance Digital Output" />
     </Signal>
@@ -620,36 +571,6 @@
     <Signal name="Net_996" type="Digital" terminalCount="1">
       <Terminal name="FDIVCLK.b_20" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_997" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_998" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_999" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.b_0" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1000" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.b_1" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1001" type="Digital" terminalCount="1">
-      <Terminal name="mux_4.b_2" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1002" type="Digital" terminalCount="1">
-      <Terminal name="mux_5.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1003" type="Digital" terminalCount="1">
-      <Terminal name="mux_5.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1004" type="Digital" terminalCount="1">
-      <Terminal name="mux_5.b_0" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1005" type="Digital" terminalCount="1">
-      <Terminal name="mux_5.b_1" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1006" type="Digital" terminalCount="1">
-      <Terminal name="mux_5.b_2" type="Instance Digital Input" />
-    </Signal>
     <Signal name="Net_1007" type="" terminalCount="0" />
     <Signal name="Net_1008" type="" terminalCount="0" />
     <Signal name="Net_1009" type="Digital" terminalCount="1">
@@ -685,6 +606,7 @@
     <Signal name="Net_1019" type="Digital" terminalCount="1">
       <Terminal name="RTC_1.b_20" type="Instance Digital Input" />
     </Signal>
+    <Signal name="Net_1020" type="" terminalCount="0" />
   </Signals>
   <Properties>
     <Property name="CanvasBackColor">255, 255, 255</Property>

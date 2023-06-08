@@ -48,6 +48,18 @@
     <DevComp name="CCG" />
     <DevComp name="CCG7D" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="cat2" />
+    <DevCap name="flash_128k" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="low_power" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="spi" />
+    <DevCap name="sram_16k" />
+    <DevCap name="uart" />
+    <DevCap name="usbpd" />
+  </DeviceCapabilities>
   <DeviceCategory>CAT2</DeviceCategory>
   <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
   <types>

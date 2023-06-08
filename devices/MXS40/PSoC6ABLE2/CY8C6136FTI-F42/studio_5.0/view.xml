@@ -65,6 +65,34 @@
     <DevComp name="CAT1A" />
     <DevComp name="PSOC6_01" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="capsense" />
+    <DevCap name="cat1" />
+    <DevCap name="cat1a" />
+    <DevCap name="comp" />
+    <DevCap name="csd" />
+    <DevCap name="dac" />
+    <DevCap name="dma" />
+    <DevCap name="flash_512k" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="i2s" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="pdm" />
+    <DevCap name="psoc6" />
+    <DevCap name="qspi" />
+    <DevCap name="rtc" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_128k" />
+    <DevCap name="std_crypto" />
+    <DevCap name="uart" />
+    <DevCap name="usb_device" />
+    <DevCap name="usb_host" />
+  </DeviceCapabilities>
   <DeviceCategory>CAT1A</DeviceCategory>
   <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
   <types>

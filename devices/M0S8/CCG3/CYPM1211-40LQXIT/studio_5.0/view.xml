@@ -49,6 +49,20 @@
     <DevComp name="CCG" />
     <DevComp name="PMG1S2" />
   </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="cat2" />
+    <DevCap name="flash_128k" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="low_power" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="pmg1" />
+    <DevCap name="spi" />
+    <DevCap name="sram_8k" />
+    <DevCap name="uart" />
+    <DevCap name="usb_device" />
+    <DevCap name="usbpd" />
+  </DeviceCapabilities>
   <DeviceCategory>CAT2</DeviceCategory>
   <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
   <types>

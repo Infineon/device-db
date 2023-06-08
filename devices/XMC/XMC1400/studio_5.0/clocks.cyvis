@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
-  <Page index="0" name="Architecture" enabled="true" shapeCount="110">
+  <Page index="0" name="Architecture" enabled="true" shapeCount="113">
     <Annotation shapeName="Shape_27" zorder="6">
       <Location x="612" y="204" />
       <Text>WDT</Text>
@@ -12,11 +12,11 @@
       <TextAlignment value="MiddleLeft" />
     </Annotation>
     <Wire shapeName="Shape_44" zorder="9" effectiveName="Net_270" type="Digital">
-      <Point1 x="594" y="108" />
-      <Point2 x="612" y="108" />
+      <Point1 x="594" y="102" />
+      <Point2 x="612" y="102" />
     </Wire>
     <Annotation shapeName="Shape_45" zorder="11">
-      <Location x="612" y="108" />
+      <Location x="612" y="102" />
       <Text>CCU4, CCU8, BCCU,
 POSIF, MATH</Text>
       <Vertical value="false" />
@@ -27,7 +27,7 @@ POSIF, MATH</Text>
       <TextAlignment value="MiddleLeft" />
     </Annotation>
     <Annotation shapeName="Shape_47" zorder="14">
-      <Location x="612" y="156" />
+      <Location x="612" y="150" />
       <Text>SHS, WDT, CPU, BUS, 
 PERIPH, LEDTS, USIC</Text>
       <Vertical value="false" />
@@ -88,48 +88,36 @@ PERIPH, LEDTS, USIC</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Instance shapeName="Shape_89" zorder="20" guid="54883d99-762f-430b-acaa-5d909b893cd4" name="mux_3" component="mux_3">
-      <Location x="441" y="78" />
-      <Size width="14.99997" height="36" />
+    <Instance shapeName="Shape_89" zorder="137" guid="54883d99-762f-430b-acaa-5d909b893cd4" name="mux_3" component="mux_3">
+      <Location x="444" y="84" />
+      <Size width="11.99997" height="36" />
       <SubShapes>
-        <Terminal name="mux_3.b_3" type="Instance Digital Input">
-          <Location x="444" y="108" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_3.b_4" type="Instance Digital Input">
-          <Location x="444" y="84" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
-          <Point x="444" y="78" />
-          <Point x="456" y="83.53846" />
-          <Point x="456" y="108.4615" />
-          <Point x="444" y="114" />
-          <Point x="444" y="78" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+          <Point x="444" y="84" />
+          <Point x="456" y="89.53846" />
+          <Point x="456" y="114.4615" />
+          <Point x="444" y="120" />
+          <Point x="444" y="84" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
       </SubShapes>
     </Instance>
     <Wire shapeName="Shape_124" zorder="12" effectiveName="Net_325" type="Digital">
-      <Point1 x="594" y="156" />
-      <Point2 x="612" y="156" />
+      <Point1 x="594" y="150" />
+      <Point2 x="612" y="150" />
     </Wire>
-    <Rectangle shapeName="Shape_134" zorder="25">
+    <Rectangle shapeName="Shape_134" zorder="152">
       <Location x="276" y="105" />
       <Size width="18" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
     </Rectangle>
-    <Annotation shapeName="Shape_135" zorder="26">
+    <Annotation shapeName="Shape_135" zorder="153">
       <Location x="285" y="114" />
       <Text>x2</Text>
       <Vertical value="false" />
@@ -139,34 +127,32 @@ PERIPH, LEDTS, USIC</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Wire shapeName="Shape_137" zorder="21" effectiveName="Net_352" type="Digital">
+    <Wire shapeName="Shape_137" zorder="20" effectiveName="Net_352" type="Digital">
       <Point1 x="264" y="114" />
       <Point2 x="276" y="114" />
     </Wire>
-    <Wire shapeName="Shape_138" zorder="23" effectiveName="Net_390" type="Digital">
+    <Wire shapeName="Shape_138" zorder="22" effectiveName="Net_390" type="Digital">
       <Point1 x="294" y="114" />
       <Point2 x="306" y="114" />
     </Wire>
-    <Wire shapeName="Shape_139" zorder="27" effectiveName="Net_525" type="Digital">
-      <Point1 x="378" y="108" />
-      <Point2 x="390" y="108" solderDot="true" />
+    <Wire shapeName="Shape_139" zorder="24" effectiveName="Net_525" type="Digital">
+      <Point1 x="378" y="114" />
+      <Point2 x="390" y="114" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_143" zorder="31" effectiveName="Net_525" type="Digital">
-      <Point1 x="390" y="108" solderDot="true" />
-      <Point2 x="402" y="108" />
+    <Wire shapeName="Shape_143" zorder="28" effectiveName="Net_525" type="Digital">
+      <Point1 x="390" y="114" solderDot="true" />
+      <Point2 x="402" y="114" />
     </Wire>
-    <Rectangle shapeName="Shape_144" zorder="33">
-      <Location x="402" y="99" />
+    <Rectangle shapeName="Shape_144" zorder="159">
+      <Location x="402" y="105" />
       <Size width="18" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
     </Rectangle>
-    <Annotation shapeName="Shape_145" zorder="34">
-      <Location x="418" y="108" />
+    <Annotation shapeName="Shape_145" zorder="160">
+      <Location x="418" y="114" />
       <Text>2</Text>
       <Vertical value="false" />
       <Fill>
@@ -175,24 +161,24 @@ PERIPH, LEDTS, USIC</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Wire shapeName="Shape_181" zorder="39" effectiveName="Net_525" type="Digital">
-      <Point1 x="390" y="84" />
-      <Point2 x="444" y="84" />
+    <Wire shapeName="Shape_181" zorder="34" effectiveName="Net_525" type="Digital">
+      <Point1 x="390" y="90" />
+      <Point2 x="444" y="90" />
     </Wire>
-    <Wire shapeName="Shape_279" zorder="47" effectiveName="Net_432" type="Digital">
-      <Point1 x="198" y="144" />
-      <Point2 x="210" y="144" />
+    <Wire shapeName="Shape_279" zorder="42" effectiveName="Net_432" type="Digital">
+      <Point1 x="198" y="138" />
+      <Point2 x="210" y="138" solderDot="true" />
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_307" zorder="37" effectiveName="Net_401" type="Digital">
-      <Point1 x="420" y="108" />
-      <Point2 x="432" y="108" solderDot="true" />
+    <Wire shapeName="Shape_307" zorder="32" effectiveName="Net_401" type="Digital">
+      <Point1 x="420" y="114" />
+      <Point2 x="432" y="114" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_308" zorder="35" effectiveName="Net_401" type="Digital">
-      <Point1 x="432" y="108" solderDot="true" />
-      <Point2 x="444" y="108" />
+    <Wire shapeName="Shape_308" zorder="30" effectiveName="Net_401" type="Digital">
+      <Point1 x="432" y="114" solderDot="true" />
+      <Point2 x="444" y="114" />
     </Wire>
-    <Instance shapeName="Shape_382" zorder="57" guid="345349fd-bcdb-4099-9670-533ccf60d219" name="arc_bridge_4" component="arc_bridge">
+    <Instance shapeName="Shape_382" zorder="54" guid="345349fd-bcdb-4099-9670-533ccf60d219" name="arc_bridge_4" component="arc_bridge">
       <Location x="465" y="174" />
       <Size width="18" height="8.999985" />
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
@@ -225,11 +211,11 @@ PERIPH, LEDTS, USIC</Text>
       <Point1 x="474" y="204" solderDot="true" />
       <Point2 x="612" y="204" />
     </Wire>
-    <Wire shapeName="Shape_402" zorder="29" effectiveName="Net_525" type="Digital">
-      <Point1 x="390" y="84" />
-      <Point2 x="390" y="108" solderDot="true" />
+    <Wire shapeName="Shape_402" zorder="26" effectiveName="Net_525" type="Digital">
+      <Point1 x="390" y="90" />
+      <Point2 x="390" y="114" solderDot="true" />
     </Wire>
-    <Instance shapeName="Shape_404" zorder="58" guid="59983d29-fe19-4f3a-8a40-b5319e7dcd3c" name="arc_bridge_6" component="arc_bridge">
+    <Instance shapeName="Shape_404" zorder="55" guid="59983d29-fe19-4f3a-8a40-b5319e7dcd3c" name="arc_bridge_6" component="arc_bridge">
       <Location x="465" y="132" />
       <Size width="18" height="8.999985" />
       <SubShapes>
@@ -252,36 +238,31 @@ PERIPH, LEDTS, USIC</Text>
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_424" zorder="59" effectiveName="Net_448" type="Digital">
+    <Wire shapeName="Shape_424" zorder="56" effectiveName="Net_448" type="Digital">
       <Point1 x="480" y="138" />
       <Point2 x="492" y="138" />
     </Wire>
-    <Wire shapeName="Shape_439" zorder="61" effectiveName="Net_540" type="Digital">
+    <Wire shapeName="Shape_439" zorder="58" effectiveName="Net_540" type="Digital">
       <Point1 x="474" y="162" solderDot="true" />
       <Point2 x="492" y="162" />
     </Wire>
-    <Wire shapeName="Shape_443" zorder="63" effectiveName="Net_545" type="Digital">
-      <Point1 x="456" y="90" />
-      <Point2 x="492" y="90" />
+    <Wire shapeName="Shape_443" zorder="60" effectiveName="Net_545" type="Digital">
+      <Point1 x="456" y="102" />
+      <Point2 x="474" y="102" />
     </Wire>
-    <Wire shapeName="Shape_446" zorder="65" effectiveName="Net_540" type="Digital">
+    <Wire shapeName="Shape_446" zorder="62" effectiveName="Net_540" type="Digital">
       <Point1 x="474" y="114" />
       <Point2 x="492" y="114" />
     </Wire>
-    <Wire shapeName="Shape_460" zorder="67" effectiveName="Net_535" type="Digital">
+    <Wire shapeName="Shape_460" zorder="64" effectiveName="Net_535" type="Digital">
       <Point1 x="504" y="102" />
       <Point2 x="522" y="102" />
     </Wire>
-    <Wire shapeName="Shape_461" zorder="69" effectiveName="Net_529" type="Digital">
+    <Wire shapeName="Shape_461" zorder="66" effectiveName="Net_529" type="Digital">
       <Point1 x="504" y="150" />
       <Point2 x="522" y="150" />
     </Wire>
-    <Wire shapeName="Shape_479" zorder="49" effectiveName="Net_432" type="Digital">
-      <Point1 x="210" y="144" />
-      <Point2 x="210" y="180" />
-      <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
-    </Wire>
-    <Instance shapeName="Shape_493" zorder="71" guid="b012500f-18e7-4246-bad0-f3581d5a35df" name="mux_6" component="mux_4">
+    <Instance shapeName="Shape_493" zorder="140" guid="b012500f-18e7-4246-bad0-f3581d5a35df" name="mux_6" component="mux_4">
       <Location x="492" y="210" />
       <Size width="12" height="78" />
       <SubShapes>
@@ -291,12 +272,10 @@ PERIPH, LEDTS, USIC</Text>
           <Point x="492" y="210" />
           <Point x="492" y="288" />
           <Point x="504" y="282" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="494" y="282" />
@@ -312,93 +291,85 @@ PERIPH, LEDTS, USIC</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_494" zorder="72" effectiveName="Net_546" type="Digital">
+    <Wire shapeName="Shape_494" zorder="68" effectiveName="Net_546" type="Digital">
       <Point1 x="198" y="228" />
       <Point2 x="492" y="228" />
     </Wire>
-    <Wire shapeName="Shape_495" zorder="74" effectiveName="Net_547" type="Digital">
+    <Wire shapeName="Shape_495" zorder="70" effectiveName="Net_547" type="Digital">
       <Point1 x="198" y="240" />
       <Point2 x="492" y="240" />
     </Wire>
-    <Wire shapeName="Shape_496" zorder="76" effectiveName="Net_548" type="Digital">
+    <Wire shapeName="Shape_496" zorder="72" effectiveName="Net_548" type="Digital">
       <Point1 x="198" y="252" />
       <Point2 x="492" y="252" />
     </Wire>
-    <Wire shapeName="Shape_497" zorder="78" effectiveName="Net_549" type="Digital">
+    <Wire shapeName="Shape_497" zorder="74" effectiveName="Net_549" type="Digital">
       <Point1 x="198" y="264" />
       <Point2 x="492" y="264" />
     </Wire>
-    <Wire shapeName="Shape_501" zorder="82" effectiveName="Net_540" type="Digital">
+    <Wire shapeName="Shape_501" zorder="78" effectiveName="Net_540" type="Digital">
       <Point1 x="210" y="204" solderDot="true" />
       <Point2 x="210" y="216" />
     </Wire>
-    <Wire shapeName="Shape_502" zorder="84" effectiveName="Net_540" type="Digital">
+    <Wire shapeName="Shape_502" zorder="80" effectiveName="Net_540" type="Digital">
       <Point1 x="210" y="216" />
       <Point2 x="492" y="216" />
     </Wire>
-    <Wire shapeName="Shape_507" zorder="80" effectiveName="Net_214" type="Digital">
+    <Wire shapeName="Shape_507" zorder="76" effectiveName="Net_214" type="Digital">
       <Point1 x="210" y="276" />
       <Point2 x="492" y="276" />
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_514" zorder="88" effectiveName="Net_214" type="Digital">
-      <Point1 x="198" y="288" />
-      <Point2 x="210" y="288" />
+    <Wire shapeName="Shape_514" zorder="84" effectiveName="Net_214" type="Digital">
+      <Point1 x="198" y="294" />
+      <Point2 x="210" y="294" />
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_524" zorder="86" effectiveName="Net_214" type="Digital">
+    <Wire shapeName="Shape_524" zorder="82" effectiveName="Net_214" type="Digital">
       <Point1 x="210" y="276" />
-      <Point2 x="210" y="288" />
+      <Point2 x="210" y="294" />
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_531" zorder="90" effectiveName="Net_401" type="Digital">
+    <Wire shapeName="Shape_531" zorder="86" effectiveName="Net_401" type="Digital">
       <Point1 x="432" y="138" />
       <Point2 x="468" y="138" />
     </Wire>
-    <Line shapeName="Shape_538" zorder="92">
-      <Point x="405" y="108" />
-      <Point x="411" y="108" />
+    <Line shapeName="Shape_538" zorder="161">
+      <Point x="405" y="114" />
+      <Point x="411" y="114" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.8">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_539" zorder="93">
+    <Line shapeName="Shape_539" zorder="88">
       <Point x="408" y="106" />
       <Point x="408" y="106" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.8">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_540" zorder="94">
+    <Line shapeName="Shape_540" zorder="89">
       <Point x="408" y="110" />
       <Point x="408" y="110" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.8">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_542" zorder="95">
+    <Line shapeName="Shape_542" zorder="90">
       <Point x="408" y="105" />
       <Point x="408" y="105" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.8">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_543" zorder="96">
+    <Line shapeName="Shape_543" zorder="91">
       <Point x="408" y="111" />
       <Point x="408" y="111" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.8">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Ellipse shapeName="Shape_544" zorder="97">
-      <Location x="407" y="104" />
-      <Size width="2" height="2" />
-      <NoOutline />
-      <Fill>
-        <SolidBrush color="128, 128, 128" />
-      </Fill>
-    </Ellipse>
-    <Ellipse shapeName="Shape_545" zorder="98">
+    <Ellipse shapeName="Shape_544" zorder="162">
       <Location x="407" y="110" />
       <Size width="2" height="2" />
       <NoOutline />
@@ -406,11 +377,19 @@ PERIPH, LEDTS, USIC</Text>
         <SolidBrush color="128, 128, 128" />
       </Fill>
     </Ellipse>
-    <Wire shapeName="Shape_548" zorder="43" effectiveName="Net_425" type="Digital">
+    <Ellipse shapeName="Shape_545" zorder="163">
+      <Location x="407" y="116" />
+      <Size width="2" height="2" />
+      <NoOutline />
+      <Fill>
+        <SolidBrush color="128, 128, 128" />
+      </Fill>
+    </Ellipse>
+    <Wire shapeName="Shape_548" zorder="38" effectiveName="Net_425" type="Digital">
       <Point1 x="198" y="102" />
       <Point2 x="210" y="102" solderDot="true" />
     </Wire>
-    <Annotation shapeName="Shape_550" zorder="103">
+    <Annotation shapeName="Shape_550" zorder="96">
       <Location x="612" y="54" />
       <Text>SHS</Text>
       <Vertical value="false" />
@@ -420,40 +399,32 @@ PERIPH, LEDTS, USIC</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Instance shapeName="Shape_552" zorder="104" guid="a13687d5-6c08-4505-b912-decb85b33e3d" name="mux_1" component="mux_3">
+    <Instance shapeName="Shape_552" zorder="136" guid="a13687d5-6c08-4505-b912-decb85b33e3d" name="mux_1" component="mux_3">
       <Location x="444" y="36" />
-      <Size width="15" height="36" />
+      <Size width="11.99997" height="36" />
       <SubShapes>
-        <Terminal name="mux_1.a_0" type="Instance Digital Output">
-          <Location x="456" y="54" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
           <Point x="444" y="36" />
           <Point x="456" y="41.53846" />
           <Point x="456" y="66.46153" />
           <Point x="444" y="72" />
           <Point x="444" y="36" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Rectangle shapeName="Shape_554" zorder="105">
+    <Rectangle shapeName="Shape_554" zorder="154">
       <Location x="390" y="57" />
       <Size width="30" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
     </Rectangle>
-    <Annotation shapeName="Shape_555" zorder="106">
+    <Annotation shapeName="Shape_555" zorder="155">
       <Location x="418" y="66" />
       <Text>1.5</Text>
       <Vertical value="false" />
@@ -463,14 +434,14 @@ PERIPH, LEDTS, USIC</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Line shapeName="Shape_556" zorder="107">
+    <Line shapeName="Shape_556" zorder="156">
       <Point x="395" y="66" />
       <Point x="401" y="66" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.8">
         <SolidBrush color="128, 128, 128" />
       </Outline>
     </Line>
-    <Ellipse shapeName="Shape_557" zorder="108">
+    <Ellipse shapeName="Shape_557" zorder="157">
       <Location x="397" y="68.00001" />
       <Size width="2" height="2" />
       <NoOutline />
@@ -478,7 +449,7 @@ PERIPH, LEDTS, USIC</Text>
         <SolidBrush color="128, 128, 128" />
       </Fill>
     </Ellipse>
-    <Ellipse shapeName="Shape_558" zorder="109">
+    <Ellipse shapeName="Shape_558" zorder="158">
       <Location x="397" y="62.00001" />
       <Size width="2" height="2" />
       <NoOutline />
@@ -486,23 +457,23 @@ PERIPH, LEDTS, USIC</Text>
         <SolidBrush color="128, 128, 128" />
       </Fill>
     </Ellipse>
-    <Wire shapeName="Shape_560" zorder="110" effectiveName="Net_425" type="Digital">
+    <Wire shapeName="Shape_560" zorder="97" effectiveName="Net_425" type="Digital">
       <Point1 x="366" y="66" />
       <Point2 x="390" y="66" />
     </Wire>
-    <Wire shapeName="Shape_562" zorder="101" effectiveName="Net_425" type="Digital">
+    <Wire shapeName="Shape_562" zorder="94" effectiveName="Net_425" type="Digital">
       <Point1 x="366" y="42" solderDot="true" />
       <Point2 x="444" y="42" />
     </Wire>
-    <Wire shapeName="Shape_563" zorder="112" effectiveName="Net_559" type="Digital">
+    <Wire shapeName="Shape_563" zorder="99" effectiveName="Net_559" type="Digital">
       <Point1 x="420" y="66" />
       <Point2 x="444" y="66" />
     </Wire>
-    <Wire shapeName="Shape_564" zorder="114" effectiveName="Net_552" type="Digital">
+    <Wire shapeName="Shape_564" zorder="101" effectiveName="Net_552" type="Digital">
       <Point1 x="456" y="54" />
       <Point2 x="612" y="54" />
     </Wire>
-    <Instance shapeName="Shape_620" zorder="116" guid="27ecb4ae-31f7-426a-8173-d13c54ff3c8e" name="DCO1" component="clock_side">
+    <Instance shapeName="Shape_620" zorder="133" guid="27ecb4ae-31f7-426a-8173-d13c54ff3c8e" name="DCO1" component="clock_side">
       <Location x="126" y="83.99999" />
       <Size width="72.00001" height="30.00001" />
       <SubShapes>
@@ -549,7 +520,7 @@ PERIPH, LEDTS, USIC</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_621" zorder="117" guid="30596ff6-eea4-457c-ac04-5319ef7a58bb" name="OSCHP" component="clock_side">
+    <Instance shapeName="Shape_621" zorder="132" guid="30596ff6-eea4-457c-ac04-5319ef7a58bb" name="OSCHP" component="clock_side">
       <Location x="126" y="120" />
       <Size width="72.00001" height="30.00001" />
       <SubShapes>
@@ -596,12 +567,12 @@ PERIPH, LEDTS, USIC</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_622" zorder="118" guid="babaf5a8-393d-4f0c-bfcb-17771dce9740" name="DCO2" component="clock_side">
-      <Location x="126" y="180" />
+    <Instance shapeName="Shape_622" zorder="131" guid="babaf5a8-393d-4f0c-bfcb-17771dce9740" name="DCO2" component="clock_side">
+      <Location x="126" y="186" />
       <Size width="72.00001" height="30.00002" />
       <SubShapes>
         <Rectangle>
-          <Location x="126" y="180" />
+          <Location x="126" y="186" />
           <Size width="72" height="30" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
@@ -611,7 +582,7 @@ PERIPH, LEDTS, USIC</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="126" y="180" />
+          <Location x="126" y="186" />
           <Size width="71.99999" height="12" />
           <Text>DCO2</Text>
           <Vertical value="false" />
@@ -623,7 +594,7 @@ PERIPH, LEDTS, USIC</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="127.4692" y="193.6012" />
+          <Location x="127.4692" y="199.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].dco2[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -635,15 +606,15 @@ PERIPH, LEDTS, USIC</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="126" y="192" />
-          <Point x="198" y="192" />
+          <Point x="126" y="198" />
+          <Point x="198" y="198" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_623" zorder="119" guid="87426f8f-d5d0-4f68-be80-bf890a05810b" name="OSCLP" component="clock_side">
+    <Instance shapeName="Shape_623" zorder="130" guid="87426f8f-d5d0-4f68-be80-bf890a05810b" name="OSCLP" component="clock_side">
       <Location x="126" y="276" />
       <Size width="72.00001" height="30.00003" />
       <SubShapes>
@@ -690,12 +661,12 @@ PERIPH, LEDTS, USIC</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_624" zorder="120" guid="8ab568fe-d87b-443f-9e51-0412a11de8dd" name="MCLK" component="clock_side">
-      <Location x="521.9999" y="138" />
+    <Instance shapeName="Shape_624" zorder="142" guid="8ab568fe-d87b-443f-9e51-0412a11de8dd" name="MCLK" component="clock_side">
+      <Location x="521.9999" y="132" />
       <Size width="72.00006" height="30.00002" />
       <SubShapes>
         <Rectangle>
-          <Location x="522" y="138" />
+          <Location x="522" y="132" />
           <Size width="72" height="30" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
@@ -705,7 +676,7 @@ PERIPH, LEDTS, USIC</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="521.9999" y="138" />
+          <Location x="521.9999" y="132" />
           <Size width="72" height="12" />
           <Text>MCLK</Text>
           <Vertical value="false" />
@@ -717,7 +688,7 @@ PERIPH, LEDTS, USIC</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="523.4692" y="151.6012" />
+          <Location x="523.4692" y="145.6012" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].periclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -729,20 +700,20 @@ PERIPH, LEDTS, USIC</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="522" y="150" />
-          <Point x="594" y="150" />
+          <Point x="522" y="144" />
+          <Point x="594" y="144" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_625" zorder="121" guid="a6b30eff-6121-438f-9127-94d9a8058b99" name="PCLK" component="clock_side">
-      <Location x="521.9999" y="89.99999" />
+    <Instance shapeName="Shape_625" zorder="143" guid="a6b30eff-6121-438f-9127-94d9a8058b99" name="PCLK" component="clock_side">
+      <Location x="521.9999" y="83.99999" />
       <Size width="72.00006" height="30.00001" />
       <SubShapes>
         <Rectangle>
-          <Location x="522" y="90" />
+          <Location x="522" y="84" />
           <Size width="72" height="30" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
@@ -752,7 +723,7 @@ PERIPH, LEDTS, USIC</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="521.9999" y="89.99999" />
+          <Location x="521.9999" y="83.99999" />
           <Size width="72" height="12" />
           <Text>PCLK</Text>
           <Vertical value="false" />
@@ -764,7 +735,7 @@ PERIPH, LEDTS, USIC</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="523.4692" y="103.6012" />
+          <Location x="523.4692" y="97.60115" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ccuclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -776,15 +747,15 @@ PERIPH, LEDTS, USIC</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="522" y="102" />
-          <Point x="594" y="102" />
+          <Point x="522" y="96" />
+          <Point x="594" y="96" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_626" zorder="122" guid="0775744d-d9b1-46e5-ad62-32a247a20d4d" name="FDIVCLK" component="clock_side">
+    <Instance shapeName="Shape_626" zorder="135" guid="0775744d-d9b1-46e5-ad62-32a247a20d4d" name="FDIVCLK" component="clock_side">
       <Location x="306" y="95.99999" />
       <Size width="72.00003" height="30.00001" />
       <SubShapes>
@@ -831,7 +802,7 @@ PERIPH, LEDTS, USIC</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Annotation shapeName="Shape_632" zorder="143">
+    <Annotation shapeName="Shape_632" zorder="111">
       <Location x="96" y="282" />
       <Text>RTC_XTAL1</Text>
       <Vertical value="false" />
@@ -842,38 +813,24 @@ PERIPH, LEDTS, USIC</Text>
       <TextAlignment value="MiddleRight" />
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Annotation>
-    <Wire shapeName="Shape_713" zorder="99" effectiveName="Net_425" type="Digital">
+    <Wire shapeName="Shape_713" zorder="92" effectiveName="Net_425" type="Digital">
       <Point1 x="210" y="42" />
       <Point2 x="366" y="42" solderDot="true" />
     </Wire>
-    <Instance shapeName="Shape_730" zorder="146" guid="414a4299-ede5-45a8-acb5-0f0df9b838e9" name="mux_4" component="mux_5">
-      <Location x="489" y="77.99999" />
-      <Size width="18" height="48.00001" />
+    <Instance shapeName="Shape_730" zorder="138" guid="414a4299-ede5-45a8-acb5-0f0df9b838e9" name="mux_4" component="mux_5">
+      <Location x="492" y="77.99999" />
+      <Size width="11.99997" height="48.00001" />
       <SubShapes>
-        <Terminal name="mux_4.a_0" type="Instance Digital Output">
-          <Location x="504" y="102" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_4.b_3" type="Instance Digital Input">
-          <Location x="492" y="114" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_4.b_4" type="Instance Digital Input">
-          <Location x="492" y="90" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
           <Point x="492" y="77.99999" />
           <Point x="504" y="85.38461" />
           <Point x="504" y="118.6154" />
           <Point x="492" y="126" />
           <Point x="492" y="77.99999" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="494" y="126" />
@@ -889,34 +846,20 @@ PERIPH, LEDTS, USIC</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_731" zorder="147" guid="ac7fe2f5-c9ab-4206-a4ac-c8be77f08072" name="mux_5" component="mux_5">
-      <Location x="489" y="126" />
-      <Size width="18" height="48.00001" />
+    <Instance shapeName="Shape_731" zorder="139" guid="ac7fe2f5-c9ab-4206-a4ac-c8be77f08072" name="mux_5" component="mux_5">
+      <Location x="492" y="126" />
+      <Size width="11.99997" height="48.00001" />
       <SubShapes>
-        <Terminal name="mux_5.a_0" type="Instance Digital Output">
-          <Location x="504" y="150" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_5.b_3" type="Instance Digital Input">
-          <Location x="492" y="162" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_5.b_4" type="Instance Digital Input">
-          <Location x="492" y="138" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
           <Point x="492" y="126" />
           <Point x="504" y="133.3846" />
           <Point x="504" y="166.6154" />
           <Point x="492" y="174" />
           <Point x="492" y="126" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="494" y="174" />
@@ -932,30 +875,24 @@ PERIPH, LEDTS, USIC</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_739" zorder="148" effectiveName="Net_401" type="Digital">
-      <Point1 x="432" y="108" solderDot="true" />
-      <Point2 x="432" y="138" />
-    </Wire>
-    <Wire shapeName="Shape_742" zorder="55" effectiveName="Net_540" type="Digital">
+    <Wire shapeName="Shape_742" zorder="52" effectiveName="Net_540" type="Digital">
       <Point1 x="474" y="162" solderDot="true" />
       <Point2 x="474" y="204" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_747" zorder="53" effectiveName="Net_540" type="Digital">
+    <Wire shapeName="Shape_747" zorder="50" effectiveName="Net_540" type="Digital">
       <Point1 x="474" y="114" />
       <Point2 x="474" y="162" solderDot="true" />
     </Wire>
-    <Rectangle shapeName="Shape_748" zorder="132">
+    <Rectangle shapeName="Shape_748" zorder="126">
       <Location x="102" y="120" />
       <Size width="12" height="12" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Rectangle>
-    <Line shapeName="Shape_749" zorder="133">
+    <Line shapeName="Shape_749" zorder="150">
       <Point x="102" y="120" />
       <Point x="114" y="132" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -963,7 +900,7 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Line>
-    <Line shapeName="Shape_750" zorder="134">
+    <Line shapeName="Shape_750" zorder="151">
       <Point x="102" y="132" />
       <Point x="114" y="120" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -971,18 +908,16 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Line>
-    <Rectangle shapeName="Shape_751" zorder="129">
+    <Rectangle shapeName="Shape_751" zorder="127">
       <Location x="102" y="138" />
       <Size width="12" height="12" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Rectangle>
-    <Line shapeName="Shape_752" zorder="130">
+    <Line shapeName="Shape_752" zorder="148">
       <Point x="102" y="138" />
       <Point x="114" y="150" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -990,7 +925,7 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Line>
-    <Line shapeName="Shape_753" zorder="131">
+    <Line shapeName="Shape_753" zorder="149">
       <Point x="102" y="150" />
       <Point x="114" y="138" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -998,18 +933,16 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Line>
-    <Rectangle shapeName="Shape_754" zorder="126">
+    <Rectangle shapeName="Shape_754" zorder="128">
       <Location x="102" y="276" />
       <Size width="12" height="12" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Rectangle>
-    <Line shapeName="Shape_755" zorder="127">
+    <Line shapeName="Shape_755" zorder="146">
       <Point x="102" y="276" />
       <Point x="114" y="288" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1017,7 +950,7 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Line>
-    <Line shapeName="Shape_756" zorder="128">
+    <Line shapeName="Shape_756" zorder="147">
       <Point x="102" y="288" />
       <Point x="114" y="276" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1025,18 +958,16 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Line>
-    <Rectangle shapeName="Shape_757" zorder="123">
+    <Rectangle shapeName="Shape_757" zorder="129">
       <Location x="102" y="294" />
       <Size width="12" height="12" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="128, 128, 128" />
       </Outline>
-      <Fill>
-        <SolidBrush color="255, 255, 255" />
-      </Fill>
+      <NoFill />
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Rectangle>
-    <Line shapeName="Shape_758" zorder="124">
+    <Line shapeName="Shape_758" zorder="144">
       <Point x="102" y="294" />
       <Point x="114" y="306" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1044,7 +975,7 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Line>
-    <Line shapeName="Shape_759" zorder="125">
+    <Line shapeName="Shape_759" zorder="145">
       <Point x="102" y="306" />
       <Point x="114" y="294" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1052,21 +983,21 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Line>
-    <Wire shapeName="Shape_760" zorder="51" effectiveName="Net_432" type="Digital">
+    <Wire shapeName="Shape_760" zorder="48" effectiveName="Net_432" type="Digital">
       <Point1 x="210" y="180" />
       <Point2 x="468" y="180" />
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_761" zorder="45" effectiveName="Net_399" type="Digital">
-      <Point1 x="198" y="126" />
+    <Wire shapeName="Shape_761" zorder="40" effectiveName="Net_432" type="Digital">
+      <Point1 x="210" y="126" />
       <Point2 x="252" y="126" />
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Wire>
-    <Wire shapeName="Shape_762" zorder="41" effectiveName="Net_425" type="Digital">
+    <Wire shapeName="Shape_762" zorder="36" effectiveName="Net_425" type="Digital">
       <Point1 x="210" y="102" solderDot="true" />
       <Point2 x="252" y="102" />
     </Wire>
-    <Wire shapeName="Shape_770" zorder="150" effectiveName="Net_938" type="Digital">
+    <Wire shapeName="Shape_770" zorder="115" effectiveName="Net_938" type="Digital">
       <Point1 x="504" y="246" />
       <Point2 x="522" y="246" />
     </Wire>
@@ -1074,12 +1005,12 @@ PERIPH, LEDTS, USIC</Text>
       <Point1 x="198" y="204" />
       <Point2 x="210" y="204" solderDot="true" />
     </Wire>
-    <Instance shapeName="Shape_772" zorder="155" guid="28b1c7cf-e50e-45f0-97a5-1e6bfb243b5f" name="RTC_1" component="clock_side">
-      <Location x="521.9999" y="234" />
+    <Instance shapeName="Shape_772" zorder="141" guid="28b1c7cf-e50e-45f0-97a5-1e6bfb243b5f" name="RTC_1" component="clock_side">
+      <Location x="521.9999" y="228" />
       <Size width="72.00006" height="30.00002" />
       <SubShapes>
         <Rectangle>
-          <Location x="522" y="234" />
+          <Location x="522" y="228" />
           <Size width="72" height="30" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
@@ -1089,7 +1020,7 @@ PERIPH, LEDTS, USIC</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="521.9999" y="234" />
+          <Location x="521.9999" y="228" />
           <Size width="72" height="12" />
           <Text>RTC Clock</Text>
           <Vertical value="false" />
@@ -1101,7 +1032,7 @@ PERIPH, LEDTS, USIC</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="523.4692" y="247.6012" />
+          <Location x="523.4692" y="241.6012" />
           <Size width="69.28156" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].rtcclk[0]", "frequency"))}`]]></Text>
           <Vertical value="false" />
@@ -1113,8 +1044,8 @@ PERIPH, LEDTS, USIC</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Line>
-          <Point x="522" y="246" />
-          <Point x="594" y="246" />
+          <Point x="522" y="240" />
+          <Point x="594" y="240" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
@@ -1125,15 +1056,15 @@ PERIPH, LEDTS, USIC</Text>
       <Point1 x="210" y="204" solderDot="true" />
       <Point2 x="474" y="204" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_775" zorder="156" effectiveName="Net_425" type="Digital">
+    <Wire shapeName="Shape_775" zorder="120" effectiveName="Net_425" type="Digital">
       <Point1 x="210" y="42" />
       <Point2 x="210" y="102" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_776" zorder="152" effectiveName="Net_939" type="Digital">
+    <Wire shapeName="Shape_776" zorder="117" effectiveName="Net_939" type="Digital">
       <Point1 x="594" y="246" />
       <Point2 x="612" y="246" />
     </Wire>
-    <Annotation shapeName="Shape_777" zorder="154">
+    <Annotation shapeName="Shape_777" zorder="119">
       <Location x="612" y="246" />
       <Text>RTC</Text>
       <Vertical value="false" />
@@ -1143,11 +1074,33 @@ PERIPH, LEDTS, USIC</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Wire shapeName="Shape_778" zorder="139" effectiveName="Net_425" type="Digital">
+    <Wire shapeName="Shape_778" zorder="107" effectiveName="Net_425" type="Digital">
       <Point1 x="366" y="42" solderDot="true" />
       <Point2 x="366" y="66" />
     </Wire>
-    <Line shapeName="Shape_884" zorder="141">
+    <Wire shapeName="Shape_779" zorder="46" effectiveName="Net_432" type="Digital">
+      <Point1 x="210" y="126" />
+      <Point2 x="210" y="138" solderDot="true" />
+      <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_780" zorder="44" effectiveName="Net_432" type="Digital">
+      <Point1 x="210" y="138" solderDot="true" />
+      <Point2 x="210" y="180" />
+      <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_782" zorder="113" effectiveName="Net_401" type="Digital">
+      <Point1 x="432" y="114" solderDot="true" />
+      <Point2 x="432" y="138" />
+    </Wire>
+    <Wire shapeName="Shape_784" zorder="122" effectiveName="Net_545" type="Digital">
+      <Point1 x="474" y="90" />
+      <Point2 x="474" y="102" />
+    </Wire>
+    <Wire shapeName="Shape_785" zorder="124" effectiveName="Net_545" type="Digital">
+      <Point1 x="474" y="90" />
+      <Point2 x="492" y="90" />
+    </Wire>
+    <Line shapeName="Shape_884" zorder="109">
       <Point x="114" y="282" />
       <Point x="126" y="282" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1155,7 +1108,7 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Line>
-    <Line shapeName="Shape_885" zorder="142">
+    <Line shapeName="Shape_885" zorder="110">
       <Point x="114" y="300" />
       <Point x="126" y="300" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1163,7 +1116,7 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Line>
-    <Line shapeName="Shape_886" zorder="135">
+    <Line shapeName="Shape_886" zorder="103">
       <Point x="114" y="126" />
       <Point x="126" y="126" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1171,7 +1124,7 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Line>
-    <Line shapeName="Shape_887" zorder="136">
+    <Line shapeName="Shape_887" zorder="104">
       <Point x="114" y="144" />
       <Point x="126" y="144" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1179,7 +1132,7 @@ PERIPH, LEDTS, USIC</Text>
       </Outline>
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Line>
-    <Annotation shapeName="Shape_888" zorder="144">
+    <Annotation shapeName="Shape_888" zorder="112">
       <Location x="96" y="300" />
       <Text>RTC_XTAL2</Text>
       <Vertical value="false" />
@@ -1190,7 +1143,7 @@ PERIPH, LEDTS, USIC</Text>
       <TextAlignment value="MiddleRight" />
       <ShapeTags>wl:scu[0].clock[0].osc_lp[0]</ShapeTags>
     </Annotation>
-    <Annotation shapeName="Shape_889" zorder="137">
+    <Annotation shapeName="Shape_889" zorder="105">
       <Location x="96" y="126" />
       <Text>XTAL1</Text>
       <Vertical value="false" />
@@ -1201,7 +1154,7 @@ PERIPH, LEDTS, USIC</Text>
       <TextAlignment value="MiddleRight" />
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Annotation>
-    <Annotation shapeName="Shape_890" zorder="138">
+    <Annotation shapeName="Shape_890" zorder="106">
       <Location x="96" y="144" />
       <Text>XTAL2</Text>
       <Vertical value="false" />
@@ -1212,34 +1165,20 @@ PERIPH, LEDTS, USIC</Text>
       <TextAlignment value="MiddleRight" />
       <ShapeTags>wl:scu[0].clock[0].osc_hp[0]</ShapeTags>
     </Annotation>
-    <Instance shapeName="Shape_1106" zorder="145" guid="f86c39f6-6499-418d-842e-1d1acd9b57a1" name="mux_2" component="mux_5">
-      <Location x="249" y="89.99999" />
-      <Size width="18" height="48.00001" />
+    <Instance shapeName="Shape_1106" zorder="134" guid="f86c39f6-6499-418d-842e-1d1acd9b57a1" name="mux_2" component="mux_5">
+      <Location x="252" y="89.99999" />
+      <Size width="11.99997" height="48.00001" />
       <SubShapes>
-        <Terminal name="mux_2.a_0" type="Instance Digital Output">
-          <Location x="264" y="114" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_2.b_3" type="Instance Digital Input">
-          <Location x="252" y="126" />
-          <ShowWireGuide value="true" />
-        </Terminal>
-        <Terminal name="mux_2.b_4" type="Instance Digital Input">
-          <Location x="252" y="102" />
-          <ShowWireGuide value="true" />
-        </Terminal>
         <ClosedShape>
           <Point x="252" y="89.99999" />
           <Point x="264" y="97.38461" />
           <Point x="264" y="130.6154" />
           <Point x="252" y="138" />
           <Point x="252" y="89.99999" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </ClosedShape>
         <Annotation>
           <Location x="254" y="138" />

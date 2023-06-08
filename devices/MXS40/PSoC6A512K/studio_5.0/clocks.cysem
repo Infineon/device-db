@@ -115,17 +115,11 @@
       <Parameter name="Index">
         <Value>3</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>1</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>PATH_MUX3_1</Value>
       </Parameter>
       <Parameter name="name">
         <Value>PATH_MUX3</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value>Path mux selection: A clock source for high frequency clocks.</Value>
@@ -576,17 +570,11 @@
       <Parameter name="Index">
         <Value>4</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>1</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>PATH_MUX4_1</Value>
       </Parameter>
       <Parameter name="name">
         <Value>PATH_MUX4</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value>Path mux selection: A clock source for high frequency clocks.</Value>
@@ -655,14 +643,8 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>1</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>LF_CLK_MUX</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value />
@@ -830,14 +812,8 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>2</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>FLL_BYPASS</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value />
@@ -906,17 +882,11 @@
       <Parameter name="Index">
         <Value>1</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>1</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>PATH_MUX1_1</Value>
       </Parameter>
       <Parameter name="name">
         <Value>PATH_MUX1</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value>Path mux selection: A clock source for high frequency clocks.</Value>
@@ -1002,14 +972,8 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>2</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>PLL_BYPASS_0</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value />
@@ -1037,17 +1001,11 @@
       <Parameter name="Index">
         <Value>0</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>1</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>PATH_MUX0_1</Value>
       </Parameter>
       <Parameter name="name">
         <Value>PATH_MUX0</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value>Path mux selection: A clock source for high frequency clocks.</Value>
@@ -1280,17 +1238,11 @@
       <Parameter name="Index">
         <Value>2</Value>
       </Parameter>
-      <Parameter name="inputs">
-        <Value>1</Value>
-      </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>PATH_MUX2_1</Value>
       </Parameter>
       <Parameter name="name">
         <Value>PATH_MUX2</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
         <Value>Path mux selection: A clock source for high frequency clocks.</Value>
@@ -1338,19 +1290,14 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="317">
-    <Signal name="Net_237" type="Digital" terminalCount="2">
+  <Signals count="235">
+    <Signal name="Net_237" type="Digital" terminalCount="1">
       <Terminal name="PLL.a_14" type="Instance Digital Output" />
-      <Terminal name="PLL_BYPASS_0.b_4" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_326" type="Digital" terminalCount="2">
-      <Terminal name="PATH_MUX4_1.a_8" type="Instance Digital Output" />
+    <Signal name="Net_326" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_7.i" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_2013" type="Digital" terminalCount="4">
-      <Terminal name="CLK_HF0_1.a_14" type="Instance Digital Output" />
-      <Terminal name="CLK_PERI_1.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_FAST_1.b_17" type="Instance Digital Input" />
+    <Signal name="Net_2013" type="Digital" terminalCount="1">
       <Terminal name="CLK_TIMER_1.b_18" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_2023" type="Digital" terminalCount="1">
@@ -1365,25 +1312,18 @@
     <Signal name="Net_2053" type="Digital" terminalCount="1">
       <Terminal name="CLK_HF4_1.a_14" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_2102" type="Digital" terminalCount="2">
+    <Signal name="Net_2102" type="Digital" terminalCount="1">
       <Terminal name="FLL_1.a_14" type="Instance Digital Output" />
-      <Terminal name="FLL_BYPASS.b_4" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_2154" type="Digital" terminalCount="2">
       <Terminal name="CLK_TIMER_1.a_14" type="Instance Digital Output" />
       <Terminal name="CLK_ALT_SYS_TICK.b_18" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_2743[3:0]" type="Digital" terminalCount="12">
-      <Terminal name="LF_CLK_MUX.a_0" type="Instance Digital Output" />
-      <Terminal name="IMO_1.a_14" type="Instance Digital Output" />
+    <Signal name="Net_2743[3:0]" type="Digital" terminalCount="6">
       <Terminal name="EXTCLK_1.a_14" type="Instance Digital Output" />
+      <Terminal name="IMO_1.a_14" type="Instance Digital Output" />
       <Terminal name="ECO_1.a_14" type="Instance Digital Output" />
       <Terminal name="FLL_2.b_17" type="Instance Digital Input" />
-      <Terminal name="PATH_MUX0_1.b_22" type="Instance Digital Input" />
-      <Terminal name="PATH_MUX3_1.b_22" type="Instance Digital Input" />
-      <Terminal name="PATH_MUX2_1.b_22" type="Instance Digital Input" />
-      <Terminal name="PATH_MUX4_1.b_22" type="Instance Digital Input" />
-      <Terminal name="PATH_MUX1_1.b_22" type="Instance Digital Input" />
       <Terminal name="arc_bridge_6.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_5.i" type="Instance Digital Input" />
     </Signal>
@@ -1396,16 +1336,13 @@
       <Terminal name="CLK_ALT_SYS_TICK.b_19" type="Instance Digital Input" />
       <Terminal name="arc_bridge_4.o" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_2749" type="Digital" terminalCount="2">
-      <Terminal name="PATH_MUX2_1.a_8" type="Instance Digital Output" />
+    <Signal name="Net_2749" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_2.i" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_2750" type="Digital" terminalCount="2">
-      <Terminal name="PLL_BYPASS_0.a_0" type="Instance Digital Output" />
+    <Signal name="Net_2750" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_8.i" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_2781" type="Digital" terminalCount="2">
-      <Terminal name="PATH_MUX3_1.a_8" type="Instance Digital Output" />
+    <Signal name="Net_2781" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_3.i" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_3071" type="Digital" terminalCount="2">
@@ -1416,56 +1353,40 @@
       <Terminal name="arc_bridge_1.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_6.o" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_3886[3:0]" type="Digital" terminalCount="4">
-      <Terminal name="WCO_2.a_3" type="Instance Digital Output" />
+    <Signal name="Net_3886[3:0]" type="Digital" terminalCount="3">
       <Terminal name="ILO_1.a_14" type="Instance Digital Output" />
-      <Terminal name="LF_CLK_MUX.b_0" type="Instance Digital Input" />
+      <Terminal name="CLK_BAK_2.b_16" type="Instance Digital Input" />
       <Terminal name="CLK_LF_2.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_3929" type="Digital" terminalCount="2">
+    <Signal name="Net_3929" type="Digital" terminalCount="1">
       <Terminal name="CLK_LF_2.a_2" type="Instance Digital Output" />
-      <Terminal name="CLK_BAK_2.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_3957" type="Digital" terminalCount="2">
-      <Terminal name="WCO_2.a_2" type="Instance Digital Output" />
-      <Terminal name="CLK_BAK_2.b_16" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_4132" type="Digital" terminalCount="2">
       <Terminal name="FLL_2.a_14" type="Instance Digital Output" />
       <Terminal name="FLL_3.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_4396" type="Digital" terminalCount="3">
-      <Terminal name="PATH_MUX0_1.a_8" type="Instance Digital Output" />
-      <Terminal name="FLL_BYPASS.b_3" type="Instance Digital Input" />
+    <Signal name="Net_4396" type="Digital" terminalCount="1">
       <Terminal name="FLL_1.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_4397" type="Digital" terminalCount="3">
-      <Terminal name="PATH_MUX1_1.a_8" type="Instance Digital Output" />
-      <Terminal name="PLL_BYPASS_0.b_3" type="Instance Digital Input" />
+    <Signal name="Net_4397" type="Digital" terminalCount="1">
       <Terminal name="PLL.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_4398[4:0]" type="Digital" terminalCount="11">
-      <Terminal name="FLL_BYPASS.a_0" type="Instance Digital Output" />
+    <Signal name="Net_4398[4:0]" type="Digital" terminalCount="10">
       <Terminal name="CLK_HF0_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF3_1.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF2_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF1_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_PUMP_1.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF2_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF4_1.b_17" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_8.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_7.o" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4405" type="Digital" terminalCount="2">
-      <Terminal name="CLK_LF_2.a_3" type="Instance Digital Output" />
-      <Terminal name="CLK_ALT_SYS_TICK.b_16" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_8.o" type="Instance Digital Output" />
     </Signal>
     <Signal name="Net_4537" type="Digital" terminalCount="2">
       <Terminal name="CLK_PERI_1.a_14" type="Instance Digital Output" />
       <Terminal name="CLK_SLOW_1.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_4576" type="" terminalCount="0" />
     <Signal name="Net_4587" type="" terminalCount="0" />
     <Signal name="Net_4598" type="" terminalCount="0" />
     <Signal name="Net_4609" type="Digital" terminalCount="1">
@@ -1588,261 +1509,6 @@
     <Signal name="Net_4648" type="Digital" terminalCount="1">
       <Terminal name="ILO_1.a_3" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_4649" type="Digital" terminalCount="1">
-      <Terminal name="WCO_2.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4650" type="Digital" terminalCount="1">
-      <Terminal name="WCO_2.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4651" type="Digital" terminalCount="1">
-      <Terminal name="WCO_2.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4652" type="Digital" terminalCount="1">
-      <Terminal name="WCO_2.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4653" type="Digital" terminalCount="1">
-      <Terminal name="WCO_2.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4654" type="Digital" terminalCount="1">
-      <Terminal name="WCO_2.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4655" type="Digital" terminalCount="1">
-      <Terminal name="WCO_2.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4656" type="Digital" terminalCount="1">
-      <Terminal name="WCO_2.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4657" type="Digital" terminalCount="1">
-      <Terminal name="WCO_2.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4658" type="Digital" terminalCount="1">
-      <Terminal name="LF_CLK_MUX.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4659" type="Digital" terminalCount="1">
-      <Terminal name="LF_CLK_MUX.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4660" type="Digital" terminalCount="1">
-      <Terminal name="LF_CLK_MUX.b_3" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4661" type="Digital" terminalCount="1">
-      <Terminal name="LF_CLK_MUX.b_1" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4662" type="Digital" terminalCount="1">
-      <Terminal name="LF_CLK_MUX.b_2" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4663" type="Digital" terminalCount="1">
-      <Terminal name="LF_CLK_MUX.b_4" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4664" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4665" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4666" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4667" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.b_21" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4668" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.b_23" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4669" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.b_24" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4670" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.b_25" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4671" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.b_26" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4672" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.a_7" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4673" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.a_9" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4674" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.a_17" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4675" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.a_18" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4676" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.a_19" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4677" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX4_1.a_20" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4678" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4679" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4680" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4681" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.b_21" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4682" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.b_23" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4683" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.b_24" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4684" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.b_25" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4685" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.b_26" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4686" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.a_7" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4687" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.a_9" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4688" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.a_17" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4689" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.a_18" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4690" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.a_19" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4691" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX3_1.a_20" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4692" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4693" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4694" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4695" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.b_21" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4696" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.b_23" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4697" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.b_24" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4698" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.b_25" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4699" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.b_26" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4700" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.a_7" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4701" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.a_9" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4702" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.a_17" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4703" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.a_18" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4704" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.a_19" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4705" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX2_1.a_20" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4706" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4707" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4708" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4709" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.b_21" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4710" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.b_23" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4711" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.b_24" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4712" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.b_25" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4713" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.b_26" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4714" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.a_7" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4715" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.a_9" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4716" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.a_17" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4717" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.a_18" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4718" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.a_19" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4719" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX1_1.a_20" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4720" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4721" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4722" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4723" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.b_21" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4724" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.b_23" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4725" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.b_24" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4726" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.b_25" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4727" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.b_26" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4728" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.a_7" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4729" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.a_9" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4730" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.a_17" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4731" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.a_18" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4732" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.a_19" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4733" type="Digital" terminalCount="1">
-      <Terminal name="PATH_MUX0_1.a_20" type="Instance Digital Output" />
-    </Signal>
     <Signal name="Net_4734" type="Digital" terminalCount="1">
       <Terminal name="FLL_1.b_15" type="Instance Digital Input" />
     </Signal>
@@ -1896,36 +1562,6 @@
     </Signal>
     <Signal name="Net_4751" type="Digital" terminalCount="1">
       <Terminal name="PLL.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4752" type="Digital" terminalCount="1">
-      <Terminal name="PLL_BYPASS_0.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4753" type="Digital" terminalCount="1">
-      <Terminal name="PLL_BYPASS_0.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4754" type="Digital" terminalCount="1">
-      <Terminal name="PLL_BYPASS_0.b_1" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4755" type="Digital" terminalCount="1">
-      <Terminal name="PLL_BYPASS_0.b_0" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4756" type="Digital" terminalCount="1">
-      <Terminal name="PLL_BYPASS_0.b_2" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4757" type="Digital" terminalCount="1">
-      <Terminal name="FLL_BYPASS.a_1" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4758" type="Digital" terminalCount="1">
-      <Terminal name="FLL_BYPASS.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4759" type="Digital" terminalCount="1">
-      <Terminal name="FLL_BYPASS.b_1" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4760" type="Digital" terminalCount="1">
-      <Terminal name="FLL_BYPASS.b_0" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4761" type="Digital" terminalCount="1">
-      <Terminal name="FLL_BYPASS.b_2" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_4762" type="Digital" terminalCount="1">
       <Terminal name="FLL_2.b_15" type="Instance Digital Input" />
@@ -2332,6 +1968,54 @@
     <Signal name="Net_4903" type="Digital" terminalCount="1">
       <Terminal name="CLK_ALT_SYS_TICK.a_3" type="Instance Digital Output" />
     </Signal>
+    <Signal name="Net_4907" type="Digital" terminalCount="1">
+      <Terminal name="CLK_LF_2.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4965" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4966" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4967" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4968" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4969" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4970" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4971" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4972" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4973" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4974" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4975" type="Digital" terminalCount="1">
+      <Terminal name="WCO_2.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4977" type="Digital" terminalCount="1">
+      <Terminal name="CLK_ALT_SYS_TICK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4978" type="Digital" terminalCount="1">
+      <Terminal name="CLK_BAK_2.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4979" type="Digital" terminalCount="3">
+      <Terminal name="CLK_HF0_1.a_14" type="Instance Digital Output" />
+      <Terminal name="CLK_PERI_1.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_FAST_1.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4981" type="" terminalCount="0" />
   </Signals>
   <Properties>
     <Property name="CanvasBackColor">255, 255, 255</Property>
