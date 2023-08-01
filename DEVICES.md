@@ -54,6 +54,7 @@
       * [CCG7D](#ccg7d)
       * [CCG7S](#ccg7s)
       * [CCG8](#ccg8)
+      * [PAG2S](#pag2s)
     * [Wireless Charging](#wireless-charging)
       * [WLC1](#wlc1)
     * [XMC™](#xmc™)
@@ -945,12 +946,19 @@
 * CYPD8225-97BZXIT
 * CYPD8125-48LDXI
 
+### PAG2S
+* CYPAS213-24SXQ
+* CYPAS211-32LQXQ
+* CYPAS212-32LQXQ
+* CYPAS213-32LQXQ
+
 ## Wireless Charging
 
 ### WLC1
 * [WLC1115-68LQXQ](https://www.infineon.com/cms/en/product/power/wireless-charging-ics/wlc1115-68lqxq/)
 * [WLC1150-68LQXQ](https://www.infineon.com/cms/en/product/power/wireless-charging-ics/wlc1150-68lqxq/)
 * WLC1250-68LQXQ
+* WLC1515-68LDXS
 
 ## XMC™
 

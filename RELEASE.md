@@ -1,13 +1,9 @@
-# Device Database v4.3.0
+# Device Database v4.6.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Adds new CY8C6xx4 devices.
-* Adds new PSoC 4100S Max devices.
-* Adds S25FL128L and S25FL256L Serial Flash memories.
-* Adds [DEVICES.md](./DEVICES.md) with a list of devices and modules supported by the Device Database.
-* Improves ModusToolbox™ BSP Assistant support for creating custom BSPs by specifying the MPNs.
-* Minor bug fixes.
+* Adds new WLC1 part numbers.
+* Adds PAG2S device support.
 
 
 ## More information in:
