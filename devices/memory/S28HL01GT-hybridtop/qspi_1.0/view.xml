@@ -14,7 +14,7 @@
     <ProgramPageSize>0x0000100</ProgramPageSize>
     <StatusRegisterBusyMask>0x01</StatusRegisterBusyMask>
     <StatusRegisterQuadEnableMask>0x02</StatusRegisterQuadEnableMask>
-    <EraseTime>2677</EraseTime>
+    <EraseTime>5869</EraseTime>
     <ChipEraseTime>1381000</ChipEraseTime>
     <ProgramTime>2175</ProgramTime>
     <HybridInfo>
@@ -23,14 +23,14 @@
             <SectorCount>511</SectorCount>
             <SectorSize>0x40000</SectorSize>
             <EraseCommand>0xDC</EraseCommand>
-            <EraseTime>2677</EraseTime>
+            <EraseTime>5869</EraseTime>
         </Region>
         <Region>
             <RegionIndex>1</RegionIndex>
             <SectorCount>1</SectorCount>
             <SectorSize>0x20000</SectorSize>
             <EraseCommand>0xDC</EraseCommand>
-            <EraseTime>2677</EraseTime>
+            <EraseTime>5869</EraseTime>
         </Region>
         <Region>
             <RegionIndex>2</RegionIndex>

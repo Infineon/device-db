@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="XMC1100-Q024x0016" />
@@ -51,6 +51,7 @@
     <DevCap name="ccu4" />
     <DevCap name="flash_16k" />
     <DevCap name="i2c" />
+    <DevCap name="i2s" />
     <DevCap name="low_power" />
     <DevCap name="mcu_gp" />
     <DevCap name="rtc" />

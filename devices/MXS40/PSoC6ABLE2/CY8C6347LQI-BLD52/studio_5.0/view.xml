@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CY8C6347LQI-BLD52" />
@@ -28,8 +28,8 @@
     <Param name="DAC12_removed" value="NA" />
     <Param name="SampleHold_COUNT" value="1" />
     <Param name="SampleHold_REMOVED" value="NA" />
-    <Param name="SCB_Count" value="9" />
-    <Param name="SCB_removed" value="NA" />
+    <Param name="SCB_Count" value="8" />
+    <Param name="SCB_removed" value="7" />
     <Param name="TimerCounterPWM_Count" value="32" />
     <Param name="TimerCounterPWM_removed" value="NA" />
     <Param name="USB_Type" value="NA" />

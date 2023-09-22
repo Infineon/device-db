@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CY8C4124PVS-S422" />
@@ -64,7 +64,6 @@
     <DevCap name="hal" />
     <DevCap name="i2c" />
     <DevCap name="low_power" />
-    <DevCap name="lptimer" />
     <DevCap name="mcu_gp" />
     <DevCap name="opamp" />
     <DevCap name="psoc4" />

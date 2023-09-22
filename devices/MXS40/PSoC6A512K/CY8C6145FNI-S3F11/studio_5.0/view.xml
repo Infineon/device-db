@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CY8C6145FNI-S3F11" />
@@ -30,8 +30,8 @@
     <Param name="SampleHold_REMOVED" value="NA" />
     <Param name="SDHC_COUNT" value="1" />
     <Param name="SDHC_REMOVED" value="NA" />
-    <Param name="SCB_Count" value="7" />
-    <Param name="SCB_removed" value="NA" />
+    <Param name="SCB_Count" value="5" />
+    <Param name="SCB_removed" value="0;3" />
     <Param name="CAN_FD" value="N" />
     <Param name="TimerCounterPWM_Count" value="12" />
     <Param name="TimerCounterPWM_removed" value="NA" />

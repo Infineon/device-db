@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CYPD8125-48LDXI" />
@@ -54,6 +54,7 @@
     <DevCap name="adc" />
     <DevCap name="cat2" />
     <DevCap name="comp" />
+    <DevCap name="dma" />
     <DevCap name="flash_256k" />
     <DevCap name="hal" />
     <DevCap name="i2c" />
@@ -62,6 +63,7 @@
     <DevCap name="opamp" />
     <DevCap name="spi" />
     <DevCap name="sram_32k" />
+    <DevCap name="std_crypto" />
     <DevCap name="uart" />
     <DevCap name="usbpd" />
   </DeviceCapabilities>

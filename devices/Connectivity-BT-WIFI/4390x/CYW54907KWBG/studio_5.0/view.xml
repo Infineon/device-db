@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CYW54907KWBG" />
@@ -13,6 +13,7 @@
     <Param name="ROM_KB" value="640" />
     <Param name="SRAM_KB" value="2048" />
     <Param name="Bluetooth" value="NA" />
+    <Param name="WiFi" value="5" />
     <Param name="Vddmin_volts" value="2.3" />
     <Param name="Vddmax_volts" value="4.8" />
     <Param name="TempMin_Celsius" value="-30" />
@@ -24,7 +25,7 @@
   </Parameters>
   <DeviceComponents>
     <DevComp name="4390X" />
-    <DevComp name="CAT4" />
+    <DevComp name="CAT4" types="mcu" />
   </DeviceComponents>
   <DeviceCapabilities>
     <DevCap name="cat4" types="mcu" />

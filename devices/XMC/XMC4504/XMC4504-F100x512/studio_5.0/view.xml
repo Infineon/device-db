@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="XMC4504-F100x512" />
@@ -18,12 +18,12 @@
     <Param name="POSIF_removed" value="NA" />
     <Param name="USIC_Count" value="6" />
     <Param name="USIC_removed" value="NA" />
-    <Param name="USIC_I2C_Count" value="6" />
+    <Param name="USIC_I2C_Count" value="5" />
     <Param name="USIC_I2C_Removed" value="3" />
     <Param name="LEDTS_Count" value="1" />
     <Param name="LEDTS_removed" value="NA" />
     <Param name="CAN_Count" value="0" />
-    <Param name="CAN_removed" value="0;1;2" />
+    <Param name="CAN_removed" value="NA" />
     <Param name="ADC_Count" value="4" />
     <Param name="ADC_removed" value="NA" />
     <Param name="DAC_Count" value="2" />
@@ -31,17 +31,18 @@
     <Param name="DSD_Count" value="4" />
     <Param name="DSD_removed" value="NA" />
     <Param name="USB_Count" value="0" />
-    <Param name="USB_removed" value="0" />
+    <Param name="USB_removed" value="NA" />
     <Param name="HRPWM_Count" value="0" />
     <Param name="HRPWM_removed" value="NA" />
     <Param name="SDMMC_Count" value="1" />
     <Param name="SDMMC_removed" value="NA" />
     <Param name="ETH_Count" value="0" />
-    <Param name="ETH_removed" value="0" />
+    <Param name="ETH_removed" value="NA" />
     <Param name="ECAT_Count" value="0" />
     <Param name="ECAT_removed" value="NA" />
     <Param name="EBU_Count" value="1" />
     <Param name="EBU_removed" value="NA" />
+    <Param name="DMAchannels_count" value="12" />
     <Param name="Vddmin_volts" value="0" />
     <Param name="Vddmax_volts" value="4.3" />
     <Param name="TempMin_Celsius" value="-40" />
@@ -60,8 +61,10 @@
     <DevCap name="ccu4" />
     <DevCap name="ccu8" />
     <DevCap name="dac" />
+    <DevCap name="dma" />
     <DevCap name="flash_512k" />
     <DevCap name="i2c" />
+    <DevCap name="i2s" />
     <DevCap name="low_power" />
     <DevCap name="mcu_gp" />
     <DevCap name="posif" />

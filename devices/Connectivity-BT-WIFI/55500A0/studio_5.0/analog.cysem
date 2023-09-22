@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
+  <Instances count="18">
+    <Instance guid="04da8daa-7a3f-4fdb-a4a5-61e7238483ee" name="PIN_GPIO_4" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PIN_GPIO_4</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value>GPIO_4</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>46</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1030e293-2c28-43eb-9c24-16a60d996c41" name="PIN_GPIO_3" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PIN_GPIO_3</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value>GPIO_3</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>45</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="28ac28c7-bd22-4571-9ac5-12e701475574" name="LPCOMP1" component="cy_m0s8_lpcomp">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>LPCOMP</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>LPCOMP1</Value>
+      </Parameter>
+      <Parameter name="InvertTerminals">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="InvertTitle">
+        <Value>false</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3032506c-87da-4667-a4f6-8827bd1440cd" name="mux_small_2" component="mux_small">
+      <Parameter name="BodyText">
+        <Value><![CDATA[`${getExposedMember("pmu[0].lpcomp[1]", "vminusSrcDisplayName")}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_small_2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="6b77f583-27a8-4547-8fb7-53bbd0d3f28a" name="mux_small_4" component="mux_small">
+      <Parameter name="BodyText">
+        <Value><![CDATA[`${getExposedMember("pmu[0].lpcomp[0]", "vminusSrcDisplayName")}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_small_4</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="73efcc91-81ea-4879-8f30-774a59436ac9" name="mux_1" component="mux">
+      <Parameter name="BodyText">
+        <Value><![CDATA[`${getExposedMember("pmu[0].adc[0]", "adcSrcDisplayName")}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="79ca27c0-c151-4e0f-9fd9-5872c1f0d942" name="PIN_GPIO_2" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PIN_GPIO_2</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value>GPIO_2</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>44</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7b543735-531d-424f-a246-9b77a20ad05f" name="PIN_GPIO_7" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PIN_GPIO_7</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value>GPIO_7</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>49</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7f381c02-42a3-4cfb-9d38-e177bf5a4c0b" name="PIN_GPIO_6" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PIN_GPIO_6</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value>GPIO_6</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>48</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="876e3a4f-8691-472e-b768-1ad6824814ff" name="PIN_GPIO_0" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PIN_GPIO_0</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value>GPIO_0</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>42</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="8dc366d7-63e4-49d1-bb89-8d6af0608706" name="PIN_GPIO_1" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PIN_GPIO_1</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value>GPIO_1</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>43</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="98fd067c-7750-4ca5-9a95-58bf02523926" name="SAR_1" component="cy_bt_wifi_adc">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>ADC</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>SAR_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="9d757c4e-53eb-44f3-94c0-d2b6ac24c25e" name="mux_small_1" component="mux_small">
+      <Parameter name="BodyText">
+        <Value><![CDATA[`${getExposedMember("pmu[0].lpcomp[1]", "vplusSrcDisplayName")}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_small_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="9e872288-16ea-48db-ba8b-0853de78f4f3" name="mux_small_3" component="mux_small">
+      <Parameter name="BodyText">
+        <Value><![CDATA[`${getExposedMember("pmu[0].lpcomp[0]", "vplusSrcDisplayName")}`]]></Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_small_3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="afb00d41-362f-4662-b89d-8df152b83a27" name="PIN_GPIO_8" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PIN_GPIO_8</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value>MIC_P</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>50</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="b973b969-e5f2-4a2e-9b3d-8b54cb68b51e" name="PIN_GPIO_5" component="cy_all_pin">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>PIN_GPIO_5</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value>GPIO_5</Value>
+      </Parameter>
+      <Parameter name="PortIndex">
+        <Value>47</Value>
+      </Parameter>
+      <Parameter name="PortNumber">
+        <Value>1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="bbe43154-9294-4eab-acdf-cd2d428c5694" name="legend_1" component="cy_all_legend">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>legend_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="d9dd1d92-6ba8-452b-96e2-c46a7b5aa53c" name="LPCOMP0" component="cy_m0s8_lpcomp">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>LPCOMP</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>LPCOMP0</Value>
+      </Parameter>
+      <Parameter name="InvertTerminals">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="InvertTitle">
+        <Value>false</Value>
+      </Parameter>
+    </Instance>
+  </Instances>
+  <Signals count="14">
+    <Signal name="gpio_0" type="" terminalCount="0" />
+    <Signal name="gpio_1" type="" terminalCount="0" />
+    <Signal name="gpio_2" type="" terminalCount="0" />
+    <Signal name="gpio_3" type="" terminalCount="0" />
+    <Signal name="gpio_4" type="" terminalCount="0" />
+    <Signal name="gpio_5" type="" terminalCount="0" />
+    <Signal name="gpio_6" type="" terminalCount="0" />
+    <Signal name="gpio_7" type="" terminalCount="0" />
+    <Signal name="mic_p" type="" terminalCount="0" />
+    <Signal name="pmu0_adc0" type="Analog" terminalCount="1">
+      <Terminal name="SAR_1.vminus" type="Instance Analog InOut" />
+    </Signal>
+    <Signal name="pmu0_lpcomp_inn0" type="" terminalCount="0" />
+    <Signal name="pmu0_lpcomp_inn1" type="" terminalCount="0" />
+    <Signal name="pmu0_lpcomp_inp0" type="" terminalCount="0" />
+    <Signal name="pmu0_lpcomp_inp1" type="" terminalCount="0" />
+  </Signals>
+  <Properties>
+    <Property name="CanvasBackColor">255, 255, 255</Property>
+    <Property name="Doc.CompanyAddr1" />
+    <Property name="Doc.CompanyAddr2" />
+    <Property name="Doc.CompanyAddr3" />
+    <Property name="Doc.CompanyName" />
+    <Property name="Doc.SchematicTitle" />
+    <Property name="MajorGridColor">169, 169, 169</Property>
+    <Property name="MinorGridColor">100, 169, 169, 169</Property>
+    <Property name="OnlyShowSolderDotsOnWires">False</Property>
+    <Property name="OwnerLineColor">128, 128, 128</Property>
+    <Property name="ShowGrid">True</Property>
+    <Property name="ShowGridAsLines">False</Property>
+    <Property name="TerminalConnectColor">128, 128, 128</Property>
+    <Property name="TerminalFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireBusSize">2</Property>
+    <Property name="WireDotSize">5</Property>
+    <Property name="WireFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireFontColor">0, 0, 0</Property>
+    <Property name="WireSize">0.25</Property>
+  </Properties>
+</Document>

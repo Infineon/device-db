@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="158">
+  <Instances count="162">
     <Instance guid="00b88554-1ec0-45c5-aeaa-d544841c1feb" name="IOSS0_PORT9_P9_P43" component="swh">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -160,6 +160,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P10_Pin0</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>0</Value>
       </Parameter>
@@ -288,6 +291,23 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>MUX_BKG_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1876b05d-46c2-4a72-83fe-e996e526cede" name="AMUXT5_AA_SR" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AMUXT5_AA_SR</Value>
       </Parameter>
     </Instance>
     <Instance guid="18ede51c-0167-478a-977c-b9d7df10afd1" name="cy_shapetag_disconnect_17" component="cy_all_shapetag_disconnect">
@@ -506,6 +526,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P10_Pin4</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>4</Value>
       </Parameter>
@@ -625,6 +648,23 @@
         <Value>cy_shapetag_disconnect_4</Value>
       </Parameter>
     </Instance>
+    <Instance guid="34b88561-6059-4ead-90c7-17a034b73b5d" name="AMUXT5_BB_SR" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AMUXT5_BB_SR</Value>
+      </Parameter>
+    </Instance>
     <Instance guid="35ffb865-b18c-4e2d-b540-4ea12cf3c572" name="P10_Pin6" component="cy_all_pin">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -640,6 +680,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P10_Pin6</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>6</Value>
@@ -664,6 +707,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P6_Pin3</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>3</Value>
       </Parameter>
@@ -686,6 +732,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P10_Pin1</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>1</Value>
@@ -778,6 +827,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P7_Pin7</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>7</Value>
@@ -975,7 +1027,7 @@
         <Value>MUX_BKG_9</Value>
       </Parameter>
     </Instance>
-    <Instance guid="56b4d5ef-a350-4c71-9376-34b9f7e06778" name="AMUXT1_BB_SR" component="swh">
+    <Instance guid="56b4d5ef-a350-4c71-9376-34b9f7e06778" name="AMUXT1_BB_SL" component="swh">
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -989,7 +1041,7 @@
         <Value>false</Value>
       </Parameter>
       <Parameter name="INSTANCE_NAME">
-        <Value>AMUXT1_BB_SR</Value>
+        <Value>AMUXT1_BB_SL</Value>
       </Parameter>
     </Instance>
     <Instance guid="570c17f8-6bb5-4af7-8336-6b9b3ebf11f4" name="IOSS0_PORT8_P8_P52" component="swh">
@@ -1025,6 +1077,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P7_Pin3</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>3</Value>
@@ -1192,6 +1247,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P7_Pin4</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>4</Value>
       </Parameter>
@@ -1249,6 +1307,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P10_Pin5</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>5</Value>
@@ -1375,6 +1436,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P5_Pin7</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>7</Value>
       </Parameter>
@@ -1415,6 +1479,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P9_Pin3</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>3</Value>
       </Parameter>
@@ -1422,7 +1489,7 @@
         <Value>9</Value>
       </Parameter>
     </Instance>
-    <Instance guid="7dc5e545-a6aa-41fe-9cab-c0098c3af6ea" name="AMUXT1_AA_SR" component="swh">
+    <Instance guid="7dc5e545-a6aa-41fe-9cab-c0098c3af6ea" name="AMUXT1_AA_SL" component="swh">
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -1436,7 +1503,7 @@
         <Value>false</Value>
       </Parameter>
       <Parameter name="INSTANCE_NAME">
-        <Value>AMUXT1_AA_SR</Value>
+        <Value>AMUXT1_AA_SL</Value>
       </Parameter>
     </Instance>
     <Instance guid="7e63687c-9b55-4641-a5b2-cb2f66a41328" name="cy_shapetag_disconnect_8" component="cy_all_shapetag_disconnect">
@@ -1471,6 +1538,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P8_Pin2</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>2</Value>
@@ -1530,6 +1600,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P3_Pin0</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>0</Value>
       </Parameter>
@@ -1586,6 +1659,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P10_Pin7</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>7</Value>
@@ -1662,6 +1738,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P7_Pin6</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>6</Value>
       </Parameter>
@@ -1737,7 +1816,7 @@
         <Value>PASS0_SARMUX0_sw6</Value>
       </Parameter>
     </Instance>
-    <Instance guid="90e150ea-717b-4c51-901d-93530cbd395c" name="AMUXT1_BB_SL" component="swh">
+    <Instance guid="90e150ea-717b-4c51-901d-93530cbd395c" name="AMUXT5_BB_SL" component="swh">
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -1751,7 +1830,7 @@
         <Value>false</Value>
       </Parameter>
       <Parameter name="INSTANCE_NAME">
-        <Value>AMUXT1_BB_SL</Value>
+        <Value>AMUXT5_BB_SL</Value>
       </Parameter>
     </Instance>
     <Instance guid="91fb00d9-a34c-4c94-b867-6bb70742c1c5" name="PASS0_SARMUX0_sw10" component="swh">
@@ -1787,11 +1866,31 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P7_Pin2</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>2</Value>
       </Parameter>
       <Parameter name="PortNumber">
         <Value>7</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="935da0cb-8a2b-44e7-be41-085ccb929d93" name="AMUXT1_AA_SR" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AMUXT1_AA_SR</Value>
       </Parameter>
     </Instance>
     <Instance guid="941454e6-2f77-4dac-9bc7-61b2f093dad0" name="PASS0_SARMUX0_sw11" component="swh">
@@ -1975,6 +2074,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P10_Pin2</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>2</Value>
       </Parameter>
@@ -2076,6 +2178,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P8_Pin1</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>1</Value>
       </Parameter>
@@ -2098,6 +2203,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P5_Pin6</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>6</Value>
@@ -2124,7 +2232,7 @@
         <Value>IOSS0_PORT9_P9_P41</Value>
       </Parameter>
     </Instance>
-    <Instance guid="c27fc1b6-7e0b-492a-9f57-03dc8aa49a76" name="AMUXT1_AA_SL" component="swh">
+    <Instance guid="c27fc1b6-7e0b-492a-9f57-03dc8aa49a76" name="AMUXT5_AA_SL" component="swh">
       <Parameter name="CY_COMMENT">
         <Value />
       </Parameter>
@@ -2138,7 +2246,7 @@
         <Value>false</Value>
       </Parameter>
       <Parameter name="INSTANCE_NAME">
-        <Value>AMUXT1_AA_SL</Value>
+        <Value>AMUXT5_AA_SL</Value>
       </Parameter>
     </Instance>
     <Instance guid="c3820805-d907-4cde-a17a-b78ae4132914" name="IOSS0_PORT7_P7_P53" component="swh">
@@ -2210,6 +2318,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P9_Pin1</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>1</Value>
       </Parameter>
@@ -2249,6 +2360,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P8_Pin0</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>0</Value>
@@ -2308,6 +2422,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P8_Pin3</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>3</Value>
       </Parameter>
@@ -2330,6 +2447,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P6_Pin2</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>2</Value>
@@ -2440,6 +2560,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P9_Pin2</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>2</Value>
       </Parameter>
@@ -2462,6 +2585,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P3_Pin1</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>1</Value>
@@ -2520,6 +2646,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P7_Pin0</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>0</Value>
@@ -2718,6 +2847,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P10_Pin3</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>3</Value>
       </Parameter>
@@ -2740,6 +2872,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>P7_Pin1</Value>
+      </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
       </Parameter>
       <Parameter name="PortIndex">
         <Value>1</Value>
@@ -2799,6 +2934,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P9_Pin0</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>0</Value>
       </Parameter>
@@ -2822,6 +2960,23 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>IOSS0_PORT7_P7_P55</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f23abe54-ccdc-429d-8b2f-208ab560c411" name="AMUXT1_BB_SR" component="swh">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AMUXT1_BB_SR</Value>
       </Parameter>
     </Instance>
     <Instance guid="f3c10c9e-5c3a-494d-8764-4bc1596877b5" name="IOSS0_PORT3_P3_P40" component="swh">
@@ -2893,6 +3048,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>P7_Pin5</Value>
       </Parameter>
+      <Parameter name="PinNameOverride">
+        <Value />
+      </Parameter>
       <Parameter name="PortIndex">
         <Value>5</Value>
       </Parameter>
@@ -2952,9 +3110,7 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="49">
-    <Signal name="AmuxA1_bridge" type="" terminalCount="0" />
-    <Signal name="AmuxB1_bridge" type="" terminalCount="0" />
+  <Signals count="47">
     <Signal name="amuxbus_a_csd0" type="Analog" terminalCount="4">
       <Terminal name="cy_shapetag_disconnect_21.a" type="Instance Analog InOut" />
       <Terminal name="cy_shapetag_disconnect_15.a" type="Instance Analog InOut" />

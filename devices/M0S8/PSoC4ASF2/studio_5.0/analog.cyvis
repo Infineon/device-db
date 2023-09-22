@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
-  <Page index="0" name="Architecture" enabled="true" shapeCount="151">
+  <Page index="0" name="Architecture" enabled="true" shapeCount="167">
     <Instance shapeName="Shape_14" zorder="122" guid="5fda3aa2-45b6-4c55-ad75-ed5b6c0e7cb1" name="GPIO_P4_3" component="cy_all_pin">
       <Location x="30" y="198" />
       <Size width="36" height="12" />
@@ -965,7 +965,7 @@
       <Point2 x="336" y="168" />
       <ShapeTags>wl:ioss[0].port[0].pin[0]</ShapeTags>
       <Annotation zorder="132">
-        <Location x="306" y="162" />
+        <Location x="372" y="162" />
         <Text>p0_0</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
@@ -1229,7 +1229,7 @@
       <Point2 x="336" y="138" />
       <ShapeTags>wl:ioss[0].port[1].pin[0]</ShapeTags>
       <Annotation zorder="87">
-        <Location x="306" y="132" />
+        <Location x="372" y="132" />
         <Text>p1_0</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
@@ -1279,7 +1279,7 @@
       <Point2 x="336" y="186" />
       <ShapeTags>wl:ioss[0].port[0].pin[1]</ShapeTags>
       <Annotation zorder="103">
-        <Location x="306" y="180" />
+        <Location x="372" y="180" />
         <Text>p0_1</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
@@ -1321,7 +1321,7 @@
       <Point2 x="336" y="204" />
       <ShapeTags>wl:ioss[0].port[0].pin[2]</ShapeTags>
       <Annotation zorder="106">
-        <Location x="306" y="198" />
+        <Location x="372" y="198" />
         <Text>p0_2</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
@@ -1363,7 +1363,7 @@
       <Point2 x="336" y="222" />
       <ShapeTags>wl:ioss[0].port[0].pin[3]</ShapeTags>
       <Annotation zorder="109">
-        <Location x="306" y="216" />
+        <Location x="372" y="216" />
         <Text>p0_3</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
@@ -1405,7 +1405,7 @@
       <Point2 x="336" y="240" />
       <ShapeTags>wl:ioss[0].port[0].pin[4]</ShapeTags>
       <Annotation zorder="112">
-        <Location x="306" y="234" />
+        <Location x="372" y="234" />
         <Text>p0_4</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
@@ -1447,7 +1447,7 @@
       <Point2 x="336" y="258" />
       <ShapeTags>wl:ioss[0].port[0].pin[5]</ShapeTags>
       <Annotation zorder="115">
-        <Location x="306" y="252" />
+        <Location x="372" y="252" />
         <Text>p0_5</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
@@ -1489,7 +1489,7 @@
       <Point2 x="96" y="258" />
       <ShapeTags>wl:ioss[0].port[4].pin[0]</ShapeTags>
       <Annotation zorder="118">
-        <Location x="90" y="252" />
+        <Location x="30" y="252" />
         <Text>p4_0</Text>
         <Vertical value="false" />
         <TextAlignment value="TopRight" />
@@ -1531,7 +1531,7 @@
       <Point2 x="96" y="240" />
       <ShapeTags>wl:ioss[0].port[4].pin[1]</ShapeTags>
       <Annotation zorder="121">
-        <Location x="90" y="234" />
+        <Location x="30" y="234" />
         <Text>p4_1</Text>
         <Vertical value="false" />
         <TextAlignment value="TopRight" />
@@ -1542,7 +1542,7 @@
       <Point2 x="96" y="204" />
       <ShapeTags>wl:ioss[0].port[4].pin[3], wl:msclp[0].msclp[0]</ShapeTags>
       <Annotation zorder="125">
-        <Location x="66" y="198" />
+        <Location x="4" y="198" />
         <Text>p4_3</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
@@ -1599,7 +1599,7 @@
       <Point2 x="96" y="222" />
       <ShapeTags>wl:ioss[0].port[4].pin[2], wl:msclp[0].msclp[0]</ShapeTags>
       <Annotation zorder="128">
-        <Location x="66" y="216" />
+        <Location x="4" y="216" />
         <Text>p4_2</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
@@ -2221,52 +2221,44 @@
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2302" zorder="150" effectiveName="amuxbus_a" type="Analog">
+    <Wire shapeName="Shape_2302" zorder="154" effectiveName="amuxbus_a" type="Analog">
       <Point1 x="72" y="72" />
       <Point2 x="330" y="72" />
-      <Annotation zorder="151">
+      <Annotation zorder="155">
         <Location x="306" y="60" />
         <Text>amuxbus_a</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
       </Annotation>
     </Wire>
-    <Wire shapeName="Shape_2303" zorder="152" effectiveName="amuxbus_b" type="Analog">
+    <Wire shapeName="Shape_2303" zorder="156" effectiveName="amuxbus_b" type="Analog">
       <Point1 x="90" y="90" />
       <Point2 x="312" y="90" />
-      <Annotation zorder="153">
+      <Annotation zorder="157">
         <Location x="306" y="78" />
         <Text>amuxbus_b</Text>
         <Vertical value="false" />
         <TextAlignment value="TopLeft" />
       </Annotation>
     </Wire>
-    <Wire shapeName="Shape_2402" zorder="142" effectiveName="amuxbus_a" type="Analog">
+    <Wire shapeName="Shape_2402" zorder="146" effectiveName="amuxbus_a" type="Analog">
       <Point1 x="72" y="72" />
       <Point2 x="72" y="162" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_2403" zorder="144" effectiveName="amuxbus_a" type="Analog">
-      <Point1 x="72" y="162" solderDot="true" />
-      <Point2 x="72" y="264" />
-    </Wire>
-    <Wire shapeName="Shape_2404" zorder="146" effectiveName="amuxbus_b" type="Analog">
+    <Wire shapeName="Shape_2404" zorder="152" effectiveName="amuxbus_b" type="Analog">
       <Point1 x="90" y="90" />
       <Point2 x="90" y="180" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_2405" zorder="148" effectiveName="amuxbus_b" type="Analog">
-      <Point1 x="90" y="180" solderDot="true" />
-      <Point2 x="90" y="264" />
-    </Wire>
     <Rectangle shapeName="Shape_2406" zorder="0">
       <Location x="60" y="154" />
-      <Size width="114" height="77.00002" />
+      <Size width="114" height="77" />
       <NoOutline />
       <Fill>
         <SolidBrush color="255, 154, 154" />
       </Fill>
       <ShapeTags>wl:msclp[0].msclp[0]</ShapeTags>
     </Rectangle>
-    <Instance shapeName="Shape_2408" zorder="186" guid="34c9c031-bc09-4318-b5e9-9c7d897119f3" name="cy_all_shapetag_disconnect_3" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2408" zorder="190" guid="34c9c031-bc09-4318-b5e9-9c7d897119f3" name="cy_all_shapetag_disconnect_3" component="cy_all_shapetag_disconnect">
       <Location x="327" y="243" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2276,12 +2268,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2410" zorder="178" effectiveName="amuxbus_a" type="Analog">
+    <Wire shapeName="Shape_2410" zorder="182" effectiveName="amuxbus_a" type="Analog">
       <Point1 x="330" y="246" solderDot="true" />
       <Point2 x="330" y="264" />
       <ShapeTags>wl:ioss[0].port[0].pin[5]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2411" zorder="187" guid="7012cd6c-8617-4430-bf64-d839d1988169" name="cy_all_shapetag_disconnect_4" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2411" zorder="191" guid="7012cd6c-8617-4430-bf64-d839d1988169" name="cy_all_shapetag_disconnect_4" component="cy_all_shapetag_disconnect">
       <Location x="309" y="243" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2291,12 +2283,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2413" zorder="164" effectiveName="amuxbus_b" type="Analog">
+    <Wire shapeName="Shape_2413" zorder="168" effectiveName="amuxbus_b" type="Analog">
       <Point1 x="312" y="246" solderDot="true" />
       <Point2 x="312" y="264" />
       <ShapeTags>wl:ioss[0].port[0].pin[5]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2414" zorder="188" guid="a3e7f621-35d5-4477-bf68-97acc2301fb3" name="cy_all_shapetag_disconnect_5" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2414" zorder="192" guid="a3e7f621-35d5-4477-bf68-97acc2301fb3" name="cy_all_shapetag_disconnect_5" component="cy_all_shapetag_disconnect">
       <Location x="327" y="225" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2306,12 +2298,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2416" zorder="176" effectiveName="amuxbus_a" type="Analog">
+    <Wire shapeName="Shape_2416" zorder="180" effectiveName="amuxbus_a" type="Analog">
       <Point1 x="330" y="228" solderDot="true" />
       <Point2 x="330" y="246" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2417" zorder="189" guid="19ce1d28-b6b5-4d8b-b5fe-f029334a293f" name="cy_all_shapetag_disconnect_6" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2417" zorder="193" guid="19ce1d28-b6b5-4d8b-b5fe-f029334a293f" name="cy_all_shapetag_disconnect_6" component="cy_all_shapetag_disconnect">
       <Location x="309" y="225" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2321,12 +2313,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2419" zorder="162" effectiveName="amuxbus_b" type="Analog">
+    <Wire shapeName="Shape_2419" zorder="166" effectiveName="amuxbus_b" type="Analog">
       <Point1 x="312" y="228" solderDot="true" />
       <Point2 x="312" y="246" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2420" zorder="190" guid="df2d9e0d-4df9-494a-92b1-64894e6676e8" name="cy_all_shapetag_disconnect_7" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2420" zorder="194" guid="df2d9e0d-4df9-494a-92b1-64894e6676e8" name="cy_all_shapetag_disconnect_7" component="cy_all_shapetag_disconnect">
       <Location x="327" y="207" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2336,12 +2328,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2422" zorder="174" effectiveName="amuxbus_a" type="Analog">
+    <Wire shapeName="Shape_2422" zorder="178" effectiveName="amuxbus_a" type="Analog">
       <Point1 x="330" y="210" solderDot="true" />
       <Point2 x="330" y="228" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4], wl:ioss[0].port[0].pin[3]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2423" zorder="191" guid="284bdbe1-0afb-420f-8568-63e7d93a3e7c" name="cy_all_shapetag_disconnect_8" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2423" zorder="195" guid="284bdbe1-0afb-420f-8568-63e7d93a3e7c" name="cy_all_shapetag_disconnect_8" component="cy_all_shapetag_disconnect">
       <Location x="309" y="207" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2351,12 +2343,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2425" zorder="160" effectiveName="amuxbus_b" type="Analog">
+    <Wire shapeName="Shape_2425" zorder="164" effectiveName="amuxbus_b" type="Analog">
       <Point1 x="312" y="210" solderDot="true" />
       <Point2 x="312" y="228" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4], wl:ioss[0].port[0].pin[3]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2426" zorder="192" guid="010633d3-f6f8-45d2-988f-1fbcbbbf64db" name="cy_all_shapetag_disconnect_9" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2426" zorder="196" guid="010633d3-f6f8-45d2-988f-1fbcbbbf64db" name="cy_all_shapetag_disconnect_9" component="cy_all_shapetag_disconnect">
       <Location x="327" y="189" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2366,12 +2358,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2428" zorder="172" effectiveName="amuxbus_a" type="Analog">
+    <Wire shapeName="Shape_2428" zorder="176" effectiveName="amuxbus_a" type="Analog">
       <Point1 x="330" y="192" solderDot="true" />
       <Point2 x="330" y="210" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4], wl:ioss[0].port[0].pin[3], wl:ioss[0].port[0].pin[2]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2429" zorder="193" guid="8ba3105b-151f-4485-8be8-46f99c868f04" name="cy_all_shapetag_disconnect_10" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2429" zorder="197" guid="8ba3105b-151f-4485-8be8-46f99c868f04" name="cy_all_shapetag_disconnect_10" component="cy_all_shapetag_disconnect">
       <Location x="309" y="189" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2381,12 +2373,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2431" zorder="158" effectiveName="amuxbus_b" type="Analog">
+    <Wire shapeName="Shape_2431" zorder="162" effectiveName="amuxbus_b" type="Analog">
       <Point1 x="312" y="192" solderDot="true" />
       <Point2 x="312" y="210" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4], wl:ioss[0].port[0].pin[3], wl:ioss[0].port[0].pin[2]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2432" zorder="194" guid="6d3b25e2-82b1-4d13-a726-1589ebf04555" name="cy_all_shapetag_disconnect_11" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2432" zorder="198" guid="6d3b25e2-82b1-4d13-a726-1589ebf04555" name="cy_all_shapetag_disconnect_11" component="cy_all_shapetag_disconnect">
       <Location x="327" y="171" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2396,12 +2388,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2434" zorder="170" effectiveName="amuxbus_a" type="Analog">
+    <Wire shapeName="Shape_2434" zorder="174" effectiveName="amuxbus_a" type="Analog">
       <Point1 x="330" y="174" solderDot="true" />
       <Point2 x="330" y="192" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4], wl:ioss[0].port[0].pin[3], wl:ioss[0].port[0].pin[2], wl:ioss[0].port[0].pin[1]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2435" zorder="195" guid="b36f7123-0665-49d4-9104-2874ce0c6b66" name="cy_all_shapetag_disconnect_12" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2435" zorder="199" guid="b36f7123-0665-49d4-9104-2874ce0c6b66" name="cy_all_shapetag_disconnect_12" component="cy_all_shapetag_disconnect">
       <Location x="309" y="171" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2411,12 +2403,12 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2437" zorder="156" effectiveName="amuxbus_b" type="Analog">
+    <Wire shapeName="Shape_2437" zorder="160" effectiveName="amuxbus_b" type="Analog">
       <Point1 x="312" y="174" solderDot="true" />
       <Point2 x="312" y="192" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4], wl:ioss[0].port[0].pin[3], wl:ioss[0].port[0].pin[2], wl:ioss[0].port[0].pin[1]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2438" zorder="196" guid="d416b6a7-e93e-4c9c-9e7e-dfad00cafa4b" name="cy_all_shapetag_disconnect_13" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2438" zorder="200" guid="d416b6a7-e93e-4c9c-9e7e-dfad00cafa4b" name="cy_all_shapetag_disconnect_13" component="cy_all_shapetag_disconnect">
       <Location x="327" y="141" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2426,16 +2418,16 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2439" zorder="180" effectiveName="amuxbus_a" type="Analog">
+    <Wire shapeName="Shape_2439" zorder="184" effectiveName="amuxbus_a" type="Analog">
       <Point1 x="330" y="72" />
       <Point2 x="330" y="144" />
     </Wire>
-    <Wire shapeName="Shape_2440" zorder="168" effectiveName="amuxbus_a" type="Analog">
+    <Wire shapeName="Shape_2440" zorder="172" effectiveName="amuxbus_a" type="Analog">
       <Point1 x="330" y="144" solderDot="true" />
       <Point2 x="330" y="174" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4], wl:ioss[0].port[0].pin[3], wl:ioss[0].port[0].pin[2], wl:ioss[0].port[0].pin[1], wl:ioss[0].port[0].pin[0]</ShapeTags>
     </Wire>
-    <Instance shapeName="Shape_2441" zorder="197" guid="4fce7b81-6fc5-4536-9ec2-e663f16823b9" name="cy_all_shapetag_disconnect_14" component="cy_all_shapetag_disconnect">
+    <Instance shapeName="Shape_2441" zorder="201" guid="4fce7b81-6fc5-4536-9ec2-e663f16823b9" name="cy_all_shapetag_disconnect_14" component="cy_all_shapetag_disconnect">
       <Location x="309" y="141" />
       <Size width="9" height="6" />
       <SubShapes>
@@ -2445,14 +2437,144 @@
         </Terminal>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_2442" zorder="166" effectiveName="amuxbus_b" type="Analog">
+    <Wire shapeName="Shape_2442" zorder="170" effectiveName="amuxbus_b" type="Analog">
       <Point1 x="312" y="90" />
       <Point2 x="312" y="144" />
     </Wire>
-    <Wire shapeName="Shape_2443" zorder="154" effectiveName="amuxbus_b" type="Analog">
+    <Wire shapeName="Shape_2443" zorder="158" effectiveName="amuxbus_b" type="Analog">
       <Point1 x="312" y="144" solderDot="true" />
       <Point2 x="312" y="174" />
       <ShapeTags>wl:ioss[0].port[0].pin[5], wl:ioss[0].port[0].pin[4], wl:ioss[0].port[0].pin[3], wl:ioss[0].port[0].pin[2], wl:ioss[0].port[0].pin[1], wl:ioss[0].port[0].pin[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_2466" zorder="202" effectiveName="amuxbus_b" type="Analog">
+      <Point1 x="90" y="210" solderDot="true" />
+      <Point2 x="90" y="228" />
+      <ShapeTags>wl:ioss[0].port[4].pin[2], wl:ioss[0].port[4].pin[1], wl:ioss[0].port[4].pin[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_2467" zorder="204" effectiveName="amuxbus_b" type="Analog">
+      <Point1 x="90" y="228" solderDot="true" />
+      <Point2 x="90" y="246" />
+      <ShapeTags>wl:ioss[0].port[4].pin[1], wl:ioss[0].port[4].pin[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_2468" zorder="206" effectiveName="amuxbus_b" type="Analog">
+      <Point1 x="90" y="246" solderDot="true" />
+      <Point2 x="90" y="264" />
+      <ShapeTags>wl:ioss[0].port[4].pin[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_2471" zorder="208" effectiveName="amuxbus_a" type="Analog">
+      <Point1 x="72" y="210" solderDot="true" />
+      <Point2 x="72" y="228" />
+      <ShapeTags>wl:ioss[0].port[4].pin[2], wl:ioss[0].port[4].pin[1], wl:ioss[0].port[4].pin[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_2472" zorder="210" effectiveName="amuxbus_a" type="Analog">
+      <Point1 x="72" y="228" solderDot="true" />
+      <Point2 x="72" y="246" />
+      <ShapeTags>wl:ioss[0].port[4].pin[1], wl:ioss[0].port[4].pin[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_2473" zorder="212" effectiveName="amuxbus_a" type="Analog">
+      <Point1 x="72" y="246" solderDot="true" />
+      <Point2 x="72" y="264" />
+      <ShapeTags>wl:ioss[0].port[4].pin[0]</ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_2475" zorder="214" guid="1d1d3dbd-5baa-4922-9985-93e6487054db" name="cy_all_shapetag_disconnect_15" component="cy_all_shapetag_disconnect">
+      <Location x="66" y="261" />
+      <Size width="9" height="6" />
+      <SubShapes>
+        <Terminal name="cy_all_shapetag_disconnect_15.a" type="Instance Analog InOut">
+          <Location x="72" y="264" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2476" zorder="215" guid="de2384d4-7776-4d38-a87e-b4339c576fde" name="cy_all_shapetag_disconnect_16" component="cy_all_shapetag_disconnect">
+      <Location x="84" y="261" />
+      <Size width="9" height="6" />
+      <SubShapes>
+        <Terminal name="cy_all_shapetag_disconnect_16.a" type="Instance Analog InOut">
+          <Location x="90" y="264" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2477" zorder="216" guid="5b81eb1c-c512-4233-a3bf-ac7a6f36b121" name="cy_all_shapetag_disconnect_17" component="cy_all_shapetag_disconnect">
+      <Location x="66" y="243" />
+      <Size width="9" height="6" />
+      <SubShapes>
+        <Terminal name="cy_all_shapetag_disconnect_17.a" type="Instance Analog InOut">
+          <Location x="72" y="246" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2478" zorder="217" guid="8b88b5f6-7bf7-4dde-9a58-8258a27283fe" name="cy_all_shapetag_disconnect_18" component="cy_all_shapetag_disconnect">
+      <Location x="84" y="243" />
+      <Size width="9" height="6" />
+      <SubShapes>
+        <Terminal name="cy_all_shapetag_disconnect_18.a" type="Instance Analog InOut">
+          <Location x="90" y="246" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2479" zorder="218" guid="cbf03ff0-e81b-43f4-b113-45465167b8fb" name="cy_all_shapetag_disconnect_19" component="cy_all_shapetag_disconnect">
+      <Location x="66" y="225" />
+      <Size width="9" height="6" />
+      <SubShapes>
+        <Terminal name="cy_all_shapetag_disconnect_19.a" type="Instance Analog InOut">
+          <Location x="72" y="228" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2480" zorder="219" guid="5a1bf8bc-25e0-41ac-b951-330f7bb089de" name="cy_all_shapetag_disconnect_20" component="cy_all_shapetag_disconnect">
+      <Location x="84" y="225" />
+      <Size width="9" height="6" />
+      <SubShapes>
+        <Terminal name="cy_all_shapetag_disconnect_20.a" type="Instance Analog InOut">
+          <Location x="90" y="228" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2481" zorder="220" guid="0f645457-9b7f-46e2-a7ee-4f460d0cb17a" name="cy_all_shapetag_disconnect_21" component="cy_all_shapetag_disconnect">
+      <Location x="66" y="207" />
+      <Size width="9" height="6" />
+      <SubShapes>
+        <Terminal name="cy_all_shapetag_disconnect_21.a" type="Instance Analog InOut">
+          <Location x="72" y="210" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_2482" zorder="221" guid="ac3d1037-f8a0-494d-948f-332c97c141b5" name="cy_all_shapetag_disconnect_22" component="cy_all_shapetag_disconnect">
+      <Location x="84" y="207" />
+      <Size width="9" height="6" />
+      <SubShapes>
+        <Terminal name="cy_all_shapetag_disconnect_22.a" type="Instance Analog InOut">
+          <Location x="90" y="210" />
+          <ShowWireGuide value="false" />
+        </Terminal>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_2491" zorder="144" effectiveName="amuxbus_a" type="Analog">
+      <Point1 x="72" y="162" solderDot="true" />
+      <Point2 x="72" y="192" />
+      <ShapeTags>wl:ioss[0].port[4].pin[3], wl:ioss[0].port[4].pin[2], wl:ioss[0].port[4].pin[1], wl:ioss[0].port[4].pin[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_2492" zorder="142" effectiveName="amuxbus_a" type="Analog">
+      <Point1 x="72" y="192" />
+      <Point2 x="72" y="210" />
+      <ShapeTags>wl:ioss[0].port[4].pin[3], wl:ioss[0].port[4].pin[2], wl:ioss[0].port[4].pin[1], wl:ioss[0].port[4].pin[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_2493" zorder="150" effectiveName="amuxbus_b" type="Analog">
+      <Point1 x="90" y="180" solderDot="true" />
+      <Point2 x="90" y="192" />
+      <ShapeTags>wl:ioss[0].port[4].pin[3], wl:ioss[0].port[4].pin[2], wl:ioss[0].port[4].pin[1], wl:ioss[0].port[4].pin[0]</ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_2494" zorder="148" effectiveName="amuxbus_b" type="Analog">
+      <Point1 x="90" y="192" />
+      <Point2 x="90" y="210" />
+      <ShapeTags>wl:ioss[0].port[4].pin[3], wl:ioss[0].port[4].pin[2], wl:ioss[0].port[4].pin[1], wl:ioss[0].port[4].pin[0]</ShapeTags>
     </Wire>
     <Rectangle shapeName="Shape_3309" zorder="30">
       <Location x="108" y="132" />
@@ -2483,22 +2605,22 @@
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="BottomRight" />
     </Annotation>
-    <Wire shapeName="Shape_6415" zorder="184" effectiveName="msclp0_cmodmx1" type="Digital">
+    <Wire shapeName="Shape_6415" zorder="188" effectiveName="msclp0_cmodmx1" type="Digital">
       <Point1 x="162" y="216" />
       <Point2 x="168" y="216" />
       <ShapeTags>wl:msclp[0].msclp[0]</ShapeTags>
-      <Annotation zorder="185">
+      <Annotation zorder="189">
         <Location x="294" y="222" />
         <Text>msclp0_cmodmx1</Text>
         <Vertical value="false" />
         <TextAlignment value="BottomRight" />
       </Annotation>
     </Wire>
-    <Wire shapeName="Shape_6416" zorder="182" effectiveName="msclp0_cmodmx0" type="Digital">
+    <Wire shapeName="Shape_6416" zorder="186" effectiveName="msclp0_cmodmx0" type="Digital">
       <Point1 x="162" y="204" />
       <Point2 x="168" y="204" />
       <ShapeTags>wl:msclp[0].msclp[0]</ShapeTags>
-      <Annotation zorder="183">
+      <Annotation zorder="187">
         <Location x="294" y="210" />
         <Text>msclp0_cmodmx0</Text>
         <Vertical value="false" />

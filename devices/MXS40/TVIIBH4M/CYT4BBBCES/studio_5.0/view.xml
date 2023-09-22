@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CYT4BBBCES" />
@@ -6,33 +6,66 @@
     <Param name="DeviceDie" value="TVIIBH4M" />
     <Param name="Silicon_Revision" value="0x12" />
     <Param name="Package" value="272-BGA" />
-    <Param name="Cores_REMOVED" value="NA" />
     <Param name="DeviceSeries" value="CYT4BB" />
+    <Param name="Cores_REMOVED" value="NA" />
     <Param name="Speed_MHz" value="250" />
     <Param name="Flash_KB" value="4160" />
     <Param name="WFlash_KB" value="256" />
     <Param name="SRAM_KB" value="768" />
+    <Param name="Bluetooth" value="NA" />
+    <Param name="AltHF" value="N" />
+    <Param name="UDB_Count" value="0" />
+    <Param name="Preconfigured_Blocks" value="NA" />
     <Param name="SAR12_Count" value="3" />
-    <Param name="SAR12_Removed" value="NA" />
+    <Param name="SAR12_REMOVED" value="NA" />
     <Param name="SAR12Sample_ksps" value="1000" />
+    <Param name="OpAmp_Count" value="0" />
+    <Param name="OpAmp_Removed" value="NA" />
+    <Param name="LPComp_Count" value="0" />
+    <Param name="LPComp_REMOVED" value="NA" />
+    <Param name="DAC8_Count" value="0" />
+    <Param name="DAC8_removed" value="NA" />
+    <Param name="DAC12_Count" value="0" />
+    <Param name="DAC12_removed" value="NA" />
+    <Param name="SampleHold_COUNT" value="0" />
+    <Param name="SampleHold_REMOVED" value="NA" />
     <Param name="SDHC_COUNT" value="1" />
     <Param name="SDHC_REMOVED" value="NA" />
     <Param name="SCB_Count" value="11" />
-    <Param name="SCB_Removed" value="NA" />
+    <Param name="SCB_removed" value="NA" />
     <Param name="CAN_FD" value="Y" />
+    <Param name="CANFD_CH_Count" value="8" />
+    <Param name="CANFD_CH_Removed" value="NA" />
     <Param name="TimerCounterPWM_Count" value="83" />
     <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="USB_Type" value="NA" />
+    <Param name="CapSense" value="N" />
+    <Param name="TMG" value="N" />
+    <Param name="CapSenseADC" value="N" />
     <Param name="LIN_Count" value="1" />
     <Param name="LIN_Removed" value="NA" />
+    <Param name="LIN_CH_Count" value="16" />
+    <Param name="LIN_CH_Removed" value="NA" />
     <Param name="ETH_Count" value="1" />
     <Param name="ETH_Removed" value="NA" />
-    <Param name="FLEXRAY" value="Y" />
+    <Param name="FLEXRAY" value="N" />
     <Param name="SMIF" value="Y" />
     <Param name="Crypto" value="Y" />
     <Param name="Security" value="HSM" />
     <Param name="I2S_Count" value="3" />
     <Param name="I2S_removed" value="NA" />
+    <Param name="PDM_Count" value="0" />
+    <Param name="PDM_removed" value="NA" />
+    <Param name="DirDriveLCD" value="N" />
+    <Param name="DMAchannels_count" value="158" />
+    <Param name="DMACchannels_count" value="8" />
     <Param name="IO_Count" value="220" />
+    <Param name="Power_Modes" value="ANY" />
+    <Param name="Vddmin_volts" value="2.7" />
+    <Param name="Vddmax_volts" value="5.5" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="105" />
+    <Param name="Automotive_qualified" value="Yes" />
     <Param name="SiliconID" value="0xE9201207" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
@@ -51,6 +84,7 @@
     <DevCap name="can" />
     <DevCap name="cat1" />
     <DevCap name="cat1c" />
+    <DevCap name="dma" />
     <DevCap name="ethernet" />
     <DevCap name="flash_4160k" />
     <DevCap name="hal" />

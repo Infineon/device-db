@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="Vela-IF820-EXT-ANT" package="44-LGA" layout="COORDINATE_SQ" x="0" y="0">
+    <ExternalPin position="(0,0)" name="GND" displayPosition="39" moduleConnection="MODULE" />
+    <ExternalPin position="(0,1)" name="P13" displayPosition="19" moduleConnection="MODULE" />
+    <ExternalPin position="(0,2)" name="P1" displayPosition="20" moduleConnection="MODULE" />
+    <ExternalPin position="(0,3)" name="P11" displayPosition="21" moduleConnection="MODULE" />
+    <ExternalPin position="(0,4)" name="P10" displayPosition="22" moduleConnection="MODULE" />
+    <ExternalPin position="(0,5)" name="P27" displayPosition="23" moduleConnection="MODULE" />
+    <ExternalPin position="(0,6)" name="RST" displayPosition="24" moduleConnection="MODULE" />
+    <ExternalPin position="(0,7)" name="P0" displayPosition="25" moduleConnection="MODULE" />
+    <ExternalPin position="(0,8)" name="P37" displayPosition="26" moduleConnection="MODULE" />
+    <ExternalPin position="(0,9)" name="P32" displayPosition="27" moduleConnection="MODULE" />
+    <ExternalPin position="(0,10)" name="GND" displayPosition="40" moduleConnection="MODULE" />
+    <ExternalPin position="(1,0)" name="P12" displayPosition="18" moduleConnection="MODULE" />
+    <ExternalPin position="(1,10)" name="P14" displayPosition="28" moduleConnection="MODULE" />
+    <ExternalPin position="(2,0)" name="P9" displayPosition="17" moduleConnection="MODULE" />
+    <ExternalPin position="(2,10)" name="P29" displayPosition="29" moduleConnection="MODULE" />
+    <ExternalPin position="(3,0)" name="P17" displayPosition="16" moduleConnection="MODULE" />
+    <ExternalPin position="(3,10)" name="P26" displayPosition="30" moduleConnection="MODULE" />
+    <ExternalPin position="(4,0)" name="P6" displayPosition="15" moduleConnection="MODULE" />
+    <ExternalPin position="(4,10)" name="3P0V" displayPosition="31" moduleConnection="MODULE" />
+    <ExternalPin position="(4.5,4.5)" name="GND" displayPosition="42" moduleConnection="MODULE" />
+    <ExternalPin position="(4.5,5.5)" name="GND" displayPosition="41" moduleConnection="MODULE" />
+    <ExternalPin position="(5,0)" name="P3" displayPosition="14" moduleConnection="MODULE" />
+    <ExternalPin position="(5,10)" name="GND" displayPosition="32" moduleConnection="MODULE" />
+    <ExternalPin position="(5.5,4.5)" name="GND" displayPosition="44" moduleConnection="MODULE" />
+    <ExternalPin position="(5.5,5.5)" name="GND" displayPosition="43" moduleConnection="MODULE" />
+    <ExternalPin position="(6,0)" name="XTALO_32K" displayPosition="13" moduleConnection="MODULE" />
+    <ExternalPin position="(6,10)" name="BT_UART_RTS" displayPosition="33" moduleConnection="MODULE" />
+    <ExternalPin position="(7,0)" name="XTALI_32K" displayPosition="12" moduleConnection="MODULE" />
+    <ExternalPin position="(7,10)" name="BT_UART_TXD" displayPosition="34" moduleConnection="MODULE" />
+    <ExternalPin position="(8,0)" name="GND" displayPosition="11" moduleConnection="MODULE" />
+    <ExternalPin position="(8,10)" name="BT_UART_RXD" displayPosition="35" moduleConnection="MODULE" />
+    <ExternalPin position="(9,0)" name="VDDIO" displayPosition="10" moduleConnection="MODULE" />
+    <ExternalPin position="(9,10)" name="BT_UART_CTS" displayPosition="36" moduleConnection="MODULE" />
+    <ExternalPin position="(10,0)" name="GND" displayPosition="38" moduleConnection="MODULE" />
+    <ExternalPin position="(10,1)" name="P8" displayPosition="9" moduleConnection="MODULE" />
+    <ExternalPin position="(10,2)" name="P5" displayPosition="8" moduleConnection="MODULE" />
+    <ExternalPin position="(10,3)" name="P15" displayPosition="7" moduleConnection="MODULE" />
+    <ExternalPin position="(10,4)" name="P2" displayPosition="6" moduleConnection="MODULE" />
+    <ExternalPin position="(10,5)" name="P4" displayPosition="5" moduleConnection="MODULE" />
+    <ExternalPin position="(10,6)" name="P28" displayPosition="4" moduleConnection="MODULE" />
+    <ExternalPin position="(10,7)" name="GND" displayPosition="3" moduleConnection="MODULE" />
+    <ExternalPin position="(10,8)" name="BT_HOST_WAKE" displayPosition="2" moduleConnection="MODULE" />
+    <ExternalPin position="(10,9)" name="BT_DEV_WAKE" displayPosition="1" moduleConnection="MODULE" />
+    <ExternalPin position="(10,10)" name="GND" displayPosition="37" moduleConnection="MODULE" />
+    <Component name="Vela-IF820-EXT-ANT/CYW20820A1KFBG" partNumber="CYW20820A1KFBG">
+      <!--position=P12 external=P12-->
+      <InnerPin position="A1" external="(1,0)" />
+      <!--position=P9 external=P9-->
+      <InnerPin position="A2" external="(2,0)" />
+      <!--position=P17 external=P17-->
+      <InnerPin position="A3" external="(3,0)" />
+      <!--position=P6 external=P6-->
+      <InnerPin position="A4" external="(4,0)" />
+      <!--position=P3 external=P3-->
+      <InnerPin position="A5" external="(5,0)" />
+      <!--position=P8 external=P8-->
+      <InnerPin position="A6" external="(10,1)" />
+      <!--position=XTALO_32K external=XTALO_32K-->
+      <InnerPin position="A7" external="(6,0)" />
+      <!--position=P13 external=P13-->
+      <InnerPin position="B1" external="(0,1)" />
+      <!--position=P11 external=P11-->
+      <InnerPin position="B2" external="(0,3)" />
+      <!--position=P14 external=P14-->
+      <InnerPin position="B3" external="(1,10)" />
+      <!--position=P5 external=P5-->
+      <InnerPin position="B4" external="(10,2)" />
+      <!--position=P2 external=P2-->
+      <InnerPin position="B5" external="(10,4)" />
+      <!--position=P15 external=P15-->
+      <InnerPin position="B6" external="(10,3)" />
+      <!--position=XTALI_32K external=XTALI_32K-->
+      <InnerPin position="B7" external="(7,0)" />
+      <!--position=P1 external=P1-->
+      <InnerPin position="C1" external="(0,2)" />
+      <!--position=P10 external=P10-->
+      <InnerPin position="C2" external="(0,4)" />
+      <!--position=P28 external=P28-->
+      <InnerPin position="C4" external="(10,6)" />
+      <!--position=P4 external=P4-->
+      <InnerPin position="C5" external="(10,5)" />
+      <!--position=UART_CTS_N external=BT_UART_CTS-->
+      <InnerPin position="C7" external="(9,10)" />
+      <!--position=P0 external=P0-->
+      <InnerPin position="D2" external="(0,7)" />
+      <!--position=P29 external=P29-->
+      <InnerPin position="D3" external="(2,10)" />
+      <!--position=P26 external=P26-->
+      <InnerPin position="D4" external="(3,10)" />
+      <!--position=UART_TXD external=BT_UART_TXD-->
+      <InnerPin position="D6" external="(7,10)" />
+      <!--position=UART_RXD external=BT_UART_RXD-->
+      <InnerPin position="D7" external="(8,10)" />
+      <!--position=HOST_WAKE external=BT_HOST_WAKE-->
+      <InnerPin position="D8" external="(10,8)" />
+      <!--position=P37 external=P37-->
+      <InnerPin position="E2" external="(0,8)" />
+      <!--position=UART_RTS_N external=BT_UART_RTS-->
+      <InnerPin position="E6" external="(6,10)" />
+      <!--position=DEV_WAKE external=BT_DEV_WAKE-->
+      <InnerPin position="E7" external="(10,9)" />
+      <!--position=P27 external=P27-->
+      <InnerPin position="F1" external="(0,5)" />
+      <!--position=P32 external=P32-->
+      <InnerPin position="F2" external="(0,9)" />
+      <!--position=RST_N external=RST-->
+      <InnerPin position="G1" external="(0,6)" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="Vela-IF820-EXT-ANT" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYW20820A1KFBG" />
+    <Param name="Package" value="44-LGA" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Laird" />
+    <Param name="DATASHEET" value="NA" />
+  </Parameters>
+</View>

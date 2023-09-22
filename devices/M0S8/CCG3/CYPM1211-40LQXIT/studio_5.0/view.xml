@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CYPM1211-40LQXIT" />
@@ -52,13 +52,13 @@
   <DeviceCapabilities>
     <DevCap name="cat2" />
     <DevCap name="flash_128k" />
-    <DevCap name="hal" />
     <DevCap name="i2c" />
     <DevCap name="low_power" />
     <DevCap name="mcu_gp" />
     <DevCap name="pmg1" />
     <DevCap name="spi" />
     <DevCap name="sram_8k" />
+    <DevCap name="std_crypto" />
     <DevCap name="uart" />
     <DevCap name="usb_device" />
     <DevCap name="usbpd" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CYPM1311-48LQXI" />
@@ -15,16 +15,16 @@
     <Param name="SAR12_Count" value="1" />
     <Param name="SAR12_REMOVED" value="NA" />
     <Param name="SAR12Sample_ksps" value="1000" />
-    <Param name="OpAmp_Count" value="2" />
-    <Param name="OpAmp_Removed" value="NA" />
+    <Param name="OpAmp_Count" value="1" />
+    <Param name="OpAmp_Removed" value="1" />
     <Param name="LPComp_Count" value="2" />
     <Param name="LPComp_REMOVED" value="NA" />
     <Param name="DAC8_Count" value="0" />
     <Param name="DAC8_removed" value="0;1" />
-    <Param name="SCB_Count" value="8" />
-    <Param name="SCB_Removed" value="NA" />
-    <Param name="TimerCounterPWM_Count" value="8" />
-    <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="SCB_Count" value="7" />
+    <Param name="SCB_Removed" value="7" />
+    <Param name="TimerCounterPWM_Count" value="7" />
+    <Param name="TimerCounterPWM_removed" value="7" />
     <Param name="USB_Type" value="FS" />
     <Param name="CapSense" value="Y" />
     <Param name="DirDriveLCD" value="N" />
@@ -39,7 +39,7 @@
     <Param name="SiliconID" value="0x350111C5" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="NA" />
+    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/universal-serial-bus/usb-c-high-voltage-microcontrollers/ez-pd-pmg1-s3-high-voltage-mcu-with-usb-c-pd/cypm1311-48ldxi/" />
     <Param name="EDITING_SUPPORT" value="Schematic" />
     <Param name="PROJECT_TEMPLATE" value="" />
     <Param name="WCO" value="N" />
@@ -55,6 +55,7 @@
     <DevCap name="cat2" />
     <DevCap name="comp" />
     <DevCap name="csd" />
+    <DevCap name="dma" />
     <DevCap name="flash_256k" />
     <DevCap name="hal" />
     <DevCap name="i2c" />
@@ -64,6 +65,7 @@
     <DevCap name="pmg1" />
     <DevCap name="spi" />
     <DevCap name="sram_32k" />
+    <DevCap name="std_crypto" />
     <DevCap name="uart" />
     <DevCap name="usb_device" />
     <DevCap name="usbpd" />

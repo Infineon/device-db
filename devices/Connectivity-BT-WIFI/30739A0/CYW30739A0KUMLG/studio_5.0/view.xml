@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CYW30739A0KUMLG" />
@@ -13,6 +13,7 @@
     <Param name="ROM_KB" value="2048" />
     <Param name="SRAM_KB" value="512" />
     <Param name="Bluetooth" value="5" />
+    <Param name="WiFi" value="NA" />
     <Param name="Vddmin_volts" value="1.76" />
     <Param name="Vddmax_volts" value="3.63" />
     <Param name="TempMin_Celsius" value="-30" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="100">
+  <Instances count="108">
     <Instance guid="00cdf0a0-98a3-4afc-9825-fb3481c93b70" name="ioss0_port3_p3_p53" component="swh">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -118,6 +118,23 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>ioss0_port1_p1_p50</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="0f645457-9b7f-46e2-a7ee-4f460d0cb17a" name="cy_all_shapetag_disconnect_21" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_21</Value>
       </Parameter>
     </Instance>
     <Instance guid="0f7af0fe-5671-4f11-85ac-7bf7e6971212" name="GPIO_P2_3" component="cy_all_pin">
@@ -307,6 +324,23 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>MUX_BKG_26</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1d1d3dbd-5baa-4922-9985-93e6487054db" name="cy_all_shapetag_disconnect_15" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_15</Value>
       </Parameter>
     </Instance>
     <Instance guid="2367581f-e121-403c-801f-cd9de3495677" name="ioss0_port2_p2_p53" component="swh">
@@ -768,6 +802,40 @@
         <Value>ioss0_port3_p3_p51</Value>
       </Parameter>
     </Instance>
+    <Instance guid="5a1bf8bc-25e0-41ac-b951-330f7bb089de" name="cy_all_shapetag_disconnect_20" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_20</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5b81eb1c-c512-4233-a3bf-ac7a6f36b121" name="cy_all_shapetag_disconnect_17" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_17</Value>
+      </Parameter>
+    </Instance>
     <Instance guid="5c9c9447-ea19-4ddb-9b95-18cbfba12862" name="ioss0_port2_p2_p42" component="swh">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -1154,6 +1222,23 @@
         <Value>ioss0_port0_p0_p44</Value>
       </Parameter>
     </Instance>
+    <Instance guid="8b88b5f6-7bf7-4dde-9a58-8258a27283fe" name="cy_all_shapetag_disconnect_18" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_18</Value>
+      </Parameter>
+    </Instance>
     <Instance guid="8ba3105b-151f-4485-8be8-46f99c868f04" name="cy_all_shapetag_disconnect_10" component="cy_all_shapetag_disconnect">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -1332,6 +1417,23 @@
       </Parameter>
       <Parameter name="PortNumber">
         <Value>3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ac3d1037-f8a0-494d-948f-332c97c141b5" name="cy_all_shapetag_disconnect_22" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_22</Value>
       </Parameter>
     </Instance>
     <Instance guid="ae736abe-78a4-48e2-9787-240f24df5e5e" name="ioss0_port4_p4_p53" component="swh">
@@ -1564,6 +1666,23 @@
         <Value>ioss0_port0_p0_p51</Value>
       </Parameter>
     </Instance>
+    <Instance guid="cbf03ff0-e81b-43f4-b113-45465167b8fb" name="cy_all_shapetag_disconnect_19" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_19</Value>
+      </Parameter>
+    </Instance>
     <Instance guid="d416b6a7-e93e-4c9c-9e7e-dfad00cafa4b" name="cy_all_shapetag_disconnect_13" component="cy_all_shapetag_disconnect">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -1664,6 +1783,23 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>ioss0_port2_p2_p50</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="de2384d4-7776-4d38-a87e-b4339c576fde" name="cy_all_shapetag_disconnect_16" component="cy_all_shapetag_disconnect">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_shapetag_disconnect_16</Value>
       </Parameter>
     </Instance>
     <Instance guid="df2d9e0d-4df9-494a-92b1-64894e6676e8" name="cy_all_shapetag_disconnect_7" component="cy_all_shapetag_disconnect">
@@ -1898,21 +2034,29 @@
     </Instance>
   </Instances>
   <Signals count="25">
-    <Signal name="amuxbus_a" type="Analog" terminalCount="6">
-      <Terminal name="cy_all_shapetag_disconnect_13.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_11.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_9.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_7.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_5.a" type="Instance Analog InOut" />
+    <Signal name="amuxbus_a" type="Analog" terminalCount="10">
+      <Terminal name="cy_all_shapetag_disconnect_21.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_19.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_17.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_15.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_3.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_5.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_7.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_9.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_11.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_13.a" type="Instance Analog InOut" />
     </Signal>
-    <Signal name="amuxbus_b" type="Analog" terminalCount="6">
-      <Terminal name="cy_all_shapetag_disconnect_14.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_12.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_10.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_8.a" type="Instance Analog InOut" />
-      <Terminal name="cy_all_shapetag_disconnect_6.a" type="Instance Analog InOut" />
+    <Signal name="amuxbus_b" type="Analog" terminalCount="10">
+      <Terminal name="cy_all_shapetag_disconnect_22.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_20.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_18.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_16.a" type="Instance Analog InOut" />
       <Terminal name="cy_all_shapetag_disconnect_4.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_6.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_8.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_10.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_12.a" type="Instance Analog InOut" />
+      <Terminal name="cy_all_shapetag_disconnect_14.a" type="Instance Analog InOut" />
     </Signal>
     <Signal name="msclp0_cmodmx0" type="" terminalCount="0" />
     <Signal name="msclp0_cmodmx1" type="" terminalCount="0" />

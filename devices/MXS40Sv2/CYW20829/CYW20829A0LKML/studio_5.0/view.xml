@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <Parameters>
     <Param name="PartNumber" value="CYW20829A0LKML" />
@@ -49,6 +49,7 @@
     <DevComp name="CAT1" />
     <DevComp name="CAT1B" />
     <DevComp name="CYW20829" />
+    <DevComp name="CYW20829A0" />
   </DeviceComponents>
   <DeviceCapabilities>
     <DevCap name="adc" />
