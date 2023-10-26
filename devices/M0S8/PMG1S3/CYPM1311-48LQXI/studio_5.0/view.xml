@@ -15,16 +15,16 @@
     <Param name="SAR12_Count" value="1" />
     <Param name="SAR12_REMOVED" value="NA" />
     <Param name="SAR12Sample_ksps" value="1000" />
-    <Param name="OpAmp_Count" value="1" />
-    <Param name="OpAmp_Removed" value="1" />
+    <Param name="OpAmp_Count" value="2" />
+    <Param name="OpAmp_Removed" value="NA" />
     <Param name="LPComp_Count" value="2" />
     <Param name="LPComp_REMOVED" value="NA" />
     <Param name="DAC8_Count" value="0" />
     <Param name="DAC8_removed" value="0;1" />
     <Param name="SCB_Count" value="7" />
     <Param name="SCB_Removed" value="7" />
-    <Param name="TimerCounterPWM_Count" value="7" />
-    <Param name="TimerCounterPWM_removed" value="7" />
+    <Param name="TimerCounterPWM_Count" value="8" />
+    <Param name="TimerCounterPWM_removed" value="NA" />
     <Param name="USB_Type" value="FS" />
     <Param name="CapSense" value="Y" />
     <Param name="DirDriveLCD" value="N" />

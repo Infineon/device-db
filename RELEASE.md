@@ -1,11 +1,8 @@
-# Device Database v4.7.0
+# Device Database v4.7.1
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Adds new PSoC 4100S Max part numbers.
-* Adds support for CYT2B7 and CYT2BL devices (PDL update coming soon for full enablement of these devices in ModusToolbox ecosystem).
-* Adds new Serial Flash memories.
-* Minor bug fixes and improvements.
+* Fix CYPM1311-48LQXI Opamp and TCPWM count.
 
 
 ## More information in:
