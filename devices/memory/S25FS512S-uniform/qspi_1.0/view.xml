@@ -1,7 +1,7 @@
 
 <CyMemoryConfiguration version="3" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
     <PartNumber>S25FS512S</PartNumber>
-    <Configuration>Uniform</Configuration>
+    <Configuration>Uniform - 256 KB erase sectors</Configuration>
     <Default>false</Default>
     <Description>64Mbytes 1.8V serial Flash memory</Description>
     <NumberOfAddress>0x04</NumberOfAddress>

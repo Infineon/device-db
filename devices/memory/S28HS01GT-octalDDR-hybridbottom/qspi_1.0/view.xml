@@ -5,6 +5,7 @@
     <Default>false</Default>
     <Description>1-Gb (128-MB) 1.8-V Semper Flash.
      
+    WARNING: This configuration is obsolete. Use "Octal DDR Hybrid at Bottom 66 MHz" instead.
     WARNING: Memory device must be pre-configured before using this configuration.
     Address Byte Length must be set to 4 byte instruction
     </Description>
@@ -24,8 +25,8 @@
     <LatencyCyclesRegisterAddress>0x00</LatencyCyclesRegisterAddress>
     <DataLearningPatternSize>0x00</DataLearningPatternSize>
     <DataLearningPattern>0x00</DataLearningPattern>
-    <OctalDdrEnableSeq1>0x71, 0x00, 0x80, 0x00, 0x06, 0x43</OctalDdrEnableSeq1>
-    <OctalDdrEnableSeq2></OctalDdrEnableSeq2>
+    <OctalDdrEnableSeq1>0x06</OctalDdrEnableSeq1>
+    <OctalDdrEnableSeq2>0x71, 0x80, 0x00, 0x06, 0x43</OctalDdrEnableSeq2>
     <HybridInfo>
         <Region>
             <RegionIndex>0</RegionIndex>

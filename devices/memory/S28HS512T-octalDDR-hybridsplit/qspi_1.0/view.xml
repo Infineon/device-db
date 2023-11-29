@@ -24,8 +24,8 @@
     <LatencyCyclesRegisterAddress>0x00</LatencyCyclesRegisterAddress>
     <DataLearningPatternSize>0x00</DataLearningPatternSize>
     <DataLearningPattern>0x00</DataLearningPattern>
-    <OctalDdrEnableSeq1>0x71, 0x00, 0x80, 0x00, 0x06, 0x43</OctalDdrEnableSeq1>
-    <OctalDdrEnableSeq2></OctalDdrEnableSeq2>
+    <OctalDdrEnableSeq1>0x06</OctalDdrEnableSeq1>
+    <OctalDdrEnableSeq2>0x71, 0x80, 0x00, 0x06, 0x43</OctalDdrEnableSeq2>
     <HybridInfo>
         <Region>
             <RegionIndex>0</RegionIndex>

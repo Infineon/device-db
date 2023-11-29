@@ -14,6 +14,7 @@
       * [20829](#20829)
       * [20835](#20835)
       * [30739](#30739)
+      * [89829](#89829)
     * [AIROC™ Connectivity](#airoc-connectivity)
       * [43012](#43012)
       * [43022](#43022)
@@ -120,10 +121,8 @@
 ### 20829
 * CYW20829A0LKML
 * CYW20829A0KML
-* CYW89829A0KML
 * CYW20829B0LKML
 * CYW20829B0KML
-* CYW89829B0KML
 
 ### 20835
 * [CYW20835PB1KML1G](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20835/)
@@ -131,6 +130,11 @@
 ### 30739
 * CYW30739A0KUMLG
 * CYW30739A0KWB9G
+
+### 89829
+* CYW89829A0KML
+* CYW89829B0KML
+* CYW89829B01MKSBG
 
 ## AIROC™ Connectivity
 

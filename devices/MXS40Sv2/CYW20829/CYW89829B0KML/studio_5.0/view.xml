@@ -7,7 +7,7 @@
     <Param name="Silicon_Revision" value="0x21" />
     <Param name="Package" value="40-QFN" />
     <Param name="CPU" value="ARM CM33" />
-    <Param name="DeviceSeries" value="20829" />
+    <Param name="DeviceSeries" value="89829" />
     <Param name="Speed_MHz" value="96" />
     <Param name="Flash_KB" value="0" />
     <Param name="ROM_KB" value="64" />
@@ -48,8 +48,8 @@
     <DevComp name="BTSS-IPC" />
     <DevComp name="CAT1" />
     <DevComp name="CAT1B" />
-    <DevComp name="CYW20829" />
-    <DevComp name="CYW20829B0" />
+    <DevComp name="CYW89829" />
+    <DevComp name="CYW89829B0" />
   </DeviceComponents>
   <DeviceCapabilities>
     <DevCap name="adc" />
@@ -57,7 +57,7 @@
     <DevCap name="can" />
     <DevCap name="cat1" />
     <DevCap name="cat1b" />
-    <DevCap name="cyw20829" />
+    <DevCap name="cyw89829" />
     <DevCap name="dma" />
     <DevCap name="flash_0k" />
     <DevCap name="hal" />

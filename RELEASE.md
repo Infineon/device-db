@@ -1,8 +1,12 @@
-# Device Database v4.7.1
+# Device Database v4.9.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Fix CYPM1311-48LQXI Opamp and TCPWM count.
+* Add CYW89829B0 device support.
+* Add memory-analyzer support for compatible BSPs.
+* Add new serial memories for QSPI Configurator
+* Fix enable sequences for the supported Octal DDR memories.
+* Improve custom BSPs targeting CYW55513 device.
 
 
 ## More information in:

@@ -242,14 +242,14 @@
         "path": "devices/Connectivity-BT-WIFI/4390x/CYW54907KWBG"
       },
       {
-        "name": "55500A0",
+        "name": "55500A1",
         "part": false,
-        "path": "devices/Connectivity-BT-WIFI/55500A0"
+        "path": "devices/Connectivity-BT-WIFI/55500A1"
       },
       {
         "name": "CYW55513IUBG",
         "part": true,
-        "path": "devices/Connectivity-BT-WIFI/55500A0/CYW55513IUBG"
+        "path": "devices/Connectivity-BT-WIFI/55500A1/CYW55513IUBG"
       },
       {
         "name": "55572A1",
@@ -4457,9 +4457,39 @@
         "path": "devices/memory/S28HS01GT-octalDDR"
       },
       {
+        "name": "S28HS01GT-octalDDR-200MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-200MHz"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-25MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-25MHz"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-66MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-66MHz"
+      },
+      {
         "name": "S28HS01GT-octalDDR-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridbottom"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-hybridbottom-200MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-hybridbottom-200MHz"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-hybridbottom-25MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-hybridbottom-25MHz"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-hybridbottom-66MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-hybridbottom-66MHz"
       },
       {
         "name": "S28HS01GT-octalDDR-hybridsplit",
@@ -4467,9 +4497,39 @@
         "path": "devices/memory/S28HS01GT-octalDDR-hybridsplit"
       },
       {
+        "name": "S28HS01GT-octalDDR-hybridsplit-200MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-hybridsplit-200MHz"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-hybridsplit-25MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-hybridsplit-25MHz"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-hybridsplit-66MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-hybridsplit-66MHz"
+      },
+      {
         "name": "S28HS01GT-octalDDR-hybridtop",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridtop"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-hybridtop-200MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-hybridtop-200MHz"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-hybridtop-25MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-hybridtop-25MHz"
+      },
+      {
+        "name": "S28HS01GT-octalDDR-hybridtop-66MHz",
+        "part": true,
+        "path": "devices/memory/S28HS01GT-octalDDR-hybridtop-66MHz"
       },
       {
         "name": "S28HS01GT-octalSDR",
@@ -4590,6 +4650,31 @@
         "name": "S70KS1282-200MHz",
         "part": true,
         "path": "devices/memory/S70KS1282-200MHz"
+      },
+      {
+        "name": "S70KS1283-104MHz",
+        "part": true,
+        "path": "devices/memory/S70KS1283-104MHz"
+      },
+      {
+        "name": "S70KS1283-133MHz",
+        "part": true,
+        "path": "devices/memory/S70KS1283-133MHz"
+      },
+      {
+        "name": "S70KS1283-166MHz",
+        "part": true,
+        "path": "devices/memory/S70KS1283-166MHz"
+      },
+      {
+        "name": "S70KS1283-200MHz",
+        "part": true,
+        "path": "devices/memory/S70KS1283-200MHz"
+      },
+      {
+        "name": "S70KS1283-85MHz",
+        "part": true,
+        "path": "devices/memory/S70KS1283-85MHz"
       },
       {
         "name": "W25Q128BV",
@@ -6025,6 +6110,11 @@
         "name": "CYW89829A0KML",
         "part": true,
         "path": "devices/MXS40Sv2/CYW20829/CYW89829A0KML"
+      },
+      {
+        "name": "CYW89829B01MKSBG",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW89829B01MKSBG"
       },
       {
         "name": "CYW89829B0KML",

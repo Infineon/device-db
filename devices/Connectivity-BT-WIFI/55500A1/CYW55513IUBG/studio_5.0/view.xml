@@ -3,7 +3,7 @@
   <Parameters>
     <Param name="PartNumber" value="CYW55513IUBG" />
     <Param name="PartAvailability" value="Active" />
-    <Param name="DeviceDie" value="55500A0" />
+    <Param name="DeviceDie" value="55500A1" />
     <Param name="Silicon_Revision" value="SAMPLING" />
     <Param name="Package" value="143-WLBGA" />
     <Param name="CPU" value="ARM CM33" />
@@ -25,8 +25,12 @@
     <Param name="DATASHEET" value="NA" />
   </Parameters>
   <DeviceComponents>
-    <DevComp name="CAT5" types="mcu" />
+    <DevComp name="55500" />
+    <DevComp name="55500A1" types="mcu" />
   </DeviceComponents>
+  <DeviceDefines>
+    <DevDef name="BLHS_SUPPORT" types="companion-connectivity" />
+  </DeviceDefines>
   <DeviceCapabilities>
     <DevCap name="bt" />
     <DevCap name="cat5" types="mcu" />
