@@ -879,6 +879,8 @@
 * [CY8C6136FTI-F42](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6136fti-f42t/)
 * CY8C6137WI-F54
 * CY8C6117WI-F34
+* [CY8C6147BTI-F54](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6147bti-f54/)
+* [CY8C6146BTI-F54](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6146bti-f54/)
 * [CY8C614ABZI-S2F04](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c614abzi-s2f04/)
 * [CY8C614AAZI-S2F04](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c614aazi-s2f04/)
 * [CY8C614AFNI-S2F03](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c614afni-s2f03t/)
@@ -937,6 +939,8 @@
 * CY8C6247BZI-AUD54
 * CY8C6247BFI-D54
 * CY8C6247WI-D54
+* [CY8C6247BTI-D54](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6247bti-d54/)
+* [CY8C6246BTI-D54](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6246bti-d54/)
 * CY8C624ABZI-S2D44A0
 * [CY8C624ABZI-S2D44](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c624abzi-s2d44/)
 * [CY8C624AAZI-S2D44](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c624aazi-s2d44/)

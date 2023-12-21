@@ -1,12 +1,9 @@
-# Device Database v4.9.0
+# Device Database v4.10.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Add CYW89829B0 device support.
-* Add memory-analyzer support for compatible BSPs.
-* Add new serial memories for QSPI Configurator
-* Fix enable sequences for the supported Octal DDR memories.
-* Improve custom BSPs targeting CYW55513 device.
+* Add new CY8C6xxxBTI part numbers.
+* Minor bug fixes.
 
 
 ## More information in:

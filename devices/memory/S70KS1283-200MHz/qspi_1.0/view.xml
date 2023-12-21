@@ -25,7 +25,7 @@
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
             <ModeRate>CY_SMIF_SDR</ModeRate>
-            <DummyCycles>14</DummyCycles>
+            <DummyCycles>15</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_OCTAL</DataWidth>
             <DataRate>CY_SMIF_DDR</DataRate>
         </Command>
@@ -70,7 +70,7 @@
             <Mode>0xFFFFFFFF</Mode>
             <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
             <ModeRate>CY_SMIF_SDR</ModeRate>
-            <DummyCycles>14</DummyCycles>
+            <DummyCycles>15</DummyCycles>
             <DataWidth>CY_SMIF_WIDTH_OCTAL</DataWidth>
             <DataRate>CY_SMIF_DDR</DataRate>
         </Command>

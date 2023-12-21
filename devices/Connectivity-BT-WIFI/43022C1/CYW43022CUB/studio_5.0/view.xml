@@ -27,6 +27,10 @@
   <DeviceComponents>
     <DevComp name="43022" />
   </DeviceComponents>
+  <DeviceDefines>
+    <DevDef name="BLHS_SUPPORT" types="companion-connectivity" />
+    <DevDef name="DM_43022C1" types="companion-connectivity" />
+  </DeviceDefines>
   <DeviceCapabilities>
     <DevCap name="bt" />
     <DevCap name="btsdk" types="mcu" />

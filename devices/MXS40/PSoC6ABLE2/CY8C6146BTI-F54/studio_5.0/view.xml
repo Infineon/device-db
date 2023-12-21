@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CY8C6146BTI-F54" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="PSoC6ABLE2" />
+    <Param name="Silicon_Revision" value="PRODUCTION" />
+    <Param name="Package" value="124-BGA" />
+    <Param name="DeviceSeries" value="PSoC 61" />
+    <Param name="Cores_REMOVED" value="CortexM0p" />
+    <Param name="Speed_MHz" value="150" />
+    <Param name="Flash_KB" value="512" />
+    <Param name="SRAM_KB" value="128" />
+    <Param name="Bluetooth" value="NA" />
+    <Param name="AltHF" value="N" />
+    <Param name="UDB_Count" value="12" />
+    <Param name="Preconfigured_Blocks" value="NA" />
+    <Param name="SAR12_Count" value="1" />
+    <Param name="SAR12_REMOVED" value="NA" />
+    <Param name="SAR12Sample_ksps" value="1000" />
+    <Param name="OpAmp_Count" value="2" />
+    <Param name="OpAmp_Removed" value="NA" />
+    <Param name="LPComp_Count" value="2" />
+    <Param name="LPComp_REMOVED" value="NA" />
+    <Param name="DAC8_Count" value="2" />
+    <Param name="DAC8_removed" value="NA" />
+    <Param name="DAC12_Count" value="1" />
+    <Param name="DAC12_removed" value="NA" />
+    <Param name="SampleHold_COUNT" value="1" />
+    <Param name="SampleHold_REMOVED" value="NA" />
+    <Param name="SCB_Count" value="9" />
+    <Param name="SCB_removed" value="NA" />
+    <Param name="TimerCounterPWM_Count" value="32" />
+    <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="USB_Type" value="FS" />
+    <Param name="CapSense" value="Y" />
+    <Param name="TMG" value="Y" />
+    <Param name="CapSenseADC" value="Y" />
+    <Param name="SMIF" value="Y" />
+    <Param name="Crypto" value="Y" />
+    <Param name="Security" value="NA" />
+    <Param name="I2S_Count" value="1" />
+    <Param name="I2S_removed" value="NA" />
+    <Param name="PDM_Count" value="1" />
+    <Param name="PDM_removed" value="NA" />
+    <Param name="DirDriveLCD" value="Y" />
+    <Param name="DMAchannels_count" value="32" />
+    <Param name="IO_Count" value="102" />
+    <Param name="Power_Modes" value="ANY" />
+    <Param name="Vddmin_volts" value="1.7" />
+    <Param name="Vddmax_volts" value="3.6" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="85" />
+    <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
+    <Param name="SiliconID" value="0xE2732100" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6146bti-f54/" />
+    <Param name="EDITING_SUPPORT" value="Schematic" />
+    <Param name="PROJECT_TEMPLATE" value="P6_F54.zip" />
+    <Param name="ECO" value="Y" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT1" />
+    <DevComp name="CAT1A" />
+    <DevComp name="PSOC6_01" />
+  </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="capsense" />
+    <DevCap name="cat1" />
+    <DevCap name="cat1a" />
+    <DevCap name="comp" />
+    <DevCap name="csd" />
+    <DevCap name="dac" />
+    <DevCap name="dma" />
+    <DevCap name="flash_512k" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="i2s" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="opamp" />
+    <DevCap name="pdm" />
+    <DevCap name="psoc6" />
+    <DevCap name="qspi" />
+    <DevCap name="rtc" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_128k" />
+    <DevCap name="std_crypto" />
+    <DevCap name="uart" />
+    <DevCap name="udb" />
+    <DevCap name="usb_device" />
+    <DevCap name="usb_host" />
+  </DeviceCapabilities>
+  <DeviceCategory>CAT1A</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
+  <provides>
+    <provide key="bt-uart" />
+    <provide key="wifi-spi" />
+  </provides>
+  <ToolIDs>
+    <ToolID name="capsense-configurator" />
+    <ToolID name="capsense-tuner" />
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="library-manager" />
+    <ToolID name="lin-configurator" />
+    <ToolID name="ml-configurator" />
+    <ToolID name="project-creator" />
+    <ToolID name="qspi-configurator" />
+    <ToolID name="seglcd-configurator" />
+    <ToolID name="smartio-configurator" />
+    <ToolID name="usbdev-configurator" />
+  </ToolIDs>
+</View>
