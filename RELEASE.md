@@ -1,8 +1,8 @@
-# Device Database v4.10.0
+# Device Database v4.11.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Add new CY8C6xxxBTI part numbers.
+* New device support.
 * Minor bug fixes.
 
 
@@ -13,4 +13,4 @@ For details, refer to [README.md](./README.md).
 * [Infineon](https://www.infineon.com)
 
 ---
-© 2022-2023, Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation.
+© 2022-2024, Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation.

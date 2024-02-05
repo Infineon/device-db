@@ -12,6 +12,7 @@
     <PadFunctionType name="AUX" connectionsPerPin="1" port="aux" definePostfix="AUX" />
     <PadFunctionType name="HV" connectionsPerPin="1" port="aux" definePostfix="HV" />
     <PadFunctionType name="SMARTIO" connectionsPerPin="1" port="smartio" definePostfix="SMARTIO" />
+    <PadFunctionType name="HVIO" connectionsPerPin="1" port="aux" definePostfix="HVIO" />
   </PadFunctionTypes>
   <PadTypes>
     <PadType value="PWR" category="POWER" />
@@ -22,5 +23,7 @@
     <PadType value="OVTIO" category="GPIO" />
     <PadType value="SIO" category="GPIO" />
     <PadType value="AUX" category="GPIO" />
+    <PadType value="HVIO" category="DEDICATED" />
+    <PadType value="ANALOG" category="DEDICATED" />
   </PadTypes>
 </View>
