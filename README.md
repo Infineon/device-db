@@ -1,10 +1,16 @@
 # Device Database (device-db)
 
 ### Overview
-The device database supported in ModusToolbox™ applies to all Infineon Technologies devices.
+Device database provides device information for project-creator, configurators,
+and other ModusToolbox™ tools. The device database is tied to the PDL
+(Peripheral Driver Library) packages available for different device categories.
 
-The database consists of a set of marketing devices distributed in a set of hierarchical directories.
-Each marketing device contains a base view that describes the basic characteristics of the device and additional views as defined by applications that use the device-db asset.
+The database is structured as hierarchical directory tree with device related
+information defined at different hierarchy levels.
+This information is consumed by ModusToolbox™ tools:
+* Device Configurator and other BSP configurators - to display and configure peripheral resources.
+* BSP Assistant - to create and configure the BSP for a given device/module part number.
+* QSPI Configurator - to create and configure QSPI configuration for external memory chips.
 
 This database is used by the ModusToolbox™ software. Do not use this repository directly.
 

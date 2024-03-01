@@ -1,9 +1,14 @@
-# Device Database v4.11.0
+# Device Database v4.11.1
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* New device support.
-* Minor bug fixes.
+* ModusToolbox™ tools performance improvements.
+* Documentation improvements.
+
+## Recommended device support libraries
+* mtb-pdl-cat1 >= 3.9.0
+* mtb-pdl-cat2 >= 2.8.0
+* mtb-xmclib-cat3 >= 4.3.0
 
 
 ## More information in:
