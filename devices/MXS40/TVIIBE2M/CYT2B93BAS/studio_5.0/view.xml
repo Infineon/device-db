@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CYT2B93BAS" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="TVIIBE2M" />
+    <Param name="Silicon_Revision" value="0x13" />
+    <Param name="Package" value="64-LQFP" />
+    <Param name="DeviceSeries" value="CYT2B9" />
+    <Param name="Cores_REMOVED" value="NA" />
+    <Param name="Speed_MHz" value="160" />
+    <Param name="Flash_KB" value="2112" />
+    <Param name="WFlash_KB" value="128" />
+    <Param name="SRAM_KB" value="256" />
+    <Param name="Bluetooth" value="NA" />
+    <Param name="AltHF" value="N" />
+    <Param name="UDB_Count" value="0" />
+    <Param name="Preconfigured_Blocks" value="NA" />
+    <Param name="SAR12_Count" value="3" />
+    <Param name="SAR12_REMOVED" value="NA" />
+    <Param name="SAR12Sample_ksps" value="1000" />
+    <Param name="OpAmp_Count" value="0" />
+    <Param name="OpAmp_Removed" value="NA" />
+    <Param name="LPComp_Count" value="0" />
+    <Param name="LPComp_REMOVED" value="NA" />
+    <Param name="DAC8_Count" value="0" />
+    <Param name="DAC8_removed" value="NA" />
+    <Param name="DAC12_Count" value="0" />
+    <Param name="DAC12_removed" value="NA" />
+    <Param name="SampleHold_COUNT" value="0" />
+    <Param name="SampleHold_REMOVED" value="NA" />
+    <Param name="SDHC_COUNT" value="0" />
+    <Param name="SDHC_REMOVED" value="NA" />
+    <Param name="SCB_Count" value="7" />
+    <Param name="SCB_removed" value="6" />
+    <Param name="CAN_FD" value="Y" />
+    <Param name="CANFD_CH_Count" value="5" />
+    <Param name="CANFD_CH_Removed" value="3;5;7" />
+    <Param name="TimerCounterPWM_Count" value="83" />
+    <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="USB_Type" value="NA" />
+    <Param name="CapSense" value="N" />
+    <Param name="TMG" value="N" />
+    <Param name="CapSenseADC" value="N" />
+    <Param name="LIN_Count" value="1" />
+    <Param name="LIN_Removed" value="NA" />
+    <Param name="LIN_CH_Count" value="7" />
+    <Param name="LIN_CH_Removed" value="5;6;8;10;11" />
+    <Param name="CXPI_Count" value="2" />
+    <Param name="CXPI_Removed" value="2;3" />
+    <Param name="ETH_Count" value="0" />
+    <Param name="ETH_Removed" value="NA" />
+    <Param name="FLEXRAY" value="N" />
+    <Param name="SMIF" value="N" />
+    <Param name="Crypto" value="Y" />
+    <Param name="Security" value="eSHE" />
+    <Param name="I2S_Count" value="0" />
+    <Param name="I2S_removed" value="NA" />
+    <Param name="PDM_Count" value="0" />
+    <Param name="PDM_removed" value="NA" />
+    <Param name="DirDriveLCD" value="N" />
+    <Param name="DMAchannels_count" value="136" />
+    <Param name="DMAchannels_Removed" value="NA" />
+    <Param name="DMACchannels_count" value="4" />
+    <Param name="DMACchannels_Removed" value="NA" />
+    <Param name="IO_Count" value="49" />
+    <Param name="Power_Modes" value="ANY" />
+    <Param name="Vddmin_volts" value="2.7" />
+    <Param name="Vddmax_volts" value="5.5" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="105" />
+    <Param name="Automotive_qualified" value="Yes" />
+    <Param name="SiliconID" value="0xE6C91304" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b93bacq0azsgs/" />
+    <Param name="EDITING_SUPPORT" value="NA" />
+    <Param name="PROJECT_TEMPLATE" value="NA" />
+    <Param name="ECO" value="Y" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT1" />
+    <DevComp name="CAT1A" />
+    <DevComp name="TVIIBE2M" />
+  </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="can" />
+    <DevCap name="cat1" />
+    <DevCap name="cat1a" />
+    <DevCap name="dma" />
+    <DevCap name="flash_2112k" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="lin" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="multi_core" />
+    <DevCap name="rtc" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_256k" />
+    <DevCap name="std_crypto" />
+    <DevCap name="t2gbe" />
+    <DevCap name="uart" />
+  </DeviceCapabilities>
+  <DeviceCategory>CAT1A</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
+  <provides>
+    <provide key="bt-uart" />
+    <provide key="wifi-spi" />
+  </provides>
+  <ToolIDs>
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="library-manager" />
+    <ToolID name="project-creator" />
+    <ToolID name="smartio-configurator" />
+  </ToolIDs>
+</View>

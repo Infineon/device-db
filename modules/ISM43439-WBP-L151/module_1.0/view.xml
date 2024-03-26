@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="ISM43439-WBP-L151" package="151-LGA" layout="COORDINATE_SQ" x="0" y="0">
+    <ExternalPin position="(-0.35,0.35)" name="GND" displayPosition="18" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.35,9.65)" name="GND" displayPosition="36" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,1)" name="CLK_REQ" displayPosition="19" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,1.5)" name="P11_1_N" displayPosition="20" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,2)" name="MICRO_SPI2_MISO_P9_1" displayPosition="21" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,2.5)" name="MICRO_SPI2_MOSI_P9_0" displayPosition="22" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,3)" name="GND" displayPosition="23" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,3.5)" name="VDDD" displayPosition="24" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,4)" name="GND" displayPosition="25" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,4.5)" name="EXT_LPO_IN" displayPosition="26" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,5)" name="GND" displayPosition="27" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,5.5)" name="VDD3V3_WiFi_IO" displayPosition="28" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,6)" name="GND" displayPosition="29" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,6.5)" name="USART1_TX_P8_1" displayPosition="30" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,7)" name="USART1_RX_P8_0" displayPosition="31" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,7.5)" name="USBDM" displayPosition="32" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,8)" name="USBDP" displayPosition="33" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,8.5)" name="GND" displayPosition="34" moduleConnection="MODULE" />
+    <ExternalPin position="(-0.385,9)" name="TMS_SWDIO_P6_6" displayPosition="35" moduleConnection="MODULE" />
+    <ExternalPin position="(-1,0.385)" name="WRF_XTAL_XON" displayPosition="17" moduleConnection="MODULE" />
+    <ExternalPin position="(-1,9.615)" name="TCLK_SWCLK_P6_7" displayPosition="37" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.5,0.385)" name="WRF_XTAL_XOP" displayPosition="16" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.5,9.615)" name="TDI_P6_5" displayPosition="38" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,2.25)" name="MICRO_SPI2_SCK_P9_2" displayPosition="85" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,2.75)" name="I2S_RX_SCK_P13_4" displayPosition="86" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,3.25)" name="I2S_RX_WS_P13_5" displayPosition="87" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,3.75)" name="NC15" displayPosition="88" />
+    <ExternalPin position="(-1.285,4.25)" name="WiFi_GPIO_1" displayPosition="89" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,4.75)" name="VDD_USB" displayPosition="90" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,5.25)" name="GND" displayPosition="91" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,5.75)" name="USART6_TX_P5_5" displayPosition="92" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,6.25)" name="USART6_RX_P5_4" displayPosition="93" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,6.75)" name="GND" displayPosition="94" moduleConnection="MODULE" />
+    <ExternalPin position="(-1.285,7.25)" name="NC9" displayPosition="95" />
+    <ExternalPin position="(-1.285,7.75)" name="NC8" displayPosition="96" />
+    <ExternalPin position="(-2,0.385)" name="GND" displayPosition="15" moduleConnection="MODULE" />
+    <ExternalPin position="(-2,9.615)" name="GND" displayPosition="39" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.5,0.385)" name="SPI4_MOSI_P10_0" displayPosition="14" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.5,9.615)" name="NC10" displayPosition="40" />
+    <ExternalPin position="(-2.25,1.285)" name="MICRO_SPI2_NSS_P9_3" displayPosition="84" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.25,8.715)" name="NC7" displayPosition="97" />
+    <ExternalPin position="(-2.75,1.285)" name="I2C2_SCL_P12_0" displayPosition="83" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.75,8.715)" name="NC6" displayPosition="98" />
+    <ExternalPin position="(-2.185,3.5)" name="P10_7_N" displayPosition="129" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.185,4)" name="P11_0_N" displayPosition="130" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.185,4.5)" name="WL_HOST_WAKE" displayPosition="131" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.185,5)" name="GND" displayPosition="132" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.185,5.5)" name="QSPI_CS_P11_2" displayPosition="133" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.185,6)" name="GND" displayPosition="134" moduleConnection="MODULE" />
+    <ExternalPin position="(-2.185,6.5)" name="GND" displayPosition="135" moduleConnection="MODULE" />
+    <ExternalPin position="(-3,0.385)" name="SPI4_MISO_P10_1" displayPosition="13" moduleConnection="MODULE" />
+    <ExternalPin position="(-3,9.615)" name="GND" displayPosition="41" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.5,0.385)" name="SPI4_SCK_P10_2" displayPosition="12" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.5,9.615)" name="VDD3V3_WiFi" displayPosition="42" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.25,1.285)" name="I2C2_SDA_P12_1" displayPosition="82" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.25,2.185)" name="P0_5" displayPosition="128" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.25,7.815)" name="BT_REG_ON" displayPosition="136" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.25,8.715)" name="GND" displayPosition="99" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.75,1.285)" name="I2S_MCLK_P13_0" displayPosition="81" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.75,2.185)" name="P9_7_N" displayPosition="127" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.75,7.815)" name="P1_4" displayPosition="137" moduleConnection="MODULE" />
+    <ExternalPin position="(-3.75,8.715)" name="NC5" displayPosition="100" />
+    <ExternalPin position="(-4,0.385)" name="SPI4_NSS_P10_3" displayPosition="11" moduleConnection="MODULE" />
+    <ExternalPin position="(-4,9.615)" name="VDD3V3_WiFi" displayPosition="43" moduleConnection="MODULE" />
+    <ExternalPin position="(-4.5,0.385)" name="GND" displayPosition="10" moduleConnection="MODULE" />
+    <ExternalPin position="(-4.5,9.615)" name="GND" displayPosition="44" moduleConnection="MODULE" />
+    <ExternalPin position="(-4.25,1.285)" name="P5_6" displayPosition="80" moduleConnection="MODULE" />
+    <ExternalPin position="(-4.25,2.185)" name="WiFi_GPIO_2" displayPosition="126" moduleConnection="MODULE" />
+    <ExternalPin position="(-4.25,7.815)" name="BT_UART_RTS_L" displayPosition="138" moduleConnection="MODULE" />
+    <ExternalPin position="(-4.25,8.715)" name="GND" displayPosition="101" moduleConnection="MODULE" />
+    <ExternalPin position="(-4.75,1.285)" name="NC2" displayPosition="79" />
+    <ExternalPin position="(-4.75,2.185)" name="P0_3" displayPosition="125" moduleConnection="MODULE" />
+    <ExternalPin position="(-4.75,7.815)" name="BT_UART_CTS_L" displayPosition="139" moduleConnection="MODULE" />
+    <ExternalPin position="(-4.75,8.715)" name="I2C1_SCL_P1_0" displayPosition="102" moduleConnection="MODULE" />
+    <ExternalPin position="(-5,0.385)" name="QSPI_CLK_P11_7" displayPosition="9" moduleConnection="MODULE" />
+    <ExternalPin position="(-5,5)" name="GND" displayPosition="151" moduleConnection="MODULE" />
+    <ExternalPin position="(-5,9.615)" name="TDO_SWO_P6_4" displayPosition="45" moduleConnection="MODULE" />
+    <ExternalPin position="(-5.5,0.385)" name="MICRO_SPI_MOSI_P5_0" displayPosition="8" moduleConnection="MODULE" />
+    <ExternalPin position="(-5.5,9.615)" name="NC1" displayPosition="46" />
+    <ExternalPin position="(-5.25,1.285)" name="I2S_TX_SCK_P13_1" displayPosition="78" moduleConnection="MODULE" />
+    <ExternalPin position="(-5.25,2.185)" name="P0_2" displayPosition="124" moduleConnection="MODULE" />
+    <ExternalPin position="(-5.25,7.815)" name="BT_UART_TXD" displayPosition="140" moduleConnection="MODULE" />
+    <ExternalPin position="(-5.25,8.715)" name="I2C1_SDA_P1_1" displayPosition="103" moduleConnection="MODULE" />
+    <ExternalPin position="(-5.75,1.285)" name="GND" displayPosition="77" moduleConnection="MODULE" />
+    <ExternalPin position="(-5.75,2.185)" name="GND" displayPosition="123" moduleConnection="MODULE" />
+    <ExternalPin position="(-5.75,7.815)" name="BT_UART_RXD" displayPosition="141" moduleConnection="MODULE" />
+    <ExternalPin position="(-5.75,8.715)" name="NC3" displayPosition="104" />
+    <ExternalPin position="(-6,0.385)" name="GND" displayPosition="7" moduleConnection="MODULE" />
+    <ExternalPin position="(-6,9.615)" name="GND" displayPosition="47" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.5,0.385)" name="VDDA" displayPosition="6" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.5,9.615)" name="VDD_NS" displayPosition="48" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.25,1.285)" name="MICRO_SPI_MISO_P5_1" displayPosition="76" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.25,2.185)" name="MICRO_ADC3_P10_6" displayPosition="122" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.25,7.815)" name="P1_5" displayPosition="142" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.25,8.715)" name="P8_2_N" displayPosition="105" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.75,1.285)" name="MICRO_SPI_SCK_P5_2" displayPosition="75" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.75,2.185)" name="MICRO_ADC2_P10_5" displayPosition="121" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.75,7.815)" name="I2S_TX_WS_P13_2" displayPosition="143" moduleConnection="MODULE" />
+    <ExternalPin position="(-6.75,8.715)" name="I2S_RX_SDO_P13_6" displayPosition="106" moduleConnection="MODULE" />
+    <ExternalPin position="(-7,0.385)" name="GND" displayPosition="5" moduleConnection="MODULE" />
+    <ExternalPin position="(-7,9.615)" name="GND" displayPosition="49" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.5,0.385)" name="VDD3V3_PA" displayPosition="4" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.5,9.615)" name="QSPI_DATA3_P11_3" displayPosition="50" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.25,1.285)" name="MICRO_SPI_NSS_P5_3" displayPosition="74" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.25,8.715)" name="P5_7" displayPosition="107" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.75,1.285)" name="GND" displayPosition="73" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.75,8.715)" name="P7_3" displayPosition="108" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.815,3.5)" name="MICRO_ADC1_P10_4" displayPosition="150" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.815,4)" name="GND" displayPosition="149" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.815,4.5)" name="GND" displayPosition="148" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.815,5)" name="P8_4" displayPosition="147" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.815,5.5)" name="BT_PCM_IN" displayPosition="146" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.815,6)" name="BT_PCM_OUT" displayPosition="145" moduleConnection="MODULE" />
+    <ExternalPin position="(-7.815,6.5)" name="BT_PCM_SYNC" displayPosition="144" moduleConnection="MODULE" />
+    <ExternalPin position="(-8,0.385)" name="VDD3V3_PA" displayPosition="3" moduleConnection="MODULE" />
+    <ExternalPin position="(-8,9.615)" name="GND" displayPosition="51" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.5,0.385)" name="GND" displayPosition="2" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.5,9.615)" name="NC12" displayPosition="52" />
+    <ExternalPin position="(-8.715,2.25)" name="GND" displayPosition="120" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,2.75)" name="NC4" displayPosition="119" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,3.25)" name="QSPI_DATA0_P11_6" displayPosition="118" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,3.75)" name="MICRO_RST_N" displayPosition="117" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,4.25)" name="GND" displayPosition="116" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,4.75)" name="GND" displayPosition="115" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,5.25)" name="GND" displayPosition="114" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,5.75)" name="GND" displayPosition="113" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,6.25)" name="GND" displayPosition="112" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,6.75)" name="P7_7" displayPosition="111" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,7.25)" name="P9_4_N" displayPosition="110" moduleConnection="MODULE" />
+    <ExternalPin position="(-8.715,7.75)" name="P8_3_N" displayPosition="109" moduleConnection="MODULE" />
+    <ExternalPin position="(-9,0.385)" name="ANT" displayPosition="1" moduleConnection="MODULE" />
+    <ExternalPin position="(-9,9.615)" name="NC11" displayPosition="53" />
+    <ExternalPin position="(-9.65,0.35)" name="GND" displayPosition="72" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.65,9.65)" name="GND" displayPosition="54" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,1)" name="GND" displayPosition="71" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,1.5)" name="GND" displayPosition="70" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,2)" name="I2S_TX_SDO_P13_3" displayPosition="69" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,2.5)" name="QSPI_DATA2_P11_4" displayPosition="68" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,3)" name="QSPI_DATA1_P11_5" displayPosition="67" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,3.5)" name="GND" displayPosition="66" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,4)" name="VDDIO0" displayPosition="65" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,4.5)" name="GND" displayPosition="64" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,5)" name="NC14" displayPosition="63" />
+    <ExternalPin position="(-9.615,5.5)" name="NC13" displayPosition="62" />
+    <ExternalPin position="(-9.615,6)" name="GND" displayPosition="61" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,6.5)" name="GND" displayPosition="60" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,7)" name="VBACKUP" displayPosition="59" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,7.5)" name="GND" displayPosition="58" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,8)" name="BT_HOST_WAKE" displayPosition="57" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,8.5)" name="BT_DEV_WAKE" displayPosition="56" moduleConnection="MODULE" />
+    <ExternalPin position="(-9.615,9)" name="BT_PCM_CLK" displayPosition="55" moduleConnection="MODULE" />
+    <InternalPin name="ECO_P12_6" />
+    <InternalPin name="ECO_P12_7" />
+    <InternalPin name="SDIO_CK" />
+    <InternalPin name="SDIO_CMD" />
+    <InternalPin name="SDIO_D0" />
+    <InternalPin name="SDIO_D1" />
+    <InternalPin name="SDIO_D2" />
+    <InternalPin name="SDIO_D3" />
+    <InternalPin name="VCO_P0_0" />
+    <InternalPin name="VCO_P0_1" />
+    <InternalPin name="WL_REG_ON" />
+    <Component name="ISM43439-WBP-L151/CY8C6248FNI-S2D43" partNumber="CY8C6248FNI-S2D43">
+      <!--position=P10[6] external=MICRO_ADC3_P10_6-->
+      <InnerPin position="A3" external="(-6.25,2.185)" />
+      <!--position=P11[5] external=QSPI_DATA1_P11_5-->
+      <InnerPin position="A5" external="(-9.615,3)" />
+      <!--position=P11[3] external=QSPI_DATA3_P11_3-->
+      <InnerPin position="A7" external="(-7.5,9.615)" />
+      <!--position=P12[0] external=I2C2_SCL_P12_0-->
+      <InnerPin position="A9" external="(-2.75,1.285)" />
+      <!--position=P13[1] external=I2S_TX_SCK_P13_1-->
+      <InnerPin position="A15" external="(-5.25,1.285)" />
+      <!--position=P10[2] external=SPI4_SCK_P10_2-->
+      <InnerPin position="B2" external="(-3.5,0.385)" />
+      <!--position=P10[5] external=MICRO_ADC2_P10_5-->
+      <InnerPin position="B4" external="(-6.75,2.185)" />
+      <!--position=P11[4] external=QSPI_DATA2_P11_4-->
+      <InnerPin position="B6" external="(-9.615,2.5)" />
+      <!--position=P11[7] external=QSPI_CLK_P11_7-->
+      <InnerPin position="B8" external="(-5,0.385)" />
+      <!--position=P13[0] external=I2S_MCLK_P13_0-->
+      <InnerPin position="B14" external="(-3.75,1.285)" />
+      <!--position=P9[7] external=P9_7_N-->
+      <InnerPin position="C1" external="(-3.75,2.185)" />
+      <!--position=P10[4] external=MICRO_ADC1_P10_4-->
+      <InnerPin position="C5" external="(-7.815,3.5)" />
+      <!--position=P11[6] external=QSPI_DATA0_P11_6-->
+      <InnerPin position="C7" external="(-8.715,3.25)" />
+      <!--position=P12[6]-->
+      <InnerPin position="C11" internal="ECO_P12_6" />
+      <!--position=P13[2] external=I2S_TX_WS_P13_2-->
+      <InnerPin position="C13" external="(-6.75,7.815)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-0.35,0.35)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-0.35,9.65)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-0.385,3)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-0.385,4)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-0.385,5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-0.385,6)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-0.385,8.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-1.285,5.25)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-1.285,6.75)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-2,0.385)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-2,9.615)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-2.185,5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-2.185,6)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-2.185,6.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-3,9.615)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-3.25,8.715)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-4.5,0.385)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-4.5,9.615)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-4.25,8.715)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-5,5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-5.75,1.285)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-5.75,2.185)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-6,0.385)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-6,9.615)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-7,0.385)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-7,9.615)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-7.75,1.285)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-7.815,4)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-7.815,4.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-8,9.615)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-8.5,0.385)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-8.715,2.25)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-8.715,4.25)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-8.715,4.75)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-8.715,5.25)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-8.715,5.75)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-8.715,6.25)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-9.65,0.35)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-9.65,9.65)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-9.615,1)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-9.615,1.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-9.615,3.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-9.615,4.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-9.615,6)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-9.615,6.5)" />
+      <!--position=VSS external=GND-->
+      <InnerPin position="D2" external="(-9.615,7.5)" />
+      <!--position=P10[3] external=SPI4_NSS_P10_3-->
+      <InnerPin position="D4" external="(-4,0.385)" />
+      <!--position=P11[1] external=P11_1_N-->
+      <InnerPin position="D6" external="(-0.385,1.5)" />
+      <!--position=P12[1] external=I2C2_SDA_P12_1-->
+      <InnerPin position="D8" external="(-3.25,1.285)" />
+      <!--position=P12[7]-->
+      <InnerPin position="D10" internal="ECO_P12_7" />
+      <!--position=P13[3] external=I2S_TX_SDO_P13_3-->
+      <InnerPin position="D12" external="(-9.615,2)" />
+      <!--position=P0[2] external=P0_2-->
+      <InnerPin position="D16" external="(-5.25,2.185)" />
+      <!--position=P9[0] external=MICRO_SPI2_MOSI_P9_0-->
+      <InnerPin position="E1" external="(-0.385,2.5)" />
+      <!--position=P9[4] external=P9_4_N-->
+      <InnerPin position="E3" external="(-8.715,7.25)" />
+      <!--position=P10[1] external=SPI4_MISO_P10_1-->
+      <InnerPin position="E5" external="(-3,0.385)" />
+      <!--position=P11[2] external=QSPI_CS_P11_2-->
+      <InnerPin position="E7" external="(-2.185,5.5)" />
+      <!--position=P11[0] external=P11_0_N-->
+      <InnerPin position="E9" external="(-2.185,4)" />
+      <!--position=P13[4] external=I2S_RX_SCK_P13_4-->
+      <InnerPin position="E11" external="(-1.285,2.75)" />
+      <!--position=P0[3] external=P0_3-->
+      <InnerPin position="E15" external="(-4.75,2.185)" />
+      <!--position=XRES external=MICRO_RST_N-->
+      <InnerPin position="E17" external="(-8.715,3.75)" />
+      <!--position=P8[4] external=P8_4-->
+      <InnerPin position="F2" external="(-7.815,5)" />
+      <!--position=P9[3] external=MICRO_SPI2_NSS_P9_3-->
+      <InnerPin position="F4" external="(-2.25,1.285)" />
+      <!--position=P10[0] external=SPI4_MOSI_P10_0-->
+      <InnerPin position="F6" external="(-2.5,0.385)" />
+      <!--position=P10[7] external=P10_7_N-->
+      <InnerPin position="F8" external="(-2.185,3.5)" />
+      <!--position=P13[5] external=I2S_RX_WS_P13_5-->
+      <InnerPin position="F10" external="(-1.285,3.25)" />
+      <!--position=P13[6] external=I2S_RX_SDO_P13_6-->
+      <InnerPin position="F12" external="(-6.75,8.715)" />
+      <!--position=P0[0]-->
+      <InnerPin position="F14" internal="VCO_P0_0" />
+      <!--position=P0[5] external=P0_5-->
+      <InnerPin position="F16" external="(-3.25,2.185)" />
+      <!--position=P7[7] external=P7_7-->
+      <InnerPin position="G1" external="(-8.715,6.75)" />
+      <!--position=P9[1] external=MICRO_SPI2_MISO_P9_1-->
+      <InnerPin position="G3" external="(-0.385,2)" />
+      <!--position=P9[2] external=MICRO_SPI2_SCK_P9_2-->
+      <InnerPin position="G5" external="(-1.285,2.25)" />
+      <!--position=P5[7] external=P5_7-->
+      <InnerPin position="G7" external="(-7.25,8.715)" />
+      <!--position=P5[6] external=P5_6-->
+      <InnerPin position="G9" external="(-4.25,1.285)" />
+      <!--position=P0[4] external=WL_HOST_WAKE-->
+      <InnerPin position="G11" external="(-2.185,4.5)" />
+      <!--position=P0[1]-->
+      <InnerPin position="G13" internal="VCO_P0_1" />
+      <!--position=P1[1] external=I2C1_SDA_P1_1-->
+      <InnerPin position="G15" external="(-5.25,8.715)" />
+      <!--position=P1[5] external=P1_5-->
+      <InnerPin position="G17" external="(-6.25,7.815)" />
+      <!--position=P8[0] external=USART1_RX_P8_0-->
+      <InnerPin position="H2" external="(-0.385,7)" />
+      <!--position=P8[3] external=P8_3_N-->
+      <InnerPin position="H4" external="(-8.715,7.75)" />
+      <!--position=P8[2] external=P8_2_N-->
+      <InnerPin position="H6" external="(-6.25,8.715)" />
+      <!--position=P7[3] external=P7_3-->
+      <InnerPin position="H8" external="(-7.75,8.715)" />
+      <!--position=P5[3] external=MICRO_SPI_NSS_P5_3-->
+      <InnerPin position="H10" external="(-7.25,1.285)" />
+      <!--position=P1[0] external=I2C1_SCL_P1_0-->
+      <InnerPin position="H12" external="(-4.75,8.715)" />
+      <!--position=P1[4] external=P1_4-->
+      <InnerPin position="H14" external="(-3.75,7.815)" />
+      <!--position=VDDA external=VDDD-->
+      <InnerPin position="J1" external="(-0.385,3.5)" />
+      <!--position=VDDA external=VDD3V3_WiFi_IO-->
+      <InnerPin position="J1" external="(-0.385,5.5)" />
+      <!--position=VDDA external=VDD_USB-->
+      <InnerPin position="J1" external="(-1.285,4.75)" />
+      <!--position=VDDA external=VDD3V3_WiFi-->
+      <InnerPin position="J1" external="(-3.5,9.615)" />
+      <!--position=VDDA external=VDD3V3_WiFi-->
+      <InnerPin position="J1" external="(-4,9.615)" />
+      <!--position=VDDA external=VDDA-->
+      <InnerPin position="J1" external="(-6.5,0.385)" />
+      <!--position=VDDA external=VDD_NS-->
+      <InnerPin position="J1" external="(-6.5,9.615)" />
+      <!--position=VDDA external=VDD3V3_PA-->
+      <InnerPin position="J1" external="(-7.5,0.385)" />
+      <!--position=VDDA external=VDD3V3_PA-->
+      <InnerPin position="J1" external="(-8,0.385)" />
+      <!--position=VDDA external=VDDIO0-->
+      <InnerPin position="J1" external="(-9.615,4)" />
+      <!--position=VDDA external=VBACKUP-->
+      <InnerPin position="J1" external="(-9.615,7)" />
+      <!--position=P7[2] external=BT_HOST_WAKE-->
+      <InnerPin position="J3" external="(-9.615,8)" />
+      <!--position=P8[1] external=USART1_TX_P8_1-->
+      <InnerPin position="J5" external="(-0.385,6.5)" />
+      <!--position=P7[1] external=BT_REG_ON-->
+      <InnerPin position="J7" external="(-3.25,7.815)" />
+      <!--position=P6[4] external=TDO_SWO_P6_4-->
+      <InnerPin position="J9" external="(-5,9.615)" />
+      <!--position=P5[2] external=MICRO_SPI_SCK_P5_2-->
+      <InnerPin position="J11" external="(-6.75,1.285)" />
+      <!--position=P6[7] external=TCLK_SWCLK_P6_7-->
+      <InnerPin position="K4" external="(-1,9.615)" />
+      <!--position=P7[0] external=BT_DEV_WAKE-->
+      <InnerPin position="K6" external="(-9.615,8.5)" />
+      <!--position=P6[3] external=BT_UART_RTS_L-->
+      <InnerPin position="K8" external="(-4.25,7.815)" />
+      <!--position=P5[1] external=MICRO_SPI_MISO_P5_1-->
+      <InnerPin position="K10" external="(-6.25,1.285)" />
+      <!--position=P2[1]-->
+      <InnerPin position="K12" internal="SDIO_D1" />
+      <!--position=P14[0]/USBDP external=USBDP-->
+      <InnerPin position="K14" external="(-0.385,8)" />
+      <!--position=P14[1]/USBDM external=USBDM-->
+      <InnerPin position="K16" external="(-0.385,7.5)" />
+      <!--position=P6[5] external=TDI_P6_5-->
+      <InnerPin position="L3" external="(-1.5,9.615)" />
+      <!--position=P6[2] external=BT_UART_CTS_L-->
+      <InnerPin position="L5" external="(-4.75,7.815)" />
+      <!--position=P6[1] external=BT_UART_RXD-->
+      <InnerPin position="L7" external="(-5.75,7.815)" />
+      <!--position=P5[4] external=USART6_RX_P5_4-->
+      <InnerPin position="L9" external="(-1.285,6.25)" />
+      <!--position=P2[4]-->
+      <InnerPin position="L11" internal="SDIO_CMD" />
+      <!--position=P2[3]-->
+      <InnerPin position="L13" internal="SDIO_D3" />
+      <!--position=P2[2]-->
+      <InnerPin position="L15" internal="SDIO_D2" />
+      <!--position=P2[0]-->
+      <InnerPin position="L17" internal="SDIO_D0" />
+      <!--position=P6[6] external=TMS_SWDIO_P6_6-->
+      <InnerPin position="M2" external="(-0.385,9)" />
+      <!--position=P6[0] external=BT_UART_TXD-->
+      <InnerPin position="M4" external="(-5.25,7.815)" />
+      <!--position=P5[5] external=USART6_TX_P5_5-->
+      <InnerPin position="M6" external="(-1.285,5.75)" />
+      <!--position=P5[0] external=MICRO_SPI_MOSI_P5_0-->
+      <InnerPin position="M8" external="(-5.5,0.385)" />
+      <!--position=P2[6]-->
+      <InnerPin position="M14" internal="WL_REG_ON" />
+      <!--position=P2[5]-->
+      <InnerPin position="M16" internal="SDIO_CK" />
+    </Component>
+    <Component name="ISM43439-WBP-L151/CYW43439KUBG" partNumber="CYW43439KUBG">
+      <!--position=BT_UART_RXD external=BT_UART_RXD-->
+      <InnerPin position="A1" external="(-5.75,7.815)" />
+      <!--position=BT_UART_TXD external=BT_UART_TXD-->
+      <InnerPin position="A2" external="(-5.25,7.815)" />
+      <!--position=BT_PCM_CLK/BT_I2S_CLK external=BT_PCM_CLK-->
+      <InnerPin position="A5" external="(-9.615,9)" />
+      <!--position=BT_DEV_WAKE external=BT_DEV_WAKE-->
+      <InnerPin position="B1" external="(-9.615,8.5)" />
+      <!--position=BT_UART_CTS_N external=BT_UART_CTS_L-->
+      <InnerPin position="B2" external="(-4.75,7.815)" />
+      <!--position=BT_PCM_OUT/BT_I2S_DO external=BT_PCM_OUT-->
+      <InnerPin position="B4" external="(-7.815,6)" />
+      <!--position=BT_PCM_SYNC/BT_I2S_WS external=BT_PCM_SYNC-->
+      <InnerPin position="B5" external="(-7.815,6.5)" />
+      <!--position=BT_HOST_WAKE external=BT_HOST_WAKE-->
+      <InnerPin position="C1" external="(-9.615,8)" />
+      <!--position=BT_UART_RTS_N external=BT_UART_RTS_L-->
+      <InnerPin position="C3" external="(-4.25,7.815)" />
+      <!--position=BT_PCM_IN/BT_I2S_DI external=BT_PCM_IN-->
+      <InnerPin position="C4" external="(-7.815,5.5)" />
+      <!--position=VDDC external=VDDD-->
+      <InnerPin position="D3" external="(-0.385,3.5)" />
+      <!--position=VDDC external=VDD3V3_WiFi_IO-->
+      <InnerPin position="D3" external="(-0.385,5.5)" />
+      <!--position=VDDC external=VDD_USB-->
+      <InnerPin position="D3" external="(-1.285,4.75)" />
+      <!--position=VDDC external=VDD3V3_WiFi-->
+      <InnerPin position="D3" external="(-3.5,9.615)" />
+      <!--position=VDDC external=VDD3V3_WiFi-->
+      <InnerPin position="D3" external="(-4,9.615)" />
+      <!--position=VDDC external=VDDA-->
+      <InnerPin position="D3" external="(-6.5,0.385)" />
+      <!--position=VDDC external=VDD_NS-->
+      <InnerPin position="D3" external="(-6.5,9.615)" />
+      <!--position=VDDC external=VDD3V3_PA-->
+      <InnerPin position="D3" external="(-7.5,0.385)" />
+      <!--position=VDDC external=VDD3V3_PA-->
+      <InnerPin position="D3" external="(-8,0.385)" />
+      <!--position=VDDC external=VDDIO0-->
+      <InnerPin position="D3" external="(-9.615,4)" />
+      <!--position=VDDC external=VBACKUP-->
+      <InnerPin position="D3" external="(-9.615,7)" />
+      <!--position=BT_REG_ON external=BT_REG_ON-->
+      <InnerPin position="E6" external="(-3.25,7.815)" />
+      <!--position=LPO_IN external=EXT_LPO_IN-->
+      <InnerPin position="F5" external="(-0.385,4.5)" />
+      <!--position=WL_REG_ON-->
+      <InnerPin position="G6" internal="WL_REG_ON" />
+      <!--position=GPIO_1 external=WiFi_GPIO_1-->
+      <InnerPin position="H6" external="(-1.285,4.25)" />
+      <!--position=SDIO_DATA_1-->
+      <InnerPin position="H7" internal="SDIO_D1" />
+      <!--position=WLRF_GPIO external=NC4-->
+      <InnerPin position="J3" external="(-8.715,2.75)" />
+      <!--position=GPIO_0 external=WL_HOST_WAKE-->
+      <InnerPin position="J6" external="(-2.185,4.5)" />
+      <!--position=SDIO_DATA_3-->
+      <InnerPin position="J7" internal="SDIO_D3" />
+      <!--position=SDIO_DATA_0-->
+      <InnerPin position="K6" internal="SDIO_D0" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-0.35,0.35)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-0.35,9.65)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-0.385,3)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-0.385,4)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-0.385,5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-0.385,6)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-0.385,8.5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-1.285,5.25)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-1.285,6.75)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-2,0.385)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-2,9.615)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-2.185,5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-2.185,6)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-2.185,6.5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-3,9.615)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-3.25,8.715)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-4.5,0.385)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-4.5,9.615)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-4.25,8.715)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-5,5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-5.75,1.285)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-5.75,2.185)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-6,0.385)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-6,9.615)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-7,0.385)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-7,9.615)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-7.75,1.285)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-7.815,4)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-7.815,4.5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-8,9.615)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-8.5,0.385)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-8.715,2.25)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-8.715,4.25)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-8.715,4.75)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-8.715,5.25)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-8.715,5.75)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-8.715,6.25)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-9.65,0.35)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-9.65,9.65)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-9.615,1)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-9.615,1.5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-9.615,3.5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-9.615,4.5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-9.615,6)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-9.615,6.5)" />
+      <!--position=WLRF_XTAL_GND external=GND-->
+      <InnerPin position="L4" external="(-9.615,7.5)" />
+      <!--position=GPIO_2 external=WiFi_GPIO_2-->
+      <InnerPin position="L5" external="(-4.25,2.185)" />
+      <!--position=SDIO_CMD-->
+      <InnerPin position="L6" internal="SDIO_CMD" />
+      <!--position=SDIO_DATA_2-->
+      <InnerPin position="L7" internal="SDIO_D2" />
+      <!--position=WLRF_XTAL_XOP external=WRF_XTAL_XOP-->
+      <InnerPin position="M4" external="(-1.5,0.385)" />
+      <!--position=WLRF_XTAL_XON external=WRF_XTAL_XON-->
+      <InnerPin position="M5" external="(-1,0.385)" />
+      <!--position=CLK_REQ external=CLK_REQ-->
+      <InnerPin position="M6" external="(-0.385,1)" />
+      <!--position=SDIO_CLK-->
+      <InnerPin position="M7" internal="SDIO_CK" />
+    </Component>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="ISM43439-WBP-L151" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CY8C6248FNI-S2D43;CYW43439KUBG" />
+    <Param name="Package" value="151-LGA" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Inventek" />
+    <Param name="DATASHEET" value="https://www.inventeksys.com/iwin/wp-content/uploads/ISM43439-WBP-L151-Functional-Specification-DOC-DS-20112.pdf" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="HCI-UART" />
+    <DevComp name="ISM43439-WBP-L151" />
+    <DevComp name="WIFI_INTERFACE_SDIO" />
+  </DeviceComponents>
+</View>

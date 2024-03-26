@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Files>
+    <Analog visPath="analog.cyvis" semPath="analog.cysem" ipPath="analogResourceMap.txt" />
+  </Files>
+  <!-- PadsPerPort must be kept in sync with ViewHobto_4.0/toCopy/Connectivity-BT-WIFI/55900A0/hobto/ipblocks.cydatasrc Parameter name="GPIO.GPIO_MAX_PIN_PER_PORT_NR" -->
+  <PadsPerPort value="42" />
+  <PadFunctionTypes>
+    <PadFunctionType name="AUX" connectionsPerPin="18" port="aux" />
+    <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog" />
+  </PadFunctionTypes>
+</View>

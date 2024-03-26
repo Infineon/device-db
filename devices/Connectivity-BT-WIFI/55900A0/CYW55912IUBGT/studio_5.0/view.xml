@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CYW55912IUBGT" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="55900A0" />
+    <Param name="Silicon_Revision" value="SAMPLING" />
+    <Param name="Package" value="143-WLBGA" />
+    <Param name="CPU" value="ARM CM33" />
+    <Param name="DeviceSeries" value="55913" />
+    <Param name="Speed_MHz" value="192" />
+    <Param name="Flash_KB" value="0" />
+    <Param name="ROM_KB" value="2048" />
+    <Param name="SRAM_KB" value="768" />
+    <Param name="Bluetooth" value="5" />
+    <Param name="WiFi" value="6" />
+    <Param name="USB_Type" value="NA" />
+    <Param name="Vddmin_volts" value="3" />
+    <Param name="Vddmax_volts" value="4.8" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="85" />
+    <Param name="SiliconID" value="0x00000000" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="NA" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="55900" />
+    <DevComp name="55900A0" types="mcu" />
+    <DevComp name="CAT5" types="mcu" />
+    <DevComp name="NETXDUO" types="mcu" />
+    <DevComp name="NETXSECURE" types="mcu" />
+    <DevComp name="NETXSECURE_ROM" types="mcu" />
+    <DevComp name="THREADX" types="mcu" />
+    <DevComp name="WIFI_INTERFACE_OCI" types="mcu" />
+  </DeviceComponents>
+  <DeviceDefines>
+    <DevDef name="BLHS_SUPPORT" types="mcu" />
+    <DevDef name="GCI_SECURE_ACCESS" types="mcu" />
+    <DevDef name="MBEDTLS_CONFIG_FILE" value="'&quot;mbedtls/config-cc312-h1cp-no-os.h&quot;'" types="mcu" />
+    <DevDef name="NX_INCLUDE_USER_DEFINE_FILE" types="mcu" />
+    <DevDef name="NX_SECURE_INCLUDE_USER_DEFINE_FILE" types="mcu" />
+    <DevDef name="PROTO_MSGBUF" types="mcu" />
+    <DevDef name="TRXV5" types="mcu" />
+  </DeviceDefines>
+  <DeviceCapabilities>
+    <DevCap name="bt" />
+    <DevCap name="cat5" types="mcu" />
+    <DevCap name="cyw55913" />
+    <DevCap name="cyw55xxx" />
+    <DevCap name="flash_0k" types="mcu" />
+    <DevCap name="hal" types="mcu" />
+    <DevCap name="i2c" types="mcu" />
+    <DevCap name="i2s" types="mcu" />
+    <DevCap name="low_power" types="mcu" />
+    <DevCap name="mcu_gp" types="mcu" />
+    <DevCap name="pdm" types="mcu" />
+    <DevCap name="qspi" types="mcu" />
+    <DevCap name="rtc" types="mcu" />
+    <DevCap name="sdio" types="mcu" />
+    <DevCap name="spi" types="mcu" />
+    <DevCap name="sram_768k" types="mcu" />
+    <DevCap name="tdm" types="mcu" />
+    <DevCap name="uart" types="mcu" />
+    <DevCap name="wifi" />
+  </DeviceCapabilities>
+  <DeviceCategory>CAT5</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat5</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
+  <ToolIDs>
+    <ToolID name="bt-configurator" />
+    <ToolID name="device-configurator" />
+    <ToolID name="library-manager" />
+    <ToolID name="project-creator" />
+  </ToolIDs>
+</View>

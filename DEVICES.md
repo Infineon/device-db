@@ -26,6 +26,14 @@
       * [4390x](#4390x)
       * [55513](#55513)
       * [55572](#55572)
+      * [55913](#55913)
+    * [CCG](#ccg)
+      * [CCG6DF_CFP](#ccg6df_cfp)
+      * [CCG7D](#ccg7d)
+      * [CCG7S](#ccg7s)
+      * [CCG8](#ccg8)
+      * [CCG8DF_CFP](#ccg8df_cfp)
+      * [PAG2S](#pag2s)
     * [PMG](#pmg)
       * [PMG1B1](#pmg1b1)
       * [PMG1S0](#pmg1s0)
@@ -48,16 +56,13 @@
       * [PSoC 63](#psoc-63)
       * [PSoC 64](#psoc-64)
     * [TRAVEO™](#traveo)
+      * [CYT2B6](#cyt2b6)
       * [CYT2B7](#cyt2b7)
+      * [CYT2B9](#cyt2b9)
       * [CYT2BL](#cyt2bl)
       * [CYT3BB](#cyt3bb)
       * [CYT4BB](#cyt4bb)
       * [CYT4BF](#cyt4bf)
-    * [USB](#usb)
-      * [CCG7D](#ccg7d)
-      * [CCG7S](#ccg7s)
-      * [CCG8](#ccg8)
-      * [PAG2S](#pag2s)
     * [Wireless Charging](#wireless-charging)
       * [WLC1](#wlc1)
     * [XMC™](#xmc)
@@ -78,6 +83,7 @@
   * [Supported modules](#supported-modules)
     * [Infineon](#infineon)
     * [AzureWave](#azurewave)
+    * [Inventek](#inventek)
     * [Laird](#laird)
     * [Murata](#murata)
     * [USI](#usi)
@@ -173,6 +179,53 @@
 ### 55572
 * [CYW55572MIWBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55572/)
 * [CYW55572MIFFBG](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55572/)
+
+### 55913
+* CYW55913IUBGT
+* CYW55912IUBGT
+* CYW55911IUBGT
+* CYW55903IUBGT
+* CYW55902IUBGT
+* CYW55901IUBGT
+
+## CCG
+
+### CCG6DF_CFP
+* CYPD6129-52LQXI
+* CYPD6129-52LQXIT
+* CYPD6229-52LQXI
+* CYPD6229-52LQXIT
+
+### CCG7D
+* CYPD7291-68LDXS
+* CYPD7299-68LDXS
+* [CYPD7271-68LQXQ](https://www.infineon.com/cms/en/product/universal-serial-bus-usb-power-delivery-controller/usb-c-and-power-delivery/ccg7d-consumer-dual-port-usb-c-pd-plus-dc-dc-controller/cypd7271-68lqxq/)
+* CYPD7272-68LQXQ
+* CYPD7273-68LQXQ
+* CYPD7274-68LQXQ
+* CYPD7275-68LQXQ
+
+### CCG7S
+* CYPD7191-40LDXS
+* CYPD7171-40LQXQ
+* CYPD7199-40LDXS
+* CYPD7192-39BFXS
+* CYPD7172-39BFXQ
+
+### CCG8
+* CYPD8225-97BZXIT
+* CYPD8125-48LDXI
+
+### CCG8DF_CFP
+* CYPD8129-52LQXIT
+* CYPD8229-52LQXIT
+
+### PAG2S
+* CYPAS213-24SXQ
+* CYPAS211-32LQXQ
+* CYPAS212-32LQXQ
+* CYPAS213-32LQXQ
+* CYPAS2174-32LQXQ
 
 ## PMG
 
@@ -1048,6 +1101,20 @@
 
 ## TRAVEO™
 
+### CYT2B6
+* [CYT2B63BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b63badq0azsgs/)
+* [CYT2B63BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b63badq0azegs/)
+* [CYT2B63CAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b63badq0azsgs/)
+* [CYT2B63CAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b63badq0azegs/)
+* [CYT2B64BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b64badq0azsgs/)
+* [CYT2B64BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b64badq0azegs/)
+* [CYT2B64CAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b64badq0azsgs/)
+* [CYT2B64CAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b64badq0azegs/)
+* [CYT2B65BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b65badq0azsgs/)
+* [CYT2B65BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b65badq0azegs/)
+* [CYT2B65CAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b65badq0azsgs/)
+* [CYT2B65CAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b65badq0azegs/)
+
 ### CYT2B7
 * [CYT2B73BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b7-series/cyt2b73badq0azsgs/)
 * [CYT2B73BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b7-series/cyt2b73badq0azegs/)
@@ -1069,6 +1136,28 @@
 * [CYT2B78BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b7-series/cyt2b78badq0azegs/)
 * [CYT2B78CAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b7-series/cyt2b78cadq0azsgs/)
 * [CYT2B78CAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b7-series/cyt2b78cadq0azegs/)
+
+### CYT2B9
+* [CYT2B93BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b93bacq0azsgs/)
+* [CYT2B93BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b93bacq0azegs/)
+* [CYT2B93CAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b93cacq0azsgs/)
+* [CYT2B93CAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b93cacq0azegs/)
+* [CYT2B94BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b94bacq0azsgs/)
+* [CYT2B94BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b94bacq0azegs/)
+* [CYT2B94CAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b94cacq0azsgs/)
+* [CYT2B94CAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b94cacq0azegs/)
+* [CYT2B95BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b95bacq0azsgs/)
+* [CYT2B95BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b95bacq0azegs/)
+* [CYT2B95CAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b95cacq0azsgs/)
+* [CYT2B95CAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b95cacq0azegs/)
+* [CYT2B97BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b97bacq0azsgs/)
+* [CYT2B97BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b97bacq0azegs/)
+* [CYT2B97CAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b97cacq0azsgs/)
+* [CYT2B97CAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b97cacq0azegs/)
+* [CYT2B98BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b98bacq0azsgs/)
+* [CYT2B98BAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b98bacq0azegs/)
+* [CYT2B98CAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b98cacq0azsgs/)
+* [CYT2B98CAE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b9-series/cyt2b98cacq0azegs/)
 
 ### CYT2BL
 * [CYT2BL3BAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2bl-series/cyt2bl3baaq0azsgs/)
@@ -1125,35 +1214,6 @@
 * [CYT4BFCCJE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/cyt4bfccjdq0bzegs/)
 * [CYT4BFCCHS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/cyt4bfcchdq0bzsgs/)
 * [CYT4BFCCHE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/cyt4bfcchdq0bzegs/)
-
-## USB
-
-### CCG7D
-* CYPD7291-68LDXS
-* CYPD7299-68LDXS
-* [CYPD7271-68LQXQ](https://www.infineon.com/cms/en/product/universal-serial-bus-usb-power-delivery-controller/usb-c-and-power-delivery/ccg7d-consumer-dual-port-usb-c-pd-plus-dc-dc-controller/cypd7271-68lqxq/)
-* CYPD7272-68LQXQ
-* CYPD7273-68LQXQ
-* CYPD7274-68LQXQ
-* CYPD7275-68LQXQ
-
-### CCG7S
-* CYPD7191-40LDXS
-* CYPD7171-40LQXQ
-* CYPD7199-40LDXS
-* CYPD7192-39BFXS
-* CYPD7172-39BFXQ
-
-### CCG8
-* CYPD8225-97BZXIT
-* CYPD8125-48LDXI
-
-### PAG2S
-* CYPAS213-24SXQ
-* CYPAS211-32LQXQ
-* CYPAS212-32LQXQ
-* CYPAS213-32LQXQ
-* CYPAS274-32LQXQ
 
 ## Wireless Charging
 
@@ -1395,6 +1455,10 @@
 * [AW-BT321W](https://www.azurewave.com/img/cypress/AW-BT315W_DS_DF_A_STD.pdf)
 * [AW-CM467-SUR](https://www.azurewave.com/img/infineon/AW-CM467-SUR_DS_DF_C_STD.pdf)
 * [AW-CU427](https://www.azurewave.com/img/wireless-modules/AW-CU427_DS_DF_A_STD.pdf)
+
+## Inventek
+
+* [ISM43439-WBP-L151](https://www.inventeksys.com/iwin/wp-content/uploads/ISM43439-WBP-L151-Functional-Specification-DOC-DS-20112.pdf)
 
 ## Laird
 
