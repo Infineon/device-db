@@ -125,10 +125,10 @@
 * [CYW20820A1KFB1G](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le-bluetooth/cyw20820/)
 
 ### 20829
-* CYW20829A0LKML
-* CYW20829A0KML
 * CYW20829B0LKML
-* CYW20829B0KML
+* CYW20829B0000
+* [CYW20829B0010](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/)
+* CYW20829B0021
 
 ### 20835
 * [CYW20835PB1KML1G](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20835/)
@@ -138,9 +138,8 @@
 * CYW30739A0KWB9G
 
 ### 89829
-* CYW89829A0KML
-* CYW89829B0KML
-* CYW89829B01MKSBG
+* CYW89829B0022
+* CYW89829B0232
 
 ## AIROC™ Connectivity
 
@@ -303,6 +302,12 @@
 * [CY8C4024AZQ-S413](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4024azq-s413/)
 * [CY8C4025AZQ-S413](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4025azq-s413/)
 * [CY8C4045AZQ-S413](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4045azq-s413/)
+* CY8C4024LQA-S413
+* CY8C4024LQS-S413
+* CY8C4025LQA-S413
+* CY8C4025LQS-S413
+* CY8C4045LQA-S413
+* CY8C4045LQS-S413
 
 ### PSoC 4000T
 * CY8C4025LQI-T412
