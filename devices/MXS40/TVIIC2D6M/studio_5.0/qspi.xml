@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyDevice xmlns="http://cypress.com/xsd/cy_qspi_configurator_device_v2">
+  <DisplayName>CAT1C</DisplayName>
+  <Instances>2</Instances>
+  <AddressRange instance="0" start="0x60000000" end="0x80000000" />
+  <AddressRange instance="1" start="0x80000000" end="0xA0000000" />
+  <SupportsV3>true</SupportsV3>
+  <!-- SMIFv4 support for Hyperbus and Octal DDR is provided by the SupportsV5 element -->
+  <SupportsV5>true</SupportsV5>
+  <Default>false</Default>
+  <HasInternalFlash>true</HasInternalFlash>
+  <HasPatchableFlashloaders>true</HasPatchableFlashloaders>
+</CyDevice>

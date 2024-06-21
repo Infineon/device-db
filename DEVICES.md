@@ -63,6 +63,7 @@
       * [CYT3BB](#cyt3bb)
       * [CYT4BB](#cyt4bb)
       * [CYT4BF](#cyt4bf)
+      * [CYT4DN](#cyt4dn)
     * [Wireless Charging](#wireless-charging)
       * [WLC1](#wlc1)
     * [XMC™](#xmc)
@@ -325,7 +326,24 @@
 * CY8C4046LQI-T452
 * CY8C4046LQI-T451
 * CY8C4046FNI-T452
-* CY8C4046LQIN-T451
+* CY8C4025LQI-T442
+* CY8C4025FNI-T442
+* CY8C4045LQI-T442
+* CY8C4045LQI-T441
+* CY8C4045FNI-T442
+* CY8C4025LQI-T441
+* CY8C4025LQI-T452
+* CY8C4025FNI-T452
+* CY8C4045LQI-T452
+* CY8C4045LQI-T451
+* CY8C4045FNI-T452
+* CY8C4025LQI-T451
+* CY8C4026LQI-T442
+* CY8C4026FNI-T442
+* CY8C4046LQI-T442
+* CY8C4046LQI-T441
+* CY8C4046FNI-T442
+* CY8C4026LQI-T441
 
 ### PSoC 4100S
 * [CY8C4124FNI-S403](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4124fni-s403t/)
@@ -1219,6 +1237,24 @@
 * [CYT4BFCCJE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/cyt4bfccjdq0bzegs/)
 * [CYT4BFCCHS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/cyt4bfcchdq0bzsgs/)
 * [CYT4BFCCHE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/cyt4bfcchdq0bzegs/)
+
+### CYT4DN
+* [CYT4DNJBAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBBS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBCS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBDS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBES](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBFS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBGS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBHS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBJS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBKS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBLS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBMS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBNS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBPS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBQS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
+* [CYT4DNJBRS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
 
 ## Wireless Charging
 

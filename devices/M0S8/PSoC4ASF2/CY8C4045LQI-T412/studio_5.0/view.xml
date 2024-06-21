@@ -38,7 +38,7 @@
     <Param name="TempMin_Celsius" value="-40" />
     <Param name="TempMax_Celsius" value="85" />
     <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
-    <Param name="SiliconID" value="0x360311C6" />
+    <Param name="SiliconID" value="0x360322C6" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="NA" />
@@ -75,5 +75,6 @@
     <ToolID name="dfuh-tool" />
     <ToolID name="library-manager" />
     <ToolID name="project-creator" />
+    <ToolID name="sensor-designer-tool" />
   </ToolIDs>
 </View>

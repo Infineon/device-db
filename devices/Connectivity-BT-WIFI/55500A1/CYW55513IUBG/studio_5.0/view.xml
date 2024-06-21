@@ -26,10 +26,11 @@
   </Parameters>
   <DeviceComponents>
     <DevComp name="55500" />
-    <DevComp name="55500A1" types="mcu" />
+    <DevComp name="55500A1" />
   </DeviceComponents>
   <DeviceDefines>
     <DevDef name="BLHS_SUPPORT" types="companion-connectivity" />
+    <DevDef name="TRXV5" types="companion-connectivity" />
   </DeviceDefines>
   <DeviceCapabilities>
     <DevCap name="bt" />
