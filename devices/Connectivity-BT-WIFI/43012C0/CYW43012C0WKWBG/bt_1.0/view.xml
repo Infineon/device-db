@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cybtview_v1">
+  <StackOptions>
+    <StackOption value="Option1" type="mcu" />
+    <StackOption value="Option2" type="companion-connectivity" />
+  </StackOptions>
+  <Parameters>
+    <Param name="TXPowerLevels" value="-16,-12,-8,-4,0,4,8,12" />
+    <Param name="IsocConnSupported" value="False" />
+    <Param name="MaxRemoteClientsConnections" value="255" />
+    <Param name="MaxRemoteServersConnections" value="255" />
+  </Parameters>
+</View>

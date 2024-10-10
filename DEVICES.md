@@ -64,6 +64,9 @@
       * [CYT4BB](#cyt4bb)
       * [CYT4BF](#cyt4bf)
       * [CYT4DN](#cyt4dn)
+    * [USB](#usb)
+      * [FX2G3](#fx2g3)
+      * [FX3G2](#fx3g2)
     * [Wireless Charging](#wireless-charging)
       * [WLC1](#wlc1)
     * [XMC™](#xmc)
@@ -78,6 +81,7 @@
       * [XMC4500](#xmc4500)
       * [XMC4700](#xmc4700)
       * [XMC4800](#xmc4800)
+      * [XMC5200](#xmc5200)
       * [XMC7100](#xmc7100)
       * [XMC7200](#xmc7200)
 
@@ -1314,6 +1318,30 @@
 * [CYT4DNJBSS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
 * [CYT4DNJBZS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/)
 
+## USB
+
+### FX2G3
+* CYUSB2315-BF104AXI
+* CYUSB2315A-BF104AXI
+* CYUSB2316-BF104AXI
+* CYUSB2317-BF104AXI
+* CYUSB2318-BF104AXI
+
+### FX3G2
+* CYUSB4024-BZXI
+* CYUSB4014-FCAXI
+* CYUSB4013-FCAXI
+* CYUSB4012-FCAXI
+* CYUSB4011-FCAXI
+* CYUSB3084-FCAXI
+* CYUSB3083-FCAXI
+* CYUSB3082-FCAXI
+* CYUSB3081-FCAXI
+* CYUSB3284-FCAXI
+* CYUSB3282-FCAXI
+* CYUSB4022-FCAXI
+* CYUSB4021-FCAXI
+
 ## Wireless Charging
 
 ### WLC1
@@ -1498,6 +1526,11 @@
 * [XMC4800-E196x1024](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4800-e196f1024-aa/)
 * [XMC4800-F144x1024](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4800-f144f1024-aa/)
 * [XMC4800-F100x1024](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4800-f100f1024-aa/)
+
+### XMC5200
+* [XMC5200-F64K1088AA](https://www.infineon.com/XMC5000)
+* [XMC5200-F100K1088AA](https://www.infineon.com/XMC5000)
+* [XMC5200-F144K1088AA](https://www.infineon.com/XMC5000)
 
 ### XMC7100
 * [XMC7100-F100K1088](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc7000-industrial-microcontroller-arm-cortex-m7/xmc7100-f100k1088aa/)

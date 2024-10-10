@@ -312,16 +312,6 @@
         "path": "devices/M0S8/CCG3"
       },
       {
-        "name": "CCG3PA",
-        "part": false,
-        "path": "devices/M0S8/CCG3PA"
-      },
-      {
-        "name": "CYPM1011-24LQXI",
-        "part": true,
-        "path": "devices/M0S8/CCG3PA/CYPM1011-24LQXI"
-      },
-      {
         "name": "CYPM1211-40LQXIT",
         "part": true,
         "path": "devices/M0S8/CCG3/CYPM1211-40LQXIT"
@@ -332,9 +322,24 @@
         "path": "devices/M0S8/CCG3/CYPM1211-42FNXIT"
       },
       {
+        "name": "CCG3PA",
+        "part": false,
+        "path": "devices/M0S8/CCG3PA"
+      },
+      {
+        "name": "CYPM1011-24LQXI",
+        "part": true,
+        "path": "devices/M0S8/CCG3PA/CYPM1011-24LQXI"
+      },
+      {
         "name": "CCG6",
         "part": false,
         "path": "devices/M0S8/CCG6"
+      },
+      {
+        "name": "CYPM1111-40LQXIT",
+        "part": true,
+        "path": "devices/M0S8/CCG6/CYPM1111-40LQXIT"
       },
       {
         "name": "CCG6DF_CFP",
@@ -370,11 +375,6 @@
         "name": "CYPD8229-52LQXIT",
         "part": true,
         "path": "devices/M0S8/CCG6DF_CFP/CYPD8229-52LQXIT"
-      },
-      {
-        "name": "CYPM1111-40LQXIT",
-        "part": true,
-        "path": "devices/M0S8/CCG6/CYPM1111-40LQXIT"
       },
       {
         "name": "CCG7D",
@@ -4257,11 +4257,13 @@
         "path": "devices/memory/MX25L1635E"
       },
       {
+        "altname": "MX25L25635F (3-byte Addressing Mode)",
         "name": "MX25L25635F",
         "part": true,
         "path": "devices/memory/MX25L25635F"
       },
       {
+        "altname": "MX25L25635F (4-byte Addressing Mode)",
         "name": "MX25L25635F-4byteaddr",
         "part": true,
         "path": "devices/memory/MX25L25635F-4byteaddr"
@@ -4327,11 +4329,13 @@
         "path": "devices/memory/N25Q128"
       },
       {
+        "altname": "N25Q256 (3-byte Addressing Mode)",
         "name": "N25Q256",
         "part": true,
         "path": "devices/memory/N25Q256"
       },
       {
+        "altname": "N25Q256 (4-byte Addressing Mode)",
         "name": "N25Q256-4byteaddr",
         "part": true,
         "path": "devices/memory/N25Q256-4byteaddr"
@@ -4352,16 +4356,19 @@
         "path": "devices/memory/S25FL116K"
       },
       {
+        "altname": "S25FL127S (256 KB sectors)",
         "name": "S25FL127S-256KBsectors",
         "part": true,
         "path": "devices/memory/S25FL127S-256KBsectors"
       },
       {
+        "altname": "S25FL127S (Hybrid at Bottom)",
         "name": "S25FL127S-hybridbottom",
         "part": true,
         "path": "devices/memory/S25FL127S-hybridbottom"
       },
       {
+        "altname": "S25FL127S (Hybrid at Top)",
         "name": "S25FL127S-hybridtop",
         "part": true,
         "path": "devices/memory/S25FL127S-hybridtop"
@@ -4372,16 +4379,19 @@
         "path": "devices/memory/S25FL128L"
       },
       {
+        "altname": "S25FL128S (256 KB sectors)",
         "name": "S25FL128S-256KBsectors",
         "part": true,
         "path": "devices/memory/S25FL128S-256KBsectors"
       },
       {
+        "altname": "S25FL128S (Hybrid at Bottom)",
         "name": "S25FL128S-hybridbottom",
         "part": true,
         "path": "devices/memory/S25FL128S-hybridbottom"
       },
       {
+        "altname": "S25FL128S (Hybrid at Top)",
         "name": "S25FL128S-hybridtop",
         "part": true,
         "path": "devices/memory/S25FL128S-hybridtop"
@@ -4407,756 +4417,907 @@
         "path": "devices/memory/S25FL256L"
       },
       {
+        "altname": "S25FL256S (256 KB sectors)",
         "name": "S25FL256S-256KBsectors",
         "part": true,
         "path": "devices/memory/S25FL256S-256KBsectors"
       },
       {
+        "altname": "S25FL256S (3-byte Addressing Mode)",
         "name": "S25FL256S-3byteaddr",
         "part": true,
         "path": "devices/memory/S25FL256S-3byteaddr"
       },
       {
+        "altname": "S25FL256S (Hybrid at Bottom)",
         "name": "S25FL256S-hybridbottom",
         "part": true,
         "path": "devices/memory/S25FL256S-hybridbottom"
       },
       {
+        "altname": "S25FL256S (Hybrid at Top)",
         "name": "S25FL256S-hybridtop",
         "part": true,
         "path": "devices/memory/S25FL256S-hybridtop"
       },
       {
+        "altname": "S25FL512S (3-byte Addressing Mode)",
         "name": "S25FL512S",
         "part": true,
         "path": "devices/memory/S25FL512S"
       },
       {
+        "altname": "S25FL512S (4-byte Addressing Mode)",
         "name": "S25FL512S-4byteaddr",
         "part": true,
         "path": "devices/memory/S25FL512S-4byteaddr"
       },
       {
+        "altname": "S25FS064S (Uniform 256KB)",
         "name": "S25FS064S-256KBsectors",
         "part": true,
         "path": "devices/memory/S25FS064S-256KBsectors"
       },
       {
+        "altname": "S25FS064S (Uniform 64KB)",
         "name": "S25FS064S-64KBsectors",
         "part": true,
         "path": "devices/memory/S25FS064S-64KBsectors"
       },
       {
+        "altname": "S25FS064S (Hybrid at Bottom)",
         "name": "S25FS064S-hybridbottom",
         "part": true,
         "path": "devices/memory/S25FS064S-hybridbottom"
       },
       {
+        "altname": "S25FS064S (Hybrid at Top)",
         "name": "S25FS064S-hybridtop",
         "part": true,
         "path": "devices/memory/S25FS064S-hybridtop"
       },
       {
+        "altname": "S25FS128S (Hybrid at bottom, 256 KB sectors elsewhere)",
         "name": "S25FS128S-256KB-hybridbottom",
         "part": true,
         "path": "devices/memory/S25FS128S-256KB-hybridbottom"
       },
       {
+        "altname": "S25FS128S (Hybrid at top, 256 KB sectors elsewhere)",
         "name": "S25FS128S-256KB-hybridtop",
         "part": true,
         "path": "devices/memory/S25FS128S-256KB-hybridtop"
       },
       {
+        "altname": "S25FS128S (256 KB uniform sectors)",
         "name": "S25FS128S-256KB-uniform",
         "part": true,
         "path": "devices/memory/S25FS128S-256KB-uniform"
       },
       {
+        "altname": "S25FS128S (Hybrid at bottom, 64 KB sectors elsewhere)",
         "name": "S25FS128S-64KB-hybridbottom",
         "part": true,
         "path": "devices/memory/S25FS128S-64KB-hybridbottom"
       },
       {
+        "altname": "S25FS128S (Hybrid at top, 64 KB sectors elsewhere)",
         "name": "S25FS128S-64KB-hybridtop",
         "part": true,
         "path": "devices/memory/S25FS128S-64KB-hybridtop"
       },
       {
+        "altname": "S25FS128S (64 KB uniform sectors)",
         "name": "S25FS128S-64KB-uniform",
         "part": true,
         "path": "devices/memory/S25FS128S-64KB-uniform"
       },
       {
+        "altname": "S25FS256S (Hybrid at bottom, 256 KB sectors elsewhere)",
         "name": "S25FS256S-256KB-hybridbottom",
         "part": true,
         "path": "devices/memory/S25FS256S-256KB-hybridbottom"
       },
       {
+        "altname": "S25FS256S (Hybrid at top, 256 KB sectors elsewhere)",
         "name": "S25FS256S-256KB-hybridtop",
         "part": true,
         "path": "devices/memory/S25FS256S-256KB-hybridtop"
       },
       {
+        "altname": "S25FS256S (256 KB uniform sectors)",
         "name": "S25FS256S-256KB-uniform",
         "part": true,
         "path": "devices/memory/S25FS256S-256KB-uniform"
       },
       {
+        "altname": "S25FS256S (4-byte Addressing Mode)",
         "name": "S25FS256S-4byteaddr",
         "part": true,
         "path": "devices/memory/S25FS256S-4byteaddr"
       },
       {
+        "altname": "S25FS256S (Hybrid at bottom, 64 KB sectors elsewhere)",
         "name": "S25FS256S-64KB-hybridbottom",
         "part": true,
         "path": "devices/memory/S25FS256S-64KB-hybridbottom"
       },
       {
+        "altname": "S25FS256S (Hybrid at top, 64 KB sectors elsewhere)",
         "name": "S25FS256S-64KB-hybridtop",
         "part": true,
         "path": "devices/memory/S25FS256S-64KB-hybridtop"
       },
       {
+        "altname": "S25FS256S (64 KB uniform sectors)",
         "name": "S25FS256S-64KB-uniform",
         "part": true,
         "path": "devices/memory/S25FS256S-64KB-uniform"
       },
       {
+        "altname": "S25FS512S (Uniform)",
         "name": "S25FS512S",
         "part": true,
         "path": "devices/memory/S25FS512S"
       },
       {
+        "altname": "S25FS512S (Hybrid at Bottom)",
         "name": "S25FS512S-hybridbottom",
         "part": true,
         "path": "devices/memory/S25FS512S-hybridbottom"
       },
       {
+        "altname": "S25FS512S (Hybrid at Top)",
         "name": "S25FS512S-hybridtop",
         "part": true,
         "path": "devices/memory/S25FS512S-hybridtop"
       },
       {
+        "altname": "S25FS512S (Uniform - 256 KB erase sectors)",
         "name": "S25FS512S-uniform",
         "part": true,
         "path": "devices/memory/S25FS512S-uniform"
       },
       {
+        "altname": "S25HL01GT (Uniform)",
         "name": "S25HL01GT",
         "part": true,
         "path": "devices/memory/S25HL01GT"
       },
       {
+        "altname": "S25HL01GT (Hybrid at Bottom)",
         "name": "S25HL01GT-hybridbottom",
         "part": true,
         "path": "devices/memory/S25HL01GT-hybridbottom"
       },
       {
+        "altname": "S25HL01GT (Hybrid Split)",
         "name": "S25HL01GT-hybridsplit",
         "part": true,
         "path": "devices/memory/S25HL01GT-hybridsplit"
       },
       {
+        "altname": "S25HL01GT (Hybrid at Top)",
         "name": "S25HL01GT-hybridtop",
         "part": true,
         "path": "devices/memory/S25HL01GT-hybridtop"
       },
       {
+        "altname": "S25HL512T (Uniform)",
         "name": "S25HL512T",
         "part": true,
         "path": "devices/memory/S25HL512T"
       },
       {
+        "altname": "S25HL512T (Hybrid at Bottom)",
         "name": "S25HL512T-hybridbottom",
         "part": true,
         "path": "devices/memory/S25HL512T-hybridbottom"
       },
       {
+        "altname": "S25HL512T (Hybrid Split)",
         "name": "S25HL512T-hybridsplit",
         "part": true,
         "path": "devices/memory/S25HL512T-hybridsplit"
       },
       {
+        "altname": "S25HL512T (Hybrid at Top)",
         "name": "S25HL512T-hybridtop",
         "part": true,
         "path": "devices/memory/S25HL512T-hybridtop"
       },
       {
+        "altname": "S25HS01GT (Uniform)",
         "name": "S25HS01GT",
         "part": true,
         "path": "devices/memory/S25HS01GT"
       },
       {
+        "altname": "S25HS01GT (Hybrid at Bottom)",
         "name": "S25HS01GT-hybridbottom",
         "part": true,
         "path": "devices/memory/S25HS01GT-hybridbottom"
       },
       {
+        "altname": "S25HS01GT (Hybrid Split)",
         "name": "S25HS01GT-hybridsplit",
         "part": true,
         "path": "devices/memory/S25HS01GT-hybridsplit"
       },
       {
+        "altname": "S25HS01GT (Hybrid at Top)",
         "name": "S25HS01GT-hybridtop",
         "part": true,
         "path": "devices/memory/S25HS01GT-hybridtop"
       },
       {
+        "altname": "S25HS512T (Uniform)",
         "name": "S25HS512T",
         "part": true,
         "path": "devices/memory/S25HS512T"
       },
       {
+        "altname": "S25HS512T (DDR, Hybrid at Bottom)",
         "name": "S25HS512T-ddr-hybridbottom",
         "part": true,
         "path": "devices/memory/S25HS512T-ddr-hybridbottom"
       },
       {
+        "altname": "S25HS512T (Hybrid at Bottom)",
         "name": "S25HS512T-hybridbottom",
         "part": true,
         "path": "devices/memory/S25HS512T-hybridbottom"
       },
       {
+        "altname": "S25HS512T (Hybrid Split)",
         "name": "S25HS512T-hybridsplit",
         "part": true,
         "path": "devices/memory/S25HS512T-hybridsplit"
       },
       {
+        "altname": "S25HS512T (Hybrid at Top)",
         "name": "S25HS512T-hybridtop",
         "part": true,
         "path": "devices/memory/S25HS512T-hybridtop"
       },
       {
+        "altname": "S26HL01GT (Uniform)",
         "name": "S26HL01GT",
         "part": true,
         "path": "devices/memory/S26HL01GT"
       },
       {
+        "altname": "S26HL01GT (Hybrid at Bottom)",
         "name": "S26HL01GT-hybridbottom",
         "part": true,
         "path": "devices/memory/S26HL01GT-hybridbottom"
       },
       {
+        "altname": "S26HL01GT (Hybrid Split)",
         "name": "S26HL01GT-hybridsplit",
         "part": true,
         "path": "devices/memory/S26HL01GT-hybridsplit"
       },
       {
+        "altname": "S26HL01GT (Hybrid at Top)",
         "name": "S26HL01GT-hybridtop",
         "part": true,
         "path": "devices/memory/S26HL01GT-hybridtop"
       },
       {
+        "altname": "S26HL512T (Uniform)",
         "name": "S26HL512T",
         "part": true,
         "path": "devices/memory/S26HL512T"
       },
       {
+        "altname": "S26HL512T (Hybrid at Bottom)",
         "name": "S26HL512T-hybridbottom",
         "part": true,
         "path": "devices/memory/S26HL512T-hybridbottom"
       },
       {
+        "altname": "S26HL512T (Hybrid Split)",
         "name": "S26HL512T-hybridsplit",
         "part": true,
         "path": "devices/memory/S26HL512T-hybridsplit"
       },
       {
+        "altname": "S26HL512T (Hybrid at Top)",
         "name": "S26HL512T-hybridtop",
         "part": true,
         "path": "devices/memory/S26HL512T-hybridtop"
       },
       {
+        "altname": "S26HS01GT (Uniform)",
         "name": "S26HS01GT",
         "part": true,
         "path": "devices/memory/S26HS01GT"
       },
       {
+        "altname": "S26HS01GT (Hybrid at Bottom)",
         "name": "S26HS01GT-hybridbottom",
         "part": true,
         "path": "devices/memory/S26HS01GT-hybridbottom"
       },
       {
+        "altname": "S26HS01GT (Hybrid Split)",
         "name": "S26HS01GT-hybridsplit",
         "part": true,
         "path": "devices/memory/S26HS01GT-hybridsplit"
       },
       {
+        "altname": "S26HS01GT (Hybrid at Top)",
         "name": "S26HS01GT-hybridtop",
         "part": true,
         "path": "devices/memory/S26HS01GT-hybridtop"
       },
       {
+        "altname": "S26HS512T (Uniform)",
         "name": "S26HS512T",
         "part": true,
         "path": "devices/memory/S26HS512T"
       },
       {
+        "altname": "S26HS512T (Hybrid at Bottom)",
         "name": "S26HS512T-hybridbottom",
         "part": true,
         "path": "devices/memory/S26HS512T-hybridbottom"
       },
       {
+        "altname": "S26HS512T (Hybrid Split)",
         "name": "S26HS512T-hybridsplit",
         "part": true,
         "path": "devices/memory/S26HS512T-hybridsplit"
       },
       {
+        "altname": "S26HS512T (Hybrid at Top)",
         "name": "S26HS512T-hybridtop",
         "part": true,
         "path": "devices/memory/S26HS512T-hybridtop"
       },
       {
+        "altname": "S26KL128S (100 Mhz)",
         "name": "S26KL128S-100MHz",
         "part": true,
         "path": "devices/memory/S26KL128S-100MHz"
       },
       {
+        "altname": "S26KL128S (133 Mhz)",
         "name": "S26KL128S-133MHz",
         "part": true,
         "path": "devices/memory/S26KL128S-133MHz"
       },
       {
+        "altname": "S26KL128S (166 Mhz)",
         "name": "S26KL128S-166MHz",
         "part": true,
         "path": "devices/memory/S26KL128S-166MHz"
       },
       {
+        "altname": "S26KL256S (100 Mhz)",
         "name": "S26KL256S-100MHz",
         "part": true,
         "path": "devices/memory/S26KL256S-100MHz"
       },
       {
+        "altname": "S26KL256S (133 Mhz)",
         "name": "S26KL256S-133MHz",
         "part": true,
         "path": "devices/memory/S26KL256S-133MHz"
       },
       {
+        "altname": "S26KL256S (166 Mhz)",
         "name": "S26KL256S-166MHz",
         "part": true,
         "path": "devices/memory/S26KL256S-166MHz"
       },
       {
+        "altname": "S26KL512S (100 Mhz)",
         "name": "S26KL512S-100MHz",
         "part": true,
         "path": "devices/memory/S26KL512S-100MHz"
       },
       {
+        "altname": "S26KL512S (133 Mhz)",
         "name": "S26KL512S-133MHz",
         "part": true,
         "path": "devices/memory/S26KL512S-133MHz"
       },
       {
+        "altname": "S26KL512S (166 Mhz)",
         "name": "S26KL512S-166MHz",
         "part": true,
         "path": "devices/memory/S26KL512S-166MHz"
       },
       {
+        "altname": "S26KS128S (100 Mhz)",
         "name": "S26KS128S-100MHz",
         "part": true,
         "path": "devices/memory/S26KS128S-100MHz"
       },
       {
+        "altname": "S26KS128S (133 Mhz)",
         "name": "S26KS128S-133MHz",
         "part": true,
         "path": "devices/memory/S26KS128S-133MHz"
       },
       {
+        "altname": "S26KS128S (166 Mhz)",
         "name": "S26KS128S-166MHz",
         "part": true,
         "path": "devices/memory/S26KS128S-166MHz"
       },
       {
+        "altname": "S26KS256S (100 Mhz)",
         "name": "S26KS256S-100MHz",
         "part": true,
         "path": "devices/memory/S26KS256S-100MHz"
       },
       {
+        "altname": "S26KS256S (133 Mhz)",
         "name": "S26KS256S-133MHz",
         "part": true,
         "path": "devices/memory/S26KS256S-133MHz"
       },
       {
+        "altname": "S26KS256S (166 Mhz)",
         "name": "S26KS256S-166MHz",
         "part": true,
         "path": "devices/memory/S26KS256S-166MHz"
       },
       {
+        "altname": "S26KS512S (100 Mhz)",
         "name": "S26KS512S-100MHz",
         "part": true,
         "path": "devices/memory/S26KS512S-100MHz"
       },
       {
+        "altname": "S26KS512S (133 Mhz)",
         "name": "S26KS512S-133MHz",
         "part": true,
         "path": "devices/memory/S26KS512S-133MHz"
       },
       {
+        "altname": "S26KS512S (166 Mhz)",
         "name": "S26KS512S-166MHz",
         "part": true,
         "path": "devices/memory/S26KS512S-166MHz"
       },
       {
+        "altname": "S28HL01GT (Uniform)",
         "name": "S28HL01GT",
         "part": true,
         "path": "devices/memory/S28HL01GT"
       },
       {
+        "altname": "S28HL01GT (Hybrid at Bottom)",
         "name": "S28HL01GT-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HL01GT-hybridbottom"
       },
       {
+        "altname": "S28HL01GT (Hybrid Split)",
         "name": "S28HL01GT-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HL01GT-hybridsplit"
       },
       {
+        "altname": "S28HL01GT (Hybrid at Top)",
         "name": "S28HL01GT-hybridtop",
         "part": true,
         "path": "devices/memory/S28HL01GT-hybridtop"
       },
       {
+        "altname": "S28HL01GT (Octal DDR Uniform)",
         "name": "S28HL01GT-octalDDR",
         "part": true,
         "path": "devices/memory/S28HL01GT-octalDDR"
       },
       {
+        "altname": "S28HL01GT (Octal DDR Hybrid at Bottom)",
         "name": "S28HL01GT-octalDDR-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HL01GT-octalDDR-hybridbottom"
       },
       {
+        "altname": "S28HL01GT (Octal DDR Hybrid Split)",
         "name": "S28HL01GT-octalDDR-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HL01GT-octalDDR-hybridsplit"
       },
       {
+        "altname": "S28HL01GT (Octal DDR Hybrid at Top)",
         "name": "S28HL01GT-octalDDR-hybridtop",
         "part": true,
         "path": "devices/memory/S28HL01GT-octalDDR-hybridtop"
       },
       {
+        "altname": "S28HL01GT (Octal SDR Uniform)",
         "name": "S28HL01GT-octalSDR",
         "part": true,
         "path": "devices/memory/S28HL01GT-octalSDR"
       },
       {
+        "altname": "S28HL01GT (Octal SDR Hybrid at Bottom)",
         "name": "S28HL01GT-octalSDR-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HL01GT-octalSDR-hybridbottom"
       },
       {
+        "altname": "S28HL01GT (Octal SDR Hybrid Split)",
         "name": "S28HL01GT-octalSDR-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HL01GT-octalSDR-hybridsplit"
       },
       {
+        "altname": "S28HL01GT (Octal SDR Hybrid at Top)",
         "name": "S28HL01GT-octalSDR-hybridtop",
         "part": true,
         "path": "devices/memory/S28HL01GT-octalSDR-hybridtop"
       },
       {
+        "altname": "S28HL512T (Uniform)",
         "name": "S28HL512T",
         "part": true,
         "path": "devices/memory/S28HL512T"
       },
       {
+        "altname": "S28HL512T (Hybrid at Bottom)",
         "name": "S28HL512T-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HL512T-hybridbottom"
       },
       {
+        "altname": "S28HL512T (Hybrid Split)",
         "name": "S28HL512T-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HL512T-hybridsplit"
       },
       {
+        "altname": "S28HL512T (Hybrid at Top)",
         "name": "S28HL512T-hybridtop",
         "part": true,
         "path": "devices/memory/S28HL512T-hybridtop"
       },
       {
+        "altname": "S28HL512T (Octal DDR Uniform)",
         "name": "S28HL512T-octalDDR",
         "part": true,
         "path": "devices/memory/S28HL512T-octalDDR"
       },
       {
+        "altname": "S28HL512T (Octal DDR Hybrid at Bottom)",
         "name": "S28HL512T-octalDDR-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HL512T-octalDDR-hybridbottom"
       },
       {
+        "altname": "S28HL512T (Octal DDR Hybrid Split)",
         "name": "S28HL512T-octalDDR-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HL512T-octalDDR-hybridsplit"
       },
       {
+        "altname": "S28HL512T (Octal DDR Hybrid at Top)",
         "name": "S28HL512T-octalDDR-hybridtop",
         "part": true,
         "path": "devices/memory/S28HL512T-octalDDR-hybridtop"
       },
       {
+        "altname": "S28HL512T (Octal SDR Uniform)",
         "name": "S28HL512T-octalSDR",
         "part": true,
         "path": "devices/memory/S28HL512T-octalSDR"
       },
       {
+        "altname": "S28HL512T (Octal SDR Hybrid at Bottom)",
         "name": "S28HL512T-octalSDR-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HL512T-octalSDR-hybridbottom"
       },
       {
+        "altname": "S28HL512T (Octal SDR Hybrid Split)",
         "name": "S28HL512T-octalSDR-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HL512T-octalSDR-hybridsplit"
       },
       {
+        "altname": "S28HL512T (Octal SDR Hybrid at Top)",
         "name": "S28HL512T-octalSDR-hybridtop",
         "part": true,
         "path": "devices/memory/S28HL512T-octalSDR-hybridtop"
       },
       {
+        "altname": "S28HS01GT (Uniform)",
         "name": "S28HS01GT",
         "part": true,
         "path": "devices/memory/S28HS01GT"
       },
       {
+        "altname": "S28HS01GT (Hybrid at Bottom)",
         "name": "S28HS01GT-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HS01GT-hybridbottom"
       },
       {
+        "altname": "S28HS01GT (Hybrid Split)",
         "name": "S28HS01GT-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HS01GT-hybridsplit"
       },
       {
+        "altname": "S28HS01GT (Hybrid at Top)",
         "name": "S28HS01GT-hybridtop",
         "part": true,
         "path": "devices/memory/S28HS01GT-hybridtop"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Uniform)",
         "name": "S28HS01GT-octalDDR",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Uniform 200 MHz)",
         "name": "S28HS01GT-octalDDR-200MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-200MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Uniform 25 MHz)",
         "name": "S28HS01GT-octalDDR-25MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-25MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Uniform 66 MHz)",
         "name": "S28HS01GT-octalDDR-66MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-66MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid at Bottom)",
         "name": "S28HS01GT-octalDDR-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridbottom"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid at Bottom 200 MHz)",
         "name": "S28HS01GT-octalDDR-hybridbottom-200MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridbottom-200MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid at Bottom 25 MHz)",
         "name": "S28HS01GT-octalDDR-hybridbottom-25MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridbottom-25MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid at Bottom 66 MHz)",
         "name": "S28HS01GT-octalDDR-hybridbottom-66MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridbottom-66MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid Split)",
         "name": "S28HS01GT-octalDDR-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridsplit"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid Split 200 MHz)",
         "name": "S28HS01GT-octalDDR-hybridsplit-200MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridsplit-200MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid Split 25 MHz)",
         "name": "S28HS01GT-octalDDR-hybridsplit-25MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridsplit-25MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid Split 66 MHz)",
         "name": "S28HS01GT-octalDDR-hybridsplit-66MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridsplit-66MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid at Top)",
         "name": "S28HS01GT-octalDDR-hybridtop",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridtop"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid at Top 200 MHz)",
         "name": "S28HS01GT-octalDDR-hybridtop-200MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridtop-200MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid at Top 25 MHz)",
         "name": "S28HS01GT-octalDDR-hybridtop-25MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridtop-25MHz"
       },
       {
+        "altname": "S28HS01GT (Octal DDR Hybrid at Top 66 MHz)",
         "name": "S28HS01GT-octalDDR-hybridtop-66MHz",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalDDR-hybridtop-66MHz"
       },
       {
+        "altname": "S28HS01GT (Octal SDR Uniform)",
         "name": "S28HS01GT-octalSDR",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalSDR"
       },
       {
+        "altname": "S28HS01GT (Octal SDR Hybrid at Bottom)",
         "name": "S28HS01GT-octalSDR-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalSDR-hybridbottom"
       },
       {
+        "altname": "S28HS01GT (Octal SDR Hybrid Split)",
         "name": "S28HS01GT-octalSDR-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalSDR-hybridsplit"
       },
       {
+        "altname": "S28HS01GT (Octal SDR Hybrid at Top)",
         "name": "S28HS01GT-octalSDR-hybridtop",
         "part": true,
         "path": "devices/memory/S28HS01GT-octalSDR-hybridtop"
       },
       {
+        "altname": "S28HS512T (Uniform)",
         "name": "S28HS512T",
         "part": true,
         "path": "devices/memory/S28HS512T"
       },
       {
+        "altname": "S28HS512T (Hybrid at Bottom)",
         "name": "S28HS512T-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HS512T-hybridbottom"
       },
       {
+        "altname": "S28HS512T (Hybrid Split)",
         "name": "S28HS512T-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HS512T-hybridsplit"
       },
       {
+        "altname": "S28HS512T (Hybrid at Top)",
         "name": "S28HS512T-hybridtop",
         "part": true,
         "path": "devices/memory/S28HS512T-hybridtop"
       },
       {
+        "altname": "S28HS512T (Octal DDR Uniform)",
         "name": "S28HS512T-octalDDR",
         "part": true,
         "path": "devices/memory/S28HS512T-octalDDR"
       },
       {
+        "altname": "S28HS512T (Octal DDR Hybrid at Bottom)",
         "name": "S28HS512T-octalDDR-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HS512T-octalDDR-hybridbottom"
       },
       {
+        "altname": "S28HS512T (Octal DDR Hybrid Split)",
         "name": "S28HS512T-octalDDR-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HS512T-octalDDR-hybridsplit"
       },
       {
+        "altname": "S28HS512T (Octal DDR Hybrid at Top)",
         "name": "S28HS512T-octalDDR-hybridtop",
         "part": true,
         "path": "devices/memory/S28HS512T-octalDDR-hybridtop"
       },
       {
+        "altname": "S28HS512T (Octal SDR Uniform)",
         "name": "S28HS512T-octalSDR",
         "part": true,
         "path": "devices/memory/S28HS512T-octalSDR"
       },
       {
+        "altname": "S28HS512T (Octal SDR Hybrid at Bottom)",
         "name": "S28HS512T-octalSDR-hybridbottom",
         "part": true,
         "path": "devices/memory/S28HS512T-octalSDR-hybridbottom"
       },
       {
+        "altname": "S28HS512T (Octal SDR Hybrid Split)",
         "name": "S28HS512T-octalSDR-hybridsplit",
         "part": true,
         "path": "devices/memory/S28HS512T-octalSDR-hybridsplit"
       },
       {
+        "altname": "S28HS512T (Octal SDR Hybrid at Top)",
         "name": "S28HS512T-octalSDR-hybridtop",
         "part": true,
         "path": "devices/memory/S28HS512T-octalSDR-hybridtop"
       },
       {
+        "altname": "S70KL1282 (100 MHz)",
         "name": "S70KL1282-100MHz",
         "part": true,
         "path": "devices/memory/S70KL1282-100MHz"
       },
       {
+        "altname": "S70KL1282 (133 MHz)",
         "name": "S70KL1282-133MHz",
         "part": true,
         "path": "devices/memory/S70KL1282-133MHz"
       },
       {
+        "altname": "S70KL1282 (166 MHz)",
         "name": "S70KL1282-166MHz",
         "part": true,
         "path": "devices/memory/S70KL1282-166MHz"
       },
       {
+        "altname": "S70KL1282 (200 MHz)",
         "name": "S70KL1282-200MHz",
         "part": true,
         "path": "devices/memory/S70KL1282-200MHz"
       },
       {
+        "altname": "S70KS1282 (100 MHz)",
         "name": "S70KS1282-100MHz",
         "part": true,
         "path": "devices/memory/S70KS1282-100MHz"
       },
       {
+        "altname": "S70KS1282 (133 MHz)",
         "name": "S70KS1282-133MHz",
         "part": true,
         "path": "devices/memory/S70KS1282-133MHz"
       },
       {
+        "altname": "S70KS1282 (166 MHz)",
         "name": "S70KS1282-166MHz",
         "part": true,
         "path": "devices/memory/S70KS1282-166MHz"
       },
       {
+        "altname": "S70KS1282 (200 MHz)",
         "name": "S70KS1282-200MHz",
         "part": true,
         "path": "devices/memory/S70KS1282-200MHz"
       },
       {
+        "altname": "S70KS1283 (104 MHz)",
         "name": "S70KS1283-104MHz",
         "part": true,
         "path": "devices/memory/S70KS1283-104MHz"
       },
       {
+        "altname": "S70KS1283 (133 MHz)",
         "name": "S70KS1283-133MHz",
         "part": true,
         "path": "devices/memory/S70KS1283-133MHz"
       },
       {
+        "altname": "S70KS1283 (166 MHz)",
         "name": "S70KS1283-166MHz",
         "part": true,
         "path": "devices/memory/S70KS1283-166MHz"
       },
       {
+        "altname": "S70KS1283 (200 MHz)",
         "name": "S70KS1283-200MHz",
         "part": true,
         "path": "devices/memory/S70KS1283-200MHz"
       },
       {
+        "altname": "S70KS1283 (85 MHz)",
         "name": "S70KS1283-85MHz",
         "part": true,
         "path": "devices/memory/S70KS1283-85MHz"
@@ -5177,11 +5338,13 @@
         "path": "devices/memory/W25Q20CL"
       },
       {
+        "altname": "W25Q256FV (3-byte Addressing Mode)",
         "name": "W25Q256FV",
         "part": true,
         "path": "devices/memory/W25Q256FV"
       },
       {
+        "altname": "W25Q256FV (4-byte Addressing Mode)",
         "name": "W25Q256FV-4byteaddr",
         "part": true,
         "path": "devices/memory/W25Q256FV-4byteaddr"
@@ -5212,44 +5375,99 @@
         "path": "devices/MXS40"
       },
       {
-        "name": "MXS40Sv2",
+        "name": "FX3G2",
         "part": false,
-        "path": "devices/MXS40Sv2"
+        "path": "devices/MXS40/FX3G2"
       },
       {
-        "name": "CYW20829",
-        "part": false,
-        "path": "devices/MXS40Sv2/CYW20829"
-      },
-      {
-        "name": "CYW20829B0000",
+        "name": "CYUSB2315-BF104AXI",
         "part": true,
-        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0000"
+        "path": "devices/MXS40/FX3G2/CYUSB2315-BF104AXI"
       },
       {
-        "name": "CYW20829B0010",
+        "name": "CYUSB2315A-BF104AXI",
         "part": true,
-        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0010"
+        "path": "devices/MXS40/FX3G2/CYUSB2315A-BF104AXI"
       },
       {
-        "name": "CYW20829B0021",
+        "name": "CYUSB2316-BF104AXI",
         "part": true,
-        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0021"
+        "path": "devices/MXS40/FX3G2/CYUSB2316-BF104AXI"
       },
       {
-        "name": "CYW20829B0LKML",
+        "name": "CYUSB2317-BF104AXI",
         "part": true,
-        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0LKML"
+        "path": "devices/MXS40/FX3G2/CYUSB2317-BF104AXI"
       },
       {
-        "name": "CYW89829B0022",
+        "name": "CYUSB2318-BF104AXI",
         "part": true,
-        "path": "devices/MXS40Sv2/CYW20829/CYW89829B0022"
+        "path": "devices/MXS40/FX3G2/CYUSB2318-BF104AXI"
       },
       {
-        "name": "CYW89829B0232",
+        "name": "CYUSB3081-FCAXI",
         "part": true,
-        "path": "devices/MXS40Sv2/CYW20829/CYW89829B0232"
+        "path": "devices/MXS40/FX3G2/CYUSB3081-FCAXI"
+      },
+      {
+        "name": "CYUSB3082-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB3082-FCAXI"
+      },
+      {
+        "name": "CYUSB3083-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB3083-FCAXI"
+      },
+      {
+        "name": "CYUSB3084-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB3084-FCAXI"
+      },
+      {
+        "name": "CYUSB3282-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB3282-FCAXI"
+      },
+      {
+        "name": "CYUSB3284-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB3284-FCAXI"
+      },
+      {
+        "name": "CYUSB4011-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB4011-FCAXI"
+      },
+      {
+        "name": "CYUSB4012-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB4012-FCAXI"
+      },
+      {
+        "name": "CYUSB4013-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB4013-FCAXI"
+      },
+      {
+        "name": "CYUSB4014-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB4014-FCAXI"
+      },
+      {
+        "name": "CYUSB4021-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB4021-FCAXI"
+      },
+      {
+        "name": "CYUSB4022-FCAXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB4022-FCAXI"
+      },
+      {
+        "name": "CYUSB4024-BZXI",
+        "part": true,
+        "path": "devices/MXS40/FX3G2/CYUSB4024-BZXI"
       },
       {
         "name": "PSoC6A256K",
@@ -6342,6 +6560,21 @@
         "path": "devices/MXS40/TVIIBE1M/CYT2B78CAS"
       },
       {
+        "name": "XMC5200-F100K1088AA",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/XMC5200-F100K1088AA"
+      },
+      {
+        "name": "XMC5200-F144K1088AA",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/XMC5200-F144K1088AA"
+      },
+      {
+        "name": "XMC5200-F64K1088AA",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/XMC5200-F64K1088AA"
+      },
+      {
         "name": "TVIIBE2M",
         "part": false,
         "path": "devices/MXS40/TVIIBE2M"
@@ -6880,6 +7113,46 @@
         "name": "CYT4DNJBZS",
         "part": true,
         "path": "devices/MXS40/TVIIC2D6M/CYT4DNJBZS"
+      },
+      {
+        "name": "MXS40Sv2",
+        "part": false,
+        "path": "devices/MXS40Sv2"
+      },
+      {
+        "name": "CYW20829",
+        "part": false,
+        "path": "devices/MXS40Sv2/CYW20829"
+      },
+      {
+        "name": "CYW20829B0000",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0000"
+      },
+      {
+        "name": "CYW20829B0010",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0010"
+      },
+      {
+        "name": "CYW20829B0021",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0021"
+      },
+      {
+        "name": "CYW20829B0LKML",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0LKML"
+      },
+      {
+        "name": "CYW89829B0022",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW89829B0022"
+      },
+      {
+        "name": "CYW89829B0232",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW89829B0232"
       },
       {
         "name": "XMC",

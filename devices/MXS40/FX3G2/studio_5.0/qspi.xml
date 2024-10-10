@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyDevice xmlns="http://cypress.com/xsd/cy_qspi_configurator_device_v1">
+  <DisplayName>CAT1A</DisplayName>
+  <StartAddress>0x18000000</StartAddress>
+  <EndAddress>0x1C000000</EndAddress>
+  <SupportsV3>false</SupportsV3>
+  <Default>false</Default>
+  <HasInternalFlash>true</HasInternalFlash>
+  <HasPatchableFlashloaders>false</HasPatchableFlashloaders>
+</CyDevice>

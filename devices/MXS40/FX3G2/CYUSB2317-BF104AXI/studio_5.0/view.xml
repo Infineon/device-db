@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CYUSB2317-BF104AXI" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="FX3G2" />
+    <Param name="Silicon_Revision" value="SAMPLING" />
+    <Param name="Package" value="104-LGA" />
+    <Param name="DeviceSeries" value="FX2G3" />
+    <Param name="Cores_REMOVED" value="NA" />
+    <Param name="Speed_MHz" value="100" />
+    <Param name="Flash_KB" value="512" />
+    <Param name="SRAM_KB" value="128" />
+    <Param name="BUFRAM_KB" value="512" />
+    <Param name="Bluetooth" value="NA" />
+    <Param name="AltHF" value="Y" />
+    <Param name="UDB_Count" value="0" />
+    <Param name="Preconfigured_Blocks" value="NA" />
+    <Param name="SAR12_Count" value="0" />
+    <Param name="SAR12_REMOVED" value="NA" />
+    <Param name="SAR12Sample_ksps" value="NA" />
+    <Param name="OpAmp_Count" value="0" />
+    <Param name="OpAmp_Removed" value="NA" />
+    <Param name="LPComp_Count" value="0" />
+    <Param name="LPComp_REMOVED" value="NA" />
+    <Param name="DAC8_Count" value="0" />
+    <Param name="DAC8_removed" value="NA" />
+    <Param name="DAC12_Count" value="0" />
+    <Param name="DAC12_removed" value="NA" />
+    <Param name="SampleHold_COUNT" value="0" />
+    <Param name="SampleHold_REMOVED" value="NA" />
+    <Param name="SDHC_COUNT" value="0" />
+    <Param name="SDHC_REMOVED" value="NA" />
+    <Param name="SCB_Count" value="5" />
+    <Param name="SCB_removed" value="2;3" />
+    <Param name="CAN_FD" value="Y" />
+    <Param name="TimerCounterPWM_Count" value="2" />
+    <Param name="TimerCounterPWM_removed" value="0;1;3;5;6;7" />
+    <Param name="USB_Type" value="FS" />
+    <Param name="SSUSB_Type" value="USBHS" />
+    <Param name="LVDS_IF" value="N" />
+    <Param name="LVCMOS_IF" value="Y" />
+    <Param name="CapSense" value="N" />
+    <Param name="TMG" value="N" />
+    <Param name="CapSenseADC" value="N" />
+    <Param name="SMIF" value="Y" />
+    <Param name="Crypto" value="N" />
+    <Param name="I2S_Count" value="0" />
+    <Param name="I2S_removed" value="0" />
+    <Param name="PDM_Count" value="1" />
+    <Param name="PDM_removed" value="NA" />
+    <Param name="DirDriveLCD" value="N" />
+    <Param name="DMAchannels_count" value="48" />
+    <Param name="DMACchannels_count" value="6" />
+    <Param name="IO_Count" value="33" />
+    <Param name="Power_Modes" value="ANY" />
+    <Param name="Vddmin_volts" value="1.7" />
+    <Param name="Vddmax_volts" value="3.6" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="85" />
+    <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
+    <Param name="SiliconID" value="0xED56111C" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="NA" />
+    <Param name="EDITING_SUPPORT" value="Schematic" />
+    <Param name="PROJECT_TEMPLATE" value="" />
+    <Param name="ECO" value="Y" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT1" />
+    <DevComp name="CAT1A" />
+    <DevComp name="FX3G2" />
+  </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="can" />
+    <DevCap name="cat1" />
+    <DevCap name="cat1a" />
+    <DevCap name="dma" />
+    <DevCap name="flash_512k" />
+    <DevCap name="fx2g3" />
+    <DevCap name="i2c" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="multi_core" />
+    <DevCap name="pdm" />
+    <DevCap name="qspi" />
+    <DevCap name="spi" />
+    <DevCap name="sram_128k" />
+    <DevCap name="uart" />
+    <DevCap name="usb_device" />
+    <DevCap name="usb_host" />
+  </DeviceCapabilities>
+  <DeviceCategory>CAT1A</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
+  <provides>
+    <provide key="bt-uart" />
+    <provide key="wifi-spi" />
+  </provides>
+  <ToolIDs>
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="library-manager" />
+    <ToolID name="lin-configurator" />
+    <ToolID name="ml-configurator" />
+    <ToolID name="project-creator" />
+    <ToolID name="qspi-configurator" />
+    <ToolID name="usbdev-configurator" />
+  </ToolIDs>
+</View>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cybtview_v1">
+  <StackOptions>
+    <StackOption value="Option2" type="mcu" />
+  </StackOptions>
+  <Parameters>
+    <Param name="TXPowerLevels" value="0,1,2,3,4,5,6,7,8,9,10" />
+    <Param name="MaxRemoteClientsConnections" value="255" />
+    <Param name="MaxRemoteServersConnections" value="255" />
+  </Parameters>
+</View>
