@@ -40,7 +40,7 @@
       * [PMG1S1](#pmg1s1)
       * [PMG1S2](#pmg1s2)
       * [PMG1S3](#pmg1s3)
-    * [PSoC™ 4](#psoc-4)
+    * [PSOC™ 4](#psoc-4)
       * [PSoC 4000S](#psoc-4000s)
       * [PSoC 4000T](#psoc-4000t)
       * [PSoC 4100S](#psoc-4100s)
@@ -49,12 +49,17 @@
       * [PSoC 4500H](#psoc-4500h)
       * [PSoC 4500S](#psoc-4500s)
       * [PSoC 4700S](#psoc-4700s)
-    * [PSoC™ 6](#psoc-6)
+    * [PSOC™ 6](#psoc-6)
       * [PSoC 60](#psoc-60)
       * [PSoC 61](#psoc-61)
       * [PSoC 62](#psoc-62)
       * [PSoC 63](#psoc-63)
       * [PSoC 64](#psoc-64)
+    * [PSOC™ Control](#psoc-control)
+      * [PSC3M3](#psc3m3)
+      * [PSC3M5](#psc3m5)
+      * [PSC3P2](#psc3p2)
+      * [PSC3P5](#psc3p5)
     * [TRAVEO™](#traveo)
       * [CYT2B6](#cyt2b6)
       * [CYT2B7](#cyt2b7)
@@ -254,7 +259,7 @@
 * [CYPM1311-48LQXI](https://www.infineon.com/cms/en/product/universal-serial-bus/usb-c-high-voltage-microcontrollers/ez-pd-pmg1-s3-high-voltage-mcu-with-usb-c-pd/cypm1311-48ldxi/)
 * [CYPM1321-97BZXIT](https://www.infineon.com/cms/en/product/universal-serial-bus/usb-c-high-voltage-microcontrollers/ez-pd-pmg1-s3-high-voltage-mcu-with-usb-c-pd/cypm1321-97bzxit/)
 
-## PSoC™ 4
+## PSOC™ 4
 
 ### PSoC 4000S
 * [CY8C4024FNI-S402](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4024fni-s402t/)
@@ -995,7 +1000,7 @@
 * [CY8C4746LQS-S263](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/automotive-psoc-4-32-bit-arm-cortex-m0-mcu/automotive-psoc-4-s-series/automotive-psoc-4700s-plus/cy8c4746lqs-s263/)
 * [CY8C4747LQS-S453](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/automotive-psoc-4-32-bit-arm-cortex-m0-mcu/automotive-psoc-4-s-series/automotive-psoc-4700s-plus/cy8c4747lqs-s453/)
 
-## PSoC™ 6
+## PSOC™ 6
 
 ### PSoC 60
 * [CY8C6036BZI-F04](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6036bzi-f04/)
@@ -1181,6 +1186,50 @@
 * [CYS0644ABZI-S2D44](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cys0644abzi-s2d44/)
 * CYS0644AFNI-S2D43
 * [CYB06445LQI-S3D42](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cyb06445lqi-s3d42/)
+
+## PSOC™ Control
+
+### PSC3M3
+* PSC3M3EDLGQ1
+* PSC3M3FDS2LGQ1
+* PSC3M3EDACQ1
+* PSC3M3FDS2ACQ1
+* PSC3M3EDLHQ1
+* PSC3M3FDS2LHQ1
+* PSC3M3EDABQ1
+* PSC3M3FDS2ABQ1
+
+### PSC3M5
+* PSC3M5FDS2AFQ1
+* PSC3M5FDS2LGQ1
+* PSC3M5FDS2ACQ1
+* PSC3M5FDS2LHQ1
+* PSC3M5FDS2ABQ1
+* PSC3M5EDAFQ1
+* PSC3M5EDLGQ1
+* PSC3M5EDACQ1
+* PSC3M5EDLHQ1
+* PSC3M5EDABQ1
+
+### PSC3P2
+* PSC3P2EDLGQ1
+* PSC3P2FDS2LGQ1
+* PSC3P2EDACQ1
+* PSC3P2FDS2ACQ1
+* PSC3P2EDLHQ1
+* PSC3P2FDS2LHQ1
+* PSC3P2EDABQ1
+* PSC3P2FDS2ABQ1
+
+### PSC3P5
+* PSC3P5EDLGQ1
+* PSC3P5FDS2LGQ1
+* PSC3P5EDACQ1
+* PSC3P5FDS2ACQ1
+* PSC3P5EDLHQ1
+* PSC3P5FDS2LHQ1
+* PSC3P5EDABQ1
+* PSC3P5FDS2ABQ1
 
 ## TRAVEO™
 

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="PSC3M3FDS2LGQ1" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="BOY2" />
+    <Param name="Silicon_Revision" value="0x11" />
+    <Param name="Package" value="VQFN-48" />
+    <Param name="CPU" value="ARM CM33" />
+    <Param name="DeviceSeries" value="PSC3M3" />
+    <Param name="Speed_MHz" value="100" />
+    <Param name="Flash_KB" value="256" />
+    <Param name="ROM_KB" value="64" />
+    <Param name="SRAM_KB" value="64" />
+    <Param name="Bluetooth" value="NA" />
+    <Param name="ADC_Count" value="1" />
+    <Param name="ADC_removed" value="NA" />
+    <Param name="ADC_CH_Count" value="15" />
+    <Param name="ADC_CH_Removed" value="6;7;8;14;16;17;18;20;22;23;24;26;27" />
+    <Param name="ADCSample_ksps" value="6000" />
+    <Param name="LPComp_Count" value="2" />
+    <Param name="LPComp_REMOVED" value="NA" />
+    <Param name="SCB_Count" value="4" />
+    <Param name="SCB_removed" value="4;5" />
+    <Param name="CAN_FD" value="Y" />
+    <Param name="16Bit_TimerPWM_Count" value="16" />
+    <Param name="16Bit_TimerPWM_removed" value="NA" />
+    <Param name="32Bit_TimerPWM_Count" value="4" />
+    <Param name="32Bit_TimerPWM_removed" value="NA" />
+    <Param name="HRPWM" value="N" />
+    <Param name="CORDIC" value="Y" />
+    <Param name="MOTIF" value="Y" />
+    <Param name="LIN_Count" value="0" />
+    <Param name="LIN_Removed" value="NA" />
+    <Param name="USB_Type" value="NA" />
+    <Param name="SMIF" value="N" />
+    <Param name="Crypto" value="Y" />
+    <Param name="Security" value="EPC2" />
+    <Param name="I2S_Count" value="0" />
+    <Param name="I2S_removed" value="NA" />
+    <Param name="PDM_Count" value="0" />
+    <Param name="PDM_removed" value="NA" />
+    <Param name="DirDriveLCD" value="N" />
+    <Param name="DMAchannels_count" value="32" />
+    <Param name="DMACchannels_count" value="0" />
+    <Param name="IO_Count" value="29" />
+    <Param name="Vddmin_volts" value="1.71" />
+    <Param name="Vddmax_volts" value="3.63" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="105" />
+    <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
+    <Param name="SiliconID" value="0xEE551118" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="NA" />
+    <Param name="ECO" value="N" />
+    <Param name="WCO" value="N" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT1" />
+    <DevComp name="CAT1B" />
+    <DevComp name="PSC3" />
+  </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="can" />
+    <DevCap name="cat1" />
+    <DevCap name="cat1b" />
+    <DevCap name="comp" />
+    <DevCap name="dma" />
+    <DevCap name="flash_256k" />
+    <DevCap name="hal" />
+    <DevCap name="hppass" />
+    <DevCap name="i2c" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="rtc" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_64k" />
+    <DevCap name="std_crypto" />
+    <DevCap name="uart" />
+  </DeviceCapabilities>
+  <DeviceCategory>CAT1B</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat1</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
+  <ToolIDs>
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="library-manager" />
+    <ToolID name="motor-suite-gui" />
+    <ToolID name="power-conversion-configurator" />
+    <ToolID name="project-creator" />
+    <ToolID name="smartio-configurator" />
+  </ToolIDs>
+</View>
