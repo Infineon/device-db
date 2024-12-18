@@ -27,8 +27,10 @@
     <Param name="SCB_removed" value="NA" />
     <Param name="TimerCounterPWM_Count" value="2" />
     <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="MSCLP" value="Y" />
     <Param name="CapSense" value="Y" />
     <Param name="Inductive Sensing" value="Y" />
+    <Param name="MultiSense" value="Y" />
     <Param name="TMG" value="Y" />
     <Param name="DirDriveLCD" value="N" />
     <Param name="DMAchannels_count" value="0" />

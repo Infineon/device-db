@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cyhobtoview_v1">
   <Cores>
-    <Core type="CortexM0" count="1" displayName="ARM Cortex-M0" define="CM0" default-index="0" />
+    <Core type="CortexM0" count="1" displayName="CM0" define="CM0" default-index="0" />
   </Cores>
   <Clocks file="clocks" />
   <IPs file="ipblocks" />

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CY8C4146LDE-HVS004X" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="PSOC4HVMS64K" />
+    <Param name="Silicon_Revision" value="PRODUCTION" />
+    <Param name="Package" value="48-QFN" />
+    <Param name="CPU" value="ARM CM0+" />
+    <Param name="DeviceSeries" value="PSoC 4 HV MS 64k" />
+    <Param name="Speed_MHz" value="48" />
+    <Param name="Flash_KB" value="64" />
+    <Param name="Data Flash_KB" value="0" />
+    <Param name="SRAM_KB" value="8" />
+    <Param name="UDB_Count" value="0" />
+    <Param name="SAR12_Count" value="1" />
+    <Param name="SAR12_REMOVED" value="NA" />
+    <Param name="SAR12Sample_ksps" value="1Msps" />
+    <Param name="OpAmp_Count" value="0" />
+    <Param name="OpAmp_Removed" value="NA" />
+    <Param name="LPComp_Count" value="2" />
+    <Param name="LPComp_REMOVED" value="2;3" />
+    <Param name="DAC8_Count" value="0" />
+    <Param name="DAC8_removed" value="NA" />
+    <Param name="SCB_Count" value="2" />
+    <Param name="TimerCounterPWM_Count" value="5" />
+    <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="USB_Type" value="NA" />
+    <Param name="Crypto" value="N" />
+    <Param name="CapSense" value="N" />
+    <Param name="DirDriveLCD" value="N" />
+    <Param name="DMAchannels_count" value="8" />
+    <Param name="IO_Count" value="33" />
+    <Param name="Vddmin_volts" value="3.6" />
+    <Param name="Vddmax_volts" value="28" />
+    <Param name="VdddMv" value="3300" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="125" />
+    <Param name="Automotive_qualified" value="Yes" />
+    <Param name="SiliconID" value="0x394011C9" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="NA" />
+    <Param name="PROJECT_TEMPLATE" value="" />
+    <Param name="WCO" value="N" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT2" />
+    <DevComp name="PSOC4HVMS64K" />
+  </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="cat2" />
+    <DevCap name="comp" />
+    <DevCap name="cxpi" />
+    <DevCap name="dma" />
+    <DevCap name="flash_64k" />
+    <DevCap name="i2c" />
+    <DevCap name="lin" />
+    <DevCap name="low_power" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="psoc4" />
+    <DevCap name="psoc4hvms" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_8k" />
+    <DevCap name="uart" />
+  </DeviceCapabilities>
+  <DeviceCategory>CAT2</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
+  <ToolIDs>
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="library-manager" />
+    <ToolID name="project-creator" />
+    <ToolID name="smartio-configurator" />
+  </ToolIDs>
+</View>
