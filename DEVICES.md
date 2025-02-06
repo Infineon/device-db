@@ -48,6 +48,7 @@
       * [PSoC 4100S](#psoc-4100s)
       * [PSoC 4100S Max](#psoc-4100s-max)
       * [PSoC 4100S Plus](#psoc-4100s-plus)
+      * [PSOC 4100T Plus](#psoc-4100t-plus)
       * [PSoC 4500H](#psoc-4500h)
       * [PSoC 4500S](#psoc-4500s)
       * [PSoC 4700S](#psoc-4700s)
@@ -1046,6 +1047,48 @@
 * CY8C4148LQI-S446
 * CY8C4148LQQ-S456
 
+### PSOC 4100T Plus
+* CY8C4146LQI-T403
+* CY8C4146AXI-T403
+* CY8C4146AZI-T403
+* CY8C4146AZI-T405
+* CY8C4146LQI-T413
+* CY8C4146AXI-T413
+* CY8C4146AZI-T413
+* CY8C4146AZI-T415
+* CY8C4146LQI-T453
+* CY8C4146AXI-T453
+* CY8C4146AZI-T453
+* CY8C4146AZI-T455
+* CY8C4147LQI-T403
+* CY8C4147AXI-T403
+* CY8C4147AZI-T403
+* CY8C4147AZI-T405
+* CY8C4147LQI-T413
+* CY8C4147AXI-T413
+* CY8C4147AZI-T413
+* CY8C4147AZI-T415
+* CY8C4147LQI-T453
+* CY8C4147AXI-T453
+* CY8C4147AZI-T453
+* CY8C4147AZI-T455
+* CY8C4147LQI-T463
+* CY8C4147AXI-T463
+* CY8C4147AZI-T463
+* CY8C4147AZI-T465
+* CY8C4147LQI-T473
+* CY8C4147AXI-T473
+* CY8C4147AZI-T473
+* CY8C4147AZI-T475
+* CY8C4147LQQ-T493
+* CY8C4147AXQ-T493
+* CY8C4147AZQ-T493
+* CY8C4147AZQ-T495
+* CY8C4146AZQ-T413
+* CY8C4146AZQ-T453
+* CY8C4147AZQ-T415
+* CY8C4147AZQ-T455
+
 ### PSoC 4500H
 * CY8C4588AZI-H685
 * CY8C4588AZI-H686
@@ -1512,6 +1555,8 @@
 * [XMC1100-T038x0016](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100-t038f0016-ab/)
 * [XMC1100-T038x0032](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100-t038f0032-ab/)
 * [XMC1100-T038x0064](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100-t038x0064-ab/)
+* [XMC1100-T038x0128](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100-t038x0128-ab/)
+* [XMC1100-T038x0200](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100-t038x0200-ab/)
 * [XMC1100-Q024x0008](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100-q024f0008-ab/)
 * [XMC1100-Q024x0016](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100-q024f0016-ab/)
 * [XMC1100-Q024x0032](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1100-q024f0032-ab/)

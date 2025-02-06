@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CY8C4146AZQ-T413" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="PSOC4NEXT" />
+    <Param name="Silicon_Revision" value="PRODUCTION" />
+    <Param name="Package" value="48-TQFP" />
+    <Param name="CPU" value="ARM CM0+" />
+    <Param name="DeviceSeries" value="PSOC 4100T Plus" />
+    <Param name="Speed_MHz" value="48" />
+    <Param name="Flash_KB" value="64" />
+    <Param name="SRAM_KB" value="16" />
+    <Param name="UDB_Count" value="0" />
+    <Param name="SAR12_Count" value="1" />
+    <Param name="SAR12_REMOVED" value="NA" />
+    <Param name="SAR12Sample_ksps" value="NA" />
+    <Param name="OpAmp_Count" value="0" />
+    <Param name="OpAmp_Removed" value="NA" />
+    <Param name="LPComp_Count" value="0" />
+    <Param name="LPComp_REMOVED" value="NA" />
+    <Param name="Comp_Count" value="0" />
+    <Param name="Comp_REMOVED" value="NA" />
+    <Param name="DAC8_Count" value="0" />
+    <Param name="DAC8_removed" value="NA" />
+    <Param name="SCB_Count" value="5" />
+    <Param name="SCB_removed" value="NA" />
+    <Param name="TimerCounterPWM_Count" value="6" />
+    <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="MSCLP" value="Y" />
+    <Param name="CapSense" value="Y" />
+    <Param name="Inductive Sensing" value="N" />
+    <Param name="MultiSense" value="N" />
+    <Param name="TMG" value="N" />
+    <Param name="DirDriveLCD" value="N" />
+    <Param name="DMAchannels_count" value="8" />
+    <Param name="IO_Count" value="38" />
+    <Param name="Vddmin_volts" value="1.71" />
+    <Param name="Vddmax_volts" value="5.5" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="105" />
+    <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
+    <Param name="SiliconID" value="0x402411D0" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="NA" />
+    <Param name="EDITING_SUPPORT" value="Schematic" />
+    <Param name="PROJECT_TEMPLATE" value="" />
+    <Param name="WCO" value="Y" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="CAT2" />
+    <DevComp name="PSOC4100TP" />
+  </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="capsense" />
+    <DevCap name="cat2" />
+    <DevCap name="dma" />
+    <DevCap name="flash_64k" />
+    <DevCap name="i2c" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="msclp" />
+    <DevCap name="psoc4" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_16k" />
+    <DevCap name="uart" />
+  </DeviceCapabilities>
+  <DeviceCategory>CAT2</DeviceCategory>
+  <TemplateAssetTag>mtb-template-cat2</TemplateAssetTag>
+  <types>
+    <type name="mcu" />
+  </types>
+  <ToolIDs>
+    <ToolID name="capsense-configurator" />
+    <ToolID name="capsense-tuner" />
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="library-manager" />
+    <ToolID name="lin-configurator" />
+    <ToolID name="project-creator" />
+    <ToolID name="smartio-configurator" />
+  </ToolIDs>
+</View>

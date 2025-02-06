@@ -24,6 +24,10 @@
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55572/" />
   </Parameters>
+  <DeviceComponents>
+    <DevComp name="55572" types="companion-connectivity" />
+    <DevComp name="55572A1" types="companion-connectivity" />
+  </DeviceComponents>
   <DeviceCapabilities>
     <DevCap name="bt" />
     <DevCap name="btsdk" types="mcu" />
@@ -38,7 +42,14 @@
   </DeviceCapabilities>
   <types>
     <type name="mcu" />
+    <type name="companion-connectivity" />
   </types>
+  <requires>
+    <one-of>
+      <require key="wifi-sdio" />
+    </one-of>
+    <require key="bt-uart" />
+  </requires>
   <ToolIDs>
     <ToolID name="bt-configurator" />
     <ToolID name="device-configurator" />

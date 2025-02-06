@@ -56,8 +56,10 @@
     <DevCap name="cat2" />
     <DevCap name="flash_32k" />
     <DevCap name="i2c" />
+    <DevCap name="inductive" />
     <DevCap name="low_power" />
     <DevCap name="mcu_gp" />
+    <DevCap name="msclp" />
     <DevCap name="psoc4" />
     <DevCap name="spi" />
     <DevCap name="sram_4k" />
@@ -69,6 +71,8 @@
     <type name="mcu" />
   </types>
   <ToolIDs>
+    <ToolID name="capsense-configurator" />
+    <ToolID name="capsense-tuner" />
     <ToolID name="device-configurator" />
     <ToolID name="dfuh-tool" />
     <ToolID name="library-manager" />

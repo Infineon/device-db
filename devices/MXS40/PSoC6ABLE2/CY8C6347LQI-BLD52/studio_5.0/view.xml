@@ -39,8 +39,8 @@
     <Param name="SMIF" value="Y" />
     <Param name="Crypto" value="Y" />
     <Param name="Security" value="NA" />
-    <Param name="I2S_Count" value="1" />
-    <Param name="I2S_removed" value="NA" />
+    <Param name="I2S_Count" value="0" />
+    <Param name="I2S_removed" value="0" />
     <Param name="PDM_Count" value="1" />
     <Param name="PDM_removed" value="NA" />
     <Param name="DirDriveLCD" value="Y" />
@@ -79,7 +79,6 @@
     <DevCap name="flash_1024k" />
     <DevCap name="hal" />
     <DevCap name="i2c" />
-    <DevCap name="i2s" />
     <DevCap name="low_power" />
     <DevCap name="lptimer" />
     <DevCap name="mcu_gp" />
