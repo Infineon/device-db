@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CYW55533IUBGT" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="55530A0" />
+    <Param name="Silicon_Revision" value="SAMPLING" />
+    <Param name="Package" value="74-WLBGA" />
+    <Param name="CPU" value="ARM CM33" />
+    <Param name="DeviceSeries" value="55533" />
+    <Param name="Speed_MHz" value="192" />
+    <Param name="Flash_KB" value="0" />
+    <Param name="ROM_KB" value="2048" />
+    <Param name="SRAM_KB" value="768" />
+    <Param name="Bluetooth" value="NA" />
+    <Param name="WiFi" value="6" />
+    <Param name="USB_Type" value="HS" />
+    <Param name="Vddmin_volts" value="3" />
+    <Param name="Vddmax_volts" value="4.8" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="85" />
+    <Param name="SiliconID" value="0x00000000" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="NA" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="55530" />
+  </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="cyw55533" />
+    <DevCap name="cyw55xxx" />
+    <DevCap name="flash_0k" types="mcu" />
+    <DevCap name="sram_768k" types="mcu" />
+    <DevCap name="wifi" />
+  </DeviceCapabilities>
+  <types>
+    <type name="companion-connectivity" />
+  </types>
+  <requires>
+    <one-of>
+      <require key="wifi-sdio" />
+      <require key="wifi-spi" />
+      <require key="wifi-usb" />
+    </one-of>
+  </requires>
+  <ToolIDs>
+    <ToolID name="device-configurator" />
+    <ToolID name="library-manager" />
+    <ToolID name="project-creator" />
+  </ToolIDs>
+</View>

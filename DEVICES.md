@@ -25,6 +25,7 @@
       * [4373E](#4373e)
       * [4390x](#4390x)
       * [55513](#55513)
+      * [55533](#55533)
       * [55572](#55572)
       * [55913](#55913)
     * [CCG](#ccg)
@@ -153,6 +154,8 @@
 ### 89829
 * CYW89829B0022
 * CYW89829B0232
+* CYW89829B0062
+* CYW89829B1062
 
 ## AIROC™ Connectivity
 
@@ -187,6 +190,9 @@
 
 ### 55513
 * CYW55513IUBG
+
+### 55533
+* CYW55533IUBGT
 
 ### 55572
 * [CYW55572MIWBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55572/)
@@ -226,6 +232,9 @@
 * CYPD7172-39BFXQ
 * CYPD7173-39BFXQ
 * CYPD7198-39BFXS
+* CYPD7194-40BFXS
+* CYPD7195-40BFXS
+* CYPD7196-40BFXS
 
 ### CCG8
 * CYPD8225-97BZXIT
@@ -459,6 +468,7 @@
 * CY8C4046LQI-T441
 * CY8C4046FNI-T442
 * CY8C4026LQI-T441
+* CY8C4046LQQ-T412
 
 ### PSoC 4100S
 * [CY8C4124FNI-S403](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4124fni-s403t/)

@@ -252,6 +252,16 @@
         "path": "devices/Connectivity-BT-WIFI/55500A1/CYW55513IUBG"
       },
       {
+        "name": "55530A0",
+        "part": false,
+        "path": "devices/Connectivity-BT-WIFI/55530A0"
+      },
+      {
+        "name": "CYW55533IUBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55530A0/CYW55533IUBGT"
+      },
+      {
         "name": "55572A1",
         "part": false,
         "path": "devices/Connectivity-BT-WIFI/55572A1"
@@ -470,6 +480,21 @@
         "name": "CYPD7193-39BFXS",
         "part": true,
         "path": "devices/M0S8/CCG7S/CYPD7193-39BFXS"
+      },
+      {
+        "name": "CYPD7194-40BFXS",
+        "part": true,
+        "path": "devices/M0S8/CCG7S/CYPD7194-40BFXS"
+      },
+      {
+        "name": "CYPD7195-40BFXS",
+        "part": true,
+        "path": "devices/M0S8/CCG7S/CYPD7195-40BFXS"
+      },
+      {
+        "name": "CYPD7196-40BFXS",
+        "part": true,
+        "path": "devices/M0S8/CCG7S/CYPD7196-40BFXS"
       },
       {
         "name": "CYPD7198-39BFXS",
@@ -4165,6 +4190,11 @@
         "name": "CY8C4046LQI-T452",
         "part": true,
         "path": "devices/M0S8/PSoC4ASF2/CY8C4046LQI-T452"
+      },
+      {
+        "name": "CY8C4046LQQ-T412",
+        "part": true,
+        "path": "devices/M0S8/PSoC4ASF2/CY8C4046LQQ-T412"
       },
       {
         "name": "PSOC4HVMS128K",
@@ -8031,9 +8061,19 @@
         "path": "devices/MXS40Sv2/CYW20829/CYW89829B0022"
       },
       {
+        "name": "CYW89829B0062",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW89829B0062"
+      },
+      {
         "name": "CYW89829B0232",
         "part": true,
         "path": "devices/MXS40Sv2/CYW20829/CYW89829B0232"
+      },
+      {
+        "name": "CYW89829B1062",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW89829B1062"
       },
       {
         "name": "XMC",
