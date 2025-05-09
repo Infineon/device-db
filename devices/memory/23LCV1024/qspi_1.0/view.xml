@@ -1,6 +1,6 @@
 
 <CyMemoryConfiguration version="2" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
-    <PartNumber>23LCV1024</PartNumber>
+    <PartNumber volatile="true">23LCV1024</PartNumber>
     <Configuration></Configuration>
     <Description>1 Mb Serial SRAM</Description>
     <NumberOfAddress>0x03</NumberOfAddress>

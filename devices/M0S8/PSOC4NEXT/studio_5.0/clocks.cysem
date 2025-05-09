@@ -39,7 +39,7 @@
         <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
-        <Value>Internal Main Oscillator: The IMO is the primary source of internal clocking. It is trimmed during testing to achieve the specified accuracy.The IMO default frequency is 24 MHz and it can be adjusted from 24 to 48 MHz in steps of 4 MHz. The IMO tolerance with Cypress-provided calibration settings is ±2%.</Value>
+        <Value>Internal Main Oscillator: The IMO is the primary source of internal clocking. It is trimmed during testing to achieve the specified accuracy.The IMO default frequency is 24 MHz and it can be adjusted from 24 to 48 MHz in steps of 4 MHz. The IMO tolerance with Infineon-provided calibration settings is ±2%.</Value>
       </Parameter>
     </Instance>
     <Instance guid="1f58e231-8d24-4b55-83e0-bf6c5dbe639d" name="SYSCLK" component="clock_side">

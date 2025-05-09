@@ -1,6 +1,6 @@
 
 <CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
-    <PartNumber>APS6404L</PartNumber>
+    <PartNumber volatile="true">APS6404L</PartNumber>
     <Description>64Mb Pseudo-SRAM</Description>
     <NumberOfAddress>0x03</NumberOfAddress>
     <SizeOfMemory>0x800000</SizeOfMemory>

@@ -262,19 +262,84 @@
         "path": "devices/Connectivity-BT-WIFI/55530A0/CYW55533IUBGT"
       },
       {
-        "name": "55572A1",
+        "name": "55571A2",
         "part": false,
-        "path": "devices/Connectivity-BT-WIFI/55572A1"
+        "path": "devices/Connectivity-BT-WIFI/55571A2"
+      },
+      {
+        "name": "CYW55571MIFFBG",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55571A2/CYW55571MIFFBG"
+      },
+      {
+        "name": "CYW55571MIWBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55571A2/CYW55571MIWBGT"
+      },
+      {
+        "name": "55571A3",
+        "part": false,
+        "path": "devices/Connectivity-BT-WIFI/55571A3"
+      },
+      {
+        "name": "CYW55570MIUBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55571A3/CYW55570MIUBGT"
+      },
+      {
+        "name": "CYW55571MIUBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55571A3/CYW55571MIUBGT"
+      },
+      {
+        "name": "55572A2",
+        "part": false,
+        "path": "devices/Connectivity-BT-WIFI/55572A2"
       },
       {
         "name": "CYW55572MIFFBG",
         "part": true,
-        "path": "devices/Connectivity-BT-WIFI/55572A1/CYW55572MIFFBG"
+        "path": "devices/Connectivity-BT-WIFI/55572A2/CYW55572MIFFBG"
       },
       {
         "name": "CYW55572MIWBGT",
         "part": true,
-        "path": "devices/Connectivity-BT-WIFI/55572A1/CYW55572MIWBGT"
+        "path": "devices/Connectivity-BT-WIFI/55572A2/CYW55572MIWBGT"
+      },
+      {
+        "name": "55572A3",
+        "part": false,
+        "path": "devices/Connectivity-BT-WIFI/55572A3"
+      },
+      {
+        "name": "CYW55572MIUBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55572A3/CYW55572MIUBGT"
+      },
+      {
+        "name": "55573A2",
+        "part": false,
+        "path": "devices/Connectivity-BT-WIFI/55573A2"
+      },
+      {
+        "name": "CYW55573MIFFBG",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55573A2/CYW55573MIFFBG"
+      },
+      {
+        "name": "CYW55573MIWBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55573A2/CYW55573MIWBGT"
+      },
+      {
+        "name": "55573A3",
+        "part": false,
+        "path": "devices/Connectivity-BT-WIFI/55573A3"
+      },
+      {
+        "name": "CYW55573MIUBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55573A3/CYW55573MIUBGT"
       },
       {
         "name": "55900A0",
@@ -6736,6 +6801,11 @@
         "path": "devices/MXS40/PSoC6A512K/CY8C6245AZI-S3D72"
       },
       {
+        "name": "CY8C6245AZQ-S3D72",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A512K/CY8C6245AZQ-S3D72"
+      },
+      {
         "name": "CY8C6245FNI-S3D11",
         "part": true,
         "path": "devices/MXS40/PSoC6A512K/CY8C6245FNI-S3D11"
@@ -6749,6 +6819,16 @@
         "name": "CY8C6245FNI-S3D71",
         "part": true,
         "path": "devices/MXS40/PSoC6A512K/CY8C6245FNI-S3D71"
+      },
+      {
+        "name": "CY8C6245FNQ-S3D41",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A512K/CY8C6245FNQ-S3D41"
+      },
+      {
+        "name": "CY8C6245FNQ-S3D71",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A512K/CY8C6245FNQ-S3D71"
       },
       {
         "name": "CY8C6245LQI-S3D02",
@@ -6774,6 +6854,11 @@
         "name": "CY8C6245LQI-S3D72",
         "part": true,
         "path": "devices/MXS40/PSoC6A512K/CY8C6245LQI-S3D72"
+      },
+      {
+        "name": "CY8C6245LQQ-S3D72",
+        "part": true,
+        "path": "devices/MXS40/PSoC6A512K/CY8C6245LQQ-S3D72"
       },
       {
         "name": "CYB06445LQI-S3D42",
@@ -8046,19 +8131,19 @@
         "path": "devices/MXS40Sv2/CYW20829/CYW20829B0010"
       },
       {
-        "name": "CYW20829B0021",
-        "part": true,
-        "path": "devices/MXS40Sv2/CYW20829/CYW20829B0021"
-      },
-      {
         "name": "CYW20829B0LKML",
         "part": true,
         "path": "devices/MXS40Sv2/CYW20829/CYW20829B0LKML"
       },
       {
-        "name": "CYW89829B0022",
+        "name": "CYW20829B1240",
         "part": true,
-        "path": "devices/MXS40Sv2/CYW20829/CYW89829B0022"
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B1240"
+      },
+      {
+        "name": "CYW20829B1340",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B1340"
       },
       {
         "name": "CYW89829B0062",
@@ -9089,6 +9174,11 @@
         "name": "LBEE59B1LV",
         "part": true,
         "path": "modules/LBEE59B1LV"
+      },
+      {
+        "name": "LBEE5HY2FY",
+        "part": true,
+        "path": "modules/LBEE5HY2FY"
       },
       {
         "name": "LBEE5KL1DX",

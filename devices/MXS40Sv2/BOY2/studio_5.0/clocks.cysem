@@ -156,35 +156,6 @@
         <Value>High Frequency Clock 5: A high-frequency clock divider driving specific peripherals.</Value>
       </Parameter>
     </Instance>
-    <Instance guid="1f71b6d4-e51c-48dc-ae53-5b8f234a5645" name="CLK_LF_MUX" component="mux_3">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value />
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value />
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>CLK_LF_MUX</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value />
-      </Parameter>
-    </Instance>
     <Instance guid="223402ba-e913-40ed-b383-b7764ec49905" name="ECO_1" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value />
@@ -224,35 +195,6 @@
       </Parameter>
       <Parameter name="ToolTip">
         <Value>External Crystal Oscillator: This is an oscillator for driving an off-chip crystal that is used when specific frequencies and/or very high accuracy is required. This clock is stopped in the deep sleep and hibernate power modes.</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="293d39d1-8984-425e-94ed-7daeaff6c590" name="CLK_MF_MUX_1" component="mux_3">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value />
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value />
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>CLK_MF_MUX_1</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value />
       </Parameter>
     </Instance>
     <Instance guid="2c64f407-b729-4872-811a-95aada756ed9" name="mux_3_stacked_1" component="mux_3_stacked">
@@ -405,6 +347,35 @@
         <Value>Internal Low Speed Oscillator: This is a low accuracy fixed-frequency clock in the kilohertz range that is available in sleep, deep sleep, and hibernate power modes. Commonly used to drive the Watch Dog Timer (WDT).</Value>
       </Parameter>
     </Instance>
+    <Instance guid="336cc946-6ddd-4e11-86b8-e62bce565942" name="CLK_ALT_SYS_TICK_MUX_3" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>srss[0].clock[0].powerclk[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>CLK_ALT_SYS_TICK_MUX_3</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
     <Instance guid="361ca358-26b5-4471-9011-52d5c3b43a73" name="EXTCLK_1" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value />
@@ -543,6 +514,64 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>arc_bridge_14</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="422be382-1a90-4a3a-ab8f-6a947ea93caa" name="CLK_MF_MUX_2" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>srss[0].clock[0].lfclk[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>CLK_MF_MUX_2</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="42e9b233-e067-4332-ad1f-4cec7ce3b3b6" name="CLK_ALT_SYS_TICK_MUX_2" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>m33syscpuss[0].systick_ns[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>CLK_ALT_SYS_TICK_MUX_2</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
       </Parameter>
     </Instance>
     <Instance guid="47489eef-6d37-478c-bfa0-23fc33095aa8" name="CLK_BAK_2" component="clock_side">
@@ -758,7 +787,7 @@
         <Value />
       </Parameter>
       <Parameter name="HwBlock">
-        <Value />
+        <Value>srss[0].clock[0].bakclk[0]</Value>
       </Parameter>
       <Parameter name="Index">
         <Value>0</Value>
@@ -887,35 +916,6 @@
         <Value>Digital Phase-Locked Loop: A high-frequency clock able to generate a wide range of clock frequencies making it suitable for most on-chip purposes.</Value>
       </Parameter>
     </Instance>
-    <Instance guid="77524ff6-50ee-4e79-8aa3-6d4cdea16b74" name="CLK_ALT_SYS_TICK_MUX" component="mux_3">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value />
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value />
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>CLK_ALT_SYS_TICK_MUX</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value />
-      </Parameter>
-    </Instance>
     <Instance guid="7cf5b60b-5522-48c2-bb6d-c1a8e6117f4d" name="ECO_PRESCALER" component="clock_side_tall">
       <Parameter name="BodyTextOverride">
         <Value />
@@ -942,7 +942,7 @@
         <Value>0</Value>
       </Parameter>
       <Parameter name="inputs">
-        <Value>1</Value>
+        <Value>0</Value>
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>ECO_PRESCALER</Value>
@@ -1176,6 +1176,35 @@
         <Value>arc_bridge_8</Value>
       </Parameter>
     </Instance>
+    <Instance guid="ad7fcf29-3e7f-40d4-a500-d79aa3044cdb" name="CLK_ALT_SYS_TICK_MUX_1" component="mux_3">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="HwBlock">
+        <Value>m33syscpuss[0].systick_s[0]</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>CLK_ALT_SYS_TICK_MUX_1</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
     <Instance guid="ad995180-f90d-448c-9e21-05fb2ba37788" name="arc_bridge_6" component="arc_bridge">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -1305,35 +1334,6 @@
       </Parameter>
       <Parameter name="ToolTip">
         <Value>High Frequency Clock 1: A high-frequency clock divider driving specific peripherals.</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="b69cf247-3169-4a61-9114-9190119003e7" name="CLK_ALT_SYS_TICK_MUX_1" component="mux_3">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value />
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value />
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>CLK_ALT_SYS_TICK_MUX_1</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value />
       </Parameter>
     </Instance>
     <Instance guid="b7adb990-8c6b-438d-8cce-0816d976064c" name="FLL_BYPASS" component="mux_3">

@@ -1,6 +1,6 @@
 
 <CyMemoryConfiguration version="2" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
-    <PartNumber>N01S830HA</PartNumber>
+    <PartNumber volatile="true">N01S830HA</PartNumber>
     <Configuration></Configuration>
     <Description>1 Mb Ultra-Low Power Serial SRAM</Description>
     <NumberOfAddress>0x03</NumberOfAddress>

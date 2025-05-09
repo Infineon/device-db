@@ -1,6 +1,6 @@
 
 <CyMemoryConfiguration version="2" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
-    <PartNumber>S70KS1283</PartNumber>
+    <PartNumber volatile="true">S70KS1283</PartNumber>
     <Configuration>200 MHz</Configuration>
     <Default>true</Default>
     <Description>128-Mb (16-MB) 1.8-V self-refresh DRAM</Description>

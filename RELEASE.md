@@ -1,11 +1,12 @@
-# Device Database v4.22.0
+# Device Database v4.23.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Add new CCG7S part numbers: CYPD7194-40BFXS, CYPD7195-40BFXS and CYPD7196-40BFXS.
-* Add new CYW89829 part numbers: CYW89829B1062 and CYW89829B0062.
-* Add new PSOC™ 4000T part number (CY8C4046LQQ-T412).
-* Add CYW55533 connectivity device support.
+* Add new PSOC™ 62x5 part numbers: CY8C6245FNQ-S3D41, CY8C6245FNQ-S3D71, CY8C6245LQQ-S3D72, CY8C6245AZQ-S3D72.
+* Add new CYW20829 part numbers: CYW20829B1240 and CYW20829B1340.
+* Add CYW55570, CYW55571, CYW55572 and CYW55573 connectivity devices support.
+* Add new LBEE5HY2FY module.
+* Remove support of inactive part numbers: CYW20829B0021 and CYW89829B0022.
 * General bug fixes and improvements.
 
 ## Recommended device support libraries
@@ -16,23 +17,38 @@ For details, refer to [README.md](./README.md).
 
 ## Added devices
 ### AIROC™ Bluetooth®
-#### 89829
-* CYW89829B0062
-* CYW89829B1062
+#### 20829
+* CYW20829B1240
+* CYW20829B1340
 
 ### AIROC™ Connectivity
-#### 55533
-* CYW55533IUBGT
+#### 55570
+* [CYW55570MIUBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55570/)
 
-### CCG
-#### CCG7S
-* CYPD7194-40BFXS
-* CYPD7195-40BFXS
-* CYPD7196-40BFXS
+#### 55571
+* [CYW55571MIWBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55571/)
+* [CYW55571MIFFBG](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55571/)
+* [CYW55571MIUBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55571/)
 
-### PSOC™ 4
-#### PSoC 4000T
-* CY8C4046LQQ-T412
+#### 55572
+* [CYW55572MIUBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55572/)
+
+#### 55573
+* [CYW55573MIWBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55573/)
+* [CYW55573MIFFBG](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55573/)
+* [CYW55573MIUBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55573/)
+
+### PSOC™ 6
+#### PSoC 62
+* [CY8C6245AZQ-S3D72](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6245azq-s3d72/)
+* [CY8C6245LQQ-S3D72](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6245lqq-s3d72/)
+* [CY8C6245FNQ-S3D71](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6245fnq-s3d71t/)
+* [CY8C6245FNQ-S3D41](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6245fnq-s3d41t/)
+
+
+## Added modules
+### Murata
+* LBEE5HY2FY
 
 
 

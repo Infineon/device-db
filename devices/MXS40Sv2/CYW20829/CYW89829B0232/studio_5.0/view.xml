@@ -9,7 +9,7 @@
     <Param name="CPU" value="ARM CM33" />
     <Param name="DeviceSeries" value="89829" />
     <Param name="Speed_MHz" value="96" />
-    <Param name="Flash_KB" value="0" />
+    <Param name="Flash_KB" value="1024" />
     <Param name="ROM_KB" value="64" />
     <Param name="SRAM_KB" value="256" />
     <Param name="Bluetooth" value="5.4" />
@@ -60,7 +60,7 @@
     <DevCap name="cat1b" />
     <DevCap name="cyw89829" />
     <DevCap name="dma" />
-    <DevCap name="flash_0k" />
+    <DevCap name="flash_1024k" />
     <DevCap name="hal" />
     <DevCap name="i2c" />
     <DevCap name="i2s" />
