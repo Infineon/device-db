@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cyhobtoview_v1">
   <Cores>
     <Core type="CortexM4" count="1" default-index="0" />
   </Cores>
-  <IPs file="ipblocks"/>
-  <Pins file="pins"/>
+  <IPs file="ipblocks" />
+  <Pins file="pins" />
   <Triggers file="triggers" />
   <Features file="features" />
 </View>

@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cyhobtoview_v1">
   <Cores>
     <Core type="CortexM0p" count="1" displayName="CM0P" define="CM0P" default-index="0" />
   </Cores>
   <Clocks file="clocks" />
-  <DSIs file="dsi" />
   <IPs file="ipblocks" />
   <Pins file="pins" />
   <Triggers file="triggers" />

@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
-  <!--If PclkPerPeriGroup is -1 there is expected to only be a single peri group and the value is ignored (i.e. the targetWire is used directly). -->
-  <!--<PclkPerPeriGroup value="-1" />-->
-  <!--HsiomPerPin is only used if the PadFunctionTypes are not provided to setup the defaults (connectionsPerPin for HSIOM) so it does not apply in this case.-->
-  <!--[IGNORED] <HsiomPerPin value="" />-->
   <PadsPerPort value="8" />
   <PadFunctionTypes>
     <PadFunctionType name="HSIOM" connectionsPerPin="16" port="hsiom" inputPort="hsiom_in" outputPort="hsiom_out" definePostfix="HSIOM" />
-    <PadFunctionType name="DSI" connectionsPerPin="1" port="dsi" definePostfix="DSI" />
     <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog" definePostfix="ANALOG" />
     <PadFunctionType name="AUX" connectionsPerPin="1" port="aux" definePostfix="AUX" />
     <PadFunctionType name="HV" connectionsPerPin="1" port="aux" definePostfix="HV" />
-    <PadFunctionType name="SMARTIO" connectionsPerPin="1" port="smartio" definePostfix="SMARTIO" />
     <PadFunctionType name="HVIO" connectionsPerPin="1" port="aux" definePostfix="HVIO" />
   </PadFunctionTypes>
   <PadTypes>

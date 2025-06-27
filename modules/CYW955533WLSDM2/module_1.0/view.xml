@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="CYW955533WLSDM2" package="74-WLBGA" layout="GRID" x="11" y="7">
+    <Component name="CYW955533WLSDM2/CYW55533IUBGT" partNumber="CYW55533IUBGT" />
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="CYW955533WLSDM2" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="Child_Mpns" value="CYW55533IUBGT" />
+    <Param name="Package" value="74-WLBGA" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="Vendor" value="Infineon" />
+    <Param name="DATASHEET" value="NA" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="CYW955533WLSDM2" />
+  </DeviceComponents>
+</View>

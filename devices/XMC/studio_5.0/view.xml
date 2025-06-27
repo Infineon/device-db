@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
-  <!--If PclkPerPeriGroup is -1 there is expected to only be a single peri group and the value is ignored (i.e. the targetWire is used directly). -->
-  <!--<PclkPerPeriGroup value="-1" />-->
-  <!--HsiomPerPin is only used if the PadFunctionTypes are not provided to setup the defaults (connectionsPerPin for HSIOM) so it does not apply in this case.-->
-  <!--[IGNORED] <HsiomPerPin value="" />-->
   <PadsPerPort value="16" />
   <PadFunctionTypes>
-    <!-- 
-    The widths need to match the largest signal count supported. For XMC4700 ALT width = 4 and for XMC1400 ALT width = 9, so 9 must be used here.
-    XMC4700:https://www.infineon.com/dgdl/Infineon-ReferenceManual_XMC4700_XMC4800-UM-v01_03-EN.pdf?fileId=5546d462518ffd850151904eb90c0044 
-    XMC1400: https://www.infineon.com/dgdl/Infineon-XMC1400-AA_ReferenceManual-UM-v01_01-EN.pdf?fileId=5546d46250cc1fdf0150f6ebc29a7109
-    -->
     <PadFunctionType name="ALT" connectionsPerPin="9" port="alt" />
     <PadFunctionType name="HWO" connectionsPerPin="2" port="hwo" />
-    <!-- 
-    The widths need to match the largest signal count supported. For XMC4700 INPUT width = 8 and for XMC1400 ALT width = 12, so 12 must be used here; HOWEVER,
-    INPUT is the combination of the Input and HWI0/HWI1 signals. Hence a width of 12 + 2 = 14.
-    XMC4700:https://www.infineon.com/dgdl/Infineon-ReferenceManual_XMC4700_XMC4800-UM-v01_03-EN.pdf?fileId=5546d462518ffd850151904eb90c0044 
-    XMC1400: https://www.infineon.com/dgdl/Infineon-XMC1400-AA_ReferenceManual-UM-v01_01-EN.pdf?fileId=5546d46250cc1fdf0150f6ebc29a7109
-    -->
     <PadFunctionType name="INPUT" connectionsPerPin="14" port="input" />
     <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog" />
   </PadFunctionTypes>

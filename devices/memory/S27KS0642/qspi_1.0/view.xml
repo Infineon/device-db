@@ -1,12 +1,12 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <CyHyperbusConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v2">
-    <PartNumber>S27KS0642</PartNumber>
-    <Configuration></Configuration>
-    <Default>true</Default>
-    <Description>64-Mb (8-MB) 1.8-V self-refresh DRAM</Description>
-    <DeviceType>HB_SRAM</DeviceType>
-    <SizeOfMemory>0x800000</SizeOfMemory>
-    <DummyCycles>14</DummyCycles>
-    <XipWriteCommand>HB_WRITE_WRAPPED_BURST</XipWriteCommand>
-    <XipReadCommand>HB_READ_WRAPPED_BURST</XipReadCommand>
+  <PartNumber>S27KS0642</PartNumber>
+  <Configuration></Configuration>
+  <Default>true</Default>
+  <Description>64-Mb (8-MB) 1.8-V self-refresh DRAM</Description>
+  <DeviceType>HB_SRAM</DeviceType>
+  <SizeOfMemory>0x800000</SizeOfMemory>
+  <DummyCycles>14</DummyCycles>
+  <XipWriteCommand>HB_WRITE_WRAPPED_BURST</XipWriteCommand>
+  <XipReadCommand>HB_READ_WRAPPED_BURST</XipReadCommand>
 </CyHyperbusConfiguration>

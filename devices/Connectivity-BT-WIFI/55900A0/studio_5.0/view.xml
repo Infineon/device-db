@@ -3,7 +3,6 @@
   <Files>
     <Analog visPath="analog.cyvis" semPath="analog.cysem" ipPath="analogResourceMap.txt" />
   </Files>
-  <!-- PadsPerPort must be kept in sync with ViewHobto_4.0/toCopy/Connectivity-BT-WIFI/55900A0/hobto/ipblocks.cydatasrc Parameter name="GPIO.GPIO_MAX_PIN_PER_PORT_NR" -->
   <PadsPerPort value="44" />
   <PadFunctionTypes>
     <PadFunctionType name="AUX" connectionsPerPin="18" port="aux" />

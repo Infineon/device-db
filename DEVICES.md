@@ -40,6 +40,7 @@
       * [PAG2S](#pag2s)
     * [PMG](#pmg)
       * [PMG1B1](#pmg1b1)
+      * [PMG1B2](#pmg1b2)
       * [PMG1S0](#pmg1s0)
       * [PMG1S1](#pmg1s1)
       * [PMG1S2](#pmg1s2)
@@ -47,6 +48,7 @@
     * [PSOC™ 4](#psoc-4)
       * [PSoC 4 HV MS 128k](#psoc-4-hv-ms-128k)
       * [PSoC 4 HV MS 64k](#psoc-4-hv-ms-64k)
+      * [PSoC 4 HV PA 144k](#psoc-4-hv-pa-144k)
       * [PSoC 4000S](#psoc-4000s)
       * [PSoC 4000T](#psoc-4000t)
       * [PSoC 4100S](#psoc-4100s)
@@ -93,7 +95,9 @@
       * [XMC4500](#xmc4500)
       * [XMC4700](#xmc4700)
       * [XMC4800](#xmc4800)
+      * [XMC5100](#xmc5100)
       * [XMC5200](#xmc5200)
+      * [XMC5300](#xmc5300)
       * [XMC7100](#xmc7100)
       * [XMC7200](#xmc7200)
 
@@ -147,6 +151,8 @@
 * [CYW20829B0010](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/)
 * CYW20829B1240
 * CYW20829B1340
+* CYW20829B1000
+* [CYW20829B1010](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/)
 
 ### 20835
 * [CYW20835PB1KML1G](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20835/)
@@ -159,6 +165,7 @@
 * CYW89829B0232
 * CYW89829B0062
 * CYW89829B1062
+* CYW89829B1232
 
 ## AIROC™ Connectivity
 
@@ -273,6 +280,9 @@
 ### PMG1B1
 * [CYPM1115-48LQXI](https://www.infineon.com/cms/en/product/universal-serial-bus/usb-c-high-voltage-microcontrollers/ez-pd-pmg1-b1-high-voltage-mcu-with-usb-c-pd/cypm1115-48lqxi/)
 * [CYPM1116-48LQXI](https://www.infineon.com/cms/en/product/universal-serial-bus/usb-c-high-voltage-microcontrollers/ez-pd-pmg1-b1-high-voltage-mcu-with-usb-c-pd/cypm1116-48lqxi/)
+
+### PMG1B2
+* CYPM1216-68LQXI
 
 ### PMG1S0
 * [CYPM1011-24LQXI](https://www.infineon.com/cms/en/product/universal-serial-bus-usb-power-delivery-controller/usb-c-and-power-delivery/ez-pd-pmg1-portfolio-high-voltage-mcus-usb-c-power-delivery/cypm1011-24lqxi/)
@@ -390,6 +400,17 @@
 * CY8C4146LWE-HVS115
 * CY8C4146LWE-HVS105X
 * CY8C4146LWE-HVS115X
+
+### PSoC 4 HV PA 144k
+* CY8C4126LCE-HV403
+* CY8C4126LCE-HV413
+* CY8C4126LCE-HV423
+* CY8C4127LCE-HV403
+* CY8C4127LCE-HV413
+* CY8C4127LCE-HV423
+* CY8C4147LCE-HV403
+* CY8C4147LCE-HV413
+* CY8C4147LCE-HV423
 
 ### PSoC 4000S
 * [CY8C4024FNI-S402](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4024fni-s402t/)
@@ -1657,10 +1678,18 @@
 * [XMC1302-T038x0200](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1302-t038x0200-ab/)
 
 ### XMC1400
+* XMC1401-F048x0032
+* XMC1401-F048x0064
+* XMC1401-F048x0128
+* XMC1401-F048x0200
 * [XMC1401-F064x0064](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1401-f064f0064-aa/)
 * [XMC1401-F064x0128](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1401-f064f0128-aa/)
 * [XMC1401-Q048x0064](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1401-q048f0064-aa/)
 * [XMC1401-Q048x0128](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1401-q048f0128-aa/)
+* XMC1402-F048x0032
+* XMC1402-F048x0064
+* XMC1402-F048x0128
+* XMC1402-F048x0200
 * [XMC1402-F064x0064](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1402-f064x0064-aa/)
 * [XMC1402-F064x0128](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1402-f064x0128-aa/)
 * [XMC1402-F064x0200](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1402-f064x0200-aa/)
@@ -1688,6 +1717,9 @@
 * [XMC1403-Q064x0064](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1403-q064x0064-aa/)
 * [XMC1403-Q064x0128](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1403-q064x0128-aa/)
 * [XMC1403-Q064x0200](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1403-q064x0200-aa/)
+* XMC1404-F048x0064
+* XMC1404-F048x0128
+* XMC1404-F048x0200
 * [XMC1404-F064x0064](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1404-f064x0064-aa/)
 * [XMC1404-F064x0128](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1404-f064x0128-aa/)
 * [XMC1404-F064x0200](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1404-f064x0200-aa/)
@@ -1755,10 +1787,18 @@
 * [XMC4800-F144x1024](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4800-f144f1024-aa/)
 * [XMC4800-F100x1024](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/xmc4800-f100f1024-aa/)
 
+### XMC5100
+* [XMC5100-F64K576AA](https://www.infineon.com/XMC5000)
+* [XMC5100-F100K576AA](https://www.infineon.com/XMC5000)
+
 ### XMC5200
 * [XMC5200-F64K1088AA](https://www.infineon.com/XMC5000)
 * [XMC5200-F100K1088AA](https://www.infineon.com/XMC5000)
 * [XMC5200-F144K1088AA](https://www.infineon.com/XMC5000)
+
+### XMC5300
+* [XMC5300-F100K2112AA](https://www.infineon.com/XMC5000)
+* [XMC5300-F144K2112AA](https://www.infineon.com/XMC5000)
 
 ### XMC7100
 * [XMC7100-F100K1088](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc7000-industrial-microcontroller-arm-cortex-m7/xmc7100-f100k1088aa/)
@@ -1808,6 +1848,8 @@
 * [CYBLE-343072-02](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-modules/cyble-343072-02/)
 * [CYBLE-333074-02](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-modules/cyble-333074-02/)
 * [CYSBSYS-RP01](https://www.infineon.com/dgdl/Infineon-CYSUB-RP01_Rapid_IoT_Connect_System_on_Module_Dual_band_Wi-Fi_and_Bluetooth-AdditionalTechnicalInformation-v04_00-EN.pdf?fileId=8ac78c8c7ddc01d7017ddd0298225923)
+* CYW955533WLSDM2
+* CYW955533WLUSBM2
 
 ## AzureWave
 

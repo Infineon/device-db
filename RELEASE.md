@@ -1,54 +1,73 @@
-# Device Database v4.23.0
+# Device Database v4.26.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Add new PSOC™ 62x5 part numbers: CY8C6245FNQ-S3D41, CY8C6245FNQ-S3D71, CY8C6245LQQ-S3D72, CY8C6245AZQ-S3D72.
-* Add new CYW20829 part numbers: CYW20829B1240 and CYW20829B1340.
-* Add CYW55570, CYW55571, CYW55572 and CYW55573 connectivity devices support.
-* Add new LBEE5HY2FY module.
-* Remove support of inactive part numbers: CYW20829B0021 and CYW89829B0022.
+* Add new PMG1-B2 part number: CYPM1216-68LQXI.
+* Add new CYW20829 and CYW89829 part numbers: CYW20829B1000, CYW20829B1010 and CYW89829B1232.
+* Add PSOC™ 4 HV PA 144k device support.
+* Add new XMC™ 1400 part numbers.
+* Add XMC™ 5100 and XMC™ 5300 device support.
+* Add new CYW955533WLSDM2 and CYW955533WLUSBM2 modules.
 * General bug fixes and improvements.
 
 ## Recommended device support libraries
-* mtb-pdl-cat1 >= 3.16.0
-* mtb-pdl-cat2 >= 2.16.0
-* mtb-xmclib-cat3 >= 4.5.0
+* mtb-pdl-cat1 >= 3.17.0
+* mtb-pdl-cat2 >= 2.17.0
+* mtb-xmclib-cat3 >= 4.6.0
 * mtb-pdl-cat5 >= 3.0.0
 
 ## Added devices
 ### AIROC™ Bluetooth®
 #### 20829
-* CYW20829B1240
-* CYW20829B1340
+* CYW20829B1000
+* [CYW20829B1010](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-bluetooth-le-bluetooth-multiprotocol/airoc-bluetooth-le/cyw20829/)
 
-### AIROC™ Connectivity
-#### 55570
-* [CYW55570MIUBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55570/)
+#### 89829
+* CYW89829B1232
 
-#### 55571
-* [CYW55571MIWBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55571/)
-* [CYW55571MIFFBG](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55571/)
-* [CYW55571MIUBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55571/)
+### PMG
+#### PMG1B2
+* CYPM1216-68LQXI
 
-#### 55572
-* [CYW55572MIUBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55572/)
+### PSOC™ 4
+#### PSoC 4 HV PA 144k
+* CY8C4126LCE-HV403
+* CY8C4126LCE-HV413
+* CY8C4126LCE-HV423
+* CY8C4127LCE-HV403
+* CY8C4127LCE-HV413
+* CY8C4127LCE-HV423
+* CY8C4147LCE-HV403
+* CY8C4147LCE-HV413
+* CY8C4147LCE-HV423
 
-#### 55573
-* [CYW55573MIWBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55573/)
-* [CYW55573MIFFBG](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55573/)
-* [CYW55573MIUBGT](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-6-6e-802.11ax/cyw55573/)
+### XMC™
+#### XMC1400
+* XMC1401-F048x0032
+* XMC1401-F048x0064
+* XMC1401-F048x0128
+* XMC1401-F048x0200
+* XMC1402-F048x0032
+* XMC1402-F048x0064
+* XMC1402-F048x0128
+* XMC1402-F048x0200
+* XMC1404-F048x0064
+* XMC1404-F048x0128
+* XMC1404-F048x0200
 
-### PSOC™ 6
-#### PSoC 62
-* [CY8C6245AZQ-S3D72](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6245azq-s3d72/)
-* [CY8C6245LQQ-S3D72](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6245lqq-s3d72/)
-* [CY8C6245FNQ-S3D71](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6245fnq-s3d71t/)
-* [CY8C6245FNQ-S3D41](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c6245fnq-s3d41t/)
+#### XMC5100
+* [XMC5100-F64K576AA](https://www.infineon.com/XMC5000)
+* [XMC5100-F100K576AA](https://www.infineon.com/XMC5000)
+
+#### XMC5300
+* [XMC5300-F100K2112AA](https://www.infineon.com/XMC5000)
+* [XMC5300-F144K2112AA](https://www.infineon.com/XMC5000)
 
 
 ## Added modules
-### Murata
-* LBEE5HY2FY
+### Infineon
+* CYW955533WLSDM2
+* CYW955533WLUSBM2
 
 
 

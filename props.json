@@ -407,6 +407,16 @@
         "path": "devices/M0S8/CCG3PA/CYPM1011-24LQXI"
       },
       {
+        "name": "CCG4PD3",
+        "part": false,
+        "path": "devices/M0S8/CCG4PD3"
+      },
+      {
+        "name": "CYPM1216-68LQXI",
+        "part": true,
+        "path": "devices/M0S8/CCG4PD3/CYPM1216-68LQXI"
+      },
+      {
         "name": "CCG6",
         "part": false,
         "path": "devices/M0S8/CCG6"
@@ -4262,6 +4272,56 @@
         "path": "devices/M0S8/PSoC4ASF2/CY8C4046LQQ-T412"
       },
       {
+        "name": "PSOC4HV144K",
+        "part": false,
+        "path": "devices/M0S8/PSOC4HV144K"
+      },
+      {
+        "name": "CY8C4126LCE-HV403",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HV144K/CY8C4126LCE-HV403"
+      },
+      {
+        "name": "CY8C4126LCE-HV413",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HV144K/CY8C4126LCE-HV413"
+      },
+      {
+        "name": "CY8C4126LCE-HV423",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HV144K/CY8C4126LCE-HV423"
+      },
+      {
+        "name": "CY8C4127LCE-HV403",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HV144K/CY8C4127LCE-HV403"
+      },
+      {
+        "name": "CY8C4127LCE-HV413",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HV144K/CY8C4127LCE-HV413"
+      },
+      {
+        "name": "CY8C4127LCE-HV423",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HV144K/CY8C4127LCE-HV423"
+      },
+      {
+        "name": "CY8C4147LCE-HV403",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HV144K/CY8C4147LCE-HV403"
+      },
+      {
+        "name": "CY8C4147LCE-HV413",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HV144K/CY8C4147LCE-HV413"
+      },
+      {
+        "name": "CY8C4147LCE-HV423",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HV144K/CY8C4147LCE-HV423"
+      },
+      {
         "name": "PSOC4HVMS128K",
         "part": false,
         "path": "devices/M0S8/PSOC4HVMS128K"
@@ -7381,6 +7441,16 @@
         "path": "devices/MXS40/TVIIBE1M/CYT2B78CAS"
       },
       {
+        "name": "XMC5100-F100K576AA",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/XMC5100-F100K576AA"
+      },
+      {
+        "name": "XMC5100-F64K576AA",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/XMC5100-F64K576AA"
+      },
+      {
         "name": "XMC5200-F100K1088AA",
         "part": true,
         "path": "devices/MXS40/TVIIBE1M/XMC5200-F100K1088AA"
@@ -7499,6 +7569,16 @@
         "name": "CYT2B98CAS",
         "part": true,
         "path": "devices/MXS40/TVIIBE2M/CYT2B98CAS"
+      },
+      {
+        "name": "XMC5300-F100K2112AA",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE2M/XMC5300-F100K2112AA"
+      },
+      {
+        "name": "XMC5300-F144K2112AA",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE2M/XMC5300-F144K2112AA"
       },
       {
         "name": "TVIIBE4M",
@@ -8136,6 +8216,16 @@
         "path": "devices/MXS40Sv2/CYW20829/CYW20829B0LKML"
       },
       {
+        "name": "CYW20829B1000",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B1000"
+      },
+      {
+        "name": "CYW20829B1010",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW20829B1010"
+      },
+      {
         "name": "CYW20829B1240",
         "part": true,
         "path": "devices/MXS40Sv2/CYW20829/CYW20829B1240"
@@ -8159,6 +8249,11 @@
         "name": "CYW89829B1062",
         "part": true,
         "path": "devices/MXS40Sv2/CYW20829/CYW89829B1062"
+      },
+      {
+        "name": "CYW89829B1232",
+        "part": true,
+        "path": "devices/MXS40Sv2/CYW20829/CYW89829B1232"
       },
       {
         "name": "XMC",
@@ -8546,6 +8641,26 @@
         "path": "devices/XMC/XMC1400"
       },
       {
+        "name": "XMC1401-F048x0032",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1401-F048x0032"
+      },
+      {
+        "name": "XMC1401-F048x0064",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1401-F048x0064"
+      },
+      {
+        "name": "XMC1401-F048x0128",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1401-F048x0128"
+      },
+      {
+        "name": "XMC1401-F048x0200",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1401-F048x0200"
+      },
+      {
         "name": "XMC1401-F064x0064",
         "part": true,
         "path": "devices/XMC/XMC1400/XMC1401-F064x0064"
@@ -8564,6 +8679,26 @@
         "name": "XMC1401-Q048x0128",
         "part": true,
         "path": "devices/XMC/XMC1400/XMC1401-Q048x0128"
+      },
+      {
+        "name": "XMC1402-F048x0032",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1402-F048x0032"
+      },
+      {
+        "name": "XMC1402-F048x0064",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1402-F048x0064"
+      },
+      {
+        "name": "XMC1402-F048x0128",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1402-F048x0128"
+      },
+      {
+        "name": "XMC1402-F048x0200",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1402-F048x0200"
       },
       {
         "name": "XMC1402-F064x0064",
@@ -8699,6 +8834,21 @@
         "name": "XMC1403-Q064x0200",
         "part": true,
         "path": "devices/XMC/XMC1400/XMC1403-Q064x0200"
+      },
+      {
+        "name": "XMC1404-F048x0064",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1404-F048x0064"
+      },
+      {
+        "name": "XMC1404-F048x0128",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1404-F048x0128"
+      },
+      {
+        "name": "XMC1404-F048x0200",
+        "part": true,
+        "path": "devices/XMC/XMC1400/XMC1404-F048x0200"
       },
       {
         "name": "XMC1404-F064x0064",
@@ -9149,6 +9299,16 @@
         "name": "CYSBSYS-RP01",
         "part": true,
         "path": "modules/CYSBSYS-RP01"
+      },
+      {
+        "name": "CYW955533WLSDM2",
+        "part": true,
+        "path": "modules/CYW955533WLSDM2"
+      },
+      {
+        "name": "CYW955533WLUSBM2",
+        "part": true,
+        "path": "modules/CYW955533WLUSBM2"
       },
       {
         "name": "IMD700A-Q064x128",

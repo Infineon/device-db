@@ -1,12 +1,12 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <CyHyperbusConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v2">
-    <PartNumber>S26KS512S</PartNumber>
-    <Configuration>100 Mhz</Configuration>
-    <Default>false</Default>
-    <Description>512-Mb (64-MB) 1.8-V HyperBus™ flash.</Description>
-    <DeviceType>HB_FLASH</DeviceType>
-    <SizeOfMemory>0x4000000</SizeOfMemory>
-    <DummyCycles>10</DummyCycles>
-    <XipWriteCommand>HB_WRITE_WRAPPED_BURST</XipWriteCommand>
-    <XipReadCommand>HB_READ_WRAPPED_BURST</XipReadCommand>
+  <PartNumber>S26KS512S</PartNumber>
+  <Configuration>100 Mhz</Configuration>
+  <Default>false</Default>
+  <Description>512-Mb (64-MB) 1.8-V HyperBus™ flash.</Description>
+  <DeviceType>HB_FLASH</DeviceType>
+  <SizeOfMemory>0x4000000</SizeOfMemory>
+  <DummyCycles>10</DummyCycles>
+  <XipWriteCommand>HB_WRITE_WRAPPED_BURST</XipWriteCommand>
+  <XipReadCommand>HB_READ_WRAPPED_BURST</XipReadCommand>
 </CyHyperbusConfiguration>

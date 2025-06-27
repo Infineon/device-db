@@ -3,7 +3,5 @@
   <Files>
     <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
   </Files>
-  <!-- PclkPerPeriGroup must match PCLK_PER_GROUP in the mxsperi connectivity file. 
-       256 is the correct value but because of BWC issue (Jira PLATLIBS-1953) we leave it as 32 here. -->
   <PclkPerPeriGroup value="32" />
 </View>
