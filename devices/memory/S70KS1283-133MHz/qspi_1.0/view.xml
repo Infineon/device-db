@@ -2,7 +2,7 @@
 <CyMemoryConfiguration version="2" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
   <PartNumber volatile="true">S70KS1283</PartNumber>
   <Configuration>133 MHz</Configuration>
-  <Description>128-Mb (16-MB) 1.8-V self-refresh DRAM</Description>
+  <Description>128-Mb (16-MB) 1.8-V self-refresh DRAM for up to 133 MHz clock frequency</Description>
   <NumberOfAddress>0x04</NumberOfAddress>
   <SizeOfMemory>0x1000000</SizeOfMemory>
   <EraseBlockSize>0x1000000</EraseBlockSize>

@@ -442,6 +442,11 @@
         "path": "devices/M0S8/CCG6DF_CFP/CYPD6129-52LQXIT"
       },
       {
+        "name": "CYPD6139-52LQXIT",
+        "part": true,
+        "path": "devices/M0S8/CCG6DF_CFP/CYPD6139-52LQXIT"
+      },
+      {
         "name": "CYPD6229-52LQXI",
         "part": true,
         "path": "devices/M0S8/CCG6DF_CFP/CYPD6229-52LQXI"
@@ -452,14 +457,29 @@
         "path": "devices/M0S8/CCG6DF_CFP/CYPD6229-52LQXIT"
       },
       {
+        "name": "CYPD6239-52LQXIT",
+        "part": true,
+        "path": "devices/M0S8/CCG6DF_CFP/CYPD6239-52LQXIT"
+      },
+      {
         "name": "CYPD8129-52LQXIT",
         "part": true,
         "path": "devices/M0S8/CCG6DF_CFP/CYPD8129-52LQXIT"
       },
       {
+        "name": "CYPD8139-52LQXIT",
+        "part": true,
+        "path": "devices/M0S8/CCG6DF_CFP/CYPD8139-52LQXIT"
+      },
+      {
         "name": "CYPD8229-52LQXIT",
         "part": true,
         "path": "devices/M0S8/CCG6DF_CFP/CYPD8229-52LQXIT"
+      },
+      {
+        "name": "CYPD8239-52LQXIT",
+        "part": true,
+        "path": "devices/M0S8/CCG6DF_CFP/CYPD8239-52LQXIT"
       },
       {
         "name": "CCG7D",
@@ -4272,6 +4292,11 @@
         "path": "devices/M0S8/PSoC4ASF2/CY8C4046LQQ-T412"
       },
       {
+        "name": "CY8C4046ZZI-T451",
+        "part": true,
+        "path": "devices/M0S8/PSoC4ASF2/CY8C4046ZZI-T451"
+      },
+      {
         "name": "PSOC4HV144K",
         "part": false,
         "path": "devices/M0S8/PSOC4HV144K"
@@ -4325,6 +4350,26 @@
         "name": "PSOC4HVMS128K",
         "part": false,
         "path": "devices/M0S8/PSOC4HVMS128K"
+      },
+      {
+        "name": "CY8C4127LCE-HVS003",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4127LCE-HVS003"
+      },
+      {
+        "name": "CY8C4127LCE-HVS013",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4127LCE-HVS013"
+      },
+      {
+        "name": "CY8C4127LCE-HVS103",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4127LCE-HVS103"
+      },
+      {
+        "name": "CY8C4127LCE-HVS113",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4127LCE-HVS113"
       },
       {
         "name": "CY8C4127LDE-HVS004",
@@ -4385,6 +4430,66 @@
         "name": "CY8C4127LWE-HVS115",
         "part": true,
         "path": "devices/M0S8/PSOC4HVMS128K/CY8C4127LWE-HVS115"
+      },
+      {
+        "name": "CY8C4147LCE-HVS003",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS003"
+      },
+      {
+        "name": "CY8C4147LCE-HVS013",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS013"
+      },
+      {
+        "name": "CY8C4147LCE-HVS023",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS023"
+      },
+      {
+        "name": "CY8C4147LCE-HVS023X",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS023X"
+      },
+      {
+        "name": "CY8C4147LCE-HVS033",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS033"
+      },
+      {
+        "name": "CY8C4147LCE-HVS033X",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS033X"
+      },
+      {
+        "name": "CY8C4147LCE-HVS103",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS103"
+      },
+      {
+        "name": "CY8C4147LCE-HVS113",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS113"
+      },
+      {
+        "name": "CY8C4147LCE-HVS123",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS123"
+      },
+      {
+        "name": "CY8C4147LCE-HVS123X",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS123X"
+      },
+      {
+        "name": "CY8C4147LCE-HVS133",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS133"
+      },
+      {
+        "name": "CY8C4147LCE-HVS133X",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVMS128K/CY8C4147LCE-HVS133X"
       },
       {
         "name": "CY8C4147LDE-HVS004",
