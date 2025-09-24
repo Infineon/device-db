@@ -69,6 +69,9 @@
       * [PSC3M5](#psc3m5)
       * [PSC3P2](#psc3p2)
       * [PSC3P5](#psc3p5)
+    * [PSOC™ Edge](#psoc-edge)
+      * [PSE8xxGO](#pse8xxgo)
+      * [PSE8xxGP](#pse8xxgp)
     * [TRAVEO™](#traveo)
       * [CYT2B6](#cyt2b6)
       * [CYT2B7](#cyt2b7)
@@ -1449,6 +1452,19 @@
 * PSC3P5FDS2LHQ1
 * PSC3P5EDABQ1
 * PSC3P5FDS2ABQ1
+
+## PSOC™ Edge
+
+### PSE8xxGO
+* PSE833GOS2DBZC4A
+* PSE813GOS4DBZC4A
+
+### PSE8xxGP
+* PSE846GPS4DBZC4A
+* PSE846GPS2DBZC4A
+* PSE845GPS2DFNC4A
+* PSE845GPS2DFMC4A
+* PSE846GPS2DBZQ3A
 
 ## TRAVEO™
 

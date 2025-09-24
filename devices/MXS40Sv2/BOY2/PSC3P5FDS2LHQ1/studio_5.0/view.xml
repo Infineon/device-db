@@ -68,6 +68,7 @@
     <DevCap name="cat1b" />
     <DevCap name="comp" />
     <DevCap name="dma" />
+    <DevCap name="epc2" />
     <DevCap name="flash_256k" />
     <DevCap name="hal" />
     <DevCap name="hppass" />
@@ -75,6 +76,8 @@
     <DevCap name="low_power" />
     <DevCap name="lptimer" />
     <DevCap name="mcu_gp" />
+    <DevCap name="psc3" />
+    <DevCap name="psc3p5" />
     <DevCap name="rtc" />
     <DevCap name="smart_io" />
     <DevCap name="spi" />

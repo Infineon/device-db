@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="PSE846GPS2DBZQ3A" />
+    <Param name="PartAvailability" value="Active" />
+    <Param name="DeviceDie" value="EXPLORER" />
+    <Param name="Silicon_Revision" value="PRODUCTION" />
+    <Param name="Package" value="BGA-220" />
+    <Param name="DeviceFamily" value="PSOC™ Edge" />
+    <Param name="DeviceSeries" value="PSE8xxGP" />
+    <Param name="SupportLibrary" value="mtb-dsl-pse8xxgp" />
+    <Param name="TemplateLibrary" value="mtb-template-pse8xxgp" />
+    <Param name="Cores_REMOVED" value="NA" />
+    <Param name="Speed_MHz" value="320" />
+    <Param name="Flash_KB" value="0" />
+    <Param name="RRAM_KB" value="512" />
+    <Param name="SRAM_KB" value="1024" />
+    <Param name="SOCMEM_KB" value="5120" />
+    <Param name="SAR12_Count" value="1" />
+    <Param name="SAR12_REMOVED" value="NA" />
+    <Param name="SAR12Sample_ksps" value="5000" />
+    <Param name="OpAmp_Count" value="4" />
+    <Param name="OpAmp_Removed" value="NA" />
+    <Param name="LPComp_Count" value="2" />
+    <Param name="LPComp_REMOVED" value="NA" />
+    <Param name="DAC12_Count" value="2" />
+    <Param name="DAC12_removed" value="NA" />
+    <Param name="SampleHold_COUNT" value="1" />
+    <Param name="SampleHold_REMOVED" value="NA" />
+    <Param name="SDHC_COUNT" value="2" />
+    <Param name="SDHC_REMOVED" value="NA" />
+    <Param name="SCB_Count" value="12" />
+    <Param name="SCB_removed" value="NA" />
+    <Param name="CAN_FD" value="Y" />
+    <Param name="TimerCounterPWM_Count" value="32" />
+    <Param name="TimerCounterPWM_removed" value="NA" />
+    <Param name="USB_Type" value="HS" />
+    <Param name="U55" value="Y" />
+    <Param name="GFX" value="Y" />
+    <Param name="LIN_Count" value="0" />
+    <Param name="LIN_Removed" value="NA" />
+    <Param name="ETH_Count" value="1" />
+    <Param name="ETH_Removed" value="NA" />
+    <Param name="I3C_Count" value="1" />
+    <Param name="I3C_Removed" value="NA" />
+    <Param name="SMIF_Count" value="2" />
+    <Param name="SMIF_Removed" value="NA" />
+    <Param name="Crypto" value="Y" />
+    <Param name="Security" value="EPC2" />
+    <Param name="I2S_Count" value="2" />
+    <Param name="I2S_removed" value="NA" />
+    <Param name="PDM_Count" value="6" />
+    <Param name="PDM_removed" value="NA" />
+    <Param name="DirDriveLCD" value="N" />
+    <Param name="DMAchannels_count" value="16" />
+    <Param name="DMACchannels_count" value="4" />
+    <Param name="IO_Count" value="147" />
+    <Param name="Vddmin_volts" value="1.8" />
+    <Param name="Vddmax_volts" value="4.8" />
+    <Param name="TempMin_Celsius" value="-40" />
+    <Param name="TempMax_Celsius" value="105" />
+    <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
+    <Param name="SiliconID" value="0xED952115" />
+    <Param name="REQUIRED_KITS" value="None" />
+    <Param name="Next_Best_Alt_Part" value="None" />
+    <Param name="DATASHEET" value="NA" />
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="PSE84" />
+  </DeviceComponents>
+  <DeviceCapabilities>
+    <DevCap name="adc" />
+    <DevCap name="can" />
+    <DevCap name="comp" />
+    <DevCap name="dac" />
+    <DevCap name="dma" />
+    <DevCap name="epc2" />
+    <DevCap name="ethernet" />
+    <DevCap name="flash_0k" types="mcu" />
+    <DevCap name="gfx" />
+    <DevCap name="hal" />
+    <DevCap name="i2c" />
+    <DevCap name="i2s" />
+    <DevCap name="i3c" />
+    <DevCap name="low_power" />
+    <DevCap name="lptimer" />
+    <DevCap name="mcu_gp" />
+    <DevCap name="multi_core" />
+    <DevCap name="npu" />
+    <DevCap name="opamp" />
+    <DevCap name="pdm" />
+    <DevCap name="pse8xxgp" />
+    <DevCap name="qspi" />
+    <DevCap name="rtc" />
+    <DevCap name="sdhc" />
+    <DevCap name="sdio" />
+    <DevCap name="smart_io" />
+    <DevCap name="spi" />
+    <DevCap name="sram_1024k" types="mcu" />
+    <DevCap name="std_crypto" />
+    <DevCap name="tdm" />
+    <DevCap name="uart" />
+    <DevCap name="usb_device" />
+    <DevCap name="usb_host" />
+  </DeviceCapabilities>
+  <TemplateAssetId>mtb-template-pse8xxgp</TemplateAssetId>
+  <MigrationGroup>pse8xxgp</MigrationGroup>
+  <MigrationTargets>
+    <MigrationTarget>pse8xxgm</MigrationTarget>
+    <MigrationTarget>pse8xxgo</MigrationTarget>
+    <MigrationTarget>pse8xxgp</MigrationTarget>
+  </MigrationTargets>
+  <types>
+    <type name="mcu" />
+  </types>
+  <provides>
+    <provide key="bt-uart" />
+    <provide key="wifi-spi" />
+    <provide key="wifi-sdio" />
+  </provides>
+  <ToolIDs>
+    <ToolID name="audio-fe-configurator" />
+    <ToolID name="deepcraftmodelconverter" />
+    <ToolID name="deepcraftstudio" />
+    <ToolID name="device-configurator" />
+    <ToolID name="dfuh-tool" />
+    <ToolID name="edge-protect-configurator" />
+    <ToolID name="library-manager" />
+    <ToolID name="ml-configurator" />
+    <ToolID name="project-creator" />
+    <ToolID name="qspi-configurator" />
+    <ToolID name="smartio-configurator" />
+  </ToolIDs>
+</View>

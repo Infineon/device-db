@@ -6,7 +6,6 @@
     <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog" definePostfix="ANALOG" />
     <PadFunctionType name="AUX" connectionsPerPin="1" port="aux" definePostfix="AUX" />
     <PadFunctionType name="HV" connectionsPerPin="1" port="aux" definePostfix="HV" />
-    <PadFunctionType name="HVIO" connectionsPerPin="1" port="aux" definePostfix="HVIO" />
   </PadFunctionTypes>
   <PadTypes>
     <PadType value="PWR" category="POWER" />

@@ -5254,6 +5254,11 @@
         "path": "devices/memory/MX25U1001E"
       },
       {
+        "name": "MX25U25643G",
+        "part": true,
+        "path": "devices/memory/MX25U25643G"
+      },
+      {
         "name": "MX25U5121E",
         "part": true,
         "path": "devices/memory/MX25U5121E"
@@ -6334,6 +6339,51 @@
         "name": "W25Q80BL",
         "part": true,
         "path": "devices/memory/W25Q80BL"
+      },
+      {
+        "name": "MXS22",
+        "part": false,
+        "path": "devices/MXS22"
+      },
+      {
+        "name": "EXPLORER",
+        "part": false,
+        "path": "devices/MXS22/EXPLORER"
+      },
+      {
+        "name": "PSE813GOS4DBZC4A",
+        "part": true,
+        "path": "devices/MXS22/EXPLORER/PSE813GOS4DBZC4A"
+      },
+      {
+        "name": "PSE833GOS2DBZC4A",
+        "part": true,
+        "path": "devices/MXS22/EXPLORER/PSE833GOS2DBZC4A"
+      },
+      {
+        "name": "PSE845GPS2DFMC4A",
+        "part": true,
+        "path": "devices/MXS22/EXPLORER/PSE845GPS2DFMC4A"
+      },
+      {
+        "name": "PSE845GPS2DFNC4A",
+        "part": true,
+        "path": "devices/MXS22/EXPLORER/PSE845GPS2DFNC4A"
+      },
+      {
+        "name": "PSE846GPS2DBZC4A",
+        "part": true,
+        "path": "devices/MXS22/EXPLORER/PSE846GPS2DBZC4A"
+      },
+      {
+        "name": "PSE846GPS2DBZQ3A",
+        "part": true,
+        "path": "devices/MXS22/EXPLORER/PSE846GPS2DBZQ3A"
+      },
+      {
+        "name": "PSE846GPS4DBZC4A",
+        "part": true,
+        "path": "devices/MXS22/EXPLORER/PSE846GPS4DBZC4A"
       },
       {
         "name": "MXS40",

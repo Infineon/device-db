@@ -100,6 +100,8 @@
     <provide key="wifi-spi" />
   </provides>
   <ToolIDs>
+    <ToolID name="deepcraftmodelconverter" />
+    <ToolID name="deepcraftstudio" />
     <ToolID name="device-configurator" />
     <ToolID name="dfuh-tool" />
     <ToolID name="library-manager" />

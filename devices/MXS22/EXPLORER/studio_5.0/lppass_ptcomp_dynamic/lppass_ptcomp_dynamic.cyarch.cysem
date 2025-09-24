@@ -1,0 +1,3331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
+  <Instances count="103">
+    <Instance guid="01584379-b5ba-441a-be98-741fa6abb3da" name="cy_all_label_43" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_43</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB1 OA0 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="01ec5725-350b-4544-97ff-77605ea2046f" name="cy_all_label_13" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_13</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="051d9095-f179-4f84-9cc0-24feaeb1f012" name="cy_all_label_42" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_42</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB0 OA1 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="085f7fb8-963c-44d5-ada0-94d7d510f3c6" name="cy_all_label_45" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_45</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="0bad2b8b-a24a-4933-adcb-3cbe4cd3704c" name="cy_PTCOMP0" component="cy_PTCOMP">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PTCOMP</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_PTCOMP0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PTComp0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="0ea2d89a-9f5a-4d16-b770-1f44a8c80857" name="cy_all_label_37" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_37</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="0fc46f3c-d1e1-4c59-8a8f-3e20ef2ac58b" name="cy_all_label_92" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_92</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB1 OA1 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="142f5c15-b86e-4b57-86c0-d2f5da2ddae4" name="cy_all_label_115" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_115</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB1 OA0 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="162a11f7-1ad1-48fa-8ded-321538fe79bd" name="cy_all_label_117" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_117</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1714748f-abc4-425c-9ef0-40dbc05d542c" name="cy_all_label_106" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_106</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="18408203-eb2d-4cdb-8608-65df65871fc1" name="cy_all_label_8" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_8</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="19cd50cb-f6e3-4d59-bef1-c29e021b75cc" name="cy_all_label_114" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_114</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB0 OA1 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1a2e9e15-0be6-4d30-a052-6c7bb3a56892" name="cy_all_label_95" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_95</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PRB_OUT0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1c91f167-ef7a-4d37-a97f-0b9e960209dc" name="cy_arrow_2" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_2</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="1d35b09c-7317-470c-9cfc-1d24f6fa87dc" name="cy_all_label_7" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_7</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="210f9bfd-d105-45eb-b41f-478c054530ab" name="cy_all_label_22" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_22</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="25d1a642-9e3d-4b3a-bfe2-1774add2735e" name="cy_all_label_11" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_11</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[2]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="265c2619-5505-464e-ae6e-dec1472986b8" name="cy_all_label_105" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_105</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[0]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="266bb759-3027-4721-b870-e262f666aeed" name="cy_all_label_91" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_91</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB1 OA0 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="2833dd2f-a0f7-4b52-b5ff-c8dc9e3771b6" name="cy_arrow_1" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_1</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="2a6bd323-b6e6-4e6a-8183-a5d17bfbb4f3" name="cy_all_label_31" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_31</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="314fc0d9-5d5b-4f49-92f3-082f27d48e0d" name="cy_all_label_102" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_102</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="33d70fa7-ff33-48db-8dbe-5de6f1535e0a" name="cy_all_label_24" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_24</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PRB_OUT1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3636839d-ae76-46f5-8919-319c600168c7" name="cy_all_label_97" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_97</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="36a3cab7-8d8b-4955-85bd-6efa1658811b" name="cy_all_label_110" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_110</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[5]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3a14e431-71d3-4212-b61c-0aaa4629fc43" name="cy_all_label_29" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_29</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3b29a0bb-9d04-4382-9640-45464f3a002c" name="cy_all_label_83" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_83</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[2]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3b9b62f7-6424-4ed4-9265-88da013e9a15" name="cy_all_label_113" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_113</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB0 OA0 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3e93cb74-7c8a-4f9d-9b20-f14fdb38a30f" name="cy_all_label_47" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_47</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PRB_OUT0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="422b2322-41a9-44e1-a652-789f33ca23a8" name="cy_all_label_79" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_79</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="429dd3d6-bf34-4143-9e5f-7a3b62404e17" name="cy_all_label_100" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_100</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="474bc39f-cc0a-40f6-82a1-ea0eb47732ca" name="cy_all_label_99" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_99</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="48a326cb-8c76-473f-8627-1ce0bd9e3a35" name="cy_all_label_116" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_116</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB1 OA1 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="49df2518-8c4b-4cf1-8783-c0d0ff46a5ac" name="cy_all_label_86" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_86</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[5]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="502b474c-ca6b-4613-a0af-f2a396e69ee9" name="cy_all_label_28" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_28</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="59976b8a-b323-43dc-9dc0-ff8393adca79" name="cy_all_label_2" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_2</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5dcc7f17-2724-467d-b722-d680a4148d11" name="cy_all_label_94" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_94</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5e7c589e-a235-4d57-8041-b145717f9dde" name="cy_all_label_15" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_15</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5eaf14ab-9aad-4eee-ad8a-47135105827a" name="cy_all_label_34" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_34</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="68281091-d3d4-4b54-ae34-4103edc3eedc" name="cy_all_label_40" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_40</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="68bcb46c-a11b-4f5f-8dbb-e2f2f4a55ac6" name="cy_all_label_26" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_26</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="699e8ad2-ce46-4603-a7e6-7fe38f46c21c" name="cy_all_label_80" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_80</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="6aa25d6f-b0a0-45eb-83ce-7a9d58e2125e" name="cy_all_label_108" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_108</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[3]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="6c5bd377-25ef-4fc3-953b-f7420a6a49af" name="cy_all_label_85" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_85</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="708ebf82-a222-407d-ac3d-b118cd1c004e" name="cy_all_label_48" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_48</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PRB_OUT1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7153baaa-253f-47ac-9cbe-c73cc8cbf5b6" name="cy_all_label_12" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_12</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[3]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="75a537ac-5b99-425b-8c3c-198316ef0718" name="cy_all_label_30" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_30</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="75f50f25-c5c4-4481-adab-43f95c95051a" name="cy_all_label_46" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_46</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="77f24728-1ecf-44f0-a578-db50abcd7ea1" name="cy_all_label_87" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_87</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7a15aa68-c4c9-4624-b183-2df9c00fbe28" name="cy_all_label_118" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_118</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7cb93d56-8bda-43eb-9e2a-a7b0310adc12" name="cy_all_label_101" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_101</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7f3ad956-ddc0-4ad8-9c9f-d77c81981303" name="cy_all_label_32" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_32</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="831ee101-7829-414a-aa39-65c0eb4cc820" name="cy_all_label_109" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_109</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="832555ce-52bd-44ca-a335-68e8c1d9a50c" name="cy_all_label_6" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_6</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="85a6955d-2e4b-47f1-8cc6-0d458ecb3446" name="cy_all_label_120" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_120</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PRB_OUT1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="86d7bb87-bb7c-4435-8daa-654e20f6975b" name="cy_PTCOMP1" component="cy_PTCOMP">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PTCOMP</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_PTCOMP1</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PTComp1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="8799b973-e103-48a7-9e58-e5f14c408e7b" name="cy_all_label_74" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_74</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="89915377-aba9-4c4a-80a4-442256675c25" name="cy_all_label_119" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_119</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PRB_OUT0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="89cc4a00-852f-404d-a745-6623b3c9e9a2" name="cy_all_label_3" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_3</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="89f122fe-0994-4363-adfa-0b5f8870e8e1" name="cy_all_label_89" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_89</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB0 OA0 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="9284d80e-d4bd-43d7-be69-9d3fea56c5f1" name="cy_all_label_112" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_112</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="92a7d70e-4ce1-43c4-9e64-d5f962a4da06" name="cy_all_label_76" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_76</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="95516891-bacf-4ef1-bb00-e556c0c9df02" name="cy_all_label_41" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_41</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB0 OA0 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="9667b056-7276-48d6-b65c-8c834a394ebd" name="cy_all_label_21" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_21</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="97280a56-93ff-4a87-a699-d82f0edfb45a" name="cy_all_label_93" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_93</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="9838d396-6f36-4274-9c24-a447ab341a16" name="cy_all_label_14" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_14</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[5]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="9a874e5b-8b0a-435d-b5ee-72fdc5c27c77" name="cy_all_label_27" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_27</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="9b2c5ae5-0744-4a42-b0e1-48b1330a36c6" name="cy_arrow_3" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_3</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="9f7b122a-817a-4b85-b3be-51048b88022a" name="cy_all_label_9" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_9</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[0]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a01abcef-ac65-424f-9ee0-d62ef5c919c1" name="cy_all_label_33" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_33</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[0]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a3dc63e1-2a82-43d5-a9b1-3162bf9b5f03" name="cy_all_label_25" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_25</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a4c1caba-b507-4955-9332-36cf1b69394c" name="cy_all_label_107" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_107</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[2]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a66b9197-cd89-485f-8943-c3c1ac9efad8" name="cy_all_label_96" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_96</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PRB_OUT1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a68c34c5-8e51-475a-92ce-7bbdaa5c6a5a" name="cy_all_label_90" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_90</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB0 OA1 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ab8237aa-6082-419c-bc1d-10c2c116c5d5" name="cy_all_label_111" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_111</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ace93d9c-ea73-431e-a1d2-efc17bb467df" name="cy_all_label_103" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_103</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ae12d557-3ca1-4954-b90f-ce126ad6ec52" name="cy_all_label_18" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_18</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB0 OA1 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="b0c825b6-ee62-4ff0-b366-c86b706018f4" name="cy_all_label_78" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_78</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="b34971c1-893c-4acb-aec8-a429058cb58b" name="cy_all_label_73" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_73</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="bfac48c5-637c-428c-9b69-2e6d65724504" name="cy_all_label_98" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_98</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[4]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c185c44e-ad48-4f7d-b293-f71450e03e67" name="cy_all_label_4" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_4</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c1d9b017-9c1e-4ad2-b2fc-d49a55296407" name="cy_all_label_19" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_19</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB1 OA0 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c2e9fb44-5220-4bd1-aae7-28c447c69f43" name="cy_all_label_5" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_5</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c3952bcd-8973-4f7c-9595-d5b680e57a08" name="mux_2" component="mux_4">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>MUX</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_2</Value>
+      </Parameter>
+      <Parameter name="Size">
+        <Value>24</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>Text</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c66a6591-98e6-4f27-8a3f-d40b604fc25c" name="cy_all_label_104" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_104</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c77b8c26-2ce7-4650-aa78-2e476743dd86" name="cy_all_label_17" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_17</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB0 OA0 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c8eaf2b9-063c-4e26-8d65-6098d783552d" name="cy_all_label_81" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_81</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[0]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="d704a3d1-bae0-4365-8fa1-860b18aa1819" name="cy_all_label_77" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_77</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P13[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="d7f7f558-ae30-42b6-8b98-580e0d8ce6a8" name="cy_all_label_36" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_36</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[3]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="dacb6563-1a48-4540-8cae-5d2e337edf82" name="cy_all_label_88" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_88</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="de0e0c29-e6d4-4539-b81c-0b7bb1064a7a" name="cy_all_label_44" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_44</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB1 OA1 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="df165089-c1a5-45fd-bdd2-ca3a305b2fe1" name="cy_all_label_38" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_38</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[5]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="df951bc2-672f-4251-86df-3851f6a656cd" name="cy_all_label_20" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_20</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CTB1 OA1 Output</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="e76df0e5-b6ce-45bb-a9c2-97af6ac7edd0" name="cy_all_label_75" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_75</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="e77f2a4a-af5f-4ec5-bbb1-fe8d771e035c" name="cy_all_label_84" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_84</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[3]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="e8756bb5-398a-4159-8ef1-7e2cbb7febcf" name="cy_all_label_16" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_16</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="e9dc0a99-2299-4956-9619-2a390328b56b" name="cy_all_label_23" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_23</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>PRB_OUT0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ed528be0-a5fe-43da-b935-e78e367ac67d" name="cy_all_label_35" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_35</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[2]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ef6c96d1-6b0f-461c-91e8-d793314372df" name="cy_all_label_82" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_82</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f1dff7d5-2c99-4d2f-9c35-cb112ffa0e95" name="mux_1" component="mux_4">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>MUX</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_1</Value>
+      </Parameter>
+      <Parameter name="Size">
+        <Value>24</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>Text</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f3829f01-fa67-46ea-b5a2-9f37116f953d" name="cy_all_label_39" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_39</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f871c4c7-8192-45a9-8bc1-7922e94ffcce" name="cy_all_label_1" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_1</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P14[1]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ffd58386-cbb4-4e08-8231-4d8c8bd36f36" name="cy_all_label_10" component="cy_all_label">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="enabled">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PIN</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_all_label_10</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>P15[1]</Value>
+      </Parameter>
+    </Instance>
+  </Instances>
+  <Signals count="52">
+    <Signal name="Net_1570" type="" terminalCount="0" />
+    <Signal name="Net_1571" type="" terminalCount="0" />
+    <Signal name="Net_1572" type="" terminalCount="0" />
+    <Signal name="Net_1573" type="" terminalCount="0" />
+    <Signal name="Net_1574" type="" terminalCount="0" />
+    <Signal name="Net_1575" type="" terminalCount="0" />
+    <Signal name="Net_1576" type="" terminalCount="0" />
+    <Signal name="Net_1577" type="" terminalCount="0" />
+    <Signal name="Net_1594" type="" terminalCount="0" />
+    <Signal name="Net_1595" type="" terminalCount="0" />
+    <Signal name="Net_1596" type="" terminalCount="0" />
+    <Signal name="Net_1597" type="" terminalCount="0" />
+    <Signal name="Net_1598" type="" terminalCount="0" />
+    <Signal name="Net_1599" type="" terminalCount="0" />
+    <Signal name="Net_1600" type="" terminalCount="0" />
+    <Signal name="Net_1601" type="" terminalCount="0" />
+    <Signal name="Net_1602" type="" terminalCount="0" />
+    <Signal name="Net_1603" type="" terminalCount="0" />
+    <Signal name="Net_1604" type="" terminalCount="0" />
+    <Signal name="Net_1605" type="" terminalCount="0" />
+    <Signal name="Net_1606" type="" terminalCount="0" />
+    <Signal name="Net_1607" type="" terminalCount="0" />
+    <Signal name="Net_1608" type="" terminalCount="0" />
+    <Signal name="Net_1609" type="" terminalCount="0" />
+    <Signal name="Net_1651" type="" terminalCount="0" />
+    <Signal name="Net_1652" type="" terminalCount="0" />
+    <Signal name="Net_1653" type="" terminalCount="0" />
+    <Signal name="Net_1654" type="" terminalCount="0" />
+    <Signal name="Net_1655" type="" terminalCount="0" />
+    <Signal name="Net_1656" type="" terminalCount="0" />
+    <Signal name="Net_1657" type="" terminalCount="0" />
+    <Signal name="Net_1658" type="" terminalCount="0" />
+    <Signal name="Net_1659" type="" terminalCount="0" />
+    <Signal name="Net_1660" type="" terminalCount="0" />
+    <Signal name="Net_1661" type="" terminalCount="0" />
+    <Signal name="Net_1662" type="" terminalCount="0" />
+    <Signal name="Net_1663" type="" terminalCount="0" />
+    <Signal name="Net_1664" type="" terminalCount="0" />
+    <Signal name="Net_1665" type="" terminalCount="0" />
+    <Signal name="Net_1666" type="" terminalCount="0" />
+    <Signal name="Net_1667" type="" terminalCount="0" />
+    <Signal name="Net_1668" type="" terminalCount="0" />
+    <Signal name="Net_1669" type="" terminalCount="0" />
+    <Signal name="Net_1670" type="" terminalCount="0" />
+    <Signal name="Net_1671" type="" terminalCount="0" />
+    <Signal name="Net_1672" type="" terminalCount="0" />
+    <Signal name="Net_1673" type="" terminalCount="0" />
+    <Signal name="Net_1674" type="" terminalCount="0" />
+    <Signal name="Net_1676" type="" terminalCount="0" />
+    <Signal name="Net_1678" type="" terminalCount="0" />
+    <Signal name="wire_InvMUXInp" type="" terminalCount="0" />
+    <Signal name="wire_nInvMUXInp" type="" terminalCount="0" />
+  </Signals>
+  <Properties>
+    <Property name="CanvasBackColor">255, 255, 255</Property>
+    <Property name="Doc.CompanyAddr1" />
+    <Property name="Doc.CompanyAddr2" />
+    <Property name="Doc.CompanyAddr3" />
+    <Property name="Doc.CompanyName">Cypress Semiconductor</Property>
+    <Property name="Doc.SchematicTitle" />
+    <Property name="MajorGridColor">169, 169, 169</Property>
+    <Property name="MinorGridColor">100, 169, 169, 169</Property>
+    <Property name="OnlyShowSolderDotsOnWires">True</Property>
+    <Property name="OwnerLineColor">128, 128, 128</Property>
+    <Property name="ShowGrid">True</Property>
+    <Property name="ShowGridAsLines">False</Property>
+    <Property name="TerminalConnectColor">128, 128, 128</Property>
+    <Property name="TerminalFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireBusSize">2</Property>
+    <Property name="WireDotSize">5</Property>
+    <Property name="WireFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireFontColor">0, 0, 0</Property>
+    <Property name="WireSize">0.25</Property>
+  </Properties>
+</Document>

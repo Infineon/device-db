@@ -1,0 +1,1572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
+  <Page index="0" name="Page 1" enabled="true" shapeCount="84">
+    <Rectangle shapeName="Shape_9908" zorder="12">
+      <Location x="198" y="120" />
+      <Size width="78" height="42" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <Fill>
+        <SolidBrush color="255, 255, 255" />
+      </Fill>
+    </Rectangle>
+    <Annotation shapeName="Shape_9909" zorder="13">
+      <Location x="198" y="126" />
+      <Size width="79" height="29.99999" />
+      <Text>Waveform Data
+(512 Entries)</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="MiddleCenter" />
+    </Annotation>
+    <Rectangle shapeName="Shape_9910" zorder="14">
+      <Location x="72" y="162" />
+      <Size width="96" height="36" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <Fill>
+        <SolidBrush color="255, 255, 255" />
+      </Fill>
+    </Rectangle>
+    <Annotation shapeName="Shape_9912" zorder="15">
+      <Location x="72.00001" y="162" />
+      <Size width="96.99999" height="37" />
+      <Text>Channel 15
+(Firmware Channel)</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="MiddleCenter" />
+    </Annotation>
+    <Line shapeName="Shape_9914" zorder="16">
+      <Point x="276" y="144" />
+      <Point x="306" y="144" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="ArrowAnchor" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_9917" zorder="17">
+      <Point x="168" y="174" />
+      <Point x="306" y="174" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="ArrowAnchor" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Wire shapeName="Shape_9920" zorder="46" effectiveName="Net_1658" type="Digital">
+      <Point1 x="246" y="228" />
+      <Point2 x="270" y="228" />
+    </Wire>
+    <Wire shapeName="Shape_9921" zorder="48" effectiveName="Net_1659" type="Digital">
+      <Point1 x="246" y="246" />
+      <Point2 x="270" y="246" />
+    </Wire>
+    <Wire shapeName="Shape_9922" zorder="50" effectiveName="Net_1660" type="Digital">
+      <Point1 x="246" y="264" />
+      <Point2 x="270" y="264" />
+    </Wire>
+    <Wire shapeName="Shape_9923" zorder="52" effectiveName="Net_1661" type="Digital">
+      <Point1 x="246" y="282" />
+      <Point2 x="270" y="282" />
+    </Wire>
+    <Wire shapeName="Shape_9924" zorder="54" effectiveName="Net_1662" type="Digital">
+      <Point1 x="246" y="300" />
+      <Point2 x="270" y="300" />
+    </Wire>
+    <Wire shapeName="Shape_9925" zorder="56" effectiveName="Net_1663" type="Digital">
+      <Point1 x="246" y="318" />
+      <Point2 x="270" y="318" />
+    </Wire>
+    <Annotation shapeName="Shape_9927" zorder="20">
+      <Location x="719.9997" y="192" />
+      <Size width="54.00024" height="18.00002" />
+      <Text>To ADC, PTComp,
+and CTB inputs</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 6pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Annotation>
+    <Wire shapeName="Shape_9928" zorder="21" effectiveName="Net_1652" type="Digital">
+      <Point1 x="534" y="162" solderDot="true" />
+      <Point2 x="534" y="216" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT")):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_9944" zorder="23" effectiveName="Net_1666" type="Digital">
+      <Point1 x="702" y="186" solderDot="true" />
+      <Point2 x="720" y="186" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_9946" zorder="25" effectiveName="Net_1666" type="Digital">
+      <Point1 x="600" y="210" />
+      <Point2 x="600" y="240" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_9947" zorder="5" effectiveName="Net_1666" type="Digital">
+      <Point1 x="600" y="210" />
+      <Point2 x="618" y="210" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Wire>
+    <Annotation shapeName="Shape_9967" zorder="29">
+      <Location x="426" y="244" />
+      <Size width="150" height="12.00003" />
+      <Text>Sample and Hold</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="MiddleCenter" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")):0)}`]]></ShapeTags>
+    </Annotation>
+    <Wire shapeName="Shape_9968" zorder="30" effectiveName="Net_1666" type="Digital">
+      <Point1 x="702" y="138" />
+      <Point2 x="702" y="186" solderDot="true" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_9969" zorder="32" effectiveName="Net_1666" type="Digital">
+      <Point1 x="702" y="138" />
+      <Point2 x="720" y="138" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_9972" zorder="34" effectiveName="Net_1652" type="Digital">
+      <Point1 x="474" y="162" solderDot="true" />
+      <Point2 x="474" y="168" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_9975" zorder="36" effectiveName="Net_1654" type="Digital">
+      <Point1 x="474" y="204" />
+      <Point2 x="474" y="216" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_9981" zorder="27" effectiveName="Net_1653" type="Digital">
+      <Point1 x="414" y="162" />
+      <Point2 x="432" y="162" />
+    </Wire>
+    <Instance shapeName="Shape_9982" zorder="88" guid="7bf7b263-7e9d-4936-8d54-77b899fdc31e" name="cy_DAC_1" component="cy_DAC">
+      <Location x="306" y="138" />
+      <Size width="108" height="47.99998" />
+      <ShapeTags><![CDATA[visibility:`${(getInstNumber("dac") eq 0)}`]]></ShapeTags>
+      <SubShapes>
+        <ClosedShape>
+          <Point x="388.5882" y="138" />
+          <Point x="306" y="138" />
+          <Point x="306" y="186" />
+          <Point x="388.5882" y="186" />
+          <Point x="414" y="162" />
+          <Point x="388.5882" y="138" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="310.3982" y="150" />
+          <Size width="82.58823" height="24" />
+          <Text>DAC0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Rectangle shapeName="Shape_9983" zorder="38">
+      <Location x="72" y="120" />
+      <Size width="96" height="36" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <Fill>
+        <SolidBrush color="255, 255, 255" />
+      </Fill>
+    </Rectangle>
+    <Annotation shapeName="Shape_9984" zorder="39">
+      <Location x="72.00001" y="120" />
+      <Size width="96.99999" height="37" />
+      <Text>Channels 0 to 14</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="MiddleCenter" />
+    </Annotation>
+    <Line shapeName="Shape_9985" zorder="40">
+      <Point x="168" y="138" />
+      <Point x="198" y="138" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="ArrowAnchor" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Instance shapeName="Shape_9986" zorder="41" guid="c1bf7d30-4047-4763-87fd-b1ff1167abcd" name="cy_Switch3_1" component="cy_Switch3">
+      <Location x="432" y="156" />
+      <Size width="36" height="6" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Line>
+          <Point x="432" y="162" />
+          <Point x="444" y="162" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="456" y="162" />
+          <Point x="468" y="162" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="444" y="162" />
+          <Point x="456" y="156" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_9987" zorder="42" guid="8e02a32a-0111-4208-8aa7-bed264e56d04" name="cy_cap_1" component="cy_cap">
+      <Location x="462" y="216" />
+      <Size width="24.00003" height="18" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Line>
+          <Point x="462" y="216" />
+          <Point x="486" y="216" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Arc>
+          <Location x="462" y="219.6" />
+          <Size width="24" height="3.600006" />
+          <Angles start="180" sweep="180.0001" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <NoFill />
+        </Arc>
+        <Line>
+          <Point x="474" y="220" />
+          <Point x="474" y="230" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="470" y="230" />
+          <Point x="478" y="230" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="478" y="230" />
+          <Point x="474" y="234" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="470" y="230" />
+          <Point x="474" y="234" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_9988" zorder="43" guid="a4610e73-1e68-4a20-8137-c8c3e673a0ac" name="cy_cap_2" component="cy_cap">
+      <Location x="521.9999" y="216" />
+      <Size width="24.00006" height="18" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT")):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Line>
+          <Point x="522" y="216" />
+          <Point x="546" y="216" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Arc>
+          <Location x="521.9999" y="219.6" />
+          <Size width="24" height="3.600006" />
+          <Angles start="180" sweep="180.0001" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <NoFill />
+        </Arc>
+        <Line>
+          <Point x="534" y="220" />
+          <Point x="534" y="230" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="530" y="230" />
+          <Point x="538" y="230" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="538" y="230" />
+          <Point x="534" y="234" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="530" y="230" />
+          <Point x="534" y="234" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_9990" zorder="44" guid="549ddeb7-0ce5-4936-855a-b4ce6033063a" name="cy_Switch3_2" component="cy_Switch3">
+      <Location x="474" y="168" />
+      <Size width="6" height="36" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Line>
+          <Point x="474" y="168" />
+          <Point x="474" y="180" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="474" y="192" />
+          <Point x="474" y="204" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="474" y="180" />
+          <Point x="480" y="192" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_9992" zorder="11" guid="46561679-cb16-4a4d-ad8a-a133bd61d970" name="cy_buffer_1" component="cy_buffer">
+      <Location x="546" y="144" />
+      <Size width="143.9999" height="84" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+      <SubShapes>
+        <ClosedShape>
+          <Point x="689.9999" y="186" />
+          <Point x="613.2" y="228" />
+          <Point x="613.2" y="144" />
+          <Point x="689.9999" y="186" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="546" y="181.2" />
+          <Size width="78.39996" height="15.60001" />
+          <Text />
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Line>
+          <Point x="624" y="156" />
+          <Point x="624" y="168" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="618" y="162" />
+          <Point x="630" y="162" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="618" y="210" />
+          <Point x="630" y="210" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+      </SubShapes>
+    </Instance>
+    <Annotation shapeName="Shape_9993" zorder="45">
+      <Location x="611.9998" y="246" />
+      <Size width="60.00012" height="12" />
+      <Text>DAC Buffer</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Annotation>
+    <Wire shapeName="Shape_10008" zorder="58" effectiveName="Net_1657" type="Digital">
+      <Point1 x="246" y="336" />
+      <Point2 x="270" y="336" />
+    </Wire>
+    <Wire shapeName="Shape_10009" zorder="60" effectiveName="Net_1664" type="Digital">
+      <Point1 x="246" y="354" />
+      <Point2 x="270" y="354" />
+    </Wire>
+    <Wire shapeName="Shape_10010" zorder="62" effectiveName="Net_1665" type="Digital">
+      <Point1 x="288" y="294" />
+      <Point2 x="336" y="294" />
+    </Wire>
+    <Wire shapeName="Shape_10011" zorder="64" effectiveName="Net_1665" type="Digital">
+      <Point1 x="336" y="180" />
+      <Point2 x="336" y="294" />
+    </Wire>
+    <Annotation shapeName="Shape_10012" zorder="66">
+      <Location x="306" y="300" />
+      <Size width="31" height="13" />
+      <Text>VREF</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+    </Annotation>
+    <Instance shapeName="Shape_10013" zorder="87" guid="fb8c1f8b-4ea4-4b15-a786-8d78720958af" name="cy_DAC_2" component="cy_DAC">
+      <Location x="306" y="138" />
+      <Size width="108" height="47.99998" />
+      <ShapeTags><![CDATA[visibility:`${(getInstNumber("dac") eq 1)}`]]></ShapeTags>
+      <SubShapes>
+        <ClosedShape>
+          <Point x="388.5882" y="138" />
+          <Point x="306" y="138" />
+          <Point x="306" y="186" />
+          <Point x="388.5882" y="186" />
+          <Point x="414" y="162" />
+          <Point x="388.5882" y="138" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="310.3982" y="150" />
+          <Size width="82.58823" height="24" />
+          <Text>DAC1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10030" zorder="1" guid="f64fa81a-1624-4d0b-a9bc-fdb646d8bf27" name="cy_Switch3_3" component="cy_Switch3">
+      <Location x="432" y="162" />
+      <Size width="36" height="0" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Line>
+          <Point x="432" y="162" />
+          <Point x="444" y="162" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="456" y="162" />
+          <Point x="468" y="162" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="444" y="162" />
+          <Point x="456" y="162" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+      </SubShapes>
+    </Instance>
+    <Annotation shapeName="Shape_10041" zorder="69">
+      <Location x="617.9999" y="156" />
+      <Size width="36.00006" height="13" />
+      <Text>DAC0</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${(getInstNumber("dac")==0)&&((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP"):1)}`]]></ShapeTags>
+    </Annotation>
+    <Annotation shapeName="Shape_10042" zorder="68">
+      <Location x="617.9998" y="168" />
+      <Size width="54.00018" height="18.00002" />
+      <Text>To ADC, PTComp,
+and CTB inputs</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 6pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP"):1)}`]]></ShapeTags>
+    </Annotation>
+    <Wire shapeName="Shape_10043" zorder="3" effectiveName="Net_1666" type="Digital">
+      <Point1 x="684" y="186" />
+      <Point2 x="702" y="186" solderDot="true" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_10046" zorder="67" guid="748279d0-14d9-4d9f-8839-4b04012937c4" name="cy_Switch3_4" component="cy_Switch3">
+      <Location x="474" y="168" />
+      <Size width="0" height="36" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Line>
+          <Point x="474" y="168" />
+          <Point x="474" y="180" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="474" y="192" />
+          <Point x="474" y="204" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="474" y="180" />
+          <Point x="474" y="192" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1.5">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10047" zorder="70" guid="f59211d2-3a94-4665-bd3a-2a20be925999" name="cy_arrow_1" component="cy_arrow">
+      <Location x="192" y="134" />
+      <Size width="6" height="8" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="192" y="134" />
+          <Point x="192" y="142" />
+          <Point x="198" y="138" />
+          <Point x="192" y="134" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10048" zorder="71" guid="43625675-5de5-424a-8c1c-ac8c28e34042" name="cy_arrow_2" component="cy_arrow">
+      <Location x="300" y="170" />
+      <Size width="6" height="8" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="300" y="170" />
+          <Point x="300" y="178" />
+          <Point x="306" y="174" />
+          <Point x="300" y="170" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10049" zorder="72" guid="9b2c5ae5-0744-4a42-b0e1-48b1330a36c6" name="cy_arrow_3" component="cy_arrow">
+      <Location x="300" y="140" />
+      <Size width="6" height="8" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="300" y="140" />
+          <Point x="300" y="148" />
+          <Point x="306" y="144" />
+          <Point x="300" y="140" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Line shapeName="Shape_10050" zorder="73">
+      <Point x="120" y="120" />
+      <Point x="120" y="102" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")):0)}`]]></ShapeTags>
+    </Line>
+    <Line shapeName="Shape_10051" zorder="74">
+      <Point x="120" y="102" />
+      <Point x="504" y="102" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")):0)}`]]></ShapeTags>
+    </Line>
+    <Line shapeName="Shape_10052" zorder="75">
+      <Point x="504" y="102" />
+      <Point x="504" y="144" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")):0)}`]]></ShapeTags>
+    </Line>
+    <Instance shapeName="Shape_10058" zorder="76" guid="4da845b4-8f36-4fd5-a5fd-19d4dff240b5" name="cy_arrow_4" component="cy_arrow">
+      <Location x="500" y="138" />
+      <Size width="8" height="6" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")):0)}`]]></ShapeTags>
+      <SubShapes>
+        <ClosedShape>
+          <Point x="508" y="138" />
+          <Point x="500" y="138" />
+          <Point x="504" y="144" />
+          <Point x="508" y="138" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_10060" zorder="18" effectiveName="Net_1652" type="Digital">
+      <Point1 x="468" y="162" />
+      <Point2 x="474" y="162" solderDot="true" />
+    </Wire>
+    <Wire shapeName="Shape_10092" zorder="9" effectiveName="Net_1652" type="Digital">
+      <Point1 x="474" y="162" solderDot="true" />
+      <Point2 x="534" y="162" solderDot="true" />
+    </Wire>
+    <Wire shapeName="Shape_10093" zorder="7" effectiveName="Net_1652" type="Digital">
+      <Point1 x="534" y="162" solderDot="true" />
+      <Point2 x="618" y="162" />
+    </Wire>
+    <Rectangle shapeName="Shape_10094" zorder="2">
+      <Location x="426" y="144" />
+      <Size width="150" height="96" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+        <SolidBrush color="153, 180, 209" />
+      </Outline>
+      <NoFill />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")):0)}`]]></ShapeTags>
+    </Rectangle>
+    <Wire shapeName="Shape_10099" zorder="77" effectiveName="Net_1666" type="Digital">
+      <Point1 x="702" y="186" solderDot="true" />
+      <Point2 x="702" y="240" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10100" zorder="79" effectiveName="Net_1666" type="Digital">
+      <Point1 x="600" y="240" />
+      <Point2 x="702" y="240" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Wire>
+    <Annotation shapeName="Shape_10104" zorder="81">
+      <Location x="431.9999" y="198" />
+      <Size width="12" height="12" />
+      <Text>C</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="MiddleRight" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"):0)}`]]></ShapeTags>
+    </Annotation>
+    <Annotation shapeName="Shape_10105" zorder="82">
+      <Location x="443.9999" y="204" />
+      <Size width="18.00006" height="7" />
+      <Text>Hold</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 5pt" />
+      <TextAlignment value="MiddleLeft" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL")||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"):0)}`]]></ShapeTags>
+    </Annotation>
+    <Annotation shapeName="Shape_10106" zorder="83">
+      <Location x="539.9999" y="198" />
+      <Size width="12" height="12" />
+      <Text>C</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="MiddleRight" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT")):0)}`]]></ShapeTags>
+    </Annotation>
+    <Annotation shapeName="Shape_10107" zorder="84">
+      <Location x="551.9999" y="204" />
+      <Size width="18" height="7" />
+      <Text>Track</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 5pt" />
+      <TextAlignment value="MiddleLeft" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT")):0)}`]]></ShapeTags>
+    </Annotation>
+    <Annotation shapeName="Shape_10109" zorder="85">
+      <Location x="719.9999" y="180" />
+      <Size width="36" height="13" />
+      <Text>DAC0</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${(getInstNumber("dac")==0)&&((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Annotation>
+    <Instance shapeName="Shape_10113" zorder="86" guid="cf44a584-a69e-4156-8c39-271c70cadf1c" name="mux_1" component="mux_2">
+      <Location x="270" y="222" />
+      <Size width="19" height="138" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="288" y="228" />
+          <Point x="288" y="354" />
+          <Point x="270" y="360" />
+          <Point x="270" y="222" />
+          <Point x="288" y="228" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Annotation>
+          <Location x="270" y="354" />
+          <Size width="19" height="127" />
+          <Text />
+          <Vertical value="true" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Line shapeName="Shape_10114" zorder="0">
+      <Point x="432" y="162" />
+      <Point x="468" y="162" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+        <SolidBrush color="128, 128, 128" />
+      </Outline>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_sampleAndHoldEnable")&&(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_INTERNAL"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL"))||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"):1)}`]]></ShapeTags>
+    </Line>
+    <Instance shapeName="Shape_10115" zorder="89" guid="135efad3-db62-4d59-a35e-c051643a0b27" name="cy_all_label_1" component="cy_all_label">
+      <Location x="174" y="222" />
+      <Size width="72" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="222" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="222" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="233.5" />
+          <Text>VDDA</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10117" zorder="97" guid="72655fca-7da3-4ab2-9d9d-9a48e92d904d" name="cy_all_label_3" component="cy_all_label">
+      <Location x="174" y="222" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_vrefSel")==0):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="222" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="222" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="222" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="233.5" />
+          <Text>VDDA</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10118" zorder="90" guid="5bc8d49b-0aa7-4cbf-8467-7159f4e7a2f3" name="cy_all_label_2" component="cy_all_label">
+      <Location x="174" y="240" />
+      <Size width="72" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="240" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="240" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="251.5" />
+          <Text>VBGR (0.9V)</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10119" zorder="98" guid="d4185f48-022e-41dd-ad59-a42429dc7ef5" name="cy_all_label_4" component="cy_all_label">
+      <Location x="174" y="240" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_vrefSel")==1):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="240" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="240" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="240" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="251.5" />
+          <Text>VBGR (0.9V)</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10120" zorder="91" guid="a83b6814-295a-47d7-8f16-752c9b32a546" name="cy_all_label_5" component="cy_all_label">
+      <Location x="174" y="258" />
+      <Size width="72" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="258" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="258" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="269.5" />
+          <Text>PRB_OUT0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10121" zorder="99" guid="54f82ee5-d0dc-4f4c-abac-99a95eec4b94" name="cy_all_label_6" component="cy_all_label">
+      <Location x="174" y="258" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_vrefSel")==2):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="258" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="258" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="258" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="269.5" />
+          <Text>PRB_OUT0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10122" zorder="92" guid="dbbb7a19-3a18-4ad1-8ab1-815cd11f31cf" name="cy_all_label_7" component="cy_all_label">
+      <Location x="174" y="276" />
+      <Size width="72" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="276" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="276" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="287.5" />
+          <Text>PRB_OUT1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10123" zorder="100" guid="868be15b-0754-4d53-9623-fef2406a67db" name="cy_all_label_8" component="cy_all_label">
+      <Location x="174" y="276" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_vrefSel")==3):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="276" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="276" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="276" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="287.5" />
+          <Text>PRB_OUT1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10124" zorder="93" guid="fc9087e3-cb8c-432b-a9f5-1b94d41c4573" name="cy_all_label_9" component="cy_all_label">
+      <Location x="174" y="294" />
+      <Size width="72" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="294" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="294" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="305.5" />
+          <Text>CTB0 OA0 OUT</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10125" zorder="101" guid="2ffb42b2-5632-4e8d-9042-03f4999f0018" name="cy_all_label_10" component="cy_all_label">
+      <Location x="174" y="294" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_vrefSel")==4):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="294" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="294" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="294" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="305.5" />
+          <Text>CTB0 OA0 OUT</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10126" zorder="94" guid="74dd9bd5-1624-4881-b6bf-8c2363f23e8e" name="cy_all_label_11" component="cy_all_label">
+      <Location x="174" y="312" />
+      <Size width="72" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="312" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="312" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="323.5" />
+          <Text>CTB0 OA1 OUT</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10127" zorder="102" guid="ee52f065-ece2-46be-a17b-31fa84193305" name="cy_all_label_12" component="cy_all_label">
+      <Location x="174" y="312" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_vrefSel")==5):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="312" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="312" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="312" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="323.5" />
+          <Text>CTB0 OA1 OUT</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10128" zorder="95" guid="1b70fba9-8297-4873-90fa-597ce416940a" name="cy_all_label_13" component="cy_all_label">
+      <Location x="174" y="330" />
+      <Size width="72" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="330" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="330" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="341.5" />
+          <Text>CTB1 OA0 OUT</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10129" zorder="103" guid="99eb55c8-1b73-4dac-9b78-0ba2617a2a87" name="cy_all_label_14" component="cy_all_label">
+      <Location x="174" y="330" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_vrefSel")==6):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="330" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="330" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="330" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="341.5" />
+          <Text>CTB1 OA0 OUT</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10130" zorder="96" guid="737dd59f-4c53-4dcd-8fb0-75db5624d3ad" name="cy_all_label_15" component="cy_all_label">
+      <Location x="174" y="348" />
+      <Size width="72" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="348" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="348" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="359.5" />
+          <Text>CTB1 OA1 OUT</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10131" zorder="104" guid="dd56e219-7475-4a5c-b95e-1a1d3ff3ab0d" name="cy_all_label_16" component="cy_all_label">
+      <Location x="174" y="348" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_vrefSel")==7):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="174" y="348" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="348" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="174" y="348" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="175" y="359.5" />
+          <Text>CTB1 OA1 OUT</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10132" zorder="105" guid="9ad3fd52-3594-4f6d-9ca7-b337d31352ca" name="cy_all_label_17" component="cy_all_label">
+      <Location x="720" y="132" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(getInstNumber("dac")==1)&&((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL"):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="720" y="132" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="723" y="143.5" />
+          <Text>P13[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10133" zorder="106" guid="4368e0b6-b382-4206-9898-4226c641939a" name="cy_all_label_18" component="cy_all_label">
+      <Location x="720" y="132" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(getInstNumber("dac")==0)&&((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_BUFFERED_EXTERNAL"):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="720" y="132" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="723" y="143.5" />
+          <Text>P14[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Annotation shapeName="Shape_10134" zorder="107">
+      <Location x="617.9999" y="156" />
+      <Size width="36.00006" height="13" />
+      <Text>DAC1</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${(getInstNumber("dac")==1)&&((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]", "dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP"):1)}`]]></ShapeTags>
+    </Annotation>
+    <Annotation shapeName="Shape_10135" zorder="108">
+      <Location x="719.9999" y="180" />
+      <Size width="36" height="13" />
+      <Text>DAC1</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${(getInstNumber("dac")==1)&&((isBlockUsed("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]"))?(!(getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_HOLD_CAP"||getExposedMember("pass[".getInstNumber("pass")."].dac[".getInstNumber("dac")."]","dac_outputTopology") eq "CY_AUTANALOG_DAC_TOPO_DIRECT_WITH_TRACK_CAP")):0)}`]]></ShapeTags>
+    </Annotation>
+  </Page>
+</Document>

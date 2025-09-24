@@ -1,0 +1,4222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
+  <Page index="0" name="Page 1" enabled="true" shapeCount="182">
+    <Wire shapeName="Shape_9692" zorder="2" effectiveName="Net_1570" type="Digital">
+      <Point1 x="126" y="72" />
+      <Point2 x="162" y="72" />
+    </Wire>
+    <Wire shapeName="Shape_9693" zorder="4" effectiveName="Net_1571" type="Digital">
+      <Point1 x="126" y="90" />
+      <Point2 x="162" y="90" />
+    </Wire>
+    <Wire shapeName="Shape_9694" zorder="6" effectiveName="Net_1572" type="Digital">
+      <Point1 x="126" y="108" />
+      <Point2 x="162" y="108" />
+    </Wire>
+    <Wire shapeName="Shape_9695" zorder="8" effectiveName="Net_1573" type="Digital">
+      <Point1 x="126" y="126" />
+      <Point2 x="162" y="126" />
+    </Wire>
+    <Wire shapeName="Shape_9696" zorder="10" effectiveName="Net_1574" type="Digital">
+      <Point1 x="126" y="144" />
+      <Point2 x="162" y="144" />
+    </Wire>
+    <Wire shapeName="Shape_9697" zorder="12" effectiveName="Net_1575" type="Digital">
+      <Point1 x="126" y="162" />
+      <Point2 x="162" y="162" />
+    </Wire>
+    <Wire shapeName="Shape_9698" zorder="14" effectiveName="Net_1576" type="Digital">
+      <Point1 x="126" y="180" />
+      <Point2 x="162" y="180" />
+    </Wire>
+    <Wire shapeName="Shape_9699" zorder="16" effectiveName="Net_1577" type="Digital">
+      <Point1 x="126" y="198" />
+      <Point2 x="162" y="198" />
+    </Wire>
+    <Wire shapeName="Shape_9747" zorder="18" effectiveName="Net_1594" type="Digital">
+      <Point1 x="126" y="216" />
+      <Point2 x="162" y="216" />
+    </Wire>
+    <Wire shapeName="Shape_9748" zorder="20" effectiveName="Net_1595" type="Digital">
+      <Point1 x="126" y="234" />
+      <Point2 x="162" y="234" />
+    </Wire>
+    <Wire shapeName="Shape_9749" zorder="22" effectiveName="Net_1596" type="Digital">
+      <Point1 x="126" y="252" />
+      <Point2 x="162" y="252" />
+    </Wire>
+    <Wire shapeName="Shape_9750" zorder="24" effectiveName="Net_1597" type="Digital">
+      <Point1 x="126" y="270" />
+      <Point2 x="162" y="270" />
+    </Wire>
+    <Wire shapeName="Shape_9754" zorder="26" effectiveName="Net_1598" type="Digital">
+      <Point1 x="126" y="288" />
+      <Point2 x="162" y="288" />
+    </Wire>
+    <Wire shapeName="Shape_9755" zorder="28" effectiveName="Net_1599" type="Digital">
+      <Point1 x="126" y="306" />
+      <Point2 x="162" y="306" />
+    </Wire>
+    <Wire shapeName="Shape_9756" zorder="30" effectiveName="Net_1600" type="Digital">
+      <Point1 x="126" y="324" />
+      <Point2 x="162" y="324" />
+    </Wire>
+    <Wire shapeName="Shape_9765" zorder="32" effectiveName="Net_1601" type="Digital">
+      <Point1 x="126" y="342" />
+      <Point2 x="162" y="342" />
+    </Wire>
+    <Wire shapeName="Shape_9766" zorder="34" effectiveName="Net_1602" type="Digital">
+      <Point1 x="126" y="360" />
+      <Point2 x="162" y="360" />
+    </Wire>
+    <Wire shapeName="Shape_9767" zorder="36" effectiveName="Net_1603" type="Digital">
+      <Point1 x="126" y="378" />
+      <Point2 x="162" y="378" />
+    </Wire>
+    <Wire shapeName="Shape_9768" zorder="38" effectiveName="Net_1604" type="Digital">
+      <Point1 x="126" y="396" />
+      <Point2 x="162" y="396" />
+    </Wire>
+    <Wire shapeName="Shape_9769" zorder="40" effectiveName="Net_1605" type="Digital">
+      <Point1 x="126" y="414" />
+      <Point2 x="162" y="414" />
+    </Wire>
+    <Wire shapeName="Shape_9770" zorder="42" effectiveName="Net_1606" type="Digital">
+      <Point1 x="126" y="432" />
+      <Point2 x="162" y="432" />
+    </Wire>
+    <Wire shapeName="Shape_9771" zorder="44" effectiveName="Net_1607" type="Digital">
+      <Point1 x="126" y="450" />
+      <Point2 x="162" y="450" />
+    </Wire>
+    <Wire shapeName="Shape_9772" zorder="46" effectiveName="Net_1608" type="Digital">
+      <Point1 x="126" y="468" />
+      <Point2 x="162" y="468" />
+    </Wire>
+    <Wire shapeName="Shape_9774" zorder="48" effectiveName="Net_1609" type="Digital">
+      <Point1 x="126" y="486" />
+      <Point2 x="162" y="486" />
+    </Wire>
+    <Wire shapeName="Shape_9830" zorder="0" effectiveName="wire_nInvMUXInp" type="Digital">
+      <Point1 x="174" y="252" />
+      <Point2 x="198" y="252" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_9834" zorder="54" effectiveName="wire_nInvMUXInp" type="Digital">
+      <Point1 x="414" y="216" solderDot="true" />
+      <Point2 x="450" y="216" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Rectangle shapeName="Shape_9898" zorder="214">
+      <Location x="636" y="198" />
+      <Size width="96" height="77" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <Fill>
+        <SolidBrush color="255, 255, 255" />
+      </Fill>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Rectangle>
+    <Annotation shapeName="Shape_9899" zorder="215">
+      <Location x="636" y="198" />
+      <Size width="97" height="78" />
+      <Text>Edge Detect
+(Asynchronous)</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="MiddleCenter" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Annotation>
+    <Line shapeName="Shape_9906" zorder="216">
+      <Point x="732" y="234" />
+      <Point x="768" y="234" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="ArrowAnchor" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Line>
+    <Annotation shapeName="Shape_9907" zorder="217">
+      <Location x="773.9995" y="221.9999" />
+      <Size width="114.0004" height="24.0001" />
+      <Text>Wake up signal to
+Autonomous Controller</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Annotation>
+    <Rectangle shapeName="Shape_9923" zorder="218">
+      <Location x="654" y="288" />
+      <Size width="96" height="54" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <Fill>
+        <SolidBrush color="255, 255, 255" />
+      </Fill>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+    </Rectangle>
+    <Annotation shapeName="Shape_9924" zorder="219">
+      <Location x="660" y="288" />
+      <Size width="83.99988" height="55" />
+      <Text>Post-processing x2</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="MiddleCenter" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+    </Annotation>
+    <Line shapeName="Shape_9929" zorder="220">
+      <Point x="749.9999" y="318" />
+      <Point x="785.9999" y="318" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="ArrowAnchor" lineJoin="Miter" weight="1">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+    </Line>
+    <Annotation shapeName="Shape_9930" zorder="221">
+      <Location x="791.9998" y="312" />
+      <Size width="96.00012" height="12" />
+      <Text>Triggers, Interrupts</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+    </Annotation>
+    <Wire shapeName="Shape_9996" zorder="60" effectiveName="Net_1651" type="Digital">
+      <Point1 x="312" y="72" />
+      <Point2 x="348" y="72" />
+    </Wire>
+    <Wire shapeName="Shape_9997" zorder="62" effectiveName="Net_1652" type="Digital">
+      <Point1 x="312" y="90" />
+      <Point2 x="348" y="90" />
+    </Wire>
+    <Wire shapeName="Shape_9998" zorder="64" effectiveName="Net_1653" type="Digital">
+      <Point1 x="312" y="108" />
+      <Point2 x="348" y="108" />
+    </Wire>
+    <Wire shapeName="Shape_9999" zorder="66" effectiveName="Net_1654" type="Digital">
+      <Point1 x="312" y="126" />
+      <Point2 x="348" y="126" />
+    </Wire>
+    <Wire shapeName="Shape_10000" zorder="68" effectiveName="Net_1655" type="Digital">
+      <Point1 x="312" y="144" />
+      <Point2 x="348" y="144" />
+    </Wire>
+    <Wire shapeName="Shape_10001" zorder="70" effectiveName="Net_1656" type="Digital">
+      <Point1 x="312" y="162" />
+      <Point2 x="348" y="162" />
+    </Wire>
+    <Wire shapeName="Shape_10002" zorder="72" effectiveName="Net_1657" type="Digital">
+      <Point1 x="312" y="180" />
+      <Point2 x="348" y="180" />
+    </Wire>
+    <Wire shapeName="Shape_10003" zorder="74" effectiveName="Net_1658" type="Digital">
+      <Point1 x="312" y="198" />
+      <Point2 x="348" y="198" />
+    </Wire>
+    <Wire shapeName="Shape_10004" zorder="76" effectiveName="Net_1659" type="Digital">
+      <Point1 x="312" y="216" />
+      <Point2 x="348" y="216" />
+    </Wire>
+    <Wire shapeName="Shape_10005" zorder="78" effectiveName="Net_1660" type="Digital">
+      <Point1 x="312" y="234" />
+      <Point2 x="348" y="234" />
+    </Wire>
+    <Wire shapeName="Shape_10006" zorder="80" effectiveName="Net_1661" type="Digital">
+      <Point1 x="312" y="252" />
+      <Point2 x="348" y="252" />
+    </Wire>
+    <Wire shapeName="Shape_10007" zorder="82" effectiveName="Net_1662" type="Digital">
+      <Point1 x="312" y="270" />
+      <Point2 x="348" y="270" />
+    </Wire>
+    <Wire shapeName="Shape_10008" zorder="84" effectiveName="Net_1663" type="Digital">
+      <Point1 x="312" y="288" />
+      <Point2 x="348" y="288" />
+    </Wire>
+    <Wire shapeName="Shape_10009" zorder="86" effectiveName="Net_1664" type="Digital">
+      <Point1 x="312" y="306" />
+      <Point2 x="348" y="306" />
+    </Wire>
+    <Wire shapeName="Shape_10010" zorder="88" effectiveName="Net_1665" type="Digital">
+      <Point1 x="312" y="324" />
+      <Point2 x="348" y="324" />
+    </Wire>
+    <Wire shapeName="Shape_10011" zorder="90" effectiveName="Net_1666" type="Digital">
+      <Point1 x="312" y="342" />
+      <Point2 x="348" y="342" />
+    </Wire>
+    <Wire shapeName="Shape_10012" zorder="92" effectiveName="Net_1667" type="Digital">
+      <Point1 x="312" y="360" />
+      <Point2 x="348" y="360" />
+    </Wire>
+    <Wire shapeName="Shape_10013" zorder="94" effectiveName="Net_1668" type="Digital">
+      <Point1 x="312" y="378" />
+      <Point2 x="348" y="378" />
+    </Wire>
+    <Wire shapeName="Shape_10014" zorder="96" effectiveName="Net_1669" type="Digital">
+      <Point1 x="312" y="396" />
+      <Point2 x="348" y="396" />
+    </Wire>
+    <Wire shapeName="Shape_10015" zorder="98" effectiveName="Net_1670" type="Digital">
+      <Point1 x="312" y="414" />
+      <Point2 x="348" y="414" />
+    </Wire>
+    <Wire shapeName="Shape_10016" zorder="100" effectiveName="Net_1671" type="Digital">
+      <Point1 x="312" y="432" />
+      <Point2 x="348" y="432" />
+    </Wire>
+    <Wire shapeName="Shape_10017" zorder="102" effectiveName="Net_1672" type="Digital">
+      <Point1 x="312" y="450" />
+      <Point2 x="348" y="450" />
+    </Wire>
+    <Wire shapeName="Shape_10018" zorder="104" effectiveName="Net_1673" type="Digital">
+      <Point1 x="312" y="468" />
+      <Point2 x="348" y="468" />
+    </Wire>
+    <Wire shapeName="Shape_10019" zorder="106" effectiveName="Net_1674" type="Digital">
+      <Point1 x="312" y="486" />
+      <Point2 x="348" y="486" />
+    </Wire>
+    <Instance shapeName="Shape_10049" zorder="236" guid="9b2c5ae5-0744-4a42-b0e1-48b1330a36c6" name="cy_arrow_3" component="cy_arrow">
+      <Location x="761.9999" y="230" />
+      <Size width="6" height="8" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+      <SubShapes>
+        <ClosedShape>
+          <Point x="761.9999" y="230" />
+          <Point x="761.9999" y="238" />
+          <Point x="767.9999" y="234" />
+          <Point x="761.9999" y="230" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10067" zorder="108" guid="86d7bb87-bb7c-4435-8daa-654e20f6975b" name="cy_PTCOMP1" component="cy_PTCOMP">
+      <Location x="450" y="318" />
+      <Size width="126" height="138" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="450" y="342" />
+          <Size width="126" height="114" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Line>
+          <Point x="540" y="396" />
+          <Point x="576" y="396" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <ClosedShape>
+          <Point x="542.6422" y="396" />
+          <Point x="492" y="366" />
+          <Point x="492" y="426" />
+          <Point x="542.6422" y="396" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="238, 238, 238" />
+          </Fill>
+        </ClosedShape>
+        <Rectangle>
+          <Location x="450" y="318" />
+          <Size width="126" height="24" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="450" y="318" />
+          <Size width="126" height="21.87498" />
+          <Text>PTComp1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Line>
+          <Point x="492" y="378" />
+          <Point x="450" y="378" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="450" y="414" />
+          <Point x="492" y="414" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="499" y="375" />
+          <Point x="499" y="381" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="496" y="378" />
+          <Point x="502" y="378" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="496" y="414" />
+          <Point x="502" y="414" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <ClosedShape>
+          <Point x="503.1807" y="396.7059" />
+          <Point x="503.1808" y="396.7059" />
+          <Point x="503.1808" y="396.7059" />
+          <Point x="503.1807" y="396.7059" />
+          <Point x="503.1807" y="401.3841" />
+          <Point x="500.442" y="405.1765" />
+          <Point x="497.0638" y="405.1765" />
+          <Point x="503.8203" y="405.1765" />
+          <Point x="509.2976" y="401.3841" />
+          <Point x="509.2976" y="396.7059" />
+          <Point x="509.2977" y="396.7059" />
+          <Point x="509.2977" y="396.7059" />
+          <Point x="509.2976" y="396.7059" />
+          <Point x="509.2979" y="396.7059" />
+          <Point x="509.2979" y="396.7059" />
+          <Point x="509.2979" y="396.7059" />
+          <Point x="509.2979" y="392.0277" />
+          <Point x="512.0366" y="388.2353" />
+          <Point x="515.4149" y="388.2353" />
+          <Point x="508.6583" y="388.2353" />
+          <Point x="503.181" y="392.0277" />
+          <Point x="503.181" y="396.7059" />
+          <Point x="503.1809" y="396.7059" />
+          <Point x="503.1809" y="396.7059" />
+          <Point x="503.181" y="396.7059" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <NoFill />
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10069" zorder="109" guid="f1dff7d5-2c99-4d2f-9c35-cb112ffa0e95" name="mux_1" component="mux_4">
+      <Location x="159" y="63" />
+      <Size width="18" height="426" />
+      <ShapeTags>paramid:`${ptc_compNonInvInpPinMuxID}`</ShapeTags>
+      <SubShapes>
+        <ClosedShape>
+          <Point x="159" y="63" />
+          <Point x="177" y="69" />
+          <Point x="177" y="483" />
+          <Point x="159" y="489" />
+          <Point x="159" y="63" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10070" zorder="110" guid="c3952bcd-8973-4f7c-9595-d5b680e57a08" name="mux_2" component="mux_4">
+      <Location x="345" y="63" />
+      <Size width="18" height="426" />
+      <ShapeTags>paramid:`${ptc_compInvInpPinMuxID}`</ShapeTags>
+      <SubShapes>
+        <ClosedShape>
+          <Point x="345" y="63" />
+          <Point x="363" y="69" />
+          <Point x="363" y="483" />
+          <Point x="345" y="489" />
+          <Point x="345" y="63" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10208" zorder="111" guid="f871c4c7-8192-45a9-8bc1-7922e94ffcce" name="cy_all_label_1" component="cy_all_label">
+      <Location x="90" y="66" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="66" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="77.5" />
+          <Text>P14[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10209" zorder="112" guid="59976b8a-b323-43dc-9dc0-ff8393adca79" name="cy_all_label_2" component="cy_all_label">
+      <Location x="90" y="84" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="84" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="95.5" />
+          <Text>P14[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10210" zorder="113" guid="89cc4a00-852f-404d-a745-6623b3c9e9a2" name="cy_all_label_3" component="cy_all_label">
+      <Location x="90" y="102" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="102" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="113.5" />
+          <Text>P14[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10211" zorder="114" guid="c185c44e-ad48-4f7d-b293-f71450e03e67" name="cy_all_label_4" component="cy_all_label">
+      <Location x="90" y="120" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="120" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="131.5" />
+          <Text>P14[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10212" zorder="115" guid="c2e9fb44-5220-4bd1-aae7-28c447c69f43" name="cy_all_label_5" component="cy_all_label">
+      <Location x="90" y="138" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="138" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="149.5" />
+          <Text>P13[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10213" zorder="116" guid="832555ce-52bd-44ca-a335-68e8c1d9a50c" name="cy_all_label_6" component="cy_all_label">
+      <Location x="90" y="156" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="156" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="167.5" />
+          <Text>P13[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10214" zorder="117" guid="1d35b09c-7317-470c-9cfc-1d24f6fa87dc" name="cy_all_label_7" component="cy_all_label">
+      <Location x="90" y="174" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="174" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="185.5" />
+          <Text>P13[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10215" zorder="118" guid="18408203-eb2d-4cdb-8608-65df65871fc1" name="cy_all_label_8" component="cy_all_label">
+      <Location x="90" y="192" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="192" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="203.5" />
+          <Text>P13[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10216" zorder="119" guid="9f7b122a-817a-4b85-b3be-51048b88022a" name="cy_all_label_9" component="cy_all_label">
+      <Location x="90" y="354" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="354" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="365.5" />
+          <Text>P15[0]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10217" zorder="120" guid="ffd58386-cbb4-4e08-8231-4d8c8bd36f36" name="cy_all_label_10" component="cy_all_label">
+      <Location x="90" y="372" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="372" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="383.5" />
+          <Text>P15[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10218" zorder="121" guid="25d1a642-9e3d-4b3a-bfe2-1774add2735e" name="cy_all_label_11" component="cy_all_label">
+      <Location x="90" y="390" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="390" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="401.5" />
+          <Text>P15[2]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10219" zorder="122" guid="7153baaa-253f-47ac-9cbe-c73cc8cbf5b6" name="cy_all_label_12" component="cy_all_label">
+      <Location x="90" y="408" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="408" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="419.5" />
+          <Text>P15[3]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10220" zorder="123" guid="01ec5725-350b-4544-97ff-77605ea2046f" name="cy_all_label_13" component="cy_all_label">
+      <Location x="90" y="426" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="426" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="437.5" />
+          <Text>P15[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10221" zorder="124" guid="9838d396-6f36-4274-9c24-a447ab341a16" name="cy_all_label_14" component="cy_all_label">
+      <Location x="90" y="444" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="444" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="455.5" />
+          <Text>P15[5]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10222" zorder="125" guid="5e7c589e-a235-4d57-8041-b145717f9dde" name="cy_all_label_15" component="cy_all_label">
+      <Location x="90" y="462" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="462" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="473.5" />
+          <Text>P15[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10223" zorder="126" guid="e8756bb5-398a-4159-8ef1-7e2cbb7febcf" name="cy_all_label_16" component="cy_all_label">
+      <Location x="90" y="480" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="480" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="491.5" />
+          <Text>P15[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10224" zorder="127" guid="c77b8c26-2ce7-4650-aa78-2e476743dd86" name="cy_all_label_17" component="cy_all_label">
+      <Location x="48" y="210" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="210" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="210" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="221.5" />
+          <Text>CTB0 OA0 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10225" zorder="128" guid="ae12d557-3ca1-4954-b90f-ce126ad6ec52" name="cy_all_label_18" component="cy_all_label">
+      <Location x="48" y="228" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="228" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="228" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="239.5" />
+          <Text>CTB0 OA1 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10226" zorder="129" guid="c1d9b017-9c1e-4ad2-b2fc-d49a55296407" name="cy_all_label_19" component="cy_all_label">
+      <Location x="48" y="246" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="246" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="246" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="257.5" />
+          <Text>CTB1 OA0 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10227" zorder="130" guid="df951bc2-672f-4251-86df-3851f6a656cd" name="cy_all_label_20" component="cy_all_label">
+      <Location x="48" y="264" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="264" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="264" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="275.5" />
+          <Text>CTB1 OA1 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10228" zorder="131" guid="9667b056-7276-48d6-b65c-8c834a394ebd" name="cy_all_label_21" component="cy_all_label">
+      <Location x="48" y="282" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="282" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="282" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="293.5" />
+          <Text>DAC0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10229" zorder="132" guid="210f9bfd-d105-45eb-b41f-478c054530ab" name="cy_all_label_22" component="cy_all_label">
+      <Location x="48" y="300" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="300" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="300" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="311.5" />
+          <Text>DAC1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10230" zorder="133" guid="e9dc0a99-2299-4956-9619-2a390328b56b" name="cy_all_label_23" component="cy_all_label">
+      <Location x="48" y="318" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="318" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="318" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="329.5" />
+          <Text>PRB_OUT0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10231" zorder="134" guid="33d70fa7-ff33-48db-8dbe-5de6f1535e0a" name="cy_all_label_24" component="cy_all_label">
+      <Location x="48" y="336" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="336" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="336" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="347.5" />
+          <Text>PRB_OUT1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10232" zorder="135" guid="a3dc63e1-2a82-43d5-a9b1-3162bf9b5f03" name="cy_all_label_25" component="cy_all_label">
+      <Location x="276" y="66" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="66" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="77.5" />
+          <Text>P14[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10233" zorder="136" guid="68bcb46c-a11b-4f5f-8dbb-e2f2f4a55ac6" name="cy_all_label_26" component="cy_all_label">
+      <Location x="276" y="84" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="84" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="95.5" />
+          <Text>P14[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10234" zorder="137" guid="9a874e5b-8b0a-435d-b5ee-72fdc5c27c77" name="cy_all_label_27" component="cy_all_label">
+      <Location x="276" y="102" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="102" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="113.5" />
+          <Text>P14[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10235" zorder="138" guid="502b474c-ca6b-4613-a0af-f2a396e69ee9" name="cy_all_label_28" component="cy_all_label">
+      <Location x="276" y="120" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="120" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="131.5" />
+          <Text>P14[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10236" zorder="139" guid="3a14e431-71d3-4212-b61c-0aaa4629fc43" name="cy_all_label_29" component="cy_all_label">
+      <Location x="276" y="138" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="138" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="149.5" />
+          <Text>P13[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10237" zorder="140" guid="75a537ac-5b99-425b-8c3c-198316ef0718" name="cy_all_label_30" component="cy_all_label">
+      <Location x="276" y="156" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="156" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="167.5" />
+          <Text>P13[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10238" zorder="141" guid="2a6bd323-b6e6-4e6a-8183-a5d17bfbb4f3" name="cy_all_label_31" component="cy_all_label">
+      <Location x="276" y="174" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="174" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="185.5" />
+          <Text>P13[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10239" zorder="142" guid="7f3ad956-ddc0-4ad8-9c9f-d77c81981303" name="cy_all_label_32" component="cy_all_label">
+      <Location x="276" y="192" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="192" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="203.5" />
+          <Text>P13[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10240" zorder="143" guid="a01abcef-ac65-424f-9ee0-d62ef5c919c1" name="cy_all_label_33" component="cy_all_label">
+      <Location x="276" y="354" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="354" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="365.5" />
+          <Text>P15[0]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10241" zorder="144" guid="5eaf14ab-9aad-4eee-ad8a-47135105827a" name="cy_all_label_34" component="cy_all_label">
+      <Location x="276" y="372" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="372" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="383.5" />
+          <Text>P15[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10242" zorder="145" guid="ed528be0-a5fe-43da-b935-e78e367ac67d" name="cy_all_label_35" component="cy_all_label">
+      <Location x="276" y="390" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="390" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="401.5" />
+          <Text>P15[2]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10243" zorder="146" guid="d7f7f558-ae30-42b6-8b98-580e0d8ce6a8" name="cy_all_label_36" component="cy_all_label">
+      <Location x="276" y="408" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="408" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="419.5" />
+          <Text>P15[3]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10244" zorder="147" guid="0ea2d89a-9f5a-4d16-b770-1f44a8c80857" name="cy_all_label_37" component="cy_all_label">
+      <Location x="276" y="426" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="426" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="437.5" />
+          <Text>P15[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10245" zorder="148" guid="df165089-c1a5-45fd-bdd2-ca3a305b2fe1" name="cy_all_label_38" component="cy_all_label">
+      <Location x="276" y="444" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="444" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="455.5" />
+          <Text>P15[5]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10246" zorder="149" guid="f3829f01-fa67-46ea-b5a2-9f37116f953d" name="cy_all_label_39" component="cy_all_label">
+      <Location x="276" y="462" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="462" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="473.5" />
+          <Text>P15[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10247" zorder="150" guid="68281091-d3d4-4b54-ae34-4103edc3eedc" name="cy_all_label_40" component="cy_all_label">
+      <Location x="276" y="480" />
+      <Size width="36" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="480" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="491.5" />
+          <Text>P15[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10248" zorder="151" guid="95516891-bacf-4ef1-bb00-e556c0c9df02" name="cy_all_label_41" component="cy_all_label">
+      <Location x="234" y="210" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="210" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="210" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="221.5" />
+          <Text>CTB0 OA0 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10249" zorder="152" guid="051d9095-f179-4f84-9cc0-24feaeb1f012" name="cy_all_label_42" component="cy_all_label">
+      <Location x="234" y="228" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="228" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="228" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="239.5" />
+          <Text>CTB0 OA1 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10250" zorder="153" guid="01584379-b5ba-441a-be98-741fa6abb3da" name="cy_all_label_43" component="cy_all_label">
+      <Location x="234" y="246" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="246" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="246" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="257.5" />
+          <Text>CTB1 OA0 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10251" zorder="154" guid="de0e0c29-e6d4-4539-b81c-0b7bb1064a7a" name="cy_all_label_44" component="cy_all_label">
+      <Location x="234" y="264" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="264" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="264" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="275.5" />
+          <Text>CTB1 OA1 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10252" zorder="155" guid="085f7fb8-963c-44d5-ada0-94d7d510f3c6" name="cy_all_label_45" component="cy_all_label">
+      <Location x="234" y="282" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="282" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="282" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="293.5" />
+          <Text>DAC0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10253" zorder="156" guid="75f50f25-c5c4-4481-adab-43f95c95051a" name="cy_all_label_46" component="cy_all_label">
+      <Location x="234" y="300" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="300" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="300" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="311.5" />
+          <Text>DAC1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10254" zorder="157" guid="3e93cb74-7c8a-4f9d-9b20-f14fdb38a30f" name="cy_all_label_47" component="cy_all_label">
+      <Location x="234" y="318" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="318" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="318" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="329.5" />
+          <Text>PRB_OUT0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10255" zorder="158" guid="708ebf82-a222-407d-ac3d-b118cd1c004e" name="cy_all_label_48" component="cy_all_label">
+      <Location x="234" y="336" />
+      <Size width="78" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="336" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="336" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="347.5" />
+          <Text>PRB_OUT1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10256" zorder="159" guid="b34971c1-893c-4acb-aec8-a429058cb58b" name="cy_all_label_73" component="cy_all_label">
+      <Location x="90" y="66" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_PIN1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="66" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="66" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="77.5" />
+          <Text>P14[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10257" zorder="160" guid="8799b973-e103-48a7-9e58-e5f14c408e7b" name="cy_all_label_74" component="cy_all_label">
+      <Location x="90" y="84" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_PIN4"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="84" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="84" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="95.5" />
+          <Text>P14[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10258" zorder="161" guid="e76df0e5-b6ce-45bb-a9c2-97af6ac7edd0" name="cy_all_label_75" component="cy_all_label">
+      <Location x="90" y="102" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_PIN6"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="102" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="102" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="113.5" />
+          <Text>P14[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10259" zorder="162" guid="92a7d70e-4ce1-43c4-9e64-d5f962a4da06" name="cy_all_label_76" component="cy_all_label">
+      <Location x="90" y="120" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_PIN7"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="120" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="120" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="131.5" />
+          <Text>P14[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10260" zorder="163" guid="d704a3d1-bae0-4365-8fa1-860b18aa1819" name="cy_all_label_77" component="cy_all_label">
+      <Location x="90" y="138" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_PIN1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="138" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="138" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="149.5" />
+          <Text>P13[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10261" zorder="164" guid="b0c825b6-ee62-4ff0-b366-c86b706018f4" name="cy_all_label_78" component="cy_all_label">
+      <Location x="90" y="156" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_PIN4"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="156" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="156" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="167.5" />
+          <Text>P13[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10262" zorder="165" guid="422b2322-41a9-44e1-a652-789f33ca23a8" name="cy_all_label_79" component="cy_all_label">
+      <Location x="90" y="174" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_PIN6"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="174" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="174" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="185.5" />
+          <Text>P13[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10263" zorder="166" guid="699e8ad2-ce46-4603-a7e6-7fe38f46c21c" name="cy_all_label_80" component="cy_all_label">
+      <Location x="90" y="192" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_PIN7"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="192" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="192" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="203.5" />
+          <Text>P13[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10264" zorder="167" guid="c8eaf2b9-063c-4e26-8d65-6098d783552d" name="cy_all_label_81" component="cy_all_label">
+      <Location x="90" y="354" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO0"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="354" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="354" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="365.5" />
+          <Text>P15[0]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10265" zorder="168" guid="ef6c96d1-6b0f-461c-91e8-d793314372df" name="cy_all_label_82" component="cy_all_label">
+      <Location x="90" y="372" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="372" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="372" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="383.5" />
+          <Text>P15[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10266" zorder="169" guid="3b29a0bb-9d04-4382-9640-45464f3a002c" name="cy_all_label_83" component="cy_all_label">
+      <Location x="90" y="390" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO2"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="390" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="390" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="401.5" />
+          <Text>P15[2]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10267" zorder="170" guid="e77f2a4a-af5f-4ec5-bbb1-fe8d771e035c" name="cy_all_label_84" component="cy_all_label">
+      <Location x="90" y="408" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO3"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="408" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="408" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="419.5" />
+          <Text>P15[3]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10268" zorder="171" guid="6c5bd377-25ef-4fc3-953b-f7420a6a49af" name="cy_all_label_85" component="cy_all_label">
+      <Location x="90" y="426" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO4"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="426" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="426" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="437.5" />
+          <Text>P15[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10269" zorder="172" guid="49df2518-8c4b-4cf1-8783-c0d0ff46a5ac" name="cy_all_label_86" component="cy_all_label">
+      <Location x="90" y="444" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO5"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="444" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="444" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="455.5" />
+          <Text>P15[5]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10270" zorder="173" guid="77f24728-1ecf-44f0-a578-db50abcd7ea1" name="cy_all_label_87" component="cy_all_label">
+      <Location x="90" y="462" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO6"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="462" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="462" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="473.5" />
+          <Text>P15[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10271" zorder="174" guid="dacb6563-1a48-4540-8cae-5d2e337edf82" name="cy_all_label_88" component="cy_all_label">
+      <Location x="90" y="480" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO7"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="90" y="480" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="90" y="480" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="93" y="491.5" />
+          <Text>P15[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10272" zorder="175" guid="89f122fe-0994-4363-adfa-0b5f8870e8e1" name="cy_all_label_89" component="cy_all_label">
+      <Location x="48" y="210" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_OA0_OUT"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="210" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="210" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="210" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="221.5" />
+          <Text>CTB0 OA0 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10273" zorder="176" guid="a68c34c5-8e51-475a-92ce-7bbdaa5c6a5a" name="cy_all_label_90" component="cy_all_label">
+      <Location x="48" y="228" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_OA1_OUT"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="228" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="228" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="228" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="239.5" />
+          <Text>CTB0 OA1 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10274" zorder="177" guid="266bb759-3027-4721-b870-e262f666aeed" name="cy_all_label_91" component="cy_all_label">
+      <Location x="48" y="246" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_OA0_OUT"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="246" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="246" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="246" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="257.5" />
+          <Text>CTB1 OA0 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10275" zorder="178" guid="0fc46f3c-d1e1-4c59-8a8f-3e20ef2ac58b" name="cy_all_label_92" component="cy_all_label">
+      <Location x="48" y="264" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_OA1_OUT"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="264" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="264" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="264" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="275.5" />
+          <Text>CTB1 OA1 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10276" zorder="179" guid="97280a56-93ff-4a87-a699-d82f0edfb45a" name="cy_all_label_93" component="cy_all_label">
+      <Location x="48" y="282" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_DAC0"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="282" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="282" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="282" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="293.5" />
+          <Text>DAC0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10277" zorder="180" guid="5dcc7f17-2724-467d-b722-d680a4148d11" name="cy_all_label_94" component="cy_all_label">
+      <Location x="48" y="300" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_DAC1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="300" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="300" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="300" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="311.5" />
+          <Text>DAC1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10278" zorder="181" guid="1a2e9e15-0be6-4d30-a052-6c7bb3a56892" name="cy_all_label_95" component="cy_all_label">
+      <Location x="48" y="318" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_PRB_OUT0"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="318" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="318" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="318" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="329.5" />
+          <Text>PRB_OUT0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10279" zorder="182" guid="a66b9197-cd89-485f-8943-c3c1ac9efad8" name="cy_all_label_96" component="cy_all_label">
+      <Location x="48" y="336" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compNonInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_PRB_OUT1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="48" y="336" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="336" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="48" y="336" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="49" y="347.5" />
+          <Text>PRB_OUT1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10280" zorder="183" guid="3636839d-ae76-46f5-8919-319c600168c7" name="cy_all_label_97" component="cy_all_label">
+      <Location x="276" y="66" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_PIN1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="66" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="66" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="77.5" />
+          <Text>P14[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10281" zorder="184" guid="bfac48c5-637c-428c-9b69-2e6d65724504" name="cy_all_label_98" component="cy_all_label">
+      <Location x="276" y="84" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_PIN4"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="84" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="84" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="95.5" />
+          <Text>P14[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10282" zorder="185" guid="474bc39f-cc0a-40f6-82a1-ea0eb47732ca" name="cy_all_label_99" component="cy_all_label">
+      <Location x="276" y="102" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_PIN6"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="102" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="102" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="113.5" />
+          <Text>P14[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10283" zorder="186" guid="429dd3d6-bf34-4143-9e5f-7a3b62404e17" name="cy_all_label_100" component="cy_all_label">
+      <Location x="276" y="120" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_PIN7"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="120" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="120" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="131.5" />
+          <Text>P14[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10284" zorder="187" guid="7cb93d56-8bda-43eb-9e2a-a7b0310adc12" name="cy_all_label_101" component="cy_all_label">
+      <Location x="276" y="138" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_PIN1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="138" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="138" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="149.5" />
+          <Text>P13[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10285" zorder="188" guid="314fc0d9-5d5b-4f49-92f3-082f27d48e0d" name="cy_all_label_102" component="cy_all_label">
+      <Location x="276" y="156" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_PIN4"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="156" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="156" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="167.5" />
+          <Text>P13[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10286" zorder="189" guid="ace93d9c-ea73-431e-a1d2-efc17bb467df" name="cy_all_label_103" component="cy_all_label">
+      <Location x="276" y="174" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_PIN6"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="174" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="174" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="185.5" />
+          <Text>P13[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10287" zorder="190" guid="c66a6591-98e6-4f27-8a3f-d40b604fc25c" name="cy_all_label_104" component="cy_all_label">
+      <Location x="276" y="192" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_PIN7"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="192" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="192" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="203.5" />
+          <Text>P13[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10288" zorder="191" guid="265c2619-5505-464e-ae6e-dec1472986b8" name="cy_all_label_105" component="cy_all_label">
+      <Location x="276" y="354" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO0"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="354" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="354" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="365.5" />
+          <Text>P15[0]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10289" zorder="192" guid="1714748f-abc4-425c-9ef0-40dbc05d542c" name="cy_all_label_106" component="cy_all_label">
+      <Location x="276" y="372" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="372" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="372" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="383.5" />
+          <Text>P15[1]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10290" zorder="193" guid="a4c1caba-b507-4955-9332-36cf1b69394c" name="cy_all_label_107" component="cy_all_label">
+      <Location x="276" y="390" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO2"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="390" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="390" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="401.5" />
+          <Text>P15[2]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10291" zorder="194" guid="6aa25d6f-b0a0-45eb-83ce-7a9d58e2125e" name="cy_all_label_108" component="cy_all_label">
+      <Location x="276" y="408" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO3"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="408" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="408" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="419.5" />
+          <Text>P15[3]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10292" zorder="195" guid="831ee101-7829-414a-aa39-65c0eb4cc820" name="cy_all_label_109" component="cy_all_label">
+      <Location x="276" y="426" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO4"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="426" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="426" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="437.5" />
+          <Text>P15[4]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10293" zorder="196" guid="36a3cab7-8d8b-4955-85bd-6efa1658811b" name="cy_all_label_110" component="cy_all_label">
+      <Location x="276" y="444" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO5"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="444" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="444" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="455.5" />
+          <Text>P15[5]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10294" zorder="197" guid="ab8237aa-6082-419c-bc1d-10c2c116c5d5" name="cy_all_label_111" component="cy_all_label">
+      <Location x="276" y="462" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO6"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="462" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="462" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="473.5" />
+          <Text>P15[6]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10295" zorder="198" guid="9284d80e-d4bd-43d7-be69-9d3fea56c5f1" name="cy_all_label_112" component="cy_all_label">
+      <Location x="276" y="480" />
+      <Size width="36" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_GPIO7"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="276" y="480" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="276" y="480" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="279" y="491.5" />
+          <Text>P15[7]</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10296" zorder="199" guid="3b9b62f7-6424-4ed4-9265-88da013e9a15" name="cy_all_label_113" component="cy_all_label">
+      <Location x="234" y="210" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_OA0_OUT"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="210" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="210" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="210" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="221.5" />
+          <Text>CTB0 OA0 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10297" zorder="200" guid="19cd50cb-f6e3-4d59-bef1-c29e021b75cc" name="cy_all_label_114" component="cy_all_label">
+      <Location x="234" y="228" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB0_OA1_OUT"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="228" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="228" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="228" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="239.5" />
+          <Text>CTB0 OA1 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10298" zorder="201" guid="142f5c15-b86e-4b57-86c0-d2f5da2ddae4" name="cy_all_label_115" component="cy_all_label">
+      <Location x="234" y="246" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_OA0_OUT"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="246" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="246" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="246" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="257.5" />
+          <Text>CTB1 OA0 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10299" zorder="202" guid="48a326cb-8c76-473f-8627-1ce0bd9e3a35" name="cy_all_label_116" component="cy_all_label">
+      <Location x="234" y="264" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_CTB1_OA1_OUT"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="264" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="264" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="264" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="275.5" />
+          <Text>CTB1 OA1 Output</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10300" zorder="203" guid="162a11f7-1ad1-48fa-8ded-321538fe79bd" name="cy_all_label_117" component="cy_all_label">
+      <Location x="234" y="282" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_DAC0"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="282" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="282" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="282" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="293.5" />
+          <Text>DAC0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10301" zorder="204" guid="7a15aa68-c4c9-4624-b183-2df9c00fbe28" name="cy_all_label_118" component="cy_all_label">
+      <Location x="234" y="300" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_DAC1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="300" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="300" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="300" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="311.5" />
+          <Text>DAC1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10302" zorder="205" guid="89915377-aba9-4c4a-80a4-442256675c25" name="cy_all_label_119" component="cy_all_label">
+      <Location x="234" y="318" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_PRB_OUT0"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="318" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="318" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="318" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="329.5" />
+          <Text>PRB_OUT0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10303" zorder="206" guid="85a6955d-2e4b-47f1-8cc6-0d458ecb3446" name="cy_all_label_120" component="cy_all_label">
+      <Location x="234" y="336" />
+      <Size width="78" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."].ptc_dynamic[".getInstNumber("ptc_dynamic")."]", "ptc_dyn_compInvInpMux") eq "CY_AUTANALOG_PTCOMP_COMP_PRB_OUT1"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="234" y="336" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="336" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="234" y="336" />
+          <Size width="78" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="235" y="347.5" />
+          <Text>PRB_OUT1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_10305" zorder="207" effectiveName="wire_nInvMUXInp" type="Digital">
+      <Point1 x="414" y="378" />
+      <Point2 x="450" y="378" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10312" zorder="209" effectiveName="wire_InvMUXInp" type="Digital">
+      <Point1 x="384" y="414" />
+      <Point2 x="450" y="414" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10313" zorder="58" effectiveName="wire_InvMUXInp" type="Digital">
+      <Point1 x="360" y="252" />
+      <Point2 x="384" y="252" solderDot="true" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+      <Annotation zorder="59">
+        <Location x="366" y="468" />
+        <Text>wire_InvMUXInp</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_10314" zorder="56" effectiveName="wire_InvMUXInp" type="Digital">
+      <Point1 x="384" y="252" solderDot="true" />
+      <Point2 x="450" y="252" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_10333" zorder="213" guid="0bad2b8b-a24a-4933-adcb-3cbe4cd3704c" name="cy_PTCOMP0" component="cy_PTCOMP">
+      <Location x="450" y="156" />
+      <Size width="126" height="138" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="450" y="180" />
+          <Size width="126" height="114" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Line>
+          <Point x="540" y="234" />
+          <Point x="576" y="234" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <ClosedShape>
+          <Point x="542.6422" y="234" />
+          <Point x="492" y="204" />
+          <Point x="492" y="264" />
+          <Point x="542.6422" y="234" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="238, 238, 238" />
+          </Fill>
+        </ClosedShape>
+        <Rectangle>
+          <Location x="450" y="156" />
+          <Size width="126" height="24" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="450" y="156" />
+          <Size width="126" height="21.87498" />
+          <Text>PTComp0</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 10pt" />
+          <TextAlignment value="MiddleCenter" />
+        </Annotation>
+        <Line>
+          <Point x="492" y="216" />
+          <Point x="450" y="216" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="450" y="252" />
+          <Point x="492" y="252" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="499" y="213" />
+          <Point x="499" y="219" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="496" y="216" />
+          <Point x="502" y="216" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="496" y="252" />
+          <Point x="502" y="252" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
+        <ClosedShape>
+          <Point x="503.1807" y="234.7059" />
+          <Point x="503.1808" y="234.7059" />
+          <Point x="503.1808" y="234.7059" />
+          <Point x="503.1807" y="234.7059" />
+          <Point x="503.1807" y="239.3841" />
+          <Point x="500.442" y="243.1765" />
+          <Point x="497.0638" y="243.1765" />
+          <Point x="503.8203" y="243.1765" />
+          <Point x="509.2976" y="239.3841" />
+          <Point x="509.2976" y="234.7059" />
+          <Point x="509.2977" y="234.7059" />
+          <Point x="509.2977" y="234.7059" />
+          <Point x="509.2976" y="234.7059" />
+          <Point x="509.2979" y="234.7059" />
+          <Point x="509.2979" y="234.7059" />
+          <Point x="509.2979" y="234.7059" />
+          <Point x="509.2979" y="230.0277" />
+          <Point x="512.0366" y="226.2353" />
+          <Point x="515.4149" y="226.2353" />
+          <Point x="508.6583" y="226.2353" />
+          <Point x="503.181" y="230.0277" />
+          <Point x="503.181" y="234.7059" />
+          <Point x="503.1809" y="234.7059" />
+          <Point x="503.1809" y="234.7059" />
+          <Point x="503.181" y="234.7059" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <NoFill />
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Rectangle shapeName="Shape_10337" zorder="222">
+      <Location x="636" y="354" />
+      <Size width="96" height="77" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <Fill>
+        <SolidBrush color="255, 255, 255" />
+      </Fill>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Rectangle>
+    <Annotation shapeName="Shape_10338" zorder="223">
+      <Location x="636" y="354" />
+      <Size width="97" height="78" />
+      <Text>Edge Detect
+(Asynchronous)</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="MiddleCenter" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Annotation>
+    <Line shapeName="Shape_10339" zorder="224">
+      <Point x="732" y="390" />
+      <Point x="768" y="390" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="ArrowAnchor" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Line>
+    <Annotation shapeName="Shape_10340" zorder="225">
+      <Location x="773.9995" y="377.9999" />
+      <Size width="114.0004" height="24.0001" />
+      <Text>Wake up signal to
+Autonomous Controller</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Annotation>
+    <Wire shapeName="Shape_10342" zorder="226" effectiveName="Net_1676" type="Digital">
+      <Point1 x="576" y="234" />
+      <Point2 x="606" y="234" solderDot="true" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10347" zorder="228" effectiveName="Net_1678" type="Digital">
+      <Point1 x="576" y="396" />
+      <Point2 x="606" y="396" solderDot="true" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10349" zorder="230" effectiveName="Net_1676" type="Digital">
+      <Point1 x="606" y="312" />
+      <Point2 x="654" y="312" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10353" zorder="232" effectiveName="Net_1678" type="Digital">
+      <Point1 x="606" y="396" solderDot="true" />
+      <Point2 x="636" y="396" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10355" zorder="234" effectiveName="Net_1676" type="Digital">
+      <Point1 x="606" y="234" solderDot="true" />
+      <Point2 x="636" y="234" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Instance shapeName="Shape_10378" zorder="237" guid="2833dd2f-a0f7-4b52-b5ff-c8dc9e3771b6" name="cy_arrow_1" component="cy_arrow">
+      <Location x="761.9999" y="386" />
+      <Size width="6" height="8" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+      <SubShapes>
+        <ClosedShape>
+          <Point x="761.9999" y="386" />
+          <Point x="761.9999" y="394" />
+          <Point x="767.9999" y="390" />
+          <Point x="761.9999" y="386" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_10379" zorder="238" guid="1c91f167-ef7a-4d37-a97f-0b9e960209dc" name="cy_arrow_2" component="cy_arrow">
+      <Location x="779.9999" y="314" />
+      <Size width="6" height="8" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+      <SubShapes>
+        <ClosedShape>
+          <Point x="779.9999" y="314" />
+          <Point x="779.9999" y="322" />
+          <Point x="785.9999" y="318" />
+          <Point x="779.9999" y="314" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Wire shapeName="Shape_10388" zorder="52" effectiveName="wire_nInvMUXInp" type="Digital">
+      <Point1 x="414" y="54" />
+      <Point2 x="414" y="216" solderDot="true" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+      <Annotation zorder="53">
+        <Location x="420" y="102" />
+        <Text>wire_nInvMUXInp</Text>
+        <Vertical value="false" />
+        <TextAlignment value="TopLeft" />
+      </Annotation>
+    </Wire>
+    <Wire shapeName="Shape_10389" zorder="50" effectiveName="wire_nInvMUXInp" type="Digital">
+      <Point1 x="414" y="216" solderDot="true" />
+      <Point2 x="414" y="378" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10402" zorder="211" effectiveName="wire_InvMUXInp" type="Digital">
+      <Point1 x="384" y="252" solderDot="true" />
+      <Point2 x="384" y="414" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10403" zorder="239" effectiveName="wire_nInvMUXInp" type="Digital">
+      <Point1 x="198" y="54" />
+      <Point2 x="414" y="54" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10404" zorder="241" effectiveName="wire_nInvMUXInp" type="Digital">
+      <Point1 x="198" y="54" />
+      <Point2 x="198" y="252" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")||(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF")):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10408" zorder="243" effectiveName="Net_1678" type="Digital">
+      <Point1 x="606" y="324" />
+      <Point2 x="654" y="324" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10409" zorder="245" effectiveName="Net_1678" type="Digital">
+      <Point1 x="606" y="324" />
+      <Point2 x="606" y="396" solderDot="true" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp1Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+    <Wire shapeName="Shape_10410" zorder="247" effectiveName="Net_1676" type="Digital">
+      <Point1 x="606" y="234" solderDot="true" />
+      <Point2 x="606" y="312" />
+      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].ptc[".getInstNumber("ptc")."]", "ptc_sta_comp0Power") ne "CY_AUTANALOG_PTCOMP_COMP_PWR_OFF"):0)}`]]></ShapeTags>
+    </Wire>
+  </Page>
+</Document>

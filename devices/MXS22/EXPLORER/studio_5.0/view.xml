@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Files>
+    <Clocks visPath="clocks.cyvis" semPath="clocks.cysem" ipPath="clocksResourceMap.txt" />
+    <Analog visPath="analog.cyvis" semPath="analog.cysem" ipPath="analogResourceMap.txt" />
+    <Diagram id="Component-CTB-0" visPath="lppass_ctb/lppass_ctb.cyarch.cyvis" semPath="lppass_ctb/lppass_ctb.cyarch.cysem" ipPath="lppass_ctb/lppass_ctb-0-resourceMap.txt" />
+    <Diagram id="Component-CTB-1" visPath="lppass_ctb/lppass_ctb.cyarch.cyvis" semPath="lppass_ctb/lppass_ctb.cyarch.cysem" ipPath="lppass_ctb/lppass_ctb-1-resourceMap.txt" />
+    <Diagram id="Component-OA-0-0" visPath="lppass_opamp/lppass_opamp.cyarch.cyvis" semPath="lppass_opamp/lppass_opamp.cyarch.cysem" ipPath="lppass_opamp/lppass_opamp-0-0-resourceMap.txt" />
+    <Diagram id="Component-OA-0-0-DynamicConfig" visPath="lppass_opamp_dynamic/lppass_opamp_dynamic.cyarch.cyvis" semPath="lppass_opamp_dynamic/lppass_opamp_dynamic.cyarch.cysem" ipPath="lppass_opamp_dynamic/lppass_opamp_dynamic-0-0-resourceMap.txt" />
+    <Diagram id="Component-OA-0-1" visPath="lppass_opamp/lppass_opamp.cyarch.cyvis" semPath="lppass_opamp/lppass_opamp.cyarch.cysem" ipPath="lppass_opamp/lppass_opamp-0-1-resourceMap.txt" />
+    <Diagram id="Component-OA-0-1-DynamicConfig" visPath="lppass_opamp_dynamic/lppass_opamp_dynamic.cyarch.cyvis" semPath="lppass_opamp_dynamic/lppass_opamp_dynamic.cyarch.cysem" ipPath="lppass_opamp_dynamic/lppass_opamp_dynamic-0-1-resourceMap.txt" />
+    <Diagram id="Component-OA-1-0" visPath="lppass_opamp/lppass_opamp.cyarch.cyvis" semPath="lppass_opamp/lppass_opamp.cyarch.cysem" ipPath="lppass_opamp/lppass_opamp-1-0-resourceMap.txt" />
+    <Diagram id="Component-OA-1-0-DynamicConfig" visPath="lppass_opamp_dynamic/lppass_opamp_dynamic.cyarch.cyvis" semPath="lppass_opamp_dynamic/lppass_opamp_dynamic.cyarch.cysem" ipPath="lppass_opamp_dynamic/lppass_opamp_dynamic-1-0-resourceMap.txt" />
+    <Diagram id="Component-OA-1-1" visPath="lppass_opamp/lppass_opamp.cyarch.cyvis" semPath="lppass_opamp/lppass_opamp.cyarch.cysem" ipPath="lppass_opamp/lppass_opamp-1-1-resourceMap.txt" />
+    <Diagram id="Component-OA-1-1-DynamicConfig" visPath="lppass_opamp_dynamic/lppass_opamp_dynamic.cyarch.cyvis" semPath="lppass_opamp_dynamic/lppass_opamp_dynamic.cyarch.cysem" ipPath="lppass_opamp_dynamic/lppass_opamp_dynamic-1-1-resourceMap.txt" />
+    <Diagram id="Component-DAC-0" visPath="lppass_dac/lppass_dac.cyarch.cyvis" semPath="lppass_dac/lppass_dac.cyarch.cysem" ipPath="lppass_dac/lppass_dac-0-resourceMap.txt" />
+    <Diagram id="Component-DAC-1" visPath="lppass_dac/lppass_dac.cyarch.cyvis" semPath="lppass_dac/lppass_dac.cyarch.cysem" ipPath="lppass_dac/lppass_dac-1-resourceMap.txt" />
+    <Diagram id="Component-PTCOMP" visPath="lppass_ptcomp/lppass_ptcomp.cyarch.cyvis" semPath="lppass_ptcomp/lppass_ptcomp.cyarch.cysem" ipPath="lppass_ptcomp/lppass_ptcomp-0-resourceMap.txt" />
+    <Diagram id="Component-PTCOMP-DynamicConfig" visPath="lppass_ptcomp_dynamic/lppass_ptcomp_dynamic.cyarch.cyvis" semPath="lppass_ptcomp_dynamic/lppass_ptcomp_dynamic.cyarch.cysem" ipPath="lppass_ptcomp_dynamic/lppass_ptcomp_dynamic-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-GPIO-Channel-0" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-GPIO-Channel-1" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-GPIO-Channel-2" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-GPIO-Channel-3" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-GPIO-Channel-4" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-GPIO-Channel-5" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-GPIO-Channel-6" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-GPIO-Channel-7" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-0" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-1" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-2" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-3" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-4" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-5" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-6" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-7" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-8" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-9" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-10" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-11" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-12" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-13" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-14" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-SARADC-MUX-Channel-15" visPath="lppass_sar/lppass_sar.cyarch.cyvis" semPath="lppass_sar/lppass_sar.cyarch.cysem" ipPath="lppass_sar/lppass_sar-0-resourceMap.txt" />
+    <Diagram id="Component-STT" visPath="lppass_stt/lppass_stt.cyarch.cyvis" semPath="lppass_stt/lppass_stt.cyarch.cysem" ipPath="lppass_stt/lppass_stt-0-resourceMap.txt" />
+    <Diagram id="Component-PRB" visPath="lppass_prb/lppass_prb.cyarch.cyvis" semPath="lppass_prb/lppass_prb.cyarch.cysem" ipPath="lppass_prb/lppass_prb-0-resourceMap.txt" />
+  </Files>
+</View>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  targetNamespace="http://cypress.com/xsd/cyprotection_v1"
+  xmlns="http://cypress.com/xsd/cyprotection_v1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+
+  <xs:simpleType name="access_type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="S" />
+      <xs:enumeration value="NS" />
+      <xs:enumeration value="NSC" />
+      <xs:enumeration value="X" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="hex_or_dec_type">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="0[Xx][0-9A-Fa-f]+|[0-9]+" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="semicolon_separated_list_of_intergers_type">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="^\d+(;\d+)*$" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="bus_master_type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="MCU" />
+      <xs:enumeration value="TC" />
+      <xs:enumeration value="DMA" />
+      <xs:enumeration value="OTHER" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="core_type">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="^CORE_NAME_.*_\d+$" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="Protection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ProtectionContext" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="key" type="xs:nonNegativeInteger" use="required"/>
+            <xs:attribute name="name" type="xs:string" use="optional"/>
+            <!--The default bus_master_ids is that there is none.-->
+            <xs:attribute name="bus_master_ids" type="semicolon_separated_list_of_intergers_type" use="optional" />
+            <xs:attribute name="boot" type="xs:boolean" use="optional" default="false" />
+            <xs:attribute name="locked" type="xs:boolean" use="optional" default="false" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BusMaster" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="key" type="xs:nonNegativeInteger" use="required"/>
+            <xs:attribute name="type" type="bus_master_type" use="required" />
+            <!--The default core is that there is no core associatation.-->
+            <xs:attribute name="core" type="core_type" use="optional" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProtectionDomain" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="key" type="xs:string" use="required"/>
+            <xs:attribute name="access" type="access_type" use="required"/>
+            <xs:attribute name="unprivilegedS" type="xs:boolean" use="required"/>
+            <xs:attribute name="unprivilegedNS" type="xs:boolean" use="required"/>
+            <xs:attribute name="pcReadMask" type="hex_or_dec_type" use="required"/>
+            <xs:attribute name="pcWriteMask" type="hex_or_dec_type" use="required"/>
+            <xs:attribute name="pcNsMask" type="hex_or_dec_type" use="required"/>
+            <xs:attribute name="unprivilegedS_switch" type="xs:boolean" use="required"/>
+            <xs:attribute name="unprivilegedNS_switch" type="xs:boolean" use="required"/>
+            <xs:attribute name="pcReadMask_switch" type="hex_or_dec_type" use="required"/>
+            <xs:attribute name="pcWriteMask_switch" type="hex_or_dec_type" use="required"/>
+            <xs:attribute name="pcNsMask_switch" type="hex_or_dec_type" use="required"/>
+            <xs:attribute name="root" type="xs:boolean" use="optional"/>
+            <xs:attribute name="unprotected" type="xs:boolean" use="optional"/>
+            <xs:attribute name="reserved" type="xs:boolean" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Core" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AddressRange" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="key" type="xs:nonNegativeInteger" use="required"/>
+                  <xs:attribute name="start" type="hex_or_dec_type" use="required"/>
+                  <xs:attribute name="size" type="hex_or_dec_type" use="required"/>
+                  <xs:attribute name="attribute" type="access_type" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="key" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PPC_LOCATION" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="key" type="xs:string" use="required"/>
+            <xs:attribute name="peri" type="xs:nonNegativeInteger" use="required"/>
+            <xs:attribute name="associated" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PPC_REGISTER" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="key" type="xs:string" use="required"/>
+            <xs:attribute name="enum_name" type="xs:string" use="required"/>
+            <xs:attribute name="address" type="xs:string" use="required" />
+            <xs:attribute name="size" type="xs:string" use="required" />
+            <xs:attribute name="locationKey" type="xs:string" use="required" />
+            <xs:attribute name="pcMask" type="hex_or_dec_type" use="optional" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MpcLocation" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="key" type="xs:string" use="required"/>
+            <xs:attribute name="displayName" type="xs:string" use="required"/>
+            <xs:attribute name="location" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="xml_version" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
