@@ -110,8 +110,12 @@
             <xs:attribute name="enum_name" type="xs:string" use="required"/>
             <xs:attribute name="address" type="xs:string" use="required" />
             <xs:attribute name="size" type="xs:string" use="required" />
+            <xs:attribute name="security_aware" type="xs:boolean" use="required" />
             <xs:attribute name="locationKey" type="xs:string" use="required" />
             <xs:attribute name="pcMask" type="hex_or_dec_type" use="optional" />
+            <xs:attribute name="ns_att" type="xs:boolean" use="optional" />
+            <xs:attribute name="s_p_att" type="xs:boolean" use="optional" />
+            <xs:attribute name="ns_p_att" type="xs:boolean" use="optional" />
           </xs:complexType>
         </xs:element>
         <xs:element name="MpcLocation" minOccurs="0" maxOccurs="unbounded">

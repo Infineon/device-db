@@ -1,8 +1,8 @@
-# Device Database v4.29.0
+# Device Database v4.31.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Adds PSE8xxGO and PSE8xxGP devices.
+* Add new PSOC™ 4000T part number: CY8C4045LQE-T1, CY8C4046LQE-T1, CY8C4045LQS-T1 and CY8C4046LQS-T1.
 * General bug fixes and improvements.
 
 ## Recommended device support libraries
@@ -14,17 +14,12 @@ For details, refer to [README.md](./README.md).
 * mtb-dsl-pse8xxgp >= 1.0.0
 
 ## Added devices
-### PSOC™ Edge
-#### PSE8xxGO
-* PSE833GOS2DBZC4A
-* PSE813GOS4DBZC4A
-
-#### PSE8xxGP
-* PSE846GPS4DBZC4A
-* PSE846GPS2DBZC4A
-* PSE845GPS2DFNC4A
-* PSE845GPS2DFMC4A
-* PSE846GPS2DBZQ3A
+### PSOC™ 4
+#### PSoC 4000T
+* CY8C4045LQE-T1
+* CY8C4046LQE-T1
+* CY8C4045LQS-T1
+* CY8C4046LQS-T1
 
 
 

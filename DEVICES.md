@@ -531,6 +531,10 @@
 * CY8C4026LQI-T441
 * CY8C4046LQQ-T412
 * CY8C4046ZZI-T451
+* CY8C4045LQE-T1
+* CY8C4046LQE-T1
+* CY8C4045LQS-T1
+* CY8C4046LQS-T1
 
 ### PSoC 4100S
 * [CY8C4124FNI-S403](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4124fni-s403t/)
