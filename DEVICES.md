@@ -55,6 +55,7 @@
       * [PSoC 4100S Max](#psoc-4100s-max)
       * [PSoC 4100S Plus](#psoc-4100s-plus)
       * [PSOC 4100T Plus](#psoc-4100t-plus)
+      * [PSOC 4100T Plus 256KB](#psoc-4100t-plus-256kb)
       * [PSoC 4500H](#psoc-4500h)
       * [PSoC 4500S](#psoc-4500s)
       * [PSoC 4700S](#psoc-4700s)
@@ -1164,6 +1165,10 @@
 * CY8C4146AZQ-T453
 * CY8C4147AZQ-T415
 * CY8C4147AZQ-T455
+
+### PSOC 4100T Plus 256KB
+* CY8C4148AZQ-T513
+* CY8C4148AZQ-T515
 
 ### PSoC 4500H
 * CY8C4588AZI-H685

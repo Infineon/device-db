@@ -1,25 +1,23 @@
-# Device Database v4.31.0
+# Device Database v4.33.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Add new PSOC™ 4000T part number: CY8C4045LQE-T1, CY8C4046LQE-T1, CY8C4045LQS-T1 and CY8C4046LQS-T1.
+* Add new PSOC™ 4100T Plus 256KB part numbers: CY8C4148AZQ-T513 and CY8C4148AZQ-T515.
 * General bug fixes and improvements.
 
 ## Recommended device support libraries
-* mtb-pdl-cat1 >= 3.17.0
+* mtb-pdl-cat1 >= 3.18.0
 * mtb-pdl-cat2 >= 2.18.0
 * mtb-xmclib-cat3 >= 4.6.0
 * mtb-pdl-cat5 >= 3.1.0
-* mtb-dsl-pse8xxgo >= 1.0.0
-* mtb-dsl-pse8xxgp >= 1.0.0
+* mtb-dsl-pse8xxgo >= 1.1.1
+* mtb-dsl-pse8xxgp >= 1.1.1
 
 ## Added devices
 ### PSOC™ 4
-#### PSoC 4000T
-* CY8C4045LQE-T1
-* CY8C4046LQE-T1
-* CY8C4045LQS-T1
-* CY8C4046LQS-T1
+#### PSOC 4100T Plus 256KB
+* CY8C4148AZQ-T513
+* CY8C4148AZQ-T515
 
 
 

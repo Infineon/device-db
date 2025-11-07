@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="54">
+  <Instances count="53">
     <Instance guid="0127f6d8-2a80-4e81-a168-694a40eb679e" name="CLK_TIMER_1" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value />
@@ -1656,47 +1656,6 @@
         <Value>High Frequency Clock 0: A high-frequency clock divider driving specific peripherals.</Value>
       </Parameter>
     </Instance>
-    <Instance guid="ef27af24-361d-4dd5-9f2f-990dac78181c" name="CLK_PUMP_1" component="clock_side">
-      <Parameter name="BodyTextOverride">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>PumpClk</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>srss[0].clock[0].pumpclk[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>1</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>CLK_PUMP_1</Value>
-      </Parameter>
-      <Parameter name="name">
-        <Value>CLK_PUMP</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>Analog Pump Clock: This clock ensures precision analog performance in low voltage applications. See device TRM for frequency guidance.</Value>
-      </Parameter>
-    </Instance>
     <Instance guid="fb1ba970-edbb-472d-be78-6105dfdfae87" name="PATH_MUX2_1" component="mux_2">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -1730,7 +1689,7 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="267">
+  <Signals count="257">
     <Signal name="Net_153" type="Digital" terminalCount="1">
       <Terminal name="FLL_1.b_15" type="Instance Digital Input" />
     </Signal>
@@ -1852,9 +1811,7 @@
     <Signal name="Net_686" type="Digital" terminalCount="1">
       <Terminal name="PLL1.b_20" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_705[4:0]" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.b_17" type="Instance Digital Input" />
-    </Signal>
+    <Signal name="Net_705[4:0]" type="" terminalCount="0" />
     <Signal name="Net_1114" type="Digital" terminalCount="2">
       <Terminal name="arc_bridge_16.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
@@ -2494,36 +2451,6 @@
     </Signal>
     <Signal name="Net_6846" type="Digital" terminalCount="1">
       <Terminal name="CLK_HF1_1.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_6866" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_6867" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_6868" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_6869" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_6870" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_6871" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_6872" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_6873" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_6874" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_6875" type="Digital" terminalCount="1">
-      <Terminal name="CLK_PUMP_1.b_20" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_6876" type="Digital" terminalCount="1">
       <Terminal name="CLK_HF0_1.a_13" type="Instance Digital Output" />

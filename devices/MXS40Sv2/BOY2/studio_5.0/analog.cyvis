@@ -16,44 +16,12 @@
       </Fill>
     </ClosedShape>
     <Instance shapeName="Shape_9678" zorder="24" guid="f6a242db-a265-4180-8649-88ea6dfbe5dc" name="cy_bus_1" component="cy_bus">
-      <Location x="396" y="126" />
-      <Size width="156" height="20.00001" />
+      <Location x="348" y="126" />
+      <Size width="204" height="20.00001" />
       <SubShapes>
-        <ClosedShape>
-          <Point x="540" y="129" />
-          <Point x="540" y="126" />
-          <Point x="552" y="132" />
-          <Point x="540" y="138" />
-          <Point x="540" y="135" />
-          <Point x="456" y="135" />
-          <Point x="456" y="129" />
-          <Point x="540" y="129" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
-            <SolidBrush color="0, 0, 0" />
-          </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
-        </ClosedShape>
-        <ClosedShape>
-          <Point x="540" y="129" />
-          <Point x="540" y="126" />
-          <Point x="552" y="132" />
-          <Point x="540" y="138" />
-          <Point x="540" y="135" />
-          <Point x="456" y="135" />
-          <Point x="456" y="129" />
-          <Point x="540" y="129" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
-            <SolidBrush color="0, 0, 0" />
-          </Outline>
-          <Fill>
-            <SolidBrush color="0, 128, 128" />
-          </Fill>
-        </ClosedShape>
         <Annotation>
-          <Location x="396" y="126" />
-          <Size width="61" height="13" />
+          <Location x="348" y="126" />
+          <Size width="109" height="13" />
           <Text><![CDATA[AN_A<7:0>]]></Text>
           <Vertical value="false" />
           <Expression><![CDATA[`=$name`<`=$n-1`:0>]]></Expression>
@@ -63,6 +31,29 @@
           <Font value="Microsoft Sans Serif, 10pt" />
           <TextAlignment value="MiddleRight" />
         </Annotation>
+        <ClosedShape>
+          <Point x="540" y="129" />
+          <Point x="540" y="126" />
+          <Point x="552" y="132" />
+          <Point x="540" y="138" />
+          <Point x="540" y="135" />
+          <Point x="456" y="135" />
+          <Point x="456" y="129" />
+          <Point x="540" y="129" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="85, 185, 165" />
+          </Fill>
+        </ClosedShape>
+        <Line>
+          <Point x="498" y="126" />
+          <Point x="486" y="138" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
         <Annotation>
           <Location x="492" y="134" />
           <Size width="42" height="12" />
@@ -77,54 +68,15 @@
           <Font value="Microsoft Sans Serif, 10pt" />
           <TextAlignment value="TopLeft" />
         </Annotation>
-        <Line>
-          <Point x="498" y="126" />
-          <Point x="486" y="138" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
-            <SolidBrush color="0, 0, 0" />
-          </Outline>
-        </Line>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_9679" zorder="25" guid="e19bf77e-a85f-4fb1-a795-155d3b0c6857" name="cy_bus_2" component="cy_bus">
-      <Location x="396" y="156" />
-      <Size width="156" height="20.00002" />
+      <Location x="348" y="156" />
+      <Size width="204" height="20.00002" />
       <SubShapes>
-        <ClosedShape>
-          <Point x="540" y="159" />
-          <Point x="540" y="156" />
-          <Point x="552" y="162" />
-          <Point x="540" y="168" />
-          <Point x="540" y="165" />
-          <Point x="456" y="165" />
-          <Point x="456" y="159" />
-          <Point x="540" y="159" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
-            <SolidBrush color="0, 0, 0" />
-          </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
-        </ClosedShape>
-        <ClosedShape>
-          <Point x="540" y="159" />
-          <Point x="540" y="156" />
-          <Point x="552" y="162" />
-          <Point x="540" y="168" />
-          <Point x="540" y="165" />
-          <Point x="456" y="165" />
-          <Point x="456" y="159" />
-          <Point x="540" y="159" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
-            <SolidBrush color="0, 0, 0" />
-          </Outline>
-          <Fill>
-            <SolidBrush color="0, 128, 128" />
-          </Fill>
-        </ClosedShape>
         <Annotation>
-          <Location x="396" y="156" />
-          <Size width="61" height="13" />
+          <Location x="348" y="156" />
+          <Size width="109" height="13" />
           <Text><![CDATA[AN_B<3:0>]]></Text>
           <Vertical value="false" />
           <Expression><![CDATA[`=$name`<`=$n-1`:0>]]></Expression>
@@ -134,6 +86,29 @@
           <Font value="Microsoft Sans Serif, 10pt" />
           <TextAlignment value="MiddleRight" />
         </Annotation>
+        <ClosedShape>
+          <Point x="540" y="159" />
+          <Point x="540" y="156" />
+          <Point x="552" y="162" />
+          <Point x="540" y="168" />
+          <Point x="540" y="165" />
+          <Point x="456" y="165" />
+          <Point x="456" y="159" />
+          <Point x="540" y="159" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="85, 185, 165" />
+          </Fill>
+        </ClosedShape>
+        <Line>
+          <Point x="498" y="156" />
+          <Point x="486" y="168" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+        </Line>
         <Annotation>
           <Location x="492" y="164" />
           <Size width="42" height="12" />
@@ -148,13 +123,6 @@
           <Font value="Microsoft Sans Serif, 10pt" />
           <TextAlignment value="TopLeft" />
         </Annotation>
-        <Line>
-          <Point x="498" y="156" />
-          <Point x="486" y="168" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
-            <SolidBrush color="0, 0, 0" />
-          </Outline>
-        </Line>
       </SubShapes>
     </Instance>
     <Rectangle shapeName="Shape_9682" zorder="26">
@@ -5334,7 +5302,7 @@ pins</Text>
     </Annotation>
     <Annotation shapeName="Shape_10210" zorder="348">
       <Location x="582" y="162" />
-      <Text>x8</Text>
+      <Text>x4</Text>
       <Vertical value="false" />
       <Fill>
         <SolidBrush color="255, 255, 255" />
