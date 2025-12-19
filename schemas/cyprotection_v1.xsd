@@ -116,6 +116,7 @@
             <xs:attribute name="ns_att" type="xs:boolean" use="optional" />
             <xs:attribute name="s_p_att" type="xs:boolean" use="optional" />
             <xs:attribute name="ns_p_att" type="xs:boolean" use="optional" />
+            <xs:attribute name="used_by_se_rt" type="xs:boolean" use="optional" />
           </xs:complexType>
         </xs:element>
         <xs:element name="MpcLocation" minOccurs="0" maxOccurs="unbounded">

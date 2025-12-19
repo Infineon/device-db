@@ -2612,6 +2612,11 @@
         "path": "devices/M0S8/PSoC4AS3/CY8C4147AZQ-S445"
       },
       {
+        "name": "CY8C4147AZQ-S445I",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AS3/CY8C4147AZQ-S445I"
+      },
+      {
         "name": "CY8C4147AZQ-S453",
         "part": true,
         "path": "devices/M0S8/PSoC4AS3/CY8C4147AZQ-S453"
@@ -2620,6 +2625,11 @@
         "name": "CY8C4147AZQ-S455",
         "part": true,
         "path": "devices/M0S8/PSoC4AS3/CY8C4147AZQ-S455"
+      },
+      {
+        "name": "CY8C4147AZQ-S455I",
+        "part": true,
+        "path": "devices/M0S8/PSoC4AS3/CY8C4147AZQ-S455I"
       },
       {
         "name": "CY8C4147AZQ-S465",
@@ -4267,6 +4277,11 @@
         "path": "devices/M0S8/PSoC4ASF2/CY8C4046FNI-T412"
       },
       {
+        "name": "CY8C4046FNI-T412B",
+        "part": true,
+        "path": "devices/M0S8/PSoC4ASF2/CY8C4046FNI-T412B"
+      },
+      {
         "name": "CY8C4046FNI-T442",
         "part": true,
         "path": "devices/M0S8/PSoC4ASF2/CY8C4046FNI-T442"
@@ -4322,9 +4337,24 @@
         "path": "devices/M0S8/PSoC4ASF2/CY8C4046LQS-T1"
       },
       {
+        "name": "CY8C4046ZZI-T411",
+        "part": true,
+        "path": "devices/M0S8/PSoC4ASF2/CY8C4046ZZI-T411"
+      },
+      {
         "name": "CY8C4046ZZI-T451",
         "part": true,
         "path": "devices/M0S8/PSoC4ASF2/CY8C4046ZZI-T451"
+      },
+      {
+        "name": "CY8C4046ZZQ-T411",
+        "part": true,
+        "path": "devices/M0S8/PSoC4ASF2/CY8C4046ZZQ-T411"
+      },
+      {
+        "name": "CY8C4046ZZQ-T451",
+        "part": true,
+        "path": "devices/M0S8/PSoC4ASF2/CY8C4046ZZQ-T451"
       },
       {
         "name": "PSOC4HV144K",
@@ -4947,6 +4977,41 @@
         "path": "devices/M0S8/PSOC4HVMS64K/CY8C4146LWE-HVS115X"
       },
       {
+        "name": "PSOC4HVPAPPM",
+        "part": false,
+        "path": "devices/M0S8/PSOC4HVPAPPM"
+      },
+      {
+        "name": "CY8C4147LDE-HV504",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVPAPPM/CY8C4147LDE-HV504"
+      },
+      {
+        "name": "CY8C4147LDE-HV534",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVPAPPM/CY8C4147LDE-HV534"
+      },
+      {
+        "name": "CY8C4147LDE-HV604",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVPAPPM/CY8C4147LDE-HV604"
+      },
+      {
+        "name": "CY8C4147LDE-HV634",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVPAPPM/CY8C4147LDE-HV634"
+      },
+      {
+        "name": "CY8C4147LDE-HV704",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVPAPPM/CY8C4147LDE-HV704"
+      },
+      {
+        "name": "CY8C4147LDE-HV734",
+        "part": true,
+        "path": "devices/M0S8/PSOC4HVPAPPM/CY8C4147LDE-HV734"
+      },
+      {
         "name": "PSOC4NEXT",
         "part": false,
         "path": "devices/M0S8/PSOC4NEXT"
@@ -5100,6 +5165,11 @@
         "name": "CY8C4147AZI-T475",
         "part": true,
         "path": "devices/M0S8/PSOC4NEXT/CY8C4147AZI-T475"
+      },
+      {
+        "name": "CY8C4147AZQ-T413",
+        "part": true,
+        "path": "devices/M0S8/PSOC4NEXT/CY8C4147AZQ-T413"
       },
       {
         "name": "CY8C4147AZQ-T415",
@@ -8104,6 +8174,111 @@
         "name": "XMC7200D-F176K8384",
         "part": true,
         "path": "devices/MXS40/TVIIBH8M/XMC7200D-F176K8384"
+      },
+      {
+        "name": "TVIIC2D4M",
+        "part": false,
+        "path": "devices/MXS40/TVIIC2D4M"
+      },
+      {
+        "name": "CYT3DLABAS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABAS"
+      },
+      {
+        "name": "CYT3DLABBS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABBS"
+      },
+      {
+        "name": "CYT3DLABCS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABCS"
+      },
+      {
+        "name": "CYT3DLABDS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABDS"
+      },
+      {
+        "name": "CYT3DLABES",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABES"
+      },
+      {
+        "name": "CYT3DLABFS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABFS"
+      },
+      {
+        "name": "CYT3DLABGS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABGS"
+      },
+      {
+        "name": "CYT3DLABHS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABHS"
+      },
+      {
+        "name": "CYT3DLABSS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABSS"
+      },
+      {
+        "name": "CYT3DLABZS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLABZS"
+      },
+      {
+        "name": "CYT3DLBBAS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBAS"
+      },
+      {
+        "name": "CYT3DLBBBS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBBS"
+      },
+      {
+        "name": "CYT3DLBBCS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBCS"
+      },
+      {
+        "name": "CYT3DLBBDS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBDS"
+      },
+      {
+        "name": "CYT3DLBBES",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBES"
+      },
+      {
+        "name": "CYT3DLBBFS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBFS"
+      },
+      {
+        "name": "CYT3DLBBGS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBGS"
+      },
+      {
+        "name": "CYT3DLBBHS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBHS"
+      },
+      {
+        "name": "CYT3DLBBSS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBSS"
+      },
+      {
+        "name": "CYT3DLBBZS",
+        "part": true,
+        "path": "devices/MXS40/TVIIC2D4M/CYT3DLBBZS"
       },
       {
         "name": "TVIIC2D6M",

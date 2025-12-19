@@ -49,6 +49,7 @@
       * [PSoC 4 HV MS 128k](#psoc-4-hv-ms-128k)
       * [PSoC 4 HV MS 64k](#psoc-4-hv-ms-64k)
       * [PSoC 4 HV PA 144k](#psoc-4-hv-pa-144k)
+      * [PSOC 4 HVPA-SPM 1.0](#psoc-4-hvpa-spm-10)
       * [PSoC 4000S](#psoc-4000s)
       * [PSoC 4000T](#psoc-4000t)
       * [PSoC 4100S](#psoc-4100s)
@@ -79,6 +80,7 @@
       * [CYT2B9](#cyt2b9)
       * [CYT2BL](#cyt2bl)
       * [CYT3BB](#cyt3bb)
+      * [CYT3DL](#cyt3dl)
       * [CYT4BB](#cyt4bb)
       * [CYT4BF](#cyt4bf)
       * [CYT4DN](#cyt4dn)
@@ -436,6 +438,14 @@
 * CY8C4147LCE-HV413
 * CY8C4147LCE-HV423
 
+### PSOC 4 HVPA-SPM 1.0
+* CY8C4147LDE-HV504
+* CY8C4147LDE-HV534
+* CY8C4147LDE-HV604
+* CY8C4147LDE-HV634
+* CY8C4147LDE-HV704
+* CY8C4147LDE-HV734
+
 ### PSoC 4000S
 * [CY8C4024FNI-S402](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4024fni-s402t/)
 * [CY8C4024LQI-S401](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4024lqi-s401/)
@@ -532,6 +542,10 @@
 * CY8C4026LQI-T441
 * CY8C4046LQQ-T412
 * CY8C4046ZZI-T451
+* CY8C4046ZZQ-T451
+* CY8C4046ZZQ-T411
+* CY8C4046ZZI-T411
+* CY8C4046FNI-T412B
 * CY8C4045LQE-T1
 * CY8C4046LQE-T1
 * CY8C4045LQS-T1
@@ -1101,6 +1115,8 @@
 * CY8C4147LDE-S453
 * CY8C4147LDE-S463
 * CY8C4147LDE-S473
+* [CY8C4147AZQ-S445I](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4147azq-s445/)
+* [CY8C4147AZQ-S455I](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4147azq-s455/)
 * [CY8C4128AZI-S443](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4128azi-s443/)
 * [CY8C4128AZI-S445](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4128azi-s445/)
 * [CY8C4128AXI-S445](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/cy8c4128axi-s445/)
@@ -1165,6 +1181,7 @@
 * CY8C4146AZQ-T453
 * CY8C4147AZQ-T415
 * CY8C4147AZQ-T455
+* CY8C4147AZQ-T413
 
 ### PSOC 4100T Plus 256KB
 * CY8C4148AZQ-T513
@@ -1566,6 +1583,28 @@
 * [CYT3BB8CEE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt3bb-cyt4bb-series/cyt3bb8cebq1aeegs/)
 * CYT3BBBCES
 * [CYT3BBBCEE](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt3bb-cyt4bb-series/cyt3bbbcebq0bzegs/)
+
+### CYT3DL
+* [CYT3DLBBAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLBBBS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLBBCS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLBBDS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLBBES](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLBBFS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLBBGS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLBBHS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABAS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABBS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABCS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABDS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABES](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABFS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABGS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABHS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLBBSS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLBBZS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABSS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
+* [CYT3DLABZS](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt3dl/)
 
 ### CYT4BB
 * [CYT4BB5CES](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt3bb-cyt4bb-series/cyt4bb5cebq1aesgs/)

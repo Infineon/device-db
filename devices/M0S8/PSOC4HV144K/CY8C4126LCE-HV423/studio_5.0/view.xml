@@ -23,9 +23,14 @@
     <Param name="DAC8_Count" value="0" />
     <Param name="DAC8_removed" value="NA" />
     <Param name="SCB_Count" value="1" />
+    <Param name="SCB_Removed" value="NA" />
+    <Param name="ISOUART_Count" value="0" />
+    <Param name="ISOUART_REMOVED" value="NA" />
     <Param name="TimerCounterPWM_Count" value="4" />
     <Param name="TimerCounterPWM_removed" value="NA" />
     <Param name="USB_Type" value="NA" />
+    <Param name="CAN20B_Count" value="0" />
+    <Param name="CAN20B_Removed" value="NA" />
     <Param name="Crypto" value="N" />
     <Param name="CapSense" value="N" />
     <Param name="DirDriveLCD" value="N" />
@@ -49,6 +54,7 @@
     <DevComp name="PSOC4HVPA144K" />
   </DeviceComponents>
   <DeviceCapabilities>
+    <DevCap name="adc" />
     <DevCap name="cat2" />
     <DevCap name="dma" />
     <DevCap name="flash_64k" />
