@@ -59,7 +59,7 @@
       <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>
       <Mode>0xFFFFFFFF</Mode>
       <ModeWidth>CY_SMIF_WIDTH_SINGLE</ModeWidth>
-      <DummyCycles>8</DummyCycles>
+      <DummyCycles>0</DummyCycles>
       <DataWidth>CY_SMIF_WIDTH_SINGLE</DataWidth>
     </Command>
     <Command>

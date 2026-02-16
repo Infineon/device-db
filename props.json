@@ -247,6 +247,11 @@
         "path": "devices/Connectivity-BT-WIFI/55500A1"
       },
       {
+        "name": "CYW55310IUBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55500A1/CYW55310IUBGT"
+      },
+      {
         "name": "CYW55513IUBG",
         "part": true,
         "path": "devices/Connectivity-BT-WIFI/55500A1/CYW55513IUBG"
@@ -5950,6 +5955,12 @@
         "path": "devices/memory/S26KS512S-166MHz"
       },
       {
+        "altname": "S27KL0642 (166 MHz)",
+        "name": "S27KL0642-166MHz",
+        "part": true,
+        "path": "devices/memory/S27KL0642"
+      },
+      {
         "altname": "S27KS0642 (200 MHz)",
         "name": "S27KS0642-200MHz",
         "part": true,
@@ -9719,6 +9730,11 @@
         "name": "LBEE5PK2BC",
         "part": true,
         "path": "modules/LBEE5PK2BC"
+      },
+      {
+        "name": "LBEE5WV2GF",
+        "part": true,
+        "path": "modules/LBEE5WV2GF"
       },
       {
         "name": "Sterling-LWB+",

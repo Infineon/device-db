@@ -121,7 +121,7 @@
         <Value>1</Value>
       </Parameter>
       <Parameter name="ToolTip">
-        <Value>External Crystal Oscillator: This is an off-chip clock source that is used when specific frequencies  (4 to 33 MHz) and/or very high accuracy is required. </Value>
+        <Value>High Precision Oscillator: The HPOSC is a 2 MHz 1% precision oscillator, which is on in Active power and Sleep mode and off in Deep Sleep modes.</Value>
       </Parameter>
     </Instance>
     <Instance guid="38ef40ee-30d8-470a-80f3-e960a29602a0" name="ECO" component="clock_side">

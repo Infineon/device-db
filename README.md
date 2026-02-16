@@ -29,4 +29,4 @@ See [DEVICES.md](./DEVICES.md) for a list of devices and modules supported by th
 * [MTB CAT5 Peripheral Driver Library](https://github.com/Infineon/mtb-pdl-cat5)
 
 ---
-© 2022-2025, Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation.
+© 2022-2026, Infineon Technologies AG or an affiliate of Infineon Technologies AG.

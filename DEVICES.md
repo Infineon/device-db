@@ -24,6 +24,7 @@
       * [4373](#4373)
       * [4373E](#4373e)
       * [4390x](#4390x)
+      * [55310](#55310)
       * [55513](#55513)
       * [55533](#55533)
       * [55570](#55570)
@@ -203,6 +204,9 @@
 ### 4390x
 * [CYW43907KWBG](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-connected-mcu/cyw43907/)
 * [CYW54907KWBG](https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-connected-mcu/cyw54907/)
+
+### 55310
+* CYW55310IUBGT
 
 ### 55513
 * CYW55513IUBG
@@ -1963,6 +1967,7 @@
 * [LBEE5KL1YN](https://www.murata.com/products/productdata/8815814344734/type1yn.pdf)
 * [LBEE5PK2AE](https://www.murata.com/products/productdata/8816428220446/type2ae.pdf)
 * [LBEE5PK2BC](https://www.murata.com/products/productdata/8816701374494/type2bc.pdf)
+* [LBEE5WV2GF](https://pim.murata.com/asset/pim4/wifiBluetoothModule/TYPE2GF_PDF_WIFIBLUETOOTHMODULE)
 
 ## USI
 
