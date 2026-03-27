@@ -25,25 +25,29 @@
     <Param name="TimerCounterPWM_removed" value="NA" />
     <Param name="LIN_Count" value="0" />
     <Param name="LIN_Removed" value="0" />
+    <Param name="USB_Type" value="NA" />
     <Param name="SMIF" value="Y" />
     <Param name="Crypto" value="Y" />
+    <Param name="Security" value="NA" />
     <Param name="I2S_Count" value="1" />
     <Param name="I2S_removed" value="NA" />
     <Param name="PDM_Count" value="1" />
     <Param name="PDM_removed" value="NA" />
     <Param name="DirDriveLCD" value="N" />
     <Param name="DMAchannels_count" value="16" />
+    <Param name="DMAchannels_Removed" value="NA" />
     <Param name="DMACchannels_count" value="0" />
+    <Param name="DMACchannels_Removed" value="NA" />
     <Param name="IO_Count" value="32" />
     <Param name="Vddmin_volts" value="1.62" />
     <Param name="Vddmax_volts" value="3.63" />
     <Param name="TempMin_Celsius" value="-40" />
     <Param name="TempMax_Celsius" value="85" />
+    <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
     <Param name="SiliconID" value="0xEB492110" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="NA" />
-    <Param name="Automotive_qualified" value="No (Industrial Grade Only)" />
+    <Param name="DATASHEET" value="https://www.infineon.com/part/CYW20829" />
   </Parameters>
   <DeviceComponents>
     <DevComp name="BTSS-IPC" />

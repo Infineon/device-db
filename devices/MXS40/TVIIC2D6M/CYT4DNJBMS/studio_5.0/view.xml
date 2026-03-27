@@ -15,6 +15,7 @@
     <Param name="Bluetooth" value="NA" />
     <Param name="AltHF" value="N" />
     <Param name="UDB_Count" value="0" />
+    <Param name="UDB_Removed" value="NA" />
     <Param name="Preconfigured_Blocks" value="NA" />
     <Param name="SAR12_Count" value="1" />
     <Param name="SAR12_REMOVED" value="NA" />
@@ -51,6 +52,7 @@
     <Param name="ETH_Count" value="1" />
     <Param name="ETH_Removed" value="NA" />
     <Param name="FLEXRAY" value="N" />
+    <Param name="SMIF" value="Y" />
     <Param name="SMIF_Count" value="2" />
     <Param name="SMIF_Removed" value="NA" />
     <Param name="AudioDAC_Count" value="0" />
@@ -62,13 +64,17 @@
     <Param name="Crypto" value="Y" />
     <Param name="Security" value="HSM" />
     <Param name="I2S_Count" value="4" />
-    <Param name="I2S_Removed" value="NA" />
+    <Param name="I2S_removed" value="NA" />
     <Param name="PDM_Count" value="0" />
     <Param name="PDM_removed" value="NA" />
     <Param name="DirDriveLCD" value="N" />
+    <Param name="ECO" value="Y" />
     <Param name="DMAchannels_count" value="160" />
+    <Param name="DMAchannels_Removed" value="NA" />
     <Param name="DMACchannels_count" value="8" />
+    <Param name="DMACchannels_Removed" value="NA" />
     <Param name="AXI_DMACchannels_count" value="4" />
+    <Param name="AXI_DMACchannels_Removed" value="NA" />
     <Param name="IO_Count" value="168" />
     <Param name="Power_Modes" value="ANY" />
     <Param name="Vddmin_volts" value="2.7" />
@@ -79,10 +85,7 @@
     <Param name="SiliconID" value="0xE81C2206" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-cluster/traveo-t2g-cyt4dn/" />
-    <Param name="EDITING_SUPPORT" value="NA" />
-    <Param name="PROJECT_TEMPLATE" value="NA" />
-    <Param name="ECO" value="Y" />
+    <Param name="DATASHEET" value="https://www.infineon.com/part/CYT4DNJBACQ1BZSGS" />
   </Parameters>
   <DeviceComponents>
     <DevComp name="CAT1" />

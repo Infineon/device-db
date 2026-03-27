@@ -11,6 +11,7 @@
     <Param name="Flash_KB" value="32" />
     <Param name="SRAM_KB" value="16" />
     <Param name="MATH_Count" value="0" />
+    <Param name="MATH_removed" value="NA" />
     <Param name="CCU4_Count" value="1" />
     <Param name="CCU4_removed" value="NA" />
     <Param name="CCU8_Count" value="0" />
@@ -39,7 +40,7 @@
     <Param name="TempMax_Celsius" value="105" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc1000-industrial-microcontroller-arm-cortex-m0/xmc1202-q040x0032-ab/" />
+    <Param name="DATASHEET" value="https://www.infineon.com/part/XMC1202-Q040X0032-AB" />
   </Parameters>
   <DeviceComponents>
     <DevComp name="CAT3" />

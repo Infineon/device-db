@@ -15,6 +15,7 @@
     <Param name="Bluetooth" value="NA" />
     <Param name="AltHF" value="Y" />
     <Param name="UDB_Count" value="0" />
+    <Param name="UDB_Removed" value="NA" />
     <Param name="Preconfigured_Blocks" value="NA" />
     <Param name="SAR12_Count" value="0" />
     <Param name="SAR12_REMOVED" value="NA" />
@@ -45,13 +46,17 @@
     <Param name="CapSenseADC" value="N" />
     <Param name="SMIF" value="Y" />
     <Param name="Crypto" value="Y" />
+    <Param name="Security" value="NA" />
     <Param name="I2S_Count" value="1" />
     <Param name="I2S_removed" value="NA" />
     <Param name="PDM_Count" value="1" />
     <Param name="PDM_removed" value="NA" />
     <Param name="DirDriveLCD" value="N" />
+    <Param name="ECO" value="Y" />
     <Param name="DMAchannels_count" value="48" />
+    <Param name="DMAchannels_Removed" value="NA" />
     <Param name="DMACchannels_count" value="6" />
+    <Param name="DMACchannels_Removed" value="NA" />
     <Param name="IO_Count" value="52" />
     <Param name="Power_Modes" value="ANY" />
     <Param name="Vddmin_volts" value="1.7" />
@@ -64,8 +69,6 @@
     <Param name="Next_Best_Alt_Part" value="None" />
     <Param name="DATASHEET" value="NA" />
     <Param name="EDITING_SUPPORT" value="Schematic" />
-    <Param name="PROJECT_TEMPLATE" value="" />
-    <Param name="ECO" value="Y" />
   </Parameters>
   <DeviceComponents>
     <DevComp name="CAT1" />

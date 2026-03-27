@@ -6,7 +6,6 @@
     <Param name="DeviceDie" value="EXPLORER" />
     <Param name="Silicon_Revision" value="PRODUCTION" />
     <Param name="Package" value="WLB-154" />
-    <Param name="DeviceFamily" value="PSOC™ Edge" />
     <Param name="DeviceSeries" value="PSE8xxGP" />
     <Param name="SupportLibrary" value="mtb-dsl-pse8xxgp" />
     <Param name="TemplateLibrary" value="mtb-template-pse8xxgp" />
@@ -52,8 +51,10 @@
     <Param name="PDM_Count" value="4" />
     <Param name="PDM_removed" value="0;3" />
     <Param name="DirDriveLCD" value="N" />
-    <Param name="DMAchannels_count" value="16" />
+    <Param name="DMAchannels_count" value="32" />
+    <Param name="DMAchannels_Removed" value="NA" />
     <Param name="DMACchannels_count" value="4" />
+    <Param name="DMACchannels_Removed" value="NA" />
     <Param name="IO_Count" value="101" />
     <Param name="Vddmin_volts" value="1.8" />
     <Param name="Vddmax_volts" value="1.89" />
@@ -104,9 +105,9 @@
   <TemplateAssetId>mtb-template-pse8xxgp</TemplateAssetId>
   <MigrationGroup>pse8xxgp</MigrationGroup>
   <MigrationTargets>
-    <MigrationTarget>pse8xxgm</MigrationTarget>
     <MigrationTarget>pse8xxgo</MigrationTarget>
     <MigrationTarget>pse8xxgp</MigrationTarget>
+    <MigrationTarget>pse8x6</MigrationTarget>
   </MigrationTargets>
   <types>
     <type name="mcu" />

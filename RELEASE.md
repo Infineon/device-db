@@ -1,30 +1,33 @@
-# Device Database v4.35.0
+# Device Database v4.36.0
 For details, refer to [README.md](./README.md).
 
 ## Version info
-* Add CYW55310 connectivity device support.
-* Add LBEE5WV2GF module support.
-* Add S27KL0642 QSPI memory configuration.
+* Add CCG7S part number: CYPD7197-40BFXS.
+* Add CYT6BJ device support.
 * Minor bug fixes.
 
 ## Recommended device support libraries
-* mtb-pdl-cat1 >= 3.20.0
+* mtb-pdl-cat1 >= 3.20.1
 * mtb-pdl-cat2 >= 2.20.0
 * mtb-xmclib-cat3 >= 4.6.0
 * mtb-pdl-cat5 >= 4.0.0
-* mtb-dsl-pse8xxgo >= 1.3.0
-* mtb-dsl-pse8xxgp >= 1.3.0
+* mtb-dsl-pse8xxgo >= 1.4.0
+* mtb-dsl-pse8xxgp >= 1.4.0
 
 
 ## Added devices
-### AIROC™ Connectivity
-#### 55310
-* CYW55310IUBGT
+### CCG
+#### CCG7S
+* [CYPD7197-40BFXS](https://www.infineon.com/part/CYPD7197-40BFXS)
 
-
-## Added modules
-### Murata
-* [LBEE5WV2GF](https://pim.murata.com/asset/pim4/wifiBluetoothModule/TYPE2GF_PDF_WIFIBLUETOOTHMODULE)
+### TRAVEO™
+#### CYT6BJ
+* [CYT6BJ8DDS](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-body/t2g-cyt6bj)
+* [CYT6BJ8DDE](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-body/t2g-cyt6bj)
+* [CYT6BJBDHS](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-body/t2g-cyt6bj)
+* [CYT6BJBDHE](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-body/t2g-cyt6bj)
+* [CYT6BJCDHS](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-body/t2g-cyt6bj)
+* [CYT6BJCDHE](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-body/t2g-cyt6bj)
 
 
 

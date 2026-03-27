@@ -6,7 +6,6 @@
     <Param name="DeviceDie" value="EXPLORER" />
     <Param name="Silicon_Revision" value="PRODUCTION" />
     <Param name="Package" value="BGA-220" />
-    <Param name="DeviceFamily" value="PSOC™ Edge" />
     <Param name="DeviceSeries" value="PSE8xxGO" />
     <Param name="SupportLibrary" value="mtb-dsl-pse8xxgo" />
     <Param name="TemplateLibrary" value="mtb-template-pse8xxgo" />
@@ -52,8 +51,10 @@
     <Param name="PDM_Count" value="6" />
     <Param name="PDM_removed" value="NA" />
     <Param name="DirDriveLCD" value="N" />
-    <Param name="DMAchannels_count" value="16" />
+    <Param name="DMAchannels_count" value="32" />
+    <Param name="DMAchannels_Removed" value="NA" />
     <Param name="DMACchannels_count" value="4" />
+    <Param name="DMACchannels_Removed" value="NA" />
     <Param name="IO_Count" value="147" />
     <Param name="Vddmin_volts" value="1.8" />
     <Param name="Vddmax_volts" value="4.8" />
@@ -63,7 +64,7 @@
     <Param name="SiliconID" value="0xEDA32115" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="NA" />
+    <Param name="DATASHEET" value="https://www.infineon.com/part/PSE833GOS2DBZC4" />
   </Parameters>
   <DeviceComponents>
     <DevComp name="PSE84" />
@@ -105,9 +106,9 @@
   <TemplateAssetId>mtb-template-pse8xxgo</TemplateAssetId>
   <MigrationGroup>pse8xxgo</MigrationGroup>
   <MigrationTargets>
-    <MigrationTarget>pse8xxgm</MigrationTarget>
     <MigrationTarget>pse8xxgo</MigrationTarget>
     <MigrationTarget>pse8xxgp</MigrationTarget>
+    <MigrationTarget>pse8x6</MigrationTarget>
   </MigrationTargets>
   <types>
     <type name="mcu" />

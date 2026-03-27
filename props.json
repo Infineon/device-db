@@ -597,6 +597,11 @@
         "path": "devices/M0S8/CCG7S/CYPD7196-40BFXS"
       },
       {
+        "name": "CYPD7197-40BFXS",
+        "part": true,
+        "path": "devices/M0S8/CCG7S/CYPD7197-40BFXS"
+      },
+      {
         "name": "CYPD7198-39BFXS",
         "part": true,
         "path": "devices/M0S8/CCG7S/CYPD7198-39BFXS"
@@ -5955,14 +5960,12 @@
         "path": "devices/memory/S26KS512S-166MHz"
       },
       {
-        "altname": "S27KL0642 (166 MHz)",
-        "name": "S27KL0642-166MHz",
+        "name": "S27KL0642",
         "part": true,
         "path": "devices/memory/S27KL0642"
       },
       {
-        "altname": "S27KS0642 (200 MHz)",
-        "name": "S27KS0642-200MHz",
+        "name": "S27KS0642",
         "part": true,
         "path": "devices/memory/S27KS0642"
       },
@@ -7950,6 +7953,41 @@
         "name": "CYT2BL8CAS",
         "part": true,
         "path": "devices/MXS40/TVIIBE4M/CYT2BL8CAS"
+      },
+      {
+        "name": "TVIIBH16M",
+        "part": false,
+        "path": "devices/MXS40/TVIIBH16M"
+      },
+      {
+        "name": "CYT6BJ8DDE",
+        "part": true,
+        "path": "devices/MXS40/TVIIBH16M/CYT6BJ8DDE"
+      },
+      {
+        "name": "CYT6BJ8DDS",
+        "part": true,
+        "path": "devices/MXS40/TVIIBH16M/CYT6BJ8DDS"
+      },
+      {
+        "name": "CYT6BJBDHE",
+        "part": true,
+        "path": "devices/MXS40/TVIIBH16M/CYT6BJBDHE"
+      },
+      {
+        "name": "CYT6BJBDHS",
+        "part": true,
+        "path": "devices/MXS40/TVIIBH16M/CYT6BJBDHS"
+      },
+      {
+        "name": "CYT6BJCDHE",
+        "part": true,
+        "path": "devices/MXS40/TVIIBH16M/CYT6BJCDHE"
+      },
+      {
+        "name": "CYT6BJCDHS",
+        "part": true,
+        "path": "devices/MXS40/TVIIBH16M/CYT6BJCDHS"
       },
       {
         "name": "TVIIBH4M",

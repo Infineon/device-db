@@ -15,6 +15,7 @@
     <Param name="Bluetooth" value="NA" />
     <Param name="AltHF" value="N" />
     <Param name="UDB_Count" value="0" />
+    <Param name="UDB_Removed" value="NA" />
     <Param name="Preconfigured_Blocks" value="NA" />
     <Param name="SAR12_Count" value="3" />
     <Param name="SAR12_REMOVED" value="NA" />
@@ -59,6 +60,7 @@
     <Param name="PDM_Count" value="0" />
     <Param name="PDM_removed" value="NA" />
     <Param name="DirDriveLCD" value="N" />
+    <Param name="ECO" value="Y" />
     <Param name="DMAchannels_count" value="80" />
     <Param name="DMAchannels_Removed" value="22;23;24;31;32;35;38;39;40;41;43;44;45;46;47;48;49;50;51;52;58;59;60;67;68;69;70;73;74;75;76;77;78;79;80;101;102;109;110;119;120;121" />
     <Param name="DMACchannels_count" value="2" />
@@ -73,10 +75,7 @@
     <Param name="SiliconID" value="0xE34A2301" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt2b6-series/cyt2b63badq0azsgs/" />
-    <Param name="EDITING_SUPPORT" value="NA" />
-    <Param name="PROJECT_TEMPLATE" value="NA" />
-    <Param name="ECO" value="Y" />
+    <Param name="DATASHEET" value="https://www.infineon.com/part/CYT2B63BADQ0AZSGS" />
   </Parameters>
   <DeviceComponents>
     <DevComp name="CAT1" />

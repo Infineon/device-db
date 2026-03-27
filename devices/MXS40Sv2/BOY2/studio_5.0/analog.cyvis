@@ -775,7 +775,7 @@
     </Annotation>
     <Annotation shapeName="Shape_9824" zorder="87">
       <Location x="636" y="630" />
-      <Text>AN_A5</Text>
+      <Text>AN_A4</Text>
       <Vertical value="false" />
       <Fill>
         <SolidBrush color="0, 0, 0" />
@@ -785,7 +785,7 @@
     </Annotation>
     <Annotation shapeName="Shape_9825" zorder="88">
       <Location x="636" y="642" />
-      <Text>AN_B5</Text>
+      <Text>AN_B4</Text>
       <Vertical value="false" />
       <Fill>
         <SolidBrush color="0, 0, 0" />
@@ -4380,7 +4380,7 @@ _OUT</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="186" y="138" />
+          <Location x="180" y="138" />
           <Text>AROUTE</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -4407,7 +4407,7 @@ _OUT</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="186" y="636" />
+          <Location x="180" y="636" />
           <Text>INFRA</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -4434,7 +4434,7 @@ _OUT</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="522" y="78" />
+          <Location x="516" y="78" />
           <Text>12b SAR ADC</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -4461,7 +4461,7 @@ _OUT</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="438" y="306" />
+          <Location x="432" y="306" />
           <Text>Comparator and slope generator (CSG)</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -4507,7 +4507,7 @@ _OUT</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="810" y="78" />
+          <Location x="804" y="78" />
           <Text>ADC post-processing</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -4534,7 +4534,7 @@ _OUT</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="810" y="306" />
+          <Location x="804" y="306" />
           <Text>CSG post-processing</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -4561,7 +4561,7 @@ _OUT</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="810" y="468" />
+          <Location x="804" y="468" />
           <Text>Autonomous controller (AC)</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -4697,12 +4697,10 @@ _OUT</Text>
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="2">
             <SolidBrush color="0, 0, 0" />
           </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
+          <NoFill />
         </Rectangle>
         <Annotation>
-          <Location x="162" y="66" />
+          <Location x="156" y="66" />
           <Text />
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>

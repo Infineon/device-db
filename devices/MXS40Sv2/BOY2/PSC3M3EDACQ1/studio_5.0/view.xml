@@ -41,8 +41,12 @@
     <Param name="PDM_Count" value="0" />
     <Param name="PDM_removed" value="NA" />
     <Param name="DirDriveLCD" value="N" />
+    <Param name="ECO" value="Y" />
+    <Param name="WCO" value="Y" />
     <Param name="DMAchannels_count" value="32" />
+    <Param name="DMAchannels_Removed" value="NA" />
     <Param name="DMACchannels_count" value="0" />
+    <Param name="DMACchannels_Removed" value="NA" />
     <Param name="IO_Count" value="39" />
     <Param name="Vddmin_volts" value="1.71" />
     <Param name="Vddmax_volts" value="3.63" />
@@ -52,9 +56,7 @@
     <Param name="SiliconID" value="0xEE581118" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="NA" />
-    <Param name="ECO" value="Y" />
-    <Param name="WCO" value="Y" />
+    <Param name="DATASHEET" value="https://www.infineon.com/part/PSC3M3EDACQ1" />
   </Parameters>
   <DeviceComponents>
     <DevComp name="CAT1" />

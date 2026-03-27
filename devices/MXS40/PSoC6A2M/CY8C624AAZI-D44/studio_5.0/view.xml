@@ -14,6 +14,7 @@
     <Param name="Bluetooth" value="NA" />
     <Param name="AltHF" value="N" />
     <Param name="UDB_Count" value="0" />
+    <Param name="UDB_Removed" value="NA" />
     <Param name="Preconfigured_Blocks" value="NA" />
     <Param name="SAR12_Count" value="1" />
     <Param name="SAR12_REMOVED" value="NA" />
@@ -32,6 +33,7 @@
     <Param name="SDHC_REMOVED" value="NA" />
     <Param name="SCB_Count" value="13" />
     <Param name="SCB_removed" value="NA" />
+    <Param name="CAN_FD" value="N" />
     <Param name="TimerCounterPWM_Count" value="32" />
     <Param name="TimerCounterPWM_removed" value="NA" />
     <Param name="USB_Type" value="FS" />
@@ -46,8 +48,11 @@
     <Param name="PDM_Count" value="1" />
     <Param name="PDM_removed" value="NA" />
     <Param name="DirDriveLCD" value="Y" />
+    <Param name="ECO" value="Y" />
     <Param name="DMAchannels_count" value="58" />
+    <Param name="DMAchannels_Removed" value="NA" />
     <Param name="DMACchannels_count" value="4" />
+    <Param name="DMACchannels_Removed" value="NA" />
     <Param name="IO_Count" value="104" />
     <Param name="Power_Modes" value="ANY" />
     <Param name="Vddmin_volts" value="1.7" />
@@ -61,7 +66,6 @@
     <Param name="DATASHEET" value="NA" />
     <Param name="EDITING_SUPPORT" value="Schematic" />
     <Param name="PROJECT_TEMPLATE" value="P6_D44.zip" />
-    <Param name="ECO" value="Y" />
   </Parameters>
   <DeviceComponents>
     <DevComp name="CAT1" />

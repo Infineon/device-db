@@ -12,6 +12,7 @@
     <Param name="Flash_KB" value="256" />
     <Param name="SRAM_KB" value="32" />
     <Param name="UDB_Count" value="0" />
+    <Param name="UDB_Removed" value="NA" />
     <Param name="ADC_Count" value="0" />
     <Param name="ADC_Removed" value="NA" />
     <Param name="SAR12_Count" value="1" />
@@ -21,17 +22,23 @@
     <Param name="OpAmp_Removed" value="NA" />
     <Param name="LPComp_Count" value="2" />
     <Param name="LPComp_REMOVED" value="NA" />
+    <Param name="Comp_Count" value="1" />
+    <Param name="Comp_REMOVED" value="NA" />
     <Param name="DAC8_Count" value="0" />
     <Param name="DAC8_removed" value="0;1" />
     <Param name="SCB_Count" value="8" />
-    <Param name="SCB_Removed" value="NA" />
+    <Param name="SCB_removed" value="NA" />
     <Param name="TimerCounterPWM_Count" value="8" />
     <Param name="TimerCounterPWM_removed" value="NA" />
     <Param name="USB_Type" value="FS" />
     <Param name="CapSense" value="Y" />
+    <Param name="Crypto" value="Y" />
     <Param name="DirDriveLCD" value="N" />
     <Param name="USBPD_Count" value="2" />
     <Param name="USBPD_REMOVED" value="NA" />
+    <Param name="WCO" value="N" />
+    <Param name="DMAchannels_count" value="16" />
+    <Param name="DMAchannels_Removed" value="NA" />
     <Param name="IO_Count" value="52" />
     <Param name="Vddmin_volts" value="1.71" />
     <Param name="Vddmax_volts" value="5.5" />
@@ -41,10 +48,8 @@
     <Param name="SiliconID" value="0x350011C5" />
     <Param name="REQUIRED_KITS" value="None" />
     <Param name="Next_Best_Alt_Part" value="None" />
-    <Param name="DATASHEET" value="https://www.infineon.com/cms/en/product/universal-serial-bus-usb-power-delivery-controller/usb-c-and-power-delivery/ez-pd-pmg1-portfolio-high-voltage-mcus-usb-c-power-delivery/cypm1322-97bzxit/" />
+    <Param name="DATASHEET" value="https://www.infineon.com/part/CYPM1322-97BZXIT" />
     <Param name="EDITING_SUPPORT" value="Schematic" />
-    <Param name="PROJECT_TEMPLATE" value="" />
-    <Param name="WCO" value="N" />
   </Parameters>
   <DeviceComponents>
     <DevComp name="CAT2" />

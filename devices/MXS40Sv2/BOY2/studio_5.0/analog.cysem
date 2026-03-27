@@ -265,6 +265,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>cy_buffer_small_2</Value>
       </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
       <Parameter name="SlopeGen">
         <Value>true</Value>
       </Parameter>
@@ -776,6 +779,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>cy_buffer_small_5</Value>
       </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
       <Parameter name="SlopeGen">
         <Value>true</Value>
       </Parameter>
@@ -1049,6 +1055,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>cy_buffer_small_1</Value>
+      </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
       </Parameter>
       <Parameter name="SlopeGen">
         <Value>true</Value>
@@ -1349,6 +1358,9 @@
       <Parameter name="INSTANCE_NAME">
         <Value>cy_buffer_small_3</Value>
       </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
       <Parameter name="SlopeGen">
         <Value>true</Value>
       </Parameter>
@@ -1642,6 +1654,9 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>cy_buffer_small_4</Value>
+      </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
       </Parameter>
       <Parameter name="SlopeGen">
         <Value>true</Value>
