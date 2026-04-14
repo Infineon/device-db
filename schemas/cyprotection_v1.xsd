@@ -126,6 +126,7 @@
             <xs:attribute name="key" type="xs:string" use="required"/>
             <xs:attribute name="displayName" type="xs:string" use="required"/>
             <xs:attribute name="location" type="xs:string" use="required" />
+            <xs:attribute name="rot_configurable" type="xs:string" use="optional" />
           </xs:complexType>
         </xs:element>
       </xs:sequence>
