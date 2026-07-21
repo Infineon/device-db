@@ -4,10 +4,9 @@
   <Configuration>Octal SDR Uniform</Configuration>
   <Default>false</Default>
   <Description>512-Mb (64-MB) 3.0-V Semper Flash.
-     
+
     WARNING: Memory device must be pre-configured before using this configuration.
-    Address Byte Length must be set to 4 byte instruction
-    </Description>
+    Address Byte Length must be set to 4 byte instruction</Description>
   <NumberOfAddress>0x04</NumberOfAddress>
   <SizeOfMemory>0x04000000</SizeOfMemory>
   <EraseBlockSize>0x0040000</EraseBlockSize>

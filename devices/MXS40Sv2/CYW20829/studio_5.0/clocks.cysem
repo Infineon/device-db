@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="44">
+  <Instances count="43">
     <Instance guid="0127f6d8-2a80-4e81-a168-694a40eb679e" name="CLK_TIMER_1" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value />
@@ -40,47 +40,6 @@
       </Parameter>
       <Parameter name="ToolTip">
         <Value>Timer Clock: This clock is intended as a source for high-frequency timers, such as the Energy Profiler and CPU SysTick clock. This clock is stopped in the hibernate power mode.</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="01e49a6f-109a-47e9-910d-97c8685fee9a" name="AltLF" component="clock_side">
-      <Parameter name="BodyTextOverride">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>AltLF</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>srss[0].clock[0].altlf[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>AltLF</Value>
-      </Parameter>
-      <Parameter name="name">
-        <Value>ALTLF</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>Alternate Low-Frequency Clock: Typically from a Bluetooth radio if present.</Value>
       </Parameter>
     </Instance>
     <Instance guid="02310c4a-d98a-4ceb-87f9-63fa149fbda6" name="arc_bridge_19" component="arc_bridge">
@@ -618,7 +577,7 @@
         <Value>0</Value>
       </Parameter>
       <Parameter name="ToolTip">
-        <Value>Watch Crystal Oscillator: This oscillator can drive an off-chip watch crystal that provides an extremely accurate clock source. Most commonly used with the Real Time Clock (RTC) to provide precison timing. This clock runs in hibernate power mode and when the backup domain is powered.</Value>
+        <Value>Watch Crystal Oscillator: This oscillator can drive an off-chip watch crystal that provides an extremely accurate clock source. Most commonly used with the Real Time Clock (RTC) to provide precision timing. This clock runs in hibernate power mode and when the backup domain is powered.</Value>
       </Parameter>
     </Instance>
     <Instance guid="61075cf8-4336-45ca-b29d-715a750c40b2" name="CLK_LF_2" component="clock_side">
@@ -1416,7 +1375,7 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="235">
+  <Signals count="225">
     <Signal name="Net_338" type="Digital" terminalCount="1">
       <Terminal name="CLK_HF0_1.a_14" type="Instance Digital Output" />
     </Signal>
@@ -1449,10 +1408,9 @@
       <Terminal name="arc_bridge_12.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_14.o" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_1081[3:0]" type="Digital" terminalCount="5">
+    <Signal name="Net_1081[3:0]" type="Digital" terminalCount="4">
       <Terminal name="IHO.a_14" type="Instance Digital Output" />
       <Terminal name="EXTCLK_1.a_14" type="Instance Digital Output" />
-      <Terminal name="AltLF.a_14" type="Instance Digital Output" />
       <Terminal name="arc_bridge_14.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_2.i" type="Instance Digital Input" />
     </Signal>
@@ -1614,36 +1572,6 @@
     </Signal>
     <Signal name="Net_4985" type="Digital" terminalCount="1">
       <Terminal name="IMO_1.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_4997" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4998" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_4999" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_5000" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_5001" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5002" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5003" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5004" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5005" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5006" type="Digital" terminalCount="1">
-      <Terminal name="AltLF.b_20" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_5007" type="Digital" terminalCount="1">
       <Terminal name="PILO.a_13" type="Instance Digital Output" />

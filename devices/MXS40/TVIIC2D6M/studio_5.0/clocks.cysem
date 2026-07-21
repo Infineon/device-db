@@ -3344,12 +3344,6 @@
       <Terminal name="arc_bridge_9.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_14.o" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_5231" type="Digital" terminalCount="4">
-      <Terminal name="ECO.a_14" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_11.i" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_5.i" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_21.i" type="Instance Digital Input" />
-    </Signal>
     <Signal name="Net_5282" type="Digital" terminalCount="1">
       <Terminal name="CLK_LF.a_2" type="Instance Digital Output" />
     </Signal>
@@ -4187,26 +4181,26 @@
       <Terminal name="CLK_HF1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF2.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF0.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF11.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF9.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF3.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF13.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF11.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF7.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF8.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF12.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF10.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF9.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF12.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF13.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF6.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF4_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF5.b_17" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_22.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_10.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_17.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_16.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_15.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_1.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_12.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_15.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_16.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_17.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_22.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_10.o" type="Instance Digital Output" />
     </Signal>
     <Signal name="Net_7332" type="Digital" terminalCount="1">
       <Terminal name="CLK_BAK.a_13" type="Instance Digital Output" />
@@ -4241,6 +4235,12 @@
     <Signal name="Net_7342" type="Digital" terminalCount="2">
       <Terminal name="CLK_LF.a_3" type="Instance Digital Output" />
       <Terminal name="arc_bridge_8.i" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_7345" type="Digital" terminalCount="4">
+      <Terminal name="ECO.a_14" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_21.i" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_11.i" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_5.i" type="Instance Digital Input" />
     </Signal>
   </Signals>
   <Properties>

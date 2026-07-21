@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="33">
+  <Instances count="32">
     <Instance guid="1690a4fc-39a8-4aa1-bdc9-640e26b1c7b7" name="PERICLK" component="clock_side_tall">
       <Parameter name="BodyTextOverride">
         <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].periclk[0]", "frequency"))}`]]></Value>
@@ -856,47 +856,6 @@
         <Value>USB PLL: This serves the special purpose of providing an accurate clock for USB 2.0 full speed operation. The basic functionality of the USB PLL is similar to the main PLL.</Value>
       </Parameter>
     </Instance>
-    <Instance guid="c7b4e1a4-d069-44c7-8d86-7d42f3e5855c" name="EBUCLK" component="clock_side">
-      <Parameter name="BodyTextOverride">
-        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ebuclk[0]", "frequency"))}`]]></Value>
-      </Parameter>
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>EBUCLK</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>scu[0].clock[0].ebuclk[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>EBUCLK</Value>
-      </Parameter>
-      <Parameter name="name">
-        <Value>EBU Clock</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>EBU clock: This is a dedicated clock for the EBU module. This clock is allowed to be asynchronous to the AHB clock and therefore it is possible to run the EBU at a higher rate than the AHB.</Value>
-      </Parameter>
-    </Instance>
     <Instance guid="d229427c-fbda-406f-9e7f-1457cfb2b7ac" name="CPUCLK" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].cpuclk[0]", "frequency"))}`]]></Value>
@@ -1169,7 +1128,7 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="250">
+  <Signals count="238">
     <Signal name="Net_270" type="" terminalCount="0" />
     <Signal name="Net_852" type="" terminalCount="0" />
     <Signal name="Net_856" type="" terminalCount="0" />
@@ -1670,7 +1629,6 @@
     <Signal name="Net_2449" type="" terminalCount="0" />
     <Signal name="Net_2450" type="" terminalCount="0" />
     <Signal name="Net_2451" type="" terminalCount="0" />
-    <Signal name="Net_2452" type="" terminalCount="0" />
     <Signal name="Net_2453" type="" terminalCount="0" />
     <Signal name="Net_2454" type="" terminalCount="0" />
     <Signal name="Net_2455" type="" terminalCount="0" />
@@ -1743,39 +1701,6 @@
     </Signal>
     <Signal name="Net_2502" type="Digital" terminalCount="1">
       <Terminal name="RTCCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2503" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2504" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2505" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2506" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2507" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2508" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2509" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2510" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2511" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2512" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2513" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_20" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_2514" type="Digital" terminalCount="1">
       <Terminal name="WDTCLK.a_13" type="Instance Digital Output" />

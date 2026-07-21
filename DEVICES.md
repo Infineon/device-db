@@ -73,6 +73,10 @@
       * [PSC3P2](#psc3p2)
       * [PSC3P5](#psc3p5)
     * [PSOC™ Edge](#psoc-edge)
+      * [PSE8x2](#pse8x2)
+      * [PSE8x3](#pse8x3)
+      * [PSE8x5](#pse8x5)
+      * [PSE8x6](#pse8x6)
       * [PSE8xxGO](#pse8xxgo)
       * [PSE8xxGP](#pse8xxgp)
     * [TRAVEO™](#traveo)
@@ -1486,6 +1490,66 @@
 * [PSC3P5FDS2ABQ1](https://www.infineon.com/part/PSC3P5FDS2ABQ1)
 
 ## PSOC™ Edge
+
+### PSE8x2
+* PSE832GOS4DFNC4
+* PSE832GOS2DFNC4
+* PSE832GMS4DFNC4
+* PSE832GMS2DFNC4
+* PSE822GOS4DFNC4
+* PSE822GOS2DFNC4
+* PSE822GMS4DFNC4
+* PSE822GMS2DFNC4
+* PSE812GOS4DFNC4
+* PSE812GOS2DFNC4
+* PSE812GMS4DFNC4
+* PSE812GMS2DFNC4
+
+### PSE8x3
+* [PSE833GOS4DBZC4](https://www.infineon.com/part/PSE833GOS4DBZC4)
+* [PSE833GMS4DBZC4](https://www.infineon.com/part/PSE833GMS4DBZC4)
+* [PSE833GMS2DBZC4](https://www.infineon.com/part/PSE833GMS2DBZC4)
+* [PSE833GOS4DBZQ3](https://www.infineon.com/part/PSE833GOS4DBZQ3)
+* [PSE833GOS2DBZQ3](https://www.infineon.com/part/PSE833GOS2DBZQ3)
+* [PSE833GMS4DBZQ3](https://www.infineon.com/part/PSE833GMS4DBZQ3)
+* [PSE833GMS2DBZQ3](https://www.infineon.com/part/PSE833GMS2DBZQ3)
+* [PSE823GOS4DBZC4](https://www.infineon.com/part/PSE823GOS4DBZC4)
+* [PSE823GOS2DBZC4](https://www.infineon.com/part/PSE823GOS2DBZC4)
+* [PSE823GMS4DBZC4](https://www.infineon.com/part/PSE823GMS4DBZC4)
+* [PSE823GMS2DBZC4](https://www.infineon.com/part/PSE823GMS2DBZC4)
+* [PSE823GOS4DBZQ3](https://www.infineon.com/part/PSE823GOS4DBZQ3)
+* [PSE823GOS2DBZQ3](https://www.infineon.com/part/PSE823GOS2DBZQ3)
+* [PSE823GMS4DBZQ3](https://www.infineon.com/part/PSE823GMS4DBZQ3)
+* [PSE823GMS2DBZQ3](https://www.infineon.com/part/PSE823GMS2DBZQ3)
+* [PSE813GOS2DBZC4](https://www.infineon.com/part/PSE813GOS2DBZC4)
+* [PSE813GMS4DBZC4](https://www.infineon.com/part/PSE813GMS4DBZC4)
+* [PSE813GMS2DBZC4](https://www.infineon.com/part/PSE813GMS2DBZC4)
+* [PSE813GOS4DBZQ3](https://www.infineon.com/part/PSE813GOS4DBZQ3)
+* [PSE813GOS2DBZQ3](https://www.infineon.com/part/PSE813GOS2DBZQ3)
+* [PSE813GMS4DBZQ3](https://www.infineon.com/part/PSE813GMS4DBZQ3)
+* [PSE813GMS2DBZQ3](https://www.infineon.com/part/PSE813GMS2DBZQ3)
+* [PSE833GOS2DBZC4](https://www.infineon.com/part/PSE833GOS2DBZC4)
+* [PSE813GOS4DBZC4](https://www.infineon.com/part/PSE813GOS4DBZC4)
+
+### PSE8x5
+* PSE845GPS4DFNC4
+* [PSE845GPS4DFMC4](https://www.infineon.com/part/PSE845GPS4DFMC4)
+* PSE845GOS4DFNC4
+* [PSE845GOS4DFMC4](https://www.infineon.com/part/PSE845GOS4DFMC4)
+* PSE845GOS2DFNC4
+* [PSE845GOS2DFMC4](https://www.infineon.com/part/PSE845GOS2DFMC4)
+* PSE845GPS2DFNC4
+* [PSE845GPS2DFMC4](https://www.infineon.com/part/PSE845GPS2DFMC4)
+
+### PSE8x6
+* [PSE846GPS4DBZC4](https://www.infineon.com/part/PSE846GPS4DBZC4)
+* [PSE846GOS4DBZC4](https://www.infineon.com/part/PSE846GOS4DBZC4)
+* [PSE846GOS2DBZC4](https://www.infineon.com/part/PSE846GOS2DBZC4)
+* [PSE846GPS4DBZQ3](https://www.infineon.com/part/PSE846GPS4DBZQ3)
+* [PSE846GOS4DBZQ3](https://www.infineon.com/part/PSE846GOS4DBZQ3)
+* [PSE846GOS2DBZQ3](https://www.infineon.com/part/PSE846GOS2DBZQ3)
+* [PSE846GPS2DBZC4](https://www.infineon.com/part/PSE846GPS2DBZC4)
+* [PSE846GPS2DBZQ3](https://www.infineon.com/part/PSE846GPS2DBZQ3)
 
 ### PSE8xxGO
 * [PSE833GOS2DBZC4A](https://www.infineon.com/part/PSE833GOS2DBZC4)

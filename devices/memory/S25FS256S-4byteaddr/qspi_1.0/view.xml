@@ -2,7 +2,7 @@
 <CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
   <PartNumber>S25FS256S-4byteaddr</PartNumber>
   <DisplayName>S25FS256S (4-byte Addressing Mode)</DisplayName>
-  <Description>32Mbytes 1.8V serial Flash memory</Description>
+  <Description>32MBytes 1.8V serial Flash memory</Description>
   <NumberOfAddress>0x04</NumberOfAddress>
   <SizeOfMemory>0x2000000</SizeOfMemory>
   <EraseBlockSize>0x0001000</EraseBlockSize>

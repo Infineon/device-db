@@ -1,21 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
-  <PclkPerPeriGroup value="256" />
-  <PadsPerPort value="8" />
+  <PclkPerPeriGroup value="256"/>
+  <PadsPerPort value="8"/>
   <PadFunctionTypes>
-    <PadFunctionType name="HSIOM" connectionsPerPin="32" port="hsiom" inputPort="hsiom_in" outputPort="hsiom_out" definePostfix="HSIOM" />
-    <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog" definePostfix="ANALOG" />
-    <PadFunctionType name="AUX" connectionsPerPin="1" port="aux" definePostfix="AUX" />
-    <PadFunctionType name="HV" connectionsPerPin="1" port="aux" definePostfix="HV" />
+    <PadFunctionType name="HSIOM" connectionsPerPin="32" port="hsiom" inputPort="hsiom_in" outputPort="hsiom_out" definePostfix="HSIOM"/>
+    <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog" definePostfix="ANALOG"/>
+    <PadFunctionType name="AUX" connectionsPerPin="1" port="aux" definePostfix="AUX"/>
+    <PadFunctionType name="HV" connectionsPerPin="1" port="aux" definePostfix="HV"/>
   </PadFunctionTypes>
   <PadTypes>
-    <PadType value="PWR" category="POWER" />
-    <PadType value="GND" category="POWER" />
-    <PadType value="DEDICATED" category="DEDICATED" />
-    <PadType value="UNKNOWN" category="DEDICATED" />
-    <PadType value="GPIO" category="GPIO" />
-    <PadType value="HSIO" category="GPIO" />
-    <PadType value="SIO" category="GPIO" />
-    <PadType value="AUX" category="GPIO" />
+    <PadType value="PWR" category="POWER"/>
+    <PadType value="GND" category="POWER"/>
+    <PadType value="DEDICATED" category="DEDICATED"/>
+    <PadType value="UNKNOWN" category="DEDICATED"/>
+    <PadType value="GPIO" category="GPIO"/>
+    <PadType value="HSIO" category="GPIO"/>
+    <PadType value="SIO" category="GPIO"/>
+    <PadType value="AUX" category="GPIO"/>
   </PadTypes>
 </View>

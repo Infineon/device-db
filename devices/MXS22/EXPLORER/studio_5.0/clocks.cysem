@@ -1208,7 +1208,7 @@
         <Value>0</Value>
       </Parameter>
       <Parameter name="ToolTip">
-        <Value>Watch Crystal Oscillator: This oscillator can drive an off-chip watch crystal that provides an extremely accurate clock source. Most commonly used with the Real Time Clock (RTC) to provide precison timing. This clock runs in hibernate power mode and when the backup domain is powered.</Value>
+        <Value>Watch Crystal Oscillator: This oscillator can drive an off-chip watch crystal that provides an extremely accurate clock source. Most commonly used with the Real Time Clock (RTC) to provide precision timing. This clock runs in hibernate power mode and when the backup domain is powered.</Value>
       </Parameter>
     </Instance>
     <Instance guid="871fa807-4cdd-4ef4-8b2e-7a757cbc183a" name="arc_bridge_79" component="arc_bridge">
@@ -1434,7 +1434,7 @@
         <Value />
       </Parameter>
       <Parameter name="HwBlock">
-        <Value>srss[0].clock[0].csv[0]</Value>
+        <Value>srss[0].clock[0].lfclk[0]</Value>
       </Parameter>
       <Parameter name="Index">
         <Value>0</Value>
@@ -3669,8 +3669,6 @@
       <Terminal name="CLK_LF_1.b_20" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_13086[4:0]" type="Digital" terminalCount="14">
-      <Terminal name="CLK_HF0_1.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF1_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF3_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF4_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF5_1.b_17" type="Instance Digital Input" />
@@ -3683,6 +3681,8 @@
       <Terminal name="CLK_HF11_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF9_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF2_1.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF1_1.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF0_1.b_17" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_13087" type="Digital" terminalCount="1">
       <Terminal name="IHO_1.a_13" type="Instance Digital Output" />

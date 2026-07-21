@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
-  <PadsPerPort value="56" />
+  <PadsPerPort value="56"/>
   <PadFunctionTypes>
-    <PadFunctionType name="AUX" connectionsPerPin="16" port="aux" />
+    <PadFunctionType name="AUX" connectionsPerPin="16" port="aux"/>
   </PadFunctionTypes>
   <PadTypes>
-    <PadType value="PWR" category="POWER" />
-    <PadType value="GND" category="POWER" />
-    <PadType value="DEDICATED" category="DEDICATED" />
-    <PadType value="UNKNOWN" category="DEDICATED" />
-    <PadType value="GPIO" category="GPIO" />
-    <PadType value="BT_GPIO" category="GPIO" />
-    <PadType value="A_GPIO" category="GPIO" />
-    <PadType value="LHL_GPIO" category="GPIO" />
+    <PadType value="PWR" category="POWER"/>
+    <PadType value="GND" category="POWER"/>
+    <PadType value="DEDICATED" category="DEDICATED"/>
+    <PadType value="UNKNOWN" category="DEDICATED"/>
+    <PadType value="GPIO" category="GPIO"/>
+    <PadType value="BT_GPIO" category="GPIO"/>
+    <PadType value="A_GPIO" category="GPIO"/>
+    <PadType value="LHL_GPIO" category="GPIO"/>
   </PadTypes>
 </View>

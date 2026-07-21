@@ -685,7 +685,7 @@
         <Value>2</Value>
       </Parameter>
       <Parameter name="ToolTip">
-        <Value>Watch Crystal Oscillator: This oscillator can drive an off-chip watch crystal that provides an extremely accurate clock source. Most commonly used with the Real Time Clock (RTC) to provide precison timing. This clock runs in hibernate power mode and when the backup domain is powered.</Value>
+        <Value>Watch Crystal Oscillator: This oscillator can drive an off-chip watch crystal that provides an extremely accurate clock source. Most commonly used with the Real Time Clock (RTC) to provide precision timing. This clock runs in hibernate power mode and when the backup domain is powered.</Value>
       </Parameter>
     </Instance>
     <Instance guid="61075cf8-4336-45ca-b29d-715a750c40b2" name="CLK_LF_2" component="clock_side">

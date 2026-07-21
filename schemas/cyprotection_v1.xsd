@@ -21,9 +21,9 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:simpleType name="semicolon_separated_list_of_intergers_type">
+  <xs:simpleType name="semicolon_separated_list_of_integers_type">
     <xs:restriction base="xs:string">
-      <xs:pattern value="^\d+(;\d+)*$" />
+      <xs:pattern value="\d+(;\d+)*" />
     </xs:restriction>
   </xs:simpleType>
 
@@ -38,7 +38,7 @@
 
   <xs:simpleType name="core_type">
     <xs:restriction base="xs:string">
-      <xs:pattern value="^CORE_NAME_.*_\d+$" />
+      <xs:pattern value="CORE_NAME_.*_\d+" />
     </xs:restriction>
   </xs:simpleType>
 
@@ -50,7 +50,7 @@
             <xs:attribute name="key" type="xs:nonNegativeInteger" use="required"/>
             <xs:attribute name="name" type="xs:string" use="optional"/>
             <!--The default bus_master_ids is that there is none.-->
-            <xs:attribute name="bus_master_ids" type="semicolon_separated_list_of_intergers_type" use="optional" />
+            <xs:attribute name="bus_master_ids" type="semicolon_separated_list_of_integers_type" use="optional" />
             <xs:attribute name="boot" type="xs:boolean" use="optional" default="false" />
             <xs:attribute name="locked" type="xs:boolean" use="optional" default="false" />
           </xs:complexType>
@@ -59,7 +59,7 @@
           <xs:complexType>
             <xs:attribute name="key" type="xs:nonNegativeInteger" use="required"/>
             <xs:attribute name="type" type="bus_master_type" use="required" />
-            <!--The default core is that there is no core associatation.-->
+            <!--The default core is that there is no core association.-->
             <xs:attribute name="core" type="core_type" use="optional" />
           </xs:complexType>
         </xs:element>

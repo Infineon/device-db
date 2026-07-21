@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="40">
+  <Instances count="34">
     <Instance guid="1690a4fc-39a8-4aa1-bdc9-640e26b1c7b7" name="PERICLK" component="clock_side_tall">
       <Parameter name="BodyTextOverride">
         <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].periclk[0]", "frequency"))}`]]></Value>
@@ -208,50 +208,6 @@
         <Value />
       </Parameter>
     </Instance>
-    <Instance guid="32b6a34e-bb8b-4d0e-b9b6-0c59e524bf40" name="ETHCLK" component="clock_side_tall">
-      <Parameter name="BodyTextOverride">
-        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ethclk[0]", "frequency"))}`]]></Value>
-      </Parameter>
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>ETHCLK</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>scu[0].clock[0].ethclk[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>ETHCLK</Value>
-      </Parameter>
-      <Parameter name="name1">
-        <Value>Ethernet</Value>
-      </Parameter>
-      <Parameter name="name2">
-        <Value>Clock</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>Ethernet clock: The Ethernet module receives the SRAM clock fSYS, which must be twice the frequency of the ETH MAC internal clock fETH.</Value>
-      </Parameter>
-    </Instance>
     <Instance guid="37f4a04b-b637-4817-818a-39e54b27eca5" name="OSCFI" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].osc_fi[0]", "frequency"))}`]]></Value>
@@ -291,6 +247,23 @@
       </Parameter>
       <Parameter name="ToolTip">
         <Value>Fast oscillator: This backup clock is supplied to the system during system startup. The fOFI clock may be used during normal or low-power operation after startup. It is used for bypassing the PLL for startup of the system without an external clock.</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="41abb4d7-d74e-469f-a212-c0e45a685ef0" name="arc_bridge_4" component="arc_bridge">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>arc_bridge_4</Value>
       </Parameter>
     </Instance>
     <Instance guid="47021f88-ec27-4f0e-be8c-251605277fe7" name="arc_bridge_9" component="arc_bridge">
@@ -383,35 +356,6 @@
       </Parameter>
       <Parameter name="ToolTip">
         <Value>USB clock divider: The USB PLL clock is divided by the USBDIV+1 value to get the fUSB clock.</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="51ad44f8-2b02-4d88-95da-0a5444328a0b" name="mux_8" component="mux_5">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value />
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>scu[0].clock[0].ecatclk[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>mux_8</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value />
       </Parameter>
     </Instance>
     <Instance guid="59df1969-f27b-4995-8f86-05512149e2a9" name="WDTCLK" component="clock_side">
@@ -557,50 +501,6 @@
         <Value>arc_bridge_8</Value>
       </Parameter>
     </Instance>
-    <Instance guid="7dc8f495-0c80-4374-bb92-38417ce89a13" name="SDCLK" component="clock_side_tall">
-      <Parameter name="BodyTextOverride">
-        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].sdclk[0]", "frequency"))}`]]></Value>
-      </Parameter>
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>SDCLK</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>scu[0].clock[0].sdclk[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>SDCLK</Value>
-      </Parameter>
-      <Parameter name="name1">
-        <Value>SD/MMC</Value>
-      </Parameter>
-      <Parameter name="name2">
-        <Value>Clock</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>SD/MMC clock: The clock for the SD/MMC module is derived from the clock fUSBPLL or from the clock fPLL of the main PLL.</Value>
-      </Parameter>
-    </Instance>
     <Instance guid="87426f8f-d5d0-4f68-be80-bf890a05810b" name="OSCULP" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].osc_ulp[0]", "frequency"))}`]]></Value>
@@ -674,67 +574,6 @@
       </Parameter>
       <Parameter name="INSTANCE_NAME">
         <Value>cy_all_shapetag_disconnect_1</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="91b98247-7e0a-4076-8ac7-6eeb183b8e55" name="ECATCLK" component="clock_side_tall">
-      <Parameter name="BodyTextOverride">
-        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ecatclk[0]", "frequency"))}`]]></Value>
-      </Parameter>
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>ECATCLK</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>scu[0].clock[0].ecatclk[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>ECATCLK</Value>
-      </Parameter>
-      <Parameter name="name1">
-        <Value>EtherCAT</Value>
-      </Parameter>
-      <Parameter name="name2">
-        <Value>Clock</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>EtherCAT clock: This clock fECAT is derived from the clock fUSBPLL or from the clock fPLL of the main PLL.</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="a0f24dc7-5056-4241-9871-bd53258415e9" name="arc_bridge_4" component="arc_bridge">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>arc_bridge_4</Value>
       </Parameter>
     </Instance>
     <Instance guid="a2e7ea58-a420-4249-a3e2-676cfabe416f" name="SYSPLL" component="clock_side">
@@ -922,47 +761,6 @@
       </Parameter>
       <Parameter name="ToolTip">
         <Value>USB PLL: This serves the special purpose of providing an accurate clock for USB 2.0 full speed operation. The basic functionality of the USB PLL is similar to the main PLL.</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="c7b4e1a4-d069-44c7-8d86-7d42f3e5855c" name="EBUCLK" component="clock_side">
-      <Parameter name="BodyTextOverride">
-        <Value><![CDATA[`${formatFrequency(getExposedMember("scu[0].clock[0].ebuclk[0]", "frequency"))}`]]></Value>
-      </Parameter>
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>EBUCLK</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>scu[0].clock[0].ebuclk[0]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>EBUCLK</Value>
-      </Parameter>
-      <Parameter name="name">
-        <Value>EBU Clock</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>EBU clock: This is a dedicated clock for the EBU module. This clock is allowed to be asynchronous to the AHB clock and therefore it is possible to run the EBU at a higher rate than the AHB.</Value>
       </Parameter>
     </Instance>
     <Instance guid="d229427c-fbda-406f-9e7f-1457cfb2b7ac" name="CPUCLK" component="clock_side">
@@ -1270,25 +1068,8 @@
         <Value />
       </Parameter>
     </Instance>
-    <Instance guid="ffb2fbd8-20e7-484e-ade9-43b483d477ca" name="arc_bridge_7" component="arc_bridge">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>arc_bridge_7</Value>
-      </Parameter>
-    </Instance>
   </Instances>
-  <Signals count="257">
+  <Signals count="206">
     <Signal name="Net_270" type="" terminalCount="0" />
     <Signal name="Net_544" type="Digital" terminalCount="1">
       <Terminal name="OSCHP.a_13" type="Instance Digital Output" />
@@ -1394,73 +1175,6 @@
     <Signal name="Net_857" type="" terminalCount="0" />
     <Signal name="Net_914" type="" terminalCount="0" />
     <Signal name="Net_949" type="" terminalCount="0" />
-    <Signal name="Net_986" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_987" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_988" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_989" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_990" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_991" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_992" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_993" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_994" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_995" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_996" type="Digital" terminalCount="1">
-      <Terminal name="CPUCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_998" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_999" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1000" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1001" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1002" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1003" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1004" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1005" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1006" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1007" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1008" type="Digital" terminalCount="1">
-      <Terminal name="CCUCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1009" type="" terminalCount="0" />
     <Signal name="Net_1022" type="Digital" terminalCount="1">
       <Terminal name="CCUCLK_2.a_13" type="Instance Digital Output" />
     </Signal>
@@ -1494,82 +1208,10 @@
     <Signal name="Net_1032" type="Digital" terminalCount="1">
       <Terminal name="CCUCLK_2.b_20" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_1113" type="Digital" terminalCount="4">
-      <Terminal name="arc_bridge_6.i" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_7.i" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_9.i" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_10.i" type="Instance Digital Input" />
-    </Signal>
     <Signal name="Net_1146" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_5.o" type="Instance Digital Output" />
     </Signal>
     <Signal name="Net_1169" type="" terminalCount="0" />
-    <Signal name="Net_1170" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1171" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1172" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1173" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1174" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1175" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1176" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1177" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1178" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1179" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1180" type="Digital" terminalCount="1">
-      <Terminal name="EBUCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1198" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1199" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1200" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1201" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1202" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1203" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1204" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1205" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1206" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1207" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1208" type="Digital" terminalCount="1">
-      <Terminal name="WDTCLK.b_20" type="Instance Digital Input" />
-    </Signal>
     <Signal name="Net_1571" type="Digital" terminalCount="1">
       <Terminal name="SYSPLL.a_13" type="Instance Digital Output" />
     </Signal>
@@ -1604,107 +1246,9 @@
       <Terminal name="SYSPLL.b_20" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_1590" type="" terminalCount="0" />
-    <Signal name="Net_1695" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1696" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1697" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1698" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1699" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1700" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1701" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1702" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1703" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1704" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1705" type="Digital" terminalCount="1">
-      <Terminal name="OSCULP.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1706" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1707" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1708" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1709" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1710" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1711" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1712" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1713" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1714" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1715" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1716" type="Digital" terminalCount="1">
-      <Terminal name="RTCCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1717" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1718" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1719" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1720" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1721" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1722" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1723" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1724" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1725" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1726" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1727" type="Digital" terminalCount="1">
-      <Terminal name="OSCSI.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1729" type="Digital" terminalCount="1">
+    <Signal name="Net_1729" type="Digital" terminalCount="2">
       <Terminal name="arc_bridge_8.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_9.o" type="Instance Digital Output" />
     </Signal>
     <Signal name="Net_1730" type="" terminalCount="0" />
     <Signal name="Net_1840" type="Digital" terminalCount="1">
@@ -1740,84 +1284,9 @@
     <Signal name="Net_1850" type="Digital" terminalCount="1">
       <Terminal name="USBDIV.b_20" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_1851" type="Digital" terminalCount="1">
-      <Terminal name="arc_bridge_4.o" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1852" type="Digital" terminalCount="1">
-      <Terminal name="arc_bridge_3.i" type="Instance Digital Input" />
-    </Signal>
     <Signal name="Net_1856" type="" terminalCount="0" />
     <Signal name="Net_1929" type="" terminalCount="0" />
-    <Signal name="Net_1952" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1953" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1954" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1955" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1956" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_1957" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1958" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1959" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1960" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1961" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1962" type="Digital" terminalCount="1">
-      <Terminal name="SYSCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_1964" type="Digital" terminalCount="1">
-      <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
-    </Signal>
     <Signal name="Net_1967" type="" terminalCount="0" />
-    <Signal name="Net_2128" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2129" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2130" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2131" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2132" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2133" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2134" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2135" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2136" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2137" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2138" type="Digital" terminalCount="1">
-      <Terminal name="PERICLK.a_3" type="Instance Digital Output" />
-    </Signal>
     <Signal name="Net_2150" type="Digital" terminalCount="1">
       <Terminal name="EXTCLK.a_13" type="Instance Digital Output" />
     </Signal>
@@ -1851,109 +1320,6 @@
     <Signal name="Net_2160" type="Digital" terminalCount="1">
       <Terminal name="EXTCLK.b_20" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_2161" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2162" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2163" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2164" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2165" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2166" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2167" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2168" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2169" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2170" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2171" type="Digital" terminalCount="1">
-      <Terminal name="SDCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2172" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2173" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2174" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2175" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2176" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2177" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2178" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2179" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2180" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2181" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2182" type="Digital" terminalCount="1">
-      <Terminal name="ECATCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2183" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2184" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2185" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2186" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2187" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_2188" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2189" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2190" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2191" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2192" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2193" type="Digital" terminalCount="1">
-      <Terminal name="ETHCLK.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_2195" type="" terminalCount="0" />
-    <Signal name="Net_2196" type="" terminalCount="0" />
-    <Signal name="Net_2197" type="" terminalCount="0" />
-    <Signal name="Net_2198" type="" terminalCount="0" />
     <Signal name="Net_2199" type="" terminalCount="0" />
     <Signal name="Net_2201" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
@@ -1971,59 +1337,330 @@
     <Signal name="Net_2209" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_6.o" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_2210" type="Digital" terminalCount="1">
-      <Terminal name="arc_bridge_7.o" type="Instance Digital Output" />
+    <Signal name="Net_3744" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_2211" type="Digital" terminalCount="2">
-      <Terminal name="arc_bridge_8.i" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_1.o" type="Instance Digital Output" />
+    <Signal name="Net_3745" type="Digital" terminalCount="3">
+      <Terminal name="arc_bridge_10.i" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_4.i" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_6.i" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_2212" type="Digital" terminalCount="1">
-      <Terminal name="arc_bridge_9.o" type="Instance Digital Output" />
+    <Signal name="Net_4241" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_11.i" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_2213[1:0]" type="" terminalCount="3">
+    <Signal name="Net_4737" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4738" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4739" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4740" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4741" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4742" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4743" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4744" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4745" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4746" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4747" type="Digital" terminalCount="1">
+      <Terminal name="PERICLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4748" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4749" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4750" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4751" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4752" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4753" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4754" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4755" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4756" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4757" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4758" type="Digital" terminalCount="1">
+      <Terminal name="RTCCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4759" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4760" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4761" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4762" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4763" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4764" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4765" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4766" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4767" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4768" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4769" type="Digital" terminalCount="1">
+      <Terminal name="WDTCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4770" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4771" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4772" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4773" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4774" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4775" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4776" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4777" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4778" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4779" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4780" type="Digital" terminalCount="1">
+      <Terminal name="CPUCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4781" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4782" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4783" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4784" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4785" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4786" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4787" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4788" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4789" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4790" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4791" type="Digital" terminalCount="1">
+      <Terminal name="CCUCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4792" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4793" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4794" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4795" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4796" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4797" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4798" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4799" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4800" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4801" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4802" type="Digital" terminalCount="1">
+      <Terminal name="SYSCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4803" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4804" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4805" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4806" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4807" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4808" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4809" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4810" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4811" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4812" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4813" type="Digital" terminalCount="1">
+      <Terminal name="STDBYCLK.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4814" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4815" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4816" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4817" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4818" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4819" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4820" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4821" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4822" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4823" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4824" type="Digital" terminalCount="1">
+      <Terminal name="OSCULP.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4825" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.a_13" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4826" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.a_14" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4827" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.a_15" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4828" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.a_2" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4829" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.a_3" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_4830" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.b_15" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4831" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.b_16" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4832" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.b_17" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4833" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.b_18" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4834" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.b_19" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4835" type="Digital" terminalCount="1">
+      <Terminal name="OSCSI.b_20" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4837" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_3.i" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_4838" type="" terminalCount="0" />
+    <Signal name="Net_4839[1:0]" type="" terminalCount="3">
       <Terminal name="cy_all_shapetag_disconnect_1.a" type="Instance Analog InOut" />
       <Terminal name="arc_bridge_10.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_11.o" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_2214" type="Digital" terminalCount="1">
-      <Terminal name="arc_bridge_11.i" type="Instance Digital Input" />
+    <Signal name="Net_4840" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_4.o" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_2230" type="Digital" terminalCount="1">
-      <Terminal name="arc_bridge_4.i" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_3725" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_3726" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.a_14" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_3727" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_3728" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_3729" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_3730" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_3731" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_3732" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.b_17" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_3733" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_3734" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_3735" type="Digital" terminalCount="1">
-      <Terminal name="STDBYCLK.b_20" type="Instance Digital Input" />
+    <Signal name="Net_4841" type="Digital" terminalCount="3">
+      <Terminal name="arc_bridge_8.i" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_9.i" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_1.o" type="Instance Digital Output" />
     </Signal>
   </Signals>
   <Properties>

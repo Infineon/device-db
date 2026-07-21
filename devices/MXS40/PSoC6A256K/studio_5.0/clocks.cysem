@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="38">
+  <Instances count="37">
     <Instance guid="0127f6d8-2a80-4e81-a168-694a40eb679e" name="CLK_TIMER_1" component="clock_side">
       <Parameter name="BodyTextOverride">
         <Value />
@@ -1248,49 +1248,8 @@
         <Value>Path mux selection: A clock source for high frequency clocks.</Value>
       </Parameter>
     </Instance>
-    <Instance guid="fb5d6d5c-3b11-4b9c-bab5-094c2b0e658a" name="CLK_HF4_1" component="clock_side">
-      <Parameter name="BodyTextOverride">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>HfClk</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>srss[0].clock[0].hfclk[4]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>4</Value>
-      </Parameter>
-      <Parameter name="inputs">
-        <Value>1</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>CLK_HF4_1</Value>
-      </Parameter>
-      <Parameter name="name">
-        <Value>CLK_HF4</Value>
-      </Parameter>
-      <Parameter name="outputs">
-        <Value>1</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>High Frequency Clock 4: A high-frequency clock output driving specific peripherals.</Value>
-      </Parameter>
-    </Instance>
   </Instances>
-  <Signals count="235">
+  <Signals count="225">
     <Signal name="Net_237" type="Digital" terminalCount="1">
       <Terminal name="PLL.a_14" type="Instance Digital Output" />
     </Signal>
@@ -1311,9 +1270,6 @@
     <Signal name="Net_2043" type="Digital" terminalCount="1">
       <Terminal name="CLK_HF3_1.a_14" type="Instance Digital Output" />
     </Signal>
-    <Signal name="Net_2053" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.a_14" type="Instance Digital Output" />
-    </Signal>
     <Signal name="Net_2102" type="Digital" terminalCount="1">
       <Terminal name="FLL_1.a_14" type="Instance Digital Output" />
     </Signal>
@@ -1322,9 +1278,9 @@
       <Terminal name="CLK_ALT_SYS_TICK.b_18" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_2743[3:0]" type="Digital" terminalCount="6">
-      <Terminal name="EXTCLK_1.a_14" type="Instance Digital Output" />
       <Terminal name="IMO_1.a_14" type="Instance Digital Output" />
       <Terminal name="ECO_1.a_14" type="Instance Digital Output" />
+      <Terminal name="EXTCLK_1.a_14" type="Instance Digital Output" />
       <Terminal name="FLL_2.b_17" type="Instance Digital Input" />
       <Terminal name="arc_bridge_6.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_5.i" type="Instance Digital Input" />
@@ -1370,16 +1326,15 @@
     <Signal name="Net_4397" type="Digital" terminalCount="1">
       <Terminal name="PLL.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_4398[4:0]" type="Digital" terminalCount="10">
+    <Signal name="Net_4398[4:0]" type="Digital" terminalCount="9">
       <Terminal name="CLK_HF0_1.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF3_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF2_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF1_1.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF3_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_PUMP_1.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF4_1.b_17" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_7.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_8.o" type="Instance Digital Output" />
     </Signal>
     <Signal name="Net_4405" type="Digital" terminalCount="1">
@@ -1723,33 +1678,6 @@
     </Signal>
     <Signal name="Net_5390" type="Digital" terminalCount="1">
       <Terminal name="CLK_HF3_1.a_3" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_5391" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.b_15" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5392" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.b_16" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5393" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.b_18" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5394" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.b_19" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5395" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.b_20" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_5396" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.a_13" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_5397" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.a_15" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_5398" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.a_2" type="Instance Digital Output" />
-    </Signal>
-    <Signal name="Net_5399" type="Digital" terminalCount="1">
-      <Terminal name="CLK_HF4_1.a_3" type="Instance Digital Output" />
     </Signal>
     <Signal name="Net_5409" type="Digital" terminalCount="1">
       <Terminal name="CLK_TIMER_1.b_15" type="Instance Digital Input" />

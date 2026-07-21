@@ -3,7 +3,7 @@
   <Page index="0" name="Architecture" enabled="true" shapeCount="340">
     <Instance shapeName="Shape_857" zorder="140" guid="90347e92-4e45-4ca8-be8c-8a5321ed59bc" name="PLL1_0" component="clock_side">
       <Location x="171" y="180" />
-      <Size width="78" height="30.00002" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="PLL1_0.b_17" type="Instance Digital Input">
           <Location x="174" y="198" />
@@ -25,7 +25,7 @@
         </Rectangle>
         <Annotation>
           <Location x="174" y="180" />
-          <Size width="71.99998" height="12" />
+          <Size width="72" height="12" />
           <Text>DPLL_LP1</Text>
           <Vertical value="false" />
           <Expression>`=$name`</Expression>
@@ -81,7 +81,7 @@ Peri 1 Clock Group 4</Text>
     </Wire>
     <Instance shapeName="Shape_5361" zorder="138" guid="0c136db8-f482-4d20-82d3-3b85f5402046" name="PLL2_1" component="clock_side">
       <Location x="171" y="240" />
-      <Size width="78" height="30.00002" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="PLL2_1.b_17" type="Instance Digital Input">
           <Location x="174" y="258" />
@@ -103,7 +103,7 @@ Peri 1 Clock Group 4</Text>
         </Rectangle>
         <Annotation>
           <Location x="174" y="240" />
-          <Size width="71.99998" height="12" />
+          <Size width="72" height="12" />
           <Text>DPLL_HP</Text>
           <Vertical value="false" />
           <Expression>`=$name`</Expression>
@@ -598,7 +598,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6470" zorder="129" guid="eaec6788-08ff-4828-94b3-25f7e40d20e9" name="PATH_MUX2_1" component="mux_2">
       <Location x="126" y="228" />
-      <Size width="24" height="59.99997" />
+      <Size width="24" height="59.99998" />
       <SubShapes>
         <ClosedShape>
           <Point x="126" y="228" />
@@ -639,7 +639,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6478" zorder="130" guid="5062aebb-5e27-47b6-9fbf-a7146b11ea1f" name="PATH_MUX3_1" component="mux_2">
       <Location x="126" y="288" />
-      <Size width="24" height="59.99997" />
+      <Size width="24" height="60" />
       <SubShapes>
         <ClosedShape>
           <Point x="126" y="288" />
@@ -680,7 +680,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6479" zorder="131" guid="d59ae595-0d49-4c2f-aea4-b69a9c8f45fc" name="PATH_MUX4_1" component="mux_2">
       <Location x="126" y="348" />
-      <Size width="24" height="59.99997" />
+      <Size width="24" height="60" />
       <SubShapes>
         <ClosedShape>
           <Point x="126" y="348" />
@@ -721,7 +721,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6480" zorder="132" guid="681d754c-712f-47d4-b774-6dcca7e9cff5" name="PATH_MUX5_1" component="mux_2">
       <Location x="126" y="408" />
-      <Size width="24" height="59.99997" />
+      <Size width="24" height="60" />
       <SubShapes>
         <ClosedShape>
           <Point x="126" y="408" />
@@ -761,8 +761,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6481" zorder="133" guid="dc71594a-2301-4408-9f0e-aca6a16828f2" name="ECO_PRESCALER_1" component="clock_side_tall">
-      <Location x="138" y="749.9999" />
-      <Size width="72.00002" height="42.00006" />
+      <Location x="138" y="750" />
+      <Size width="72" height="42" />
       <SubShapes>
         <Rectangle>
           <Location x="138" y="750" />
@@ -775,8 +775,8 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="138" y="749.9999" />
-          <Size width="71.99998" height="12" />
+          <Location x="138" y="750" />
+          <Size width="72" height="12" />
           <Text>ECO</Text>
           <Vertical value="false" />
           <Expression>`=$name1`</Expression>
@@ -806,8 +806,8 @@ Peri 1 Clock Group 4</Text>
           </Outline>
         </Line>
         <Annotation>
-          <Location x="138" y="761.9999" />
-          <Size width="71.99998" height="12" />
+          <Location x="138" y="762" />
+          <Size width="72" height="12" />
           <Text>Prescaler</Text>
           <Vertical value="false" />
           <Expression>`=$name2`</Expression>
@@ -821,7 +821,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6482" zorder="139" guid="11e15c94-30ba-4d81-afd3-8aa6437d367e" name="FLL_BYPASS_15" component="mux_3">
       <Location x="258" y="252" />
-      <Size width="11.99997" height="36" />
+      <Size width="12" height="36" />
       <ShapeTags>wl:srss[0].clock[0].pathmux[2]</ShapeTags>
       <SubShapes>
         <ClosedShape>
@@ -839,7 +839,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6483" zorder="141" guid="9e61eb2c-fda2-4db7-90c8-5172edaa33ef" name="FLL_BYPASS_16" component="mux_3">
       <Location x="258" y="192" />
-      <Size width="11.99997" height="36" />
+      <Size width="12" height="36" />
       <ShapeTags>wl:srss[0].clock[0].pathmux[1]</ShapeTags>
       <SubShapes>
         <ClosedShape>
@@ -857,7 +857,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6484" zorder="142" guid="9923b045-090c-45de-a94f-d8c73dd38c1a" name="PLL0_1" component="clock_side">
       <Location x="171" y="120" />
-      <Size width="78" height="30.00001" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="PLL0_1.b_17" type="Instance Digital Input">
           <Location x="174" y="138" />
@@ -879,7 +879,7 @@ Peri 1 Clock Group 4</Text>
         </Rectangle>
         <Annotation>
           <Location x="174" y="120" />
-          <Size width="71.99998" height="12" />
+          <Size width="72" height="12" />
           <Text>DPLL_LP0</Text>
           <Vertical value="false" />
           <Expression>`=$name`</Expression>
@@ -912,7 +912,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6485" zorder="143" guid="94845084-f687-4b0e-9a0e-52322d768dad" name="FLL_BYPASS_17" component="mux_3">
       <Location x="258" y="132" />
-      <Size width="11.99997" height="36" />
+      <Size width="12" height="36" />
       <ShapeTags>wl:srss[0].clock[0].pathmux[0]</ShapeTags>
       <SubShapes>
         <ClosedShape>
@@ -984,8 +984,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6487" zorder="369" guid="ddbe2e0f-2a53-4fe7-b6a7-4809fc981e9e" name="CLK_HF1_1" component="clock_side">
-      <Location x="423" y="83.99999" />
-      <Size width="78" height="30.00001" />
+      <Location x="423" y="84" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF1_1.b_17" type="Instance Digital Input">
           <Location x="426" y="102" />
@@ -1006,7 +1006,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="426" y="83.99999" />
+          <Location x="426" y="84" />
           <Size width="72" height="12" />
           <Text>CLK_HF1</Text>
           <Vertical value="false" />
@@ -1018,7 +1018,7 @@ Peri 1 Clock Group 4</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="427.4692" y="97.60115" />
+          <Location x="427.4692" y="97.60116" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].hfclk[1]", "frequency"), getExposedMember("srss[0].clock[0].hfclk[1]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
@@ -1040,7 +1040,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6488" zorder="437" guid="7c8b2c8c-ede5-4394-9f05-6a6ae72dfc39" name="CLK_HF2_1" component="clock_side">
       <Location x="423" y="132" />
-      <Size width="78" height="30.00002" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF2_1.b_17" type="Instance Digital Input">
           <Location x="426" y="150" />
@@ -1095,7 +1095,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6494" zorder="438" guid="7d1c9abe-fc43-49c4-a1f0-e67600e2e7a7" name="CLK_HF3_1" component="clock_side">
       <Location x="423" y="168" />
-      <Size width="78" height="30.00002" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF3_1.b_17" type="Instance Digital Input">
           <Location x="426" y="186" />
@@ -1150,7 +1150,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6497" zorder="439" guid="ee988077-83c2-4009-a477-f0c91cbe9733" name="CLK_HF4_1" component="clock_side">
       <Location x="423" y="204" />
-      <Size width="78" height="30.00002" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF4_1.b_17" type="Instance Digital Input">
           <Location x="426" y="222" />
@@ -1205,7 +1205,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6498" zorder="440" guid="1de59d23-a122-4bb6-a6ff-0dbe79be64d6" name="CLK_HF5_1" component="clock_side">
       <Location x="423" y="240" />
-      <Size width="78" height="30.00002" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF5_1.b_17" type="Instance Digital Input">
           <Location x="426" y="258" />
@@ -1260,7 +1260,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6499" zorder="441" guid="d73c89bf-96ba-40c0-a385-f4d6d2f4d826" name="CLK_HF6_1" component="clock_side">
       <Location x="423" y="276" />
-      <Size width="78" height="30.00003" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF6_1.b_17" type="Instance Digital Input">
           <Location x="426" y="294" />
@@ -1293,7 +1293,7 @@ Peri 1 Clock Group 4</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="427.4692" y="289.6011" />
+          <Location x="427.4692" y="289.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].hfclk[6]", "frequency"), getExposedMember("srss[0].clock[0].hfclk[6]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
@@ -1315,7 +1315,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6500" zorder="442" guid="b4e84629-5793-4003-bc1d-e0eebd42853f" name="CLK_HF7_1" component="clock_side">
       <Location x="423" y="312" />
-      <Size width="78" height="30.00003" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF7_1.b_17" type="Instance Digital Input">
           <Location x="426" y="330" />
@@ -1348,7 +1348,7 @@ Peri 1 Clock Group 4</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="427.4692" y="325.6011" />
+          <Location x="427.4692" y="325.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].hfclk[7]", "frequency"), getExposedMember("srss[0].clock[0].hfclk[7]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
@@ -1370,7 +1370,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6501" zorder="443" guid="b72736c2-9efb-4cf2-90d7-9f4b334be160" name="CLK_HF8_1" component="clock_side">
       <Location x="423" y="348" />
-      <Size width="78" height="30.00003" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF8_1.b_17" type="Instance Digital Input">
           <Location x="426" y="366" />
@@ -1403,7 +1403,7 @@ Peri 1 Clock Group 4</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="427.4692" y="361.6011" />
+          <Location x="427.4692" y="361.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].hfclk[8]", "frequency"), getExposedMember("srss[0].clock[0].hfclk[8]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
@@ -1425,7 +1425,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6502" zorder="462" guid="2adfdaff-0178-4eb9-97f6-125e237fc41e" name="CLK_HF9_1" component="clock_side">
       <Location x="423" y="384" />
-      <Size width="78" height="30.00003" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF9_1.b_17" type="Instance Digital Input">
           <Location x="426" y="402" />
@@ -1458,7 +1458,7 @@ Peri 1 Clock Group 4</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="427.4692" y="397.6011" />
+          <Location x="427.4692" y="397.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].hfclk[9]", "frequency"), getExposedMember("srss[0].clock[0].hfclk[9]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
@@ -1480,7 +1480,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6503" zorder="479" guid="4dc57d00-02a5-42a5-b85c-04bae7abf56b" name="CLK_HF10_1" component="clock_side">
       <Location x="423" y="438" />
-      <Size width="78" height="30.00003" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF10_1.b_17" type="Instance Digital Input">
           <Location x="426" y="456" />
@@ -1513,7 +1513,7 @@ Peri 1 Clock Group 4</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="427.4692" y="451.6011" />
+          <Location x="427.4692" y="451.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].hfclk[10]", "frequency"), getExposedMember("srss[0].clock[0].hfclk[10]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
@@ -1535,7 +1535,7 @@ Peri 1 Clock Group 4</Text>
     </Instance>
     <Instance shapeName="Shape_6504" zorder="513" guid="d748f00f-6bbf-4ed5-8c31-5773f10c028d" name="CLK_HF11_1" component="clock_side">
       <Location x="423" y="486" />
-      <Size width="78" height="30.00003" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF11_1.b_17" type="Instance Digital Input">
           <Location x="426" y="504" />
@@ -1568,7 +1568,7 @@ Peri 1 Clock Group 4</Text>
           <TextAlignment value="MiddleCenter" />
         </Annotation>
         <Annotation>
-          <Location x="427.4692" y="499.6011" />
+          <Location x="427.4692" y="499.6012" />
           <Size width="69.28152" height="15.39591" />
           <Text><![CDATA[`${formatFrequency(getExposedMember("srss[0].clock[0].hfclk[11]", "frequency"), getExposedMember("srss[0].clock[0].hfclk[11]", "accuracy"))}`]]></Text>
           <Vertical value="false" />
@@ -1589,8 +1589,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6505" zorder="514" guid="bf676fef-7927-415b-857e-2518051b77bb" name="CLK_HF12_1" component="clock_side">
-      <Location x="423" y="521.9999" />
-      <Size width="78" height="30.00006" />
+      <Location x="423" y="522" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF12_1.b_17" type="Instance Digital Input">
           <Location x="426" y="540" />
@@ -1611,7 +1611,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="426" y="521.9999" />
+          <Location x="426" y="522" />
           <Size width="72" height="12" />
           <Text>CLK_HF12</Text>
           <Vertical value="false" />
@@ -1644,8 +1644,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6506" zorder="515" guid="4e0eba69-318c-4217-b27f-1fa9914e1319" name="CLK_HF13_1" component="clock_side">
-      <Location x="423" y="557.9999" />
-      <Size width="78" height="30.00006" />
+      <Location x="423" y="558" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_HF13_1.b_17" type="Instance Digital Input">
           <Location x="426" y="576" />
@@ -1666,7 +1666,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="426" y="557.9999" />
+          <Location x="426" y="558" />
           <Size width="72" height="12" />
           <Text>CLK_HF13</Text>
           <Vertical value="false" />
@@ -1699,8 +1699,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6507" zorder="533" guid="1fd6824b-e61d-4634-93b5-1ad419a2fa0c" name="CLK_BAK_1" component="clock_side">
-      <Location x="423" y="905.9999" />
-      <Size width="78" height="30.00006" />
+      <Location x="423" y="906" />
+      <Size width="78" height="30" />
       <SubShapes>
         <Terminal name="CLK_BAK_1.b_17" type="Instance Digital Input">
           <Location x="426" y="924" />
@@ -1721,7 +1721,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="426" y="905.9999" />
+          <Location x="426" y="906" />
           <Size width="72" height="12" />
           <Text>CLK_BAK</Text>
           <Vertical value="false" />
@@ -1754,8 +1754,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6508" zorder="162" guid="86981afd-eaf2-4f4f-889a-949123faa428" name="WCO_1" component="clock_side">
-      <Location x="5.999992" y="881.9999" />
-      <Size width="72.00001" height="30.00006" />
+      <Location x="5.999992" y="882" />
+      <Size width="72.00001" height="30" />
       <SubShapes>
         <Rectangle>
           <Location x="6" y="882" />
@@ -1768,7 +1768,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="5.999992" y="881.9999" />
+          <Location x="5.999992" y="882" />
           <Size width="71.99999" height="12" />
           <Text>WCO</Text>
           <Vertical value="false" />
@@ -1801,8 +1801,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6509" zorder="163" guid="42773b79-c1b5-4b29-94cf-c63365a16429" name="PILO_1" component="clock_side">
-      <Location x="5.999992" y="917.9999" />
-      <Size width="72.00001" height="30.00006" />
+      <Location x="5.999992" y="918" />
+      <Size width="72.00001" height="30" />
       <SubShapes>
         <Rectangle>
           <Location x="6" y="918" />
@@ -1815,7 +1815,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="5.999992" y="917.9999" />
+          <Location x="5.999992" y="918" />
           <Size width="71.99999" height="12" />
           <Text>PILO</Text>
           <Vertical value="false" />
@@ -1848,8 +1848,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6512" zorder="323" guid="0fc7ae32-c1aa-47e5-b7c7-f85671d481ce" name="EXTCLK_1" component="clock_side">
-      <Location x="5.999992" y="689.9999" />
-      <Size width="75.00001" height="30.00006" />
+      <Location x="5.999992" y="690" />
+      <Size width="75.00001" height="30" />
       <SubShapes>
         <Terminal name="EXTCLK_1.a_14" type="Instance Digital Output">
           <Location x="78" y="708" />
@@ -1866,7 +1866,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="5.999992" y="689.9999" />
+          <Location x="5.999992" y="690" />
           <Size width="71.99999" height="12" />
           <Text>EXTCLK</Text>
           <Vertical value="false" />
@@ -1899,8 +1899,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6513" zorder="178" guid="00bc6207-8a56-4d6c-b248-d604ebf8999a" name="ECO_1" component="clock_side">
-      <Location x="5.999992" y="725.9999" />
-      <Size width="72.00001" height="30.00006" />
+      <Location x="5.999992" y="726" />
+      <Size width="72.00001" height="30" />
       <SubShapes>
         <Rectangle>
           <Location x="6" y="726" />
@@ -1913,7 +1913,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="5.999992" y="725.9999" />
+          <Location x="5.999992" y="726" />
           <Size width="71.99999" height="12" />
           <Text>ECO</Text>
           <Vertical value="false" />
@@ -1950,8 +1950,8 @@ Peri 1 Clock Group 4</Text>
       <Point2 x="294" y="852" />
     </Wire>
     <Instance shapeName="Shape_6515" zorder="324" guid="bd5e44aa-8dcf-4bcd-bc7b-d3cd0bd189b4" name="CLK_LF_1" component="clock_side">
-      <Location x="294" y="833.9999" />
-      <Size width="72.00003" height="30.00006" />
+      <Location x="294" y="834" />
+      <Size width="72" height="30" />
       <SubShapes>
         <Rectangle>
           <Location x="294" y="834" />
@@ -1964,7 +1964,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="294" y="833.9999" />
+          <Location x="294" y="834" />
           <Size width="72" height="12" />
           <Text>CLK_LF</Text>
           <Vertical value="false" />
@@ -2021,8 +2021,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6517" zorder="349" guid="89f036c1-11be-452c-a3cc-5ee388692e10" name="IHO_1" component="clock_side">
-      <Location x="5.999992" y="821.9999" />
-      <Size width="72.00001" height="30.00006" />
+      <Location x="5.999992" y="822" />
+      <Size width="72.00001" height="30" />
       <SubShapes>
         <Rectangle>
           <Location x="6" y="822" />
@@ -2035,7 +2035,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="5.999992" y="821.9999" />
+          <Location x="5.999992" y="822" />
           <Size width="71.99999" height="12" />
           <Text>IHO</Text>
           <Vertical value="false" />
@@ -2092,8 +2092,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6520" zorder="331" guid="fca720f5-d87f-4514-a2e3-baa11d491714" name="CLK_TIMER_1" component="clock_side">
-      <Location x="396" y="803.9999" />
-      <Size width="72.00003" height="30.00006" />
+      <Location x="396" y="804" />
+      <Size width="72" height="30" />
       <SubShapes>
         <Rectangle>
           <Location x="396" y="804" />
@@ -2106,7 +2106,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="396" y="803.9999" />
+          <Location x="396" y="804" />
           <Size width="72" height="12" />
           <Text>CLK_TIMER</Text>
           <Vertical value="false" />
@@ -2139,8 +2139,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6521" zorder="194" guid="93b459ba-b88c-432d-94e2-ea3ae2245e8b" name="SYS_TICK_4" component="clock_side_tall">
-      <Location x="587.9999" y="695.9999" />
-      <Size width="72.00006" height="42.00006" />
+      <Location x="588" y="696" />
+      <Size width="72" height="42" />
       <SubShapes>
         <Rectangle>
           <Location x="588" y="696" />
@@ -2153,7 +2153,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="587.9999" y="695.9999" />
+          <Location x="588" y="696" />
           <Size width="72" height="12" />
           <Text>CM55</Text>
           <Vertical value="false" />
@@ -2184,7 +2184,7 @@ Peri 1 Clock Group 4</Text>
           </Outline>
         </Line>
         <Annotation>
-          <Location x="587.9999" y="707.9999" />
+          <Location x="588" y="708" />
           <Size width="72" height="12" />
           <Text>SYSTICK_NS</Text>
           <Vertical value="false" />
@@ -2198,8 +2198,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6522" zorder="195" guid="a28594df-dedb-4519-bb9e-b2d98480f469" name="SYS_TICK_5" component="clock_side_tall">
-      <Location x="587.9999" y="647.9999" />
-      <Size width="72.00006" height="42.00006" />
+      <Location x="588" y="648" />
+      <Size width="72" height="42" />
       <SubShapes>
         <Rectangle>
           <Location x="588" y="648" />
@@ -2212,7 +2212,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="587.9999" y="647.9999" />
+          <Location x="588" y="648" />
           <Size width="72" height="12" />
           <Text>CM33</Text>
           <Vertical value="false" />
@@ -2243,7 +2243,7 @@ Peri 1 Clock Group 4</Text>
           </Outline>
         </Line>
         <Annotation>
-          <Location x="587.9999" y="659.9999" />
+          <Location x="588" y="660" />
           <Size width="72" height="12" />
           <Text>SYSTICK_S</Text>
           <Vertical value="false" />
@@ -2257,8 +2257,8 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6523" zorder="196" guid="0fdfc8c8-7065-4533-a7f6-2ac74d915318" name="SYS_TICK_6" component="clock_side_tall">
-      <Location x="587.9999" y="599.9999" />
-      <Size width="72.00006" height="42.00006" />
+      <Location x="588" y="600" />
+      <Size width="72" height="42" />
       <SubShapes>
         <Rectangle>
           <Location x="588" y="600" />
@@ -2271,7 +2271,7 @@ Peri 1 Clock Group 4</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="587.9999" y="599.9999" />
+          <Location x="588" y="600" />
           <Size width="72" height="12" />
           <Text>CM33</Text>
           <Vertical value="false" />
@@ -2302,7 +2302,7 @@ Peri 1 Clock Group 4</Text>
           </Outline>
         </Line>
         <Annotation>
-          <Location x="587.9999" y="611.9999" />
+          <Location x="588" y="612" />
           <Size width="72" height="12" />
           <Text>SYSTICK_NS</Text>
           <Vertical value="false" />
@@ -2331,23 +2331,23 @@ Peri 1 Clock Group 4</Text>
       <ShapeTags>wl:m33syscpuss[0].systick_ns[0]</ShapeTags>
     </Wire>
     <Instance shapeName="Shape_6530" zorder="203" guid="48386f55-8a31-4e60-8aac-e248f26c0976" name="m33_systick_ns_1" component="mux_5">
-      <Location x="558" y="605.9999" />
-      <Size width="11.99994" height="48.00006" />
+      <Location x="558" y="606" />
+      <Size width="12" height="48" />
       <ShapeTags>wl:m33syscpuss[0].systick_ns[0]</ShapeTags>
       <SubShapes>
         <ClosedShape>
-          <Point x="558" y="605.9999" />
-          <Point x="569.9999" y="613.3846" />
-          <Point x="569.9999" y="646.6154" />
-          <Point x="558" y="653.9999" />
-          <Point x="558" y="605.9999" />
+          <Point x="558" y="606" />
+          <Point x="570" y="613.3846" />
+          <Point x="570" y="646.6154" />
+          <Point x="558" y="654" />
+          <Point x="558" y="606" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
           <NoFill />
         </ClosedShape>
         <Annotation>
-          <Location x="559.9999" y="654" />
+          <Location x="560" y="654" />
           <Size width="8" height="48" />
           <Text><![CDATA[`${getExposedMember("m33syscpuss[0].systick_ns[0]", "sourceClockDisplayName")}`]]></Text>
           <Vertical value="true" />
@@ -2361,23 +2361,23 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6531" zorder="206" guid="064f109d-e15a-4099-820a-fa931f494852" name="m33_systick_s_1" component="mux_5">
-      <Location x="558" y="653.9999" />
-      <Size width="11.99994" height="48.00006" />
+      <Location x="558" y="654" />
+      <Size width="12" height="48" />
       <ShapeTags>wl:m33syscpuss[0].systick_s[0]</ShapeTags>
       <SubShapes>
         <ClosedShape>
-          <Point x="558" y="653.9999" />
-          <Point x="569.9999" y="661.3846" />
-          <Point x="569.9999" y="694.6154" />
-          <Point x="558" y="701.9999" />
-          <Point x="558" y="653.9999" />
+          <Point x="558" y="654" />
+          <Point x="570" y="661.3846" />
+          <Point x="570" y="694.6154" />
+          <Point x="558" y="702" />
+          <Point x="558" y="654" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
           <NoFill />
         </ClosedShape>
         <Annotation>
-          <Location x="559.9999" y="702" />
+          <Location x="560" y="702" />
           <Size width="8" height="48" />
           <Text><![CDATA[`${getExposedMember("m33syscpuss[0].systick_s[0]", "sourceClockDisplayName")}`]]></Text>
           <Vertical value="true" />
@@ -2391,23 +2391,23 @@ Peri 1 Clock Group 4</Text>
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_6532" zorder="207" guid="0770f6e4-1cb3-4773-98ae-794860183e97" name="m55_systick_ns_1" component="mux_5">
-      <Location x="558" y="701.9999" />
-      <Size width="11.99994" height="48.00006" />
+      <Location x="558" y="702" />
+      <Size width="12" height="48" />
       <ShapeTags>wl:m55appcpuss[0].systick_ns[0]</ShapeTags>
       <SubShapes>
         <ClosedShape>
-          <Point x="558" y="701.9999" />
-          <Point x="569.9999" y="709.3846" />
-          <Point x="569.9999" y="742.6154" />
-          <Point x="558" y="749.9999" />
-          <Point x="558" y="701.9999" />
+          <Point x="558" y="702" />
+          <Point x="570" y="709.3846" />
+          <Point x="570" y="742.6154" />
+          <Point x="558" y="750" />
+          <Point x="558" y="702" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
           <NoFill />
         </ClosedShape>
         <Annotation>
-          <Location x="559.9999" y="750" />
+          <Location x="560" y="750" />
           <Size width="8" height="48" />
           <Text><![CDATA[`${getExposedMember("m55appcpuss[0].systick_ns[0]", "sourceClockDisplayName")}`]]></Text>
           <Vertical value="true" />
@@ -2811,7 +2811,7 @@ Peri 1 Clock Group 4</Text>
     </Wire>
     <Instance shapeName="Shape_6911" zorder="541" guid="1e4c3819-e47a-48d0-af32-96ae17e9bded" name="FLL_BYPASS_1" component="mux_3">
       <Location x="372" y="588" />
-      <Size width="11.99997" height="36" />
+      <Size width="12" height="36" />
       <ShapeTags>wl:srss[0].clock[0].pathmux[1]</ShapeTags>
       <SubShapes>
         <ClosedShape>
@@ -3020,15 +3020,15 @@ Peri 0 Clock Group 5</Text>
       <ShapeTags>wl:srss[0].clock[0].bakclk[0]</ShapeTags>
     </Wire>
     <Instance shapeName="Shape_12183" zorder="522" guid="98b23bbb-df33-4b53-bb1d-19a96993a113" name="LFCLK_SEL" component="mux_5">
-      <Location x="258" y="827.9999" />
-      <Size width="11.99997" height="48.00006" />
+      <Location x="258" y="828" />
+      <Size width="12" height="48" />
       <SubShapes>
         <ClosedShape>
-          <Point x="258" y="827.9999" />
+          <Point x="258" y="828" />
           <Point x="270" y="835.3846" />
           <Point x="270" y="868.6154" />
-          <Point x="258" y="875.9999" />
-          <Point x="258" y="827.9999" />
+          <Point x="258" y="876" />
+          <Point x="258" y="828" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
           </Outline>
@@ -3037,7 +3037,7 @@ Peri 0 Clock Group 5</Text>
         <Annotation>
           <Location x="260" y="876" />
           <Size width="8" height="48" />
-          <Text><![CDATA[`${getExposedMember("srss[0].clock[0].csv[0]", "sourceClockDisplayName")}`]]></Text>
+          <Text><![CDATA[`${getExposedMember("srss[0].clock[0].lfclk[0]", "sourceClockDisplayName")}`]]></Text>
           <Vertical value="true" />
           <Expression><![CDATA[`${getExposedMember("`=$HwBlock`", "sourceClockDisplayName")}`]]></Expression>
           <Fill>
@@ -3199,12 +3199,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13867" zorder="444" guid="bfdce298-45f5-408c-a01d-c1c3a4c8bfd6" name="arc_bridge_58" component="arc_bridge">
       <Location x="501" y="144" />
-      <Size width="18" height="8.999985" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[2]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="144" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999985" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3228,12 +3228,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13871" zorder="445" guid="b9d73bd1-ad2a-42d1-adcd-0d93ec5e0f1f" name="arc_bridge_59" component="arc_bridge">
       <Location x="501" y="180" />
-      <Size width="18" height="8.999985" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[3]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="180" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999985" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3257,12 +3257,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13875" zorder="446" guid="1fe01cc6-4fe2-4031-b5ce-faa655949950" name="arc_bridge_60" component="arc_bridge">
       <Location x="501" y="216" />
-      <Size width="18" height="8.999985" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[4]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="216" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999985" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3286,12 +3286,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13879" zorder="447" guid="0a17ff17-f000-42a3-9c95-b4ce4e08e1bd" name="arc_bridge_61" component="arc_bridge">
       <Location x="501" y="252" />
-      <Size width="18" height="8.999985" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[5]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="252" />
-          <Size width="12" height="5.999985" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3315,12 +3315,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13883" zorder="448" guid="c400983e-fed3-4f4e-b0c4-f0a00bd0b489" name="arc_bridge_62" component="arc_bridge">
       <Location x="501" y="288" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[6]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="288" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3344,12 +3344,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13887" zorder="449" guid="c3a1124b-171d-4366-ab7b-aacb6609b9f3" name="arc_bridge_63" component="arc_bridge">
       <Location x="501" y="324" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[7]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="324" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3373,12 +3373,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13891" zorder="450" guid="32f77b8d-fa29-49dc-aace-5b975ae1d84a" name="arc_bridge_64" component="arc_bridge">
       <Location x="501" y="360" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[8]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="360" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3402,12 +3402,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13895" zorder="463" guid="dfa3040b-3112-4e7b-a656-c31c2f21230b" name="arc_bridge_65" component="arc_bridge">
       <Location x="501" y="396" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[9]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="396" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3431,12 +3431,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13899" zorder="480" guid="d7d08c2c-a237-42ac-ade5-f4d9a6dd75b4" name="arc_bridge_66" component="arc_bridge">
       <Location x="501" y="450" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[10]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="450" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3460,12 +3460,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13903" zorder="516" guid="d7c6c508-e7c0-43b5-b3fd-29d3cb9eabc6" name="arc_bridge_67" component="arc_bridge">
       <Location x="501" y="498" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[11]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="504" y="498" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3552,7 +3552,7 @@ Peri 0 Clock Group 5</Text>
       <SubShapes>
         <Arc>
           <Location x="528" y="96.00002" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999992" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3576,12 +3576,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13929" zorder="451" guid="2b76a78f-df9d-41af-93f3-a3097b8d07e3" name="arc_bridge_73" component="arc_bridge">
       <Location x="525" y="144" />
-      <Size width="18" height="8.999985" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[2]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="144" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999985" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3610,12 +3610,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13933" zorder="452" guid="769eb37e-ee58-4de1-b68c-bb1569131dfc" name="arc_bridge_74" component="arc_bridge">
       <Location x="525" y="180" />
-      <Size width="18" height="8.999985" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[3]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="180" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999985" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3644,12 +3644,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13937" zorder="453" guid="f99a9f67-9203-4a10-819e-f7f3004c950d" name="arc_bridge_75" component="arc_bridge">
       <Location x="525" y="216" />
-      <Size width="18" height="8.999985" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[4]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="216" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999985" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3678,12 +3678,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13941" zorder="454" guid="ef418b26-ef5a-4c95-be4d-6acc0fa3a204" name="arc_bridge_76" component="arc_bridge">
       <Location x="525" y="252" />
-      <Size width="18" height="8.999985" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[5]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="252" />
-          <Size width="12" height="5.999985" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3712,12 +3712,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13945" zorder="455" guid="dbc93a0c-6988-406c-a59e-8467e542b7aa" name="arc_bridge_77" component="arc_bridge">
       <Location x="525" y="288" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[6]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="288" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3746,12 +3746,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13949" zorder="456" guid="f2355f80-49cf-46f6-a434-f9609979c8c4" name="arc_bridge_78" component="arc_bridge">
       <Location x="525" y="324" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[7]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="324" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3780,12 +3780,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13953" zorder="457" guid="871fa807-4cdd-4ef4-8b2e-7a757cbc183a" name="arc_bridge_79" component="arc_bridge">
       <Location x="525" y="360" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[8]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="360" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3814,12 +3814,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13957" zorder="466" guid="2be8d616-fcac-4607-be2a-84d6782cfa8e" name="arc_bridge_80" component="arc_bridge">
       <Location x="525" y="396" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[9]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="396" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3848,12 +3848,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13961" zorder="481" guid="46889629-b56f-4f6e-a9c1-883338d409d8" name="arc_bridge_81" component="arc_bridge">
       <Location x="525" y="450" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[10]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="450" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -3882,12 +3882,12 @@ Peri 0 Clock Group 5</Text>
     </Wire>
     <Instance shapeName="Shape_13965" zorder="519" guid="9429917d-5227-4b53-aa28-76f4774942ed" name="arc_bridge_82" component="arc_bridge">
       <Location x="525" y="498" />
-      <Size width="18" height="9" />
+      <Size width="18" height="8.999969" />
       <ShapeTags>wl:srss[0].clock[0].hfclk[11]</ShapeTags>
       <SubShapes>
         <Arc>
           <Location x="528" y="498" />
-          <Size width="12" height="6" />
+          <Size width="12" height="5.999969" />
           <Angles start="0" sweep="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
             <SolidBrush color="128, 128, 128" />
@@ -4688,8 +4688,8 @@ Peri 0 Clock Group 5</Text>
       </Annotation>
     </Wire>
     <Instance shapeName="Shape_15595" zorder="534" guid="ce365d1d-4e5d-48aa-80d0-5b7c40e97355" name="CLK_RTC" component="clock_side">
-      <Location x="585" y="905.9999" />
-      <Size width="75" height="30.00006" />
+      <Location x="585" y="906" />
+      <Size width="75" height="30" />
       <SubShapes>
         <Terminal name="CLK_RTC.b_17" type="Instance Digital Input">
           <Location x="588" y="924" />
@@ -4706,7 +4706,7 @@ Peri 0 Clock Group 5</Text>
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="587.9999" y="905.9999" />
+          <Location x="588" y="906" />
           <Size width="72" height="12" />
           <Text>RTC</Text>
           <Vertical value="false" />
