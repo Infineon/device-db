@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CyHyperbusConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v2">
   <PartNumber>S70KS1282</PartNumber>
   <Configuration>166 MHz</Configuration>
@@ -6,7 +6,7 @@
   <Description>128-Mb (16-MB) 1.8-V self-refresh DRAM for up to 166 MHz clock frequency</Description>
   <DeviceType>HB_SRAM</DeviceType>
   <SizeOfMemory>0x1000000</SizeOfMemory>
-  <DummyCycles>6</DummyCycles>
+  <DummyCycles>14</DummyCycles>
   <XipWriteCommand>HB_WRITE_WRAPPED_BURST</XipWriteCommand>
   <XipReadCommand>HB_READ_WRAPPED_BURST</XipReadCommand>
 </CyHyperbusConfiguration>

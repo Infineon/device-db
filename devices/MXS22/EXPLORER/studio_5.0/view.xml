@@ -45,4 +45,10 @@
     <Diagram id="Component-STT" visPath="lppass_stt/lppass_stt.cyarch.cyvis" semPath="lppass_stt/lppass_stt.cyarch.cysem" ipPath="lppass_stt/lppass_stt-0-resourceMap.txt"/>
     <Diagram id="Component-PRB" visPath="lppass_prb/lppass_prb.cyarch.cyvis" semPath="lppass_prb/lppass_prb.cyarch.cysem" ipPath="lppass_prb/lppass_prb-0-resourceMap.txt"/>
   </Files>
+  <PadFunctionTypes ipBlock="ioss">
+    <PadFunctionType name="HSIOM" connectionsPerPin="32" port="hsiom" inputPort="hsiom_in" outputPort="hsiom_out" definePostfix="HSIOM"/>
+    <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog" definePostfix="ANALOG"/>
+    <PadFunctionType name="AUX" connectionsPerPin="1" port="aux" definePostfix="AUX"/>
+    <PadFunctionType name="HV" connectionsPerPin="1" port="aux" definePostfix="HV"/>
+  </PadFunctionTypes>
 </View>

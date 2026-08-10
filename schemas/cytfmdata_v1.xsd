@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema
+    targetNamespace='http://cypress.com/xsd/cytfmdata_v1'
+    xmlns='http://cypress.com/xsd/cytfmdata_v1'
+    xmlns:xs='http://www.w3.org/2001/XMLSchema'
+    elementFormDefault='qualified'
+    attributeFormDefault='unqualified'>
+
+    <!-- One TF-M data entry: a generic key/value pair addressed by Device
+       Configurator's getCustomData via the key attribute (e.g. key="platform").
+       Additional keys (lifecycle, etc.) can be added later without schema
+       changes. -->
+    <xs:complexType name='TfmDataEntry'>
+        <xs:attribute name='key' type='xs:string' use='required' />
+        <xs:attribute name='value' type='xs:string' use='required' />
+    </xs:complexType>
+
+    <!-- Container element of tfm_data.cydata; holds zero or more keyed entries.
+       The child element name (TfmDataEntry) is intentionally distinct from the
+       root (TfmData) so getCustomData paths address the entries unambiguously. -->
+    <xs:element name='TfmData'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name='TfmDataEntry' type='TfmDataEntry' minOccurs='0' maxOccurs='unbounded' />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

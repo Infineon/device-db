@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
   <PartNumber>S25FL204K</PartNumber>
-  <Description>4Mbytes 3V serial Flash memory</Description>
+  <Description>4-Mbit 3V serial Flash memory</Description>
   <NumberOfAddress>0x03</NumberOfAddress>
-  <SizeOfMemory>0x400000</SizeOfMemory>
+  <SizeOfMemory>0x80000</SizeOfMemory>
   <EraseBlockSize>0x1000</EraseBlockSize>
   <ProgramPageSize>0x100</ProgramPageSize>
   <StatusRegisterBusyMask>0x01</StatusRegisterBusyMask>

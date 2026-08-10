@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<CyMemoryConfiguration version="2" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
+<?xml version="1.0" encoding="UTF-8"?>
+<CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1" version="2">
   <PartNumber volatile="true">23A1024</PartNumber>
-  <Configuration></Configuration>
+  <Configuration/>
   <Description>1 Mb Serial SRAM</Description>
   <NumberOfAddress>0x03</NumberOfAddress>
   <SizeOfMemory>0x20000</SizeOfMemory>

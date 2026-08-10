@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="59">
+  <Instances count="57">
     <Instance guid="0175c5d7-3c44-430b-b169-095b3ac783a5" name="arc_bridge_9" component="arc_bridge">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -209,55 +209,6 @@
       </Parameter>
       <Parameter name="ToolTip">
         <Value>High Frequency Clock 2: A high-frequency clock output driving specific peripherals.</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="129d2047-18ac-4cad-9652-91dd407263f8" name="PATH_MUX6" component="mux_2">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>PathMux</Value>
-      </Parameter>
-      <Parameter name="HwBlock">
-        <Value>srss[0].clock[0].pathmux[6]</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>6</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>PATH_MUX6</Value>
-      </Parameter>
-      <Parameter name="name">
-        <Value>PATH_MUX6</Value>
-      </Parameter>
-      <Parameter name="ToolTip">
-        <Value>Path mux selection: A clock source for high frequency clocks.</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="14af9f05-133a-4f21-ab63-29f9bde26dc5" name="arc_bridge_10" component="arc_bridge">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>arc_bridge_10</Value>
       </Parameter>
     </Instance>
     <Instance guid="154fd2ee-414b-4ec8-98a8-176bf580e95a" name="PLL_BYPASS_2" component="mux_3">
@@ -1908,7 +1859,7 @@
       </Parameter>
     </Instance>
   </Instances>
-  <Signals count="316">
+  <Signals count="315">
     <Signal name="Net_237" type="Digital" terminalCount="1">
       <Terminal name="PLL0.a_14" type="Instance Digital Output" />
     </Signal>
@@ -2053,20 +2004,19 @@
     <Signal name="Net_2584" type="Digital" terminalCount="1">
       <Terminal name="PLL0.b_17" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_2931[4:0]" type="Digital" terminalCount="13">
+    <Signal name="Net_2931[4:0]" type="Digital" terminalCount="12">
       <Terminal name="CLK_HF1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF0.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF5.b_17" type="Instance Digital Input" />
-      <Terminal name="CLK_HF4_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF7.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF4_1.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF6.b_17" type="Instance Digital Input" />
+      <Terminal name="CLK_HF5.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF3.b_17" type="Instance Digital Input" />
       <Terminal name="CLK_HF2.b_17" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_1.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_9.o" type="Instance Digital Output" />
-      <Terminal name="arc_bridge_10.o" type="Instance Digital Output" />
       <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_9.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
+      <Terminal name="arc_bridge_1.o" type="Instance Digital Output" />
     </Signal>
     <Signal name="Net_2971" type="Digital" terminalCount="1">
       <Terminal name="CLK_HF1.b_15" type="Instance Digital Input" />
@@ -2197,9 +2147,6 @@
     </Signal>
     <Signal name="Net_3734" type="Digital" terminalCount="1">
       <Terminal name="arc_bridge_9.i" type="Instance Digital Input" />
-    </Signal>
-    <Signal name="Net_3750" type="Digital" terminalCount="1">
-      <Terminal name="arc_bridge_10.i" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_3850" type="Digital" terminalCount="1">
       <Terminal name="CLK_MEM.b_15" type="Instance Digital Input" />

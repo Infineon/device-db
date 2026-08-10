@@ -25,6 +25,7 @@
       * [4373E](#4373e)
       * [4390x](#4390x)
       * [55310](#55310)
+      * [55512](#55512)
       * [55513](#55513)
       * [55533](#55533)
       * [55570](#55570)
@@ -70,8 +71,10 @@
     * [PSOC™ Control](#psoc-control)
       * [PSC3M3](#psc3m3)
       * [PSC3M5](#psc3m5)
+      * [PSC3M6](#psc3m6)
       * [PSC3P2](#psc3p2)
       * [PSC3P5](#psc3p5)
+      * [PSC3P6](#psc3p6)
     * [PSOC™ Edge](#psoc-edge)
       * [PSE8x2](#pse8x2)
       * [PSE8x3](#pse8x3)
@@ -119,6 +122,7 @@
     * [Ezurio](#ezurio)
     * [Inventek](#inventek)
     * [Murata](#murata)
+    * [Quectel](#quectel)
     * [USI](#usi)
 
 # Supported devices
@@ -213,6 +217,9 @@
 ### 55310
 * [CYW55310IUBGT](https://www.infineon.com/part/CYW55310)
 
+### 55512
+* [CYW55512IUBGT](https://www.infineon.com/part/CYW55512)
+
 ### 55513
 * [CYW55513IUBG](https://www.infineon.com/part/CYW55513)
 
@@ -263,6 +270,10 @@
 * CYPD7273-68LQXQ
 * CYPD7274-68LQXQ
 * CYPD7275-68LQXQ
+* CYPD7294-68BFXS
+* CYPD7295-68BFXS
+* CYPD7296-68BFXS
+* CYPD7297-68BFXS
 
 ### CCG7S
 * [CYPD7191-40LDXS](https://www.infineon.com/part/CYPD7191-40LDXS)
@@ -1456,6 +1467,10 @@
 * [PSC3M3FDS2LHQ1](https://www.infineon.com/part/PSC3M3FDS2LHQ1)
 * [PSC3M3EDABQ1](https://www.infineon.com/part/PSC3M3EDABQ1)
 * [PSC3M3FDS2ABQ1](https://www.infineon.com/part/PSC3M3FDS2ABQ1)
+* [PSC3M3EDLEQ1](https://www.infineon.com/part/PSC3M3EDLEQ1)
+* [PSC3M3FDS2LEQ1](https://www.infineon.com/part/PSC3M3FDS2LEQ1)
+* [PSC3M3EDYLGQ1](https://www.infineon.com/part/PSC3M3EDYLGQ1)
+* [PSC3M3FDS2YLGQ1](https://www.infineon.com/part/PSC3M3FDS2YLGQ1)
 
 ### PSC3M5
 * [PSC3M5FDS2AFQ1](https://www.infineon.com/part/PSC3M5FDS2AFQ1)
@@ -1468,6 +1483,18 @@
 * [PSC3M5EDACQ1](https://www.infineon.com/part/PSC3M5EDACQ1)
 * [PSC3M5EDLHQ1](https://www.infineon.com/part/PSC3M5EDLHQ1)
 * [PSC3M5EDABQ1](https://www.infineon.com/part/PSC3M5EDABQ1)
+* [PSC3M5EDLEQ1](https://www.infineon.com/part/PSC3M5EDLEQ1)
+* [PSC3M5FDS2LEQ1](https://www.infineon.com/part/PSC3M5FDS2LEQ1)
+* [PSC3M5EDYLGQ1](https://www.infineon.com/part/PSC3M5EDYLGQ1)
+* [PSC3M5FDS2YLGQ1](https://www.infineon.com/part/PSC3M5FDS2YLGQ1)
+
+### PSC3M6
+* PSC3M6GES3AHQ1
+* PSC3M6FDS2AHQ1
+* PSC3M6GES3AFQ1
+* PSC3M6FDS2AFQ1
+* PSC3M6GES3ACQ1
+* PSC3M6FDS2ACQ1
 
 ### PSC3P2
 * [PSC3P2EDLGQ1](https://www.infineon.com/part/PSC3P2EDLGQ1)
@@ -1478,6 +1505,10 @@
 * [PSC3P2FDS2LHQ1](https://www.infineon.com/part/PSC3P2FDS2LHQ1)
 * [PSC3P2EDABQ1](https://www.infineon.com/part/PSC3P2EDABQ1)
 * [PSC3P2FDS2ABQ1](https://www.infineon.com/part/PSC3P2FDS2ABQ1)
+* [PSC3P2EDLEQ1](https://www.infineon.com/part/PSC3P2EDLEQ1)
+* [PSC3P2FDS2LEQ1](https://www.infineon.com/part/PSC3P2FDS2LEQ1)
+* [PSC3P2EDYLGQ1](https://www.infineon.com/part/PSC3P2EDYLGQ1)
+* [PSC3P2FDS2YLGQ1](https://www.infineon.com/part/PSC3P2FDS2YLGQ1)
 
 ### PSC3P5
 * [PSC3P5EDLGQ1](https://www.infineon.com/part/PSC3P5EDLGQ1)
@@ -1488,6 +1519,18 @@
 * [PSC3P5FDS2LHQ1](https://www.infineon.com/part/PSC3P5FDS2LHQ1)
 * [PSC3P5EDABQ1](https://www.infineon.com/part/PSC3P5EDABQ1)
 * [PSC3P5FDS2ABQ1](https://www.infineon.com/part/PSC3P5FDS2ABQ1)
+* [PSC3P5EDLEQ1](https://www.infineon.com/part/PSC3P5EDLEQ1)
+* [PSC3P5FDS2LEQ1](https://www.infineon.com/part/PSC3P5FDS2LEQ1)
+* [PSC3P5EDYLGQ1](https://www.infineon.com/part/PSC3P5EDYLGQ1)
+* [PSC3P5FDS2YLGQ1](https://www.infineon.com/part/PSC3P5FDS2YLGQ1)
+
+### PSC3P6
+* PSC3P6GES3AHQ1
+* PSC3P6FDS2AHQ1
+* PSC3P6GES3AFQ1
+* PSC3P6FDS2AFQ1
+* PSC3P6GES3ACQ1
+* PSC3P6FDS2ACQ1
 
 ## PSOC™ Edge
 
@@ -2042,6 +2085,10 @@
 * [LBEE5PK2AE](https://www.murata.com/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type2ae)
 * [LBEE5PK2BC](https://www.murata.com/products/connectivitymodule/wi-fi-bluetooth/overview/lineup/type2bc)
 * [LBEE5WV2GF](https://pim.murata.com/asset/pim4/wifiBluetoothModule/TYPE2GF_PDF_WIFIBLUETOOTHMODULE)
+
+## Quectel
+
+* [FCS962N-LP](https://www.quectel.com/content/uploads/2024/09/Quectel_FCS962N-LP_Short-Range_Module_Specification_V1.0.0_Preliminary_20240722.pdf?wpId=121241)
 
 ## USI
 

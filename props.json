@@ -252,6 +252,11 @@
         "path": "devices/Connectivity-BT-WIFI/55500A1/CYW55310IUBGT"
       },
       {
+        "name": "CYW55512IUBGT",
+        "part": true,
+        "path": "devices/Connectivity-BT-WIFI/55500A1/CYW55512IUBGT"
+      },
+      {
         "name": "CYW55513IUBG",
         "part": true,
         "path": "devices/Connectivity-BT-WIFI/55500A1/CYW55513IUBG"
@@ -520,6 +525,26 @@
         "name": "CYPD7291-68LDXS",
         "part": true,
         "path": "devices/M0S8/CCG7D/CYPD7291-68LDXS"
+      },
+      {
+        "name": "CYPD7294-68BFXS",
+        "part": true,
+        "path": "devices/M0S8/CCG7D/CYPD7294-68BFXS"
+      },
+      {
+        "name": "CYPD7295-68BFXS",
+        "part": true,
+        "path": "devices/M0S8/CCG7D/CYPD7295-68BFXS"
+      },
+      {
+        "name": "CYPD7296-68BFXS",
+        "part": true,
+        "path": "devices/M0S8/CCG7D/CYPD7296-68BFXS"
+      },
+      {
+        "name": "CYPD7297-68BFXS",
+        "part": true,
+        "path": "devices/M0S8/CCG7D/CYPD7297-68BFXS"
       },
       {
         "name": "CYPD7299-68LDXS",
@@ -5312,6 +5337,16 @@
         "path": "devices/memory/FM25W08"
       },
       {
+        "name": "GD25LQ128E",
+        "part": true,
+        "path": "devices/memory/GD25LQ128E"
+      },
+      {
+        "name": "GD25Q16E",
+        "part": true,
+        "path": "devices/memory/GD25Q16E"
+      },
+      {
         "name": "MX25L12835F",
         "part": true,
         "path": "devices/memory/MX25L12835F"
@@ -8705,6 +8740,11 @@
         "path": "devices/MXS40Sv2/BOY2/PSC3M3EDACQ1"
       },
       {
+        "name": "PSC3M3EDLEQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3M3EDLEQ1"
+      },
+      {
         "name": "PSC3M3EDLGQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3M3EDLGQ1"
@@ -8713,6 +8753,11 @@
         "name": "PSC3M3EDLHQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3M3EDLHQ1"
+      },
+      {
+        "name": "PSC3M3EDYLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3M3EDYLGQ1"
       },
       {
         "name": "PSC3M3FDS2ABQ1",
@@ -8725,6 +8770,11 @@
         "path": "devices/MXS40Sv2/BOY2/PSC3M3FDS2ACQ1"
       },
       {
+        "name": "PSC3M3FDS2LEQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3M3FDS2LEQ1"
+      },
+      {
         "name": "PSC3M3FDS2LGQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3M3FDS2LGQ1"
@@ -8733,6 +8783,11 @@
         "name": "PSC3M3FDS2LHQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3M3FDS2LHQ1"
+      },
+      {
+        "name": "PSC3M3FDS2YLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3M3FDS2YLGQ1"
       },
       {
         "name": "PSC3M5EDABQ1",
@@ -8750,6 +8805,11 @@
         "path": "devices/MXS40Sv2/BOY2/PSC3M5EDAFQ1"
       },
       {
+        "name": "PSC3M5EDLEQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3M5EDLEQ1"
+      },
+      {
         "name": "PSC3M5EDLGQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3M5EDLGQ1"
@@ -8758,6 +8818,11 @@
         "name": "PSC3M5EDLHQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3M5EDLHQ1"
+      },
+      {
+        "name": "PSC3M5EDYLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3M5EDYLGQ1"
       },
       {
         "name": "PSC3M5FDS2ABQ1",
@@ -8775,6 +8840,11 @@
         "path": "devices/MXS40Sv2/BOY2/PSC3M5FDS2AFQ1"
       },
       {
+        "name": "PSC3M5FDS2LEQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3M5FDS2LEQ1"
+      },
+      {
         "name": "PSC3M5FDS2LGQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3M5FDS2LGQ1"
@@ -8783,6 +8853,11 @@
         "name": "PSC3M5FDS2LHQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3M5FDS2LHQ1"
+      },
+      {
+        "name": "PSC3M5FDS2YLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3M5FDS2YLGQ1"
       },
       {
         "name": "PSC3P2EDABQ1",
@@ -8795,6 +8870,11 @@
         "path": "devices/MXS40Sv2/BOY2/PSC3P2EDACQ1"
       },
       {
+        "name": "PSC3P2EDLEQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3P2EDLEQ1"
+      },
+      {
         "name": "PSC3P2EDLGQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3P2EDLGQ1"
@@ -8803,6 +8883,11 @@
         "name": "PSC3P2EDLHQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3P2EDLHQ1"
+      },
+      {
+        "name": "PSC3P2EDYLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3P2EDYLGQ1"
       },
       {
         "name": "PSC3P2FDS2ABQ1",
@@ -8815,6 +8900,11 @@
         "path": "devices/MXS40Sv2/BOY2/PSC3P2FDS2ACQ1"
       },
       {
+        "name": "PSC3P2FDS2LEQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3P2FDS2LEQ1"
+      },
+      {
         "name": "PSC3P2FDS2LGQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3P2FDS2LGQ1"
@@ -8823,6 +8913,11 @@
         "name": "PSC3P2FDS2LHQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3P2FDS2LHQ1"
+      },
+      {
+        "name": "PSC3P2FDS2YLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3P2FDS2YLGQ1"
       },
       {
         "name": "PSC3P5EDABQ1",
@@ -8835,6 +8930,11 @@
         "path": "devices/MXS40Sv2/BOY2/PSC3P5EDACQ1"
       },
       {
+        "name": "PSC3P5EDLEQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3P5EDLEQ1"
+      },
+      {
         "name": "PSC3P5EDLGQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3P5EDLGQ1"
@@ -8843,6 +8943,11 @@
         "name": "PSC3P5EDLHQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3P5EDLHQ1"
+      },
+      {
+        "name": "PSC3P5EDYLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3P5EDYLGQ1"
       },
       {
         "name": "PSC3P5FDS2ABQ1",
@@ -8855,6 +8960,11 @@
         "path": "devices/MXS40Sv2/BOY2/PSC3P5FDS2ACQ1"
       },
       {
+        "name": "PSC3P5FDS2LEQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3P5FDS2LEQ1"
+      },
+      {
         "name": "PSC3P5FDS2LGQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3P5FDS2LGQ1"
@@ -8863,6 +8973,11 @@
         "name": "PSC3P5FDS2LHQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3P5FDS2LHQ1"
+      },
+      {
+        "name": "PSC3P5FDS2YLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY2/PSC3P5FDS2YLGQ1"
       },
       {
         "name": "CYW20829",
@@ -8923,6 +9038,71 @@
         "name": "CYW89829B1232",
         "part": true,
         "path": "devices/MXS40Sv2/CYW20829/CYW89829B1232"
+      },
+      {
+        "name": "PSC3M6",
+        "part": false,
+        "path": "devices/MXS40Sv2/PSC3M6"
+      },
+      {
+        "name": "PSC3M6FDS2ACQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3M6FDS2ACQ1"
+      },
+      {
+        "name": "PSC3M6FDS2AFQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3M6FDS2AFQ1"
+      },
+      {
+        "name": "PSC3M6FDS2AHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3M6FDS2AHQ1"
+      },
+      {
+        "name": "PSC3M6GES3ACQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3M6GES3ACQ1"
+      },
+      {
+        "name": "PSC3M6GES3AFQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3M6GES3AFQ1"
+      },
+      {
+        "name": "PSC3M6GES3AHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3M6GES3AHQ1"
+      },
+      {
+        "name": "PSC3P6FDS2ACQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3P6FDS2ACQ1"
+      },
+      {
+        "name": "PSC3P6FDS2AFQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3P6FDS2AFQ1"
+      },
+      {
+        "name": "PSC3P6FDS2AHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3P6FDS2AHQ1"
+      },
+      {
+        "name": "PSC3P6GES3ACQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3P6GES3ACQ1"
+      },
+      {
+        "name": "PSC3P6GES3AFQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3P6GES3AFQ1"
+      },
+      {
+        "name": "PSC3P6GES3AHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/PSC3M6/PSC3P6GES3AHQ1"
       },
       {
         "name": "XMC",
@@ -9978,6 +10158,11 @@
         "name": "CYW955533WLUSBM2",
         "part": true,
         "path": "modules/CYW955533WLUSBM2"
+      },
+      {
+        "name": "FCS962N-LP",
+        "part": true,
+        "path": "modules/FCS962N-LP"
       },
       {
         "name": "IMD700A-Q064x128",

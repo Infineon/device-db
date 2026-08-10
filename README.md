@@ -17,11 +17,11 @@ See [DEVICES.md](./DEVICES.md) for a list of supported devices and modules.
 
 - [Device Configurator](https://www.infineon.com/ModusToolboxDeviceConfig) - Displays and
   configures peripheral resources
-- [BSP Assistant](https://www.Infineon.com/ModusToolboxBSPAssistant) - Creates and configures
+- [BSP Assistant](https://www.infineon.com/ModusToolboxBSPAssistant) - Creates and configures
   the BSP for a given device/module part number
-- [QSPI Configurator](https://www.Infineon.com/ModusToolboxQSPIConfig) - Creates and
+- [QSPI Configurator](https://www.infineon.com/ModusToolboxQSPIConfig) - Creates and
   configures QSPI configuration for external memory chips
-- [Project Creator](https://www.Infineon.com/ModusToolboxProjectCreator) - Selects devices
+- [Project Creator](https://www.infineon.com/ModusToolboxProjectCreator) - Selects devices
   when creating new ModusToolbox™ projects
 
 **The libraries depend on this database:**
@@ -30,6 +30,7 @@ See [DEVICES.md](./DEVICES.md) for a list of supported devices and modules.
 - [MTB CAT2 Peripheral Driver Library](https://github.com/Infineon/mtb-pdl-cat2) - PDL for CAT2 devices
 - [MTB CAT3 XMC Library](https://github.com/Infineon/mtb-xmclib-cat3) - Library for CAT3 (XMC) devices
 - [MTB CAT5 Peripheral Driver Library](https://github.com/Infineon/mtb-pdl-cat5) - PDL for CAT5 devices
+- [MTB PSC3M6 Device Support Library](https://github.com/Infineon/mtb-dsl-psc3m6) - DSL for PSOC™ Control PSC3M6 devices
 - [MTB PSE8xxGP Device Support Library](https://github.com/Infineon/mtb-dsl-pse8xxgp) - DSL for PSOC™ Edge PSE8xxGP devices
 - [MTB PSE8xxGO Device Support Library](https://github.com/Infineon/mtb-dsl-pse8xxgo) - DSL for PSOC™ Edge PSE8xxGO devices
 - [MTB PSE8x6 Device Support Library](https://github.com/Infineon/mtb-dsl-pse8x6) - DSL for PSOC™ Edge PSE8x6 devices

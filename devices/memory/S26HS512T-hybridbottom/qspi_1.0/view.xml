@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<CyMemoryConfiguration version="3" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
+<?xml version="1.0" encoding="UTF-8"?>
+<CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1" version="3">
   <PartNumber>S26HS512T</PartNumber>
   <Configuration>Hybrid at Bottom</Configuration>
   <Default>true</Default>
-  <Description>1024-Mb (128-MB) 1.8-V Semper Flash</Description>
+  <Description>512-Mb (64-MB) 1.8-V Semper Flash</Description>
   <NumberOfAddress>0x04</NumberOfAddress>
   <SizeOfMemory>0x04000000</SizeOfMemory>
   <EraseBlockSize>0x0040000</EraseBlockSize>

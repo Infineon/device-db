@@ -2,7 +2,7 @@
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
   <PclkPerPeriGroup value="256"/>
   <PadsPerPort value="8"/>
-  <PadFunctionTypes>
+  <PadFunctionTypes ipBlock="iocl">
     <PadFunctionType name="HSIOM" connectionsPerPin="32" port="hsiom" inputPort="hsiom_in" outputPort="hsiom_out" definePostfix="HSIOM"/>
     <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog" definePostfix="ANALOG"/>
     <PadFunctionType name="AUX" connectionsPerPin="1" port="aux" definePostfix="AUX"/>

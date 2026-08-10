@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<CyMemoryConfiguration version="4" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
+<?xml version="1.0" encoding="UTF-8"?>
+<CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1" version="4">
   <PartNumber>S25FL128L</PartNumber>
-  <Configuration></Configuration>
+  <Configuration/>
   <Default>false</Default>
   <Description>16Mbytes 3V serial Flash memory</Description>
   <NumberOfAddress>0x03</NumberOfAddress>

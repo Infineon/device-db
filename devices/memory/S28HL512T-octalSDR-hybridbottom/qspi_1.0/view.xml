@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<CyMemoryConfiguration version="5" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v2">
+<?xml version="1.0" encoding="UTF-8"?>
+<CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v2" version="5">
   <PartNumber>S28HL512T</PartNumber>
   <Configuration>Octal SDR Hybrid at Bottom</Configuration>
   <Default>false</Default>
@@ -23,8 +23,8 @@
   <LatencyCyclesRegisterAddress>0x00</LatencyCyclesRegisterAddress>
   <DataLearningPatternSize>0x00</DataLearningPatternSize>
   <DataLearningPattern>0x00</DataLearningPattern>
-  <OctalDdrEnableSeq1></OctalDdrEnableSeq1>
-  <OctalDdrEnableSeq2></OctalDdrEnableSeq2>
+  <OctalDdrEnableSeq1/>
+  <OctalDdrEnableSeq2/>
   <HybridInfo>
     <Region>
       <RegionIndex>0</RegionIndex>

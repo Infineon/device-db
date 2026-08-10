@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<CyMemoryConfiguration version="3" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
+<?xml version="1.0" encoding="UTF-8"?>
+<CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1" version="3">
   <PartNumber>FM25W04</PartNumber>
-  <Configuration></Configuration>
+  <Configuration/>
   <Default>true</Default>
   <Description>4 megabit serial flash memory from Shanghai Fudan</Description>
   <NumberOfAddress>0x03</NumberOfAddress>

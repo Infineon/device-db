@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
   <PartNumber>CY15B108QSN</PartNumber>
   <Description>The Excelon-Ultra CY15x108QSN is a high-performance, 8-Mbit
@@ -11,7 +11,7 @@ process.</Description>
   <StatusRegisterBusyMask>0x01</StatusRegisterBusyMask>
   <StatusRegisterQuadEnableMask>0x02</StatusRegisterQuadEnableMask>
   <EraseTime>0</EraseTime>
-  <ChipEraseTime>1000</ChipEraseTime>
+  <ChipEraseTime>0</ChipEraseTime>
   <ProgramTime>10</ProgramTime>
   <Commands mode="Single">
     <Command>

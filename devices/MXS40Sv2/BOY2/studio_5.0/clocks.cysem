@@ -562,7 +562,7 @@
         <Value />
       </Parameter>
       <Parameter name="HwBlock">
-        <Value>m33syscpuss[0].systick_ns[0]</Value>
+        <Value>cpuss[0].systick_ns[0]</Value>
       </Parameter>
       <Parameter name="Index">
         <Value>0</Value>
@@ -819,7 +819,7 @@
         <Value>M33SysTickNSTimer</Value>
       </Parameter>
       <Parameter name="HwBlock">
-        <Value>m33syscpuss[0].systick_ns[0]</Value>
+        <Value>cpuss[0].systick_ns[0]</Value>
       </Parameter>
       <Parameter name="Index">
         <Value>0</Value>
@@ -1060,7 +1060,7 @@
         <Value>M33SysTickSTimer</Value>
       </Parameter>
       <Parameter name="HwBlock">
-        <Value>m33syscpuss[0].systick_s[0]</Value>
+        <Value>cpuss[0].systick_s[0]</Value>
       </Parameter>
       <Parameter name="Index">
         <Value>0</Value>
@@ -1193,7 +1193,7 @@
         <Value />
       </Parameter>
       <Parameter name="HwBlock">
-        <Value>m33syscpuss[0].systick_s[0]</Value>
+        <Value>cpuss[0].systick_s[0]</Value>
       </Parameter>
       <Parameter name="Index">
         <Value>0</Value>
@@ -2025,8 +2025,8 @@
     </Signal>
     <Signal name="Net_2972" type="" terminalCount="0" />
     <Signal name="Net_2983[3:0]" type="Digital" terminalCount="3">
-      <Terminal name="ILO.a_2" type="Instance Digital Output" />
       <Terminal name="WCO_2.a_2" type="Instance Digital Output" />
+      <Terminal name="ILO.a_2" type="Instance Digital Output" />
       <Terminal name="arc_bridge_13.i" type="Instance Digital Input" />
     </Signal>
     <Signal name="Net_3020" type="Digital" terminalCount="2">

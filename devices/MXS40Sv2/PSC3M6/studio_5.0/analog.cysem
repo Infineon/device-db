@@ -1,0 +1,5478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
+  <Instances count="224">
+    <Instance guid="021683ab-a0fa-4c6b-8e91-627391442c7b" name="cy_arrow_98" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_98</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="0288fb24-f894-40f5-930b-a2f40354f3a6" name="cy_arrow_21" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_21</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="03aa6071-82d4-458f-9bbf-d765039dea15" name="cy_arrow_64" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_64</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="05cc8a89-9f9f-4d44-afc8-02f43bdc8994" name="cy_arrow_142" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_142</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="07b34ed2-44ad-4cf8-ad2f-52c017928d7a" name="cy_arrow_84" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_84</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="0a3bb598-8a74-407f-a9c8-20499de94910" name="cy_arrow_110" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_110</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="0cb02217-f8df-4eb1-bffc-6717eb6bee6c" name="cy_arrow_87" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_87</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="0e32a283-88aa-4ff7-ba9f-41bb26751f84" name="aroute_amux_9" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_9</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX0</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="13420e2b-d7fb-41fa-8369-d73515bb787a" name="cy_buffer_small_2" component="cy_buffer_small">
+      <Parameter name="color">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_buffer_small_2</Value>
+      </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="SlopeGen">
+        <Value>true</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="13abd302-ff44-4aac-baa0-601e409a695f" name="cy_arrow_102" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_102</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="1417b48c-c49e-4266-983b-4604fea6559f" name="cy_io_18" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_B7</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_18</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="14a0c9b2-f7ca-4637-be76-1863a80e23d8" name="CSG_TOP_block" component="BOY2_blocks">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>CSG</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>CSG_TOP_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>20</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>Comparator and slope generator (CSG)</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="159166fe-29c1-466b-89f0-3a6855069350" name="arc_bridge_2" component="arc_bridge">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>arc_bridge_2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="18aada45-e788-42d7-8397-0d9a2bfebd28" name="cy_arrow_11" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_11</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="18eecc09-b688-440b-b945-c5eee10a4d4b" name="cy_io_2" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_2</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value>GPIO_OUT0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="1ab4c9a9-86c2-4c2b-b9a1-d3efb221e9b6" name="cy_io_5" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_A2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_5</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="1cf4ffdb-c646-4efe-8344-bd22e13f9aa9" name="cy_arrow_50" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_50</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="1cfb8859-5a02-4618-868b-98edc24ccb5d" name="cy_io_8" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_A5</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_8</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="1d9899b1-b5cd-4aa6-a506-79155c2a4ad1" name="cy_io_10" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_A7</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_10</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="1e4e738e-70fb-40cf-8294-7bc2a1c6d159" name="cy_arrow_12" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_12</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="1e5fc21f-df41-4323-bdbb-0a6e61c65130" name="CSGpost_block" component="BOY2_blocks">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>CSG_logic</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>CSGpost_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>CSG post-processing</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="203cc6d9-72c2-4895-a3f4-e03608f97026" name="cy_arrow_90" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_90</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="21854dca-8a85-4e95-9a9a-5ec5a4502a9d" name="cy_io_17" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_B6</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_17</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="23a92142-580e-41a4-a189-ce31713cdd91" name="aroute_amux_7" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_7</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX0</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="266d3f36-d5c9-48c6-82f4-8b42cd4680ee" name="cy_io_14" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_B3</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_14</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="297ef72e-5d84-483c-8434-3cc9ba9b1383" name="cy_io_19" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_19</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value>GPIO_OUT1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="29c3252f-fdd3-46f8-a07d-cd2ccd2c1bb8" name="cy_arrow_116" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_116</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="2b89525b-4afd-451d-9760-841cb6d03046" name="cy_arrow_74" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_74</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="2e73d129-bab1-4c9a-af0a-9b0bc43b5cc6" name="cy_arrow_88" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_88</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="2f8ea65c-d9d4-4c40-9e3f-ed26570d609a" name="aroute_amux_14" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_14</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX0</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="2fcb86f3-f484-4a67-b803-b4486b933bf0" name="cy_arrow_92" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_92</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="30c036e2-6fd0-41b6-b05d-80506fb3f740" name="cy_arrow_85" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_85</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="311d26f7-85dc-424d-80c2-cac503bc8865" name="cy_arrow_133" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_133</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="3160df08-ef3a-4f41-b7f0-74627ac02c64" name="cy_io_31" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>P8.3</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_31</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="31b48657-826e-4c34-9f24-aa4719b3896c" name="aroute_amux_12" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_12</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX0</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="32491c98-23bd-4002-bfd9-5a3167624944" name="AC_block" component="BOY2_blocks">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AC</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AC_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>Autonomous controller (AC)</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="33c5e29c-33b2-448d-bfda-49a341a3a6ce" name="cy_bus3_1" component="cy_bus3">
+      <Parameter name="color">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_bus3_1</Value>
+      </Parameter>
+      <Parameter name="n">
+        <Value>8</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AN_A</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="35756e2a-449b-4ece-8e77-65c34f0d2725" name="cy_arrow_80" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_80</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="358df4dc-1a1a-4351-8963-557e6f9c12be" name="cy_arrow_129" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_129</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="374f7a12-ac93-4367-8640-6f76a692eb5f" name="cy_arrow_37" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_37</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="37d51868-962c-4df0-b257-ea3339ac6c08" name="cy_arrow_75" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_75</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="38f24849-d15f-4ab4-9a48-22104a36781b" name="cy_arrow_42" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_42</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="39602776-5ba2-4ea5-bd47-0fc42712c558" name="cy_io_22" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_22</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value>GPIO_OUT4</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3a278d31-bb46-4506-a77d-1c3fc3f7b015" name="cy_arrow_79" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_79</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="3a912d6b-a456-4ce3-a9aa-a3fbea8354dc" name="cy_arrow_45" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_45</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="3c204046-bc13-4c5f-bdfe-3f249ab96afc" name="cy_arrow_140" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_140</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="3dec008d-da76-459a-a03a-14777542c631" name="cy_arrow_14" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_14</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="3e4e6495-0154-4af5-ae17-8c652bb274e7" name="cy_arrow_40" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_40</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="3ebc2d41-470c-42c6-9db8-c81bc703cc14" name="cy_arrow_33" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_33</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="3efc6d28-8a5d-4350-b918-4ce9957a8bc2" name="mux_6" component="mux_5">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_6</Value>
+      </Parameter>
+      <Parameter name="showName">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="3f527c4f-16ed-4ca5-af90-747d52668ba3" name="cy_arrow_132" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_132</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="410c78d5-c762-4460-81d7-67e39b0993a7" name="cy_arrow_34" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_34</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="4256547b-c60d-4e6c-ab52-c266691e850f" name="aroute_amux_3" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX3</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_3</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX3</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>4</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="46969f10-d471-41a4-ac59-6ef142145990" name="cy_arrow_29" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_29</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="47518c55-a1d8-4f57-9d5e-4608739b54cf" name="cy_arrow_30" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_30</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="48838337-546e-4823-81ec-71dc4982812a" name="cy_arrow_134" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_134</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="490510bb-c476-47f5-973e-e43cfabe259a" name="cy_arrow_3" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_3</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="4c389ffe-35bd-4cb5-af79-48a2bc502684" name="cy_arrow_48" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_48</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="4d4b0804-8ef1-44eb-89bc-ab40cacc96e8" name="ADCpost_block" component="BOY2_blocks">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>ADC_post</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>ADCpost_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>ADC post-processing</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="4e626d7d-3453-4462-b1a1-e96816c9e719" name="cy_arrow_139" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_139</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="5153c25d-2ff3-419d-a6f6-58838df71f60" name="cy_arrow_143" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_143</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="52973dcf-5178-4971-b80a-b8e71ffb1a93" name="mux_5" component="mux_5">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_5</Value>
+      </Parameter>
+      <Parameter name="showName">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="52d24b7f-9337-485a-908d-21fc73b1e849" name="cy_arrow_17" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_17</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="55dc8006-4141-4b7d-b643-06b18350d783" name="cy_arrow_65" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_65</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="585484dd-77a2-4d9e-9fe1-1a602fe4ef8d" name="cy_arrow_66" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_66</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="593e5677-d6c1-4906-b041-340dea08a7b0" name="cy_arrow_16" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_16</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="5a63987e-9f73-4fd8-8207-7279ed1c34fe" name="cy_arrow_53" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_53</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="5a88542c-d3c2-4d2b-a69c-0131e65b6ad7" name="cy_arrow_126" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_126</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="5a95d646-cc6a-4dc0-b6db-d6e95656a376" name="AROUTE_block" component="BOY2_blocks">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AROUTE_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>AROUTE</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5abab847-0b54-4bfa-8da1-1c956daf233a" name="cy_arrow_configurable_1" component="cy_arrow_configurable">
+      <Parameter name="capped">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="color">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_configurable_1</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="twoSided">
+        <Value>true</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5c3effd4-0c2d-48c9-a377-359cc0a9f7b0" name="INFRA_block" component="BOY2_blocks">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>INFRA</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>INFRA_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>INFRA</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5d324388-07f8-4d7b-aee7-a8efaaaaa344" name="cy_arrow_141" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_141</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="5efc8566-3366-410f-a2e6-c295179503d2" name="AFE2_block" component="cy_boy2_AFE">
+      <Parameter name="color">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AFE2</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AFE2_block</Value>
+      </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>AFE2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="5f34e2be-7313-4e71-ac86-e6d6cdd9cae1" name="cy_arrow_111" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_111</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="5fa92f99-a4ad-4b84-b023-a072c267143d" name="aroute_amux_0" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_0</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX0</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>4</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6043fc9f-5eba-4fdb-9e07-921017d0f6c8" name="cy_io_32" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>VDDA</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_32</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6165529e-3798-4029-a93d-ae38ac1dd685" name="cy_arrow_99" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_99</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="618692a5-e4e9-4769-a209-f5d49079b486" name="SARADC_block" component="BOY2_blocks">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>SARADC</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>SARADC_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>19</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>12-bit SAR ADC</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="61a3da9d-89ba-433c-a7e8-4100e0490046" name="cy_arrow_114" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_114</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="61c0a813-bb16-4460-bf5a-e466ddabb51f" name="cy_arrow_46" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_46</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="620fe561-6544-4ade-bf20-8e22e2956415" name="cy_arrow_137" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_137</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="628fffb9-01cd-4c48-9909-92788732b6a4" name="cy_arrow_41" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_41</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6314b78d-4f96-40d2-991b-e88cf41e1e00" name="cy_arrow_96" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_96</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="64177092-31ca-42c8-b6c0-92cf3c78fe42" name="cy_arrow_43" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_43</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="647713b5-17aa-41f2-a18b-a09a77e3f2fd" name="cy_arrow_123" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_123</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6592f3a6-ba64-486b-943b-45ca803e4c08" name="R2R_DAC1_block" component="cy_boy2_DAC">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>DACext1</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>R2R_DAC1_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="65c5ddeb-cc30-407d-ab18-e3839a342dea" name="cy_arrow_1" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_1</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="684aac90-0a99-4ecc-a1c5-d1de65d488b3" name="aroute_amux_5" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX3</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_5</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX3</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="684eae84-6e7f-4fab-be17-a941a47a6eec" name="cy_arrow_61" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_61</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6b6bf757-68ef-4fed-97b3-ad456d5f36d0" name="cy_arrow_101" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_101</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6b795a5e-e285-4341-b892-412eab72c563" name="cy_io_26" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>P7.7</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_26</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6c9d56cf-7e98-459b-8800-99a1547792bb" name="cy_arrow_35" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_35</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6d611b7c-e1f8-4702-9f78-590a2150b5cc" name="cy_io_4" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_A1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_4</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6f1340f7-e656-427b-a225-f6ba8046af39" name="cy_arrow_25" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_25</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6f37c81e-f847-4d77-b10a-2fa4d2b0ad60" name="cy_io_29" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>P8.4</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_29</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6f98d0b6-036c-4367-9f51-6f7fdbb6fc3e" name="cy_arrow_118" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_118</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="6fa37f02-3456-42d1-bb15-09073af7163e" name="cy_buffer_small_1" component="cy_buffer_small">
+      <Parameter name="color">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_buffer_small_1</Value>
+      </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="SlopeGen">
+        <Value>true</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7035a84d-78dc-4614-be17-283bf21d7d95" name="AFE_block_1" component="BOY2_blocks">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AFE_block</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AFE_block_1</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>23</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>AFE</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="70f894da-f97f-483f-a454-a70f5a7c85f0" name="cy_arrow_31" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_31</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="71673117-3260-4b86-bf04-887563304ae3" name="cy_arrow_23" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_23</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="726ee403-1af0-4a27-8dd3-3a8587aae291" name="cy_arrow_24" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_24</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="742f6b88-6848-4d4d-8a20-5b9f0664d06f" name="cy_arrow_36" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_36</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="744a0e9d-a8bf-4d45-a130-e93b3eb27474" name="cy_arrow_55" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_55</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="74bb389d-5cf5-43b4-b7a1-ab1b1fb4712c" name="cy_arrow_76" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_76</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="754ea74d-4f78-49af-94b5-1c4a057117e5" name="cy_arrow_9" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_9</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="75f68002-8641-4b52-863d-a2db605c4d54" name="cy_arrow_20" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_20</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="764e8071-779f-4049-a7ec-a64984db653e" name="aroute_amux_6" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX3</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_6</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX3</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="77291b6d-c14c-4e33-b468-0b9d5cce191d" name="cy_io_1" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>VAREF_EXT</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_1</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="77b0a877-b1e4-4528-97ad-be6cbb705388" name="cy_arrow_70" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_70</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="77e419ad-9f87-4810-bbb0-361eb27b5cd7" name="cy_io_6" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_A3</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_6</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="780f96d2-55f2-4e61-84c4-2c4542733f26" name="cy_arrow_125" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_125</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="7905c3c0-a35d-4521-83ff-4a46877e5c96" name="arc_bridge_4" component="arc_bridge">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>arc_bridge_4</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="794517f3-a1cd-435b-b686-c1930b15f741" name="mux_4" component="mux_5">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_4</Value>
+      </Parameter>
+      <Parameter name="showName">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="7a4964d5-67cf-4c07-9bc7-c54cb10ade78" name="cy_arrow_62" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_62</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="7bd59f36-b33f-4604-8a96-7037d6e5aa65" name="cy_io_11" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_B0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_11</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="7c2e076a-0868-42c4-9f78-a997312d3904" name="cy_io_28" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>P8.2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_28</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="7fd7a48d-adc7-46d7-b38f-f7042a524535" name="cy_io_7" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_A4</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_7</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="7fd86004-3a16-470e-9665-70b95bd89d76" name="cy_arrow_103" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_103</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="8444759b-abb3-4e82-a2f1-bb8ee8c6a77f" name="AFE1_block" component="cy_boy2_AFE">
+      <Parameter name="color">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AFE1</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AFE1_block</Value>
+      </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>AFE1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="872fea7c-aa2e-405b-aa4a-da97ef5e6e47" name="cy_arrow_47" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_47</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="897617df-ab45-4b69-b2c3-ba3c5ab949ca" name="cy_io_3" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_A0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_3</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="8ae6afec-56da-40ac-884a-7168fa11e6b8" name="TOP_R2R_DAC_block" component="BOY2_blocks">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>R2R_DAC_TOP</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>TOP_R2R_DAC_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>14</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>12-bit R2R DAC</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="8be2d3f5-ce3d-4035-b29d-ea65558202f4" name="arc_bridge_3" component="arc_bridge">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>arc_bridge_3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="8c7111b0-bc5f-4dd1-86b2-81b1c523c6cb" name="cy_arrow_78" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_78</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="8f8c2749-d0bb-4c4d-af4f-facd17c903e9" name="cy_arrow_115" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_115</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="8fd0ee5a-ca0c-4c2a-b1a3-d758bf103b6e" name="aroute_amux_13" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_13</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX0</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="903f0dca-2810-45d2-89e8-2c50ec89afe1" name="cy_arrow_69" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_69</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="917b11ee-3eea-4098-8aee-b6fdde29cf00" name="cy_arrow_135" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_135</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="9372102f-c883-4afa-98fb-77caa3546375" name="cy_arrow_39" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_39</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="960dc022-21c8-40a2-8d01-c59f29a43567" name="cy_arrow_68" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_68</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="976b12f6-35be-4d46-9d6b-c8a5e0eb9941" name="cy_arrow_5" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_5</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="9d4c4582-746b-4d20-8ff4-243c44991850" name="AFE0_block" component="cy_boy2_AFE">
+      <Parameter name="color">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AFE0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AFE0_block</Value>
+      </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>AFE0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a21bfb47-7586-44a2-aa09-b15f78cd886a" name="cy_arrow_4" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_4</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="a2e01242-2be5-4c7e-be28-2879fb9b8e8b" name="cy_io_16" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_B5</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_16</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="a37d49a7-50c4-4445-a2da-8ef2d9d50739" name="cy_arrow_128" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_128</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="a3ee87d3-cc39-42dc-94e6-958a7c6782c5" name="cy_arrow_82" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_82</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="a5659003-e604-4a0a-b361-5f06eb92e965" name="cy_arrow_100" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_100</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="a6093393-de6e-4eb2-9633-392efcd2f40f" name="cy_io_12" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_B1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_12</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="a65a3f71-e97e-4ecc-95a8-46f3840ccf7a" name="cy_arrow_22" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_22</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="a6e74c3c-8c79-4874-a3c4-8563b250059f" name="cy_arrow_configurable_2" component="cy_arrow_configurable">
+      <Parameter name="capped">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="color">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_configurable_2</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="twoSided">
+        <Value>true</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="a7912326-c0b3-47ce-808d-dbb91b05ceb0" name="cy_arrow_109" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_109</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="aa69f9f0-e337-4f71-83d0-a0d45e3b0fbc" name="cy_arrow_63" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_63</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ab24f219-d2b2-48b5-bce3-586845682394" name="cy_io_24" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>P7.5</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_24</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ab344d5a-dd60-48f2-a66c-0fa8cc2253fd" name="cy_arrow_44" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_44</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ac1e1f97-54b8-47cd-bc40-f3caabb261c8" name="aroute_amux_1" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX1</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_1</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX1</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>4</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ac594a7e-6728-43b5-a0db-0c265ebc83ab" name="cy_arrow_112" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_112</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ad6fa110-a431-40eb-87c1-338018394fbc" name="cy_io_25" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>P7.6</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_25</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="adf4857b-b982-412a-8694-0f4b1f4d482c" name="cy_io_30" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>P8.5</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_30</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="aec17e9f-89ae-462b-bc2d-39c72d288af2" name="cy_arrow_93" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_93</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="af0db375-0163-47f4-ac3f-d9dc9390e475" name="cy_io_15" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_B4</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_15</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="af13aa0a-ef92-4d8c-af97-6667e13a75fa" name="cy_io_27" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>P8.0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_27</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="af4613c3-9ccb-4555-bebf-15b5b2670f29" name="cy_arrow_26" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_26</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="b0b7efde-e2f5-4820-b9bc-b189feff4881" name="cy_arrow_107" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_107</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="b297f655-75f8-48e1-b9fd-3bae690d1461" name="cy_arrow_54" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_54</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="b5e9d0d0-bea2-4168-a130-e1aae5ba8ec6" name="cy_arrow_27" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_27</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="b6883138-9cab-4907-b89f-cf1f9e542b66" name="cy_io_13" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_B2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_13</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="b8764e00-5543-4f78-afb9-14ba4529f60b" name="cy_arrow_97" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_97</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="b9186727-c5ca-468b-93f1-335e82106471" name="cy_arrow_77" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_77</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="b9999b8f-717a-4806-b8c7-b5443aa61ca9" name="cy_arrow_86" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_86</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ba792b17-ce94-4d59-97de-33cb2d169b33" name="cy_arrow_73" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_73</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="bb11b62e-19f4-4c7d-a7da-6c0021345a4f" name="cy_arrow_56" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_56</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="bccac72a-c542-4971-8577-1b3d276e8190" name="cy_arrow_10" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_10</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="bd4ca8cd-8bb7-4ad4-a075-31e4fd52ddac" name="cy_arrow_38" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_38</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="bdf4ed3a-9947-415a-b064-4a0471674530" name="cy_arrow_113" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_113</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="c0fdbf29-0021-4012-b3fb-c6f6dded3304" name="cy_arrow_89" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_89</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="c116e7de-3cda-48cb-9da8-42fd54f2e7b3" name="mux_9" component="mux_5">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_9</Value>
+      </Parameter>
+      <Parameter name="showName">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="c1532271-608f-4870-a57e-9bfc9dfa36a1" name="cy_arrow_28" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_28</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="c2832f1f-18ac-4d68-91b0-8fc48ac8d1cb" name="cy_arrow_83" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_83</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="c5a9960c-da5e-44f4-b8e9-8426e607fadb" name="cy_arrow_104" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_104</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="c888ca56-77ee-4e91-835c-3be23dd5dd25" name="cy_arrow_106" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_106</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="c8cda8f4-48b2-4d22-b27f-11a6691d1e41" name="cy_arrow_117" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_117</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="c9918eb0-1d2d-4d48-a180-4f57c840c6c6" name="cy_arrow_91" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_91</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="c9e2ae67-df95-4309-adc0-7c64dcea9dc4" name="cy_arrow_94" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_94</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="cae6fcf5-8830-4ad5-81b0-e532e6b9caa5" name="cy_io_23" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>P7.4</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_23</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="cb12f45b-fa97-43ef-b3fb-a0806d62a1ec" name="cy_arrow_105" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_105</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="cbf99922-d85a-4db4-9f07-c812bd69b4eb" name="cy_arrow_138" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_138</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ce436ce6-8e65-4620-98f3-d35eb1f648cd" name="cy_arrow_19" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_19</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="cf62d511-0b3d-47cc-875a-61eef96d62ad" name="HWFILT3P3ZSS_block" component="cy_boy2_HW3P3Zf">
+      <Parameter name="Count">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>HWFILT3P3ZSS</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>HWFILT3P3ZSS_block</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>HW3P3Z filter</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="d1ff826a-d030-48bc-88af-d283e28b3a8a" name="cy_arrow_72" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_72</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d40212dd-78ab-4018-ab85-c27855dbdd07" name="cy_arrow_108" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_108</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d494bf27-ac97-4be9-8085-3197c6e4f63d" name="cy_arrow_32" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_32</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d4f36d68-31c4-4c79-9d61-a8e4651ef58c" name="aroute_amux_2" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX2</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>2</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_2</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX2</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>4</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d5822023-deb7-4227-9bb5-e4abc1c48b87" name="cy_arrow_131" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_131</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d62bf9bb-239b-49ef-8f71-91545444fbb0" name="cy_arrow_52" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_52</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d6d01c11-01f5-4ddd-b54b-6986259451a2" name="cy_arrow_18" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_18</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d6f1143c-a494-4629-b3c7-08fae73f664c" name="cy_arrow_71" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_71</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d918bd62-6db1-434e-b1cb-32dfbf51df2b" name="cy_arrow_60" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_60</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="d9ab22ae-27f5-4125-86cc-a661bf517124" name="cy_arrow_67" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_67</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="da86408c-bf60-4931-944b-a880c7e884c7" name="cy_io_21" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_21</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value>GPIO_OUT3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="dab6ac6c-0a7e-488d-95f0-8e5995ed0df0" name="cy_arrow_119" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_119</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="dbdf8527-5cb5-42db-a4d8-6e9d78b3bff2" name="cy_arrow_136" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_136</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ddfae21b-c645-4e09-977a-2e402622a64c" name="cy_arrow_81" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_81</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="e085ebb9-993a-4ab2-b0b5-fc508a938244" name="cy_arrow_51" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_51</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="e2750666-c361-4d46-aaf0-c407aad9fe5a" name="cy_arrow_130" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_130</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="e3bda984-123e-427d-adfa-44310d6946a7" name="cy_buffer_small_7" component="cy_buffer_small">
+      <Parameter name="color">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_buffer_small_7</Value>
+      </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="SlopeGen">
+        <Value>true</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="e3cc706c-59fa-4e84-85ee-285626c11ef3" name="cy_arrow_127" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_127</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="e46aa868-0f07-409a-91d4-91fec62045f3" name="cy_arrow_13" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_13</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="e652c983-66a7-4667-bff5-fb308f9097c7" name="aroute_amux_10" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_10</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX0</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="e864509e-e881-4576-9ccd-7e0360a8cdba" name="cy_arrow_121" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_121</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="e95e1fac-5937-4185-a73e-677004aa3c61" name="cy_arrow_7" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_7</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ea179035-a954-4be8-8d15-f013225cec95" name="cy_arrow_59" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_59</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ea796a42-81df-4955-a6ea-090a88edb42e" name="cy_arrow_120" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_120</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="eba3c997-92cb-489d-a468-169e7569a6dd" name="cy_arrow_95" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_95</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ec8d5d70-54ff-4305-9d83-123a4fbec25f" name="cy_bus3_2" component="cy_bus3">
+      <Parameter name="color">
+        <Value>1</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_bus3_2</Value>
+      </Parameter>
+      <Parameter name="n">
+        <Value>4</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AN_B</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="edc9a453-24ff-43fe-a102-56beae62288e" name="cy_arrow_2" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_2</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="f0a5787c-9e1b-424c-b4b3-15c1d1a07ae6" name="AFE3_block" component="cy_boy2_AFE">
+      <Parameter name="color">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AFE3</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>AFE3_block</Value>
+      </Parameter>
+      <Parameter name="PlusMinus">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>AFE3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f1047e13-66e8-4544-af9e-cc81fc9b7682" name="aroute_amux_4" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX3</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>3</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_4</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX3</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="f1e5af05-3cd0-426c-b5d3-cb32e35b5c7e" name="aroute_amux_8" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_8</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX0</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="f20945fd-e921-45f4-b344-2e6df0eabc6a" name="arc_bridge_1" component="arc_bridge">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>arc_bridge_1</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f238f7a1-b8d3-4774-a856-506ba2b64031" name="cy_arrow_57" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_57</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="f4f91483-3af8-419d-a4a2-de49ce00f589" name="cy_io_20" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_20</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value>GPIO_OUT2</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f6230fac-ea2d-4f3a-9a75-e672c4c99eec" name="mux_14" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value />
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_14</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>mux_1_N</Value>
+        <Expression>`=$INSTANCE_NAME`</Expression>
+      </Parameter>
+      <Parameter name="size">
+        <Value>6</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="f62709bf-a453-4790-b18d-8e893539321f" name="cy_arrow_49" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_49</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="f698f03a-19a4-4d9d-8e7c-577003f6bd5e" name="R2R_DAC0_block" component="cy_boy2_DAC">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>DACext0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>R2R_DAC0_block</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>DAC0</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="f6a7aeae-477e-450f-bbe3-5d7e7acc76e6" name="aroute_amux_11" component="mux_1">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>AROUTE_AMUX0</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>aroute_amux_11</Value>
+      </Parameter>
+      <Parameter name="name">
+        <Value>AMUX0</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>5</Value>
+      </Parameter>
+      <Parameter name="ToolTip">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="f8c6895b-19ed-4996-b282-bf0c1ee78d6a" name="cy_arrow_58" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_58</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="fb4010f5-d176-44d6-a26f-c1b59ce7ac16" name="cy_arrow_122" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_122</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="fb7217ae-f720-4316-8f56-992638c9508a" name="cy_io_9" component="cy_io">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value>AN_A6</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_io_9</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="fbad479b-1c08-4ee7-a9a8-54efbff6342f" name="cy_arrow_8" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_8</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="fc5713cd-00f5-400b-9e63-fb28f8114904" name="cy_arrow_6" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_6</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="fdedabd7-4a0b-4715-9bd9-a436ac1e4900" name="cy_arrow_124" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_124</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="fe34f419-3082-455a-914a-563900a5e9a2" name="mux_7" component="mux_5">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_7</Value>
+      </Parameter>
+      <Parameter name="showName">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>3</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="feb8a484-878b-44eb-afce-66199c6ba3ab" name="cy_arrow_15" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_15</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
+      </Parameter>
+    </Instance>
+    <Instance guid="ff191492-d76f-4df9-89ff-a76242bac20b" name="mux_10" component="mux_5">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>mux_10</Value>
+      </Parameter>
+      <Parameter name="showName">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="size">
+        <Value>2</Value>
+      </Parameter>
+    </Instance>
+  </Instances>
+  <Signals count="8">
+    <Signal name="Net_1570" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_1.i" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1571" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_1.o" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1572" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_2.i" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1573" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_2.o" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1574" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_3.i" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1575" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_1576" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_4.i" type="Instance Digital Input" />
+    </Signal>
+    <Signal name="Net_1577" type="Digital" terminalCount="1">
+      <Terminal name="arc_bridge_4.o" type="Instance Digital Output" />
+    </Signal>
+  </Signals>
+  <Properties>
+    <Property name="CanvasBackColor">255, 255, 255</Property>
+    <Property name="Doc.CompanyAddr1" />
+    <Property name="Doc.CompanyAddr2" />
+    <Property name="Doc.CompanyAddr3" />
+    <Property name="Doc.CompanyName">Cypress Semiconductor</Property>
+    <Property name="Doc.SchematicTitle" />
+    <Property name="MajorGridColor">169, 169, 169</Property>
+    <Property name="MinorGridColor">100, 169, 169, 169</Property>
+    <Property name="OnlyShowSolderDotsOnWires">True</Property>
+    <Property name="OwnerLineColor">128, 128, 128</Property>
+    <Property name="ShowGrid">True</Property>
+    <Property name="ShowGridAsLines">False</Property>
+    <Property name="TerminalConnectColor">128, 128, 128</Property>
+    <Property name="TerminalFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireBusSize">2</Property>
+    <Property name="WireDotSize">5</Property>
+    <Property name="WireFont">Microsoft Sans Serif, 10pt</Property>
+    <Property name="WireFontColor">0, 0, 0</Property>
+    <Property name="WireSize">0.25</Property>
+  </Properties>
+</Document>

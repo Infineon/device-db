@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<View xmlns="http://cypress.com/xsd/cymoduleview_v1">
+  <Module name="FCS962N-LP" package="143-WLBGA" layout="GRID" x="11" y="11">
+    <Component name="FCS962N-LP/CYW55512IUBGT" partNumber="CYW55512IUBGT"/>
+  </Module>
+  <Parameters>
+    <Param name="PartNumber" value="FCS962N-LP"/>
+    <Param name="PartAvailability" value="Active"/>
+    <Param name="Child_Mpns" value="CYW55512IUBGT"/>
+    <Param name="Package" value="143-WLBGA"/>
+    <Param name="Next_Best_Alt_Part" value="None"/>
+    <Param name="Vendor" value="Quectel"/>
+    <Param name="DATASHEET" value="https://www.quectel.com/content/uploads/2024/09/Quectel_FCS962N-LP_Short-Range_Module_Specification_V1.0.0_Preliminary_20240722.pdf?wpId=121241"/>
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="FCS962N-LP"/>
+  </DeviceComponents>
+</View>

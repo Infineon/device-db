@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PartNumber" value="CYW55512IUBGT"/>
+    <Param name="PartAvailability" value="Hidden"/>
+    <Param name="DeviceDie" value="55500A1"/>
+    <Param name="Silicon_Revision" value="SAMPLING"/>
+    <Param name="Package" value="143-WLBGA"/>
+    <Param name="CPU" value="ARM CM33"/>
+    <Param name="DeviceSeries" value="55512"/>
+    <Param name="Speed_MHz" value="192"/>
+    <Param name="Flash_KB" value="0"/>
+    <Param name="ROM_KB" value="2048"/>
+    <Param name="SRAM_KB" value="768"/>
+    <Param name="Bluetooth" value="5"/>
+    <Param name="WiFi" value="6"/>
+    <Param name="USB_Type" value="NA"/>
+    <Param name="Vddmin_volts" value="3"/>
+    <Param name="Vddmax_volts" value="4.8"/>
+    <Param name="TempMin_Celsius" value="-40"/>
+    <Param name="TempMax_Celsius" value="85"/>
+    <Param name="SiliconID" value="0x00000000"/>
+    <Param name="REQUIRED_KITS" value="None"/>
+    <Param name="Next_Best_Alt_Part" value="None"/>
+    <Param name="DATASHEET" value="https://www.infineon.com/part/CYW55512"/>
+  </Parameters>
+  <DeviceComponents>
+    <DevComp name="55500"/>
+    <DevComp name="55500A1"/>
+  </DeviceComponents>
+  <DeviceDefines>
+    <DevDef name="BLHS_SUPPORT" types="companion-connectivity"/>
+    <DevDef name="TRXV5" types="companion-connectivity"/>
+  </DeviceDefines>
+  <DeviceCapabilities>
+    <DevCap name="bt"/>
+    <DevCap name="cyw55512"/>
+    <DevCap name="cyw55xxx"/>
+    <DevCap name="flash_0k" types="mcu"/>
+    <DevCap name="sram_768k" types="mcu"/>
+    <DevCap name="wifi"/>
+  </DeviceCapabilities>
+  <types>
+    <type name="companion-connectivity"/>
+  </types>
+  <requires>
+    <one-of>
+      <require key="wifi-sdio"/>
+    </one-of>
+    <require key="bt-uart"/>
+  </requires>
+  <ToolIDs>
+    <ToolID name="bt-configurator"/>
+    <ToolID name="device-configurator"/>
+    <ToolID name="library-manager"/>
+    <ToolID name="project-creator"/>
+  </ToolIDs>
+</View>

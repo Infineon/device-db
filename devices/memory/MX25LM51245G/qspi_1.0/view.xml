@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<CyMemoryConfiguration version="2" xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
+<?xml version="1.0" encoding="UTF-8"?>
+<CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1" version="2">
   <PartNumber>MX25LM51245G</PartNumber>
-  <Configuration></Configuration>
+  <Configuration/>
   <Description>MX25LM51245G - 512Mb bits serial Flash memory
 3.0V</Description>
   <NumberOfAddress>0x04</NumberOfAddress>

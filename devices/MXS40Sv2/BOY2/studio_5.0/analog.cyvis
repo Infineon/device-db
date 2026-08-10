@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
-  <Page index="0" name="Page 1" enabled="true" shapeCount="354">
+  <Page index="0" name="Page 1" enabled="true" shapeCount="360">
     <ClosedShape shapeName="Shape_38" zorder="315">
       <Point x="673.4117" y="156" />
       <Point x="756" y="156" />
@@ -5190,10 +5190,8 @@ _OUT</Text>
     </Annotation>
     <Annotation shapeName="Shape_10192" zorder="338">
       <Location x="1060" y="564" />
-      <Size width="152.0002" height="43" />
-      <Text>See device datasheet
-for the location of digital
-output pins</Text>
+      <Size width="140.0005" height="11.99993" />
+      <Text>See device datasheet</Text>
       <Vertical value="false" />
       <Fill>
         <SolidBrush color="0, 0, 0" />
@@ -5203,12 +5201,9 @@ output pins</Text>
     </Annotation>
     <Annotation shapeName="Shape_10193" zorder="339">
       <Location x="53.99999" y="581.9999" />
-      <Size width="150" height="84.00001" />
+      <Size width="120" height="12" />
       <Text>See device
-datasheet for the
-location of SAR
-ADC GPIO input
-pins</Text>
+</Text>
       <Vertical value="false" />
       <Fill>
         <SolidBrush color="0, 0, 0" />
@@ -5350,6 +5345,73 @@ pins</Text>
       </Fill>
       <Font value="Microsoft Sans Serif, 14pt" />
       <TextAlignment value="MiddleCenter" />
+    </Annotation>
+    <Annotation shapeName="Shape_10219" zorder="354">
+      <Location x="53.99999" y="593.9999" />
+      <Size width="96.00001" height="12.00002" />
+      <Text>datasheet for the</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+    </Annotation>
+    <Annotation shapeName="Shape_10220" zorder="355">
+      <Location x="53.99999" y="605.9999" />
+      <Size width="84.00001" height="12.00007" />
+      <Text>location of SAR</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+    </Annotation>
+    <Annotation shapeName="Shape_10221" zorder="356">
+      <Location x="53.99999" y="629.9999" />
+      <Size width="72.00002" height="12.00009" />
+      <Text>pins</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+    </Annotation>
+    <Annotation shapeName="Shape_10222" zorder="357">
+      <Location x="53.99999" y="617.9999" />
+      <Size width="96.00001" height="12.00006" />
+      <Text>ADC GPIO input</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+    </Annotation>
+    <Annotation shapeName="Shape_10223" zorder="358">
+      <Location x="1060" y="576" />
+      <Size width="116.0005" height="7.02765" />
+      <Text>for the location of digital
+</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+    </Annotation>
+    <Annotation shapeName="Shape_10224" zorder="359">
+      <Location x="1060" y="588" />
+      <Size width="140.0005" height="12.00007" />
+      <Text>output pins</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
     </Annotation>
     <Annotation shapeName="Shape_11267" zorder="350">
       <Location x="310" y="231" />

@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v1">
   <PartNumber>CY15B108Qx</PartNumber>
-  <Description>The Excelon-LP CY15X108QI/CY15X108QN/ is a low power, 8-Mbit nonvolatile
+  <Description>The Excelon-LP CY15X108QI/CY15X108QN is a low power, 8-Mbit nonvolatile
 memory employing an advanced ferroelectric process. A ferro-
 electric random access memory or F-RAM is nonvolatile and
 performs reads and writes similar to a RAM.</Description>
   <NumberOfAddress>0x03</NumberOfAddress>
-  <SizeOfMemory>0x800000</SizeOfMemory>
+  <SizeOfMemory>0x100000</SizeOfMemory>
   <EraseBlockSize>NA</EraseBlockSize>
-  <ProgramPageSize>0x800000</ProgramPageSize>
+  <ProgramPageSize>0x100000</ProgramPageSize>
   <StatusRegisterBusyMask>0x00</StatusRegisterBusyMask>
   <StatusRegisterQuadEnableMask>0x00</StatusRegisterQuadEnableMask>
   <EraseTime>0</EraseTime>
