@@ -1,14 +1,10 @@
-# Device Database v4.39.0
+# Device Database v4.40.0
 
 For details, refer to [README.md](./README.md).
 
 ## Version info
 
-* Add new CCG7D part numbers: CYPD7294-68BFXS, CYPD7295-68BFXS, CYPD7296-68BFXS and CYPD7297-68BFXS.
-* Add PSOC™ Control PSC3M6 and PSC3P6 device support.
-* Add new PSOC™ Control PSC3M3, PSC3M5, PSC3P2 and PSC3P5 part numbers.
-* Add FCS962N-LP module support.
-* Add GD25LQ128E and GD25Q16E QSPI memory configurations.
+* Add PSOC™ Control PSC1M2 and PSC1M3 device support.
 * Minor bug fixes.
 
 ## Recommended device support libraries
@@ -17,68 +13,35 @@ For details, refer to [README.md](./README.md).
 * mtb-pdl-cat2 >= 2.21.0
 * mtb-xmclib-cat3 >= 4.7.0
 * mtb-pdl-cat5 >= 5.0.0
+* mtb-dsl-psc1m3 >= 1.0.0
 * mtb-dsl-psc3m6 >= 1.0.0
 * mtb-dsl-pse8xxgo >= 1.6.0
 * mtb-dsl-pse8xxgp >= 1.6.0
 * mtb-dsl-pse8x6 >= 1.0.0
 
 ## Added devices
-### AIROC™ Connectivity
-#### 55512
-* [CYW55512IUBGT](https://www.infineon.com/part/CYW55512)
-
-### CCG
-#### CCG7D
-* CYPD7294-68BFXS
-* CYPD7295-68BFXS
-* CYPD7296-68BFXS
-* CYPD7297-68BFXS
-
 ### PSOC™ Control
-#### PSC3M3
-* [PSC3M3EDLEQ1](https://www.infineon.com/part/PSC3M3EDLEQ1)
-* [PSC3M3FDS2LEQ1](https://www.infineon.com/part/PSC3M3FDS2LEQ1)
-* [PSC3M3EDYLGQ1](https://www.infineon.com/part/PSC3M3EDYLGQ1)
-* [PSC3M3FDS2YLGQ1](https://www.infineon.com/part/PSC3M3FDS2YLGQ1)
+#### PSC1M2
+* PSC1M2DBABQ0AT
+* PSC1M2EBABQ0AT
+* PSC1M2FBABQ0AT
+* PSC1M2DBLEQ0AT
+* PSC1M2EBLEQ0AT
+* PSC1M2FBLEQ0AT
+* PSC1M2DBLGQ0AT
+* PSC1M2EBLGQ0AT
+* PSC1M2FBLGQ0AT
+* PSC1M2DBTBQ0AT
+* PSC1M2EBTBQ0AT
+* PSC1M2FBTBQ0AT
 
-#### PSC3M5
-* [PSC3M5EDLEQ1](https://www.infineon.com/part/PSC3M5EDLEQ1)
-* [PSC3M5FDS2LEQ1](https://www.infineon.com/part/PSC3M5FDS2LEQ1)
-* [PSC3M5EDYLGQ1](https://www.infineon.com/part/PSC3M5EDYLGQ1)
-* [PSC3M5FDS2YLGQ1](https://www.infineon.com/part/PSC3M5FDS2YLGQ1)
-
-#### PSC3M6
-* PSC3M6GES3AHQ1
-* PSC3M6FDS2AHQ1
-* PSC3M6GES3AFQ1
-* PSC3M6FDS2AFQ1
-* PSC3M6GES3ACQ1
-* PSC3M6FDS2ACQ1
-
-#### PSC3P2
-* [PSC3P2EDLEQ1](https://www.infineon.com/part/PSC3P2EDLEQ1)
-* [PSC3P2FDS2LEQ1](https://www.infineon.com/part/PSC3P2FDS2LEQ1)
-* [PSC3P2EDYLGQ1](https://www.infineon.com/part/PSC3P2EDYLGQ1)
-* [PSC3P2FDS2YLGQ1](https://www.infineon.com/part/PSC3P2FDS2YLGQ1)
-
-#### PSC3P5
-* [PSC3P5EDLEQ1](https://www.infineon.com/part/PSC3P5EDLEQ1)
-* [PSC3P5FDS2LEQ1](https://www.infineon.com/part/PSC3P5FDS2LEQ1)
-* [PSC3P5EDYLGQ1](https://www.infineon.com/part/PSC3P5EDYLGQ1)
-* [PSC3P5FDS2YLGQ1](https://www.infineon.com/part/PSC3P5FDS2YLGQ1)
-
-#### PSC3P6
-* PSC3P6GES3AHQ1
-* PSC3P6FDS2AHQ1
-* PSC3P6GES3AFQ1
-* PSC3P6FDS2AFQ1
-* PSC3P6GES3ACQ1
-* PSC3P6FDS2ACQ1
-
-
-## Added modules
-### Quectel
-* [FCS962N-LP](https://www.quectel.com/content/uploads/2024/09/Quectel_FCS962N-LP_Short-Range_Module_Specification_V1.0.0_Preliminary_20240722.pdf?wpId=121241)
+#### PSC1M3
+* PSC1M3DBABQ0AT
+* PSC1M3EBABQ0AT
+* PSC1M3FBABQ0AT
+* PSC1M3DBLGQ0AT
+* PSC1M3EBLGQ0AT
+* PSC1M3FBLGQ0AT
 
 
 
@@ -92,6 +55,15 @@ For details, refer to [README.md](./README.md).
 ---
 
 ## Previous releases
+
+### v4.39.0 (Aug 3, 2026)
+
+* Add new CCG7D part numbers: CYPD7294-68BFXS, CYPD7295-68BFXS, CYPD7296-68BFXS and CYPD7297-68BFXS.
+* Add PSOC™ Control PSC3M6 and PSC3P6 device support.
+* Add new PSOC™ Control PSC3M3, PSC3M5, PSC3P2 and PSC3P5 part numbers.
+* Add FCS962N-LP module support.
+* Add GD25LQ128E and GD25Q16E QSPI memory configurations.
+* Minor bug fixes.
 
 ### v4.38.0 (May 25, 2026)
 

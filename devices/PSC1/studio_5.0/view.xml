@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <PadsPerPort value="16"/>
+  <PadFunctionTypes>
+    <PadFunctionType name="ALT" connectionsPerPin="9" port="alt"/>
+    <PadFunctionType name="HWO" connectionsPerPin="2" port="hwo"/>
+    <PadFunctionType name="INPUT" connectionsPerPin="14" port="input"/>
+    <PadFunctionType name="ANALOG" connectionsPerPin="1" port="analog"/>
+  </PadFunctionTypes>
+  <PadTypes>
+    <PadType value="PWR" category="POWER"/>
+    <PadType value="GND" category="POWER"/>
+    <PadType value="DEDICATED" category="DEDICATED"/>
+    <PadType value="A1" category="GPIO"/>
+    <PadType value="A1+" category="GPIO"/>
+    <PadType value="A2" category="GPIO"/>
+    <PadType value="AN_DIG_IN" category="GPIO"/>
+    <PadType value="GPIO" category="GPIO"/>
+  </PadTypes>
+</View>

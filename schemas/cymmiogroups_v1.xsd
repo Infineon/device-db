@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema
+    targetNamespace='http://cypress.com/xsd/cymmiogroups_v1'
+    xmlns='http://cypress.com/xsd/cymmiogroups_v1'
+    xmlns:xs='http://www.w3.org/2001/XMLSchema'
+    elementFormDefault='qualified'
+    attributeFormDefault='unqualified'>
+
+    <!-- One MMIO peripheral-group slave.  Each slave owns exactly one bit of the
+       PERI<peri>_GR<group>_SL_CTL register (bit index = the SAS slave number).
+       A personality sets that bit when the slave is "used":
+         used = force OR any(isBlockUsed(target) for target in targets)
+       Always-on infrastructure slaves (PERI, PPC, SRSS, HSIOM, GPIO, ...) set
+       force='true' and carry no targets.  Detectable slaves (SCB, CANFD, TCPWM,
+       LPCOMP, SMARTIO, ...) leave force at its default and list the studio
+       resource paths that indicate real usage.
+       'key' is what Device Configurator addresses the slave by (getCustomData
+       resolves elements by key, never by position); it is the SAS slave name and
+       is unique within its group. -->
+    <xs:complexType name='Slave'>
+        <xs:attribute name='key' type='xs:string' use='required' />
+        <xs:attribute name='bit' type='xs:nonNegativeInteger' use='required' />
+        <xs:attribute name='force' type='xs:boolean' use='optional' default='false' />
+        <xs:attribute name='targets' type='xs:string' use='optional' />
+    </xs:complexType>
+
+    <!-- One MMIO peripheral group.  'group' is the PERI group number used as the
+       first argument to Cy_SysClk_PeriGroupSetSlaveCtl(group, ...).  'peri' is
+       the PERI instance (0 on single-PERI devices).  'key' is what Device
+       Configurator addresses the group by and is unique within the file; it is
+    formed as PERI<peri>_GR<group>, matching the SL_CTL register name. -->
+    <xs:complexType name='MmioGroup'>
+        <xs:sequence>
+            <xs:element name='Slave' type='Slave' minOccurs='0' maxOccurs='unbounded' />
+        </xs:sequence>
+        <xs:attribute name='key' type='xs:string' use='required' />
+        <xs:attribute name='peri' type='xs:nonNegativeInteger' use='required' />
+        <xs:attribute name='group' type='xs:nonNegativeInteger' use='required' />
+    </xs:complexType>
+
+    <!-- Container element of mmio_groups.cydata; holds zero or more MMIO groups.
+       Addressed by Device Configurator's getCustomData, which resolves elements
+       by their 'key' attribute, e.g.
+       getCustomData("/MmioGroup[@key=\"PERI0_GR1\"]/Slave[@key=\"LPCOMP\"]/@targets").
+       The matching key lists are walked with getCustomDataCount("/MmioGroup")
+       and getCustomDataKeys("/MmioGroup", index). -->
+    <xs:element name='MmioGroups'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name='MmioGroup' type='MmioGroup' minOccurs='0' maxOccurs='unbounded' />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
