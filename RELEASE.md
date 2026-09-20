@@ -1,47 +1,72 @@
-# Device Database v4.40.0
+# Device Database v4.41.0
 
 For details, refer to [README.md](./README.md).
 
 ## Version info
 
-* Add PSOC™ Control PSC1M2 and PSC1M3 device support.
+* Add PSOC™ Control PSC3M7, PSC3M8, PSC3P7 and PSC3P8 device support.
+* Add new CYT2B6 and CYT2B7 part numbers.
+* Add APS12808O-OBR-WB, S80KS5123 and W957D8NWSX5I QSPI memory configurations.
 * Minor bug fixes.
 
 ## Recommended device support libraries
 
-* mtb-pdl-cat1 >= 3.23.0
+* mtb-pdl-cat1 >= 3.24.0
 * mtb-pdl-cat2 >= 2.21.0
 * mtb-xmclib-cat3 >= 4.7.0
-* mtb-pdl-cat5 >= 5.0.0
+* mtb-pdl-cat5 >= 5.1.0
 * mtb-dsl-psc1m3 >= 1.0.0
 * mtb-dsl-psc3m6 >= 1.0.0
+* mtb-dsl-psc3m8 >= 1.0.0
 * mtb-dsl-pse8xxgo >= 1.6.0
 * mtb-dsl-pse8xxgp >= 1.6.0
 * mtb-dsl-pse8x6 >= 1.0.0
 
 ## Added devices
 ### PSOC™ Control
-#### PSC1M2
-* PSC1M2DBABQ0AT
-* PSC1M2EBABQ0AT
-* PSC1M2FBABQ0AT
-* PSC1M2DBLEQ0AT
-* PSC1M2EBLEQ0AT
-* PSC1M2FBLEQ0AT
-* PSC1M2DBLGQ0AT
-* PSC1M2EBLGQ0AT
-* PSC1M2FBLGQ0AT
-* PSC1M2DBTBQ0AT
-* PSC1M2EBTBQ0AT
-* PSC1M2FBTBQ0AT
+#### PSC3M7
+* PSC3M7GES3PAFQ1
+* PSC3M7FES2PLHQ1
+* PSC3M7FES2PLGQ1
 
-#### PSC1M3
-* PSC1M3DBABQ0AT
-* PSC1M3EBABQ0AT
-* PSC1M3FBABQ0AT
-* PSC1M3DBLGQ0AT
-* PSC1M3EBLGQ0AT
-* PSC1M3FBLGQ0AT
+#### PSC3M8
+* PSC3M8GFS3PAHQ1
+* PSC3M8GFS3PAFQ1
+* PSC3M8GFS3PACQ1
+* PSC3M8GFS3PLHQ1
+* PSC3M8FES2PLHQ1
+* PSC3M8GFS3PABQ1
+* PSC3M8GFS3PLGQ1
+* PSC3M8FES2PLGQ1
+
+#### PSC3P7
+* PSC3P7GES3PAFQ1
+* PSC3P7FES2PLHQ1
+* PSC3P7FES2PABQ1
+* PSC3P7FES2PLGQ1
+
+#### PSC3P8
+* PSC3P8GFS3PAHQ1
+* PSC3P8GFS3PAFQ1
+* PSC3P8GFS3PACQ1
+* PSC3P8GFS3PLHQ1
+* PSC3P8FES2PLHQ1
+* PSC3P8GFS3PABQ1
+* PSC3P8GFS3PLGQ1
+* PSC3P8FES2PLGQ1
+
+### TRAVEO™
+#### CYT2B6
+* [CYT2B62BAS](https://www.infineon.com/part/CYT2B62BADQ0ANSGS)
+* [CYT2B62BAE](https://www.infineon.com/part/CYT2B62BADQ0ANSGS)
+* [CYT2B62DAS](https://www.infineon.com/part/CYT2B62DADQ0ANSGS)
+* [CYT2B62DAE](https://www.infineon.com/part/CYT2B62DADQ0ANSGS)
+
+#### CYT2B7
+* [CYT2B72BAS](https://www.infineon.com/part/CYT2B72BADQ0ANSGS)
+* [CYT2B72BAE](https://www.infineon.com/part/CYT2B72BADQ0ANSGS)
+* [CYT2B72DAS](https://www.infineon.com/part/CYT2B72DADQ0ANSGS)
+* [CYT2B72DAE](https://www.infineon.com/part/CYT2B72DADQ0ANSGS)
 
 
 
@@ -55,6 +80,10 @@ For details, refer to [README.md](./README.md).
 ---
 
 ## Previous releases
+
+### v4.40.0 (Aug 31, 2026)
+
+* Add PSOC™ Control PSC1M2 and PSC1M3 device support.
 
 ### v4.39.0 (Aug 3, 2026)
 

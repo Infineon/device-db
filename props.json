@@ -5272,6 +5272,11 @@
         "path": "devices/memory/23LCV1024"
       },
       {
+        "name": "APS12808O-OBR-WB",
+        "part": true,
+        "path": "devices/memory/APS12808O-OBR-WB"
+      },
+      {
         "name": "APS6404L",
         "part": true,
         "path": "devices/memory/APS6404L"
@@ -6443,6 +6448,11 @@
         "path": "devices/memory/S70KS1283-85MHz"
       },
       {
+        "name": "S80KS5123",
+        "part": true,
+        "path": "devices/memory/S80KS5123"
+      },
+      {
         "name": "W25Q128BV",
         "part": true,
         "path": "devices/memory/W25Q128BV"
@@ -6488,6 +6498,11 @@
         "name": "W25Q80BL",
         "part": true,
         "path": "devices/memory/W25Q80BL"
+      },
+      {
+        "name": "W957D8NWSX5I",
+        "part": true,
+        "path": "devices/memory/W957D8NWSX5I"
       },
       {
         "name": "MXS22",
@@ -7845,6 +7860,26 @@
         "path": "devices/MXS40/TVIIBE1M"
       },
       {
+        "name": "CYT2B62BAE",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/CYT2B62BAE"
+      },
+      {
+        "name": "CYT2B62BAS",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/CYT2B62BAS"
+      },
+      {
+        "name": "CYT2B62DAE",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/CYT2B62DAE"
+      },
+      {
+        "name": "CYT2B62DAS",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/CYT2B62DAS"
+      },
+      {
         "name": "CYT2B63BAE",
         "part": true,
         "path": "devices/MXS40/TVIIBE1M/CYT2B63BAE"
@@ -7903,6 +7938,26 @@
         "name": "CYT2B65CAS",
         "part": true,
         "path": "devices/MXS40/TVIIBE1M/CYT2B65CAS"
+      },
+      {
+        "name": "CYT2B72BAE",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/CYT2B72BAE"
+      },
+      {
+        "name": "CYT2B72BAS",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/CYT2B72BAS"
+      },
+      {
+        "name": "CYT2B72DAE",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/CYT2B72DAE"
+      },
+      {
+        "name": "CYT2B72DAS",
+        "part": true,
+        "path": "devices/MXS40/TVIIBE1M/CYT2B72DAS"
       },
       {
         "name": "CYT2B73BAE",
@@ -8978,6 +9033,126 @@
         "name": "PSC3P5FDS2YLGQ1",
         "part": true,
         "path": "devices/MXS40Sv2/BOY2/PSC3P5FDS2YLGQ1"
+      },
+      {
+        "name": "BOY4",
+        "part": false,
+        "path": "devices/MXS40Sv2/BOY4"
+      },
+      {
+        "name": "PSC3M7FES2PLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M7FES2PLGQ1"
+      },
+      {
+        "name": "PSC3M7FES2PLHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M7FES2PLHQ1"
+      },
+      {
+        "name": "PSC3M7GES3PAFQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M7GES3PAFQ1"
+      },
+      {
+        "name": "PSC3M8FES2PLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M8FES2PLGQ1"
+      },
+      {
+        "name": "PSC3M8FES2PLHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M8FES2PLHQ1"
+      },
+      {
+        "name": "PSC3M8GFS3PABQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M8GFS3PABQ1"
+      },
+      {
+        "name": "PSC3M8GFS3PACQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M8GFS3PACQ1"
+      },
+      {
+        "name": "PSC3M8GFS3PAFQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M8GFS3PAFQ1"
+      },
+      {
+        "name": "PSC3M8GFS3PAHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M8GFS3PAHQ1"
+      },
+      {
+        "name": "PSC3M8GFS3PLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M8GFS3PLGQ1"
+      },
+      {
+        "name": "PSC3M8GFS3PLHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3M8GFS3PLHQ1"
+      },
+      {
+        "name": "PSC3P7FES2PABQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P7FES2PABQ1"
+      },
+      {
+        "name": "PSC3P7FES2PLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P7FES2PLGQ1"
+      },
+      {
+        "name": "PSC3P7FES2PLHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P7FES2PLHQ1"
+      },
+      {
+        "name": "PSC3P7GES3PAFQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P7GES3PAFQ1"
+      },
+      {
+        "name": "PSC3P8FES2PLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P8FES2PLGQ1"
+      },
+      {
+        "name": "PSC3P8FES2PLHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P8FES2PLHQ1"
+      },
+      {
+        "name": "PSC3P8GFS3PABQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P8GFS3PABQ1"
+      },
+      {
+        "name": "PSC3P8GFS3PACQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P8GFS3PACQ1"
+      },
+      {
+        "name": "PSC3P8GFS3PAFQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P8GFS3PAFQ1"
+      },
+      {
+        "name": "PSC3P8GFS3PAHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P8GFS3PAHQ1"
+      },
+      {
+        "name": "PSC3P8GFS3PLGQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P8GFS3PLGQ1"
+      },
+      {
+        "name": "PSC3P8GFS3PLHQ1",
+        "part": true,
+        "path": "devices/MXS40Sv2/BOY4/PSC3P8GFS3PLHQ1"
       },
       {
         "name": "CYW20829",

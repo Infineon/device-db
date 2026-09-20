@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
   <Page index="0" name="Page 1" enabled="true" shapeCount="351">
-    <Annotation shapeName="Shape_24" zorder="95">
+    <Annotation shapeName="Shape_24" zorder="94">
       <Location x="572.8235" y="563.9999" />
       <Size width="93.17651" height="19.49993" />
       <Text>Low-Power (LP)
@@ -14,7 +14,7 @@ SAR ADC Core</Text>
       <TextAlignment value="MiddleCenter" />
       <ShapeTags />
     </Annotation>
-    <Annotation shapeName="Shape_25" zorder="80">
+    <Annotation shapeName="Shape_25" zorder="79">
       <Location x="572.8235" y="677.9999" />
       <Size width="93.17651" height="19.49993" />
       <Text>High-Speed (HS)
@@ -27,7 +27,7 @@ SAR ADC Core</Text>
       <TextAlignment value="MiddleCenter" />
       <ShapeTags />
     </Annotation>
-    <ClosedShape shapeName="Shape_55" zorder="94">
+    <ClosedShape shapeName="Shape_55" zorder="93">
       <Point x="666" y="594" />
       <Point x="582" y="594" />
       <Point x="564" y="573" />
@@ -42,7 +42,7 @@ SAR ADC Core</Text>
       </Fill>
       <ShapeTags />
     </ClosedShape>
-    <Instance shapeName="Shape_10743" zorder="258" guid="1c348fea-283a-493a-b300-d2f448e56c4f" name="cy_io_1" component="cy_io">
+    <Instance shapeName="Shape_10743" zorder="257" guid="1c348fea-283a-493a-b300-d2f448e56c4f" name="cy_io_1" component="cy_io">
       <Location x="120.5176" y="78" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -345,7 +345,7 @@ SAR ADC Core</Text>
     </Line>
     <Instance shapeName="Shape_10790" zorder="7" guid="7393b45f-a430-4554-a850-bb57968f55c6" name="cy_arrow_configurable_3" component="cy_arrow_configurable">
       <Location x="213" y="222" />
-      <Size width="12" height="35.97972" />
+      <Size width="12" height="35.97974" />
       <SubShapes>
         <ClosedShape>
           <Point x="213" y="231.7297" />
@@ -397,7 +397,7 @@ SAR ADC Core</Text>
     </Instance>
     <Instance shapeName="Shape_10791" zorder="28" guid="06d65056-98a4-4914-a348-0e4abf630c8a" name="cy_arrow_configurable_4" component="cy_arrow_configurable">
       <Location x="189" y="222" />
-      <Size width="12" height="35.97972" />
+      <Size width="12" height="35.97974" />
       <SubShapes>
         <ClosedShape>
           <Point x="189" y="231.7297" />
@@ -555,7 +555,7 @@ SAR ADC Core</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_10799" zorder="377" guid="198c2413-a8d5-4b24-b695-545b9e062129" name="cy_arrow_configurable_7" component="cy_arrow_configurable">
+    <Instance shapeName="Shape_10799" zorder="376" guid="198c2413-a8d5-4b24-b695-545b9e062129" name="cy_arrow_configurable_7" component="cy_arrow_configurable">
       <Location x="295" y="597" />
       <Size width="65" height="12" />
       <SubShapes>
@@ -656,7 +656,7 @@ SAR ADC Core</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_10801" zorder="398" guid="8ed9fefa-b061-4b18-b34e-9f009200c0c7" name="cy_arrow_configurable_9" component="cy_arrow_configurable">
+    <Instance shapeName="Shape_10801" zorder="397" guid="8ed9fefa-b061-4b18-b34e-9f009200c0c7" name="cy_arrow_configurable_9" component="cy_arrow_configurable">
       <Location x="343" y="483" />
       <Size width="119" height="12" />
       <SubShapes>
@@ -765,7 +765,7 @@ SAR ADC Core</Text>
       </Outline>
       <NoFill />
     </Rectangle>
-    <Rectangle shapeName="Shape_10804" zorder="391">
+    <Rectangle shapeName="Shape_10804" zorder="390">
       <Location x="180" y="486" />
       <Size width="174" height="6" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -855,7 +855,7 @@ SAR ADC Core</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Rectangle shapeName="Shape_10815" zorder="369">
+    <Rectangle shapeName="Shape_10815" zorder="368">
       <Location x="462" y="648" />
       <Size width="48" height="84" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -866,8 +866,8 @@ SAR ADC Core</Text>
       </Fill>
     </Rectangle>
     <Rectangle shapeName="Shape_10816" zorder="42">
-      <Location x="228" y="648" />
-      <Size width="48" height="24" />
+      <Location x="210" y="642" />
+      <Size width="90" height="42" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
@@ -875,10 +875,11 @@ SAR ADC Core</Text>
         <SolidBrush color="0, 128, 128" />
       </Fill>
     </Rectangle>
-    <Annotation shapeName="Shape_10817" zorder="43">
-      <Location x="252" y="660" />
-      <Text>Temp
-Sensor</Text>
+    <Annotation shapeName="Shape_10817" zorder="427">
+      <Location x="252" y="663" />
+      <Text>   Temp Sensor
+ (Low-Power SAR
+ ADC Core only)</Text>
       <Vertical value="false" />
       <Fill>
         <SolidBrush color="255, 255, 255" />
@@ -886,7 +887,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_10821" zorder="44">
+    <Annotation shapeName="Shape_10821" zorder="43">
       <Location x="360.4229" y="486" />
       <Text>SAR / PTComp Pins</Text>
       <Vertical value="false" />
@@ -896,7 +897,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_10822" zorder="45">
+    <Annotation shapeName="Shape_10822" zorder="44">
       <Location x="360.4268" y="450" />
       <Text>CTB Pins and Outputs</Text>
       <Vertical value="false" />
@@ -906,7 +907,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_10823" zorder="46">
+    <Annotation shapeName="Shape_10823" zorder="45">
       <Location x="360.3447" y="414" />
       <Text>Voltage Sources</Text>
       <Vertical value="false" />
@@ -916,7 +917,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_10824" zorder="47">
+    <Annotation shapeName="Shape_10824" zorder="46">
       <Location x="258.3447" y="528" />
       <Text>Voltage Sources</Text>
       <Vertical value="false" />
@@ -926,7 +927,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_10825" zorder="48">
+    <Annotation shapeName="Shape_10825" zorder="47">
       <Location x="258.4268" y="564" />
       <Text>CTB Pins and Outputs</Text>
       <Vertical value="false" />
@@ -936,7 +937,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_10826" zorder="49">
+    <Annotation shapeName="Shape_10826" zorder="48">
       <Location x="258.4229" y="600" />
       <Text>SAR / PTComp Pins</Text>
       <Vertical value="false" />
@@ -946,9 +947,9 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Instance shapeName="Shape_10827" zorder="50" guid="df14a46f-67d1-4707-bbc8-55962da93bad" name="cy_arrow_configurable_12" component="cy_arrow_configurable">
+    <Instance shapeName="Shape_10827" zorder="49" guid="df14a46f-67d1-4707-bbc8-55962da93bad" name="cy_arrow_configurable_12" component="cy_arrow_configurable">
       <Location x="506" y="687" />
-      <Size width="27.97968" height="12" />
+      <Size width="27.97974" height="12" />
       <SubShapes>
         <ClosedShape>
           <Point x="524.25" y="699" />
@@ -986,39 +987,39 @@ Sensor</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_10847" zorder="61" effectiveName="Net_2127" type="Digital">
+    <Wire shapeName="Shape_10847" zorder="60" effectiveName="Net_2127" type="Digital">
       <Point1 x="444" y="678" />
       <Point2 x="462" y="678" />
     </Wire>
-    <Wire shapeName="Shape_10865" zorder="59" effectiveName="Net_2127" type="Digital">
+    <Wire shapeName="Shape_10865" zorder="58" effectiveName="Net_2127" type="Digital">
       <Point1 x="372" y="600" />
       <Point2 x="444" y="600" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10866" zorder="57" effectiveName="Net_2127" type="Digital">
+    <Wire shapeName="Shape_10866" zorder="56" effectiveName="Net_2127" type="Digital">
       <Point1 x="444" y="600" solderDot="true" />
       <Point2 x="462" y="600" />
     </Wire>
-    <Wire shapeName="Shape_10868" zorder="53" effectiveName="Net_2128" type="Digital">
+    <Wire shapeName="Shape_10868" zorder="52" effectiveName="Net_2128" type="Digital">
       <Point1 x="372" y="546" />
       <Point2 x="432" y="546" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10869" zorder="51" effectiveName="Net_2128" type="Digital">
+    <Wire shapeName="Shape_10869" zorder="50" effectiveName="Net_2128" type="Digital">
       <Point1 x="432" y="546" solderDot="true" />
       <Point2 x="462" y="546" />
     </Wire>
-    <Wire shapeName="Shape_10871" zorder="55" effectiveName="Net_2128" type="Digital">
+    <Wire shapeName="Shape_10871" zorder="54" effectiveName="Net_2128" type="Digital">
       <Point1 x="432" y="690" />
       <Point2 x="462" y="690" />
     </Wire>
-    <Wire shapeName="Shape_10872" zorder="67" effectiveName="Net_2129" type="Digital">
+    <Wire shapeName="Shape_10872" zorder="66" effectiveName="Net_2129" type="Digital">
       <Point1 x="252" y="624" />
       <Point2 x="252" y="648" />
     </Wire>
-    <Wire shapeName="Shape_10873" zorder="69" effectiveName="Net_2129" type="Digital">
+    <Wire shapeName="Shape_10873" zorder="68" effectiveName="Net_2129" type="Digital">
       <Point1 x="252" y="624" />
       <Point2 x="360" y="624" />
     </Wire>
-    <Annotation shapeName="Shape_10874" zorder="71">
+    <Annotation shapeName="Shape_10874" zorder="70">
       <Location x="306" y="642" />
       <Text>Mux Channels</Text>
       <Vertical value="false" />
@@ -1028,8 +1029,8 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_10875" zorder="72">
-      <Location x="210" y="678" />
+    <Annotation shapeName="Shape_10875" zorder="71">
+      <Location x="210" y="696" />
       <Text>SAR / PTComp Pins</Text>
       <Vertical value="false" />
       <Fill>
@@ -1038,7 +1039,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <ClosedShape shapeName="Shape_10880" zorder="79">
+    <ClosedShape shapeName="Shape_10880" zorder="78">
       <Point x="666" y="708" />
       <Point x="582" y="708" />
       <Point x="564" y="687" />
@@ -1053,19 +1054,19 @@ Sensor</Text>
       </Fill>
       <ShapeTags />
     </ClosedShape>
-    <Wire shapeName="Shape_10887" zorder="73" effectiveName="Net_2132" type="Digital">
+    <Wire shapeName="Shape_10887" zorder="72" effectiveName="Net_2132" type="Digital">
       <Point1 x="546" y="678" />
       <Point2 x="582" y="678" />
     </Wire>
-    <Wire shapeName="Shape_10888" zorder="75" effectiveName="Net_2133" type="Digital">
+    <Wire shapeName="Shape_10888" zorder="74" effectiveName="Net_2133" type="Digital">
       <Point1 x="564" y="696" />
       <Point2 x="588" y="696" />
     </Wire>
-    <Wire shapeName="Shape_10889" zorder="77" effectiveName="Net_2133" type="Digital">
+    <Wire shapeName="Shape_10889" zorder="76" effectiveName="Net_2133" type="Digital">
       <Point1 x="564" y="696" />
       <Point2 x="564" y="720" />
     </Wire>
-    <Instance shapeName="Shape_10890" zorder="81" guid="1cc75e3b-c1ca-467e-9347-7492a7a78446" name="GND_1" component="cy_all_gnd">
+    <Instance shapeName="Shape_10890" zorder="80" guid="1cc75e3b-c1ca-467e-9347-7492a7a78446" name="GND_1" component="cy_all_gnd">
       <Location x="558" y="720" />
       <Size width="12" height="12" />
       <SubShapes>
@@ -1118,23 +1119,23 @@ Sensor</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_10891" zorder="82" effectiveName="Net_2134" type="Digital">
+    <Wire shapeName="Shape_10891" zorder="81" effectiveName="Net_2134" type="Digital">
       <Point1 x="510" y="600" />
       <Point2 x="534" y="600" />
     </Wire>
-    <Wire shapeName="Shape_10894" zorder="86" effectiveName="Net_2134" type="Digital">
+    <Wire shapeName="Shape_10894" zorder="85" effectiveName="Net_2134" type="Digital">
       <Point1 x="534" y="582" />
       <Point2 x="588" y="582" />
     </Wire>
-    <Wire shapeName="Shape_10896" zorder="88" effectiveName="Net_2135" type="Digital">
+    <Wire shapeName="Shape_10896" zorder="87" effectiveName="Net_2135" type="Digital">
       <Point1 x="510" y="546" />
       <Point2 x="534" y="546" />
     </Wire>
-    <Wire shapeName="Shape_10898" zorder="92" effectiveName="Net_2135" type="Digital">
+    <Wire shapeName="Shape_10898" zorder="91" effectiveName="Net_2135" type="Digital">
       <Point1 x="534" y="564" />
       <Point2 x="588" y="564" />
     </Wire>
-    <Annotation shapeName="Shape_10899" zorder="96">
+    <Annotation shapeName="Shape_10899" zorder="95">
       <Location x="510" y="624" />
       <Text>Only one ADC core operates at a time</Text>
       <Vertical value="false" />
@@ -1144,7 +1145,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_10900" zorder="97">
+    <Annotation shapeName="Shape_10900" zorder="96">
       <Location x="360.4932" y="708" />
       <Text>High-Speed Channels</Text>
       <Vertical value="false" />
@@ -1154,31 +1155,31 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Wire shapeName="Shape_10902" zorder="98" effectiveName="Net_2136" type="Digital">
+    <Wire shapeName="Shape_10902" zorder="97" effectiveName="Net_2136" type="Digital">
       <Point1 x="666" y="570" />
       <Point2 x="684" y="570" />
     </Wire>
-    <Wire shapeName="Shape_10903" zorder="100" effectiveName="Net_2136" type="Digital">
+    <Wire shapeName="Shape_10903" zorder="99" effectiveName="Net_2136" type="Digital">
       <Point1 x="684" y="570" />
       <Point2 x="684" y="606" />
     </Wire>
-    <Wire shapeName="Shape_10904" zorder="102" effectiveName="Net_2136" type="Digital">
+    <Wire shapeName="Shape_10904" zorder="101" effectiveName="Net_2136" type="Digital">
       <Point1 x="684" y="606" />
       <Point2 x="702" y="606" />
     </Wire>
-    <Wire shapeName="Shape_10905" zorder="104" effectiveName="Net_2137" type="Digital">
+    <Wire shapeName="Shape_10905" zorder="103" effectiveName="Net_2137" type="Digital">
       <Point1 x="666" y="684" />
       <Point2 x="684" y="684" />
     </Wire>
-    <Wire shapeName="Shape_10906" zorder="106" effectiveName="Net_2137" type="Digital">
+    <Wire shapeName="Shape_10906" zorder="105" effectiveName="Net_2137" type="Digital">
       <Point1 x="684" y="648" />
       <Point2 x="684" y="684" />
     </Wire>
-    <Wire shapeName="Shape_10907" zorder="108" effectiveName="Net_2137" type="Digital">
+    <Wire shapeName="Shape_10907" zorder="107" effectiveName="Net_2137" type="Digital">
       <Point1 x="684" y="648" />
       <Point2 x="702" y="648" />
     </Wire>
-    <Rectangle shapeName="Shape_10909" zorder="110">
+    <Rectangle shapeName="Shape_10909" zorder="109">
       <Location x="708" y="438" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1188,7 +1189,7 @@ Sensor</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_10910" zorder="111">
+    <Rectangle shapeName="Shape_10910" zorder="110">
       <Location x="828" y="438" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1198,7 +1199,7 @@ Sensor</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_10911" zorder="112">
+    <Rectangle shapeName="Shape_10911" zorder="111">
       <Location x="708" y="462" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1208,7 +1209,7 @@ Sensor</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_10912" zorder="113">
+    <Rectangle shapeName="Shape_10912" zorder="112">
       <Location x="828" y="462" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -1218,25 +1219,25 @@ Sensor</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Instance shapeName="Shape_10918" zorder="114" guid="c67942bd-32a7-4623-8884-2e371d5f15c3" name="cy_buffer_small_1" component="cy_buffer_small">
-      <Location x="521.9999" y="402" />
-      <Size width="42" height="47.99997" />
+    <Instance shapeName="Shape_10918" zorder="113" guid="c67942bd-32a7-4623-8884-2e371d5f15c3" name="cy_buffer_small_1" component="cy_buffer_small">
+      <Location x="522" y="402" />
+      <Size width="42" height="48" />
       <SubShapes>
         <ClosedShape>
-          <Point x="521.9999" y="450" />
-          <Point x="563.9999" y="426" />
-          <Point x="521.9999" y="402" />
-          <Point x="521.9999" y="450" />
+          <Point x="522" y="450" />
+          <Point x="564" y="426" />
+          <Point x="522" y="402" />
+          <Point x="522" y="450" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <NoFill />
         </ClosedShape>
         <ClosedShape>
-          <Point x="521.9999" y="450" />
-          <Point x="563.9999" y="426" />
-          <Point x="521.9999" y="402" />
-          <Point x="521.9999" y="450" />
+          <Point x="522" y="450" />
+          <Point x="564" y="426" />
+          <Point x="522" y="402" />
+          <Point x="522" y="450" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
@@ -1288,41 +1289,41 @@ Sensor</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_10922" zorder="63" effectiveName="Net_2127" type="Digital">
+    <Wire shapeName="Shape_10922" zorder="62" effectiveName="Net_2127" type="Digital">
       <Point1 x="444" y="600" solderDot="true" />
       <Point2 x="444" y="678" />
     </Wire>
-    <Wire shapeName="Shape_10927" zorder="90" effectiveName="Net_2135" type="Digital">
+    <Wire shapeName="Shape_10927" zorder="89" effectiveName="Net_2135" type="Digital">
       <Point1 x="534" y="546" />
       <Point2 x="534" y="564" />
     </Wire>
-    <Wire shapeName="Shape_10931" zorder="84" effectiveName="Net_2134" type="Digital">
+    <Wire shapeName="Shape_10931" zorder="83" effectiveName="Net_2134" type="Digital">
       <Point1 x="534" y="582" />
       <Point2 x="534" y="600" />
     </Wire>
-    <Wire shapeName="Shape_10934" zorder="65" effectiveName="Net_2128" type="Digital">
+    <Wire shapeName="Shape_10934" zorder="64" effectiveName="Net_2128" type="Digital">
       <Point1 x="432" y="546" solderDot="true" />
       <Point2 x="432" y="690" />
     </Wire>
-    <Instance shapeName="Shape_10938" zorder="115" guid="cbeb5b78-390d-4118-baff-eec2a828ef17" name="cy_buffer_small_4" component="cy_buffer_small">
-      <Location x="521.9999" y="456" />
-      <Size width="42" height="47.99997" />
+    <Instance shapeName="Shape_10938" zorder="114" guid="cbeb5b78-390d-4118-baff-eec2a828ef17" name="cy_buffer_small_4" component="cy_buffer_small">
+      <Location x="522" y="456" />
+      <Size width="42" height="48" />
       <SubShapes>
         <ClosedShape>
-          <Point x="521.9999" y="504" />
-          <Point x="563.9999" y="480" />
-          <Point x="521.9999" y="456" />
-          <Point x="521.9999" y="504" />
+          <Point x="522" y="504" />
+          <Point x="564" y="480" />
+          <Point x="522" y="456" />
+          <Point x="522" y="504" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
           <NoFill />
         </ClosedShape>
         <ClosedShape>
-          <Point x="521.9999" y="504" />
-          <Point x="563.9999" y="480" />
-          <Point x="521.9999" y="456" />
-          <Point x="521.9999" y="504" />
+          <Point x="522" y="504" />
+          <Point x="564" y="480" />
+          <Point x="522" y="456" />
+          <Point x="522" y="504" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
@@ -1374,7 +1375,7 @@ Sensor</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <ClosedShape shapeName="Shape_10939" zorder="370">
+    <ClosedShape shapeName="Shape_10939" zorder="369">
       <Point x="390" y="564" />
       <Point x="420" y="546" />
       <Point x="390" y="528" />
@@ -1386,7 +1387,7 @@ Sensor</Text>
         <SolidBrush color="0, 128, 128" />
       </Fill>
     </ClosedShape>
-    <ClosedShape shapeName="Shape_10940" zorder="371">
+    <ClosedShape shapeName="Shape_10940" zorder="370">
       <Point x="390" y="618" />
       <Point x="420" y="600" />
       <Point x="390" y="582" />
@@ -1398,11 +1399,11 @@ Sensor</Text>
         <SolidBrush color="0, 128, 128" />
       </Fill>
     </ClosedShape>
-    <Wire shapeName="Shape_10948" zorder="116" effectiveName="Net_2146" type="Digital">
+    <Wire shapeName="Shape_10948" zorder="115" effectiveName="Net_2146" type="Digital">
       <Point1 x="234" y="84" />
       <Point2 x="300" y="84" />
     </Wire>
-    <Instance shapeName="Shape_10950" zorder="127" guid="45fd84ab-cb4a-4d0c-ae26-dea8368b9925" name="cy_resistor_variable_1" component="cy_resistor_variable">
+    <Instance shapeName="Shape_10950" zorder="126" guid="45fd84ab-cb4a-4d0c-ae26-dea8368b9925" name="cy_resistor_variable_1" component="cy_resistor_variable">
       <Location x="246" y="116.5" />
       <Size width="30" height="18.5" />
       <SubShapes>
@@ -1436,7 +1437,7 @@ Sensor</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_10951" zorder="126" guid="b840d641-7d97-44c7-bc3e-9444b3785d16" name="cy_resistor_variable_2" component="cy_resistor_variable">
+    <Instance shapeName="Shape_10951" zorder="125" guid="b840d641-7d97-44c7-bc3e-9444b3785d16" name="cy_resistor_variable_2" component="cy_resistor_variable">
       <Location x="300" y="116.5" />
       <Size width="30" height="18.5" />
       <SubShapes>
@@ -1470,27 +1471,27 @@ Sensor</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_10956" zorder="132" effectiveName="Net_2150" type="Digital">
+    <Wire shapeName="Shape_10956" zorder="131" effectiveName="Net_2150" type="Digital">
       <Point1 x="330" y="96" />
       <Point2 x="342" y="96" />
     </Wire>
-    <Wire shapeName="Shape_10959" zorder="122" effectiveName="Net_2149" type="Digital">
+    <Wire shapeName="Shape_10959" zorder="121" effectiveName="Net_2149" type="Digital">
       <Point1 x="288" y="108" solderDot="true" />
       <Point2 x="300" y="108" />
     </Wire>
-    <Wire shapeName="Shape_10961" zorder="124" effectiveName="Net_2149" type="Digital">
+    <Wire shapeName="Shape_10961" zorder="123" effectiveName="Net_2149" type="Digital">
       <Point1 x="288" y="126" solderDot="true" />
       <Point2 x="306" y="126" />
     </Wire>
-    <Wire shapeName="Shape_10967" zorder="136" effectiveName="Net_2150" type="Digital">
+    <Wire shapeName="Shape_10967" zorder="135" effectiveName="Net_2150" type="Digital">
       <Point1 x="234" y="144" />
       <Point2 x="342" y="144" />
     </Wire>
-    <Wire shapeName="Shape_10970" zorder="130" effectiveName="Net_2150" type="Digital">
+    <Wire shapeName="Shape_10970" zorder="129" effectiveName="Net_2150" type="Digital">
       <Point1 x="342" y="126" solderDot="true" />
       <Point2 x="342" y="144" />
     </Wire>
-    <ClosedShape shapeName="Shape_10975" zorder="138">
+    <ClosedShape shapeName="Shape_10975" zorder="137">
       <Point x="300" y="114" />
       <Point x="330" y="96" />
       <Point x="300" y="78" />
@@ -1502,47 +1503,47 @@ Sensor</Text>
         <SolidBrush color="128, 128, 128" />
       </Fill>
     </ClosedShape>
-    <Wire shapeName="Shape_10981" zorder="134" effectiveName="Net_2149" type="Digital">
+    <Wire shapeName="Shape_10981" zorder="133" effectiveName="Net_2149" type="Digital">
       <Point1 x="288" y="108" solderDot="true" />
       <Point2 x="288" y="126" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10983" zorder="139" effectiveName="Net_2150" type="Digital">
+    <Wire shapeName="Shape_10983" zorder="138" effectiveName="Net_2150" type="Digital">
       <Point1 x="342" y="96" />
       <Point2 x="342" y="126" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10985" zorder="128" effectiveName="Net_2150" type="Digital">
+    <Wire shapeName="Shape_10985" zorder="127" effectiveName="Net_2150" type="Digital">
       <Point1 x="330" y="126" />
       <Point2 x="342" y="126" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10988" zorder="118" effectiveName="Net_2149" type="Digital">
+    <Wire shapeName="Shape_10988" zorder="117" effectiveName="Net_2149" type="Digital">
       <Point1 x="234" y="108" />
       <Point2 x="288" y="108" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10989" zorder="120" effectiveName="Net_2149" type="Digital">
+    <Wire shapeName="Shape_10989" zorder="119" effectiveName="Net_2149" type="Digital">
       <Point1 x="234" y="126" />
       <Point2 x="288" y="126" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10990" zorder="141" effectiveName="Net_2151" type="Digital">
+    <Wire shapeName="Shape_10990" zorder="140" effectiveName="Net_2151" type="Digital">
       <Point1 x="234" y="156" />
       <Point2 x="300" y="156" />
     </Wire>
-    <Wire shapeName="Shape_10991" zorder="143" effectiveName="Net_2152" type="Digital">
+    <Wire shapeName="Shape_10991" zorder="142" effectiveName="Net_2152" type="Digital">
       <Point1 x="234" y="180" />
       <Point2 x="288" y="180" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10992" zorder="145" effectiveName="Net_2152" type="Digital">
+    <Wire shapeName="Shape_10992" zorder="144" effectiveName="Net_2152" type="Digital">
       <Point1 x="234" y="198" />
       <Point2 x="288" y="198" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10993" zorder="147" effectiveName="Net_2152" type="Digital">
+    <Wire shapeName="Shape_10993" zorder="146" effectiveName="Net_2152" type="Digital">
       <Point1 x="288" y="180" solderDot="true" />
       <Point2 x="300" y="180" />
     </Wire>
-    <Wire shapeName="Shape_10994" zorder="149" effectiveName="Net_2152" type="Digital">
+    <Wire shapeName="Shape_10994" zorder="148" effectiveName="Net_2152" type="Digital">
       <Point1 x="288" y="198" solderDot="true" />
       <Point2 x="306" y="198" />
     </Wire>
-    <Instance shapeName="Shape_10995" zorder="151" guid="80c567be-eb48-49a2-95d5-8e392a036fac" name="cy_resistor_variable_3" component="cy_resistor_variable">
+    <Instance shapeName="Shape_10995" zorder="150" guid="80c567be-eb48-49a2-95d5-8e392a036fac" name="cy_resistor_variable_3" component="cy_resistor_variable">
       <Location x="300" y="188.5" />
       <Size width="30" height="18.5" />
       <SubShapes>
@@ -1576,7 +1577,7 @@ Sensor</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_10996" zorder="152" guid="3d0e4ba4-064e-4205-8df2-3a47b69dd4d1" name="cy_resistor_variable_4" component="cy_resistor_variable">
+    <Instance shapeName="Shape_10996" zorder="151" guid="3d0e4ba4-064e-4205-8df2-3a47b69dd4d1" name="cy_resistor_variable_4" component="cy_resistor_variable">
       <Location x="246" y="188.5" />
       <Size width="30" height="18.5" />
       <SubShapes>
@@ -1610,31 +1611,31 @@ Sensor</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_10997" zorder="153" effectiveName="Net_2153" type="Digital">
+    <Wire shapeName="Shape_10997" zorder="152" effectiveName="Net_2153" type="Digital">
       <Point1 x="330" y="198" />
       <Point2 x="342" y="198" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_10998" zorder="155" effectiveName="Net_2153" type="Digital">
+    <Wire shapeName="Shape_10998" zorder="154" effectiveName="Net_2153" type="Digital">
       <Point1 x="342" y="198" solderDot="true" />
       <Point2 x="342" y="216" />
     </Wire>
-    <Wire shapeName="Shape_10999" zorder="157" effectiveName="Net_2153" type="Digital">
+    <Wire shapeName="Shape_10999" zorder="156" effectiveName="Net_2153" type="Digital">
       <Point1 x="330" y="168" />
       <Point2 x="342" y="168" />
     </Wire>
-    <Wire shapeName="Shape_11000" zorder="159" effectiveName="Net_2152" type="Digital">
+    <Wire shapeName="Shape_11000" zorder="158" effectiveName="Net_2152" type="Digital">
       <Point1 x="288" y="180" solderDot="true" />
       <Point2 x="288" y="198" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11001" zorder="161" effectiveName="Net_2153" type="Digital">
+    <Wire shapeName="Shape_11001" zorder="160" effectiveName="Net_2153" type="Digital">
       <Point1 x="234" y="216" />
       <Point2 x="342" y="216" />
     </Wire>
-    <Wire shapeName="Shape_11003" zorder="163" effectiveName="Net_2153" type="Digital">
+    <Wire shapeName="Shape_11003" zorder="162" effectiveName="Net_2153" type="Digital">
       <Point1 x="342" y="168" />
       <Point2 x="342" y="198" solderDot="true" />
     </Wire>
-    <Annotation shapeName="Shape_11004" zorder="165">
+    <Annotation shapeName="Shape_11004" zorder="164">
       <Location x="303.7554" y="96" />
       <Text>+
 
@@ -1646,7 +1647,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 9pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11005" zorder="166">
+    <Annotation shapeName="Shape_11005" zorder="165">
       <Location x="304" y="169" />
       <Text>+
 
@@ -1670,23 +1671,23 @@ Sensor</Text>
         <SolidBrush color="128, 128, 128" />
       </Fill>
     </ClosedShape>
-    <Wire shapeName="Shape_11011" zorder="167" effectiveName="Net_2154" type="Digital">
+    <Wire shapeName="Shape_11011" zorder="166" effectiveName="Net_2154" type="Digital">
       <Point1 x="192" y="126" />
       <Point2 x="204" y="126" />
     </Wire>
-    <Wire shapeName="Shape_11012" zorder="169" effectiveName="Net_2155" type="Digital">
+    <Wire shapeName="Shape_11012" zorder="168" effectiveName="Net_2155" type="Digital">
       <Point1 x="192" y="144" />
       <Point2 x="204" y="144" />
     </Wire>
-    <Wire shapeName="Shape_11013" zorder="171" effectiveName="Net_2156" type="Digital">
+    <Wire shapeName="Shape_11013" zorder="170" effectiveName="Net_2156" type="Digital">
       <Point1 x="192" y="162" />
       <Point2 x="204" y="162" />
     </Wire>
-    <Wire shapeName="Shape_11014" zorder="173" effectiveName="Net_2157" type="Digital">
+    <Wire shapeName="Shape_11014" zorder="172" effectiveName="Net_2157" type="Digital">
       <Point1 x="192" y="180" />
       <Point2 x="204" y="180" />
     </Wire>
-    <ClosedShape shapeName="Shape_11015" zorder="175">
+    <ClosedShape shapeName="Shape_11015" zorder="174">
       <Point x="200" y="114" />
       <Point x="200" y="192" />
       <Point x="212" y="186" />
@@ -1699,7 +1700,7 @@ Sensor</Text>
         <SolidBrush color="128, 128, 128" />
       </Fill>
     </ClosedShape>
-    <ClosedShape shapeName="Shape_11016" zorder="176">
+    <ClosedShape shapeName="Shape_11016" zorder="175">
       <Point x="300" y="366" />
       <Point x="330" y="348" />
       <Point x="300" y="330" />
@@ -1711,7 +1712,7 @@ Sensor</Text>
         <SolidBrush color="128, 128, 128" />
       </Fill>
     </ClosedShape>
-    <Rectangle shapeName="Shape_11017" zorder="177">
+    <Rectangle shapeName="Shape_11017" zorder="176">
       <Location x="180" y="258" />
       <Size width="54" height="144" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -1721,27 +1722,27 @@ Sensor</Text>
         <SolidBrush color="177, 177, 177" />
       </Fill>
     </Rectangle>
-    <Wire shapeName="Shape_11018" zorder="178" effectiveName="Net_2158" type="Digital">
+    <Wire shapeName="Shape_11018" zorder="177" effectiveName="Net_2158" type="Digital">
       <Point1 x="234" y="264" />
       <Point2 x="300" y="264" />
     </Wire>
-    <Wire shapeName="Shape_11019" zorder="180" effectiveName="Net_2159" type="Digital">
+    <Wire shapeName="Shape_11019" zorder="179" effectiveName="Net_2159" type="Digital">
       <Point1 x="234" y="288" />
       <Point2 x="288" y="288" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11020" zorder="182" effectiveName="Net_2159" type="Digital">
+    <Wire shapeName="Shape_11020" zorder="181" effectiveName="Net_2159" type="Digital">
       <Point1 x="234" y="306" />
       <Point2 x="288" y="306" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11021" zorder="184" effectiveName="Net_2159" type="Digital">
+    <Wire shapeName="Shape_11021" zorder="183" effectiveName="Net_2159" type="Digital">
       <Point1 x="288" y="288" solderDot="true" />
       <Point2 x="300" y="288" />
     </Wire>
-    <Wire shapeName="Shape_11022" zorder="186" effectiveName="Net_2159" type="Digital">
+    <Wire shapeName="Shape_11022" zorder="185" effectiveName="Net_2159" type="Digital">
       <Point1 x="288" y="306" solderDot="true" />
       <Point2 x="306" y="306" />
     </Wire>
-    <Instance shapeName="Shape_11023" zorder="188" guid="2410c092-d530-49b2-9c6b-0340be761cf7" name="cy_resistor_variable_5" component="cy_resistor_variable">
+    <Instance shapeName="Shape_11023" zorder="187" guid="2410c092-d530-49b2-9c6b-0340be761cf7" name="cy_resistor_variable_5" component="cy_resistor_variable">
       <Location x="300" y="296.5" />
       <Size width="30" height="18.5" />
       <SubShapes>
@@ -1775,7 +1776,7 @@ Sensor</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11024" zorder="189" guid="730d8f79-57b8-46c0-ac7a-782720a5ac91" name="cy_resistor_variable_6" component="cy_resistor_variable">
+    <Instance shapeName="Shape_11024" zorder="188" guid="730d8f79-57b8-46c0-ac7a-782720a5ac91" name="cy_resistor_variable_6" component="cy_resistor_variable">
       <Location x="246" y="296.5" />
       <Size width="30" height="18.5" />
       <SubShapes>
@@ -1809,27 +1810,27 @@ Sensor</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_11025" zorder="190" effectiveName="Net_2160" type="Digital">
+    <Wire shapeName="Shape_11025" zorder="189" effectiveName="Net_2160" type="Digital">
       <Point1 x="330" y="306" />
       <Point2 x="342" y="306" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11026" zorder="192" effectiveName="Net_2160" type="Digital">
+    <Wire shapeName="Shape_11026" zorder="191" effectiveName="Net_2160" type="Digital">
       <Point1 x="342" y="306" solderDot="true" />
       <Point2 x="342" y="324" />
     </Wire>
-    <Wire shapeName="Shape_11027" zorder="194" effectiveName="Net_2160" type="Digital">
+    <Wire shapeName="Shape_11027" zorder="193" effectiveName="Net_2160" type="Digital">
       <Point1 x="330" y="276" />
       <Point2 x="342" y="276" />
     </Wire>
-    <Wire shapeName="Shape_11028" zorder="196" effectiveName="Net_2159" type="Digital">
+    <Wire shapeName="Shape_11028" zorder="195" effectiveName="Net_2159" type="Digital">
       <Point1 x="288" y="288" solderDot="true" />
       <Point2 x="288" y="306" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11029" zorder="198" effectiveName="Net_2160" type="Digital">
+    <Wire shapeName="Shape_11029" zorder="197" effectiveName="Net_2160" type="Digital">
       <Point1 x="234" y="324" />
       <Point2 x="342" y="324" />
     </Wire>
-    <ClosedShape shapeName="Shape_11030" zorder="200">
+    <ClosedShape shapeName="Shape_11030" zorder="199">
       <Point x="300" y="294" />
       <Point x="330" y="276" />
       <Point x="300" y="258" />
@@ -1841,31 +1842,31 @@ Sensor</Text>
         <SolidBrush color="128, 128, 128" />
       </Fill>
     </ClosedShape>
-    <Wire shapeName="Shape_11031" zorder="201" effectiveName="Net_2160" type="Digital">
+    <Wire shapeName="Shape_11031" zorder="200" effectiveName="Net_2160" type="Digital">
       <Point1 x="342" y="276" />
       <Point2 x="342" y="306" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11032" zorder="203" effectiveName="Net_2161" type="Digital">
+    <Wire shapeName="Shape_11032" zorder="202" effectiveName="Net_2161" type="Digital">
       <Point1 x="234" y="336" />
       <Point2 x="300" y="336" />
     </Wire>
-    <Wire shapeName="Shape_11033" zorder="205" effectiveName="Net_2162" type="Digital">
+    <Wire shapeName="Shape_11033" zorder="204" effectiveName="Net_2162" type="Digital">
       <Point1 x="234" y="360" />
       <Point2 x="288" y="360" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11034" zorder="207" effectiveName="Net_2162" type="Digital">
+    <Wire shapeName="Shape_11034" zorder="206" effectiveName="Net_2162" type="Digital">
       <Point1 x="234" y="378" />
       <Point2 x="288" y="378" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11035" zorder="209" effectiveName="Net_2162" type="Digital">
+    <Wire shapeName="Shape_11035" zorder="208" effectiveName="Net_2162" type="Digital">
       <Point1 x="288" y="360" solderDot="true" />
       <Point2 x="300" y="360" />
     </Wire>
-    <Wire shapeName="Shape_11036" zorder="211" effectiveName="Net_2162" type="Digital">
+    <Wire shapeName="Shape_11036" zorder="210" effectiveName="Net_2162" type="Digital">
       <Point1 x="288" y="378" solderDot="true" />
       <Point2 x="306" y="378" />
     </Wire>
-    <Instance shapeName="Shape_11037" zorder="213" guid="581e4fad-3dc0-4159-b786-27d8b15b0744" name="cy_resistor_variable_7" component="cy_resistor_variable">
+    <Instance shapeName="Shape_11037" zorder="212" guid="581e4fad-3dc0-4159-b786-27d8b15b0744" name="cy_resistor_variable_7" component="cy_resistor_variable">
       <Location x="300" y="368.5" />
       <Size width="30" height="18.5" />
       <SubShapes>
@@ -1899,7 +1900,7 @@ Sensor</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11038" zorder="214" guid="2a56c571-f5f1-4e4a-b7c6-1675af4cfcb6" name="cy_resistor_variable_8" component="cy_resistor_variable">
+    <Instance shapeName="Shape_11038" zorder="213" guid="2a56c571-f5f1-4e4a-b7c6-1675af4cfcb6" name="cy_resistor_variable_8" component="cy_resistor_variable">
       <Location x="246" y="368.5" />
       <Size width="30" height="18.5" />
       <SubShapes>
@@ -1933,31 +1934,31 @@ Sensor</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Wire shapeName="Shape_11039" zorder="215" effectiveName="Net_2163" type="Digital">
+    <Wire shapeName="Shape_11039" zorder="214" effectiveName="Net_2163" type="Digital">
       <Point1 x="330" y="378" />
       <Point2 x="342" y="378" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11040" zorder="217" effectiveName="Net_2163" type="Digital">
+    <Wire shapeName="Shape_11040" zorder="216" effectiveName="Net_2163" type="Digital">
       <Point1 x="342" y="378" solderDot="true" />
       <Point2 x="342" y="396" />
     </Wire>
-    <Wire shapeName="Shape_11041" zorder="219" effectiveName="Net_2163" type="Digital">
+    <Wire shapeName="Shape_11041" zorder="218" effectiveName="Net_2163" type="Digital">
       <Point1 x="330" y="348" />
       <Point2 x="342" y="348" />
     </Wire>
-    <Wire shapeName="Shape_11042" zorder="221" effectiveName="Net_2162" type="Digital">
+    <Wire shapeName="Shape_11042" zorder="220" effectiveName="Net_2162" type="Digital">
       <Point1 x="288" y="360" solderDot="true" />
       <Point2 x="288" y="378" solderDot="true" />
     </Wire>
-    <Wire shapeName="Shape_11043" zorder="223" effectiveName="Net_2163" type="Digital">
+    <Wire shapeName="Shape_11043" zorder="222" effectiveName="Net_2163" type="Digital">
       <Point1 x="234" y="396" />
       <Point2 x="342" y="396" />
     </Wire>
-    <Wire shapeName="Shape_11044" zorder="225" effectiveName="Net_2163" type="Digital">
+    <Wire shapeName="Shape_11044" zorder="224" effectiveName="Net_2163" type="Digital">
       <Point1 x="342" y="348" />
       <Point2 x="342" y="378" solderDot="true" />
     </Wire>
-    <Annotation shapeName="Shape_11045" zorder="227">
+    <Annotation shapeName="Shape_11045" zorder="226">
       <Location x="303.7554" y="276" />
       <Text>+
 
@@ -1969,7 +1970,7 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 9pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11046" zorder="228">
+    <Annotation shapeName="Shape_11046" zorder="227">
       <Location x="304" y="349" />
       <Text>+
 
@@ -1981,23 +1982,23 @@ Sensor</Text>
       <Font value="Microsoft Sans Serif, 9pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Wire shapeName="Shape_11047" zorder="229" effectiveName="Net_2164" type="Digital">
+    <Wire shapeName="Shape_11047" zorder="228" effectiveName="Net_2164" type="Digital">
       <Point1 x="192" y="306" />
       <Point2 x="204" y="306" />
     </Wire>
-    <Wire shapeName="Shape_11048" zorder="231" effectiveName="Net_2165" type="Digital">
+    <Wire shapeName="Shape_11048" zorder="230" effectiveName="Net_2165" type="Digital">
       <Point1 x="192" y="324" />
       <Point2 x="204" y="324" />
     </Wire>
-    <Wire shapeName="Shape_11049" zorder="233" effectiveName="Net_2166" type="Digital">
+    <Wire shapeName="Shape_11049" zorder="232" effectiveName="Net_2166" type="Digital">
       <Point1 x="192" y="342" />
       <Point2 x="204" y="342" />
     </Wire>
-    <Wire shapeName="Shape_11050" zorder="235" effectiveName="Net_2167" type="Digital">
+    <Wire shapeName="Shape_11050" zorder="234" effectiveName="Net_2167" type="Digital">
       <Point1 x="192" y="360" />
       <Point2 x="204" y="360" />
     </Wire>
-    <ClosedShape shapeName="Shape_11051" zorder="237">
+    <ClosedShape shapeName="Shape_11051" zorder="236">
       <Point x="200" y="294" />
       <Point x="200" y="372" />
       <Point x="212" y="366" />
@@ -2010,7 +2011,7 @@ Sensor</Text>
         <SolidBrush color="128, 128, 128" />
       </Fill>
     </ClosedShape>
-    <Annotation shapeName="Shape_11052" zorder="238">
+    <Annotation shapeName="Shape_11052" zorder="237">
       <Location x="206.7456" y="84" />
       <Text>Muxes,
 Routing</Text>
@@ -2021,7 +2022,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 9pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11053" zorder="239">
+    <Annotation shapeName="Shape_11053" zorder="238">
       <Location x="206.7456" y="264" />
       <Text>Muxes,
 Routing</Text>
@@ -2032,7 +2033,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 9pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11058" zorder="240">
+    <Annotation shapeName="Shape_11058" zorder="239">
       <Location x="354" y="150" />
       <Text>CTB0</Text>
       <Vertical value="false" />
@@ -2042,7 +2043,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11059" zorder="241">
+    <Annotation shapeName="Shape_11059" zorder="240">
       <Location x="354" y="330" />
       <Text>CTB1</Text>
       <Vertical value="false" />
@@ -2052,7 +2053,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11060" zorder="242">
+    <Annotation shapeName="Shape_11060" zorder="241">
       <Location x="396.3447" y="238" />
       <Text>Voltage Sources</Text>
       <Vertical value="false" />
@@ -2062,7 +2063,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Instance shapeName="Shape_11063" zorder="257" guid="af0a6f06-4f11-4660-ba38-a29e4d7086ac" name="cy_io_2" component="cy_io">
+    <Instance shapeName="Shape_11063" zorder="256" guid="af0a6f06-4f11-4660-ba38-a29e4d7086ac" name="cy_io_2" component="cy_io">
       <Location x="120.5176" y="96" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2114,7 +2115,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11064" zorder="256" guid="47042e22-13a4-4115-a778-77361ba486f2" name="cy_io_3" component="cy_io">
+    <Instance shapeName="Shape_11064" zorder="255" guid="47042e22-13a4-4115-a778-77361ba486f2" name="cy_io_3" component="cy_io">
       <Location x="120.5176" y="114" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2166,7 +2167,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11065" zorder="255" guid="92c49f4c-0eee-414c-8f78-8bb0bc565790" name="cy_io_4" component="cy_io">
+    <Instance shapeName="Shape_11065" zorder="254" guid="92c49f4c-0eee-414c-8f78-8bb0bc565790" name="cy_io_4" component="cy_io">
       <Location x="120.5176" y="132" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2218,7 +2219,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11066" zorder="254" guid="3f0fad73-4b31-47aa-a14f-1b246d5940f2" name="cy_io_5" component="cy_io">
+    <Instance shapeName="Shape_11066" zorder="253" guid="3f0fad73-4b31-47aa-a14f-1b246d5940f2" name="cy_io_5" component="cy_io">
       <Location x="120.5176" y="150" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2270,7 +2271,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11067" zorder="253" guid="5a3af210-fc7c-49f5-a031-01129c446b6b" name="cy_io_6" component="cy_io">
+    <Instance shapeName="Shape_11067" zorder="252" guid="5a3af210-fc7c-49f5-a031-01129c446b6b" name="cy_io_6" component="cy_io">
       <Location x="120.5176" y="168" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2322,7 +2323,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11068" zorder="252" guid="506d5dd2-cf63-487a-a029-594dda622375" name="cy_io_7" component="cy_io">
+    <Instance shapeName="Shape_11068" zorder="251" guid="506d5dd2-cf63-487a-a029-594dda622375" name="cy_io_7" component="cy_io">
       <Location x="120.5176" y="186" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2374,7 +2375,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11069" zorder="251" guid="072e9ac6-cb78-4dba-af29-131782887a19" name="cy_io_8" component="cy_io">
+    <Instance shapeName="Shape_11069" zorder="250" guid="072e9ac6-cb78-4dba-af29-131782887a19" name="cy_io_8" component="cy_io">
       <Location x="120.5176" y="204" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2426,119 +2427,119 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Line shapeName="Shape_11070" zorder="243">
+    <Line shapeName="Shape_11070" zorder="242">
       <Point x="162" y="84" />
       <Point x="180" y="84" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11071" zorder="244">
+    <Line shapeName="Shape_11071" zorder="243">
       <Point x="162" y="102" />
       <Point x="180" y="102" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11072" zorder="245">
+    <Line shapeName="Shape_11072" zorder="244">
       <Point x="162" y="120" />
       <Point x="180" y="120" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11073" zorder="246">
+    <Line shapeName="Shape_11073" zorder="245">
       <Point x="162" y="138" />
       <Point x="180" y="138" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11074" zorder="247">
+    <Line shapeName="Shape_11074" zorder="246">
       <Point x="162" y="156" />
       <Point x="180" y="156" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11075" zorder="248">
+    <Line shapeName="Shape_11075" zorder="247">
       <Point x="162" y="174" />
       <Point x="180" y="174" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11076" zorder="249">
+    <Line shapeName="Shape_11076" zorder="248">
       <Point x="162" y="192" />
       <Point x="180" y="192" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11077" zorder="250">
+    <Line shapeName="Shape_11077" zorder="249">
       <Point x="162" y="210" />
       <Point x="180" y="210" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11078" zorder="259">
+    <Line shapeName="Shape_11078" zorder="258">
       <Point x="162" y="264" />
       <Point x="180" y="264" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11079" zorder="260">
+    <Line shapeName="Shape_11079" zorder="259">
       <Point x="162" y="282" />
       <Point x="180" y="282" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11080" zorder="261">
+    <Line shapeName="Shape_11080" zorder="260">
       <Point x="162" y="300" />
       <Point x="180" y="300" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11081" zorder="262">
+    <Line shapeName="Shape_11081" zorder="261">
       <Point x="162" y="318" />
       <Point x="180" y="318" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11082" zorder="263">
+    <Line shapeName="Shape_11082" zorder="262">
       <Point x="162" y="336" />
       <Point x="180" y="336" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11083" zorder="264">
+    <Line shapeName="Shape_11083" zorder="263">
       <Point x="162" y="354" />
       <Point x="180" y="354" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11084" zorder="265">
+    <Line shapeName="Shape_11084" zorder="264">
       <Point x="162" y="372" />
       <Point x="180" y="372" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11085" zorder="266">
+    <Line shapeName="Shape_11085" zorder="265">
       <Point x="162" y="390" />
       <Point x="180" y="390" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Instance shapeName="Shape_11086" zorder="267" guid="16046a76-6659-42a5-82b1-5894127673a4" name="cy_io_9" component="cy_io">
+    <Instance shapeName="Shape_11086" zorder="266" guid="16046a76-6659-42a5-82b1-5894127673a4" name="cy_io_9" component="cy_io">
       <Location x="120.5176" y="384" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2590,7 +2591,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11087" zorder="268" guid="6ec492a7-4f6e-40af-9260-c8088d204a4c" name="cy_io_10" component="cy_io">
+    <Instance shapeName="Shape_11087" zorder="267" guid="6ec492a7-4f6e-40af-9260-c8088d204a4c" name="cy_io_10" component="cy_io">
       <Location x="120.5176" y="366" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2642,7 +2643,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11088" zorder="269" guid="d4939183-abdd-4ccc-88e0-9b8540979325" name="cy_io_11" component="cy_io">
+    <Instance shapeName="Shape_11088" zorder="268" guid="d4939183-abdd-4ccc-88e0-9b8540979325" name="cy_io_11" component="cy_io">
       <Location x="120.5176" y="348" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2694,7 +2695,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11089" zorder="270" guid="0966e3bf-3303-4012-a2e3-3f3a039d276a" name="cy_io_12" component="cy_io">
+    <Instance shapeName="Shape_11089" zorder="269" guid="0966e3bf-3303-4012-a2e3-3f3a039d276a" name="cy_io_12" component="cy_io">
       <Location x="120.5176" y="330" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2746,7 +2747,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11090" zorder="271" guid="8503e4c9-3f5e-45dc-b65c-6ddf4610aee2" name="cy_io_13" component="cy_io">
+    <Instance shapeName="Shape_11090" zorder="270" guid="8503e4c9-3f5e-45dc-b65c-6ddf4610aee2" name="cy_io_13" component="cy_io">
       <Location x="120.5176" y="312" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2798,7 +2799,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11091" zorder="272" guid="caa2e53b-184d-442b-8bcd-fec3eaf02103" name="cy_io_14" component="cy_io">
+    <Instance shapeName="Shape_11091" zorder="271" guid="caa2e53b-184d-442b-8bcd-fec3eaf02103" name="cy_io_14" component="cy_io">
       <Location x="120.5176" y="294" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2850,7 +2851,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11092" zorder="273" guid="0dcdeb29-659b-404c-a267-8c8a58bf4f33" name="cy_io_15" component="cy_io">
+    <Instance shapeName="Shape_11092" zorder="272" guid="0dcdeb29-659b-404c-a267-8c8a58bf4f33" name="cy_io_15" component="cy_io">
       <Location x="120.5176" y="276" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2902,7 +2903,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11093" zorder="274" guid="3985879e-aef9-468a-b940-c585b70fba33" name="cy_io_16" component="cy_io">
+    <Instance shapeName="Shape_11093" zorder="273" guid="3985879e-aef9-468a-b940-c585b70fba33" name="cy_io_16" component="cy_io">
       <Location x="120.5176" y="258" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -2954,7 +2955,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Annotation shapeName="Shape_11094" zorder="275">
+    <Annotation shapeName="Shape_11094" zorder="274">
       <Location x="156" y="246" />
       <Text>CTB1 Port</Text>
       <Vertical value="false" />
@@ -2964,7 +2965,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Annotation shapeName="Shape_11095" zorder="276">
+    <Annotation shapeName="Shape_11095" zorder="275">
       <Location x="156" y="66" />
       <Text>CTB0 Port</Text>
       <Vertical value="false" />
@@ -2974,7 +2975,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Rectangle shapeName="Shape_11096" zorder="277">
+    <Rectangle shapeName="Shape_11096" zorder="276">
       <Location x="216" y="231" />
       <Size width="6" height="18" />
       <NoOutline />
@@ -2982,7 +2983,7 @@ Routing</Text>
         <SolidBrush color="154, 205, 50" />
       </Fill>
     </Rectangle>
-    <ClosedShape shapeName="Shape_11097" zorder="278">
+    <ClosedShape shapeName="Shape_11097" zorder="277">
       <Point x="462" y="510" />
       <Point x="474" y="504" />
       <Point x="474" y="402" />
@@ -2995,7 +2996,7 @@ Routing</Text>
         <SolidBrush color="255, 215, 0" />
       </Fill>
     </ClosedShape>
-    <ClosedShape shapeName="Shape_11098" zorder="279">
+    <ClosedShape shapeName="Shape_11098" zorder="278">
       <Point x="360" y="630" />
       <Point x="372" y="624" />
       <Point x="372" y="528" />
@@ -3008,7 +3009,7 @@ Routing</Text>
         <SolidBrush color="0, 128, 128" />
       </Fill>
     </ClosedShape>
-    <Rectangle shapeName="Shape_11099" zorder="280">
+    <Rectangle shapeName="Shape_11099" zorder="279">
       <Location x="534" y="198" />
       <Size width="102" height="60" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -3018,7 +3019,7 @@ Routing</Text>
         <SolidBrush color="255, 140, 0" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11100" zorder="281">
+    <Rectangle shapeName="Shape_11100" zorder="280">
       <Location x="534" y="270" />
       <Size width="102" height="36" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -3028,28 +3029,28 @@ Routing</Text>
         <SolidBrush color="255, 140, 0" />
       </Fill>
     </Rectangle>
-    <Line shapeName="Shape_11103" zorder="282">
+    <Line shapeName="Shape_11103" zorder="281">
       <Point x="534" y="210" />
       <Point x="474" y="210" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11104" zorder="283">
+    <Line shapeName="Shape_11104" zorder="282">
       <Point x="534" y="252" />
       <Point x="474" y="252" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11105" zorder="284">
+    <Line shapeName="Shape_11105" zorder="283">
       <Point x="534" y="288" />
       <Point x="474" y="288" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Instance shapeName="Shape_11106" zorder="285" guid="fbaedd73-863e-46c2-bd94-68d1dc0a3bd1" name="cy_arrow_5" component="cy_arrow">
+    <Instance shapeName="Shape_11106" zorder="284" guid="fbaedd73-863e-46c2-bd94-68d1dc0a3bd1" name="cy_arrow_5" component="cy_arrow">
       <Location x="474" y="284" />
       <Size width="6" height="8" />
       <SubShapes>
@@ -3067,7 +3068,7 @@ Routing</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11107" zorder="286" guid="9f493d2c-6766-4966-8c59-35d7ecfe0bc6" name="cy_arrow_6" component="cy_arrow">
+    <Instance shapeName="Shape_11107" zorder="285" guid="9f493d2c-6766-4966-8c59-35d7ecfe0bc6" name="cy_arrow_6" component="cy_arrow">
       <Location x="474" y="248" />
       <Size width="6" height="8" />
       <SubShapes>
@@ -3085,7 +3086,7 @@ Routing</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11108" zorder="287" guid="17735653-a225-4ccc-a381-9bdd265722ae" name="cy_arrow_7" component="cy_arrow">
+    <Instance shapeName="Shape_11108" zorder="286" guid="17735653-a225-4ccc-a381-9bdd265722ae" name="cy_arrow_7" component="cy_arrow">
       <Location x="474" y="206" />
       <Size width="6" height="8" />
       <SubShapes>
@@ -3103,15 +3104,15 @@ Routing</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11109" zorder="288" guid="a040ba6a-b468-404c-b959-3e4d6f973300" name="cy_arrow_8" component="cy_arrow">
-      <Location x="695.9999" y="422" />
+    <Instance shapeName="Shape_11109" zorder="287" guid="a040ba6a-b468-404c-b959-3e4d6f973300" name="cy_arrow_8" component="cy_arrow">
+      <Location x="696" y="422" />
       <Size width="6" height="8" />
       <SubShapes>
         <ClosedShape>
-          <Point x="695.9999" y="422" />
-          <Point x="695.9999" y="430" />
-          <Point x="701.9999" y="426" />
-          <Point x="695.9999" y="422" />
+          <Point x="696" y="422" />
+          <Point x="696" y="430" />
+          <Point x="702" y="426" />
+          <Point x="696" y="422" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
@@ -3121,15 +3122,15 @@ Routing</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11110" zorder="289" guid="c4efc746-9133-4421-93e8-7a1be972c4bf" name="cy_arrow_9" component="cy_arrow">
-      <Location x="695.9999" y="476" />
+    <Instance shapeName="Shape_11110" zorder="288" guid="c4efc746-9133-4421-93e8-7a1be972c4bf" name="cy_arrow_9" component="cy_arrow">
+      <Location x="696" y="476" />
       <Size width="6" height="8" />
       <SubShapes>
         <ClosedShape>
-          <Point x="695.9999" y="476" />
-          <Point x="695.9999" y="484" />
-          <Point x="701.9999" y="480" />
-          <Point x="695.9999" y="476" />
+          <Point x="696" y="476" />
+          <Point x="696" y="484" />
+          <Point x="702" y="480" />
+          <Point x="696" y="476" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
@@ -3139,15 +3140,15 @@ Routing</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11111" zorder="290" guid="2dde1104-323e-4c9e-b4cc-a87c04c99e16" name="cy_arrow_10" component="cy_arrow">
-      <Location x="695.9999" y="602" />
+    <Instance shapeName="Shape_11111" zorder="289" guid="2dde1104-323e-4c9e-b4cc-a87c04c99e16" name="cy_arrow_10" component="cy_arrow">
+      <Location x="696" y="602" />
       <Size width="6" height="8" />
       <SubShapes>
         <ClosedShape>
-          <Point x="695.9999" y="602" />
-          <Point x="695.9999" y="610" />
-          <Point x="701.9999" y="606" />
-          <Point x="695.9999" y="602" />
+          <Point x="696" y="602" />
+          <Point x="696" y="610" />
+          <Point x="702" y="606" />
+          <Point x="696" y="602" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
@@ -3157,15 +3158,15 @@ Routing</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11112" zorder="291" guid="ff5f3b81-6300-43a2-8254-2b9bb829cbe4" name="cy_arrow_11" component="cy_arrow">
-      <Location x="695.9999" y="644" />
+    <Instance shapeName="Shape_11112" zorder="290" guid="ff5f3b81-6300-43a2-8254-2b9bb829cbe4" name="cy_arrow_11" component="cy_arrow">
+      <Location x="696" y="644" />
       <Size width="6" height="8" />
       <SubShapes>
         <ClosedShape>
-          <Point x="695.9999" y="644" />
-          <Point x="695.9999" y="652" />
-          <Point x="701.9999" y="648" />
-          <Point x="695.9999" y="644" />
+          <Point x="696" y="644" />
+          <Point x="696" y="652" />
+          <Point x="702" y="648" />
+          <Point x="696" y="644" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
@@ -3175,7 +3176,7 @@ Routing</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Rectangle shapeName="Shape_11114" zorder="292">
+    <Rectangle shapeName="Shape_11114" zorder="291">
       <Location x="708" y="102" />
       <Size width="228" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3185,7 +3186,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11118" zorder="293">
+    <Rectangle shapeName="Shape_11118" zorder="292">
       <Location x="708" y="240" />
       <Size width="228" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3195,7 +3196,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11119" zorder="294">
+    <Rectangle shapeName="Shape_11119" zorder="293">
       <Location x="828" y="264" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3205,7 +3206,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11120" zorder="295">
+    <Rectangle shapeName="Shape_11120" zorder="294">
       <Location x="708" y="264" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3215,7 +3216,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11121" zorder="296">
+    <Rectangle shapeName="Shape_11121" zorder="295">
       <Location x="828" y="288" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3225,7 +3226,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11122" zorder="297">
+    <Rectangle shapeName="Shape_11122" zorder="296">
       <Location x="708" y="288" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3235,7 +3236,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11124" zorder="298">
+    <Rectangle shapeName="Shape_11124" zorder="297">
       <Location x="708" y="312" />
       <Size width="228" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3245,7 +3246,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11126" zorder="299">
+    <Rectangle shapeName="Shape_11126" zorder="298">
       <Location x="708" y="336" />
       <Size width="228" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3255,7 +3256,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11127" zorder="300">
+    <Rectangle shapeName="Shape_11127" zorder="299">
       <Location x="828" y="360" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3265,7 +3266,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11128" zorder="301">
+    <Rectangle shapeName="Shape_11128" zorder="300">
       <Location x="708" y="360" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3275,7 +3276,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11129" zorder="302">
+    <Rectangle shapeName="Shape_11129" zorder="301">
       <Location x="708" y="606" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3285,7 +3286,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11130" zorder="303">
+    <Rectangle shapeName="Shape_11130" zorder="302">
       <Location x="828" y="606" />
       <Size width="108" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3295,7 +3296,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11131" zorder="304">
+    <Rectangle shapeName="Shape_11131" zorder="303">
       <Location x="828" y="630" />
       <Size width="108" height="30" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3305,7 +3306,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11132" zorder="305">
+    <Rectangle shapeName="Shape_11132" zorder="304">
       <Location x="708" y="630" />
       <Size width="108" height="30" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3315,7 +3316,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11133" zorder="306">
+    <Rectangle shapeName="Shape_11133" zorder="305">
       <Location x="708" y="666" />
       <Size width="228" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -3325,7 +3326,7 @@ Routing</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <ClosedShape shapeName="Shape_11139" zorder="307">
+    <ClosedShape shapeName="Shape_11139" zorder="306">
       <Point x="636" y="138" />
       <Point x="684" y="138" />
       <Point x="684" y="186" />
@@ -3339,7 +3340,7 @@ Routing</Text>
         <SolidBrush color="154, 205, 50" />
       </Fill>
     </ClosedShape>
-    <ClosedShape shapeName="Shape_11140" zorder="308">
+    <ClosedShape shapeName="Shape_11140" zorder="307">
       <Point x="636" y="78" />
       <Point x="684" y="78" />
       <Point x="684" y="126" />
@@ -3353,63 +3354,63 @@ Routing</Text>
         <SolidBrush color="154, 205, 50" />
       </Fill>
     </ClosedShape>
-    <Line shapeName="Shape_11141" zorder="309">
+    <Line shapeName="Shape_11141" zorder="308">
       <Point x="162" y="558" />
       <Point x="180" y="558" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11142" zorder="310">
+    <Line shapeName="Shape_11142" zorder="309">
       <Point x="162" y="576" />
       <Point x="180" y="576" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11143" zorder="311">
+    <Line shapeName="Shape_11143" zorder="310">
       <Point x="162" y="594" />
       <Point x="180" y="594" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11144" zorder="312">
+    <Line shapeName="Shape_11144" zorder="311">
       <Point x="162" y="612" />
       <Point x="180" y="612" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11145" zorder="313">
+    <Line shapeName="Shape_11145" zorder="312">
       <Point x="162" y="630" />
       <Point x="180" y="630" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11146" zorder="314">
+    <Line shapeName="Shape_11146" zorder="313">
       <Point x="162" y="648" />
       <Point x="180" y="648" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11147" zorder="315">
+    <Line shapeName="Shape_11147" zorder="314">
       <Point x="162" y="666" />
       <Point x="180" y="666" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11148" zorder="316">
+    <Line shapeName="Shape_11148" zorder="315">
       <Point x="162" y="684" />
       <Point x="180" y="684" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Instance shapeName="Shape_11149" zorder="317" guid="cba9c0c2-7631-40db-91a5-c978e2a3dd93" name="cy_io_17" component="cy_io">
+    <Instance shapeName="Shape_11149" zorder="316" guid="cba9c0c2-7631-40db-91a5-c978e2a3dd93" name="cy_io_17" component="cy_io">
       <Location x="120.5176" y="678" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -3461,7 +3462,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11150" zorder="318" guid="c153b727-a1bd-4757-bdde-f58c95860b42" name="cy_io_18" component="cy_io">
+    <Instance shapeName="Shape_11150" zorder="317" guid="c153b727-a1bd-4757-bdde-f58c95860b42" name="cy_io_18" component="cy_io">
       <Location x="120.5176" y="660" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -3513,7 +3514,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11151" zorder="319" guid="30bb0554-cdb6-4c70-a5af-811118e42b5b" name="cy_io_19" component="cy_io">
+    <Instance shapeName="Shape_11151" zorder="318" guid="30bb0554-cdb6-4c70-a5af-811118e42b5b" name="cy_io_19" component="cy_io">
       <Location x="120.5176" y="642" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -3565,7 +3566,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11152" zorder="320" guid="e9bab7cf-806c-45e0-8e28-20bf8c48f300" name="cy_io_20" component="cy_io">
+    <Instance shapeName="Shape_11152" zorder="319" guid="e9bab7cf-806c-45e0-8e28-20bf8c48f300" name="cy_io_20" component="cy_io">
       <Location x="120.5176" y="624" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -3617,7 +3618,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11153" zorder="321" guid="cb3e34d9-1885-440b-a937-4bffae1649f8" name="cy_io_21" component="cy_io">
+    <Instance shapeName="Shape_11153" zorder="320" guid="cb3e34d9-1885-440b-a937-4bffae1649f8" name="cy_io_21" component="cy_io">
       <Location x="120.5176" y="606" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -3669,7 +3670,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11154" zorder="322" guid="9e99adad-14ee-4995-8656-ff1807cf6441" name="cy_io_22" component="cy_io">
+    <Instance shapeName="Shape_11154" zorder="321" guid="9e99adad-14ee-4995-8656-ff1807cf6441" name="cy_io_22" component="cy_io">
       <Location x="120.5176" y="588" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -3721,7 +3722,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11155" zorder="323" guid="f6572526-bb60-42e3-8bf8-d0c7f1cd9bc2" name="cy_io_23" component="cy_io">
+    <Instance shapeName="Shape_11155" zorder="322" guid="f6572526-bb60-42e3-8bf8-d0c7f1cd9bc2" name="cy_io_23" component="cy_io">
       <Location x="120.5176" y="570" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -3773,7 +3774,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11156" zorder="324" guid="498324f6-9eb2-44e3-970c-ffae2a16c605" name="cy_io_24" component="cy_io">
+    <Instance shapeName="Shape_11156" zorder="323" guid="498324f6-9eb2-44e3-970c-ffae2a16c605" name="cy_io_24" component="cy_io">
       <Location x="120.5176" y="552" />
       <Size width="57.03711" height="12" />
       <SubShapes>
@@ -3825,7 +3826,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Annotation shapeName="Shape_11157" zorder="325">
+    <Annotation shapeName="Shape_11157" zorder="324">
       <Location x="156" y="540" />
       <Text>SAR / PTComp Port</Text>
       <Vertical value="false" />
@@ -3835,7 +3836,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleRight" />
     </Annotation>
-    <Instance shapeName="Shape_11158" zorder="326" guid="25466859-eba3-419d-bfac-0fa32fb72913" name="cy_io_25" component="cy_io">
+    <Instance shapeName="Shape_11158" zorder="325" guid="25466859-eba3-419d-bfac-0fa32fb72913" name="cy_io_25" component="cy_io">
       <Location x="120.9229" y="720" />
       <Size width="56.63184" height="12" />
       <SubShapes>
@@ -3887,7 +3888,7 @@ Routing</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Annotation shapeName="Shape_11159" zorder="327">
+    <Annotation shapeName="Shape_11159" zorder="326">
       <Location x="762" y="447" />
       <Text>Edge Detect</Text>
       <Vertical value="false" />
@@ -3897,7 +3898,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11160" zorder="328">
+    <Annotation shapeName="Shape_11160" zorder="327">
       <Location x="762" y="471" />
       <Text>Logic (LUT)</Text>
       <Vertical value="false" />
@@ -3907,7 +3908,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11161" zorder="329">
+    <Annotation shapeName="Shape_11161" zorder="328">
       <Location x="882" y="447" />
       <Text>16-bit Counter</Text>
       <Vertical value="false" />
@@ -3917,7 +3918,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11162" zorder="330">
+    <Annotation shapeName="Shape_11162" zorder="329">
       <Location x="882" y="471" />
       <Text>Limit Detect</Text>
       <Vertical value="false" />
@@ -3927,7 +3928,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11163" zorder="331">
+    <Annotation shapeName="Shape_11163" zorder="330">
       <Location x="762" y="615" />
       <Text>Accumulation/Avg.</Text>
       <Vertical value="false" />
@@ -3937,7 +3938,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11164" zorder="332">
+    <Annotation shapeName="Shape_11164" zorder="331">
       <Location x="882" y="615" />
       <Text>64-tap FIR (2x)</Text>
       <Vertical value="false" />
@@ -3947,7 +3948,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11165" zorder="333">
+    <Annotation shapeName="Shape_11165" zorder="332">
       <Location x="762" y="645" />
       <Text>Limit Detect</Text>
       <Vertical value="false" />
@@ -3957,7 +3958,7 @@ Routing</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11166" zorder="334">
+    <Annotation shapeName="Shape_11166" zorder="333">
       <Location x="882" y="645" />
       <Text>Offset and Gain
 Calibration</Text>
@@ -3968,7 +3969,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11167" zorder="335">
+    <Annotation shapeName="Shape_11167" zorder="334">
       <Location x="828" y="675" />
       <Text>FIFO (512 Entries)</Text>
       <Vertical value="false" />
@@ -3978,7 +3979,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11168" zorder="336">
+    <Annotation shapeName="Shape_11168" zorder="335">
       <Location x="822" y="111" />
       <Text>DAC Waveform Data (512 Entries)</Text>
       <Vertical value="false" />
@@ -3988,7 +3989,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11169" zorder="338">
+    <Annotation shapeName="Shape_11169" zorder="337">
       <Location x="822" y="171" />
       <Text>DAC Waveform Data (512 Entries)</Text>
       <Vertical value="false" />
@@ -3998,7 +3999,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Rectangle shapeName="Shape_11170" zorder="337">
+    <Rectangle shapeName="Shape_11170" zorder="336">
       <Location x="708" y="162" />
       <Size width="228" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
@@ -4008,7 +4009,7 @@ Calibration</Text>
         <SolidBrush color="255, 255, 255" />
       </Fill>
     </Rectangle>
-    <Annotation shapeName="Shape_11171" zorder="339">
+    <Annotation shapeName="Shape_11171" zorder="338">
       <Location x="822" y="249" />
       <Text>Finite State Machine (FSM) Controller</Text>
       <Vertical value="false" />
@@ -4018,7 +4019,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11172" zorder="340">
+    <Annotation shapeName="Shape_11172" zorder="339">
       <Location x="762" y="273" />
       <Text>State Transition Table</Text>
       <Vertical value="false" />
@@ -4028,7 +4029,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11173" zorder="341">
+    <Annotation shapeName="Shape_11173" zorder="340">
       <Location x="882" y="273" />
       <Text>SAR Sequencer Table</Text>
       <Vertical value="false" />
@@ -4038,7 +4039,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11174" zorder="342">
+    <Annotation shapeName="Shape_11174" zorder="341">
       <Location x="762" y="297" />
       <Text>Static Configs</Text>
       <Vertical value="false" />
@@ -4048,7 +4049,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11175" zorder="343">
+    <Annotation shapeName="Shape_11175" zorder="342">
       <Location x="882" y="297" />
       <Text>Dynamic Configs</Text>
       <Vertical value="false" />
@@ -4058,7 +4059,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11176" zorder="344">
+    <Annotation shapeName="Shape_11176" zorder="343">
       <Location x="822" y="321" />
       <Text>Trigger and Interrupt Logic</Text>
       <Vertical value="false" />
@@ -4068,7 +4069,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11177" zorder="345">
+    <Annotation shapeName="Shape_11177" zorder="344">
       <Location x="822" y="345" />
       <Text>16-bit Wake Up Timer</Text>
       <Vertical value="false" />
@@ -4078,7 +4079,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11178" zorder="346">
+    <Annotation shapeName="Shape_11178" zorder="345">
       <Location x="762" y="369" />
       <Text>4.096 MHz Clock</Text>
       <Vertical value="false" />
@@ -4088,7 +4089,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11179" zorder="347">
+    <Annotation shapeName="Shape_11179" zorder="346">
       <Location x="882" y="369" />
       <Text>HS/PERI Clocks</Text>
       <Vertical value="false" />
@@ -4098,7 +4099,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11180" zorder="348">
+    <Annotation shapeName="Shape_11180" zorder="347">
       <Location x="655" y="102" />
       <Text>DAC0
 (12-bit)</Text>
@@ -4109,7 +4110,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11181" zorder="349">
+    <Annotation shapeName="Shape_11181" zorder="348">
       <Location x="655" y="162" />
       <Text>DAC1
 (12-bit)</Text>
@@ -4120,7 +4121,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11182" zorder="350">
+    <Annotation shapeName="Shape_11182" zorder="349">
       <Location x="486.4932" y="138" />
       <Text>Buffer</Text>
       <Vertical value="false" />
@@ -4130,7 +4131,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11183" zorder="351">
+    <Annotation shapeName="Shape_11183" zorder="350">
       <Location x="486.4932" y="78" />
       <Text>Buffer</Text>
       <Vertical value="false" />
@@ -4140,7 +4141,7 @@ Calibration</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Instance shapeName="Shape_11184" zorder="363" guid="6d80be5b-ee39-4d31-8955-497b2f4874ea" name="cy_io_26" component="cy_io">
+    <Instance shapeName="Shape_11184" zorder="362" guid="6d80be5b-ee39-4d31-8955-497b2f4874ea" name="cy_io_26" component="cy_io">
       <Location x="968.3623" y="210" />
       <Size width="82.49609" height="12" />
       <SubShapes>
@@ -4192,7 +4193,7 @@ Calibration</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11185" zorder="364" guid="8b708981-3cec-4dfc-a8db-51e47cdf77f0" name="cy_io_27" component="cy_io">
+    <Instance shapeName="Shape_11185" zorder="363" guid="8b708981-3cec-4dfc-a8db-51e47cdf77f0" name="cy_io_27" component="cy_io">
       <Location x="968.3623" y="228" />
       <Size width="81.13379" height="12" />
       <SubShapes>
@@ -4244,7 +4245,7 @@ Calibration</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11186" zorder="365" guid="67fda9f8-55ed-4aae-bf23-86fa123ab540" name="cy_io_28" component="cy_io">
+    <Instance shapeName="Shape_11186" zorder="364" guid="67fda9f8-55ed-4aae-bf23-86fa123ab540" name="cy_io_28" component="cy_io">
       <Location x="968.3623" y="246" />
       <Size width="82.43262" height="12" />
       <SubShapes>
@@ -4296,7 +4297,7 @@ Calibration</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11187" zorder="366" guid="d4abe4f2-9a23-4750-869a-18ef352eacfe" name="cy_io_29" component="cy_io">
+    <Instance shapeName="Shape_11187" zorder="365" guid="d4abe4f2-9a23-4750-869a-18ef352eacfe" name="cy_io_29" component="cy_io">
       <Location x="968.3623" y="264" />
       <Size width="82.51563" height="12" />
       <SubShapes>
@@ -4348,13 +4349,13 @@ Calibration</Text>
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11188" zorder="352" guid="ad62a501-e9db-49a0-b5a8-d6387376bca2" name="cy_arrow_configurable_2" component="cy_arrow_configurable">
-      <Location x="953.9999" y="285" />
-      <Size width="72.00006" height="12" />
+    <Instance shapeName="Shape_11188" zorder="351" guid="ad62a501-e9db-49a0-b5a8-d6387376bca2" name="cy_arrow_configurable_2" component="cy_arrow_configurable">
+      <Location x="954" y="285" />
+      <Size width="72" height="12" />
       <SubShapes>
         <ClosedShape>
           <Point x="963.7297" y="297" />
-          <Point x="953.9999" y="291" />
+          <Point x="954" y="291" />
           <Point x="963.7297" y="285" />
           <Point x="963.7297" y="297" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -4400,21 +4401,21 @@ Calibration</Text>
         </Line>
       </SubShapes>
     </Instance>
-    <Line shapeName="Shape_11189" zorder="353">
+    <Line shapeName="Shape_11189" zorder="352">
       <Point x="936" y="318" />
       <Point x="1008" y="318" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11190" zorder="354">
+    <Line shapeName="Shape_11190" zorder="353">
       <Point x="936" y="366" />
       <Point x="1008" y="366" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Instance shapeName="Shape_11191" zorder="355" guid="2d661973-0574-41e2-a14e-239a66948601" name="cy_arrow_12" component="cy_arrow">
+    <Instance shapeName="Shape_11191" zorder="354" guid="2d661973-0574-41e2-a14e-239a66948601" name="cy_arrow_12" component="cy_arrow">
       <Location x="1002" y="314" />
       <Size width="6" height="8" />
       <SubShapes>
@@ -4432,7 +4433,7 @@ Calibration</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11192" zorder="356" guid="ea735347-bd9c-418d-9712-bd50463c2f79" name="cy_arrow_13" component="cy_arrow">
+    <Instance shapeName="Shape_11192" zorder="355" guid="ea735347-bd9c-418d-9712-bd50463c2f79" name="cy_arrow_13" component="cy_arrow">
       <Location x="936" y="362" />
       <Size width="6" height="8" />
       <SubShapes>
@@ -4450,7 +4451,7 @@ Calibration</Text>
         </ClosedShape>
       </SubShapes>
     </Instance>
-    <Annotation shapeName="Shape_11193" zorder="357">
+    <Annotation shapeName="Shape_11193" zorder="356">
       <Location x="1016.14" y="312" />
       <Text>Interrupt Controller,
 Trigger Mux</Text>
@@ -4461,7 +4462,7 @@ Trigger Mux</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11194" zorder="358">
+    <Annotation shapeName="Shape_11194" zorder="357">
       <Location x="1015.447" y="360" />
       <Text>System Resources</Text>
       <Vertical value="false" />
@@ -4471,35 +4472,35 @@ Trigger Mux</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Line shapeName="Shape_11195" zorder="359">
+    <Line shapeName="Shape_11195" zorder="358">
       <Point x="984" y="216" />
       <Point x="954" y="216" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11196" zorder="360">
+    <Line shapeName="Shape_11196" zorder="359">
       <Point x="984" y="234" />
       <Point x="954" y="234" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11197" zorder="361">
+    <Line shapeName="Shape_11197" zorder="360">
       <Point x="984" y="252" />
       <Point x="954" y="252" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11198" zorder="362">
+    <Line shapeName="Shape_11198" zorder="361">
       <Point x="984" y="270" />
       <Point x="954" y="270" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="1">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Annotation shapeName="Shape_11199" zorder="367">
+    <Annotation shapeName="Shape_11199" zorder="366">
       <Location x="1029" y="285" />
       <Text>CPU / DMA</Text>
       <Vertical value="false" />
@@ -4509,7 +4510,7 @@ Trigger Mux</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11200" zorder="368">
+    <Annotation shapeName="Shape_11200" zorder="367">
       <Location x="960" y="192" />
       <Text>Digital Outputs to GPIOs</Text>
       <Vertical value="false" />
@@ -4519,7 +4520,7 @@ Trigger Mux</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <ClosedShape shapeName="Shape_11201" zorder="372">
+    <ClosedShape shapeName="Shape_11201" zorder="371">
       <Point x="534" y="732" />
       <Point x="546" y="726" />
       <Point x="546" y="660" />
@@ -4532,7 +4533,7 @@ Trigger Mux</Text>
         <SolidBrush color="0, 128, 128" />
       </Fill>
     </ClosedShape>
-    <Annotation shapeName="Shape_11202" zorder="373">
+    <Annotation shapeName="Shape_11202" zorder="372">
       <Location x="485.8691" y="546" />
       <Text>Sampler</Text>
       <Vertical value="false" />
@@ -4542,7 +4543,7 @@ Trigger Mux</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11203" zorder="374">
+    <Annotation shapeName="Shape_11203" zorder="373">
       <Location x="485.8691" y="600" />
       <Text>Sampler</Text>
       <Vertical value="false" />
@@ -4552,7 +4553,7 @@ Trigger Mux</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11205" zorder="375">
+    <Annotation shapeName="Shape_11205" zorder="374">
       <Location x="396.4932" y="522" />
       <Text>Buffer</Text>
       <Vertical value="false" />
@@ -4562,7 +4563,7 @@ Trigger Mux</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11206" zorder="376">
+    <Annotation shapeName="Shape_11206" zorder="375">
       <Location x="396.4932" y="576" />
       <Text>Buffer</Text>
       <Vertical value="false" />
@@ -4572,7 +4573,7 @@ Trigger Mux</Text>
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Rectangle shapeName="Shape_11209" zorder="392">
+    <Rectangle shapeName="Shape_11209" zorder="391">
       <Location x="180" y="486" />
       <Size width="6" height="228" />
       <NoOutline />
@@ -4580,42 +4581,42 @@ Trigger Mux</Text>
         <SolidBrush color="32, 178, 170" />
       </Fill>
     </Rectangle>
-    <Line shapeName="Shape_11210" zorder="393">
+    <Line shapeName="Shape_11210" zorder="392">
       <Point x="180" y="486" />
       <Point x="180" y="714" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11211" zorder="394">
+    <Line shapeName="Shape_11211" zorder="393">
       <Point x="186" y="708" />
       <Point x="186" y="606" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11212" zorder="397">
+    <Line shapeName="Shape_11212" zorder="396">
       <Point x="186" y="600" />
       <Point x="186" y="492" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11214" zorder="395">
+    <Line shapeName="Shape_11214" zorder="394">
       <Point x="180" y="714" />
       <Point x="186" y="714" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11215" zorder="396">
+    <Line shapeName="Shape_11215" zorder="395">
       <Point x="180" y="486" />
       <Point x="186" y="486" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Annotation shapeName="Shape_11217" zorder="378">
+    <Annotation shapeName="Shape_11217" zorder="377">
       <Location x="564" y="396" />
       <Text>Programmable Threshold
 Comparator (PTComp) 0</Text>
@@ -4626,49 +4627,49 @@ Comparator (PTComp) 0</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Line shapeName="Shape_11218" zorder="379">
+    <Line shapeName="Shape_11218" zorder="378">
       <Point x="564" y="426" />
       <Point x="702" y="426" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11219" zorder="380">
+    <Line shapeName="Shape_11219" zorder="379">
       <Point x="522" y="414" />
       <Point x="474" y="414" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11220" zorder="381">
+    <Line shapeName="Shape_11220" zorder="380">
       <Point x="522" y="438" />
       <Point x="474" y="438" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11221" zorder="382">
+    <Line shapeName="Shape_11221" zorder="381">
       <Point x="522" y="492" />
       <Point x="474" y="492" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11222" zorder="383">
+    <Line shapeName="Shape_11222" zorder="382">
       <Point x="564" y="480" />
       <Point x="702" y="480" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11223" zorder="384">
+    <Line shapeName="Shape_11223" zorder="383">
       <Point x="522" y="468" />
       <Point x="474" y="468" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Annotation shapeName="Shape_11224" zorder="385">
+    <Annotation shapeName="Shape_11224" zorder="384">
       <Location x="564" y="486" />
       <Text>Programmable Threshold
 Comparator (PTComp) 1
@@ -4680,7 +4681,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11225" zorder="386">
+    <Annotation shapeName="Shape_11225" zorder="385">
       <Location x="216.4268" y="408" />
       <Text>CTB Pins and Outputs</Text>
       <Vertical value="false" />
@@ -4690,28 +4691,28 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="TopLeft" />
     </Annotation>
-    <Line shapeName="Shape_11226" zorder="387">
+    <Line shapeName="Shape_11226" zorder="386">
       <Point x="204" y="402" />
       <Point x="204" y="570" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11227" zorder="388">
+    <Line shapeName="Shape_11227" zorder="387">
       <Point x="210" y="402" />
       <Point x="210" y="450" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11228" zorder="389">
+    <Line shapeName="Shape_11228" zorder="388">
       <Point x="210" y="456" />
       <Point x="210" y="564" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
-    <Line shapeName="Shape_11229" zorder="390">
+    <Line shapeName="Shape_11229" zorder="389">
       <Point x="204" y="570" />
       <Point x="210" y="570" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -4853,7 +4854,7 @@ Comparator (PTComp) 1
         </Annotation>
       </SubShapes>
     </Instance>
-    <Annotation shapeName="Shape_11236" zorder="399">
+    <Annotation shapeName="Shape_11236" zorder="398">
       <Location x="438.3447" y="328" />
       <Text>Voltage Sources</Text>
       <Vertical value="false" />
@@ -4863,7 +4864,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Rectangle shapeName="Shape_11237" zorder="400">
+    <Rectangle shapeName="Shape_11237" zorder="399">
       <Location x="990" y="720" />
       <Size width="72" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -4873,7 +4874,7 @@ Comparator (PTComp) 1
         <SolidBrush color="0, 128, 128" />
       </Fill>
     </Rectangle>
-    <Annotation shapeName="Shape_11238" zorder="401">
+    <Annotation shapeName="Shape_11238" zorder="400">
       <Location x="1026.556" y="723" />
       <Text>SAR ADC</Text>
       <Vertical value="false" />
@@ -4883,7 +4884,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Rectangle shapeName="Shape_11239" zorder="402">
+    <Rectangle shapeName="Shape_11239" zorder="401">
       <Location x="990" y="672" />
       <Size width="72" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -4893,7 +4894,7 @@ Comparator (PTComp) 1
         <SolidBrush color="255, 215, 0" />
       </Fill>
     </Rectangle>
-    <Annotation shapeName="Shape_11240" zorder="403">
+    <Annotation shapeName="Shape_11240" zorder="402">
       <Location x="1026.556" y="675" />
       <Text>PTComp</Text>
       <Vertical value="false" />
@@ -4903,7 +4904,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Rectangle shapeName="Shape_11241" zorder="404">
+    <Rectangle shapeName="Shape_11241" zorder="403">
       <Location x="990" y="696" />
       <Size width="72" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -4913,7 +4914,7 @@ Comparator (PTComp) 1
         <SolidBrush color="154, 205, 50" />
       </Fill>
     </Rectangle>
-    <Annotation shapeName="Shape_11242" zorder="405">
+    <Annotation shapeName="Shape_11242" zorder="404">
       <Location x="1026.556" y="699" />
       <Text>DAC</Text>
       <Vertical value="false" />
@@ -4923,7 +4924,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Rectangle shapeName="Shape_11243" zorder="406">
+    <Rectangle shapeName="Shape_11243" zorder="405">
       <Location x="990" y="648" />
       <Size width="72" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -4933,7 +4934,7 @@ Comparator (PTComp) 1
         <SolidBrush color="255, 140, 0" />
       </Fill>
     </Rectangle>
-    <Annotation shapeName="Shape_11244" zorder="407">
+    <Annotation shapeName="Shape_11244" zorder="406">
       <Location x="1026.556" y="651" />
       <Text>References</Text>
       <Vertical value="false" />
@@ -4943,7 +4944,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Rectangle shapeName="Shape_11245" zorder="408">
+    <Rectangle shapeName="Shape_11245" zorder="407">
       <Location x="990" y="600" />
       <Size width="72" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -4953,7 +4954,7 @@ Comparator (PTComp) 1
         <SolidBrush color="169, 169, 169" />
       </Fill>
     </Rectangle>
-    <Annotation shapeName="Shape_11246" zorder="409">
+    <Annotation shapeName="Shape_11246" zorder="408">
       <Location x="1026.556" y="603" />
       <Text>CTB</Text>
       <Vertical value="false" />
@@ -4963,7 +4964,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11247" zorder="410">
+    <Annotation shapeName="Shape_11247" zorder="409">
       <Location x="1025.917" y="588" />
       <Text>LEGEND</Text>
       <Vertical value="false" />
@@ -4983,7 +4984,7 @@ Comparator (PTComp) 1
         <SolidBrush color="245, 245, 245" />
       </Fill>
     </Rectangle>
-    <Rectangle shapeName="Shape_11249" zorder="411">
+    <Rectangle shapeName="Shape_11249" zorder="410">
       <Location x="990" y="624" />
       <Size width="72" height="18" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
@@ -4993,7 +4994,7 @@ Comparator (PTComp) 1
         <SolidBrush color="218, 112, 214" />
       </Fill>
     </Rectangle>
-    <Annotation shapeName="Shape_11250" zorder="412">
+    <Annotation shapeName="Shape_11250" zorder="411">
       <Location x="1026.556" y="627" />
       <Text>Autonomous</Text>
       <Vertical value="false" />
@@ -5003,7 +5004,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11251" zorder="413">
+    <Annotation shapeName="Shape_11251" zorder="412">
       <Location x="480.3447" y="286" />
       <Text>VBGR</Text>
       <Vertical value="false" />
@@ -5013,7 +5014,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11252" zorder="414">
+    <Annotation shapeName="Shape_11252" zorder="413">
       <Location x="480.3447" y="208" />
       <Text>PRB_OUT0</Text>
       <Vertical value="false" />
@@ -5023,7 +5024,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11253" zorder="415">
+    <Annotation shapeName="Shape_11253" zorder="414">
       <Location x="480.3447" y="250" />
       <Text>PRB_OUT1</Text>
       <Vertical value="false" />
@@ -5033,7 +5034,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="BottomLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11257" zorder="416">
+    <Annotation shapeName="Shape_11257" zorder="415">
       <Location x="301.9999" y="93.99999" />
       <Size width="24.00003" height="6.000002" />
       <Text>OA0</Text>
@@ -5044,7 +5045,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11258" zorder="417">
+    <Annotation shapeName="Shape_11258" zorder="416">
       <Location x="301.9999" y="166" />
       <Size width="24.00003" height="6.000002" />
       <Text>OA1</Text>
@@ -5055,7 +5056,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11259" zorder="418">
+    <Annotation shapeName="Shape_11259" zorder="417">
       <Location x="301.9999" y="274" />
       <Size width="24.00003" height="6.000002" />
       <Text>OA0</Text>
@@ -5066,7 +5067,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11260" zorder="419">
+    <Annotation shapeName="Shape_11260" zorder="418">
       <Location x="301.9999" y="346" />
       <Size width="24.00003" height="6.000002" />
       <Text>OA1</Text>
@@ -5077,7 +5078,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 8pt" />
       <TextAlignment value="MiddleLeft" />
     </Annotation>
-    <Annotation shapeName="Shape_11261" zorder="420">
+    <Annotation shapeName="Shape_11261" zorder="419">
       <Location x="460.9999" y="677.9999" />
       <Size width="51.00003" height="12.00007" />
       <Text>Sampler</Text>
@@ -5088,7 +5089,7 @@ Comparator (PTComp) 1
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11262" zorder="421">
+    <Annotation shapeName="Shape_11262" zorder="420">
       <Location x="534" y="198" />
       <Size width="103" height="61" />
       <Text>Programmable 
@@ -5101,7 +5102,7 @@ Reference Block
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11263" zorder="422">
+    <Annotation shapeName="Shape_11263" zorder="421">
       <Location x="534" y="270" />
       <Size width="103" height="37" />
       <Text>Bandgap
@@ -5113,7 +5114,7 @@ Reference (0.9V)</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11264" zorder="423">
+    <Annotation shapeName="Shape_11264" zorder="422">
       <Location x="534" y="84" />
       <Size width="61" height="37" />
       <Text>Sample
@@ -5125,7 +5126,7 @@ and Hold</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11265" zorder="424">
+    <Annotation shapeName="Shape_11265" zorder="423">
       <Location x="534" y="144" />
       <Size width="61" height="37" />
       <Text>Sample
@@ -5137,7 +5138,7 @@ and Hold</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11267" zorder="425">
+    <Annotation shapeName="Shape_11267" zorder="424">
       <Location x="361.6" y="609" />
       <Size width="9.557892" height="67" />
       <Text>SARMUX</Text>
@@ -5148,7 +5149,7 @@ and Hold</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="MiddleCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11268" zorder="426">
+    <Annotation shapeName="Shape_11268" zorder="425">
       <Location x="473.9999" y="689.9999" />
       <Size width="24.00003" height="12.00007" />
       <Text>10x</Text>
@@ -5159,7 +5160,7 @@ and Hold</Text>
       <Font value="Microsoft Sans Serif, 10pt" />
       <TextAlignment value="TopCenter" />
     </Annotation>
-    <Annotation shapeName="Shape_11269" zorder="427">
+    <Annotation shapeName="Shape_11269" zorder="426">
       <Location x="463.6" y="486" />
       <Size width="9.557892" height="67" />
       <Text>COMPMUX</Text>

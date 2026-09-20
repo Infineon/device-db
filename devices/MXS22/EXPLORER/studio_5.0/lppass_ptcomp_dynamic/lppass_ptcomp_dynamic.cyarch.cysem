@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" xmlns="http://cypress.com/xsd/cysem">
-  <Instances count="103">
+  <Instances count="101">
     <Instance guid="01584379-b5ba-441a-be98-741fa6abb3da" name="cy_all_label_43" component="cy_all_label">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -127,32 +127,6 @@
       </Parameter>
       <Parameter name="Text">
         <Value>DAC0</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="0bad2b8b-a24a-4933-adcb-3cbe4cd3704c" name="cy_PTCOMP0" component="cy_PTCOMP">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>PTCOMP</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>0</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>cy_PTCOMP0</Value>
-      </Parameter>
-      <Parameter name="Text">
-        <Value>PTComp0</Value>
       </Parameter>
     </Instance>
     <Instance guid="0ea2d89a-9f5a-4d16-b770-1f44a8c80857" name="cy_all_label_37" component="cy_all_label">
@@ -411,29 +385,6 @@
         <Value>PRB_OUT0</Value>
       </Parameter>
     </Instance>
-    <Instance guid="1c91f167-ef7a-4d37-a97f-0b9e960209dc" name="cy_arrow_2" component="cy_arrow">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="inName">
-        <Value />
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>cy_arrow_2</Value>
-      </Parameter>
-      <Parameter name="outName">
-        <Value />
-      </Parameter>
-    </Instance>
     <Instance guid="1d35b09c-7317-470c-9cfc-1d24f6fa87dc" name="cy_all_label_7" component="cy_all_label">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -592,29 +543,6 @@
       </Parameter>
       <Parameter name="Text">
         <Value>CTB1 OA0 Output</Value>
-      </Parameter>
-    </Instance>
-    <Instance guid="2833dd2f-a0f7-4b52-b5ff-c8dc9e3771b6" name="cy_arrow_1" component="cy_arrow">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="inName">
-        <Value />
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>cy_arrow_1</Value>
-      </Parameter>
-      <Parameter name="outName">
-        <Value />
       </Parameter>
     </Instance>
     <Instance guid="2a6bd323-b6e6-4e6a-8183-a5d17bfbb4f3" name="cy_all_label_31" component="cy_all_label">
@@ -905,6 +833,32 @@
         <Value>PRB_OUT0</Value>
       </Parameter>
     </Instance>
+    <Instance guid="4021f943-48b3-4c1a-98e2-6d68aff74e78" name="cy_PTCOMP" component="cy_PTCOMP">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="FFBType">
+        <Value>PTCOMP</Value>
+      </Parameter>
+      <Parameter name="Index">
+        <Value>0</Value>
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_PTCOMP</Value>
+      </Parameter>
+      <Parameter name="Text">
+        <Value>Comparator 0 \ 1</Value>
+      </Parameter>
+    </Instance>
     <Instance guid="422b2322-41a9-44e1-a652-789f33ca23a8" name="cy_all_label_79" component="cy_all_label">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -1095,6 +1049,29 @@
       </Parameter>
       <Parameter name="Text">
         <Value>P14[7]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="51afd9cb-4d25-4a94-b565-7d17d3d7a6f7" name="cy_arrow_5" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_5</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
       </Parameter>
     </Instance>
     <Instance guid="59976b8a-b323-43dc-9dc0-ff8393adca79" name="cy_all_label_2" component="cy_all_label">
@@ -1737,32 +1714,6 @@
         <Value>PRB_OUT1</Value>
       </Parameter>
     </Instance>
-    <Instance guid="86d7bb87-bb7c-4435-8daa-654e20f6975b" name="cy_PTCOMP1" component="cy_PTCOMP">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="FFBType">
-        <Value>PTCOMP</Value>
-      </Parameter>
-      <Parameter name="Index">
-        <Value>1</Value>
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>cy_PTCOMP1</Value>
-      </Parameter>
-      <Parameter name="Text">
-        <Value>PTComp1</Value>
-      </Parameter>
-    </Instance>
     <Instance guid="8799b973-e103-48a7-9e58-e5f14c408e7b" name="cy_all_label_74" component="cy_all_label">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -2115,29 +2066,6 @@
         <Value>P14[6]</Value>
       </Parameter>
     </Instance>
-    <Instance guid="9b2c5ae5-0744-4a42-b0e1-48b1330a36c6" name="cy_arrow_3" component="cy_arrow">
-      <Parameter name="CY_COMMENT">
-        <Value />
-      </Parameter>
-      <Parameter name="CY_CONST_CONFIG">
-        <Value>true</Value>
-      </Parameter>
-      <Parameter name="CY_REMOVE">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="CY_SUPPRESS_API_GEN">
-        <Value>false</Value>
-      </Parameter>
-      <Parameter name="inName">
-        <Value />
-      </Parameter>
-      <Parameter name="INSTANCE_NAME">
-        <Value>cy_arrow_3</Value>
-      </Parameter>
-      <Parameter name="outName">
-        <Value />
-      </Parameter>
-    </Instance>
     <Instance guid="9f7b122a-817a-4b85-b3be-51048b88022a" name="cy_all_label_9" component="cy_all_label">
       <Parameter name="CY_COMMENT">
         <Value />
@@ -2392,6 +2320,29 @@
       </Parameter>
       <Parameter name="Text">
         <Value>P13[6]</Value>
+      </Parameter>
+    </Instance>
+    <Instance guid="ad7bbf26-5b6c-4dc4-8287-cf9acade1393" name="cy_arrow_4" component="cy_arrow">
+      <Parameter name="CY_COMMENT">
+        <Value />
+      </Parameter>
+      <Parameter name="CY_CONST_CONFIG">
+        <Value>true</Value>
+      </Parameter>
+      <Parameter name="CY_REMOVE">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="CY_SUPPRESS_API_GEN">
+        <Value>false</Value>
+      </Parameter>
+      <Parameter name="inName">
+        <Value />
+      </Parameter>
+      <Parameter name="INSTANCE_NAME">
+        <Value>cy_arrow_4</Value>
+      </Parameter>
+      <Parameter name="outName">
+        <Value />
       </Parameter>
     </Instance>
     <Instance guid="ae12d557-3ca1-4954-b90f-ce126ad6ec52" name="cy_all_label_18" component="cy_all_label">
@@ -3278,6 +3229,10 @@
     <Signal name="Net_1607" type="" terminalCount="0" />
     <Signal name="Net_1608" type="" terminalCount="0" />
     <Signal name="Net_1609" type="" terminalCount="0" />
+    <Signal name="Net_1635" type="" terminalCount="0" />
+    <Signal name="Net_1637" type="" terminalCount="0" />
+    <Signal name="Net_1648" type="" terminalCount="0" />
+    <Signal name="Net_1650" type="" terminalCount="0" />
     <Signal name="Net_1651" type="" terminalCount="0" />
     <Signal name="Net_1652" type="" terminalCount="0" />
     <Signal name="Net_1653" type="" terminalCount="0" />
@@ -3302,10 +3257,6 @@
     <Signal name="Net_1672" type="" terminalCount="0" />
     <Signal name="Net_1673" type="" terminalCount="0" />
     <Signal name="Net_1674" type="" terminalCount="0" />
-    <Signal name="Net_1676" type="" terminalCount="0" />
-    <Signal name="Net_1678" type="" terminalCount="0" />
-    <Signal name="wire_InvMUXInp" type="" terminalCount="0" />
-    <Signal name="wire_nInvMUXInp" type="" terminalCount="0" />
   </Signals>
   <Properties>
     <Property name="CanvasBackColor">255, 255, 255</Property>

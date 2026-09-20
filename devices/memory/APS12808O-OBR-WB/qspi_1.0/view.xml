@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CyMemoryConfiguration xmlns="http://cypress.com/xsd/cy_qspi_configurator_memory_v2" version="5">
+  <PartNumber volatile="true">APS12808O-OBR-WB</PartNumber>
+  <Description>128Mb OPI Xccela DDR PSRAM, 1.8V, up to 200 MHz</Description>
+  <NumberOfAddress>0x03</NumberOfAddress>
+  <SizeOfMemory>0x1000000</SizeOfMemory>
+  <EraseBlockSize>0x800</EraseBlockSize>
+  <ProgramPageSize>0x800</ProgramPageSize>
+  <StatusRegisterBusyMask>0x00</StatusRegisterBusyMask>
+  <StatusRegisterQuadEnableMask>0x00</StatusRegisterQuadEnableMask>
+  <StatusRegisterOctalEnableMask>0x00</StatusRegisterOctalEnableMask>
+  <OctalEnableRegisterAddress>0x00</OctalEnableRegisterAddress>
+  <EraseTime>1</EraseTime>
+  <ChipEraseTime>16</ChipEraseTime>
+  <ProgramTime>8</ProgramTime>
+  <FrequencyOfOperation>CY_SMIF_200MHZ_OPERATION</FrequencyOfOperation>
+  <LatencyCyclesMask>0x1C</LatencyCyclesMask>
+  <LatencyCyclesRegisterAddress>0x00</LatencyCyclesRegisterAddress>
+  <DataLearningPatternSize>0x00</DataLearningPatternSize>
+  <DataLearningPattern>0x00</DataLearningPattern>
+  <OctalDdrEnableSeq1/>
+  <OctalDdrEnableSeq2/>
+  <Commands mode="Octal">
+    <Command>
+      <CommandDescription>Read</CommandDescription>
+      <CommandName>readCmd</CommandName>
+      <CommandNumber>0x00</CommandNumber>
+      <CmdWidth>CY_SMIF_WIDTH_OCTAL</CmdWidth>
+      <CmdRate>CY_SMIF_DDR</CmdRate>
+      <AddrWidth>CY_SMIF_WIDTH_OCTAL</AddrWidth>
+      <AddrRate>CY_SMIF_DDR</AddrRate>
+      <Mode>0xFFFFFFFF</Mode>
+      <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+      <DummyCycles>7</DummyCycles>
+      <DataWidth>CY_SMIF_WIDTH_OCTAL</DataWidth>
+      <DataRate>CY_SMIF_DDR</DataRate>
+    </Command>
+    <Command>
+      <CommandDescription>Program</CommandDescription>
+      <CommandName>programCmd</CommandName>
+      <CommandNumber>0x80</CommandNumber>
+      <CmdWidth>CY_SMIF_WIDTH_OCTAL</CmdWidth>
+      <CmdRate>CY_SMIF_DDR</CmdRate>
+      <AddrWidth>CY_SMIF_WIDTH_OCTAL</AddrWidth>
+      <AddrRate>CY_SMIF_DDR</AddrRate>
+      <Mode>0xFFFFFFFF</Mode>
+      <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+      <DummyCycles>7</DummyCycles>
+      <DataWidth>CY_SMIF_WIDTH_OCTAL</DataWidth>
+      <DataRate>CY_SMIF_DDR</DataRate>
+    </Command>
+    <Command>
+      <CommandDescription>Read QE Register</CommandDescription>
+      <CommandName>readStsRegQeCmd</CommandName>
+      <CommandNumber>0x40</CommandNumber>
+      <CmdWidth>CY_SMIF_WIDTH_OCTAL</CmdWidth>
+      <CmdRate>CY_SMIF_DDR</CmdRate>
+      <AddrWidth>CY_SMIF_WIDTH_OCTAL</AddrWidth>
+      <AddrRate>CY_SMIF_DDR</AddrRate>
+      <Mode>0xFFFFFFFF</Mode>
+      <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+      <DummyCycles>7</DummyCycles>
+      <DataWidth>CY_SMIF_WIDTH_OCTAL</DataWidth>
+      <DataRate>CY_SMIF_DDR</DataRate>
+    </Command>
+    <Command>
+      <CommandDescription>Write QE Register</CommandDescription>
+      <CommandName>writeStsRegQeCmd</CommandName>
+      <CommandNumber>0xC0</CommandNumber>
+      <CmdWidth>CY_SMIF_WIDTH_OCTAL</CmdWidth>
+      <CmdRate>CY_SMIF_DDR</CmdRate>
+      <AddrWidth>CY_SMIF_WIDTH_OCTAL</AddrWidth>
+      <AddrRate>CY_SMIF_DDR</AddrRate>
+      <Mode>0xFFFFFFFF</Mode>
+      <ModeWidth>CY_SMIF_WIDTH_NA</ModeWidth>
+      <DummyCycles>1</DummyCycles>
+      <DataWidth>CY_SMIF_WIDTH_OCTAL</DataWidth>
+      <DataRate>CY_SMIF_DDR</DataRate>
+    </Command>
+  </Commands>
+</CyMemoryConfiguration>

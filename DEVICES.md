@@ -74,9 +74,13 @@
       * [PSC3M3](#psc3m3)
       * [PSC3M5](#psc3m5)
       * [PSC3M6](#psc3m6)
+      * [PSC3M7](#psc3m7)
+      * [PSC3M8](#psc3m8)
       * [PSC3P2](#psc3p2)
       * [PSC3P5](#psc3p5)
       * [PSC3P6](#psc3p6)
+      * [PSC3P7](#psc3p7)
+      * [PSC3P8](#psc3p8)
     * [PSOC™ Edge](#psoc-edge)
       * [PSE8x2](#pse8x2)
       * [PSE8x3](#pse8x3)
@@ -1520,6 +1524,21 @@
 * PSC3M6GES3ACQ1
 * PSC3M6FDS2ACQ1
 
+### PSC3M7
+* PSC3M7GES3PAFQ1
+* PSC3M7FES2PLHQ1
+* PSC3M7FES2PLGQ1
+
+### PSC3M8
+* PSC3M8GFS3PAHQ1
+* PSC3M8GFS3PAFQ1
+* PSC3M8GFS3PACQ1
+* PSC3M8GFS3PLHQ1
+* PSC3M8FES2PLHQ1
+* PSC3M8GFS3PABQ1
+* PSC3M8GFS3PLGQ1
+* PSC3M8FES2PLGQ1
+
 ### PSC3P2
 * [PSC3P2EDLGQ1](https://www.infineon.com/part/PSC3P2EDLGQ1)
 * [PSC3P2FDS2LGQ1](https://www.infineon.com/part/PSC3P2FDS2LGQ1)
@@ -1555,6 +1574,22 @@
 * PSC3P6FDS2AFQ1
 * PSC3P6GES3ACQ1
 * PSC3P6FDS2ACQ1
+
+### PSC3P7
+* PSC3P7GES3PAFQ1
+* PSC3P7FES2PLHQ1
+* PSC3P7FES2PABQ1
+* PSC3P7FES2PLGQ1
+
+### PSC3P8
+* PSC3P8GFS3PAHQ1
+* PSC3P8GFS3PAFQ1
+* PSC3P8GFS3PACQ1
+* PSC3P8GFS3PLHQ1
+* PSC3P8FES2PLHQ1
+* PSC3P8GFS3PABQ1
+* PSC3P8GFS3PLGQ1
+* PSC3P8FES2PLGQ1
 
 ## PSOC™ Edge
 
@@ -1644,6 +1679,10 @@
 * [CYT2B65BAE](https://www.infineon.com/part/CYT2B65BADQ0AZEGS)
 * [CYT2B65CAS](https://www.infineon.com/part/CYT2B65BADQ0AZSGS)
 * [CYT2B65CAE](https://www.infineon.com/part/CYT2B65BADQ0AZEGS)
+* [CYT2B62BAS](https://www.infineon.com/part/CYT2B62BADQ0ANSGS)
+* [CYT2B62BAE](https://www.infineon.com/part/CYT2B62BADQ0ANSGS)
+* [CYT2B62DAS](https://www.infineon.com/part/CYT2B62DADQ0ANSGS)
+* [CYT2B62DAE](https://www.infineon.com/part/CYT2B62DADQ0ANSGS)
 
 ### CYT2B7
 * [CYT2B73BAS](https://www.infineon.com/part/CYT2B73BADQ0AZSGS)
@@ -1666,6 +1705,10 @@
 * [CYT2B78BAE](https://www.infineon.com/part/CYT2B78BADQ0AZEGS)
 * [CYT2B78CAS](https://www.infineon.com/part/CYT2B78CADQ0AZSGS)
 * [CYT2B78CAE](https://www.infineon.com/part/CYT2B78CADQ0AZEGS)
+* [CYT2B72BAS](https://www.infineon.com/part/CYT2B72BADQ0ANSGS)
+* [CYT2B72BAE](https://www.infineon.com/part/CYT2B72BADQ0ANSGS)
+* [CYT2B72DAS](https://www.infineon.com/part/CYT2B72DADQ0ANSGS)
+* [CYT2B72DAE](https://www.infineon.com/part/CYT2B72DADQ0ANSGS)
 
 ### CYT2B9
 * [CYT2B93BAS](https://www.infineon.com/part/CYT2B93BACQ0AZSGS)

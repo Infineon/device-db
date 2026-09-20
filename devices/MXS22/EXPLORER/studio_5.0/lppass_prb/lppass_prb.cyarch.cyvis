@@ -1,65 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" release="PSoC Creator  4.4" template="Empty (17&quot; x 11&quot;)" xmlns="http://cypress.com/xsd/cyvis">
-  <Page index="0" name="Page 1" enabled="true" shapeCount="68">
+  <Page index="0" name="Page 1" enabled="true" shapeCount="130">
     <Line shapeName="Shape_156" zorder="7">
-      <Point x="548" y="370" />
-      <Point x="556" y="366" />
+      <Point x="548" y="184" />
+      <Point x="556" y="180" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_157" zorder="8">
-      <Point x="548" y="362" />
-      <Point x="556" y="366" />
+      <Point x="548" y="176" />
+      <Point x="556" y="180" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Round" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_158" zorder="9">
-      <Point x="548" y="370" />
-      <Point x="556" y="374" />
+      <Point x="548" y="184" />
+      <Point x="556" y="188" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_159" zorder="10">
-      <Point x="552" y="384" />
-      <Point x="556" y="382" />
+      <Point x="552" y="198" />
+      <Point x="556" y="196" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_160" zorder="11">
-      <Point x="548" y="362" />
-      <Point x="552" y="360" />
+      <Point x="548" y="176" />
+      <Point x="552" y="174" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_161" zorder="12">
-      <Point x="548" y="378" />
-      <Point x="556" y="374" />
+      <Point x="548" y="192" />
+      <Point x="556" y="188" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_162" zorder="13">
-      <Point x="548" y="378" />
-      <Point x="556" y="382" />
+      <Point x="548" y="192" />
+      <Point x="556" y="196" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Instance shapeName="Shape_11080" zorder="0" guid="1346ee09-51d4-496d-94f3-b9ecad61c11e" name="mux_1" component="mux_1">
-      <Location x="498" y="294" />
+      <Location x="498" y="108" />
       <Size width="18" height="30" />
       <SubShapes>
         <ClosedShape>
-          <Point x="516" y="300" />
-          <Point x="516" y="318" />
-          <Point x="498" y="324" />
-          <Point x="498" y="294" />
-          <Point x="516" y="300" />
+          <Point x="516" y="114" />
+          <Point x="516" y="132" />
+          <Point x="498" y="138" />
+          <Point x="498" y="108" />
+          <Point x="516" y="114" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
@@ -70,43 +70,43 @@
       </SubShapes>
     </Instance>
     <Line shapeName="Shape_11081" zorder="1">
-      <Point x="498" y="300" />
-      <Point x="468" y="300" />
+      <Point x="498" y="114" />
+      <Point x="468" y="114" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11082" zorder="2">
-      <Point x="498" y="318" />
-      <Point x="468" y="318" />
+      <Point x="498" y="132" />
+      <Point x="468" y="132" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11083" zorder="3">
-      <Point x="516" y="306" />
-      <Point x="552" y="306" />
+      <Point x="516" y="120" />
+      <Point x="552" y="120" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11086" zorder="4">
-      <Point x="552" y="306" />
-      <Point x="552" y="354" />
+      <Point x="552" y="120" />
+      <Point x="552" y="168" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Instance shapeName="Shape_11087" zorder="5" guid="1a7426c8-abf9-4e8f-b327-1eb589d5f336" name="mux_2" component="mux_1">
-      <Location x="642" y="360" />
+      <Location x="642" y="174" />
       <Size width="18" height="102" />
       <SubShapes>
         <ClosedShape>
-          <Point x="660" y="366" />
-          <Point x="660" y="456" />
-          <Point x="642" y="462" />
-          <Point x="642" y="360" />
-          <Point x="660" y="366" />
+          <Point x="660" y="180" />
+          <Point x="660" y="270" />
+          <Point x="642" y="276" />
+          <Point x="642" y="174" />
+          <Point x="660" y="180" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
             <SolidBrush color="0, 0, 0" />
           </Outline>
@@ -117,183 +117,183 @@
       </SubShapes>
     </Instance>
     <Line shapeName="Shape_11089" zorder="6">
-      <Point x="552" y="354" />
-      <Point x="552" y="360" />
+      <Point x="552" y="168" />
+      <Point x="552" y="174" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11093" zorder="14">
-      <Point x="548" y="406" />
-      <Point x="556" y="402" />
+      <Point x="548" y="220" />
+      <Point x="556" y="216" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11094" zorder="15">
-      <Point x="548" y="398" />
-      <Point x="556" y="402" />
+      <Point x="548" y="212" />
+      <Point x="556" y="216" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Round" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11095" zorder="16">
-      <Point x="548" y="406" />
-      <Point x="556" y="410" />
+      <Point x="548" y="220" />
+      <Point x="556" y="224" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11096" zorder="17">
-      <Point x="552" y="420" />
-      <Point x="556" y="418" />
+      <Point x="552" y="234" />
+      <Point x="556" y="232" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11097" zorder="18">
-      <Point x="548" y="398" />
-      <Point x="552" y="396" />
+      <Point x="548" y="212" />
+      <Point x="552" y="210" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11098" zorder="19">
-      <Point x="548" y="414" />
-      <Point x="556" y="410" />
+      <Point x="548" y="228" />
+      <Point x="556" y="224" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11099" zorder="20">
-      <Point x="548" y="414" />
-      <Point x="556" y="418" />
+      <Point x="548" y="228" />
+      <Point x="556" y="232" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11100" zorder="21">
-      <Point x="548" y="448" />
-      <Point x="556" y="444" />
+      <Point x="548" y="262" />
+      <Point x="556" y="258" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11101" zorder="22">
-      <Point x="548" y="440" />
-      <Point x="556" y="444" />
+      <Point x="548" y="254" />
+      <Point x="556" y="258" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Round" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11102" zorder="23">
-      <Point x="548" y="448" />
-      <Point x="556" y="452" />
+      <Point x="548" y="262" />
+      <Point x="556" y="266" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11103" zorder="24">
-      <Point x="552" y="462" />
-      <Point x="556" y="460" />
+      <Point x="552" y="276" />
+      <Point x="556" y="274" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11104" zorder="25">
-      <Point x="548" y="440" />
-      <Point x="552" y="438" />
+      <Point x="548" y="254" />
+      <Point x="552" y="252" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11105" zorder="26">
-      <Point x="548" y="456" />
-      <Point x="556" y="452" />
+      <Point x="548" y="270" />
+      <Point x="556" y="266" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11106" zorder="27">
-      <Point x="548" y="456" />
-      <Point x="556" y="460" />
+      <Point x="548" y="270" />
+      <Point x="556" y="274" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11107" zorder="28">
-      <Point x="548" y="484" />
-      <Point x="556" y="480" />
+      <Point x="548" y="298" />
+      <Point x="556" y="294" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11108" zorder="29">
-      <Point x="548" y="476" />
-      <Point x="556" y="480" />
+      <Point x="548" y="290" />
+      <Point x="556" y="294" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Round" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11109" zorder="30">
-      <Point x="548" y="484" />
-      <Point x="556" y="488" />
+      <Point x="548" y="298" />
+      <Point x="556" y="302" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11110" zorder="31">
-      <Point x="552" y="498" />
-      <Point x="556" y="496" />
+      <Point x="552" y="312" />
+      <Point x="556" y="310" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11111" zorder="32">
-      <Point x="548" y="476" />
-      <Point x="552" y="474" />
+      <Point x="548" y="290" />
+      <Point x="552" y="288" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11112" zorder="33">
-      <Point x="548" y="492" />
-      <Point x="556" y="488" />
+      <Point x="548" y="306" />
+      <Point x="556" y="302" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11113" zorder="34">
-      <Point x="548" y="492" />
-      <Point x="556" y="496" />
+      <Point x="548" y="306" />
+      <Point x="556" y="310" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11114" zorder="35">
-      <Point x="552" y="474" />
-      <Point x="552" y="462" />
+      <Point x="552" y="288" />
+      <Point x="552" y="276" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11116" zorder="36">
-      <Point x="552" y="396" />
-      <Point x="552" y="384" />
+      <Point x="552" y="210" />
+      <Point x="552" y="198" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11136" zorder="37">
-      <Point x="552" y="510" />
-      <Point x="552" y="498" />
+      <Point x="552" y="324" />
+      <Point x="552" y="312" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Arc shapeName="Shape_11137" zorder="38">
-      <Location x="552.0289" y="424.6136" />
-      <Size width="5.542297" height="0.7882996" />
+      <Location x="552.0288" y="238.6136" />
+      <Size width="5.542358" height="0.7883301" />
       <Angles start="210" sweep="120" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
@@ -301,8 +301,8 @@
       <NoFill />
     </Arc>
     <Arc shapeName="Shape_11140" zorder="39">
-      <Location x="546.4288" y="423.8253" />
-      <Size width="5.542297" height="0.7882996" />
+      <Location x="546.4287" y="237.8253" />
+      <Size width="5.542358" height="0.7882996" />
       <Angles start="210" sweep="120" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
@@ -310,8 +310,8 @@
       <NoFill />
     </Arc>
     <Arc shapeName="Shape_11141" zorder="40">
-      <Location x="552.0289" y="426.6136" />
-      <Size width="5.542297" height="0.7882996" />
+      <Location x="552.0288" y="240.6136" />
+      <Size width="5.542358" height="0.7883301" />
       <Angles start="210" sweep="120" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
@@ -319,8 +319,8 @@
       <NoFill />
     </Arc>
     <Arc shapeName="Shape_11144" zorder="41">
-      <Location x="546.4288" y="425.8253" />
-      <Size width="5.542297" height="0.7882996" />
+      <Location x="546.4287" y="239.8253" />
+      <Size width="5.542358" height="0.7882996" />
       <Angles start="210" sweep="120" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
@@ -328,74 +328,74 @@
       <NoFill />
     </Arc>
     <Line shapeName="Shape_11145" zorder="42">
-      <Point x="552" y="420" />
-      <Point x="552" y="425" />
+      <Point x="552" y="234" />
+      <Point x="552" y="239" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Line shapeName="Shape_11146" zorder="43">
-      <Point x="552" y="438" />
-      <Point x="552" y="427" />
+      <Point x="552" y="252" />
+      <Point x="552" y="241" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Wire shapeName="Shape_11148" zorder="44" effectiveName="Net_1730" type="Digital">
-      <Point1 x="552" y="354" />
-      <Point2 x="612" y="354" />
+      <Point1 x="552" y="168" />
+      <Point2 x="612" y="168" />
     </Wire>
     <Wire shapeName="Shape_11149" zorder="46" effectiveName="Net_1730" type="Digital">
-      <Point1 x="612" y="354" />
-      <Point2 x="612" y="378" />
+      <Point1 x="612" y="168" />
+      <Point2 x="612" y="192" />
     </Wire>
     <Wire shapeName="Shape_11151" zorder="48" effectiveName="Net_1730" type="Digital">
-      <Point1 x="612" y="378" />
-      <Point2 x="642" y="378" />
+      <Point1 x="612" y="192" />
+      <Point2 x="642" y="192" />
     </Wire>
     <Wire shapeName="Shape_11152" zorder="50" effectiveName="Net_1731" type="Digital">
-      <Point1 x="552" y="390" />
-      <Point2 x="642" y="390" />
+      <Point1 x="552" y="204" />
+      <Point2 x="642" y="204" />
     </Wire>
     <Wire shapeName="Shape_11153" zorder="52" effectiveName="Net_1732" type="Digital">
-      <Point1 x="552" y="432" />
-      <Point2 x="642" y="432" />
+      <Point1 x="552" y="246" />
+      <Point2 x="642" y="246" />
     </Wire>
     <Wire shapeName="Shape_11154" zorder="54" effectiveName="Net_1733" type="Digital">
-      <Point1 x="552" y="468" />
-      <Point2 x="612" y="468" />
+      <Point1 x="552" y="282" />
+      <Point2 x="612" y="282" />
     </Wire>
     <Wire shapeName="Shape_11155" zorder="56" effectiveName="Net_1733" type="Digital">
-      <Point1 x="612" y="444" />
-      <Point2 x="612" y="468" />
+      <Point1 x="612" y="258" />
+      <Point2 x="612" y="282" />
     </Wire>
     <Wire shapeName="Shape_11156" zorder="58" effectiveName="Net_1733" type="Digital">
-      <Point1 x="612" y="444" />
-      <Point2 x="642" y="444" />
+      <Point1 x="612" y="258" />
+      <Point2 x="642" y="258" />
     </Wire>
     <Instance shapeName="Shape_11157" zorder="60" guid="ceeded78-f91c-4d9e-b2ff-9ad2fff4fdac" name="GND_1" component="cy_all_gnd">
-      <Location x="546" y="510" />
+      <Location x="546" y="324" />
       <Size width="12" height="12" />
       <SubShapes>
         <Line>
-          <Point x="552" y="510" />
-          <Point x="552" y="516" />
+          <Point x="552" y="324" />
+          <Point x="552" y="330" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="128, 128, 128" />
           </Outline>
         </Line>
         <Line>
-          <Point x="546" y="516" />
-          <Point x="558" y="516" />
+          <Point x="546" y="330" />
+          <Point x="558" y="330" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
             <SolidBrush color="0, 0, 255" />
           </Outline>
         </Line>
         <ClosedShape>
-          <Point x="558" y="516" />
-          <Point x="552" y="522" />
-          <Point x="546" y="516" />
-          <Point x="558" y="516" />
+          <Point x="558" y="330" />
+          <Point x="552" y="336" />
+          <Point x="546" y="330" />
+          <Point x="558" y="330" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
             <SolidBrush color="128, 128, 128" />
           </Outline>
@@ -404,22 +404,22 @@
           </Fill>
         </ClosedShape>
         <Line>
-          <Point x="546" y="516" />
-          <Point x="558" y="516" />
+          <Point x="546" y="330" />
+          <Point x="558" y="330" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
             <SolidBrush color="128, 128, 128" />
           </Outline>
         </Line>
         <Line>
-          <Point x="548" y="518" />
-          <Point x="556" y="518" />
+          <Point x="548" y="332" />
+          <Point x="556" y="332" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
             <SolidBrush color="128, 128, 128" />
           </Outline>
         </Line>
         <Line>
-          <Point x="550" y="520" />
-          <Point x="554" y="520" />
+          <Point x="550" y="334" />
+          <Point x="554" y="334" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
             <SolidBrush color="128, 128, 128" />
           </Outline>
@@ -427,7 +427,7 @@
       </SubShapes>
     </Instance>
     <Annotation shapeName="Shape_11158" zorder="61">
-      <Location x="510" y="504" />
+      <Location x="510" y="318" />
       <Text>VSSA</Text>
       <Vertical value="false" />
       <Fill>
@@ -437,7 +437,7 @@
       <TextAlignment value="TopLeft" />
     </Annotation>
     <Ellipse shapeName="Shape_11162" zorder="62">
-      <Location x="630" y="402" />
+      <Location x="630" y="216" />
       <Size width="3" height="3" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
@@ -447,7 +447,7 @@
       </Fill>
     </Ellipse>
     <Ellipse shapeName="Shape_11163" zorder="63">
-      <Location x="630" y="408" />
+      <Location x="630" y="222" />
       <Size width="3" height="3" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
@@ -457,7 +457,7 @@
       </Fill>
     </Ellipse>
     <Ellipse shapeName="Shape_11164" zorder="64">
-      <Location x="630" y="414" />
+      <Location x="630" y="228" />
       <Size width="3" height="3" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
@@ -467,7 +467,7 @@
       </Fill>
     </Ellipse>
     <Annotation shapeName="Shape_11165" zorder="65">
-      <Location x="564" y="402" />
+      <Location x="564" y="216" />
       <Text>16x</Text>
       <Vertical value="false" />
       <Fill>
@@ -477,18 +477,18 @@
       <TextAlignment value="TopLeft" />
     </Annotation>
     <Line shapeName="Shape_11166" zorder="66">
-      <Point x="660" y="396" />
-      <Point x="690" y="396" />
+      <Point x="660" y="222" />
+      <Point x="690" y="222" />
       <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
         <SolidBrush color="0, 0, 0" />
       </Outline>
     </Line>
     <Instance shapeName="Shape_11168" zorder="67" guid="15ad470f-c886-4647-8e20-cae54f75f309" name="cy_all_label_4" component="cy_all_label">
-      <Location x="690" y="390" />
+      <Location x="690" y="216" />
       <Size width="60" height="12" />
       <SubShapes>
         <Rectangle>
-          <Location x="690" y="390" />
+          <Location x="690" y="216" />
           <Size width="36" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -498,7 +498,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="690" y="390" />
+          <Location x="690" y="216" />
           <Size width="60" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -508,7 +508,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="691" y="401.5" />
+          <Location x="691" y="227.5" />
           <Text>PRB_OUT0</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -520,50 +520,13 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11176" zorder="73" guid="f1a285f4-ace7-4033-a6a3-9ace692a4d05" name="cy_all_label_1" component="cy_all_label">
-      <Location x="690" y="414" />
-      <Size width="60" height="12" />
-      <SubShapes>
-        <Rectangle>
-          <Location x="690" y="414" />
-          <Size width="36" height="12" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
-            <SolidBrush color="176, 176, 176" />
-          </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
-        </Rectangle>
-        <Rectangle>
-          <Location x="690" y="414" />
-          <Size width="60" height="12" />
-          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
-            <SolidBrush color="176, 176, 176" />
-          </Outline>
-          <Fill>
-            <SolidBrush color="255, 255, 255" />
-          </Fill>
-        </Rectangle>
-        <Annotation>
-          <Location x="691" y="425.5" />
-          <Text>PRB_OUT1</Text>
-          <Vertical value="false" />
-          <Expression>`=$Text`</Expression>
-          <Fill>
-            <SolidBrush color="0, 0, 0" />
-          </Fill>
-          <Font value="Microsoft Sans Serif, 8pt" />
-          <TextAlignment value="BottomLeft" />
-        </Annotation>
-      </SubShapes>
-    </Instance>
     <Instance shapeName="Shape_11177" zorder="69" guid="cd2dd42b-ba1e-4b12-bba8-5f9fd78c1da7" name="cy_all_label_2" component="cy_all_label">
-      <Location x="396" y="294" />
+      <Location x="396" y="108" />
       <Size width="72" height="12" />
-      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut0Enable")&&getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut0Vref") eq "CY_AUTANALOG_PRB_VDDA")||(getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Enable")&&getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Vref") eq "CY_AUTANALOG_PRB_VDDA")):0}`]]></ShapeTags>
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut0Enable")&&getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut0Vref") eq "CY_AUTANALOG_PRB_VDDA"):0}`]]></ShapeTags>
       <SubShapes>
         <Rectangle>
-          <Location x="396" y="294" />
+          <Location x="396" y="108" />
           <Size width="36" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -573,7 +536,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="396" y="294" />
+          <Location x="396" y="108" />
           <Size width="72" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -583,7 +546,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="396" y="294" />
+          <Location x="396" y="108" />
           <Size width="72" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="107, 142, 35" />
@@ -593,7 +556,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="397" y="305.5" />
+          <Location x="397" y="119.5" />
           <Text>VDDA</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -606,11 +569,11 @@
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_11178" zorder="68" guid="d104efbb-3510-41af-bbde-8bacacb397a0" name="cy_all_label_3" component="cy_all_label">
-      <Location x="396" y="294" />
+      <Location x="396" y="108" />
       <Size width="72" height="12" />
       <SubShapes>
         <Rectangle>
-          <Location x="396" y="294" />
+          <Location x="396" y="108" />
           <Size width="36" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -620,7 +583,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="396" y="294" />
+          <Location x="396" y="108" />
           <Size width="72" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -630,7 +593,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="397" y="305.5" />
+          <Location x="397" y="119.5" />
           <Text>VDDA</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -643,11 +606,11 @@
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_11179" zorder="70" guid="96bade4a-f9a9-4297-ab46-de7f843892b7" name="cy_all_label_5" component="cy_all_label">
-      <Location x="396" y="312" />
+      <Location x="396" y="126" />
       <Size width="72" height="12" />
       <SubShapes>
         <Rectangle>
-          <Location x="396" y="312" />
+          <Location x="396" y="126" />
           <Size width="36" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -657,7 +620,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="396" y="312" />
+          <Location x="396" y="126" />
           <Size width="72" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -667,7 +630,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="397" y="323.5" />
+          <Location x="397" y="137.5" />
           <Text>VGBR (0.9V)</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -680,12 +643,12 @@
       </SubShapes>
     </Instance>
     <Instance shapeName="Shape_11180" zorder="71" guid="6d086d9e-0e7e-4fea-ae60-35ac5491beda" name="cy_all_label_6" component="cy_all_label">
-      <Location x="396" y="312" />
+      <Location x="396" y="126" />
       <Size width="72" height="12" />
-      <ShapeTags><![CDATA[visibility:`${((isBlockUsed("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]"))?((getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut0Enable")&&getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut0Vref") eq "CY_AUTANALOG_PRB_VBGR")||(getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Enable")&&getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Vref") eq "CY_AUTANALOG_PRB_VBGR")):0)}`]]></ShapeTags>
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut0Enable")&&getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut0Vref") eq "CY_AUTANALOG_PRB_VBGR"):0}`]]></ShapeTags>
       <SubShapes>
         <Rectangle>
-          <Location x="396" y="312" />
+          <Location x="396" y="126" />
           <Size width="36" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -695,7 +658,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="396" y="312" />
+          <Location x="396" y="126" />
           <Size width="72" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -705,7 +668,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="396" y="312" />
+          <Location x="396" y="126" />
           <Size width="72" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="107, 142, 35" />
@@ -715,7 +678,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="397" y="323.5" />
+          <Location x="397" y="137.5" />
           <Text>VBGR (0.9V)</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -727,20 +690,13 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Line shapeName="Shape_11181" zorder="72">
-      <Point x="660" y="420" />
-      <Point x="690" y="420" />
-      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
-        <SolidBrush color="0, 0, 0" />
-      </Outline>
-    </Line>
-    <Instance shapeName="Shape_11183" zorder="74" guid="d2b6b7af-234c-4cf0-bfab-ade678a796da" name="cy_all_label_7" component="cy_all_label">
-      <Location x="690" y="390" />
+    <Instance shapeName="Shape_11183" zorder="72" guid="d2b6b7af-234c-4cf0-bfab-ade678a796da" name="cy_all_label_7" component="cy_all_label">
+      <Location x="690" y="216" />
       <Size width="60" height="12" />
       <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut0Enable")):0}`]]></ShapeTags>
       <SubShapes>
         <Rectangle>
-          <Location x="690" y="390" />
+          <Location x="690" y="216" />
           <Size width="36" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -750,7 +706,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="690" y="390" />
+          <Location x="690" y="216" />
           <Size width="60" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -760,7 +716,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="690" y="390" />
+          <Location x="690" y="216" />
           <Size width="60" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="107, 142, 35" />
@@ -770,7 +726,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="691" y="401.5" />
+          <Location x="691" y="227.5" />
           <Text>PRB_OUT0</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>
@@ -782,13 +738,487 @@
         </Annotation>
       </SubShapes>
     </Instance>
-    <Instance shapeName="Shape_11184" zorder="75" guid="b42ac7f3-ef46-414e-8de4-bcc408d254c7" name="cy_all_label_8" component="cy_all_label">
-      <Location x="690" y="414" />
-      <Size width="60" height="12" />
-      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Enable")):0}`]]></ShapeTags>
+    <Instance shapeName="Shape_11185" zorder="73" guid="28408021-59a4-48cf-b388-f15d6e5c1861" name="mux_3" component="mux_1">
+      <Location x="498" y="366" />
+      <Size width="18" height="30" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="516" y="372" />
+          <Point x="516" y="390" />
+          <Point x="498" y="396" />
+          <Point x="498" y="366" />
+          <Point x="516" y="372" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Line shapeName="Shape_11186" zorder="74">
+      <Point x="498" y="372" />
+      <Point x="468" y="372" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11187" zorder="75">
+      <Point x="498" y="390" />
+      <Point x="468" y="390" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11188" zorder="76">
+      <Point x="516" y="378" />
+      <Point x="552" y="378" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11189" zorder="77">
+      <Point x="552" y="378" />
+      <Point x="552" y="426" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Instance shapeName="Shape_11190" zorder="78" guid="cd5c79bb-f60d-4bc1-8e52-d20ccd15aae2" name="mux_4" component="mux_1">
+      <Location x="642" y="432" />
+      <Size width="18" height="102" />
+      <SubShapes>
+        <ClosedShape>
+          <Point x="660" y="438" />
+          <Point x="660" y="528" />
+          <Point x="642" y="534" />
+          <Point x="642" y="432" />
+          <Point x="660" y="438" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+            <SolidBrush color="0, 0, 0" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+      </SubShapes>
+    </Instance>
+    <Line shapeName="Shape_11191" zorder="79">
+      <Point x="552" y="426" />
+      <Point x="552" y="432" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11192" zorder="80">
+      <Point x="548" y="442" />
+      <Point x="556" y="438" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11193" zorder="81">
+      <Point x="548" y="434" />
+      <Point x="556" y="438" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Round" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11194" zorder="82">
+      <Point x="548" y="442" />
+      <Point x="556" y="446" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11195" zorder="83">
+      <Point x="552" y="456" />
+      <Point x="556" y="454" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11196" zorder="84">
+      <Point x="548" y="434" />
+      <Point x="552" y="432" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11197" zorder="85">
+      <Point x="548" y="450" />
+      <Point x="556" y="446" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11198" zorder="86">
+      <Point x="548" y="450" />
+      <Point x="556" y="454" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11199" zorder="87">
+      <Point x="548" y="478" />
+      <Point x="556" y="474" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11200" zorder="88">
+      <Point x="548" y="470" />
+      <Point x="556" y="474" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Round" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11201" zorder="89">
+      <Point x="548" y="478" />
+      <Point x="556" y="482" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11202" zorder="90">
+      <Point x="552" y="492" />
+      <Point x="556" y="490" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11203" zorder="91">
+      <Point x="548" y="470" />
+      <Point x="552" y="468" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11204" zorder="92">
+      <Point x="548" y="486" />
+      <Point x="556" y="482" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11205" zorder="93">
+      <Point x="548" y="486" />
+      <Point x="556" y="490" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11206" zorder="94">
+      <Point x="548" y="520" />
+      <Point x="556" y="516" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11207" zorder="95">
+      <Point x="548" y="512" />
+      <Point x="556" y="516" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Round" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11208" zorder="96">
+      <Point x="548" y="520" />
+      <Point x="556" y="524" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11209" zorder="97">
+      <Point x="552" y="534" />
+      <Point x="556" y="532" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11210" zorder="98">
+      <Point x="548" y="512" />
+      <Point x="552" y="510" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11211" zorder="99">
+      <Point x="548" y="528" />
+      <Point x="556" y="524" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11212" zorder="100">
+      <Point x="548" y="528" />
+      <Point x="556" y="532" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11213" zorder="101">
+      <Point x="548" y="556" />
+      <Point x="556" y="552" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11214" zorder="102">
+      <Point x="548" y="548" />
+      <Point x="556" y="552" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Round" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11215" zorder="103">
+      <Point x="548" y="556" />
+      <Point x="556" y="560" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11216" zorder="104">
+      <Point x="552" y="570" />
+      <Point x="556" y="568" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11217" zorder="105">
+      <Point x="548" y="548" />
+      <Point x="552" y="546" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11218" zorder="106">
+      <Point x="548" y="564" />
+      <Point x="556" y="560" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Bevel" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11219" zorder="107">
+      <Point x="548" y="564" />
+      <Point x="556" y="568" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11220" zorder="108">
+      <Point x="552" y="546" />
+      <Point x="552" y="534" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11221" zorder="109">
+      <Point x="552" y="468" />
+      <Point x="552" y="456" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11222" zorder="110">
+      <Point x="552" y="582" />
+      <Point x="552" y="570" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Arc shapeName="Shape_11223" zorder="111">
+      <Location x="552.0288" y="496.6135" />
+      <Size width="5.542358" height="0.7883301" />
+      <Angles start="210" sweep="120" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <NoFill />
+    </Arc>
+    <Arc shapeName="Shape_11224" zorder="112">
+      <Location x="546.4287" y="495.8253" />
+      <Size width="5.542358" height="0.788269" />
+      <Angles start="210" sweep="120" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <NoFill />
+    </Arc>
+    <Arc shapeName="Shape_11225" zorder="113">
+      <Location x="552.0288" y="498.6135" />
+      <Size width="5.542358" height="0.7883301" />
+      <Angles start="210" sweep="120" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <NoFill />
+    </Arc>
+    <Arc shapeName="Shape_11226" zorder="114">
+      <Location x="546.4287" y="497.8253" />
+      <Size width="5.542358" height="0.788269" />
+      <Angles start="210" sweep="120" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <NoFill />
+    </Arc>
+    <Line shapeName="Shape_11227" zorder="115">
+      <Point x="552" y="492" />
+      <Point x="552" y="497" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Line shapeName="Shape_11228" zorder="116">
+      <Point x="552" y="510" />
+      <Point x="552" y="499" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Wire shapeName="Shape_11229" zorder="117" effectiveName="Net_1735" type="Digital">
+      <Point1 x="552" y="426" />
+      <Point2 x="612" y="426" />
+    </Wire>
+    <Wire shapeName="Shape_11230" zorder="119" effectiveName="Net_1735" type="Digital">
+      <Point1 x="612" y="426" />
+      <Point2 x="612" y="450" />
+    </Wire>
+    <Wire shapeName="Shape_11231" zorder="121" effectiveName="Net_1735" type="Digital">
+      <Point1 x="612" y="450" />
+      <Point2 x="642" y="450" />
+    </Wire>
+    <Wire shapeName="Shape_11232" zorder="123" effectiveName="Net_1736" type="Digital">
+      <Point1 x="552" y="462" />
+      <Point2 x="642" y="462" />
+    </Wire>
+    <Wire shapeName="Shape_11233" zorder="125" effectiveName="Net_1737" type="Digital">
+      <Point1 x="552" y="504" />
+      <Point2 x="642" y="504" />
+    </Wire>
+    <Wire shapeName="Shape_11234" zorder="127" effectiveName="Net_1738" type="Digital">
+      <Point1 x="552" y="540" />
+      <Point2 x="612" y="540" />
+    </Wire>
+    <Wire shapeName="Shape_11235" zorder="129" effectiveName="Net_1738" type="Digital">
+      <Point1 x="612" y="516" />
+      <Point2 x="612" y="540" />
+    </Wire>
+    <Wire shapeName="Shape_11236" zorder="131" effectiveName="Net_1738" type="Digital">
+      <Point1 x="612" y="516" />
+      <Point2 x="642" y="516" />
+    </Wire>
+    <Instance shapeName="Shape_11237" zorder="133" guid="cd639227-be80-4067-acb1-792aa686793d" name="GND_2" component="cy_all_gnd">
+      <Location x="546" y="582" />
+      <Size width="12" height="12" />
+      <SubShapes>
+        <Line>
+          <Point x="552" y="582" />
+          <Point x="552" y="588" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="546" y="588" />
+          <Point x="558" y="588" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="0, 0, 255" />
+          </Outline>
+        </Line>
+        <ClosedShape>
+          <Point x="558" y="588" />
+          <Point x="552" y="594" />
+          <Point x="546" y="588" />
+          <Point x="558" y="588" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </ClosedShape>
+        <Line>
+          <Point x="546" y="588" />
+          <Point x="558" y="588" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="548" y="590" />
+          <Point x="556" y="590" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+        </Line>
+        <Line>
+          <Point x="550" y="592" />
+          <Point x="554" y="592" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.75">
+            <SolidBrush color="128, 128, 128" />
+          </Outline>
+        </Line>
+      </SubShapes>
+    </Instance>
+    <Annotation shapeName="Shape_11238" zorder="134">
+      <Location x="510" y="576" />
+      <Text>VSSA</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+    </Annotation>
+    <Ellipse shapeName="Shape_11239" zorder="135">
+      <Location x="630" y="474" />
+      <Size width="3" height="3" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+    </Ellipse>
+    <Ellipse shapeName="Shape_11240" zorder="136">
+      <Location x="630" y="480" />
+      <Size width="3" height="3" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+    </Ellipse>
+    <Ellipse shapeName="Shape_11241" zorder="137">
+      <Location x="630" y="486" />
+      <Size width="3" height="3" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+    </Ellipse>
+    <Annotation shapeName="Shape_11242" zorder="138">
+      <Location x="564" y="474" />
+      <Text>16x</Text>
+      <Vertical value="false" />
+      <Fill>
+        <SolidBrush color="0, 0, 0" />
+      </Fill>
+      <Font value="Microsoft Sans Serif, 10pt" />
+      <TextAlignment value="TopLeft" />
+    </Annotation>
+    <Instance shapeName="Shape_11245" zorder="139" guid="54486d6b-a094-4168-9d6c-270e87500907" name="cy_all_label_10" component="cy_all_label">
+      <Location x="396" y="366" />
+      <Size width="72" height="12" />
       <SubShapes>
         <Rectangle>
-          <Location x="690" y="414" />
+          <Location x="396" y="366" />
           <Size width="36" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -798,7 +1228,222 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="690" y="414" />
+          <Location x="396" y="366" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="397" y="377.5" />
+          <Text>VDDA</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_11246" zorder="140" guid="b977d066-2611-4a1e-bea8-0218e8843f0f" name="cy_all_label_11" component="cy_all_label">
+      <Location x="396" y="366" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Enable")&&getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Vref") eq "CY_AUTANALOG_PRB_VDDA"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="396" y="366" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="396" y="366" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="396" y="366" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="397" y="377.5" />
+          <Text>VDDA</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_11247" zorder="141" guid="49b521de-78ea-488f-ba1d-813629d5ec56" name="cy_all_label_12" component="cy_all_label">
+      <Location x="396" y="384" />
+      <Size width="72" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="396" y="384" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="396" y="384" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="397" y="395.5" />
+          <Text>VGBR (0.9V)</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_11248" zorder="142" guid="cd29e24b-aa99-4375-8e4a-5daef8267717" name="cy_all_label_13" component="cy_all_label">
+      <Location x="396" y="384" />
+      <Size width="72" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Enable")&&getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Vref") eq "CY_AUTANALOG_PRB_VBGR"):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="396" y="384" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="396" y="384" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="396" y="384" />
+          <Size width="72" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="107, 142, 35" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="128, 255, 128" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="397" y="395.5" />
+          <Text>VBGR (0.9V)</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Line shapeName="Shape_11249" zorder="143">
+      <Point x="660" y="480" />
+      <Point x="690" y="480" />
+      <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0">
+        <SolidBrush color="0, 0, 0" />
+      </Outline>
+    </Line>
+    <Instance shapeName="Shape_11250" zorder="144" guid="3a2a6af6-621a-4262-aea8-ad8ebd802c62" name="cy_all_label_14" component="cy_all_label">
+      <Location x="690" y="474" />
+      <Size width="60" height="12" />
+      <SubShapes>
+        <Rectangle>
+          <Location x="690" y="474" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="690" y="474" />
+          <Size width="60" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Annotation>
+          <Location x="691" y="485.5" />
+          <Text>PRB_OUT1</Text>
+          <Vertical value="false" />
+          <Expression>`=$Text`</Expression>
+          <Fill>
+            <SolidBrush color="0, 0, 0" />
+          </Fill>
+          <Font value="Microsoft Sans Serif, 8pt" />
+          <TextAlignment value="BottomLeft" />
+        </Annotation>
+      </SubShapes>
+    </Instance>
+    <Instance shapeName="Shape_11252" zorder="145" guid="8b3cf027-e1bf-415c-9db6-9e39ac0bda36" name="cy_all_label_16" component="cy_all_label">
+      <Location x="690" y="474" />
+      <Size width="60" height="12" />
+      <ShapeTags><![CDATA[visibility:`${(isBlockUsed("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]"))?(getExposedMember("pass[".getInstNumber("pass")."].prb[".getInstNumber("prb")."]", "prbOut1Enable")):0}`]]></ShapeTags>
+      <SubShapes>
+        <Rectangle>
+          <Location x="690" y="474" />
+          <Size width="36" height="12" />
+          <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
+            <SolidBrush color="176, 176, 176" />
+          </Outline>
+          <Fill>
+            <SolidBrush color="255, 255, 255" />
+          </Fill>
+        </Rectangle>
+        <Rectangle>
+          <Location x="690" y="474" />
           <Size width="60" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="176, 176, 176" />
@@ -808,7 +1453,7 @@
           </Fill>
         </Rectangle>
         <Rectangle>
-          <Location x="690" y="414" />
+          <Location x="690" y="474" />
           <Size width="60" height="12" />
           <Outline dashStyle="Solid" startCap="Flat" endCap="Flat" lineJoin="Miter" weight="0.5">
             <SolidBrush color="107, 142, 35" />
@@ -818,7 +1463,7 @@
           </Fill>
         </Rectangle>
         <Annotation>
-          <Location x="691" y="425.5" />
+          <Location x="691" y="485.5" />
           <Text>PRB_OUT1</Text>
           <Vertical value="false" />
           <Expression>`=$Text`</Expression>

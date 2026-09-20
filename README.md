@@ -32,6 +32,7 @@ See [DEVICES.md](./DEVICES.md) for a list of supported devices and modules.
 - [MTB CAT5 Peripheral Driver Library](https://github.com/Infineon/mtb-pdl-cat5) - PDL for CAT5 devices
 - [MTB PSC1M3 Device Support Library](https://github.com/Infineon/mtb-dsl-psc1m3) - DSL for PSOC™ Control PSC1M3 devices
 - [MTB PSC3M6 Device Support Library](https://github.com/Infineon/mtb-dsl-psc3m6) - DSL for PSOC™ Control PSC3M6 devices
+- [MTB PSC3M8 Device Support Library](https://github.com/Infineon/mtb-dsl-psc3m8) - DSL for PSOC™ Control PSC3M8 devices
 - [MTB PSE8xxGP Device Support Library](https://github.com/Infineon/mtb-dsl-pse8xxgp) - DSL for PSOC™ Edge PSE8xxGP devices
 - [MTB PSE8xxGO Device Support Library](https://github.com/Infineon/mtb-dsl-pse8xxgo) - DSL for PSOC™ Edge PSE8xxGO devices
 - [MTB PSE8x6 Device Support Library](https://github.com/Infineon/mtb-dsl-pse8x6) - DSL for PSOC™ Edge PSE8x6 devices

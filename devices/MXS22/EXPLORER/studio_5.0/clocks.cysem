@@ -2810,11 +2810,6 @@
       <Terminal name="arc_bridge_105.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_106.i" type="Instance Digital Input" />
     </Signal>
-    <Signal name="Net_11947" type="Digital" terminalCount="3">
-      <Terminal name="arc_bridge_96.i" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_97.i" type="Instance Digital Input" />
-      <Terminal name="arc_bridge_99.i" type="Instance Digital Input" />
-    </Signal>
     <Signal name="Net_11949" type="Digital" terminalCount="2">
       <Terminal name="arc_bridge_1.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_3.o" type="Instance Digital Output" />
@@ -3722,6 +3717,11 @@
       <Terminal name="arc_bridge_92.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_89.i" type="Instance Digital Input" />
       <Terminal name="arc_bridge_1.o" type="Instance Digital Output" />
+    </Signal>
+    <Signal name="Net_13103" type="Digital" terminalCount="3">
+      <Terminal name="arc_bridge_96.i" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_97.i" type="Instance Digital Input" />
+      <Terminal name="arc_bridge_99.i" type="Instance Digital Input" />
     </Signal>
   </Signals>
   <Properties>
