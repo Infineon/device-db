@@ -13,8 +13,8 @@
   <StatusRegisterOctalEnableMask>0x00</StatusRegisterOctalEnableMask>
   <OctalEnableRegisterAddress>0x00</OctalEnableRegisterAddress>
   <EraseTime>400</EraseTime>
-  <ChipEraseTime>300000</ChipEraseTime>
-  <ProgramTime>750</ProgramTime>
+  <ChipEraseTime>260000</ChipEraseTime>
+  <ProgramTime>3000</ProgramTime>
   <FrequencyOfOperation>CY_SMIF_100MHZ_OPERATION</FrequencyOfOperation>
   <LatencyCyclesMask>0x00</LatencyCyclesMask>
   <LatencyCyclesRegisterAddress>0x00</LatencyCyclesRegisterAddress>
@@ -141,7 +141,7 @@
       <Mode>0x01</Mode>
       <ModeWidth>CY_SMIF_WIDTH_QUAD</ModeWidth>
       <ModeRate>CY_SMIF_DDR</ModeRate>
-      <DummyCycles>5</DummyCycles>
+      <DummyCycles>6</DummyCycles>
       <DataWidth>CY_SMIF_WIDTH_QUAD</DataWidth>
       <DataRate>CY_SMIF_DDR</DataRate>
     </Command>
@@ -223,7 +223,7 @@
     <Command>
       <CommandDescription>Read QE Register</CommandDescription>
       <CommandName>readStsRegQeCmd</CommandName>
-      <CommandNumber>0x35</CommandNumber>
+      <CommandNumber>0x05</CommandNumber>
       <CmdWidth>CY_SMIF_WIDTH_SINGLE</CmdWidth>
       <CmdRate>CY_SMIF_SDR</CmdRate>
       <AddrWidth>CY_SMIF_WIDTH_SINGLE</AddrWidth>

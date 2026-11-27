@@ -67,42 +67,42 @@
     <Param name="DATASHEET" value="https://www.infineon.com/part/PSE846GOS4DBZQ3"/>
   </Parameters>
   <DeviceComponents>
-    <DevComp name="PSE84"/>
+    <DevComp name="PSE84" types="mcu"/>
   </DeviceComponents>
   <DeviceCapabilities>
-    <DevCap name="adc"/>
-    <DevCap name="can"/>
-    <DevCap name="comp"/>
-    <DevCap name="dac"/>
-    <DevCap name="dma"/>
-    <DevCap name="epc4"/>
-    <DevCap name="ethernet"/>
+    <DevCap name="adc" types="mcu"/>
+    <DevCap name="can" types="mcu"/>
+    <DevCap name="comp" types="mcu"/>
+    <DevCap name="dac" types="mcu"/>
+    <DevCap name="dma" types="mcu"/>
+    <DevCap name="epc4" types="mcu"/>
+    <DevCap name="ethernet" types="mcu"/>
     <DevCap name="flash_0k" types="mcu"/>
-    <DevCap name="gfx"/>
-    <DevCap name="hal"/>
-    <DevCap name="i2c"/>
-    <DevCap name="i2s"/>
-    <DevCap name="i3c"/>
-    <DevCap name="low_power"/>
-    <DevCap name="lptimer"/>
-    <DevCap name="mcu_gp"/>
-    <DevCap name="multi_core"/>
-    <DevCap name="npu"/>
-    <DevCap name="opamp"/>
-    <DevCap name="pdm"/>
+    <DevCap name="gfx" types="mcu"/>
+    <DevCap name="hal" types="mcu"/>
+    <DevCap name="i2c" types="mcu"/>
+    <DevCap name="i2s" types="mcu"/>
+    <DevCap name="i3c" types="mcu"/>
+    <DevCap name="low_power" types="mcu"/>
+    <DevCap name="lptimer" types="mcu"/>
+    <DevCap name="mcu_gp" types="mcu"/>
+    <DevCap name="multi_core" types="mcu"/>
+    <DevCap name="npu" types="mcu"/>
+    <DevCap name="opamp" types="mcu"/>
+    <DevCap name="pdm" types="mcu"/>
     <DevCap name="pse8x6"/>
-    <DevCap name="qspi"/>
-    <DevCap name="rtc"/>
-    <DevCap name="sdhc"/>
-    <DevCap name="sdio"/>
-    <DevCap name="smart_io"/>
-    <DevCap name="spi"/>
+    <DevCap name="qspi" types="mcu"/>
+    <DevCap name="rtc" types="mcu"/>
+    <DevCap name="sdhc" types="mcu"/>
+    <DevCap name="sdio" types="mcu"/>
+    <DevCap name="smart_io" types="mcu"/>
+    <DevCap name="spi" types="mcu"/>
     <DevCap name="sram_1024k" types="mcu"/>
-    <DevCap name="std_crypto"/>
-    <DevCap name="tdm"/>
-    <DevCap name="uart"/>
-    <DevCap name="usb_device"/>
-    <DevCap name="usb_host"/>
+    <DevCap name="std_crypto" types="mcu"/>
+    <DevCap name="tdm" types="mcu"/>
+    <DevCap name="uart" types="mcu"/>
+    <DevCap name="usb_device" types="mcu"/>
+    <DevCap name="usb_host" types="mcu"/>
   </DeviceCapabilities>
   <TemplateAssetId>mtb-template-pse8x6</TemplateAssetId>
   <MigrationGroup>pse8x6</MigrationGroup>
@@ -118,16 +118,16 @@
     <provide key="wifi-sdio"/>
   </provides>
   <ToolIDs>
-    <ToolID name="audio-fe-configurator"/>
-    <ToolID name="deepcraftmodelconverter"/>
-    <ToolID name="deepcraftstudio"/>
+    <ToolID name="audio-fe-configurator" types="mcu"/>
+    <ToolID name="deepcraftmodelconverter" types="mcu"/>
+    <ToolID name="deepcraftstudio" types="mcu"/>
     <ToolID name="device-configurator"/>
-    <ToolID name="dfuh-tool"/>
-    <ToolID name="edge-protect-configurator"/>
+    <ToolID name="dfuh-tool" types="mcu"/>
+    <ToolID name="edge-protect-configurator" types="mcu"/>
     <ToolID name="library-manager"/>
-    <ToolID name="ml-configurator"/>
+    <ToolID name="ml-configurator" types="mcu"/>
     <ToolID name="project-creator"/>
-    <ToolID name="qspi-configurator"/>
-    <ToolID name="smartio-configurator"/>
+    <ToolID name="qspi-configurator" types="mcu"/>
+    <ToolID name="smartio-configurator" types="mcu"/>
   </ToolIDs>
 </View>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema
+    targetNamespace='http://cypress.com/xsd/cyclockdata_v1'
+    xmlns='http://cypress.com/xsd/cyclockdata_v1'
+    xmlns:xs='http://www.w3.org/2001/XMLSchema'
+    elementFormDefault='qualified'
+    attributeFormDefault='unqualified'>
+
+    <!-- One clock source, addressed by Device Configurator's getCustomData via the key attribute
+       (e.g. getCustomData("/Clock[@key=\"ILO\"]/@accuracyPct")). -->
+    <xs:complexType name='Clock'>
+        <!-- The key is a free-form clock name such as ILO or IMO -->
+        <xs:attribute name='key' type='xs:string' use='required' />
+        <!-- Accuracy of the clock in percent, e.g. 5.5 for 5.5 %. -->
+        <xs:attribute name='accuracyPct' type='xs:double' use='optional' />
+    </xs:complexType>
+
+    <!-- Container element of clock_data.cydata; holds zero or more keyed clocks. -->
+    <xs:element name='ClockData'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name='Clock' type='Clock' minOccurs='0' maxOccurs='unbounded' />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -57,6 +57,7 @@
       * [PSoC 4100S](#psoc-4100s)
       * [PSoC 4100S Max](#psoc-4100s-max)
       * [PSoC 4100S Plus](#psoc-4100s-plus)
+      * [PSoC 4100SL](#psoc-4100sl)
       * [PSOC 4100T Plus](#psoc-4100t-plus)
       * [PSOC 4100T Plus 256KB](#psoc-4100t-plus-256kb)
       * [PSoC 4500H](#psoc-4500h)
@@ -98,6 +99,7 @@
       * [CYT4BB](#cyt4bb)
       * [CYT4BF](#cyt4bf)
       * [CYT4DN](#cyt4dn)
+      * [CYT4EN](#cyt4en)
       * [CYT6BJ](#cyt6bj)
     * [USB](#usb)
       * [FX2G3](#fx2g3)
@@ -464,6 +466,7 @@
 * [CY8C4147LCE-HV403](https://www.infineon.com/part/CY8C4147LCE-HV403)
 * [CY8C4147LCE-HV413](https://www.infineon.com/part/CY8C4147LCE-HV413)
 * [CY8C4147LCE-HV423](https://www.infineon.com/part/CY8C4147LCE-HV423)
+* CY8C4147LCE-HV453
 
 ### PSOC 4 HVPA-SPM 1.0
 * CY8C4147LDE-HV504
@@ -1167,6 +1170,12 @@
 * CY8C4148LQI-S446
 * CY8C4148LQQ-S456
 
+### PSoC 4100SL
+* CY8C4145ZZI-S401T
+* CY8C4145LQI-S401T
+* CY8C4145ZZQ-S401T
+* CY8C4145LQQ-S401T
+
 ### PSOC 4100T Plus
 * [CY8C4146LQI-T403](https://www.infineon.com/part/CY8C4146LQI-T403)
 * [CY8C4146AXI-T403](https://www.infineon.com/part/CY8C4146AXI-T403)
@@ -1829,6 +1838,20 @@
 * [CYT4DNJBRS](https://www.infineon.com/part/CYT4DNJBACQ1BZSGS)
 * [CYT4DNJBSS](https://www.infineon.com/part/CYT4DNJBACQ1BZSGS)
 * [CYT4DNJBZS](https://www.infineon.com/part/CYT4DNJBACQ1BZSGS)
+
+### CYT4EN
+* CYT4ENDDAS
+* CYT4ENDDCS
+* CYT4ENDDES
+* CYT4ENDDGS
+* CYT4ENDDJS
+* CYT4ENDDLS
+* CYT4ENDDNS
+* CYT4ENDDQS
+* CYT4ENDDVS
+* CYT4ENDDYS
+* CYT4ENDDSS
+* CYT4ENDDZS
 
 ### CYT6BJ
 * [CYT6BJ8DDS](https://www.infineon.com/products/microcontroller/32-bit-traveo-t2g-arm-cortex/for-body/t2g-cyt6bj)
